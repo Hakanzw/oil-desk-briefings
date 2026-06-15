@@ -1,0 +1,156 @@
+{
+  "date_long": "Monday, June 15, 2026",
+  "date_slug": "jun15-2026",
+  "volume": "Vol. XLII — No. 166",
+  "dateline": "Dubai / London / New York",
+  "sources": "IEA, EIA, OPEC, Al Jazeera, NPR, PBS, NBC News, CNBC, Washington Post, Reuters",
+
+  "ticker": [
+    "BRENT CRUDE ~$82.50 ▼ -5.0%",
+    "WTI CRUDE ~$80.23 ▼ -5.5%",
+    "NATURAL GAS $2.88 ▼ -2.1%",
+    "BREAKING: TRUMP SAYS US–IRAN PEACE DEAL \"COMPLETE\" — HORMUZ TO REOPEN",
+    "BRENT HITS LOWEST SINCE EARLY MARCH — DOWN ~20% FROM 2026 PEAK",
+    "60-DAY CEASEFIRE EXTENSION; SIGNING CEREMONY SET FOR FRIDAY IN SWITZERLAND",
+    "14-POINT DRAFT: OIL SANCTIONS LIFTED, HORMUZ TO REOPEN WITHIN 30 DAYS",
+    "TRADERS CAUTIOUS: MINE-CLEARING COULD TAKE MONTHS, FIELDS MUST RESTART"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$82.50", "change": "▼ −5.0% (deal repricing)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$80.23", "change": "▼ −5.5% (2-month low)", "direction": "down" },
+    { "label": "Brent vs. 2026 Peak", "value": "−20%+", "change": "▼ Off the war high", "direction": "down" },
+    { "label": "Apr High (North Sea Dated)", "value": "$144", "change": "War-spike peak", "direction": "" },
+    { "label": "Natural Gas", "value": "$2.88", "change": "▼ −2.1% (risk unwind)", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Breaking — The War Premium Comes Out: Deal \"Complete,\" Hormuz to Reopen",
+    "headline": "Trump Declares US–Iran Peace Deal \"Complete\" — Crude Plunges to Two-Month Low as Strait of Hormuz Set to Reopen",
+    "paragraphs": [
+      "The trade that has hung over energy markets since February finally arrived. Over the weekend, President Trump declared the US–Iran peace agreement <strong>\"now complete,\"</strong> announcing he had ordered an end to the naval blockade of Iran's ports in exchange for the free flow of traffic through the Strait of Hormuz. Iran's Deputy Foreign Minister Kazem Gharibabadi confirmed the agreement Sunday, and an official signing ceremony has been set for <strong>Friday, June 19, in Switzerland.</strong> Crude collapsed: WTI slid more than 5.5% to around $80, while Brent fell roughly 5% to the low-$80s — the lowest since early March and down more than 20% from the 2026 war peak.",
+      "The framework — a 14-point draft reported by Iranian media — pairs a <strong>60-day ceasefire extension</strong> with the lifting of oil sanctions and a Tehran commitment to reopen the Strait of Hormuz, which it has effectively controlled since shortly after the war began on February 28, choking roughly 20% of seaborne oil. In return, Iran agreed to forgo developing nuclear weapons.",
+      "Yet traders are not pricing a clean, instant return of barrels. Even with a signed agreement, full normalization runs through a gauntlet: <strong>clearing Iranian mines from Hormuz</strong> (which Congress has been told could take up to six months), restarting idled Gulf production fields, and repairing energy infrastructure damaged by months of strikes."
+    ],
+    "link_url": "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates",
+    "link_text": "Read NPR",
+    "stats": [
+      { "num": "−20%+", "desc": "Brent's Decline From the 2026 War Peak as the Premium Unwinds" },
+      { "num": "60 days", "desc": "Length of the Ceasefire Extension; Permanent End Is the Goal of Next Talks" },
+      { "num": "Jun 19", "desc": "Official Signing Ceremony Scheduled in Switzerland" },
+      { "num": "~6 mo", "desc": "Time Congress Was Told Full Hormuz Mine-Clearing Could Take" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Deal \"Complete\": Trump Ends Naval Blockade as Iran Commits to Reopen Hormuz",
+      "body": "Trump said the peace deal with Iran is \"now complete\" and that he has ordered an end to the US naval blockade of Iran's ports in exchange for the free, toll-free flow of traffic through the Strait of Hormuz. The agreement extends the current ceasefire by 60 days, with upcoming negotiations aimed at a permanent end to the war that erupted February 28. Iran's Deputy FM Kazem Gharibabadi confirmed the agreement Sunday. A formal signing ceremony is scheduled for Friday, June 19, in Switzerland.",
+      "link_url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Crude Plunges to Two-Month Low — WTI Near $80, Brent in the Low $80s",
+      "body": "US crude slid more than 5.5% in Monday trading to around $80 per barrel, while international Brent fell about 5% to the low-$80s — the lowest since early March and down roughly 20% from the 2026 peak. The move extends a steady deflation of the war premium that has dominated the year: from a North Sea Dated high near $144 in April to the low $80s today.",
+      "link_url": "https://www.nbcnews.com/business/markets/oil-prices-iran-deal-hormuz-doubts-rcna350087",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "The Fine Print",
+      "headline": "14-Point Draft: Sanctions Lifted, Hormuz to Reopen Within 30 Days, No Iranian Nuclear Weapons",
+      "body": "Iranian media reported the framework runs to 14 points, including the lifting of oil sanctions and a Tehran commitment to reopen the Strait of Hormuz within 30 days, alongside Iran's pledge to forgo developing nuclear weapons. Earlier in the week a separate draft floated additional terms — US force withdrawals and reconstruction funding — which Trump said did not reflect the agreed framework, briefly injecting confusion before the weekend confirmation.",
+      "link_url": "https://www.pbs.org/newshour/world/iran-and-u-s-reach-an-initial-deal-to-extend-the-ceasefire-and-open-the-strait-of-hormuz-but-challenges-remain",
+      "link_text": "Read PBS"
+    },
+    {
+      "tag": "Supply Logistics",
+      "headline": "Why Barrels Won't Flow Overnight: Mines, Idled Fields and Damaged Facilities",
+      "body": "Even a signed deal faces a long logistical tail before oil flows normalize. The US began mine-clearing operations in the Strait of Hormuz on April 11, but Congress was told a full clearance of Iranian-laid mines could take up to six months. Beyond the strait, Gulf producers must restart fields shut in for months, and operators must repair refineries, terminals and pipelines damaged by drone and missile attacks.",
+      "link_url": "https://www.washingtonpost.com/national-security/2026/04/22/iran-hormuz-mines/",
+      "link_text": "Read Washington Post"
+    },
+    {
+      "tag": "OPEC+ / Spare Capacity",
+      "headline": "OPEC+ Adds 188k bpd for June — But the Spare-Capacity Cushion Is Thin",
+      "body": "OPEC+ agreed to raise output by 188,000 bpd in June, with Saudi Arabia and Russia each absorbing the largest share at 62,000 bpd. But the group's flexibility is constrained: spare capacity estimates have been cut toward roughly 2.5 mb/d after the UAE — one of the few members holding meaningful spare barrels — exited the arrangement.",
+      "link_url": "https://www.cnbc.com/2026/05/03/opec-announces-188000-barrels-per-day-output-increase-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Strategy / Analysis",
+      "headline": "\"Whether Oil Goes Much Lower Is Highly Questionable\" — Analysts Eye a Floor",
+      "body": "With the war premium largely discharged, attention shifts to where crude finds support. Several analysts argue the easy downside is now mostly priced: a clean unwind has taken Brent from the mid-$140s to the low $80s, but the physical reality — months of mine-clearing, shut-in fields, damaged infrastructure and a depleted spare-capacity buffer — argues against a slide much below the mid-$70s near term.",
+      "link_url": "https://www.thenationalnews.com/news/gulf/2026/05/03/opec-producers-agree-on-june-output-adjustment-and-reaffirm-market-stability-commitment/",
+      "link_text": "Read The National"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jun 15 — Today",
+      "name": "Market Digests \"Deal Complete\" + End of Naval Blockade",
+      "impact": "The first full trading session after Trump's \"complete\" declaration is a referendum on credibility. A clean session that holds the low $80s confirms the market trusts the framework. Any Iranian official walk-back on the 14-point terms would trigger a sharp relief rally back toward $90+.",
+      "market_impact": "Directional: ±$4–6/bbl on any framework wobble.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jun 18",
+      "name": "EIA Weekly Petroleum Status Report (Crude & Products Stocks)",
+      "impact": "The first inventory print into a post-deal tape. With the premium deflating, the report's signal shifts from \"how tight is supply\" to \"how fast is demand responding to cheaper crude.\"",
+      "market_impact": "±$2–3/bbl; sets the demand-response narrative.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Jun 19",
+      "name": "Official Signing Ceremony — Switzerland",
+      "impact": "The signing converts a framework into a treaty. A clean ceremony with the Hormuz reopening timeline reaffirmed is the bearish base case — Brent could test the high $70s. A delay or last-minute dispute would be the single biggest upside catalyst on the calendar.",
+      "market_impact": "Largest scheduled catalyst this week. Binary, headline-driven.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jun 15–30",
+      "name": "Hormuz Mine-Clearing & Field Restart Progress",
+      "impact": "The bridge between \"deal\" and \"barrels.\" Reports of accelerated mine-clearing, safe-passage tanker transits, or Gulf producers signaling field restarts would pull forward the supply recovery and pressure prices.",
+      "market_impact": "Structural — governs the pace of the supply return.",
+      "risk": "High"
+    },
+    {
+      "date": "Jun 15–30",
+      "name": "OPEC+ Reaction — Will the Group Defend Prices?",
+      "impact": "With the war premium gone and spare capacity thin (~2.5 mb/d post-UAE exit), the market watches whether OPEC+ signals a pause to further increases to defend the low $80s, or presses ahead to recapture share as Gulf barrels return.",
+      "market_impact": "Forward-looking — could anchor the H2 2026 price floor.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Three weeks ago in this column I wrote that, for the first time since February, the path of least resistance for crude was <em>down</em>, and that the only true deal-breaker left was the nuclear question. Both have now resolved the way the tape was leaning. Trump has declared the deal <strong>\"complete,\"</strong> the naval blockade is being lifted, and a signing ceremony is on the calendar for Friday in Switzerland.",
+      "<strong>My read on today:</strong> This is no longer a market trying to <em>price</em> a deal — it's a market <em>living inside</em> one. The directional question is mostly answered; the new question is <strong>pace and floor</strong>. And here the physical reality matters more than the headline: you cannot un-mine the Strait of Hormuz with a press release.",
+      "<strong>The bigger picture:</strong> The risk profile has flipped from one-sided to genuinely two-sided. The bearish base case is a clean Friday signing and visible mine-clearing progress. The bullish tail is real too: a wording dispute or an Iranian walk-back would snap crude back toward $90+ in a single session, because almost no premium is left to cushion a relapse.",
+      "My call: <strong>Brent holds $78–$88 today</strong>, biased lower into the Friday signing but with violent upside if the framework wobbles. <strong>The war premium is gone. What's left is an implementation trade.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing", "tone": "neutral", "pct": 60 },
+      { "name": "Geopolitical Risk", "label": "Falling", "tone": "bullish", "pct": 35 },
+      { "name": "Demand Response", "label": "Neutral", "tone": "neutral", "pct": 50 },
+      { "name": "Deal Durability", "label": "Bearish (Price)", "tone": "bullish", "pct": 72 },
+      { "name": "Implementation Lag", "label": "Price-Supportive", "tone": "bearish", "pct": 68 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin", "tone": "bearish", "pct": 30 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$78 – $88",
+      "bias": "Bias: Lower Into Signing — Tail Risk Up ▼"
+    },
+    "watch_levels": {
+      "resistance": "$88–$90",
+      "support": "$78–$80",
+      "breakout": ">$92 (deal wobbles)",
+      "breakdown": "<$76 (clean signing + flows)"
+    }
+  }
+}

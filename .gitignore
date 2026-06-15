@@ -1,0 +1,8 @@
+# Python
+automation/__pycache__/
+*.pyc
+
+# Gmail OAuth secrets — never commit these
+automation/gmail_credentials.json
+automation/gmail_token.json
+automation/_test_output.html

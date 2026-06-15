@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | June 15, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d;
+    --paper: #f5f0e8;
+    --crude: #c8500a;
+    --crude-dark: #8b3508;
+    --crude-light: #e8813a;
+    --gold: #d4a017;
+    --green: #2d6a4f;
+    --red: #9b1d20;
+    --muted: #6b6055;
+    --rule: #c5b89a;
+    --column-bg: #ede8de;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  /* ── MASTHEAD ── */
+  header {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header-ticker {
+    background: var(--crude);
+    padding: 6px 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .ticker-inner {
+    display: inline-block;
+    animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #fff;
+  }
+
+  @keyframes ticker {
+    from { transform: translateX(100vw); }
+    to   { transform: translateX(-100%); }
+  }
+
+  .masthead-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 36px 40px 28px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid #333;
+  }
+
+  .masthead-left {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 2;
+  }
+
+  .masthead-title {
+    text-align: center;
+  }
+
+  .masthead-title .pub-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    letter-spacing: 0.12em;
+    line-height: 1;
+    color: var(--paper);
+  }
+
+  .masthead-title .pub-sub {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--crude-light);
+    letter-spacing: 0.08em;
+    margin-top: 4px;
+  }
+
+  .masthead-right {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    text-align: right;
+  }
+
+  .prices-bar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .price-item {
+    text-align: center;
+  }
+
+  .price-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .price-val {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: var(--paper);
+  }
+
+  .price-change {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+
+  .up   { color: #5cb85c; }
+  .down { color: #e05252; }
+
+  .price-divider {
+    width: 1px;
+    background: #333;
+    align-self: stretch;
+    margin: 4px 0;
+  }
+
+  /* ── LAYOUT ── */
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 40px;
+  }
+
+  /* section headers */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 48px 0 24px;
+  }
+
+  .section-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.25em;
+    color: var(--muted);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .section-header::before,
+  .section-header::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  /* LEAD STORY */
+  .lead-story {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 40px;
+    padding: 32px 0;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .lead-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--crude);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .lead-story h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--ink);
+  }
+
+  .lead-story p {
+    color: #444;
+    font-size: 15.5px;
+    margin-bottom: 14px;
+  }
+
+  .lead-sidebar {
+    border-left: 3px solid var(--crude);
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .stat-block {
+    background: var(--column-bg);
+    padding: 18px 20px;
+    border-radius: 2px;
+  }
+
+  .stat-block .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    color: var(--crude);
+  }
+
+  .stat-block .stat-desc {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+
+  /* NEWS GRID */
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-bottom: 4px;
+  }
+
+  .news-card {
+    background: var(--paper);
+    padding: 24px 22px;
+    transition: background 0.2s;
+  }
+
+  .news-card:hover {
+    background: var(--column-bg);
+  }
+
+  .news-card .card-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: var(--rule);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .news-card .card-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--crude);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .news-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--ink);
+  }
+
+  .news-card p {
+    font-size: 13.5px;
+    color: #555;
+    line-height: 1.55;
+    margin-bottom: 14px;
+  }
+
+  .read-link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--crude);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid var(--crude-light);
+    padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .read-link:hover {
+    color: var(--crude-dark);
+    border-color: var(--crude-dark);
+  }
+
+  /* EVENTS TABLE */
+  .events-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .events-table thead tr {
+    background: var(--ink);
+    color: var(--paper);
+  }
+
+  .events-table thead th {
+    padding: 12px 18px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .events-table tbody tr {
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.15s;
+  }
+
+  .events-table tbody tr:hover {
+    background: var(--column-bg);
+  }
+
+  .events-table tbody td {
+    padding: 14px 18px;
+    font-size: 13.5px;
+    vertical-align: top;
+  }
+
+  .event-date {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--crude);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .event-name {
+    font-weight: 500;
+    color: var(--ink);
+    font-size: 14px;
+  }
+
+  .event-impact {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 3px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+
+  .badge-high   { background: #fce8e8; color: var(--red); }
+  .badge-med    { background: #fef3dc; color: #8b5e00; }
+  .badge-low    { background: #e8f4ec; color: var(--green); }
+
+  /* VERDICT */
+  .verdict-section {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 48px;
+    margin-top: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .verdict-section::before {
+    content: 'VERDICT';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 120px;
+    color: rgba(255,255,255,0.04);
+    letter-spacing: 0.1em;
+    pointer-events: none;
+  }
+
+  .verdict-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    margin-bottom: 32px;
+  }
+
+  .verdict-icon {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    line-height: 1;
+    color: var(--crude);
+    flex-shrink: 0;
+  }
+
+  .verdict-title h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.06em;
+    color: var(--paper);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .verdict-title .guru-sig {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 0.05em;
+  }
+
+  .verdict-body {
+    display: grid;
+    grid-template-columns: 1fr 240px;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .verdict-text p {
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: #ccc;
+    margin-bottom: 16px;
+  }
+
+  .verdict-text p strong {
+    color: var(--paper);
+  }
+
+  .verdict-meter {
+    background: rgba(255,255,255,0.05);
+    padding: 24px;
+    border: 1px solid #333;
+    border-radius: 2px;
+  }
+
+  .meter-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #666;
+    margin-bottom: 16px;
+  }
+
+  .meter-item {
+    margin-bottom: 14px;
+  }
+
+  .meter-name {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .meter-bar-bg {
+    height: 5px;
+    background: #222;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .meter-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 1s ease;
+  }
+
+  .bullish  { background: #5cb85c; }
+  .bearish  { background: #e05252; }
+  .neutral-bar { background: #f0a500; }
+
+  .verdict-call {
+    margin-top: 20px;
+    padding: 16px;
+    background: var(--crude);
+    text-align: center;
+    border-radius: 2px;
+  }
+
+  .verdict-call .call-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 4px;
+  }
+
+  .verdict-call .call-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    line-height: 1;
+  }
+
+  /* FOOTER */
+  footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 40px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      BRENT CRUDE ~$82.50 ▼ -5.0% &nbsp;|&nbsp;
+      WTI CRUDE ~$80.23 ▼ -5.5% &nbsp;|&nbsp;
+      NATURAL GAS $2.88 ▼ -2.1% &nbsp;|&nbsp;
+      BREAKING: TRUMP SAYS US–IRAN PEACE DEAL "COMPLETE" — HORMUZ TO REOPEN &nbsp;|&nbsp;
+      BRENT HITS LOWEST SINCE EARLY MARCH — DOWN ~20% FROM 2026 PEAK &nbsp;|&nbsp;
+      60-DAY CEASEFIRE EXTENSION; SIGNING CEREMONY SET FOR FRIDAY IN SWITZERLAND &nbsp;|&nbsp;
+      14-POINT DRAFT: OIL SANCTIONS LIFTED, HORMUZ TO REOPEN WITHIN 30 DAYS &nbsp;|&nbsp;
+      TRUMP ORDERS END TO NAVAL BLOCKADE OF IRANIAN PORTS &nbsp;|&nbsp;
+      TRADERS CAUTIOUS: MINE-CLEARING COULD TAKE MONTHS, FIELDS MUST RESTART &nbsp;|&nbsp;
+      IRAN DEPUTY FM GHARIBABADI CONFIRMS DEAL ON SUNDAY &nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Monday, June 15, 2026<br>
+      Vol. XLII — No. 166<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Spot<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$82.50</span><br>
+      WTI Spot<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$80.23</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">~$82.50</div>
+      <div class="price-change down">▼ −5.0% (deal repricing)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$80.23</div>
+      <div class="price-change down">▼ −5.5% (2-month low)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. 2026 Peak</div>
+      <div class="price-val">−20%+</div>
+      <div class="price-change down">▼ Off the war high</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Apr High (North Sea Dated)</div>
+      <div class="price-val">$144</div>
+      <div class="price-change" style="color:#888;">War-spike peak</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas</div>
+      <div class="price-val">$2.88</div>
+      <div class="price-change down">▼ −2.1% (risk unwind)</div>
+    </div>
+  </div>
+</header>
+
+<!-- ── MAIN ── -->
+<main>
+
+  <!-- LEAD STORY -->
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Breaking — The War Premium Comes Out: Deal "Complete," Hormuz to Reopen</div>
+      <h3>Trump Declares US–Iran Peace Deal "Complete" — Crude Plunges to Two-Month Low as Strait of Hormuz Set to Reopen</h3>
+      <p>The trade that has hung over energy markets since February finally arrived. Over the weekend, President Trump declared the US–Iran peace agreement <strong>"now complete,"</strong> announcing he had ordered an end to the naval blockade of Iran's ports in exchange for the free flow of traffic through the Strait of Hormuz. Iran's Deputy Foreign Minister Kazem Gharibabadi confirmed the agreement Sunday, and an official signing ceremony has been set for <strong>Friday, June 19, in Switzerland.</strong> Crude collapsed: WTI slid more than 5.5% to around $80, while Brent fell roughly 5% to the low-$80s — the lowest level since early March and down more than 20% from the 2026 war peak.</p>
+      <p>The framework — a 14-point draft reported by Iranian media — pairs a <strong>60-day ceasefire extension</strong> with the lifting of oil sanctions and a Tehran commitment to reopen the Strait of Hormuz, which it has effectively controlled since shortly after the war began on February 28, choking roughly 20% of seaborne oil. In return, Iran agreed to forgo developing nuclear weapons. The deal closes the single largest source of risk premium the market has carried all year.</p>
+      <p>Yet traders are not pricing a clean, instant return of barrels. Even with a signed agreement, full normalization runs through a gauntlet: <strong>clearing Iranian mines from Hormuz</strong> (which Congress has been told could take up to six months), restarting idled Gulf production fields, and repairing energy infrastructure damaged by months of drone and missile strikes. The selloff is repricing the <em>probability</em> of supply returning — not its arrival.</p>
+      <a href="https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">−20%+</div>
+        <div class="stat-desc">Brent's Decline From the 2026 War Peak as the Premium Unwinds</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">60 days</div>
+        <div class="stat-desc">Length of the Ceasefire Extension; Permanent End Is the Goal of Next Talks</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Jun 19</div>
+        <div class="stat-desc">Official Signing Ceremony Scheduled in Switzerland</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~6 mo</div>
+        <div class="stat-desc">Time Congress Was Told Full Hormuz Mine-Clearing Could Take</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWS GRID -->
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+
+    <!-- Card 1 -->
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Diplomacy</div>
+      <h4>Deal "Complete": Trump Ends Naval Blockade as Iran Commits to Reopen Hormuz</h4>
+      <p>Trump said the peace deal with Iran is "now complete" and that he has ordered an end to the US naval blockade of Iran's ports in exchange for the free, toll-free flow of traffic through the Strait of Hormuz. The agreement extends the current ceasefire by 60 days, with upcoming negotiations aimed at a permanent end to the war that erupted February 28. Iran's Deputy Foreign Minister Kazem Gharibabadi confirmed the agreement on Sunday, and leaders across the G7 welcomed the breakthrough. A formal signing ceremony is scheduled for Friday, June 19, in Switzerland.</p>
+      <a href="https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Market Reaction</div>
+      <h4>Crude Plunges to Two-Month Low — WTI Near $80, Brent in the Low $80s</h4>
+      <p>US crude slid more than 5.5% in Monday trading to around $80 per barrel, while international Brent fell about 5% to the low-$80s — the lowest since early March and down roughly 20% from the 2026 peak. The move extends a steady deflation of the war premium that has dominated the year: from a North Sea Dated high near $144 in April to the low $80s today. The benchmark spread has narrowed as the Hormuz-driven gap between globally priced Brent and domestically anchored WTI compresses on the prospect of restored Gulf flows.</p>
+      <a href="https://www.nbcnews.com/business/markets/oil-prices-iran-deal-hormuz-doubts-rcna350087" class="read-link" target="_blank">Read NBC News →</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">The Fine Print</div>
+      <h4>14-Point Draft: Sanctions Lifted, Hormuz to Reopen Within 30 Days, No Iranian Nuclear Weapons</h4>
+      <p>Iranian media reported the framework runs to 14 points, including the lifting of oil sanctions and a Tehran commitment to reopen the Strait of Hormuz within 30 days, alongside Iran's pledge to forgo developing nuclear weapons. Earlier in the week, a separate draft circulated by Iranian outlets had floated additional terms — US force withdrawals and reconstruction funding — which Trump said did not reflect the agreed framework, briefly injecting confusion before the weekend confirmation. The nuclear file, the year's deepest sticking point, appears resolved in principle but remains the item analysts will watch most closely through the signing.</p>
+      <a href="https://www.pbs.org/newshour/world/iran-and-u-s-reach-an-initial-deal-to-extend-the-ceasefire-and-open-the-strait-of-hormuz-but-challenges-remain" class="read-link" target="_blank">Read PBS →</a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Supply Logistics</div>
+      <h4>Why Barrels Won't Flow Overnight: Mines, Idled Fields and Damaged Facilities</h4>
+      <p>Even a signed deal faces a long logistical tail before oil flows normalize. The US began mine-clearing operations in the Strait of Hormuz on April 11, but Congress was told a full clearance of Iranian-laid mines could take up to six months. Beyond the strait, Gulf producers must restart fields that have been shut in for months, and operators must repair refineries, terminals and pipelines damaged by drone and missile attacks. The lag between "deal" and "delivery" is precisely why the curve has not collapsed further — physical barrels remain constrained even as the headline risk fades.</p>
+      <a href="https://www.washingtonpost.com/national-security/2026/04/22/iran-hormuz-mines/" class="read-link" target="_blank">Read Washington Post →</a>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">OPEC+ / Spare Capacity</div>
+      <h4>OPEC+ Adds 188k bpd for June — But the Spare-Capacity Cushion Is Thin</h4>
+      <p>OPEC+ agreed to raise output by 188,000 bpd in June, with Saudi Arabia and Russia each absorbing the largest share at 62,000 bpd. But the group's flexibility is constrained: spare capacity estimates have been cut toward roughly 2.5 mb/d after the UAE — one of the few members holding meaningful spare barrels — exited the arrangement. With more than 10 mb/d of Gulf production shut in at the height of the crisis, the speed at which idled capacity can be safely ramped will shape how quickly the post-deal market rebalances — and whether the low $80s holds or overshoots.</p>
+      <a href="https://www.cnbc.com/2026/05/03/opec-announces-188000-barrels-per-day-output-increase-.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Strategy / Analysis</div>
+      <h4>"Whether Oil Goes Much Lower Is Highly Questionable" — Analysts Eye a Floor</h4>
+      <p>With the war premium largely discharged, attention shifts to where crude finds support. Several analysts argue the easy downside is now mostly priced: a clean unwind has taken Brent from the mid-$140s to the low $80s, but the physical reality — months of mine-clearing, shut-in fields, damaged infrastructure and a depleted spare-capacity buffer — argues against a slide much below the mid-$70s near term. The risk skew is now two-sided for the first time in 2026: deal-implementation hiccups could spark sharp relief rallies, while a smooth reopening accelerates the glide lower.</p>
+      <a href="https://www.thenationalnews.com/news/gulf/2026/05/03/opec-producers-agree-on-june-output-adjustment-and-reaffirm-market-stability-commitment/" class="read-link" target="_blank">Read The National →</a>
+    </div>
+
+  </div><!-- /news-grid -->
+
+  <!-- UPCOMING EVENTS -->
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Expected Market Impact</th>
+        <th>Risk</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Jun 15 — Today</td>
+        <td>
+          <div class="event-name">Market Digests "Deal Complete" + End of Naval Blockade</div>
+          <div class="event-impact">The first full trading session after Trump's "complete" declaration is a referendum on credibility. A clean session that holds the low $80s confirms the market trusts the framework. Any Iranian official walk-back on the 14-point terms — particularly the nuclear language or the 30-day Hormuz timeline — would trigger a sharp relief rally back toward $90+.</div>
+        </td>
+        <td>Directional: ±$4–6/bbl on any framework wobble.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 18</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report (Crude &amp; Products Stocks)</div>
+          <div class="event-impact">The first inventory print into a post-deal tape. With the premium deflating, the report's signal shifts from "how tight is supply" to "how fast is demand responding to cheaper crude." A large products draw would suggest demand is firming into lower prices; another crude build reinforces the glide lower.</div>
+        </td>
+        <td>±$2–3/bbl; sets the demand-response narrative.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 19</td>
+        <td>
+          <div class="event-name">Official Signing Ceremony — Switzerland</div>
+          <div class="event-impact">The signing converts a framework into a treaty. A clean ceremony with both sides present and the Hormuz reopening timeline reaffirmed is the bearish base case — Brent could test the high $70s. A delay, no-show, or last-minute dispute over wording would be the single biggest upside catalyst on the calendar.</div>
+        </td>
+        <td>Largest scheduled catalyst this week. Binary, headline-driven.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 15–30</td>
+        <td>
+          <div class="event-name">Hormuz Mine-Clearing &amp; Field Restart Progress</div>
+          <div class="event-impact">The bridge between "deal" and "barrels." Reports of accelerated mine-clearing, safe-passage tanker transits, or Gulf producers signaling field restarts would pull forward the supply recovery and pressure prices. Conversely, evidence the cleanup is slower than the 30-day reopening pledge keeps a floor under crude.</div>
+        </td>
+        <td>Structural — governs the pace of the supply return.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 15–30</td>
+        <td>
+          <div class="event-name">OPEC+ Reaction — Will the Group Defend Prices?</div>
+          <div class="event-impact">With the war premium gone and spare capacity thin (~2.5 mb/d post-UAE exit), the market watches whether OPEC+ signals a pause to further increases to defend the low $80s, or presses ahead to recapture share as Gulf barrels return. Any jawboning toward output discipline would put a floor under the move.</div>
+        </td>
+        <td>Forward-looking — could anchor the H2 2026 price floor.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Within 60 days</td>
+        <td>
+          <div class="event-name">Ceasefire-to-Permanent-Peace Negotiations</div>
+          <div class="event-impact">The 60-day extension is a bridge, not a destination. Talks toward a permanent end to the war begin in parallel. Constructive progress steadily erodes whatever residual premium remains; a breakdown before the window closes would reintroduce tail risk and could violently reprice the curve higher.</div>
+        </td>
+        <td>Defines whether the low-$80s regime is durable or temporary.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- VERDICT -->
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — June 15, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Three weeks ago in this column I wrote that, for the first time since February, the path of least resistance for crude was <em>down</em>, and that the only true deal-breaker left was the nuclear question. Both have now resolved the way the tape was leaning. Trump has declared the deal <strong>"complete,"</strong> the naval blockade is being lifted, and a signing ceremony is on the calendar for Friday in Switzerland. Brent is in the low $80s, WTI near $80, and the year's enormous war premium has been almost entirely discharged.</p>
+
+        <p><strong>My read on today:</strong> This is no longer a market trying to <em>price</em> a deal — it's a market <em>living inside</em> one. That changes everything about how I trade it. The directional question is mostly answered; the new question is <strong>pace and floor</strong>. And here the physical reality matters more than the headline: you cannot un-mine the Strait of Hormuz with a press release. Congress was told clearing could take up to six months. Fields have been shut for months. Facilities are damaged. Barrels return on a logistics timeline, not a diplomatic one — and that lag is the only thing standing between today's low $80s and a slide into the $70s.</p>
+
+        <p><strong>The bigger picture:</strong> The risk profile has flipped from one-sided to genuinely two-sided. The bearish base case is a clean Friday signing and visible mine-clearing progress — that takes Brent toward the high $70s. The bullish tail is real too: a wording dispute, an Iranian walk-back on the nuclear language, or a no-show in Switzerland would snap crude back toward $90+ in a single session, because almost no premium is left to cushion a relapse. <strong>Thin spare capacity (~2.5 mb/d after the UAE exit) means the market has no shock absorber if the deal cracks.</strong></p>
+
+        <p>My call: <strong>Brent holds $78–$88 today</strong>, biased lower into the Friday signing but with violent upside if the framework wobbles. I am now neutral-to-bearish outright, but I'd rather own optionality than direction here — the asymmetry around a single ceremony is too large to fade. <strong>The war premium is gone. What's left is an implementation trade.</strong></p>
+
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Easing</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:60%"></div></div>
+          </div>
+
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#5cb85c">Falling</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:35%"></div></div>
+          </div>
+
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#f0a500">Neutral</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:50%"></div></div>
+          </div>
+
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Durability</span><span style="color:#5cb85c">Bearish (Price)</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:72%"></div></div>
+          </div>
+
+          <div class="meter-item">
+            <div class="meter-name"><span>Implementation Lag</span><span style="color:#e05252">Price-Supportive</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:68%"></div></div>
+          </div>
+
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">Thin</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:30%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$78 – $88</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Lower Into Signing — Tail Risk Up ▼</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$88–$90</span></div>
+            <div>🟢 Support: <span style="color:#fff">$78–$80</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">&gt;$92 (deal wobbles)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff">&lt;$76 (clean signing + flows)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — June 15, 2026</span>
+  <span>Sources: IEA, EIA, OPEC, Al Jazeera, NPR, PBS, NBC News, CNBC, Washington Post, Reuters</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
