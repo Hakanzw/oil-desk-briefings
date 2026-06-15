@@ -1,0 +1,157 @@
+{
+  "date_long": "Tuesday, June 16, 2026",
+  "date_slug": "jun16-2026",
+  "volume": "Vol. XLII — No. 167",
+  "dateline": "Dubai / London / New York",
+  "sources": "IEA, EIA, OPEC, Al Jazeera, CBS News, Newsweek, India TV, NewsNation, NewsX, Trading Economics",
+
+  "ticker": [
+    "BRENT CRUDE ~$83.82 ▼ -4.0%",
+    "WTI CRUDE ~$80.23 ▼ -5.5%",
+    "NATURAL GAS $3.09 ▼ -0.9%",
+    "US–IRAN DEAL TEXT AGREED — SIGNING FRIDAY, JUNE 19, IN SWITZERLAND",
+    "TRUMP LIFTS NAVAL BLOCKADE — HORMUZ TOLL-FREE FOR 60 DAYS",
+    "G7 SUMMIT TAKES UP HORMUZ DEMINING — UK, FRANCE OFFER TO ASSIST",
+    "US SAYS HORMUZ TRAFFIC NORMAL 'WITHIN 30 DAYS' ONCE IRAN CLEARS MINES",
+    "STICKING POINTS LINGER: NUCLEAR FILE, SANCTIONS UNADDRESSED IN ANNOUNCEMENTS",
+    "CRUDE HOLDS TWO-MONTH LOW AS WAR PREMIUM KEEPS BLEEDING OUT"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$83.82", "change": "▼ −4.0% (deal repricing)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$80.23", "change": "▼ −5.5% (2-month low)", "direction": "down" },
+    { "label": "Natural Gas", "value": "$3.09", "change": "▼ −0.9% (risk unwind)", "direction": "down" },
+    { "label": "Brent vs. 2026 Peak", "value": "−20%+", "change": "▼ Off the war high", "direction": "down" },
+    { "label": "Apr High (North Sea Dated)", "value": "$144", "change": "War-spike peak", "direction": "" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Day Two — The Premium Keeps Bleeding Out: Text Agreed, Signing Friday",
+    "headline": "Crude Holds Two-Month Lows as US–Iran Deal Heads to Friday Signing and the Hormuz Reopening Clock Starts",
+    "paragraphs": [
+      "Crude steadied near its lowest levels since early spring on Tuesday, a day after the announcement that the United States and Iran had agreed the final text of a deal to end the war — with an official signing ceremony confirmed for <strong>Friday, June 19, in Switzerland.</strong> Brent sat around <strong>$83.82</strong> after sliding roughly 4% in the prior session, while WTI held near <strong>$80.23</strong>, down about 5.5% to a two-month low. President Trump authorized the <strong>toll-free reopening of the Strait of Hormuz</strong> and the immediate removal of the US naval blockade of Iran's ports; a US official said the strait would stay open toll-free for 60 days under the pact.",
+      "The implementation clock is now the story. Washington says traffic through Hormuz could return to normal <strong>\"within 30 days\"</strong> once Iran commits to removing the mines it laid — and the US says it knows where every one of those mines sits. At the G7 summit, leaders took up the demining question directly, with <strong>Britain and France signaling they would help clear the strait</strong> once the conflict formally ends. The diplomacy is converging; the physical reopening is the variable the tape is now trading.",
+      "Yet the market is not pricing a clean, instant return of barrels. Two of the thorniest issues — Iran's nuclear program and the long-standing US sanctions regime — went <strong>unaddressed in the weekend announcements</strong>, leaving room for friction before pens hit paper Friday. With Gulf fields shut for months, infrastructure damaged, and the spare-capacity buffer thinned by the UAE's exit from OPEC+, traders are repricing the <em>probability</em> of supply returning faster than its actual arrival."
+    ],
+    "link_url": "https://www.indiatvnews.com/news/world/trump-says-hormuz-blockade-to-be-lifted-as-us-iran-reach-peace-deal-agreement-to-be-signed-on-june-19-2026-06-15-1044846",
+    "link_text": "Read India TV",
+    "stats": [
+      { "num": "Jun 19", "desc": "Official Signing Ceremony Scheduled in Switzerland" },
+      { "num": "60 days", "desc": "Window the Strait of Hormuz Stays Toll-Free Under the Pact" },
+      { "num": "30 days", "desc": "US Estimate for Hormuz Traffic to Normalize Once Mines Are Cleared" },
+      { "num": "−7.2M", "desc": "Barrels Drawn From US Crude Stocks in the Latest EIA Week (Jun 5)" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Deal Text Agreed: Signing Set for Friday in Switzerland as Blockade Is Lifted",
+      "body": "The United States and Iran have agreed the final text of a deal to end the war, with the official signing ceremony confirmed for Friday, June 19, in Switzerland. Both sides declared an immediate and permanent termination of military operations on all fronts, including in Lebanon. President Trump authorized the toll-free opening of the Strait of Hormuz and the immediate removal of the US naval blockade of Iran's ports; a US official said the strait would remain open toll-free for 60 days under the agreement.",
+      "link_url": "https://www.newsnationnow.com/world/us-iran-peace-deal-final-text-agreed-upon/",
+      "link_text": "Read NewsNation"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Crude Holds Two-Month Low — Brent Near $83.82, WTI Near $80",
+      "body": "Brent fell almost 4% to about $83.82 a barrel and WTI slid roughly 5.5% to around $80.23 — the lowest since early March — as the US–Iran deal and the prospect of a reopened Strait of Hormuz eased fears of a prolonged energy-supply disruption. Natural gas eased too, slipping about 0.9% to $3.09/MMBtu, as the broad risk-premium unwind extended across energy markets. The move continues the steady deflation of the war premium that defined the first half of 2026.",
+      "link_url": "https://www.newsx.com/business/crude-oil-price-today-june-15-2026-brent-falls-to-8382-per-barrel-wti-near-80-as-us-iran-peace-deal-lifts-sensex-and-nifty-234531/",
+      "link_text": "Read NewsX"
+    },
+    {
+      "tag": "G7 / Demining",
+      "headline": "G7 Takes Up Hormuz Demining — Britain and France Offer to Help Clear the Strait",
+      "body": "The reopening of the Strait of Hormuz was a focus of the G7 summit, where Trump and other leaders discussed demining the waterway. G7 members Britain and France expressed interest in assisting with demining once the conflict formally ends. US officials say they know the location of all Iranian-laid mines and that traffic could return to normal \"pretty quickly, definitely within 30 days\" once Iran commits to removing them — the bridge between a signed deal and barrels actually moving.",
+      "link_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-peace-deal-agreement/",
+      "link_text": "Read CBS News"
+    },
+    {
+      "tag": "The Fine Print",
+      "headline": "Sticking Points Linger: Nuclear File and Sanctions Unaddressed in Announcements",
+      "body": "For all the momentum, the weekend announcements made no direct mention of two of the biggest sticking points between Washington and Tehran — Iran's nuclear program and the long-standing US sanctions regime. Analysts say the gap leaves room for last-minute friction over wording before the Friday signing, and the nuclear question in particular remains the item most likely to inject volatility into an otherwise one-way repricing lower.",
+      "link_url": "https://www.newsweek.com/us-and-iran-sign-deal-to-end-war-says-pakistans-prime-minister-12065496",
+      "link_text": "Read Newsweek"
+    },
+    {
+      "tag": "Inventories / EIA",
+      "headline": "US Crude Stocks Keep Drawing — Down 7.2M Barrels in the Latest Week",
+      "body": "US commercial crude inventories fell 7.2 million barrels in the week ending June 5, with refinery runs rising to 17.0 million bpd at 95.3% of capacity, per the EIA. The prior week (ending May 29) saw an 8.0-million-barrel draw to 433.7 million barrels — roughly 3% below the five-year average. The string of draws underscores that physical balances remain tight even as the geopolitical premium deflates; Wednesday's report (week ending June 12) is the first inventory print into the post-deal tape.",
+      "link_url": "https://www.indexbox.io/blog/us-crude-oil-inventories-fall-by-72-million-barrels-refinery-runs-rise-eia-report-june-10-2026/",
+      "link_text": "Read IndexBox"
+    },
+    {
+      "tag": "OPEC+ / Spare Capacity",
+      "headline": "Thin Cushion: Symbolic OPEC+ Hike and the UAE Exit Leave Little Margin",
+      "body": "OPEC+ approved only a modest, largely symbolic output increase for June as the war throttled Gulf flows through Hormuz, and the group's flexibility was further dented when the UAE — a top producer holding meaningful spare barrels — announced its withdrawal from OPEC and the wider OPEC+ arrangement. The IEA's May report pegged the Brent spot average at about $107 for the month, $10 below April, the first monthly decline since December 2025 — an early sign the premium had begun to bleed even before this week's deal.",
+      "link_url": "https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure",
+      "link_text": "Read Al Jazeera"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jun 16 — Today",
+      "name": "G7 Summit Diplomacy & Demining Signals",
+      "impact": "With leaders gathered, any concrete commitment on Hormuz demining — timelines, which navies, safe-passage protocols — pulls the supply recovery forward and pressures crude. Conversely, friction over the unaddressed nuclear and sanctions questions ahead of Friday would put a floor back under prices and risk a relief bounce toward the high $80s.",
+      "market_impact": "Directional: ±$3–5/bbl on demining and framework headlines.",
+      "risk": "High"
+    },
+    {
+      "date": "Jun 18",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Jun 12)",
+      "impact": "The first inventory print fully inside the post-deal tape. After consecutive large crude draws, the signal shifts from \"how tight is supply\" to \"how fast is demand responding to cheaper crude.\" Another draw plus firm refinery runs would argue tight physical balances are cushioning the premium unwind; a build would reinforce the glide lower.",
+      "market_impact": "±$2–3/bbl; sets the demand-response narrative.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Jun 19",
+      "name": "Official Signing Ceremony — Switzerland",
+      "impact": "The signing converts agreed text into a treaty. A clean ceremony with both sides present and the Hormuz reopening timeline reaffirmed is the bearish base case — Brent could test the high $70s. A delay, no-show, or last-minute dispute over the nuclear or sanctions language would be the single biggest upside catalyst on the calendar.",
+      "market_impact": "Largest scheduled catalyst this week. Binary, headline-driven.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jun 16–30",
+      "name": "Hormuz Demining & Field Restart Progress",
+      "impact": "The bridge between \"deal\" and \"barrels.\" Confirmation that Iran is removing mines, allied navies (UK/France) are assisting, and safe-passage transits are resuming would pull forward the supply recovery. Evidence the cleanup lags the 30-day reopening pledge — or that damaged fields and terminals restart slowly — keeps a floor under crude.",
+      "market_impact": "Structural — governs the pace of the supply return.",
+      "risk": "High"
+    },
+    {
+      "date": "Within 60 days",
+      "name": "Nuclear & Sanctions Detail; Permanent-Peace Talks",
+      "impact": "The items absent from the weekend announcements — Iran's nuclear program and US sanctions relief — get negotiated in parallel with the toll-free window. Constructive progress erodes whatever residual premium remains; a breakdown before the 60-day window closes would reintroduce tail risk and could violently reprice the curve higher.",
+      "market_impact": "Defines whether the low-$80s regime is durable or temporary.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I wrote that the war premium was gone and that what remained was an <em>implementation trade.</em> Day two has not changed that thesis — it has sharpened it. The text is agreed, the signing is on the calendar for Friday in Switzerland, the blockade is lifted, and crude is sitting on two-month lows: Brent near $83.82, WTI near $80. The market is no longer pricing whether a deal happens; it is pricing how fast steel actually moves through Hormuz.",
+      "<strong>My read on today:</strong> The G7 demining conversation is the most important tell on the screen. If Britain and France formally join the clearance effort and Iran starts pulling mines, the US \"within 30 days\" line becomes credible and the glide toward the high $70s resumes. But you cannot un-mine a strait with a communiqué — and the fact that the <strong>nuclear file and sanctions went unmentioned</strong> in the weekend announcements is the crack through which a relief rally could still come.",
+      "<strong>The bigger picture:</strong> The risk profile stays genuinely two-sided, and the cushion is thin. With the UAE out of OPEC+ and spare capacity depleted, the market has no shock absorber if Friday's signing wobbles on wording. The bearish base case — clean ceremony, visible demining — points lower. The bullish tail — a dispute over the nuclear language or a no-show — would snap Brent back toward $90+ in a single session.",
+      "My call: <strong>Brent holds $80–$88 today</strong>, biased lower into the Friday signing but with violent upside if the framework cracks. I remain neutral-to-bearish outright and would still rather own optionality than direction here. <strong>The premium is gone; the only question left is the speed of the barrels — and that is a logistics timeline, not a diplomatic one.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing", "tone": "neutral", "pct": 58 },
+      { "name": "Geopolitical Risk", "label": "Falling", "tone": "bullish", "pct": 32 },
+      { "name": "Demand Response", "label": "Neutral", "tone": "neutral", "pct": 50 },
+      { "name": "Deal Durability", "label": "Bearish (Price)", "tone": "bullish", "pct": 70 },
+      { "name": "Implementation Lag", "label": "Price-Supportive", "tone": "bearish", "pct": 66 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin", "tone": "bearish", "pct": 28 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$80 – $88",
+      "bias": "Bias: Lower Into Signing — Tail Risk Up ▼"
+    },
+    "watch_levels": {
+      "resistance": "$88–$90",
+      "support": "$79–$80",
+      "breakout": ">$92 (signing wobbles)",
+      "breakdown": "<$77 (clean signing + demining)"
+    }
+  }
+}
