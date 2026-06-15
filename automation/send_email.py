@@ -53,6 +53,7 @@ CREDENTIALS_FILE = Path(
     os.environ.get("OIL_DESK_GMAIL_CREDENTIALS", HERE / "gmail_credentials.json")
 )
 TOKEN_FILE = Path(os.environ.get("OIL_DESK_GMAIL_TOKEN", HERE / "gmail_token.json"))
+AUTH_URL_FILE = HERE / "_auth_url.txt"
 DEFAULT_TO = os.environ.get("OIL_DESK_EMAIL_TO", "hakan.zw@gmail.com")
 
 
@@ -105,9 +106,17 @@ def run_setup():
         "prompt": "consent",
     })
 
-    print("Opening your browser to authorize Gmail send access...")
-    print(f"If it doesn't open, paste this URL:\n{auth_url}\n")
-    webbrowser.open(auth_url)
+    AUTH_URL_FILE.write_text(auth_url, encoding="utf-8")
+    print("\n" + "=" * 72)
+    print("AUTHORIZE GMAIL — open this URL in Chrome or Edge:\n")
+    print(auth_url)
+    print("=" * 72)
+    print(f"(URL also saved to: {AUTH_URL_FILE})")
+    print("Waiting for you to finish in the browser...\n")
+    try:
+        webbrowser.open(auth_url)  # best-effort; ignored if it lands in an editor
+    except Exception:
+        pass
     server.handle_request()  # blocks until Google redirects back with the code
     code = _CodeHandler.code
     if not code:
@@ -130,6 +139,10 @@ def run_setup():
         "client_id": client_id,
         "client_secret": client_secret,
     }, indent=2), encoding="utf-8")
+    try:
+        AUTH_URL_FILE.unlink()
+    except OSError:
+        pass
     print(f"Authorization complete. Token saved to {TOKEN_FILE}")
 
 
