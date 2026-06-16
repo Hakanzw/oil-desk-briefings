@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write          # lets the job commit & push the rendered briefing
+  id-token: write          # required by claude-code-action for OIDC auth
 
 concurrency:
   group: daily-briefing
@@ -18,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Restore Gmail token from secret
         env:
