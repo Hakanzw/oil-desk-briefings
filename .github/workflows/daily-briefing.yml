@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: write          # lets the job commit & push the rendered briefing
-  id-token: write          # required by claude-code-action for OIDC auth
 
 concurrency:
   group: daily-briefing
@@ -31,12 +30,13 @@ jobs:
           git config user.name "OIL DESK Bot"
           git config user.email "hakan.zw@gmail.com"
 
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: Generate today's briefing with Claude
-        uses: anthropics/claude-code-action@v1
-        with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Bash,Edit,Write,Read,Glob,Grep,WebSearch,WebFetch --max-turns 60"
-          prompt: |
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          PROMPT: |
             You are producing today's OIL DESK daily oil-market briefing. You are
             running in GitHub Actions inside the checked-out repository root on
             Linux. Use `python3`.
@@ -74,6 +74,17 @@ jobs:
 
             Do NOT run git and do NOT send email — later workflow steps handle
             committing and emailing. Stop after step 5.
+        run: |
+          claude -p "$PROMPT" \
+            --permission-mode bypassPermissions \
+            --max-turns 60
+
+      - name: Verify Claude produced the briefing
+        run: |
+          test -f automation/_email_meta.json || { echo "Claude did not write _email_meta.json"; exit 1; }
+          SLUG=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['slug'])")
+          test -f "oil-market-briefing-${SLUG}.html" || { echo "Rendered HTML missing for slug ${SLUG}"; exit 1; }
+          echo "OK: oil-market-briefing-${SLUG}.html present"
 
       - name: Commit and push the briefing
         run: |
