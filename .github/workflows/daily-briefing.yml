@@ -1,0 +1,93 @@
+name: Daily OIL DESK Briefing
+
+on:
+  schedule:
+    # 05:05 UTC == 09:05 Dubai (GST, UTC+4). Dubai does not observe DST.
+    - cron: "5 5 * * *"
+  workflow_dispatch: {}   # allows manual "Run workflow" runs for testing
+
+permissions:
+  contents: write          # lets the job commit & push the rendered briefing
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Restore Gmail token from secret
+        env:
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+        run: printf '%s' "$GMAIL_TOKEN_JSON" > automation/gmail_token.json
+
+      - name: Configure git identity
+        run: |
+          git config user.name "OIL DESK Bot"
+          git config user.email "hakan.zw@gmail.com"
+
+      - name: Generate today's briefing with Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--allowedTools Bash,Edit,Write,Read,Glob,Grep,WebSearch,WebFetch --max-turns 60"
+          prompt: |
+            You are producing today's OIL DESK daily oil-market briefing. You are
+            running in GitHub Actions inside the checked-out repository root on
+            Linux. Use `python3`.
+
+            1. RESEARCH today's global oil market: latest Brent and WTI
+               front-month prices and daily % change, natural gas, the dominant
+               geopolitical/supply story, OPEC+ developments, the latest EIA
+               inventory data, and 5-6 distinct news items. Prefer reputable
+               sources (Reuters, Al Jazeera, CNBC, NPR, PBS, EIA, OPEC, Bloomberg,
+               NBC, WSJ) with a real, working article URL for each headline. Do
+               NOT fabricate prices or quotes — every figure must trace to a
+               source you retrieved today.
+
+            2. DETERMINE THE VOLUME NUMBER: find the most recent prior briefing
+               (newest oil-market-briefing-*.html or *.json) and increment its
+               issue number by 1 (e.g. "Vol. XLII — No. 167" -> "No. 168").
+
+            3. WRITE a data file YYYY-MM-DD.json in the repo root that matches the
+               schema in automation/sample-data.json EXACTLY: date_long,
+               date_slug (e.g. jun17-2026), volume, dateline, sources; the ticker;
+               5 prices tiles (Brent then WTI first — they feed the masthead); the
+               lead story (eyebrow, headline, 3 paragraphs, 4 stats, source link);
+               6 news cards; 5 events with risk badges (Very High/High/Medium/Low);
+               and the verdict (4 paragraphs, disclaimer, 6 directional meters, the
+               price call, watch_levels). Keep the editorial voice consistent with
+               prior issues. Body copy may contain <strong>/<em>.
+
+            4. RENDER: run `python3 automation/build_report.py YYYY-MM-DD.json` and
+               verify oil-market-briefing-<slug>.html was created with all sections.
+
+            5. WRITE automation/_email_meta.json containing exactly these keys:
+               {"slug": "<date_slug>", "date_long": "<date_long>",
+                "subject": "OIL DESK — Daily Briefing | <date_long>",
+                "body": "<3-4 line summary of the top story and the Brent price call>"}
+
+            Do NOT run git and do NOT send email — later workflow steps handle
+            committing and emailing. Stop after step 5.
+
+      - name: Commit and push the briefing
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit — Claude may not have produced a new briefing."
+            exit 1
+          fi
+          DATE_LONG=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['date_long'])")
+          git commit -m "Briefing: ${DATE_LONG}"
+          git push
+
+      - name: Email the briefing
+        run: |
+          SLUG=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['slug'])")
+          SUBJECT=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['subject'])")
+          BODY=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['body'])")
+          python3 automation/send_email.py "oil-market-briefing-${SLUG}.html" --subject "$SUBJECT" --body "$BODY"
