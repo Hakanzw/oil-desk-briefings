@@ -103,4 +103,3 @@ jobs:
           SUBJECT=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['subject'])")
           BODY=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['body'])")
           python3 automation/send_email.py "oil-market-briefing-${SLUG}.html" --subject "$SUBJECT" --body "$BODY"
-#hello
