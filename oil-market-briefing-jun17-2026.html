@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Wednesday, June 17, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE ~$79.16 ▲ +0.25% &nbsp;|&nbsp; WTI CRUDE ~$76.14 ▼ -0.61% &nbsp;|&nbsp; NATURAL GAS $3.23 ▼ -0.21% &nbsp;|&nbsp; IEA JUNE OMR: OECD OIL INVENTORIES AT LOWEST SINCE DECEMBER 1990 &nbsp;|&nbsp; UK ROYAL MARINES SEIZE RUSSIAN SHADOW FLEET TANKER MV SMYRTOS — 700,000 BBL RUSSIAN CRUDE &nbsp;|&nbsp; US RUSSIA SANCTIONS WAIVER EXPIRES TODAY — 113 MILLION BARRELS IN LIMBO &nbsp;|&nbsp; DEAL LETS IRAN SELL OIL IMMEDIATELY — BRENT BREAKS BELOW $80 FOR FIRST TIME SINCE MARCH &nbsp;|&nbsp; EIA: 7TH CONSECUTIVE WEEKLY CRUDE DRAW — REFINERY UTILIZATION 95.3%&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Wednesday, June 17, 2026<br>
+      Vol. XLII — No. 170<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$79.16</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$76.14</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">~$79.16</div>
+      <div class="price-change up">▲ +0.25% (steadies at 3-mo low)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$76.14</div>
+      <div class="price-change down">▼ −0.61% (broke $77 intraday)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas</div>
+      <div class="price-val">$3.23</div>
+      <div class="price-change down">▼ −0.21% (LNG flows still lagging)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. Apr War Peak</div>
+      <div class="price-val">−45%+</div>
+      <div class="price-change down">▼ $144 → ~$79</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Hormuz Tanker Flow</div>
+      <div class="price-val">~12 mb/d</div>
+      <div class="price-change up">▲ Recovering from 9.6 mb/d low</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Sub-$80 Brent — IEA June OMR: OECD Stocks Hit Their Lowest Since December 1990</div>
+      <h3>Brent Breaks Below $80 for the First Time Since March as Deal Lets Iran Sell Oil Immediately — IEA Warns OECD Inventories Have Fallen to a 35-Year Low</h3>
+      <p>Brent crude crossed the $80 threshold for the first time since early March on Wednesday, touching an intraday low of $77.76 before settling at <strong>$79.16</strong> — a fractional 0.25% bounce that masks the scale of what has happened in four sessions. The breach was catalyzed by CNBC reporting that the US-Iran deal's terms allow <strong>Iran to sell its oil immediately</strong>, via non-Hormuz routes, without waiting for mine clearance — a more bearish near-term signal than the market had been pricing. WTI slipped a further <strong>0.61% to $76.14</strong>, briefly breaking below the key $77 support level before buyers appeared. Since Sunday's deal announcement, the two benchmarks have shed more than 12%, completing a <strong>45% decline from the April 2026 war peak of $144.</strong></p>
+      <p>The International Energy Agency released its June <em>Oil Market Report</em> on Wednesday and delivered a paradox that will define the market's next chapter: <strong>OECD commercial oil inventories have fallen to their lowest level since December 1990</strong> — a 35-year trough — even as prices crater in anticipation of returning supply. The IEA cut its 2026 global demand forecast by <strong>700,000 barrels per day</strong> from its May outlook, reflecting the consumption destruction inflicted by five months of above-$100 crude; Q2 oil deliveries collapsed roughly 5 mb/d. Yet on the supply side, the agency also confirmed what AIS data is showing: Hormuz tanker flows have begun recovering, rising from a <strong>May low of 9.6 million barrels per day to approximately 12 mb/d in early June.</strong> The world is entering a supply normalization with stocks at their most depleted in a generation.</p>
+      <p>That paradox — 35-year inventory lows while prices fall — is the central tension the market will spend weeks unwinding. The physical tightness is documented and acute; the anticipated supply surge is real but logistically constrained. Layered on top: Wednesday also marks the expiry of a <strong>US Treasury sanctions waiver covering 113 million barrels of stranded Russian crude</strong>, while the UK's predawn seizure of the shadow fleet tanker <em>MV Smyrtos</em> — still reverberating through markets — signals that Western enforcement of Russian sanctions is intensifying at the exact moment Iranian supply is returning. The energy market's flow map is being redrawn in two directions simultaneously, 48 hours before Friday's signing ceremony in Switzerland.</p>
+      <a href="https://www.iea.org/reports/oil-market-report-june-2026" class="read-link" target="_blank">Read IEA June OMR →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">Dec '90</div>
+        <div class="stat-desc">Last Time OECD Commercial Oil Inventories Were This Low — a 35-Year Record, per the IEA June OMR</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−1.1 mb/d</div>
+        <div class="stat-desc">IEA's Revised 2026 Global Oil Demand vs. 2025: War-Driven Price Shock Destroyed Consumption</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">12 mb/d</div>
+        <div class="stat-desc">Hormuz Tanker Flows Recovering in Early June, up from the 9.6 mb/d May Low (IEA)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−45%</div>
+        <div class="stat-desc">Brent's Total Decline from the April 2026 War Peak of $144 to Today's ~$79</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">IEA / June OMR</div>
+      <h4>IEA June OMR: OECD Oil Stocks Hit 35-Year Low — 700k bpd Demand Cut, Global Supply Picture Reshaping</h4>
+      <p>The IEA's June 2026 <em>Oil Market Report</em> delivered two headline numbers that define the market's dilemma. First: <strong>OECD commercial oil inventories have fallen to their lowest level since December 1990</strong> — the deepest inventory hole in 35 years, the product of five months of Hormuz closure and sustained above-$100 crude that simultaneously destroyed demand and drained stocks. Second: global oil demand for 2026 has been revised down by <strong>700,000 barrels per day</strong> from the May outlook, with Q2 deliveries collapsing roughly 5 mb/d as the supply shock spread through import-dependent economies. The IEA also confirmed early-stage Hormuz recovery, with tanker flows rising from 9.6 mb/d in May to approximately 12 mb/d in early June. The signal: the world has never entered a supply normalization with stocks this low and spare capacity this thin.</p>
+      <a href="https://www.iea.org/reports/oil-market-report-june-2026" class="read-link" target="_blank">Read IEA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Shadow Fleet / Russia</div>
+      <h4>UK Royal Marines Seize Shadow Fleet Tanker MV Smyrtos — 700,000 Barrels of Russian Crude, First-Ever Operation</h4>
+      <p>In a predawn raid on June 14, Royal Marine commandos fast-roped from RAF Chinook helicopters onto the <em>MV Smyrtos</em> — a 244-metre Cameroonian-flagged tanker carrying <strong>700,000 barrels of Russian crude</strong> — as it transited the English Channel from the Baltic port of Ust-Luga. It was the UK's first-ever physical seizure of a Russian shadow fleet vessel. Prime Minister Keir Starmer called it <strong>"a significant setback for Moscow."</strong> An Indian national was arrested by the National Crime Agency on suspicion of sanctions offences. The operation, still reverberating in markets Wednesday, underscores that Western enforcement of Russian oil sanctions is escalating in real time — a simultaneous tightening of Russia-linked supply access and loosening of Iran-linked supply that is reshaping the global crude flow map.</p>
+      <a href="https://www.aljazeera.com/news/2026/6/16/uk-seizes-russian-shadow-fleet-tanker-what-that-means" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Russia / Sanctions</div>
+      <h4>US Treasury Sanctions Waiver on Russian Oil Expires Today — 113 Million Stranded Barrels Face Uncertain Status</h4>
+      <p>A 30-day US Treasury Department sanctions waiver — announced May 19 by Secretary Scott Bessent — allowing vulnerable nations to access approximately <strong>113 million barrels of Russian crude stranded at sea</strong> expires today, June 17. The waiver gave India, China, and other buyers a window to offload Russian oil before stricter enforcement resumed. Critics in the US Senate labeled it <strong>"an indefensible gift to Putin,"</strong> noting Russian Urals crude was fetching $97–$100 per barrel during the waiver period and generating an estimated $490 million daily for Moscow. With the waiver lapsing today and the UK actively seizing shadow fleet vessels, the enforcement environment has shifted markedly — at the exact moment the Iran deal is reopening a competing supply channel from the east.</p>
+      <a href="https://www.aljazeera.com/news/2026/5/19/us-extends-sanctions-waiver-on-russian-oil-why-it-matters" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Iran / Supply</div>
+      <h4>Deal Lets Iran Sell Oil Immediately — Brent Falls Below $80 for the First Time Since March</h4>
+      <p>A CNBC report that the US-Iran peace deal includes <strong>Iran's right to sell its oil immediately</strong> — without waiting for the Strait of Hormuz to physically reopen — triggered Brent's breach of $80 for the first time since early March. Iranian crude, sidelined by sanctions and the Hormuz closure since February, is being offered to spot buyers in volumes constrained by pipeline and alternative export-route capacity. The arrangement is more bearish near-term than previously understood: rather than a slow supply return gated entirely by mine-clearing, Iran can begin capturing market share via non-Hormuz channels now. The tension between immediate sales rights and physical export constraints explains why WTI briefly broke $75 while inventories simultaneously sit at 35-year lows.</p>
+      <a href="https://www.cnbc.com/2026/06/16/us-iran-peace-agreement-oil-prices-tankers-strait-of-hormuz-transit.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">EIA / Inventories</div>
+      <h4>7th Consecutive Weekly US Crude Draw — Refinery Runs at 95.3%, Distillates 13% Below 5-Year Average</h4>
+      <p>The most recent EIA weekly petroleum status report (week ending June 5, 2026) showed a <strong>7.2-million-barrel crude draw</strong> — the seventh consecutive week of declining US inventories. Crude stocks fell to 426.5 million barrels, approximately 5% below the five-year seasonal average. Refinery utilization ran at <strong>95.3% of operable capacity</strong> (throughput: 17.0 mb/d), near historical highs, as downstream demand remained strong even at elevated crude prices. Distillate fuel oil — the key barometer of industrial and transportation demand — fell to 102.1 million barrels, <strong>13% below the five-year average</strong>. The run of consecutive weekly draws directly underpins the IEA's 35-year inventory warning: the physical market is tight in a way that cannot reverse quickly even with a signed peace deal in hand.</p>
+      <a href="https://www.indexbox.io/blog/us-crude-oil-inventories-fall-by-72-million-barrels-refinery-runs-rise-eia-report-june-10-2026/" class="read-link" target="_blank">Read EIA / IndexBox →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Energy Transition</div>
+      <h4>Hormuz Standoff Has Flipped the Energy Security Debate — Nations Pivot to Renewables as Oil's Vulnerability Is Exposed</h4>
+      <p>Five months of Strait of Hormuz disruption have achieved something years of climate policy could not: <strong>converting energy security professionals into renewable advocates.</strong> Fossil fuels — long positioned as the reliable baseline — have been exposed as intermittent and geopolitically fragile, while solar, wind, and battery storage are being reframed as true energy security assets. South Korea's energy minister declared a "fundamental energy transition" in April; European governments have accelerated renewable investment programs; and wind and solar companies posted strong Q1 2026 earnings as capital redirected. CNBC and Bloomberg both documented the shift — the Iran war's most durable legacy may not be the price spike but the structural realignment of how governments think about energy resilience.</p>
+      <a href="https://www.cnbc.com/amp/2026/06/05/iran-war-strait-of-hormuz-renewables-oil-gas.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Jun 17 — Today</td>
+        <td>
+          <div class="event-name">US Russia Sanctions Waiver Expires + UK Shadow Fleet Enforcement Escalates</div>
+          <div class="event-impact">The 30-day US Treasury waiver that kept 113 million barrels of stranded Russian crude accessible to third-country buyers expires today. The UK's predawn MV Smyrtos seizure adds enforcement muscle. The simultaneous tightening of Russian supply access and loosening of Iranian supply creates the most complex bilateral flow-rerouting event since the 2022 price cap. Net market impact depends on whether Iran's immediate sales volumes offset the reduction in accessible Russian barrels — the math is not yet clear.</div>
+        </td>
+        <td>Structurally significant: dual-channel supply rerouting. Net price effect ambiguous near-term.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 19</td>
+        <td>
+          <div class="event-name">US–Iran Signing Ceremony — Switzerland</div>
+          <div class="event-impact">The week's fulcrum. A clean ceremony reaffirming Iran's right to immediate crude sales and the 30-day Hormuz normalization timeline is the bearish base case — Brent tests the mid-$70s. A dispute over the nuclear language (not yet publicly released) or an Iranian walk-back snaps crude back toward $87–$90 in a single session. With OECD inventories at 35-year lows and Middle East spare capacity at just 320,000 bpd, there is essentially no shock absorber if the deal collapses.</div>
+        </td>
+        <td>Binary, headline-driven. Single largest scheduled catalyst of the week.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 19–Jul 19</td>
+        <td>
+          <div class="event-name">Hormuz Demining and First Safe-Transit Certification</div>
+          <div class="event-impact">The formal 30-day mine-clearing clock starts Friday. Key operational checkpoints: certified safe-passage declarations, maritime insurer war-risk rating changes, first documented full tanker convoy. The IEA is now tracking Hormuz flows in real time — each weekly update has market-moving potential. Progress is bearish for crude; slippage is directly price-supportive, as the physical tightness documented by the IEA reasserts itself.</div>
+        </td>
+        <td>Gradual structural pressure — each confirmed clearance step is cumulatively bearish.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jun 20+</td>
+        <td>
+          <div class="event-name">Iran Non-Hormuz Crude Ramp: Pipeline and Alternative Routes</div>
+          <div class="event-impact">The deal grants Iran immediate oil sales rights. Speed depends on route: pipeline capacity to Turkey, Iraq, and Syria is limited; Hormuz-route tanker volumes require mine clearance. Markets will track Iranian export data weekly. A rapid non-Hormuz ramp is more bearish near-term than the market currently prices; a slow start redirects attention back to the 35-year inventory deficit and provides a price floor.</div>
+        </td>
+        <td>Near-term bearish if non-Hormuz pipeline volumes activate quickly; floor depends on ramp speed.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Nov 28, 2026</td>
+        <td>
+          <div class="event-name">Next OPEC+ Ministerial — First Full Post-War Strategy Reset</div>
+          <div class="event-impact">The June 7 OPEC+ ministerial locked production quotas through December 2026 and endorsed a new Capacity Assessment Mechanism to set 2027 baselines. November 28 is the first opportunity to reset strategy with a full post-war market picture. Saudi Arabia — whose actual output ran far below quota during the Hormuz closure — faces a fundamental choice: defend the low $80s or restore pre-war volumes and compete with recovering Iranian barrels. That decision governs the H1 2027 price regime.</div>
+        </td>
+        <td>Forward-looking — anchors medium-term OPEC+ supply policy and the 2027 price floor.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Wednesday, June 17, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>The IEA handed us the most clarifying statistic of the week: <strong>OECD commercial oil inventories are at their lowest level since December 1990</strong> — a 35-year trough. And yet Brent is at $79. Those two facts cannot both be true in a world that has fully processed the supply picture. They <em>are</em> both true because the market is doing what markets do: pricing tomorrow's supply against today's tightness. The gap between those two data points is the trade. And right now, the market is betting heavily on tomorrow.</p>
+        <p><strong>My read on today:</strong> The most important new information is not the sub-$80 print — that was telegraphed by the deal itself. It is that Iran gets to sell its oil <em>immediately</em>, via non-Hormuz channels, without waiting for mine-clearing. That is more bearish near-term than the market was pricing on Monday. But it is also volume-constrained by pipeline and alternative route capacity — there are no magic barrels that appear overnight. The real volume clock doesn't start until tanker traffic through the Strait is certified safe. The IEA's 35-year inventory data tells you that clock needs to run fast. Right now, the mines are still in the water.</p>
+        <p><strong>The Russia wildcard nobody is pricing:</strong> Wednesday also marks the expiry of the US Treasury waiver on stranded Russian crude — 113 million barrels that were given a grace window. The UK seized a shadow fleet tanker three days ago. The Iran deal is opening supply from the east while the Russia enforcement net is tightening from the west. Global crude flows are being rerouted in two directions simultaneously. That complexity is not priced in a market focused entirely on the Friday signing ceremony in Switzerland.</p>
+        <p>My call: <strong>Brent holds $76–$83 today</strong>, in a pre-signing holding pattern. A clean Friday ceremony tests $75; a wobble on nuclear language snaps it back toward $87–$90. <strong>The war premium is gone. What remains is the deepest inventory deficit in 35 years, an implementation lag the market is underestimating, and a flow-map rewrite that nobody has fully modeled yet.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Physical Stocks: 35-Yr Low</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:28%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#5cb85c">Pre-Signing Low</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:15%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#f0a500">Positive at Sub-$80</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:60%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Durability</span><span style="color:#5cb85c">Signing in 48 Hours</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:85%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Implementation Lag</span><span style="color:#e05252">Mines Active, Ships Waiting</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:75%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">320k bpd — Near Zero</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:10%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$76 – $83</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Pre-Signing Flat — Binary ▼/▲ on Friday</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$83–$85</span></div>
+            <div>🟢 Support: <span style="color:#fff">$76–$79</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$87 (nuclear language dispute, deal wobbles)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$74 (clean signing + non-Hormuz Iran volumes ramp quickly)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Wednesday, June 17, 2026</span>
+  <span>Sources: IEA, EIA, CNBC, Al Jazeera, Bloomberg, IndexBox, Deccan Herald, Investing.com</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
