@@ -1,10 +1,10 @@
 name: Daily OIL DESK Briefing
 
 on:
-  schedule:
-    # 05:05 UTC == 09:05 Dubai (GST, UTC+4). Dubai does not observe DST.
-    - cron: "5 5 * * *"
-  workflow_dispatch: {}   # allows manual "Run workflow" runs for testing
+  # Fired by an external scheduler (cron-job.org) via the workflow_dispatch API
+  # at 09:00 Dubai (05:00 UTC). GitHub's native `schedule:` was removed because
+  # it ran 4-5 hours late; see automation/EXTERNAL_TRIGGER.md for the setup.
+  workflow_dispatch: {}
 
 permissions:
   contents: write          # lets the job commit & push the rendered briefing
