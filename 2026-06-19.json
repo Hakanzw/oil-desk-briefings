@@ -1,0 +1,156 @@
+{
+  "date_long": "Friday, June 19, 2026",
+  "date_slug": "jun19-2026",
+  "volume": "Vol. XLII — No. 172",
+  "dateline": "Dubai / London / New York",
+  "sources": "NBC News, PBS NewsHour, OFAC, The Moscow Times, BOE Report, Responsible Statecraft, Bloomberg, S&P Global, EIA, IEA",
+
+  "ticker": [
+    "BRENT CRUDE ~$77.22 ▼ -2.7%",
+    "WTI CRUDE ~$74.94 ▼ -2.1%",
+    "NATURAL GAS $3.05 ▼ -4.7%",
+    "DEAL SIGNED: US–IRAN MOU EXECUTED AT BÜRGENSTOCK — 30-DAY HORMUZ CLOCK NOW RUNNING",
+    "FIRST TANKERS MOVING: SHIPS EXIT PERSIAN GULF AS CEREMONY REMOVES OPERATIONAL AMBIGUITY",
+    "KUWAIT KPC: 70% OF 2.6 MB/D RESTORED IN 6–8 WEEKS; FULL RECOVERY IN 10–12",
+    "RUSSIA SANCTIONS WAIVER EXPIRED JUNE 17 — MOSCOW CRUDE BUYERS FACE COMPLIANCE RESET",
+    "BRENT DOWN ~9% THIS WEEK — LOWEST CLOSE SINCE LATE FEBRUARY"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$77.22", "change": "▼ −2.7% (post-signing drop)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$74.94", "change": "▼ −2.1% (breaks $75 support)", "direction": "down" },
+    { "label": "Brent — Weekly", "value": "−9%", "change": "▼ Steepest Weekly Drop Since Deal Week", "direction": "down" },
+    { "label": "Natural Gas", "value": "$3.05", "change": "▼ −4.7% (energy complex unwind)", "direction": "down" },
+    { "label": "Gulf Trapped Ships", "value": "~500 vessels", "change": "▲ First tankers now exiting Strait", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ The Clock Starts: MOU Signed at Bürgenstock — Hormuz Normalization Now Official",
+    "headline": "US and Iran Execute Peace Deal at Swiss Ceremony — Brent Slides to a 4-Month Low as the 30-Day Hormuz Clock Starts and First Tankers Exit the Gulf",
+    "paragraphs": [
+      "The moment markets have priced for five days finally arrived. US and Iranian officials signed the 14-point Memorandum of Understanding at the Bürgenstock resort near Lucerne on Friday, formally starting a <strong>30-day window</strong> to complete mine-clearing in the Strait of Hormuz and restore full commercial transit. Brent fell <strong>2.7% to ~$77.22 per barrel</strong> — its lowest close since late February and down roughly 9% for the week, the steepest weekly drop since the deal announcement. WTI slipped 2.1% to ~$74.94, breaking the $75 support level that had held through the prior three sessions. Ships carrying stranded crude began making their way out of the Persian Gulf before the ink had dried, and Kuwait said publicly that it will start ramping production back up — a first tangible signal from the physical supply side.",
+      "The ceremony answered the first-order question and immediately raised the second. Before and during the Bürgenstock proceedings, Iran's newly established <strong>Persian Gulf Strait Authority (PGSA)</strong> continued to collect transit fees reported at up to <strong>$2 million per passage</strong>, settled in Chinese yuan. The US Treasury's Office of Foreign Assets Control had already issued a formal May 1 alert warning that payments to Iranian-linked entities for Hormuz passage \"could constitute prohibited transactions\" under US sanctions law, exposing non-US firms to secondary sanctions. The MOU's text does not appear to explicitly dissolve the PGSA or waive OFAC restrictions on fee payments, leaving shippers in a legal grey zone: the deal is signed, but the sanctions maze surrounding it is not yet cleared. Maritime underwriters have not formally downgraded their Hormuz war-risk ratings — the functional prerequisite before most tanker operators will commit to transit.",
+      "Beyond the legal fog, the physical constraints governing a Hormuz return have not shifted. Mine clearance carries the most conservative official timeline, with Congressional assessments pointing to up to six months for a full clearance of Iranian-laid ordnance. Roughly <strong>500 commercial vessels</strong> remain trapped in the Persian Gulf and cannot exit simultaneously through the 21-mile-wide navigable channel; barnacle encrustation and onboard maintenance backlogs add weeks of preparation time before ocean-going voyages are feasible. Production field restarts range from days for Saudi Arabia's pipeline-accessible volumes to months for Iraq, which depleted in-country storage during the closure. Kuwait Petroleum Corporation's managing director told the S&P Global Energy conference this month that KPC targets 70% of its 2.6 mb/d output capacity within 6–8 weeks of a confirmed reopening, with full recovery in 10–12. The signature in Bern starts the clock. <strong>The oil does not flow on cue.</strong>"
+    ],
+    "link_url": "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513",
+    "link_text": "Read NBC News",
+    "stats": [
+      { "num": "30 days", "desc": "Formal Hormuz Normalization Window Starting Today from the MOU Signing at Bürgenstock" },
+      { "num": "~$77.22", "desc": "Brent Crude Today — Lowest Level Since Late February; Down ~9% This Week" },
+      { "num": "~500", "desc": "Commercial Vessels Trapped in the Persian Gulf Beginning to Navigate Exit Logistics" },
+      { "num": "6–8 wks", "desc": "Kuwait KPC's Target to Restore 70% of 2.6 mb/d Output After Confirmed Hormuz Reopening" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Ceremony / Bern",
+      "headline": "US–Iran MOU Signed at Bürgenstock — Formal 30-Day Hormuz Normalization Clock Running",
+      "body": "US and Iranian officials signed the 14-point Memorandum of Understanding at the Bürgenstock resort in Switzerland on Friday morning, converting the June 14 deal announcement into a binding treaty framework. The MOU's key provisions: Iran commits to full commercial transit through Hormuz within 30 days, immediate oil-sales rights for Tehran, and the lifting of US oil sanctions in exchange for Iran's nuclear-weapon forswear pledge. The signing was conducted at a location selected jointly by Pakistan and Qatar — the two principal mediators — with UN observers present. Brent fell 2.7% to its lowest close since late February on the event. Ships carrying stranded crude had already begun exiting the Gulf before the signing concluded, suggesting the physical market had been pricing the outcome for days.",
+      "link_url": "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "Implementation Lag",
+      "headline": "Even With a Signed Deal, Full Oil Flow Could Take Weeks or Months — Mines, Ships, Fields",
+      "body": "PBS NewsHour reports that a full resumption of Hormuz oil flows faces structural obstacles that cannot be dissolved by a ceremony: mine clearance estimated at up to six months, approximately 500 commercial vessels trapped in the Persian Gulf that cannot exit simultaneously through the 21-mile-wide navigable channel, barnacle-encrusted vessels requiring weeks of maintenance before ocean transits are feasible, and production field restarts ranging from days (Saudi Arabia) to months (Iraq, which depleted in-country storage). Energy flows are projected to reach 80% of prewar levels by September at the earliest. Iran's potential demand for transit tolls adds legal complexity on top of the logistical backlog — ship captains and maritime insurers may take their time committing to passage.",
+      "link_url": "https://www.pbs.org/newshour/world/even-with-a-deal-to-reopen-the-strait-of-hormuz-it-could-take-weeks-or-months-for-oil-to-fully-flow",
+      "link_text": "Read PBS NewsHour"
+    },
+    {
+      "tag": "Iran Tolls / OFAC",
+      "headline": "Iran Collects Up to $2M-per-Transit Fees in Yuan — OFAC Warns Shippers of Sanctions Exposure",
+      "body": "The signing did not resolve a festering complication: Iran's Persian Gulf Strait Authority continues to charge transit fees reported as high as <strong>$2 million per passage</strong>, paid in Chinese yuan — the first new toll imposed on an international strait in more than 160 years. The US Treasury's OFAC issued a May 1 alert stating that payments to Iranian-linked entities for Hormuz passage could constitute prohibited transactions, exposing non-US firms to secondary sanctions. The MOU's language does not clearly dissolve the PGSA or provide a payments safe harbor. Marine underwriters and ship captains are waiting for explicit US Treasury guidance before downgrading Hormuz war-risk ratings and committing to transit — a bottleneck that could meaningfully slow the practical reopening pace even within the formal 30-day window.",
+      "link_url": "https://www.pbs.org/newshour/world/irans-proposal-to-collect-tolls-in-the-strait-of-hormuz-violates-trade-norms",
+      "link_text": "Read PBS NewsHour"
+    },
+    {
+      "tag": "Kuwait / Production",
+      "headline": "KPC: Kuwait Targets 70% of 2.6 mb/d Output in 6–8 Weeks, Full Recovery in 10–12",
+      "body": "Kuwait Petroleum Corporation's managing director Shaikh Khaled Ahmad Al-Sabah told the S&P Global Energy Middle East conference on June 3 that KPC targets recovery of approximately 70% of Kuwait's 2.6 million barrels per day capacity within <strong>six to eight weeks</strong> of a confirmed Hormuz reopening, with the remaining 30% requiring roughly one additional month. KPC's refinery operations — approximately 1.4 mb/d of capacity — could return to normal in two to three weeks. Kuwait had been producing 2.8 mb/d before February 28; no tankers have loaded at Kuwaiti export terminals since the conflict began. KPC's 10–12-week full-recovery timeline is among the most optimistic in the Gulf, suggesting that the fastest route back to material new supply runs through Kuwaiti terminals once safe passage is formally confirmed by maritime insurers.",
+      "link_url": "https://boereport.com/2026/06/03/kuwait-could-recover-70-of-oil-production-in-6-8-weeks-after-hormuz-reopens-kpc-executive-says/",
+      "link_text": "Read BOE Report"
+    },
+    {
+      "tag": "Russia / Sanctions",
+      "headline": "US Lets Russian Oil Sanctions Waiver Expire June 17 — Third Lapse, Now With Iran Supply Returning",
+      "body": "The White House allowed the temporary waiver of Russian oil sanctions to expire for the <strong>third consecutive time</strong> on June 17 — but for the first time without an immediate renewal. At the G7 summit in France, Trump said Washington is now \"in a position\" to enforce sanctions on Russian crude because Iranian oil is returning through Hormuz. Russia had exported an average of 6 million barrels per day of crude in May. Indian and Chinese buyers who have relied on Russian supply throughout the Hormuz disruption now face a sharply altered landscape: tighter OFAC enforcement on Russian crude arriving simultaneously with the opening of Iranian supply channels. Whether Asian refinery demand rotates cleanly from Russian to Iranian barrels — or both face enforcement headwinds simultaneously — is the supply-competition story markets will spend H2 2026 tracking.",
+      "link_url": "https://www.themoscowtimes.com/2026/06/17/white-house-allows-russian-oil-sanctions-waiver-to-expire-for-third-time-a93037",
+      "link_text": "Read The Moscow Times"
+    },
+    {
+      "tag": "Market Outlook",
+      "headline": "Goldman, Morgan Stanley See Brent at $80 in Q4 — Citi Projects $70; IEA Warns of 2027 Structural Oversupply",
+      "body": "With the deal signed, major banks have revised oil price targets. Goldman Sachs and Morgan Stanley both project Brent at approximately <strong>$80 per barrel</strong> in Q4 2026, reflecting gradual supply normalization offset by recovering demand. Citi is the most bearish, projecting <strong>$70 per barrel</strong> on a scenario of faster-than-expected Hormuz clearance and Iraqi production ramp. The IEA has issued a longer-term structural warning: if post-war investment flows resume and Iranian production recovers at full pace, global oil supply could increase by <strong>8 million barrels per day by 2027</strong> against demand growth of only 2 mb/d — a structural oversupply scenario that the current forward curve does not reflect and that the July 5 OPEC+ ministerial will be the first opportunity to formally confront.",
+      "link_url": "https://responsiblestatecraft.org/hormuz-open/",
+      "link_text": "Read Responsible Statecraft"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jun 19 — Today",
+      "name": "US–Iran MOU Signed at Bürgenstock — 30-Day Hormuz Normalization Clock Running",
+      "impact": "The ceremony is complete. The market's next pivot question: does the PGSA toll controversy get resolved via US Treasury guidance within days — clearing the legal path for tanker captains and maritime insurers (bearish, ships move freely) — or does it persist as an enforcement grey zone that freezes transit decisions (bullish, practical opening slower than the signed text implies)? Maritime insurer war-risk downgrades, which have not yet arrived, are the functional green light that tanker operators are waiting for. Watch for OFAC guidance and first-mover tanker announcements before market close.",
+      "market_impact": "Directional: OFAC toll guidance = $2–3/bbl additional downside. PGSA standoff escalation = $4–6/bbl snap-back.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jun 19 – Jul 19",
+      "name": "30-Day Hormuz Normalization Window Begins",
+      "impact": "The formal mine-clearing and safe-passage restoration window. Key checkpoints: IMO safe-passage declarations, maritime insurer war-risk-rating downgrades, and first documented full tanker convoys through the navigable channel. Each milestone is cumulatively bearish on prices. Any detonation, Iranian patrol-vessel confrontation in the strait, or OFAC enforcement action against a toll-paying tanker could reverse the entire week's move in a single session with very little premium left to absorb the shock.",
+      "market_impact": "Structural downside — each clearance milestone adds to expected supply and pressures the forward curve.",
+      "risk": "High"
+    },
+    {
+      "date": "Jun – Aug",
+      "name": "Gulf Producer Ramp — Kuwait, Saudi Arabia, Iraq",
+      "impact": "The physical supply return plays out in phases: Saudi Arabia's pipeline-accessible volumes restart within days; Kuwait KPC targets 70% recovery in 6–8 weeks; Iraqi field restarts in 8–12 weeks. The pace determines whether the IEA's projected 6.3 mb/d Q3 2026 supply increase materializes on schedule or slips into Q4. Early Kuwait loading reports, Saudi Aramco export bulletins, or news of Iraqi infrastructure progress are incrementally bearish price signals; any indication that infrastructure damage or field-restart complexity is slower than expected provides near-term support.",
+      "market_impact": "Gradual structural downside — each producer milestone adds visible supply and pressures Brent/WTI forward spreads.",
+      "risk": "High"
+    },
+    {
+      "date": "Jul 5",
+      "name": "OPEC+ Ministerial — First Post-Signing Strategy Session",
+      "impact": "The first OPEC+ ministerial with a signed MOU, real-time mine-clearing data, and Iranian export volumes visible in tanker-tracking data. Saudi Arabia must choose between defending the $74–$78 price floor with a production pause and competing for market share against returning Iranian barrels. The group's existing +188k bpd July increment is already in place; the August decision is the swing point. If Riyadh signals a pause to defend price levels, it provides short-term support — but risks permanently ceding market share to Tehran as the Hormuz normalization accelerates.",
+      "market_impact": "Forward-looking — governs the H2 2026 price floor and OPEC+ market-share strategy through year-end.",
+      "risk": "Medium"
+    },
+    {
+      "date": "2027 Horizon",
+      "name": "IEA Structural Oversupply Warning — 8 mb/d Supply Growth vs. 2 mb/d Demand",
+      "impact": "The IEA has projected that if post-war investment flows resume and Iranian production fully recovers, global supply could increase by 8 million barrels per day by 2027 against demand growth of only 2 mb/d — a structural surplus that current prices do not reflect. Citi's $70 target for Q4 2026 is the nearest expression of this scenario in mainstream bank forecasts. The speed of Kuwait, Iraq, Saudi, and UAE production ramps throughout H2 2026 will determine how quickly markets begin pricing this structural overhang into the 2027 forward curve.",
+      "market_impact": "Medium-term anchor — could suppress the 2027 price curve to $65–$75 if IEA supply projections track.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued that the Switzerland ceremony was the clearest binary event on the oil calendar this year — and that Tehran's economic incentive to finalize the deal after four months of Hormuz-closure-induced fiscal stress made a clean signing the base case. The binary resolved in the bearish direction. The MOU is signed, Bürgenstock's proceedings are on the record, and for the first time since February 28 the Strait of Hormuz has a formal reopening obligation attached to a running countdown clock. <strong>Brent is at $77.22 — down 9% this week — its lowest since late February.</strong> The war premium is not just absent; the market is beginning to price supply that has not yet been produced, shipped, or cleared through a channel that still has mines in the water.",
+      "<strong>My read on today:</strong> The signing clears the first hurdle but raises three immediate questions that will determine price direction over the next 30 days. First: does the PGSA toll controversy get resolved via US Treasury guidance, or does it freeze ship captains in a legal grey zone? Maritime insurers have not yet formally downgraded Hormuz war-risk ratings — <em>that step, not the ceremony</em>, is the practical green light for most tanker operators, and it has not happened yet. Second: how fast does the Gulf producer ramp actually track? Kuwait's 6–8 week timeline and Iraq's months-long restart are very different price paths. Third: with the Russian sanctions waiver expired for the first time without a renewal, does tighter OFAC enforcement on Russian crude meaningfully offset some of the Iranian supply returning to Asian buyers — or do both channels face headwinds simultaneously? That supply-supply competition has not yet been priced.",
+      "<strong>The bigger picture:</strong> The deal is signed but the plumbing isn't fixed. The gap between a signed MOU and the first full tanker convoy through a certified-clear Strait remains days-to-weeks at minimum, weeks-to-months at maximum. With commercial inventories 7%+ below the five-year average, the SPR at a 43-year trough, and approximately 500 ships navigating a simultaneous exit, the downside from here is real but not unlimited. Citi's $70 target requires faster-than-expected implementation across every variable. Goldman's $80 target assumes a normal pace. The IEA's 2027 oversupply warning — 8 mb/d of new supply against 2 mb/d of demand growth — is the structural bear case the market will start pricing <em>after</em> it sees the first convoy through a cleared Strait, not before.",
+      "My call: <strong>Brent holds $73–$78 today</strong>, consolidating the signing-day loss as markets shift focus to implementation metrics and the PGSA toll question. The direction is clearly lower — but not linearly so. A single OFAC enforcement action against a toll-paying tanker, an Iranian patrol-vessel confrontation at the Strait exit, or any indication the 30-day window is slipping would snap crude back $5–7 in a session from current levels. <strong>The war is over on paper. The oil market is about to find out what that means in practice.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Still Acute — Clock Running", "tone": "bearish", "pct": 28 },
+      { "name": "Geopolitical Risk", "label": "MOU Signed — Lowest Since Feb", "tone": "bullish", "pct": 8 },
+      { "name": "Demand Response", "label": "Recovering at Sub-$80", "tone": "neutral", "pct": 65 },
+      { "name": "Deal Durability", "label": "Signed & Sealed", "tone": "bullish", "pct": 95 },
+      { "name": "Implementation Lag", "label": "Mines, Ships, Tolls — Active", "tone": "bearish", "pct": 80 },
+      { "name": "Spare-Capacity Buffer", "label": "Near Zero — OPEC+ Watching", "tone": "bearish", "pct": 12 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$73 – $78",
+      "bias": "Bias: Lower on Clean Signing — Tail Risk Up on PGSA Toll Standoff ▼"
+    },
+    "watch_levels": {
+      "resistance": "$80–$82",
+      "support": "$73–$75",
+      "breakout": ">$83 (OFAC enforcement blocks toll-paying tankers, transit freezes)",
+      "breakdown": "<$70 (Citi scenario: mine clearance accelerates, Kuwait/Saudi ramp ahead of schedule)"
+    }
+  }
+}
