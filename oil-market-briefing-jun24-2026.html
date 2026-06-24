@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Wednesday, June 24, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $76.47 ▼ -0.79% &nbsp;|&nbsp; WTI CRUDE $72.63 ▼ -0.79% &nbsp;|&nbsp; NATURAL GAS $3.14 ▼ -0.16% &nbsp;|&nbsp; IRAN DENIES VANCE'S IAEA CLAIM — FOREIGN MINISTRY WARNS 'EXAGGERATION WILL DESTROY THE AGREEMENT' &nbsp;|&nbsp; VANCE PULLS OUT OF BÜRGENSTOCK — SWITZERLAND CONFIRMS IMPLEMENTATION TALKS CANCELED &nbsp;|&nbsp; EIA: 3.9M-BARREL CRUDE DRAW — THIRD CONSECUTIVE; GASOLINE AND DISTILLATES BUILD &nbsp;|&nbsp; IRAN PITCHES OIL TO INDIA, SOUTH KOREA, JAPAN — ASIAN REFINERS CAUTIOUS ON POLICY FLIP-FLOP RISK &nbsp;|&nbsp; TANKER RATES NEARLY DOUBLE — VLCC DAILY EARNINGS SURGE TO $470K AS PRODUCERS RUSH ACCUMULATED BARRELS&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Wednesday, June 24, 2026<br>
+      Vol. XLII — No. 175<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$76.47</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$72.63</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$76.47</div>
+      <div class="price-change down">▼ −0.79% (fourth consecutive decline)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$72.63</div>
+      <div class="price-change down">▼ −0.79% (Brent/WTI spread: $3.84)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$3.14</div>
+      <div class="price-change down">▼ −0.16% (Qatar LNG risk bid fades)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude Draw (Jun 19 wk)</div>
+      <div class="price-val">−3.9M bbl</div>
+      <div class="price-change down">▼ Third consecutive draw; pace slowing vs. prior weeks</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. 2026 War Peak</div>
+      <div class="price-val">−47%</div>
+      <div class="price-change down">▼ Off the ~$144 North Sea Dated high</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Diplomatic Fracture: Iran Denies Vance's IAEA Claim — Bürgenstock Talks Canceled, EIA Reports Third Consecutive Crude Draw</div>
+      <h3>Vance-Iran Dispute Over Nuclear Inspections and Abrupt Bürgenstock Cancellation Reintroduce Uncertainty — Brent Slips to $76.47 as Third EIA Draw Signals Persistent Supply Deficit</h3>
+      <p>Tuesday brought the clearest diplomatic flashpoint since the June 17 MOU was signed. Vice President JD Vance declared on Monday that Iran had agreed to allow IAEA nuclear inspectors back into the country — <strong>"a major milestone for the American people,"</strong> he said, adding he expected inspectors in Tehran <strong>"this week."</strong> Iran's Foreign Ministry fired back on Tuesday: there was <strong>"no plan"</strong> for IAEA access, and the ministry warned Washington not to construct <strong>"any self-congratulatory narrative"</strong> around the post-war framework, cautioning that exaggeration <strong>"will destroy that very process of agreement."</strong> By Wednesday, Switzerland confirmed that Vance had pulled out of planned Bürgenstock implementation talks — canceling the meeting designed to convert the MOU into enforceable 60-day nuclear commitments. <strong>Brent fell 0.79% to $76.47; WTI dropped 0.79% to $72.63.</strong> On the same morning, the EIA released its weekly petroleum report: crude inventories fell <strong>3.9 million barrels</strong> for the week ending June 19 — the third consecutive draw, though smaller than the prior two weeks' 8.3M and 7.2M pulls — while gasoline and distillates built modestly.</p>
+      <p>The nuclear inspections dispute has a specific context that markets are beginning to price. The June 17 MOU — signed by US envoy Witkoff and Iranian Foreign Minister Abbas Araghchi — did not explicitly commit Iran to IAEA access as a precondition for sanctions relief. Vance's Monday claim went considerably beyond the MOU's public language, and Iran's Foreign Ministry treated it as exactly that: an overreach that, if allowed to stand unchallenged, would recalibrate the deal's terms in Washington's favor without Iranian consent. The ministry's invocation of the risk to the <strong>"entire process of agreement"</strong> is not a walk-away threat — it is a boundary-setting message. But boundary-setting messages carry costs: Vance's departure from Bürgenstock means the formal implementation calendar now has no anchor. Against that, Iran's negotiator Mohammad Bagher Ghalibaf announced on return from Switzerland that the US had agreed to unblock <strong>$12 billion</strong> in frozen Iranian funds — a significant economic inducement for Tehran to manage the IAEA dispute without walking away from the broader framework. US envoy Witkoff stated that both direct and mediated channels remain open, signaling that the dispute is a negotiating tension, not a collapse.</p>
+      <p>The EIA data, released this morning, is the most consequential supply-side print since the June 17 MOU. The 3.9 million barrel crude draw for the week ending June 19 — the first report covering the period when the MOU was signed — is smaller in magnitude than prior weeks, raising a critical question: is the pace of US inventory draws slowing because Gulf crude is beginning to enter the supply chain, or because refinery demand has softened seasonally? Gasoline stocks built by 1.238 million barrels; distillates by 1.447 million barrels. Both remain well below five-year seasonal averages — gasoline roughly 6% below, distillates roughly 13% below — suggesting structural deficit persists even as crude draws slow. The SPR has fallen to <strong>331.2 million barrels</strong>, its lowest level in over four decades, underscoring that Washington has no substantial emergency buffer should diplomacy deteriorate. Iran has simultaneously begun pitching its crude to India, South Korea, and Japan under the Treasury's 60-day waiver — but Asian refiners are cautious: Kpler analyst Sumit Ritolia noted that <strong>"Asia is unlikely to commit to Iranian crude imports while US policy on sanctions continues to flip-flop and the geopolitical situation remains highly fluid."</strong></p>
+      <a href="https://www.npr.org/2026/06/23/nx-s1-5867322/us-iran-finalize-war-ending-deal" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$76.47</div>
+        <div class="stat-desc">Brent Crude — Fourth Consecutive Decline; Down ~$4 From Sunday's $80.57 Close</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">3.9M bbl</div>
+        <div class="stat-desc">EIA Crude Draw (Week Ending June 19) — Third Consecutive; Smaller Pace May Signal Gulf Crude Entering US System</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$12B</div>
+        <div class="stat-desc">Frozen Iranian Funds US Agreed to Unblock — Announced by Iran's Negotiator Ghalibaf on Return From Switzerland</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">0</div>
+        <div class="stat-desc">Bürgenstock Talks — Scheduled Session Canceled After Vance Withdrawal; No Rescheduling Date Confirmed</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Diplomacy / Nuclear</div>
+      <h4>Iran Denies Vance's IAEA Claim — Foreign Ministry Warns 'Exaggeration Will Destroy the Agreement'</h4>
+      <p>Vice President Vance said Monday that Iran had agreed to allow IAEA nuclear inspectors back into the country — <strong>"a major milestone for the American people"</strong> — and that inspectors could arrive within the week. Iran's Foreign Ministry issued a firm rebuttal Tuesday: there was <strong>"no plan"</strong> for IAEA access, and the US should stop <strong>"exaggerating,"</strong> warning that any self-congratulatory narrative <strong>"will destroy that very process of agreement."</strong> The June 17 MOU does not explicitly mandate IAEA access as a precondition for sanctions relief, placing Vance's statement well outside the agreement's public language. NBC News framed the episode as a dispute that <strong>"clouds work to finalize a war-ending deal"</strong> — a formulation that captures both the seriousness and the fact that the deal remains intact.</p>
+      <a href="https://www.upi.com/Top_News/World-News/2026/06/23/iran-IAEA-inspectors-Vance-denial/9681782197125/" class="read-link" target="_blank">Read UPI →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Diplomacy / Bürgenstock</div>
+      <h4>Vance Pulls Out of Switzerland — Bürgenstock Implementation Talks Canceled, No Rescheduling Date</h4>
+      <p>Switzerland's Foreign Ministry confirmed Wednesday that planned US-Iran implementation talks at the Bürgenstock resort had been canceled after Vice President Vance withdrew from the trip. The Bürgenstock process was designed to formalize the 60-day nuclear negotiation window and begin converting the June 17 MOU into binding treaty commitments. The US and Iran had agreed to <strong>"a road map"</strong> at a prior Bürgenstock session last weekend, but the IAEA inspections dispute appears to have triggered Vance's exit. US envoy Witkoff stated that both direct and mediated channels remain open. There is no confirmed rescheduling date; the Treasury's 60-day general license for Iranian oil commerce remains active through August 21, providing a commercial floor while the diplomatic implementation calendar stalls.</p>
+      <a href="https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/" class="read-link" target="_blank">Read CBS News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">EIA / Inventories</div>
+      <h4>EIA Reports 3.9M-Barrel Crude Draw for Week Ending June 19 — SPR Falls to Lowest Level in Over Four Decades</h4>
+      <p>The EIA's Weekly Petroleum Status Report, released Wednesday morning for the week ending June 19, showed US crude oil inventories fell by <strong>3.9 million barrels</strong> — the third consecutive draw, and the first report covering the post-MOU transition period. The draw is smaller than the prior two weeks' 8.3M and 7.2M pulls, fueling debate over whether Gulf crude is beginning to enter US supply channels. Gasoline inventories rose 1.238 million barrels; distillates added 1.447 million barrels. Both refined-product categories remain well below five-year seasonal averages. The <strong>Strategic Petroleum Reserve fell to 331.2 million barrels</strong> — its lowest level in over four decades — underscoring that Washington has diminished emergency supply capacity to absorb a renewed disruption.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Continue-To-Falter-SPR-Struggling-To-Pick-Up-the-Slack.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Iran / Asian Markets</div>
+      <h4>Iran Pitches Crude to India, South Korea, Japan — Asian Refiners Cautious on 'Policy Flip-Flop Risk'</h4>
+      <p>Iran is actively approaching Indian, South Korean, and Japanese refiners with crude oil sales pitches under the US Treasury's 60-day general license, according to traders cited by Bloomberg. The outreach represents Tehran's most direct attempt to re-enter formal Asian crude markets since the Strait of Hormuz closure began in late February. But major refiners are not rushing to commit. Kpler analyst Sumit Ritolia offered a stark assessment: <strong>"Asia is unlikely to commit to Iranian crude imports while US policy on sanctions continues to flip-flop and the geopolitical situation remains highly fluid."</strong> The Treasury license expires August 21 — too short a window for most procurement contracts — and the IAEA inspection dispute adds further uncertainty over whether the commercial framework will survive intact.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Tap-Key-Asian-Markets-as-US-Waives-Oil-Sanctions.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Shipping / Hormuz</div>
+      <h4>Tanker Rates Nearly Double in a Week — VLCC Daily Earnings Near $470K as Producers Rush Accumulated Barrels</h4>
+      <p>Tanker hire costs in the Persian Gulf have nearly doubled within a week, jumping from approximately <strong>$106,000</strong> to over <strong>$190,000</strong> per day for standard vessels; Very Large Crude Carriers transiting Hormuz are now earning close to <strong>$470,000 per day</strong> — a wartime premium reflecting acute vessel scarcity. Before the Hormuz crisis began in late February, roughly 125 vessels transited the chokepoint daily; current traffic remains substantially below that baseline. Approximately 100 tankers remain stuck in the Gulf with cargo loaded during hostilities. Abu Dhabi's ADNOC is aggressively marketing accumulated crude shipments, while India and other importers seek Middle Eastern supplies after months of disruption. The rate surge represents a genuine windfall for shipping companies and a real cost friction for consumers of Gulf crude, even as futures prices continue to slide.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/Tanker-Owners-Are-Having-the-Best-Week-of-the-Hormuz-Crisis.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Russia / Energy</div>
+      <h4>Novak Signals Russia Considering Complete Diesel Export Ban — Domestic Fuel Crisis Deepens After Drone Strikes</h4>
+      <p>Russian Deputy Prime Minister Alexander Novak said the government is <strong>"considering a complete ban on diesel exports and other measures"</strong> to stabilize a domestic fuel market severely disrupted by Ukrainian drone strikes on refineries. Novak acknowledged the situation was <strong>"not simple"</strong> — a meaningful shift from his June 4 comments in which he said an immediate ban was unnecessary. Ukrainian drone strikes have disabled major refinery units across Russia, including repeated hits on the Moscow Oil Refinery, which supplies more than a third of the capital region's fuel. Russia has already imposed a gasoline export ban through July and is importing refined products from Asia through western ports. A full diesel export ban would remove significant supply from European, African, and Asian markets currently relying on Russian fuel through indirect channels.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/Novak-Russia-Considers-Complete-Ban-on-Diesel-Exports.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">TBD — No Date Set</td>
+        <td>
+          <div class="event-name">Bürgenstock Rescheduling — When Will Nuclear Implementation Talks Resume?</div>
+          <div class="event-impact">The cancellation of Wednesday's Bürgenstock session leaves the formal 60-day nuclear negotiation window without a start date. The Treasury's general license bridges the commercial gap through August 21, but converting the June 17 MOU into treaty obligations requires an implementation session that Vance's withdrawal has now deferred. A reschedule announced within the week would signal that the IAEA inspection dispute is manageable and restore the bearish implementation trajectory. A delay extending into July raises meaningful questions about whether the Lebanon file and the IAEA dispute can both be resolved before the broader framework begins to fray. Iran's warning that exaggeration 'will destroy the agreement' is a calibrated signal — not a walk-away, but a red line that limits Washington's ability to publicly claim more than the MOU delivers.</div>
+        </td>
+        <td>Quick reschedule (within one week): $2–3/bbl additional downside, confirms deal durability. Delay beyond two weeks: $4–6/bbl risk premium re-added, mirrors June 20 Hormuz closure spike.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing — This Week</td>
+        <td>
+          <div class="event-name">IAEA Nuclear Inspection Track — Can Vance-Iran Gap Be Closed Without a New Flashpoint?</div>
+          <div class="event-impact">The specific dispute is whether IAEA inspectors will visit Iran's nuclear facilities as part of the peace framework — a condition the US appears to want as a public deliverable and Iran has declined to confirm. The resolution pathway is narrow: either Washington backs away from Vance's characterization (politically costly), Iran quietly allows preliminary IAEA contact without a formal public announcement (face-saving but fragile), or the dispute deepens into a deal-threatening impasse. Every day without resolution adds incremental risk premium. Iran's invocation of the risk to the 'entire process of agreement' in unusually direct language elevates this dispute above the routine diplomatic friction that has characterized post-MOU negotiations.</div>
+        </td>
+        <td>IAEA access agreed quietly: $1–2/bbl downside (deal confidence restored). Dispute escalates publicly: $3–5/bbl risk-premium snap-back on deal durability concerns.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Rolling — Through August 21</td>
+        <td>
+          <div class="event-name">Asian Refiner Commitments — Will India, South Korea, Japan Commit to Iranian Crude Under the 60-Day Waiver?</div>
+          <div class="event-impact">Iran has begun soliciting crude purchases from India, South Korea, and Japan under the Treasury's 60-day general license. The commercial logic is clear: Iranian crude is available at a discount, the waiver is legal, and Asian refiners have been starved of Gulf barrels for four months. The obstacle is 'policy flip-flop risk' — the 60-day window is too short for most procurement contracts, and the IAEA dispute adds a second layer of uncertainty over framework durability. A commitment from even one major Asian refinery would signal that commercial normalization is taking root beyond Chinese independent buyers. No commitments by month-end would suggest the broader market is not yet treating the framework as durable enough to anchor supply decisions.</div>
+        </td>
+        <td>Major Asian refinery commits to Iranian cargo: structural bearish signal, $2–3/bbl downside. No commitments by end of June: modest price support, signals market skepticism about framework durability.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing — Day by Day</td>
+        <td>
+          <div class="event-name">Hormuz Transit Trajectory — Tankers Emerging From Dark Mode; 41M Barrels Moved Since June 17 MOU</div>
+          <div class="event-impact">UANI tracking shows 31 tankers have departed the Gulf of Oman laden since the June 17 MOU — approximately 41 million barrels, generating an estimated $3.5 billion in IRGC revenue. Tankers are emerging from AIS-off 'dark mode' in growing numbers, a positive signal for transit normalization. The sustainability question: Can daily transit volumes hold above 4–6 million bpd as war-risk insurance premiums remain elevated? VLCC earnings at $470K/day reflect genuine scarcity and create a real cost friction for physical delivery even as futures prices slide. Sustained volume above 8–10 million bpd would begin to resemble pre-war throughput levels and would be the market's most durable bearish signal.</div>
+        </td>
+        <td>Daily volumes sustain above 6M bpd: incrementally bearish, $1–2/bbl per week of sustained normalization. Return to zero on any Iranian signal: $3–5/bbl risk-premium snap-back within a session.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Early August</td>
+        <td>
+          <div class="event-name">OPEC+ Ministerial — First Strategic Choice with Real Gulf Restart and Iranian Supply-Return Data</div>
+          <div class="event-impact">The August OPEC+ meeting is the group's first with observable data on Gulf producer restart progress, Iranian export volumes under the Treasury license, and the trajectory of US inventory draws. The July increment (+188,000 bpd) is already locked; August is the group's first genuine strategic decision since the war began. Saudi Arabia's actual production — averaging roughly 7 million bpd in April-May against a 10.29M bpd OPEC+ quota — represents enormous latent supply. If Kuwait's ramp, Iranian exports, and Saudi restart all converge by August, the group faces its sharpest price-floor dilemma in years. The IAEA dispute may paradoxically serve OPEC+'s interests: a slower diplomatic normalization means a slower supply return, which supports the price floor the group needs.</div>
+        </td>
+        <td>Forward-looking anchor — August decision governs the H2 2026 price floor and Saudi market-share strategy through year-end.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Wednesday, June 24, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Wednesday's session has handed markets two conflicting signals of almost exactly equal weight. On the supply side: the EIA's 3.9 million barrel crude draw for the week ending June 19 is the third consecutive pull on US crude stocks, supply remains physically tight, and the commercial infrastructure of the post-war framework — the Treasury license, wartime-high Hormuz transits, Iran's Asian marketing campaign — continues to function. <strong>Brent at $76.47 and WTI at $72.63</strong> are pricing an orderly supply return, not a reversal. On the risk side: the Vance-Iran IAEA inspection dispute is the first substantive public disagreement over what the June 17 MOU actually commits both sides to, and the Bürgenstock cancellation has removed the mechanism designed to resolve exactly these ambiguities. The deal is not broken. But it is the most visibly strained it has been since the June 20 Hormuz closure.</p>
+        <p><strong>My read on today:</strong> The market is right to be cautious but wrong to panic. The IAEA inspection dispute is a negotiating tactic, not an existential threat — Iran's $12 billion frozen funds agreement and its active Asian crude marketing campaign both demonstrate that Tehran is acting as if the deal will hold. The Foreign Ministry's warning was directed at the public <em>framing</em> of the deal, not the substance of the deal itself. The commercial conditionality — Iran must maintain toll-free Hormuz passage or lose the Treasury license — remains the self-enforcing mechanism that makes this framework qualitatively different from prior diplomatic agreements. That architecture is intact. <em>What's wobbling is the communication layer around it, not the foundation underneath.</em></p>
+        <p><strong>The bigger picture:</strong> The EIA's smaller crude draw — 3.9M versus 8.3M the prior week — is the most interesting number of the day, and it cuts both ways. If Gulf crude is beginning to register in US import figures, it's the first tangible evidence that physical barrels are flowing, which is structurally bearish. If it's a seasonal refinery slowdown, the data tells us less than it appears. Gasoline and distillate builds suggest refineries are converting crude to products efficiently — demand is there and crude input is sufficient. The SPR at its lowest level in four decades is a structural vulnerability: Washington has less emergency buffer to absorb a supply shock than at any point since the early 1980s. That asymmetry argues against complacency even as headline prices slide.</p>
+        <p>My call: <strong>Brent consolidates in the $74–$79 range this week</strong>, with the lower half more likely if Bürgenstock is quickly rescheduled and the IAEA dispute is quietly managed. The risk is more asymmetric than yesterday: a rapid diplomatic resolution — IAEA access quietly agreed, Bürgenstock rescheduled within the week — could push Brent toward $73–74. An escalating dispute, particularly if Iran pauses crude exports in response to Washington's public framing, could snap Brent back to $82–84 within a session. <strong>The framework is intact but the communication layer is cracking — and in oil markets, that distinction can close overnight.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Easing — 3rd Draw But Pace Slowing</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:50%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Rising — IAEA Dispute, Bürgenstock Canceled</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:45%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#f0a500">Solid — Products Building, Crude Draw Sustained</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:65%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Durability</span><span style="color:#f0a500">Clouded — IAEA Dispute Shadows MOU Validity</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:70%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Implementation Lag</span><span style="color:#e05252">Improving — Tankers Emerging From Dark Mode</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:55%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">SPR at 40-Year Low; OPEC+ Reserve Thin</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:16%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$74 – $79</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Lower on Diplomatic Clarity — Tail Risk Up on IAEA Escalation ▼▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$79–$81</span></div>
+            <div>🟢 Support: <span style="color:#fff">$74–$76</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$82 (IAEA dispute escalates, Iran pauses crude exports, Bürgenstock collapse confirmed)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$73 (IAEA access quietly agreed, Bürgenstock rescheduled within week, Kuwait hits 1.5 mb/d visible)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Wednesday, June 24, 2026</span>
+  <span>Sources: NPR, UPI, CBS News, EIA, OilPrice.com, Bloomberg, Al Jazeera, Times of Israel, NBC News</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
