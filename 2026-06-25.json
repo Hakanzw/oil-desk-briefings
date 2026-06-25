@@ -1,0 +1,156 @@
+{
+  "date_long": "Thursday, June 25, 2026",
+  "date_slug": "jun25-2026",
+  "volume": "Vol. XLII — No. 176",
+  "dateline": "Dubai / London / New York",
+  "sources": "Al Jazeera, The National, NPR, CNBC, Fox Business, Reuters, Bloomberg, OilPrice.com, IEA",
+
+  "ticker": [
+    "BRENT CRUDE $72.63 ▼ -1.51%",
+    "WTI CRUDE $69.47 ▼ -1.25% — BELOW $70 FOR FIRST TIME SINCE CONFLICT BEGAN",
+    "NATURAL GAS $3.25 ▲ +0.96% — QATAR RAS LAFFAN EXPLOSION DRIVES RISK BID",
+    "BRENT -50% FROM APRIL WAR PEAK — WAR PREMIUM ESSENTIALLY ERASED",
+    "QATAR RAS LAFFAN LNG EXPLOSION: 13 DEAD, 66 INJURED — RESTART TIMELINE UNCERTAIN",
+    "KAPOTNYA REFINERY OFFLINE UNTIL 2027 — RUSSIA FUEL RATIONING IN TWO-THIRDS OF REGIONS",
+    "HORMUZ: 93 VESSELS IN ONE WEEKEND (JUN 19–21) — FLOWS HIT 12 MB/D; MINES STILL IN STRAIT",
+    "UN NUCLEAR CHIEF: IAEA INSPECTORS 'WILL' VISIT IRAN — TEHRAN SAYS ONLY AFTER FINAL DEAL"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$72.63", "change": "▼ −1.51% (approaching pre-war close; war premium ~50% erased)", "direction": "down" },
+    { "label": "WTI Crude", "value": "$69.47", "change": "▼ −1.25% (below $70 for first time since Feb. 28 conflict began)", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.25", "change": "▲ +0.96% (Qatar Ras Laffan explosion sustains LNG risk bid)", "direction": "up" },
+    { "label": "EIA Crude Draw (Jun 19 wk)", "value": "−3.9M bbl", "change": "▼ Third consecutive; next EIA report July 1 (wk ending Jun 26)", "direction": "down" },
+    { "label": "Brent vs. 2026 War Peak", "value": "−50%", "change": "▼ Off the ~$144 North Sea Dated April high; war premium near-fully erased", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Price Milestone: WTI Breaks Below $70 — Brent Nears Pre-War Close — Qatar Ras Laffan Explosion Keeps Natural Gas Risk Alive",
+    "headline": "WTI Crude Falls Below $70 for the First Time Since the February Conflict Began — Brent at $72.63 Has Erased ~50% of the War Premium — Qatar LNG Disaster and Unresolved IAEA Dispute Complicate the Bearish Narrative",
+    "paragraphs": [
+      "Thursday delivered the price milestone oil traders have been watching since the June 17 MOU: West Texas Intermediate crude slipped below <strong>$70 per barrel for the first time since the conflict began on February 28</strong>, settling around <strong>$69.47 (−1.25%)</strong> as Brent fell to <strong>$72.63 (−1.51%)</strong> — a level that has erased approximately <strong>50% of the war premium</strong> that drove North Sea Dated crude to $144 in April. The reversion is extraordinary in pace and completeness. Six weeks after the first headlines of a framework deal and eight days after the June 17 MOU was signed, the crude market has essentially concluded that the peace architecture is durable enough to price supply normalisation — even as the IAEA inspection dispute festers and Bürgenstock implementation talks remain without a rescheduled date. Against crude's decline, <strong>natural gas moved sharply higher, rising 0.96% to $3.25/MMBtu</strong> — a divergence driven by the ongoing assessment of an explosion and fire at Qatar's Ras Laffan LNG complex on June 21–22 that killed at least <strong>13 workers</strong> and injured <strong>66</strong>, casting uncertainty over the pace of LNG supply normalization precisely when European importers are pricing a clean post-war restart. Hormuz transit data released this week offered the most concrete supply-return evidence yet: <strong>93 vessels transited the Strait in the June 19–21 weekend alone</strong> versus 32 the prior weekend, with estimated flows reaching <strong>12 million barrels per day</strong> — still below pre-war levels but moving rapidly in that direction.",
+      "The Qatar Ras Laffan disaster is the most significant fresh supply-side surprise since the June 17 MOU, and it sits entirely outside the Iran–US diplomatic track. The facility — Qatar's primary LNG export hub and one of the world's largest, handling the majority of Qatar's 77 million tonnes per year of export capacity — was in the process of restarting operations after sustaining damage from Iranian missile strikes during the conflict. The June 21–22 explosion during that restart killed 13 workers and injured 66; Qatar's Energy Ministry stated that <strong>export capabilities remain unaffected</strong>, a claim markets are treating with cautious skepticism given that complex restarts are inherently prone to secondary failures. Dutch TTF natural gas futures spiked on news of the explosion; Henry Hub followed with the +0.96% gain visible in today's session. The broader implication runs deeper than a single session move: even as crude's diplomatic-driven decline accelerates, the LNG recovery track — which underpins European energy security assumptions for winter 2026 — carries independent operational risk that has not been fully priced. <em>Natural gas rising as oil falls is not a decorative divergence. It is a structural signal that the energy transition from war-disruption to normalcy is uneven and fragile.</em>",
+      "The diplomatic picture has evolved without resolving. UN nuclear chief Rafael Grossi said Wednesday that IAEA inspectors <strong>\"will\"</strong> visit Iran's nuclear facilities — a statement that, for the first time, introduced IAEA institutional authority into a dispute that had previously been a US–Iran public messaging fight. But Iran's position remains that nuclear inspections occur <strong>after a final deal</strong>, not during the current 60-day negotiation window. The gap between Grossi's statement and Tehran's framing may, paradoxically, be a narrowing: if both sides can characterise inspections as a post-deal deliverable while engineering a 'technical contact' visit in the near term, the public dispute could be managed without either side explicitly conceding. The Bürgenstock cancellation meanwhile has no confirmed rescheduling date. Yet the market is voting with its feet: the fact that Brent continued to fall through all of this week's diplomatic noise is the clearest signal yet that traders regard the commercial architecture — above all, the Treasury's 60-day general license expiring August 21 — as more load-bearing than the inspection timetable. Russia's deepening fuel crisis adds a distinct layer: the Kapotnya refinery, Moscow's primary regional fuel supplier, is now confirmed by Reuters as offline <strong>until at least 2027</strong> following repeated Ukrainian drone strikes, and more than 20% of Russia's total refining capacity has been destroyed — a structural constraint on the global refined-products market that persists regardless of what happens in Hormuz."
+    ],
+    "link_url": "https://www.npr.org/2026/06/24/g-s1-129770/iran-nuclear-inspection",
+    "link_text": "Read NPR",
+    "stats": [
+      { "num": "$69.47", "desc": "WTI — First Close Below $70 Since the Feb. 28 Conflict Began; Intraday Low $69.08; Prior Close $70.34" },
+      { "num": "−50%", "desc": "Brent's Decline From the ~$144 April War Peak — Most Complete Geopolitical Risk Premium Reversion in Modern Crude Market History" },
+      { "num": "13 / 66", "desc": "Workers Killed / Injured in Qatar Ras Laffan LNG Explosion (June 21–22); Restart Timeline Still Uncertain" },
+      { "num": "93", "desc": "Vessel Transits Through the Strait of Hormuz in the June 19–21 Weekend — vs. 32 the Prior Weekend; Flows ~12 mb/d" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Markets / Price Milestone",
+      "headline": "WTI Breaks Below $70 — Brent at $72.63 Nears Pre-War Close as Five-Week Peace Discount Fully Prices In",
+      "body": "West Texas Intermediate crude fell below <strong>$70 per barrel for the first time since the conflict began February 28</strong>, settling around $69.47 (−1.25% on the day; intraday low $69.08); Brent followed at <strong>$72.63 (−1.51%)</strong>. From Brent's April wartime peak of ~$144, the decline now reaches approximately <strong>50%</strong> — achieved in roughly six weeks of post-framework repricing. The Brent–WTI spread narrowed to approximately <strong>$3.16</strong>, from $3.84 on Wednesday, as WTI led the selloff in the US session. The move came without a discrete new catalyst: Hormuz transits continue to rise, the Treasury's 60-day general license remains in force, and the market is mechanically pricing supply return. The WTI $70 break is the most-watched round-number level of the post-war trade; its breach sets the stage for a test of the OPEC+ fiscal breakeven floor in the mid-to-upper $60s.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-06-24/latest-oil-market-news-and-analysis-for-june-25",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "LNG / Natural Gas",
+      "headline": "Qatar Ras Laffan Explosion Kills 13, Injures 66 — LNG Restart Timeline Uncertain; Henry Hub Firms 0.96%",
+      "body": "An explosion and fire at Qatar's Ras Laffan LNG complex — the world's largest — killed at least <strong>13 workers</strong> and injured <strong>66</strong> on June 21–22 during restart operations following war-related damage. Qatar's Energy Ministry stated that export capabilities remain unaffected, but the incident has undermined confidence in a clean timeline for LNG supply recovery. Dutch TTF natural gas futures spiked on news of the explosion; US Henry Hub rose <strong>0.96% to $3.25/MMBtu</strong> today, directly bucking crude's selloff. Ras Laffan handles the majority of Qatar's <strong>77 million tonnes of annual LNG export capacity</strong> — capacity that European importers have been counting on as a post-war alternative to Russian gas, and a key pillar of the IEA's supply recovery scenario through winter 2026. The 13 fatalities may also trigger operational safety reviews at other Gulf energy facilities resuming post-war operations.",
+      "link_url": "https://www.aljazeera.com/economy/2026/6/22/qatar-lng-factory-explosion-injures-54-leaves-18-missing-govt-says",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Russia / Refining",
+      "headline": "Moscow's Kapotnya Refinery Offline Until 2027 — Over 20% of Russian Refining Capacity Destroyed",
+      "body": "The Kapotnya oil refinery — Moscow's primary regional fuel supplier, responsible for more than a third of the capital region's refined fuel — was struck twice this month by Ukrainian drones and <strong>will not resume production until at least 2027</strong>, according to a Reuters report Wednesday. More than <strong>20% of Russia's total refining capacity</strong> has been knocked offline across the conflict; over two-thirds of Russia's 83 regions face fuel rationing or supply disruptions. Russian petroleum output runs approximately <strong>12% below last year's levels</strong>. Deputy Prime Minister Novak has signaled the government is considering a complete diesel export ban. The Kapotnya development reinforces the IEA's finding that global refinery throughput will fall roughly <strong>2 mb/d to 82 mb/d</strong> in 2026 — a structural constraint on how quickly falling crude prices translate into lower consumer fuel costs.",
+      "link_url": "https://www.themoscowtimes.com/2026/06/24/moscow-oil-refinery-unlikely-to-resume-production-until-2027-reuters-a93088",
+      "link_text": "Read Moscow Times"
+    },
+    {
+      "tag": "Hormuz / Shipping",
+      "headline": "93 Vessels Through Hormuz in One Weekend — Flows Hit 12 mb/d; 11,000 Seafarers Still Stranded",
+      "body": "Tanker traffic through the Strait of Hormuz surged dramatically over the June 19–21 weekend, with <strong>93 vessels transiting</strong> versus just <strong>32 the prior weekend</strong> (June 12–14); at least 39 additional transits were recorded on Monday, June 22. Estimated flows reached <strong>12 million barrels per day</strong> — up from a May low of 9.6 mb/d but still well below pre-war levels of 20+ mb/d. The Joint Maritime Information Center lowered its regional maritime threat level to <strong>\"moderate\"</strong> on June 18. However, Iranian mines remain in the Strait; the US mine-clearance operation is ongoing and Congress was previously told full clearance could take up to six months. The IMO is simultaneously coordinating the evacuation of more than <strong>11,000 stranded seafarers</strong> through Hormuz in cooperation with Iran, Oman, and the US.",
+      "link_url": "https://www.cnbc.com/2026/06/19/iran-oil-tanker-traffic-strait-hormuz-gulf-vlcc",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Iran / IAEA",
+      "headline": "UN Nuclear Chief Grossi Says IAEA Inspectors 'Will' Visit Iran — Tehran Says Only After a Final Deal",
+      "body": "UN nuclear chief Rafael Grossi said Wednesday that IAEA inspectors <strong>\"will\"</strong> visit Iran's nuclear facilities — the first public IAEA statement consistent with VP Vance's June 23 claim that Iran had agreed to inspections. However, Iran's position remains that inspections occur only <strong>after a final deal</strong> is concluded, not during the current 60-day MOU window. Grossi's formulation may offer a face-saving path: if both sides can characterise inspections as a post-deal deliverable while engineering a preliminary 'technical contact' in the near term, the public dispute could be managed without concessions. NPR's reporting frames the episode as a genuine gap in what the June 17 MOU actually commits each side to — a gap that the Bürgenstock implementation session, now canceled, was specifically designed to close.",
+      "link_url": "https://www.npr.org/2026/06/24/g-s1-129770/iran-nuclear-inspection",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "China / Demand",
+      "headline": "China Teapot Refiners at Lowest Throughput Since 2017 — IEA Sees Global Demand Down 1.1 mb/d Year-on-Year",
+      "body": "China's independent ('teapot') refineries have cut operations to their <strong>lowest levels since 2017</strong>, reflecting months of reduced crude availability during the Hormuz crisis and ongoing economic softness. The IEA's June 2026 Oil Market Report quantified the broader demand impact: global oil demand is down <strong>1.1 mb/d year-over-year</strong> in 2026, with Q2 deliveries approximately <strong>5 mb/d below</strong> the same period last year. OECD government stockpiles dropped <strong>163 million barrels</strong> to their lowest level since December 1990. The IEA projects global supply at <strong>102.4 mb/d in 2026</strong> — down 13.6 mb/d from pre-conflict levels. The teapot cutbacks are a critical near-term demand signal: as Iranian crude flows return and Gulf producers ramp, Chinese import appetite will determine whether supply return translates into sustained inventory builds or is absorbed by recovering demand.",
+      "link_url": "https://www.indexbox.io/blog/iea-crude-supply-could-recover-in-h2-2026-if-us-iran-peace-deal-reached/",
+      "link_text": "Read IndexBox / IEA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Ongoing — Resolution Path Unclear",
+      "name": "IAEA Nuclear Inspection Dispute — Can Grossi's 'Will Visit' Statement Bridge the US-Iran Gap Before August 21?",
+      "impact": "IAEA chief Grossi's Wednesday statement that inspectors 'will' visit Iran creates a potential face-saving path: if Iran quietly allows preliminary IAEA technical contact framed as a post-deal confidence-building step, both sides can maintain their public positions without a formal concession. But the structural gap — the US wants inspections as a concurrent measure; Iran treats them as a post-deal deliverable — has not been closed by a diplomatic text. Every week without a confirmed rescheduling of Bürgenstock adds incremental uncertainty about whether the June 17 MOU converts into binding treaty obligations before the Treasury's general license expires on August 21. Iran's warning on June 23 that exaggeration 'will destroy the agreement' remains on the record as the boundary condition.",
+      "market_impact": "Grossi-brokered preliminary access agreed: $1–2/bbl additional downside, restores deal-durability confidence. Dispute hardens publicly or Iran pauses exports: $4–6/bbl risk-premium snap-back within a session.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Assessment Ongoing — Restart Date TBD",
+      "name": "Qatar Ras Laffan Restart — Full Damage Assessment Follows June 21–22 Explosion",
+      "impact": "Qatar's Energy Ministry claims export capabilities are unaffected by the explosion, but markets are applying a skepticism discount typical of major industrial accidents. The damage assessment — expected over the next several days — is the key event. If structural integrity is confirmed and the restart proceeds on schedule, the natural gas risk premium fades quickly and the LNG track normalises alongside crude. If structural damage is found, or if a second incident occurs during the assessment phase, European TTF could spike materially and the IEA's H2 2026 energy security scenario would require upward revision. The 13 fatalities may trigger mandatory safety pauses at other Gulf LNG and petrochemical facilities resuming post-war operations — a broader operational risk that extends beyond Ras Laffan itself.",
+      "market_impact": "Clean damage assessment, restart on schedule: −$0.15–$0.20/MMBtu NG, removes risk bid. Structural damage confirmed or restart delayed to Q4: +$0.40–$0.80/MMBtu TTF spike; winter supply concern reignited.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing — Estimated 3–6 Month Full Clearance",
+      "name": "Hormuz Mine Clearance — Can Transit Flows Reach Pre-War Levels Without Complete Removal?",
+      "impact": "The 93-vessel June 19–21 weekend is compelling evidence of normalisation — but mines remain, and the US mine-clearance operation begun April 11 has an estimated 3–6 month timeline. In the interim, tankers navigate through marked corridors with war-risk insurance premiums still elevated; VLCC daily earnings at approximately $470,000 reflect genuine vessel scarcity and real cost friction for physical delivery even as futures prices slide. Sustained progress toward 15+ mb/d flow rates would represent functional normalisation and would be structurally bearish for front-month crude. A single mine-related tanker incident — even a minor one — would snap risk premium back sharply and re-rate Hormuz risk across all energy markets.",
+      "market_impact": "Flows sustain above 15 mb/d without incident over two weeks: incrementally bearish, $1–2/bbl per week of sustained progress. Mine-related tanker incident: $5–8/bbl risk-premium spike, structural re-rating of Hormuz risk.",
+      "risk": "High"
+    },
+    {
+      "date": "Decision Expected This Week",
+      "name": "Russia Diesel Export Ban — Novak's Signal Puts Global Refined-Product Markets on Notice",
+      "impact": "Deputy PM Novak's signal that Russia is 'considering a complete ban on diesel exports' has been reinforced by the Kapotnya-until-2027 news: Russia's domestic fuel situation is deteriorating faster than previously modelled. A full diesel export ban would remove significant supply from European, African, and Asian markets relying on Russian refined products through indirect channels — at a time when the IEA projects global refinery throughput to fall 2 mb/d to 82 mb/d in 2026. Unlike crude, where supply return is the dominant narrative, refined products face structural tightness that a Russian ban would materially worsen. The decision may come this week; if Novak acts, distillate crack spreads could widen sharply in the European and Asian markets most exposed.",
+      "market_impact": "Full diesel ban implemented: +$4–7/bbl distillate crack spread widening; import costs spike for European and Asian buyers. No ban: neutral; Russian fuel rationing remains a domestic story with modest global spill.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Early August",
+      "name": "OPEC+ August Ministerial — First Strategic Choice With Real Gulf Restart, Iranian Export, and Inventory Data",
+      "impact": "With Brent at $72.63 and WTI below $70, the August OPEC+ meeting is becoming the group's most consequential decision in years. The July increment (+188,000 bpd) is already locked; August is the first meeting with observable data on Gulf producer restart progress, Iranian export volumes under the Treasury license, and US and OECD inventory trajectories. Saudi Arabia's actual production — roughly 7 mb/d in recent months against a 10.29 mb/d OPEC+ quota — represents enormous latent supply. At $72 Brent, multiple Gulf producers are approaching fiscal breakeven; the price-floor logic that historically triggers Saudi signaling begins to activate near $70 WTI. Whether the Kingdom prioritises price defence or market-share recapture is the defining H2 2026 question.",
+      "market_impact": "Forward-looking anchor — August decision sets the H2 2026 price floor and Saudi market-share strategy through year-end; the closer Brent gets to $70, the more likely OPEC+ signals a pause.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Thursday's session delivered the number the market has been counting down toward since June 17: WTI below $70, Brent at $72.63, and the war premium that dominated this market for four months now approximately 50% erased. The symmetry is almost too clean — Brent at $144 in April, $72 in June — but the underlying dynamics are more complex than a round-number narrative suggests. <strong>The market is not simply unwinding a risk premium. It is also pricing a demand contraction.</strong> The IEA says global oil demand is running 1.1 mb/d below year-ago levels; China's teapot refiners at 2017-low throughput rates represent a demand-side drag that compounds the supply-return signal. The bullish tail is alive but requires a catalyst: the IAEA inspection dispute, Qatar Ras Laffan's uncertain restart, Russian diesel ban risk, and the ever-present mine risk in Hormuz all represent genuine upside scenarios that are not priced at current levels. <strong>Brent at $72.63 is not a risk-free environment. It is an environment in which the market has decided the dominant force is supply return — and is treating everything else as temporary noise.</strong>",
+      "<strong>My read on today:</strong> The market is telling us something important: even IAEA controversy, a Bürgenstock cancellation, and a deadly explosion at Qatar's LNG hub were not enough to arrest the crude decline. That is a bearish signal in its purest form — bad news doesn't move price anymore. When negative headlines fail to produce rallies in a declining market, it means the supply-return story has enough momentum that risk events are treated as temporary diversions rather than structural threats. The IAEA dispute is real and the Bürgenstock cancellation is genuinely unsettling — but the Treasury's 60-day general license through August 21 provides a commercial floor that does not depend on nuclear inspection timing. That commercial architecture, not diplomatic goodwill, is what the market is pricing. <em>The war premium is gone. What's pricing now is the pace of the supply return.</em>",
+      "<strong>The bigger picture:</strong> Russia's worsening fuel crisis and Qatar's LNG explosion are the two stories most likely to produce non-linear outcomes in energy markets over the next 30 days. A Russian full diesel export ban would be structurally bearish for refined-product crack spreads globally — particularly for European and Asian importers who have been routing around Russian fuel for months. Qatar's Ras Laffan, if damage is more extensive than the Energy Ministry claims, could spike European gas prices significantly ahead of winter storage-filling season. Neither event would reverse crude's trajectory, but both could produce sharp moves in adjacent energy markets that matter for consumer energy costs and for the broader IEA supply-recovery scenario. The war premium in crude is gone. The war's structural damage to global energy infrastructure is not.",
+      "My call: <strong>Brent consolidates in the $70–$75 range over the next several sessions</strong>, with the lower bound increasingly set by the OPEC+ fiscal breakeven logic — at $70 Brent, multiple Gulf producers operate below breakeven, and Saudi Arabia has both the incentive and the latent production capacity to stabilise. The natural gas trade is arguably more interesting: the Qatar risk premium may have further to run if Ras Laffan damage assessments disappoint, and European winter storage season begins in earnest next month. <strong>Oil's war premium is history. The implementation trade — mines, restarts, diplomatic plumbing — is what remains, and natural gas is where the next sharp move may come from.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing — Hormuz 12 mb/d; 93-Vessel Weekend", "tone": "neutral", "pct": 40 },
+      { "name": "Geopolitical Risk", "label": "Moderate — Qatar LNG, IAEA Gap, Mine Risk", "tone": "neutral", "pct": 42 },
+      { "name": "Demand Response", "label": "Weakening — China Teapots at 2017 Lows; IEA −1.1 mb/d", "tone": "bearish", "pct": 35 },
+      { "name": "Deal Durability", "label": "Holding — Treasury License Commercial Floor Intact", "tone": "bullish", "pct": 72 },
+      { "name": "Implementation Lag", "label": "Accelerating — Transit Surge; Flows Up From May Lows", "tone": "bearish", "pct": 65 },
+      { "name": "Spare-Capacity Buffer", "label": "Critically Low — SPR 331M bbl; OPEC+ Floor Logic Activating", "tone": "bearish", "pct": 16 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$70 – $75",
+      "bias": "Bias: Floor-Finding — OPEC+ Breakeven Support Activates Near $70; Tail Risk on Qatar/IAEA ▼▲"
+    },
+    "watch_levels": {
+      "resistance": "$75–$77",
+      "support": "$69–$71",
+      "breakout": ">$78 (Qatar Ras Laffan damage confirmed severe; IAEA dispute escalates to deal-threatening; mine incident in Hormuz)",
+      "breakdown": "<$68 (IAEA access quietly agreed, Bürgenstock rescheduled, Hormuz flows sustain above 15 mb/d, Russia no diesel ban)"
+    }
+  }
+}

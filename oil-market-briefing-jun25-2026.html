@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Thursday, June 25, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $72.63 ▼ -1.51% &nbsp;|&nbsp; WTI CRUDE $69.47 ▼ -1.25% — BELOW $70 FOR FIRST TIME SINCE CONFLICT BEGAN &nbsp;|&nbsp; NATURAL GAS $3.25 ▲ +0.96% — QATAR RAS LAFFAN EXPLOSION DRIVES RISK BID &nbsp;|&nbsp; BRENT -50% FROM APRIL WAR PEAK — WAR PREMIUM ESSENTIALLY ERASED &nbsp;|&nbsp; QATAR RAS LAFFAN LNG EXPLOSION: 13 DEAD, 66 INJURED — RESTART TIMELINE UNCERTAIN &nbsp;|&nbsp; KAPOTNYA REFINERY OFFLINE UNTIL 2027 — RUSSIA FUEL RATIONING IN TWO-THIRDS OF REGIONS &nbsp;|&nbsp; HORMUZ: 93 VESSELS IN ONE WEEKEND (JUN 19–21) — FLOWS HIT 12 MB/D; MINES STILL IN STRAIT &nbsp;|&nbsp; UN NUCLEAR CHIEF: IAEA INSPECTORS 'WILL' VISIT IRAN — TEHRAN SAYS ONLY AFTER FINAL DEAL&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Thursday, June 25, 2026<br>
+      Vol. XLII — No. 176<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$72.63</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$69.47</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$72.63</div>
+      <div class="price-change down">▼ −1.51% (approaching pre-war close; war premium ~50% erased)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$69.47</div>
+      <div class="price-change down">▼ −1.25% (below $70 for first time since Feb. 28 conflict began)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$3.25</div>
+      <div class="price-change up">▲ +0.96% (Qatar Ras Laffan explosion sustains LNG risk bid)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude Draw (Jun 19 wk)</div>
+      <div class="price-val">−3.9M bbl</div>
+      <div class="price-change down">▼ Third consecutive; next EIA report July 1 (wk ending Jun 26)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. 2026 War Peak</div>
+      <div class="price-val">−50%</div>
+      <div class="price-change down">▼ Off the ~$144 North Sea Dated April high; war premium near-fully erased</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Price Milestone: WTI Breaks Below $70 — Brent Nears Pre-War Close — Qatar Ras Laffan Explosion Keeps Natural Gas Risk Alive</div>
+      <h3>WTI Crude Falls Below $70 for the First Time Since the February Conflict Began — Brent at $72.63 Has Erased ~50% of the War Premium — Qatar LNG Disaster and Unresolved IAEA Dispute Complicate the Bearish Narrative</h3>
+      <p>Thursday delivered the price milestone oil traders have been watching since the June 17 MOU: West Texas Intermediate crude slipped below <strong>$70 per barrel for the first time since the conflict began on February 28</strong>, settling around <strong>$69.47 (−1.25%)</strong> as Brent fell to <strong>$72.63 (−1.51%)</strong> — a level that has erased approximately <strong>50% of the war premium</strong> that drove North Sea Dated crude to $144 in April. The reversion is extraordinary in pace and completeness. Six weeks after the first headlines of a framework deal and eight days after the June 17 MOU was signed, the crude market has essentially concluded that the peace architecture is durable enough to price supply normalisation — even as the IAEA inspection dispute festers and Bürgenstock implementation talks remain without a rescheduled date. Against crude's decline, <strong>natural gas moved sharply higher, rising 0.96% to $3.25/MMBtu</strong> — a divergence driven by the ongoing assessment of an explosion and fire at Qatar's Ras Laffan LNG complex on June 21–22 that killed at least <strong>13 workers</strong> and injured <strong>66</strong>, casting uncertainty over the pace of LNG supply normalization precisely when European importers are pricing a clean post-war restart. Hormuz transit data released this week offered the most concrete supply-return evidence yet: <strong>93 vessels transited the Strait in the June 19–21 weekend alone</strong> versus 32 the prior weekend, with estimated flows reaching <strong>12 million barrels per day</strong> — still below pre-war levels but moving rapidly in that direction.</p>
+      <p>The Qatar Ras Laffan disaster is the most significant fresh supply-side surprise since the June 17 MOU, and it sits entirely outside the Iran–US diplomatic track. The facility — Qatar's primary LNG export hub and one of the world's largest, handling the majority of Qatar's 77 million tonnes per year of export capacity — was in the process of restarting operations after sustaining damage from Iranian missile strikes during the conflict. The June 21–22 explosion during that restart killed 13 workers and injured 66; Qatar's Energy Ministry stated that <strong>export capabilities remain unaffected</strong>, a claim markets are treating with cautious skepticism given that complex restarts are inherently prone to secondary failures. Dutch TTF natural gas futures spiked on news of the explosion; Henry Hub followed with the +0.96% gain visible in today's session. The broader implication runs deeper than a single session move: even as crude's diplomatic-driven decline accelerates, the LNG recovery track — which underpins European energy security assumptions for winter 2026 — carries independent operational risk that has not been fully priced. <em>Natural gas rising as oil falls is not a decorative divergence. It is a structural signal that the energy transition from war-disruption to normalcy is uneven and fragile.</em></p>
+      <p>The diplomatic picture has evolved without resolving. UN nuclear chief Rafael Grossi said Wednesday that IAEA inspectors <strong>"will"</strong> visit Iran's nuclear facilities — a statement that, for the first time, introduced IAEA institutional authority into a dispute that had previously been a US–Iran public messaging fight. But Iran's position remains that nuclear inspections occur <strong>after a final deal</strong>, not during the current 60-day negotiation window. The gap between Grossi's statement and Tehran's framing may, paradoxically, be a narrowing: if both sides can characterise inspections as a post-deal deliverable while engineering a 'technical contact' visit in the near term, the public dispute could be managed without either side explicitly conceding. The Bürgenstock cancellation meanwhile has no confirmed rescheduling date. Yet the market is voting with its feet: the fact that Brent continued to fall through all of this week's diplomatic noise is the clearest signal yet that traders regard the commercial architecture — above all, the Treasury's 60-day general license expiring August 21 — as more load-bearing than the inspection timetable. Russia's deepening fuel crisis adds a distinct layer: the Kapotnya refinery, Moscow's primary regional fuel supplier, is now confirmed by Reuters as offline <strong>until at least 2027</strong> following repeated Ukrainian drone strikes, and more than 20% of Russia's total refining capacity has been destroyed — a structural constraint on the global refined-products market that persists regardless of what happens in Hormuz.</p>
+      <a href="https://www.npr.org/2026/06/24/g-s1-129770/iran-nuclear-inspection" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$69.47</div>
+        <div class="stat-desc">WTI — First Close Below $70 Since the Feb. 28 Conflict Began; Intraday Low $69.08; Prior Close $70.34</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−50%</div>
+        <div class="stat-desc">Brent's Decline From the ~$144 April War Peak — Most Complete Geopolitical Risk Premium Reversion in Modern Crude Market History</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">13 / 66</div>
+        <div class="stat-desc">Workers Killed / Injured in Qatar Ras Laffan LNG Explosion (June 21–22); Restart Timeline Still Uncertain</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">93</div>
+        <div class="stat-desc">Vessel Transits Through the Strait of Hormuz in the June 19–21 Weekend — vs. 32 the Prior Weekend; Flows ~12 mb/d</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Markets / Price Milestone</div>
+      <h4>WTI Breaks Below $70 — Brent at $72.63 Nears Pre-War Close as Five-Week Peace Discount Fully Prices In</h4>
+      <p>West Texas Intermediate crude fell below <strong>$70 per barrel for the first time since the conflict began February 28</strong>, settling around $69.47 (−1.25% on the day; intraday low $69.08); Brent followed at <strong>$72.63 (−1.51%)</strong>. From Brent's April wartime peak of ~$144, the decline now reaches approximately <strong>50%</strong> — achieved in roughly six weeks of post-framework repricing. The Brent–WTI spread narrowed to approximately <strong>$3.16</strong>, from $3.84 on Wednesday, as WTI led the selloff in the US session. The move came without a discrete new catalyst: Hormuz transits continue to rise, the Treasury's 60-day general license remains in force, and the market is mechanically pricing supply return. The WTI $70 break is the most-watched round-number level of the post-war trade; its breach sets the stage for a test of the OPEC+ fiscal breakeven floor in the mid-to-upper $60s.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-06-24/latest-oil-market-news-and-analysis-for-june-25" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">LNG / Natural Gas</div>
+      <h4>Qatar Ras Laffan Explosion Kills 13, Injures 66 — LNG Restart Timeline Uncertain; Henry Hub Firms 0.96%</h4>
+      <p>An explosion and fire at Qatar's Ras Laffan LNG complex — the world's largest — killed at least <strong>13 workers</strong> and injured <strong>66</strong> on June 21–22 during restart operations following war-related damage. Qatar's Energy Ministry stated that export capabilities remain unaffected, but the incident has undermined confidence in a clean timeline for LNG supply recovery. Dutch TTF natural gas futures spiked on news of the explosion; US Henry Hub rose <strong>0.96% to $3.25/MMBtu</strong> today, directly bucking crude's selloff. Ras Laffan handles the majority of Qatar's <strong>77 million tonnes of annual LNG export capacity</strong> — capacity that European importers have been counting on as a post-war alternative to Russian gas, and a key pillar of the IEA's supply recovery scenario through winter 2026. The 13 fatalities may also trigger operational safety reviews at other Gulf energy facilities resuming post-war operations.</p>
+      <a href="https://www.aljazeera.com/economy/2026/6/22/qatar-lng-factory-explosion-injures-54-leaves-18-missing-govt-says" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Russia / Refining</div>
+      <h4>Moscow's Kapotnya Refinery Offline Until 2027 — Over 20% of Russian Refining Capacity Destroyed</h4>
+      <p>The Kapotnya oil refinery — Moscow's primary regional fuel supplier, responsible for more than a third of the capital region's refined fuel — was struck twice this month by Ukrainian drones and <strong>will not resume production until at least 2027</strong>, according to a Reuters report Wednesday. More than <strong>20% of Russia's total refining capacity</strong> has been knocked offline across the conflict; over two-thirds of Russia's 83 regions face fuel rationing or supply disruptions. Russian petroleum output runs approximately <strong>12% below last year's levels</strong>. Deputy Prime Minister Novak has signaled the government is considering a complete diesel export ban. The Kapotnya development reinforces the IEA's finding that global refinery throughput will fall roughly <strong>2 mb/d to 82 mb/d</strong> in 2026 — a structural constraint on how quickly falling crude prices translate into lower consumer fuel costs.</p>
+      <a href="https://www.themoscowtimes.com/2026/06/24/moscow-oil-refinery-unlikely-to-resume-production-until-2027-reuters-a93088" class="read-link" target="_blank">Read Moscow Times →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Hormuz / Shipping</div>
+      <h4>93 Vessels Through Hormuz in One Weekend — Flows Hit 12 mb/d; 11,000 Seafarers Still Stranded</h4>
+      <p>Tanker traffic through the Strait of Hormuz surged dramatically over the June 19–21 weekend, with <strong>93 vessels transiting</strong> versus just <strong>32 the prior weekend</strong> (June 12–14); at least 39 additional transits were recorded on Monday, June 22. Estimated flows reached <strong>12 million barrels per day</strong> — up from a May low of 9.6 mb/d but still well below pre-war levels of 20+ mb/d. The Joint Maritime Information Center lowered its regional maritime threat level to <strong>"moderate"</strong> on June 18. However, Iranian mines remain in the Strait; the US mine-clearance operation is ongoing and Congress was previously told full clearance could take up to six months. The IMO is simultaneously coordinating the evacuation of more than <strong>11,000 stranded seafarers</strong> through Hormuz in cooperation with Iran, Oman, and the US.</p>
+      <a href="https://www.cnbc.com/2026/06/19/iran-oil-tanker-traffic-strait-hormuz-gulf-vlcc" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Iran / IAEA</div>
+      <h4>UN Nuclear Chief Grossi Says IAEA Inspectors 'Will' Visit Iran — Tehran Says Only After a Final Deal</h4>
+      <p>UN nuclear chief Rafael Grossi said Wednesday that IAEA inspectors <strong>"will"</strong> visit Iran's nuclear facilities — the first public IAEA statement consistent with VP Vance's June 23 claim that Iran had agreed to inspections. However, Iran's position remains that inspections occur only <strong>after a final deal</strong> is concluded, not during the current 60-day MOU window. Grossi's formulation may offer a face-saving path: if both sides can characterise inspections as a post-deal deliverable while engineering a preliminary 'technical contact' in the near term, the public dispute could be managed without concessions. NPR's reporting frames the episode as a genuine gap in what the June 17 MOU actually commits each side to — a gap that the Bürgenstock implementation session, now canceled, was specifically designed to close.</p>
+      <a href="https://www.npr.org/2026/06/24/g-s1-129770/iran-nuclear-inspection" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">China / Demand</div>
+      <h4>China Teapot Refiners at Lowest Throughput Since 2017 — IEA Sees Global Demand Down 1.1 mb/d Year-on-Year</h4>
+      <p>China's independent ('teapot') refineries have cut operations to their <strong>lowest levels since 2017</strong>, reflecting months of reduced crude availability during the Hormuz crisis and ongoing economic softness. The IEA's June 2026 Oil Market Report quantified the broader demand impact: global oil demand is down <strong>1.1 mb/d year-over-year</strong> in 2026, with Q2 deliveries approximately <strong>5 mb/d below</strong> the same period last year. OECD government stockpiles dropped <strong>163 million barrels</strong> to their lowest level since December 1990. The IEA projects global supply at <strong>102.4 mb/d in 2026</strong> — down 13.6 mb/d from pre-conflict levels. The teapot cutbacks are a critical near-term demand signal: as Iranian crude flows return and Gulf producers ramp, Chinese import appetite will determine whether supply return translates into sustained inventory builds or is absorbed by recovering demand.</p>
+      <a href="https://www.indexbox.io/blog/iea-crude-supply-could-recover-in-h2-2026-if-us-iran-peace-deal-reached/" class="read-link" target="_blank">Read IndexBox / IEA →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Ongoing — Resolution Path Unclear</td>
+        <td>
+          <div class="event-name">IAEA Nuclear Inspection Dispute — Can Grossi's 'Will Visit' Statement Bridge the US-Iran Gap Before August 21?</div>
+          <div class="event-impact">IAEA chief Grossi's Wednesday statement that inspectors 'will' visit Iran creates a potential face-saving path: if Iran quietly allows preliminary IAEA technical contact framed as a post-deal confidence-building step, both sides can maintain their public positions without a formal concession. But the structural gap — the US wants inspections as a concurrent measure; Iran treats them as a post-deal deliverable — has not been closed by a diplomatic text. Every week without a confirmed rescheduling of Bürgenstock adds incremental uncertainty about whether the June 17 MOU converts into binding treaty obligations before the Treasury's general license expires on August 21. Iran's warning on June 23 that exaggeration 'will destroy the agreement' remains on the record as the boundary condition.</div>
+        </td>
+        <td>Grossi-brokered preliminary access agreed: $1–2/bbl additional downside, restores deal-durability confidence. Dispute hardens publicly or Iran pauses exports: $4–6/bbl risk-premium snap-back within a session.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Assessment Ongoing — Restart Date TBD</td>
+        <td>
+          <div class="event-name">Qatar Ras Laffan Restart — Full Damage Assessment Follows June 21–22 Explosion</div>
+          <div class="event-impact">Qatar's Energy Ministry claims export capabilities are unaffected by the explosion, but markets are applying a skepticism discount typical of major industrial accidents. The damage assessment — expected over the next several days — is the key event. If structural integrity is confirmed and the restart proceeds on schedule, the natural gas risk premium fades quickly and the LNG track normalises alongside crude. If structural damage is found, or if a second incident occurs during the assessment phase, European TTF could spike materially and the IEA's H2 2026 energy security scenario would require upward revision. The 13 fatalities may trigger mandatory safety pauses at other Gulf LNG and petrochemical facilities resuming post-war operations — a broader operational risk that extends beyond Ras Laffan itself.</div>
+        </td>
+        <td>Clean damage assessment, restart on schedule: −$0.15–$0.20/MMBtu NG, removes risk bid. Structural damage confirmed or restart delayed to Q4: +$0.40–$0.80/MMBtu TTF spike; winter supply concern reignited.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing — Estimated 3–6 Month Full Clearance</td>
+        <td>
+          <div class="event-name">Hormuz Mine Clearance — Can Transit Flows Reach Pre-War Levels Without Complete Removal?</div>
+          <div class="event-impact">The 93-vessel June 19–21 weekend is compelling evidence of normalisation — but mines remain, and the US mine-clearance operation begun April 11 has an estimated 3–6 month timeline. In the interim, tankers navigate through marked corridors with war-risk insurance premiums still elevated; VLCC daily earnings at approximately $470,000 reflect genuine vessel scarcity and real cost friction for physical delivery even as futures prices slide. Sustained progress toward 15+ mb/d flow rates would represent functional normalisation and would be structurally bearish for front-month crude. A single mine-related tanker incident — even a minor one — would snap risk premium back sharply and re-rate Hormuz risk across all energy markets.</div>
+        </td>
+        <td>Flows sustain above 15 mb/d without incident over two weeks: incrementally bearish, $1–2/bbl per week of sustained progress. Mine-related tanker incident: $5–8/bbl risk-premium spike, structural re-rating of Hormuz risk.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Decision Expected This Week</td>
+        <td>
+          <div class="event-name">Russia Diesel Export Ban — Novak's Signal Puts Global Refined-Product Markets on Notice</div>
+          <div class="event-impact">Deputy PM Novak's signal that Russia is 'considering a complete ban on diesel exports' has been reinforced by the Kapotnya-until-2027 news: Russia's domestic fuel situation is deteriorating faster than previously modelled. A full diesel export ban would remove significant supply from European, African, and Asian markets relying on Russian refined products through indirect channels — at a time when the IEA projects global refinery throughput to fall 2 mb/d to 82 mb/d in 2026. Unlike crude, where supply return is the dominant narrative, refined products face structural tightness that a Russian ban would materially worsen. The decision may come this week; if Novak acts, distillate crack spreads could widen sharply in the European and Asian markets most exposed.</div>
+        </td>
+        <td>Full diesel ban implemented: +$4–7/bbl distillate crack spread widening; import costs spike for European and Asian buyers. No ban: neutral; Russian fuel rationing remains a domestic story with modest global spill.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Early August</td>
+        <td>
+          <div class="event-name">OPEC+ August Ministerial — First Strategic Choice With Real Gulf Restart, Iranian Export, and Inventory Data</div>
+          <div class="event-impact">With Brent at $72.63 and WTI below $70, the August OPEC+ meeting is becoming the group's most consequential decision in years. The July increment (+188,000 bpd) is already locked; August is the first meeting with observable data on Gulf producer restart progress, Iranian export volumes under the Treasury license, and US and OECD inventory trajectories. Saudi Arabia's actual production — roughly 7 mb/d in recent months against a 10.29 mb/d OPEC+ quota — represents enormous latent supply. At $72 Brent, multiple Gulf producers are approaching fiscal breakeven; the price-floor logic that historically triggers Saudi signaling begins to activate near $70 WTI. Whether the Kingdom prioritises price defence or market-share recapture is the defining H2 2026 question.</div>
+        </td>
+        <td>Forward-looking anchor — August decision sets the H2 2026 price floor and Saudi market-share strategy through year-end; the closer Brent gets to $70, the more likely OPEC+ signals a pause.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Thursday, June 25, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Thursday's session delivered the number the market has been counting down toward since June 17: WTI below $70, Brent at $72.63, and the war premium that dominated this market for four months now approximately 50% erased. The symmetry is almost too clean — Brent at $144 in April, $72 in June — but the underlying dynamics are more complex than a round-number narrative suggests. <strong>The market is not simply unwinding a risk premium. It is also pricing a demand contraction.</strong> The IEA says global oil demand is running 1.1 mb/d below year-ago levels; China's teapot refiners at 2017-low throughput rates represent a demand-side drag that compounds the supply-return signal. The bullish tail is alive but requires a catalyst: the IAEA inspection dispute, Qatar Ras Laffan's uncertain restart, Russian diesel ban risk, and the ever-present mine risk in Hormuz all represent genuine upside scenarios that are not priced at current levels. <strong>Brent at $72.63 is not a risk-free environment. It is an environment in which the market has decided the dominant force is supply return — and is treating everything else as temporary noise.</strong></p>
+        <p><strong>My read on today:</strong> The market is telling us something important: even IAEA controversy, a Bürgenstock cancellation, and a deadly explosion at Qatar's LNG hub were not enough to arrest the crude decline. That is a bearish signal in its purest form — bad news doesn't move price anymore. When negative headlines fail to produce rallies in a declining market, it means the supply-return story has enough momentum that risk events are treated as temporary diversions rather than structural threats. The IAEA dispute is real and the Bürgenstock cancellation is genuinely unsettling — but the Treasury's 60-day general license through August 21 provides a commercial floor that does not depend on nuclear inspection timing. That commercial architecture, not diplomatic goodwill, is what the market is pricing. <em>The war premium is gone. What's pricing now is the pace of the supply return.</em></p>
+        <p><strong>The bigger picture:</strong> Russia's worsening fuel crisis and Qatar's LNG explosion are the two stories most likely to produce non-linear outcomes in energy markets over the next 30 days. A Russian full diesel export ban would be structurally bearish for refined-product crack spreads globally — particularly for European and Asian importers who have been routing around Russian fuel for months. Qatar's Ras Laffan, if damage is more extensive than the Energy Ministry claims, could spike European gas prices significantly ahead of winter storage-filling season. Neither event would reverse crude's trajectory, but both could produce sharp moves in adjacent energy markets that matter for consumer energy costs and for the broader IEA supply-recovery scenario. The war premium in crude is gone. The war's structural damage to global energy infrastructure is not.</p>
+        <p>My call: <strong>Brent consolidates in the $70–$75 range over the next several sessions</strong>, with the lower bound increasingly set by the OPEC+ fiscal breakeven logic — at $70 Brent, multiple Gulf producers operate below breakeven, and Saudi Arabia has both the incentive and the latent production capacity to stabilise. The natural gas trade is arguably more interesting: the Qatar risk premium may have further to run if Ras Laffan damage assessments disappoint, and European winter storage season begins in earnest next month. <strong>Oil's war premium is history. The implementation trade — mines, restarts, diplomatic plumbing — is what remains, and natural gas is where the next sharp move may come from.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Easing — Hormuz 12 mb/d; 93-Vessel Weekend</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:40%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#f0a500">Moderate — Qatar LNG, IAEA Gap, Mine Risk</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:42%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#e05252">Weakening — China Teapots at 2017 Lows; IEA −1.1 mb/d</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:35%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Durability</span><span style="color:#5cb85c">Holding — Treasury License Commercial Floor Intact</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:72%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Implementation Lag</span><span style="color:#e05252">Accelerating — Transit Surge; Flows Up From May Lows</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:65%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">Critically Low — SPR 331M bbl; OPEC+ Floor Logic Activating</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:16%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$70 – $75</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Floor-Finding — OPEC+ Breakeven Support Activates Near $70; Tail Risk on Qatar/IAEA ▼▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$75–$77</span></div>
+            <div>🟢 Support: <span style="color:#fff">$69–$71</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$78 (Qatar Ras Laffan damage confirmed severe; IAEA dispute escalates to deal-threatening; mine incident in Hormuz)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$68 (IAEA access quietly agreed, Bürgenstock rescheduled, Hormuz flows sustain above 15 mb/d, Russia no diesel ban)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Thursday, June 25, 2026</span>
+  <span>Sources: Al Jazeera, The National, NPR, CNBC, Fox Business, Reuters, Bloomberg, OilPrice.com, IEA</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
