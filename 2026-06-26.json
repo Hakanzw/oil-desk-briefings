@@ -1,0 +1,156 @@
+{
+  "date_long": "Friday, June 26, 2026",
+  "date_slug": "jun26-2026",
+  "volume": "Vol. XLII — No. 177",
+  "dateline": "Dubai / London / New York",
+  "sources": "OilPrice.com, Reuters, Bloomberg, Al Jazeera, CNBC, EIA, AGA, NPR, GasBuddy, TradingEconomics",
+
+  "ticker": [
+    "BRENT CRUDE $74.43 ▼ -1.11% — DOWN ~4% ON THE WEEK",
+    "WTI CRUDE $71.26 ▼ -1.10% — RECOVERING ABOVE $70 AFTER THURSDAY LOWS",
+    "NATURAL GAS $3.22 ▼ -0.92% — QATAR RAS LAFFAN DAMAGE ASSESSMENT ONGOING",
+    "SAUDI RAS TANURA TERMINAL RESUMES OPERATIONS — VLLCS LOADING AT JU'AYMAH FOR FIRST TIME SINCE MARCH",
+    "HORMUZ: 93 VESSELS IN ONE WEEKEND (JUN 19–21) — FLOWS ~12 MB/D; MINES STILL IN STRAIT",
+    "CARGO SHIP STRUCK NEAR OMAN — BRIEF ~2% SPIKE BEFORE MARKET SELLS THE RALLY; CEASEFIRE HOLDS",
+    "US GAS PRICES FALL SIXTH STRAIGHT WEEK — JULY 4 AVERAGE STILL FORECAST $3.75/GAL (+65¢ YOY)",
+    "UK ENERGY SECRETARY VETOES NORTH SEA OIL BOOST FOR DEFENSE FUNDS — POLITICAL BATTLE FLARES"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$74.43", "change": "▼ −1.11% (down ~4% on the week; war premium ~48% erased)", "direction": "down" },
+    { "label": "WTI Crude", "value": "$71.26", "change": "▼ −1.10% (recovering above $70 after Thursday lows; weekly loss ~$3)", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.22", "change": "▼ −0.92% (easing from Qatar LNG risk bid; damage assessment ongoing)", "direction": "down" },
+    { "label": "EIA Crude Draw (Jun 19 wk)", "value": "−3.9M bbl", "change": "▼ Third consecutive weekly draw; next EIA report July 2 (wk ending Jun 26)", "direction": "down" },
+    { "label": "Brent vs. 2026 War Peak", "value": "−48%", "change": "▼ Off the ~$144 April North Sea Dated high; approaching full 50% reversion", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "Weekly Wrap — Supply Return Dominates: Ras Tanura Restarts, Hormuz Traffic Surges, Oman Incident Tests the Floor",
+    "headline": "Oil Posts a Fourth Consecutive Weekly Loss as Saudi Ras Tanura Resumes Exports and Hormuz Traffic Surges — Cargo Ship Strike Near Oman Provides a Fleeting Floor Before Markets Refocus on Supply Recovery",
+    "paragraphs": [
+      "The week that began with WTI below $70 and Brent at a two-month low ended with the most concrete evidence yet that the Gulf's post-ceasefire supply recovery is not merely a headline — it is a fact on the water. Saudi Aramco's <strong>Ras Tanura export terminal, idle since early March</strong>, resumed operations this week, with multiple VLCCs spotted loading crude at the Ju'aymah offshore buoys — the first tankers to take on Saudi crude at the Kingdom's primary Gulf terminal in nearly four months. Brent settled at <strong>$74.43 (−1.11%)</strong> on Friday, capping a week in which crude shed roughly <strong>4% from Monday's open</strong> as markets priced the systematic unwinding of the war premium. WTI settled around <strong>$71.26 (−1.10%)</strong>, hovering above the $70 threshold that Thursday's session briefly pierced. Against this backdrop, Friday produced a sharp intraday footnote: a <strong>cargo ship was struck by a projectile near Oman</strong>, triggering a brief ~2% spike in Brent before traders read the context — the ceasefire held, Iran denied involvement, and the vessel was not carrying crude — and reversed the move entirely. The incident was a vivid illustration of the new market psychology: <em>geopolitical noise without a direct supply implication is now being sold.</em>",
+      "The Ras Tanura resumption is the supply milestone the market has been waiting for. Saudi Aramco's actual production during the Hormuz closure ran <strong>roughly 7.7 mb/d below its OPEC+ quota of 10.29 mb/d</strong> as loading and export operations were suspended. The terminal's return changes the physical equation: Gulf producers can now actually move crude, not merely lift OPEC+ quotas on paper. Iraq, Kuwait, and Iran are simultaneously ramping export operations as stranded tankers clear Hormuz. An ING analyst note captured the transition plainly: <em>\"Once the vessels now moving through the Strait have cleared the backlog queue, the structural flow rate — not the surge — will tell us what this market is actually worth.\"</em> That reckoning arrives with the <strong>July 2 EIA weekly report</strong>, the first to capture post-reopening US crude import data for the week ending June 26. Three consecutive draws totaling over 10 million barrels kept the bearish narrative partly restrained; if July 2 shows the first material build, the downside case for Brent toward $70 accelerates significantly.",
+      "Hormuz transit data for the June 19–21 weekend confirmed 93 vessel transits — nearly three times the 32 recorded the prior weekend — with estimated flows reaching <strong>12 million barrels per day</strong>. The recovery is real but incomplete: pre-war Hormuz flows ran at approximately <strong>20 mb/d</strong>, covering roughly one-fifth of global seaborne oil. Iranian mines remain in the Strait; the US mine-clearance operation begun April 11 carries an estimated 3–6 month full clearance timeline, meaning physical recovery will be staged across the remainder of 2026. This combination — surging near-term transit, persistent mine risk, unresolved IAEA nuclear inspection dispute, and the Treasury general license expiring <strong>August 21</strong> — constitutes the market's live risk register. <strong>Natural gas tells a separate story</strong>: Henry Hub eased 0.92% to $3.22/MMBtu on Friday, but Qatar's Ras Laffan damage assessment is still ongoing, and any structural damage findings at the world's largest LNG complex would rapidly reverse the risk bid that has supported the complex since the June 21–22 explosion."
+    ],
+    "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Heads-for-Weekly-Loss-as-Hormuz-Tanker-Traffic-Rebounds.html",
+    "link_text": "Read OilPrice.com",
+    "stats": [
+      { "num": "~4%", "desc": "Brent's Weekly Decline — Post-Ceasefire Supply Return Now Fully Priced Into the Futures Strip" },
+      { "num": "93", "desc": "Vessel Transits Through Hormuz in the June 19–21 Weekend — Nearly 3× the 32 Recorded the Prior Weekend" },
+      { "num": "$3.75", "desc": "GasBuddy Forecast for US National Gasoline Average on July 4 — Second-Highest on Record; 65¢ Above Last Year" },
+      { "num": "First", "desc": "VLCC Loaded at Ras Tanura Since Early March — Saudi Arabia's Primary Gulf Export Terminal Back in Operation" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Markets / Weekly",
+      "headline": "Oil Posts Fourth Consecutive Weekly Loss — Brent Down ~4% as Hormuz Tanker Traffic Surges and Supply Return Is Priced In",
+      "body": "Crude prices extended their post-ceasefire decline to a fourth consecutive week, with Brent settling around <strong>$74.43 (−1.11%)</strong> and WTI at approximately <strong>$71.26 (−1.10%)</strong> on Friday. From Brent's April wartime peak of approximately $144, the decline now reaches <strong>~48%</strong> — the most dramatic and rapid unwinding of a geopolitical risk premium in modern crude market history. The weekly loss came despite a mid-session spike triggered by a cargo ship strike near Oman; the reversal was swift and complete, as traders judged the incident outside the ceasefire's core diplomatic track. The ING analyst assessment frames the near-term question: once the stranded vessel backlog clears Hormuz, the <em>structural</em> flow rate — not the initial surge — governs the price path forward. The market has decisively answered whether it believes the June 17 MOU is durable.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Heads-for-Weekly-Loss-as-Hormuz-Tanker-Traffic-Rebounds.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Supply / Milestone",
+      "headline": "Saudi Ras Tanura Roars Back: First VLCCs Load at Ju'aymah Since March — Gulf Export Infrastructure Returns",
+      "body": "In the most concrete supply milestone of the post-ceasefire period, Saudi Aramco's <strong>Ras Tanura export terminal resumed operations</strong> this week, with multiple Very Large Crude Carriers loading at the Ju'aymah offshore buoys for the first time since early March. Ras Tanura is Saudi Arabia's largest Gulf terminal. The resumption does not instantly translate into barrels at refineries — VLCCs take 20–35 days to reach Asia or Europe — but it confirms the physical supply chain is restoring faster than pessimistic models projected. Iraq, Kuwait, and Iran have simultaneously resumed or accelerated export operations as the Strait of Hormuz clears. Middle East fuel oil exports are separately forecast to hit a <strong>four-month high</strong> in coming weeks, providing a leading indicator for crude recovery: fuel oil clears shorter transits first, crude throughput follows within weeks.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Major-Saudi-Oil-Terminal-Roars-Back-to-Life-as-Gulf-Supply-Recovery-Accelerates.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Geopolitical",
+      "headline": "Cargo Ship Struck Near Oman — Brief ~2% Brent Spike Sold Immediately; Market Signals War-Premium Removal Is Complete",
+      "body": "A <strong>cargo vessel was struck by a projectile near Oman</strong> on Friday, triggering a brief but sharp ~2% spike in Brent crude as traders assessed whether the incident represented a ceasefire escalation. Iran denied involvement; the vessel was not a crude tanker and carried no energy cargo. The ceasefire framework remained intact. The market's response — spike, then complete reversal within hours — is itself the most significant signal of the session: the risk-premium overlay that would have amplified any Gulf incident into a sustained multi-day rally during the conflict period has been effectively removed. <em>The market is treating the ceasefire as the dominant narrative and near-term incidents as noise.</em> The incident nonetheless underscores that mine risk and non-state actor activity in the Arabian Sea remain live dimensions of the region's security profile, and that any future event directly implicating Iran or crude flows would behave very differently.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Heads-for-Weekly-Loss-as-Hormuz-Tanker-Traffic-Rebounds.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Consumer / Gasoline",
+      "headline": "US Gas Prices Fall for Sixth Straight Week — But July 4 National Average Still Forecast at $3.75/Gallon, 65¢ Above Last Year",
+      "body": "US retail gasoline prices have declined for <strong>six consecutive weeks</strong> as crude's post-ceasefire retracement filters through to the pump — the longest sustained decline since 2022. But the relief is incomplete: GasBuddy forecasts a <strong>national average of $3.75 per gallon on July 4</strong>, which would be the second-highest Independence Day pump price on record and <strong>65 cents above last year</strong>. The gap between crude's dramatic retracement and retail fuel prices reflects the structural lag in downstream markets and the ongoing constraint from refinery throughput — the IEA projects global refinery throughput at <strong>82 mb/d in 2026</strong>, down 2 mb/d from pre-conflict levels, including the lasting impact of destroyed Russian refining capacity. Consumers will feel the war's energy cost well into the summer driving season even as crude futures approach pre-conflict levels.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Gas-Prices-Are-Falling-Your-July-4-Fill-Up-Still-Wont-Feel-Cheap.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Politics / UK",
+      "headline": "UK Energy Secretary Vetoes Plan to Increase North Sea Oil Output for Defense Spending — Energy vs. Security Battle Intensifies",
+      "body": "UK Energy Secretary <strong>Ed Miliband rejected a Treasury proposal</strong> to expand North Sea drilling to generate revenue earmarked for defense spending — a decision that has reignited political tensions between the UK's net-zero commitments and its defense funding demands. The Treasury argument: additional hydrocarbon extraction could generate billions of pounds in licensing fees and tax receipts at a time when NATO commitments strain government finances. Miliband's counter: domestic oil output has a multi-year lead time, cannot close a near-term defense funding gap, and would compromise the UK's energy transition credibility. The veto marks a significant political flashpoint at the intersection of two of Europe's most pressing policy debates — energy security and defense spending — and is being watched closely by other European governments navigating the same tradeoffs in a post-conflict energy landscape.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Energy-Secretary-Vetoed-Plan-to-Boost-Oil-Output-for-Defense-Funds.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Trade / Flows",
+      "headline": "Middle East Fuel Oil Exports Set for Four-Month High — War-Risk Insurance Premiums Begin to Decline as Hormuz Conditions Improve",
+      "body": "Regional fuel oil exports from the Middle East are forecast to reach their <strong>highest levels in four months</strong> in coming weeks as Hormuz shipping conditions improve and war-risk insurance premiums for tanker operators begin to decline meaningfully. The export surge reflects two simultaneous forces: producers physically able to move product again through a reopening Strait, and a risk-premium reduction that makes Gulf shipments economically viable for charterers who had been routing cargoes around the Arabian Sea or paying premium rates. VLCC daily earnings remain elevated at approximately <strong>$470,000</strong> — well above pre-conflict norms — but the trajectory is unambiguously lower. Fuel oil exports are a leading indicator for crude: <em>fuel oil moves before crude in recovery dynamics</em> because it clears on shorter transits; the crude volume follow-through is measured in weeks, not days, and the July–August loading programs now in the market will tell the full story.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Fuel-Oil-Exports-Set-to-Hit-Four-Month-High.html",
+      "link_text": "Read OilPrice.com"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "July 2",
+      "name": "EIA Weekly Petroleum Status Report — First Post-Reopening Inventory Signal (Week Ending June 26)",
+      "impact": "The July 2 EIA report captures the first full week of post-Hormuz-reopening US crude import data — the most important fundamental data point since the June 17 MOU. Three consecutive weekly crude draws kept the bearish narrative partly restrained; if July 2 shows the first material build, it confirms Gulf supply is arriving in quantity and removes the last friction from the downside case. A build of 4+ million barrels would be structurally bearish and test Brent's $70 support. A fourth consecutive draw would force analysts to revise the supply-return timeline upward and add modest near-term support. The report releases at 10:30 AM EST Wednesday and is the decisive event for crude direction over the next week.",
+      "market_impact": "Build >4M bbl: $2–3/bbl downside, tests $70 WTI. Fourth consecutive draw: $1–2/bbl support, delays bearish inventory confirmation.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing — 3–6 Month Full Clearance Est.",
+      "name": "Hormuz Mine Clearance and Transit Normalization — Oman Vessel Incident Adds Complexity",
+      "impact": "The US mine-clearance operation begun April 11 has an estimated 3–6 month full clearance timeline — a structural constraint keeping war-risk insurance elevated and transit costs above pre-conflict levels even as flows recover toward 12 mb/d. Friday's cargo ship strike near Oman, while seemingly unrelated to the ceasefire, is a reminder that the Arabian Sea security environment has not fully normalized. The operational question: can Hormuz flows reach and sustain 15 mb/d or more — the threshold for functional normalization — before the backlog of stranded vessels clears? If the initial transit surge fades as the backlog clears, as ING analysts warn, structural recovery could be slower than this week's headline flows suggest.",
+      "market_impact": "Sustained flows >15 mb/d confirmed over two consecutive weeks: incrementally bearish, $1–2/bbl per week of sustained progress. Confirmed mine-related or Iranian incident: $5–8/bbl spike, structural risk-premium re-rating.",
+      "risk": "High"
+    },
+    {
+      "date": "Assessment Ongoing — Result Expected Days",
+      "name": "Qatar Ras Laffan Structural Damage Assessment — LNG Recovery Track Separate From Crude",
+      "impact": "Qatar's Energy Ministry asserted that the June 21–22 explosion at Ras Laffan did not affect export capabilities, but structural engineering assessments at facilities of this complexity typically reveal secondary damage not visible in the immediate aftermath. The assessment result — expected within days — is the key event for natural gas markets. A clean confirmation allows Henry Hub to resume its pre-war pricing trajectory; structural damage findings would spike European TTF significantly and reignite winter 2026 LNG supply adequacy concerns. The natural gas complex is currently operating on an uneasy assumption that the Ministry's initial statement is accurate. Any revision to that assessment would produce a sharp, non-linear move in NG prices — and would represent the first independent supply disruption of the post-ceasefire energy landscape.",
+      "market_impact": "Clean assessment, restart confirmed: −$0.10–$0.20/MMBtu NG, natural gas risk bid fades. Structural damage or restart delay: +$0.35–$0.70/MMBtu TTF spike; European winter supply concern reignited.",
+      "risk": "High"
+    },
+    {
+      "date": "Early August",
+      "name": "OPEC+ August Ministerial — Pricing Floor vs. Market-Share Math at $74 Brent",
+      "impact": "With Brent at $74.43 and WTI at $71.26, multiple Gulf producers are operating at or approaching fiscal breakeven. Saudi Arabia's fiscal breakeven is estimated at approximately $70–$75/bbl; Kuwait and Bahrain are already below. The August OPEC+ meeting — the first with observable data on Gulf producer restart volumes, Iranian export recovery under the Treasury license, and US inventory trajectory — is the most consequential scheduled event for H2 2026 crude pricing. The question is whether Saudi Arabia defends the price floor by signaling a pause or reversal of output increases, or accepts lower prices to maximize market share as Gulf capacity restores. Brent below $70 for more than a week would almost certainly trigger a Saudi signal; the August meeting is where that signal becomes formal policy.",
+      "market_impact": "Saudi signals production pause: $3–5/bbl floor defense, OPEC+ anchors $70 WTI. Kingdom presses output to recapture share: incrementally bearish, tests toward $65–$67 Brent.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Decision Expected — Novak Signal on Record",
+      "name": "Russia Diesel Export Ban — Global Refined-Product Tightness If Novak Acts",
+      "impact": "Russia's Deputy PM Alexander Novak has signaled the government is 'considering a complete ban on diesel exports' as Russia's domestic fuel crisis deepens: the Kapotnya refinery is offline until at least 2027, more than 20% of Russia's total refining capacity has been destroyed by Ukrainian strikes, and two-thirds of Russian regions face fuel rationing. A full diesel export ban would remove significant supply from European, African, and Asian markets at a time when global refinery throughput is already running 2 mb/d below pre-conflict levels. Unlike crude — where supply return is the dominant narrative — refined products face genuine structural tightness that a Russian ban would materially worsen. If Novak acts, European and Asian diesel crack spreads could widen sharply, complicating the narrative that the war's energy impact is neatly resolving.",
+      "market_impact": "Full diesel ban: +$4–7/bbl distillate crack spread widening; European and Asian diesel import costs spike materially. No ban: neutral; domestic Russian fuel shortages remain largely contained.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Friday's close draws a line under the most dramatic week in post-war crude pricing: <strong>Brent at $74.43, WTI at $71.26</strong>, and the war premium that ruled this market for four months now approximately <strong>48% erased</strong>. The Saudi Ras Tanura resumption is the data point of the week — not a press release or a diplomatic statement, but a VLCC at a loading buoy taking on crude for the first time since March. When the world's largest oil exporter puts physical barrels on tankers again after a three-month halt, the market has no choice but to price it. And it has. What's equally notable is what Friday's Oman vessel incident tells us: in any week from March to May, a ship strike in the Arabian Sea would have sent crude sharply higher and held it there. Today, the move was fully reversed within hours. The geopolitical risk premium is gone. The market is in supply-return mode.",
+      "<strong>My read on Friday:</strong> The immediate question is what the July 2 EIA report says. Three consecutive crude draws kept the bearish narrative partly in check; a first material build confirms that Gulf barrels are arriving at US shores. If the week ending June 26 shows a build of 4+ million barrels, Brent's $70 support becomes the next live test. If it shows a fourth draw — still possible, given that Ras Tanura only just restarted and VLCC transit times to the US are 20–35 days — the downside is more gradual but remains the directional bias. <em>The market is not trying to find the bottom. It is pricing a structural return of supply with rational patience.</em> The Oman incident today was the market's chance to flinch — and it didn't. That tells you everything about where sentiment sits.",
+      "<strong>The bigger picture:</strong> Two structural forces now compete for the post-war crude narrative. The bearish case — Ras Tanura back, Hormuz flowing, Iranian crude on the market, OPEC+ quotas being restored — is winning decisively on near-term price action. The bullish tail — unresolved IAEA dispute, mine risk in Hormuz, Qatar LNG uncertainty, Russia diesel ban risk, and the ever-present possibility of a ceasefire wobble before August 21 — is not being priced. That asymmetry matters. <strong>At $74 Brent, the market is offering almost no insurance against scenarios where the supply return stalls or reverses.</strong> Whether that is rational pricing of a durable diplomatic architecture or collective complacency is the judgment call every crude trader has to make heading into the weekend.",
+      "My call: <strong>Brent tests the $70–$72 range over the next 1–2 weeks</strong> as the July 2 EIA report is likely to show the first meaningful crude builds as Gulf imports begin to arrive. The floor — set by OPEC+ fiscal breakeven logic and Saudi Arabia's demonstrated capacity to signal — sits near <strong>$70 WTI / $73 Brent</strong>. A break below that floor requires either an OPEC+ surprise or a genuinely large EIA build. Above the current range, any escalation in the IAEA dispute, a mine incident in Hormuz, or a Qatar damage-assessment disappointment could briefly reverse 2–3 weeks of decline in a single session. <strong>Sell the geopolitical spikes; respect the OPEC+ floor — and watch the July 2 EIA report above all else this week.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing Fast — Ras Tanura Back; Hormuz 12 mb/d", "tone": "neutral", "pct": 26 },
+      { "name": "Geopolitical Risk", "label": "Moderate — Oman Incident; IAEA Gap; Mine Risk", "tone": "neutral", "pct": 38 },
+      { "name": "Demand Response", "label": "Weakening — China Teapots at 2017 Lows; US −3% YoY", "tone": "bearish", "pct": 30 },
+      { "name": "Deal Durability", "label": "Stable — Treasury License Through Aug 21 Intact", "tone": "bullish", "pct": 74 },
+      { "name": "Implementation Progress", "label": "Accelerating — Ras Tanura First Load; Fuel Oil Exports Rising", "tone": "bearish", "pct": 76 },
+      { "name": "OPEC+ Pricing Power", "label": "Testing — Approaching Fiscal Breakeven; Aug Decision Near", "tone": "bearish", "pct": 20 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$70 – $76",
+      "bias": "Bias: Sideways to Lower — EIA Build Risk; OPEC+ Floor Near $70 WTI ▼"
+    },
+    "watch_levels": {
+      "resistance": "$76–$78",
+      "support": "$70–$72",
+      "breakout": ">$80 (Oman attack confirmed escalation; IAEA dispute hardens into export pause; Qatar Ras Laffan structural damage found)",
+      "breakdown": "<$68 (July 2 EIA shows 5M+ bbl build; Hormuz flows sustain above 16 mb/d; OPEC+ signals output acceleration)"
+    }
+  }
+}
