@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Monday, June 29, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $72.35 ▲ +0.43% — RECOVERING FROM FRIDAY'S $71.99 MULTI-MONTH LOW &nbsp;|&nbsp; WTI CRUDE $69.97 ▲ +0.98% — BELOW $70 THRESHOLD; 52-WEEK LOW $68.86 HIT JUNE 26 &nbsp;|&nbsp; NATURAL GAS $3.12 ▼ −0.6% — QATAR RAS LAFFAN RISK BID FADING; SUMMER DEMAND ADEQUATE &nbsp;|&nbsp; TREASURY SANCTIONS WAIVER DAY 3: ASIAN REFINERS LOCKING IRANIAN CRUDE CARGOES AT SCALE &nbsp;|&nbsp; VP VANCE OPENS PHASE-2 IRAN TALKS IN GENEVA — IAEA, PERMANENT CEASEFIRE ON AGENDA &nbsp;|&nbsp; HORMUZ: FLOWS NEAR 13 MB/D AS TRANSIT VOLUMES RECOVER; MINE-CLEARANCE PACE CONFIRMED &nbsp;|&nbsp; JULY 2 EIA REPORT IS WEEK'S PIVOTAL DATA EVENT — FIRST POST-REOPENING GULF IMPORT SIGNAL &nbsp;|&nbsp; OPEC+ AUGUST MEETING STAKES GROW AS BRENT APPROACHES RIYADH'S ~$70–75/BBL FISCAL FLOOR&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Monday, June 29, 2026<br>
+      Vol. XLII — No. 179<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$72.35</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$69.97</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$72.35</div>
+      <div class="price-change up">▲ +0.43% (recovering from $71.99 Friday multi-month low; within 1.5% of pre-war Feb 27 baseline)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$69.97</div>
+      <div class="price-change up">▲ +0.98% (first close below $70 since before the war; 52-wk low $68.86 set Jun 26)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$3.12</div>
+      <div class="price-change down">▼ −0.6% (Qatar risk bid fading; summer supply adequate; EIA STEO H2 avg $3.34)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude Draw (wk Jun 19)</div>
+      <div class="price-val">−3.9M bbl</div>
+      <div class="price-change down">▼ Third consecutive weekly draw; Jul 2 EIA (wk Jun 26) is next decisive catalyst</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. 2026 War Peak</div>
+      <div class="price-val">−49.5%</div>
+      <div class="price-change down">▼ Off the ~$144 April North Sea Dated high — near full pre-war reversion</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">Floor Watch — WTI Drops Below $70 for First Time Since Before the War as Post-Waiver Market Hunts a Bottom</div>
+      <h3>WTI Touches $69.97 as Iranian Barrels Accelerate Under New Treasury Waiver — Brent Steadies at $72.35 Ahead of Wednesday's Decisive EIA Report</h3>
+      <p>West Texas Intermediate slipped to <strong>$69.97</strong> in Monday trading — the first sub-$70 close since before the war began on February 28 — before recovering modestly to end the session with a small gain. Brent, meanwhile, stabilized at <strong>$72.35 (+0.43%)</strong>, recovering from Friday's $71.99 multi-month low. Both benchmarks are attempting a tentative floor after the sharpest post-crisis selloff in modern memory: from the North Sea Dated war peak of ~$144 in April to today's prints represents a near-50% collapse in roughly ten weeks. Today's modest bounce is less a conviction rally and more a pause — the market catching its breath while it waits for two catalysts that will determine whether $68–$70 Brent holds or breaks: Wednesday's EIA inventory data and the pace of VP Vance's Geneva negotiations.</p>
+      <p>The most consequential structural development of the past 72 hours is one that makes few headlines precisely because it is working as intended: <strong>Treasury Secretary Bessent's 60-day sanctions waiver</strong>, now three days in operation, is delivering its designed effect. Asian refiners — Chinese teapot operators, Indian state buyers, South Korean processors — that were running legally cautious models on Iranian crude exposure are now ordering at scale. Iranian pre-war export capacity ran approximately <strong>1.7 mb/d</strong>; with the legal barrier removed and the ceasefire holding, Iran's fields are restarting faster than the most optimistic base-case projections from two weeks ago. The 60-day window creates a buyer incentive to front-load purchases before August 21, meaning Iranian crude is not trickling back into the market — it is surging back, priced by sellers who know buyers are motivated. <em>That dynamic is the dominant gravity pulling crude toward the $65–$70 range over the next four to six weeks.</em></p>
+      <p>VP Vance opened Phase-2 talks in Geneva Monday with an agenda that markets are watching as closely as any inventory data: <strong>IAEA nuclear inspection protocols, Iranian reconstruction funding commitments, and a permanent ceasefire framework</strong>. The significance for oil is not sentimental. The August 21 Treasury waiver expiry is the next major binary event on the calendar, and its resolution — extension, conversion to permanent removal, or lapse — depends directly on the progress made in Geneva over the coming weeks. A permanent ceasefire before August 21 converts the waiver into a moot point and signals full, indefinite Iranian crude market access; a lapse forces Iranian barrels off global markets and partially reverses the supply recovery. <strong>Vance in Geneva is the single most consequential policy variable for crude direction in July and August</strong> — not the July OPEC+ output hike, not the EIA weekly print, and not Saudi OSP announcements. The treaty determines whether $70 Brent is a floor or a ceiling.</p>
+      <a href="https://www.nbcnews.com/business/energy/oil-prices-hormuz-sanctions-waiver-rcna351144" class="read-link" target="_blank">Read NBC News →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$69.97</div>
+        <div class="stat-desc">WTI's Monday Price — First Sub-$70 Settlement Since Before the February 28 War; Brent $72.35 Holds</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Day 3 of 60</div>
+        <div class="stat-desc">Bessent's Sanctions Waiver Operational; Asian Refiners Locking Iranian Crude Cargoes at Scale</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~13 mb/d</div>
+        <div class="stat-desc">Estimated Hormuz Transit Flows Monday — Up From Near-Zero at the War Peak; Pre-War Was ~20 mb/d</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">July 2</div>
+        <div class="stat-desc">Date of Next EIA Weekly Status Report (Wk Ending Jun 26) — First With Potential Post-Reopening Gulf Import Data</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Sanctions / Policy</div>
+      <h4>Waiver Day 3: Asian Refiners Move to Lock Iranian Crude as Legal Barrier Lifts — August 21 Becomes the Market's New Clock</h4>
+      <p>The 60-day general sanctions waiver announced Saturday by Treasury Secretary Scott Bessent — covering third-party purchases of Iranian crude — entered its third operational day Monday with early evidence of the intended effect: Asian refinery buyers are accelerating Iranian crude orders that had been suppressed by secondary-sanctions exposure. Chinese teapot refineries, Indian state-owned buyers, and South Korean processors all face the same incentive: front-load purchases within the 60-day window before August 21, when the waiver expires or is converted. Iran's pre-war export capacity ran approximately <strong>1.7 mb/d</strong>; physical field restarts are tracking ahead of conservative base-case scenarios from mid-June. <em>The buyer incentive to front-load and the seller incentive to price competitively while the window is open creates a temporary but powerful surge dynamic.</em> August 21 is now the market's dominant medium-term calendar risk: extension or treaty conversion is the base case and bearish for price; lapse with IAEA dispute unresolved would be the year's largest remaining upside catalyst.</p>
+      <a href="https://www.nbcnews.com/business/energy/oil-prices-hormuz-sanctions-waiver-rcna351144" class="read-link" target="_blank">Read NBC News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Diplomacy</div>
+      <h4>Vance Opens Geneva Phase-2 Talks on IAEA Inspections and Permanent Ceasefire — Oil Market Watches August 21 Countdown</h4>
+      <p>Vice President JD Vance opened second-phase Iran negotiations in Geneva Monday, with the agenda centered on the three unresolved pillars the June 17 MOU left for this track: IAEA nuclear inspection protocols, Iranian reconstruction funding, and the architecture of a permanent ceasefire. For crude traders, the Geneva process is not diplomatic backdrop — it is the primary variable governing whether the August 21 Treasury waiver expiry results in permanent sanctions removal or a market-disrupting lapse. <strong>A treaty signed before August 21 converts the waiver into a permanent condition and unlocks indefinite Iranian crude market access</strong> — the most bearish price outcome on the remaining calendar. A breakdown in Geneva that blocks treaty progress forces the administration to choose between extending the waiver or accepting sanctions re-imposition; either decision arrives as a major market binary event. <em>Vance's physical presence in Geneva — the second most senior US official deployed to the Switzerland track — signals White House confidence that a permanent agreement is achievable within weeks.</em></p>
+      <a href="https://www.aljazeera.com/news/2026/6/25/oil-prices-back-to-pre-war-levels-on-rising-middle-east-supply" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Supply / Hormuz</div>
+      <h4>Hormuz Flows Near 13 mb/d as Transit Volumes Build — Structural Rate vs. Backlog Flush Is the Question for July</h4>
+      <p>Strait of Hormuz transit flows held near <strong>13 mb/d Monday</strong>, reflecting the ongoing normalization of routing economics after the conflict that choked the strait from early March through mid-June. The rapid increase from near-zero conflict-period levels reflects two overlapping dynamics: clearing of the vessel backlog that had diverted to the longer Cape of Good Hope route, and genuine new routings as operators recalibrate their war-risk insurance arithmetic. Saudi Aramco's Ras Tanura terminal — which resumed VLCC loadings for the first time since early March just last week — has now logged multiple loading operations at the Ju'aymah offshore buoys. <em>ING analysts have flagged the critical distinction between the backlog flush and the structural flow rate:</em> once the backlog of rerouted vessels clears, the sustained transit level — governed by cargo demand, route economics, and residual mine-risk insurance costs — could be materially lower than the current surge. US mine-clearance operations begun April 11 carry a full completion timeline of 3–5 months.</p>
+      <a href="https://www.cnbc.com/2026/06/26/oil-prices-middle-east-iran-strait-of-hormuz-opec-iraq-wti-brent-crude.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Price Action</div>
+      <h4>WTI Below $70 for First Time Since Before the War — Market Hunts a Floor as Post-Deal Repricing Continues</h4>
+      <p>WTI crude touched <strong>$69.97 Monday</strong> — technically the first sub-$70 print since the war began on February 28 — before recovering modestly from intraday lows of $69.33. The move extends a near-50% collapse from the North Sea Dated war peak of approximately $144 in April, driven sequentially by the June 17 MOU, the June 19 treaty signing, the Hormuz reopening, and Saturday's Treasury sanctions waiver. Brent simultaneously traded down to $71.99 on Friday — its lowest since the pre-war February 27 baseline — before stabilizing at $72.35 Monday. <em>The market is searching for an equilibrium between returning supply and suppressed demand,</em> with analysts pointing to the $65–$70/bbl range as the likely landing zone if OPEC+ does not intervene before the August meeting. The week's decisive test is the <strong>July 2 EIA report</strong>, which covers the week ending June 26 — potentially the first week in which post-reopening Gulf crude imports could appear in US data, though Ras Tanura VLCCs likely require 20–35 days to reach US shores.</p>
+      <a href="https://www.aljazeera.com/economy/2026/6/26/oil-prices-ease-after-spiking-over-halt-to-strait-of-hormuz-evacuation-plan" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">EIA / Inventories</div>
+      <h4>Third Consecutive US Crude Draw at −3.9 mb (Wk Jun 19) — July 2 Is the First Post-Reopening Data Event</h4>
+      <p>The most recent EIA Weekly Petroleum Status Report — the week ending June 19, released June 24 — showed a <strong>third consecutive US crude inventory draw of 3.9 million barrels</strong>, leaving stocks at approximately 412 million barrels, roughly 7% below the five-year seasonal average. The draw is partly demand-driven (refinery throughput ran at 96.1% of operable capacity, the highest post-war utilization rate) and partly structural: Gulf crude imports have not yet materially recovered in US data because Ras Tanura only resumed loading last week and VLCCs require 20–35 days to reach East Coast ports. The July 2 EIA report — covering the week ending June 26 — is the decisive data event of the near term. <em>Three consecutive draws totaling roughly 12 million barrels have sustained a residual scarcity premium in the price, preventing a faster collapse toward $65.</em> A build of 4+ million barrels on July 2 would confirm the supply-return trend; a fourth consecutive draw would provide temporary price support and delay bearish inventory confirmation by another week.</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">OPEC+ / Fiscal Risk</div>
+      <h4>Saudi Aramco Slashes July OSPs by $6/bbl — August OPEC+ Meeting Becomes a Pricing Floor Defense Event</h4>
+      <p>Saudi Aramco cut its Arab Light <strong>official selling prices to Asia by $6 per barrel for July</strong> — the largest single-month OSP reduction in recent memory — as the Kingdom moves to retain market share ahead of returning Iranian and Gulf supply. Analysts expect a further cut of $6.50–$8.00/bbl for August OSPs as the Hormuz recovery accelerates. The OSP cuts signal Riyadh's near-term prioritization of volume over price — a departure from the production-cut posture that characterized the first half of 2026. The strategic tension: Saudi Arabia's fiscal breakeven runs approximately <strong>$70–$75/bbl for 2026</strong>, and Brent at $72.35 is approaching that threshold from above. The August OPEC+ ministerial has consequently become the year's most consequential remaining scheduled event. <em>If the Kingdom signals a production pause before the meeting — which Saudi signaling alone can achieve, moving markets by $3–$5/bbl without a formal decision — it would anchor the floor near $70 Brent.</em> Silence from Riyadh into August signals acceptance of lower prices to defend market share against returning Iranian barrels.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Set-to-Slash-Oil-Prices-as-Hormuz-Reopens.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">July 2</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report — First Post-Reopening US Import Signal (Week Ending June 26)</div>
+          <div class="event-impact">The July 2 EIA report covers the week ending June 26 — the first potential window in which post-Hormuz-reopening Gulf crude could appear in US import data. Ras Tanura resumed loading only last week; VLCCs take 20–35 days to reach US shores, so July 2 data will likely show a draw or flat result rather than a confirmed Gulf build. But the directional shift matters enormously for sentiment. Three consecutive draws totaling roughly 12 million barrels have sustained residual scarcity support. A first material build of 4+ million barrels would confirm the supply-return trend and test Brent's $70 support. A fourth consecutive draw would delay the bearish inventory confirmation by one more week — potentially the last before Gulf barrels begin appearing in data.</div>
+        </td>
+        <td>Build >4M bbl: Brent tests $70 support; $2–3/bbl downside pressure. Fourth consecutive draw: $1–2/bbl near-term support; bearish timeline pushed one additional week.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing — August 21 Expiry</td>
+        <td>
+          <div class="event-name">Phase-2 Geneva Negotiations (Vance) — Treaty vs. Waiver Extension vs. Lapse Determines Iranian Supply's Legal Status</div>
+          <div class="event-impact">VP Vance opened Phase-2 Iran talks in Geneva Monday with three agenda items: IAEA inspection protocols, reconstruction funding, and permanent ceasefire architecture. For oil markets, the Geneva outcome is binary: a treaty signed before August 21 permanently removes Iranian crude sanctions and signals indefinite supply normalization — the most bearish price scenario on the remaining calendar; failure forces an extension decision or sanctions re-imposition that would partially reverse Iran's crude export recovery and re-introduce a risk premium the market has entirely priced out.</div>
+        </td>
+        <td>Treaty before Aug 21: permanent bearish re-rating; Iranian crude fully unlocked. Waiver lapses without extension: $5–8/bbl spike; sustained Iranian export constraint reintroduced.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing — Full Clearance Est. 3–5 Months</td>
+        <td>
+          <div class="event-name">Hormuz Mine Clearance and Structural Transit Normalization — Backlog Flush vs. True Equilibrium Flow Rate</div>
+          <div class="event-impact">The current transit surge toward 13 mb/d reflects simultaneous backlog clearing and genuine new routing. The critical transition — from backlog flush to structural equilibrium — becomes visible over the next four to six weeks. US mine-clearance operations begun April 11 carry a full completion timeline of 3–5 months; until cleared, war-risk insurance costs remain elevated and some operators will price in residual strait risk. The structural flow rate once the backlog clears sets the true physical supply baseline for crude through Q3 2026. A mine incident involving a crude tanker — with no war premium left in the price — would re-rate transit risk in a single session.</div>
+        </td>
+        <td>Structural flows confirmed >15 mb/d for two consecutive weeks: incrementally bearish, $1–2/bbl per week. Mine incident on crude tanker with Iranian fingerprint: $5–8/bbl spike, structural risk premium re-rating.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Early August</td>
+        <td>
+          <div class="event-name">OPEC+ August Ministerial — Pricing Floor Defense at Saudi Breakeven vs. Market-Share Acceleration</div>
+          <div class="event-impact">The August OPEC+ meeting has been transformed from a routine quota review into a potential defensive action as Brent approaches Saudi Arabia's estimated $70–$75/bbl fiscal breakeven. Saudi Aramco's $6/bbl July OSP cut signals Riyadh's near-term priority is market share — but if Brent tests $68–$70 before the August meeting, an emergency ministerial call is possible. Saudi signaling alone historically moves markets $3–$5/bbl, which could anchor Brent above $70 even without a formal decision. UAE's May exit from OPEC+ complicates collective action but does not eliminate Saudi Arabia's unilateral pricing power.</div>
+        </td>
+        <td>OPEC+ signals production pause or cut: $3–5/bbl floor defense; potential rally to $75–$77 Brent. No action, Kingdom accepts lower prices: incrementally bearish, Brent tests $65–$68.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">August 21</td>
+        <td>
+          <div class="event-name">Treasury Sanctions Waiver Expiry — Extension, Treaty Conversion, or Lapse Sets Iranian Crude's Post-War Legal Status</div>
+          <div class="event-impact">Bessent's 60-day general sanctions waiver runs through August 21. Three outcomes remain live: (1) Waiver extended pending a permanent peace agreement — bearish, status quo continues; (2) Waiver converted to permanent sanction removal if Geneva treaty is signed before August 21 — full Iranian crude market access, most bearish for price; (3) Waiver lapses as IAEA dispute blocks treaty progress — sanctions re-impose, Iranian crude partially retreats, sharpest upside price shock remaining on the calendar. The market currently prices outcomes (1) or (2); outcome (3) would represent a sharp reversal of current positioning.</div>
+        </td>
+        <td>Waiver extended or treaty signed: status quo bearish; Iranian supply recovery continues. Waiver lapses: $5–8/bbl spike; 2–3 week sustained rally.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Monday, June 29, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>WTI at $69.97 — technically below $70 for the first time since before the war — is a number worth sitting with. The war began on February 28. It sent crude from roughly $68–$70 WTI to $126 Brent and a North Sea Dated war peak near $144. The entire geographic, military, and diplomatic arc of the 2026 conflict — the mine-laying, the port closures, the tanker seizures, the Geneva MOU, the treaty signing, the mine-clearing, the Ras Tanura restart, and Saturday's Treasury sanctions waiver — has resolved back, in price terms, to where it started. <strong>The war premium is gone. What remains is the physical reality of a market that has to reabsorb supply that ran 10 million barrels per day short for roughly four months, against demand that was simultaneously suppressed by the price spike.</strong></p>
+        <p><strong>My read on today:</strong> The Monday bounce from Friday's lows is not conviction — it is the market choosing not to sell aggressively into a week with two major catalysts. The meaningful questions are not directional at this point; they are about floor and pace. <em>The floor:</em> Saudi Arabia's fiscal arithmetic argues for signaling support near $68–$70 Brent before the August meeting. That's not a formal price floor and it's not guaranteed, but it's a structural argument with a track record. <em>The pace:</em> Iranian crude return is not trickling — it is surging, motivated by the buyer incentive to front-load within the 60-day waiver window. That dynamic argues for a faster descent toward $65–$68 than most base-case models projected two weeks ago.</p>
+        <p><strong>The bigger picture:</strong> The risk matrix remains asymmetric, but in a specific way. The base case — treaty progress in Geneva, Hormuz flows normalizing, Iranian barrels accelerating, OPEC+ eventually signaling a floor defense — plays out over four to six weeks and lands crude somewhere in the $62–$68 range for Brent by late August if OPEC+ does not intervene. <strong>The tail risk to the upside is not zero and carries significant magnitude:</strong> a lapse of the August 21 Treasury waiver due to IAEA impasse would be a $5–$8/bbl spike; a crude tanker mine incident in Hormuz with an Iranian fingerprint would re-rate the entire strait risk premium in a single session; a Russian diesel export ban — which Deputy PM Novak has signaled is under active consideration — would spike the refined-products complex without touching crude supply. <em>No war premium is left to absorb any of these.</em></p>
+        <p>My call: <strong>Brent $68–$74 this week</strong>, with the July 2 EIA report as the decisive hinge. If the week-ending June 26 data shows a build of 4+ million barrels — the first evidence of Gulf crude arriving at US shores in quantity — the $70 WTI support is the next live test and the July price range compresses lower. A fourth consecutive draw buys a week of support. <strong>I'd set the structural floor at $68–$70 Brent</strong>, anchored by OPEC+ fiscal breakeven logic and the near-certainty of a Saudi signal before that level breaks in sustained fashion. The ceiling, absent a diplomatic shock, is <strong>$75–$77</strong>. <strong>Watch July 2. Watch Geneva. August 21 is the year's last major binary event — and the market is currently positioned as if it resolves cleanly.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Easing Rapidly — Waiver Active; Hormuz 13 mb/d; Ras Tanura Loading</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:15%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#5cb85c">Residual — Vance in Geneva; Mine Clearance Months From Complete</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:22%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#e05252">Weak — Supply Surge Risks Outpacing Demand Recovery</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:23%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Durability</span><span style="color:#5cb85c">Strengthening — Treasury Waiver Operational; Phase 2 Under Way</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:83%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Implementation Progress</span><span style="color:#e05252">Accelerating — Waiver Day 3; Iranian Front-Loading Confirmed</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:88%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Pricing Power</span><span style="color:#e05252">At Breakeven — OSP Cuts Signal Volume Priority Over Price Defense</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:14%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$68 – $74</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Lower — July 2 EIA and Iranian Front-Loading Are the Gravity; Floor Near $68–$70 ▼</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$75–$77</span></div>
+            <div>🟢 Support: <span style="color:#fff">$68–$70</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$79 (Geneva Phase-2 collapse; IAEA blocks waiver extension; mine incident on crude tanker)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$65 (July 2 EIA build >5M bbl; Hormuz structural flows sustain above 16 mb/d; OPEC+ signals output acceleration)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Monday, June 29, 2026</span>
+  <span>Sources: Reuters, NBC News, Al Jazeera, CNBC, NPR, EIA, Bloomberg, OilPrice.com, TradingEconomics</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>

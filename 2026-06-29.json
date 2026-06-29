@@ -1,0 +1,156 @@
+{
+  "date_long": "Monday, June 29, 2026",
+  "date_slug": "jun29-2026",
+  "volume": "Vol. XLII — No. 179",
+  "dateline": "Dubai / London / New York",
+  "sources": "Reuters, NBC News, Al Jazeera, CNBC, NPR, EIA, Bloomberg, OilPrice.com, TradingEconomics",
+
+  "ticker": [
+    "BRENT CRUDE $72.35 ▲ +0.43% — RECOVERING FROM FRIDAY'S $71.99 MULTI-MONTH LOW",
+    "WTI CRUDE $69.97 ▲ +0.98% — BELOW $70 THRESHOLD; 52-WEEK LOW $68.86 HIT JUNE 26",
+    "NATURAL GAS $3.12 ▼ −0.6% — QATAR RAS LAFFAN RISK BID FADING; SUMMER DEMAND ADEQUATE",
+    "TREASURY SANCTIONS WAIVER DAY 3: ASIAN REFINERS LOCKING IRANIAN CRUDE CARGOES AT SCALE",
+    "VP VANCE OPENS PHASE-2 IRAN TALKS IN GENEVA — IAEA, PERMANENT CEASEFIRE ON AGENDA",
+    "HORMUZ: FLOWS NEAR 13 MB/D AS TRANSIT VOLUMES RECOVER; MINE-CLEARANCE PACE CONFIRMED",
+    "JULY 2 EIA REPORT IS WEEK'S PIVOTAL DATA EVENT — FIRST POST-REOPENING GULF IMPORT SIGNAL",
+    "OPEC+ AUGUST MEETING STAKES GROW AS BRENT APPROACHES RIYADH'S ~$70–75/BBL FISCAL FLOOR"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$72.35", "change": "▲ +0.43% (recovering from $71.99 Friday multi-month low; within 1.5% of pre-war Feb 27 baseline)", "direction": "up" },
+    { "label": "WTI Crude", "value": "$69.97", "change": "▲ +0.98% (first close below $70 since before the war; 52-wk low $68.86 set Jun 26)", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.12", "change": "▼ −0.6% (Qatar risk bid fading; summer supply adequate; EIA STEO H2 avg $3.34)", "direction": "down" },
+    { "label": "EIA Crude Draw (wk Jun 19)", "value": "−3.9M bbl", "change": "▼ Third consecutive weekly draw; Jul 2 EIA (wk Jun 26) is next decisive catalyst", "direction": "down" },
+    { "label": "Brent vs. 2026 War Peak", "value": "−49.5%", "change": "▼ Off the ~$144 April North Sea Dated high — near full pre-war reversion", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "Floor Watch — WTI Drops Below $70 for First Time Since Before the War as Post-Waiver Market Hunts a Bottom",
+    "headline": "WTI Touches $69.97 as Iranian Barrels Accelerate Under New Treasury Waiver — Brent Steadies at $72.35 Ahead of Wednesday's Decisive EIA Report",
+    "paragraphs": [
+      "West Texas Intermediate slipped to <strong>$69.97</strong> in Monday trading — the first sub-$70 close since before the war began on February 28 — before recovering modestly to end the session with a small gain. Brent, meanwhile, stabilized at <strong>$72.35 (+0.43%)</strong>, recovering from Friday's $71.99 multi-month low. Both benchmarks are attempting a tentative floor after the sharpest post-crisis selloff in modern memory: from the North Sea Dated war peak of ~$144 in April to today's prints represents a near-50% collapse in roughly ten weeks. Today's modest bounce is less a conviction rally and more a pause — the market catching its breath while it waits for two catalysts that will determine whether $68–$70 Brent holds or breaks: Wednesday's EIA inventory data and the pace of VP Vance's Geneva negotiations.",
+      "The most consequential structural development of the past 72 hours is one that makes few headlines precisely because it is working as intended: <strong>Treasury Secretary Bessent's 60-day sanctions waiver</strong>, now three days in operation, is delivering its designed effect. Asian refiners — Chinese teapot operators, Indian state buyers, South Korean processors — that were running legally cautious models on Iranian crude exposure are now ordering at scale. Iranian pre-war export capacity ran approximately <strong>1.7 mb/d</strong>; with the legal barrier removed and the ceasefire holding, Iran's fields are restarting faster than the most optimistic base-case projections from two weeks ago. The 60-day window creates a buyer incentive to front-load purchases before August 21, meaning Iranian crude is not trickling back into the market — it is surging back, priced by sellers who know buyers are motivated. <em>That dynamic is the dominant gravity pulling crude toward the $65–$70 range over the next four to six weeks.</em>",
+      "VP Vance opened Phase-2 talks in Geneva Monday with an agenda that markets are watching as closely as any inventory data: <strong>IAEA nuclear inspection protocols, Iranian reconstruction funding commitments, and a permanent ceasefire framework</strong>. The significance for oil is not sentimental. The August 21 Treasury waiver expiry is the next major binary event on the calendar, and its resolution — extension, conversion to permanent removal, or lapse — depends directly on the progress made in Geneva over the coming weeks. A permanent ceasefire before August 21 converts the waiver into a moot point and signals full, indefinite Iranian crude market access; a lapse forces Iranian barrels off global markets and partially reverses the supply recovery. <strong>Vance in Geneva is the single most consequential policy variable for crude direction in July and August</strong> — not the July OPEC+ output hike, not the EIA weekly print, and not Saudi OSP announcements. The treaty determines whether $70 Brent is a floor or a ceiling."
+    ],
+    "link_url": "https://www.nbcnews.com/business/energy/oil-prices-hormuz-sanctions-waiver-rcna351144",
+    "link_text": "Read NBC News",
+    "stats": [
+      { "num": "$69.97", "desc": "WTI's Monday Price — First Sub-$70 Settlement Since Before the February 28 War; Brent $72.35 Holds" },
+      { "num": "Day 3 of 60", "desc": "Bessent's Sanctions Waiver Operational; Asian Refiners Locking Iranian Crude Cargoes at Scale" },
+      { "num": "~13 mb/d", "desc": "Estimated Hormuz Transit Flows Monday — Up From Near-Zero at the War Peak; Pre-War Was ~20 mb/d" },
+      { "num": "July 2", "desc": "Date of Next EIA Weekly Status Report (Wk Ending Jun 26) — First With Potential Post-Reopening Gulf Import Data" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Sanctions / Policy",
+      "headline": "Waiver Day 3: Asian Refiners Move to Lock Iranian Crude as Legal Barrier Lifts — August 21 Becomes the Market's New Clock",
+      "body": "The 60-day general sanctions waiver announced Saturday by Treasury Secretary Scott Bessent — covering third-party purchases of Iranian crude — entered its third operational day Monday with early evidence of the intended effect: Asian refinery buyers are accelerating Iranian crude orders that had been suppressed by secondary-sanctions exposure. Chinese teapot refineries, Indian state-owned buyers, and South Korean processors all face the same incentive: front-load purchases within the 60-day window before August 21, when the waiver expires or is converted. Iran's pre-war export capacity ran approximately <strong>1.7 mb/d</strong>; physical field restarts are tracking ahead of conservative base-case scenarios from mid-June. <em>The buyer incentive to front-load and the seller incentive to price competitively while the window is open creates a temporary but powerful surge dynamic.</em> August 21 is now the market's dominant medium-term calendar risk: extension or treaty conversion is the base case and bearish for price; lapse with IAEA dispute unresolved would be the year's largest remaining upside catalyst.",
+      "link_url": "https://www.nbcnews.com/business/energy/oil-prices-hormuz-sanctions-waiver-rcna351144",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Vance Opens Geneva Phase-2 Talks on IAEA Inspections and Permanent Ceasefire — Oil Market Watches August 21 Countdown",
+      "body": "Vice President JD Vance opened second-phase Iran negotiations in Geneva Monday, with the agenda centered on the three unresolved pillars the June 17 MOU left for this track: IAEA nuclear inspection protocols, Iranian reconstruction funding, and the architecture of a permanent ceasefire. For crude traders, the Geneva process is not diplomatic backdrop — it is the primary variable governing whether the August 21 Treasury waiver expiry results in permanent sanctions removal or a market-disrupting lapse. <strong>A treaty signed before August 21 converts the waiver into a permanent condition and unlocks indefinite Iranian crude market access</strong> — the most bearish price outcome on the remaining calendar. A breakdown in Geneva that blocks treaty progress forces the administration to choose between extending the waiver or accepting sanctions re-imposition; either decision arrives as a major market binary event. <em>Vance's physical presence in Geneva — the second most senior US official deployed to the Switzerland track — signals White House confidence that a permanent agreement is achievable within weeks.</em>",
+      "link_url": "https://www.aljazeera.com/news/2026/6/25/oil-prices-back-to-pre-war-levels-on-rising-middle-east-supply",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Supply / Hormuz",
+      "headline": "Hormuz Flows Near 13 mb/d as Transit Volumes Build — Structural Rate vs. Backlog Flush Is the Question for July",
+      "body": "Strait of Hormuz transit flows held near <strong>13 mb/d Monday</strong>, reflecting the ongoing normalization of routing economics after the conflict that choked the strait from early March through mid-June. The rapid increase from near-zero conflict-period levels reflects two overlapping dynamics: clearing of the vessel backlog that had diverted to the longer Cape of Good Hope route, and genuine new routings as operators recalibrate their war-risk insurance arithmetic. Saudi Aramco's Ras Tanura terminal — which resumed VLCC loadings for the first time since early March just last week — has now logged multiple loading operations at the Ju'aymah offshore buoys. <em>ING analysts have flagged the critical distinction between the backlog flush and the structural flow rate:</em> once the backlog of rerouted vessels clears, the sustained transit level — governed by cargo demand, route economics, and residual mine-risk insurance costs — could be materially lower than the current surge. US mine-clearance operations begun April 11 carry a full completion timeline of 3–5 months.",
+      "link_url": "https://www.cnbc.com/2026/06/26/oil-prices-middle-east-iran-strait-of-hormuz-opec-iraq-wti-brent-crude.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Price Action",
+      "headline": "WTI Below $70 for First Time Since Before the War — Market Hunts a Floor as Post-Deal Repricing Continues",
+      "body": "WTI crude touched <strong>$69.97 Monday</strong> — technically the first sub-$70 print since the war began on February 28 — before recovering modestly from intraday lows of $69.33. The move extends a near-50% collapse from the North Sea Dated war peak of approximately $144 in April, driven sequentially by the June 17 MOU, the June 19 treaty signing, the Hormuz reopening, and Saturday's Treasury sanctions waiver. Brent simultaneously traded down to $71.99 on Friday — its lowest since the pre-war February 27 baseline — before stabilizing at $72.35 Monday. <em>The market is searching for an equilibrium between returning supply and suppressed demand,</em> with analysts pointing to the $65–$70/bbl range as the likely landing zone if OPEC+ does not intervene before the August meeting. The week's decisive test is the <strong>July 2 EIA report</strong>, which covers the week ending June 26 — potentially the first week in which post-reopening Gulf crude imports could appear in US data, though Ras Tanura VLCCs likely require 20–35 days to reach US shores.",
+      "link_url": "https://www.aljazeera.com/economy/2026/6/26/oil-prices-ease-after-spiking-over-halt-to-strait-of-hormuz-evacuation-plan",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "Third Consecutive US Crude Draw at −3.9 mb (Wk Jun 19) — July 2 Is the First Post-Reopening Data Event",
+      "body": "The most recent EIA Weekly Petroleum Status Report — the week ending June 19, released June 24 — showed a <strong>third consecutive US crude inventory draw of 3.9 million barrels</strong>, leaving stocks at approximately 412 million barrels, roughly 7% below the five-year seasonal average. The draw is partly demand-driven (refinery throughput ran at 96.1% of operable capacity, the highest post-war utilization rate) and partly structural: Gulf crude imports have not yet materially recovered in US data because Ras Tanura only resumed loading last week and VLCCs require 20–35 days to reach East Coast ports. The July 2 EIA report — covering the week ending June 26 — is the decisive data event of the near term. <em>Three consecutive draws totaling roughly 12 million barrels have sustained a residual scarcity premium in the price, preventing a faster collapse toward $65.</em> A build of 4+ million barrels on July 2 would confirm the supply-return trend; a fourth consecutive draw would provide temporary price support and delay bearish inventory confirmation by another week.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "OPEC+ / Fiscal Risk",
+      "headline": "Saudi Aramco Slashes July OSPs by $6/bbl — August OPEC+ Meeting Becomes a Pricing Floor Defense Event",
+      "body": "Saudi Aramco cut its Arab Light <strong>official selling prices to Asia by $6 per barrel for July</strong> — the largest single-month OSP reduction in recent memory — as the Kingdom moves to retain market share ahead of returning Iranian and Gulf supply. Analysts expect a further cut of $6.50–$8.00/bbl for August OSPs as the Hormuz recovery accelerates. The OSP cuts signal Riyadh's near-term prioritization of volume over price — a departure from the production-cut posture that characterized the first half of 2026. The strategic tension: Saudi Arabia's fiscal breakeven runs approximately <strong>$70–$75/bbl for 2026</strong>, and Brent at $72.35 is approaching that threshold from above. The August OPEC+ ministerial has consequently become the year's most consequential remaining scheduled event. <em>If the Kingdom signals a production pause before the meeting — which Saudi signaling alone can achieve, moving markets by $3–$5/bbl without a formal decision — it would anchor the floor near $70 Brent.</em> Silence from Riyadh into August signals acceptance of lower prices to defend market share against returning Iranian barrels.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Set-to-Slash-Oil-Prices-as-Hormuz-Reopens.html",
+      "link_text": "Read OilPrice.com"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "July 2",
+      "name": "EIA Weekly Petroleum Status Report — First Post-Reopening US Import Signal (Week Ending June 26)",
+      "impact": "The July 2 EIA report covers the week ending June 26 — the first potential window in which post-Hormuz-reopening Gulf crude could appear in US import data. Ras Tanura resumed loading only last week; VLCCs take 20–35 days to reach US shores, so July 2 data will likely show a draw or flat result rather than a confirmed Gulf build. But the directional shift matters enormously for sentiment. Three consecutive draws totaling roughly 12 million barrels have sustained residual scarcity support. A first material build of 4+ million barrels would confirm the supply-return trend and test Brent's $70 support. A fourth consecutive draw would delay the bearish inventory confirmation by one more week — potentially the last before Gulf barrels begin appearing in data.",
+      "market_impact": "Build >4M bbl: Brent tests $70 support; $2–3/bbl downside pressure. Fourth consecutive draw: $1–2/bbl near-term support; bearish timeline pushed one additional week.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing — August 21 Expiry",
+      "name": "Phase-2 Geneva Negotiations (Vance) — Treaty vs. Waiver Extension vs. Lapse Determines Iranian Supply's Legal Status",
+      "impact": "VP Vance opened Phase-2 Iran talks in Geneva Monday with three agenda items: IAEA inspection protocols, reconstruction funding, and permanent ceasefire architecture. For oil markets, the Geneva outcome is binary: a treaty signed before August 21 permanently removes Iranian crude sanctions and signals indefinite supply normalization — the most bearish price scenario on the remaining calendar; failure forces an extension decision or sanctions re-imposition that would partially reverse Iran's crude export recovery and re-introduce a risk premium the market has entirely priced out.",
+      "market_impact": "Treaty before Aug 21: permanent bearish re-rating; Iranian crude fully unlocked. Waiver lapses without extension: $5–8/bbl spike; sustained Iranian export constraint reintroduced.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing — Full Clearance Est. 3–5 Months",
+      "name": "Hormuz Mine Clearance and Structural Transit Normalization — Backlog Flush vs. True Equilibrium Flow Rate",
+      "impact": "The current transit surge toward 13 mb/d reflects simultaneous backlog clearing and genuine new routing. The critical transition — from backlog flush to structural equilibrium — becomes visible over the next four to six weeks. US mine-clearance operations begun April 11 carry a full completion timeline of 3–5 months; until cleared, war-risk insurance costs remain elevated and some operators will price in residual strait risk. The structural flow rate once the backlog clears sets the true physical supply baseline for crude through Q3 2026. A mine incident involving a crude tanker — with no war premium left in the price — would re-rate transit risk in a single session.",
+      "market_impact": "Structural flows confirmed >15 mb/d for two consecutive weeks: incrementally bearish, $1–2/bbl per week. Mine incident on crude tanker with Iranian fingerprint: $5–8/bbl spike, structural risk premium re-rating.",
+      "risk": "High"
+    },
+    {
+      "date": "Early August",
+      "name": "OPEC+ August Ministerial — Pricing Floor Defense at Saudi Breakeven vs. Market-Share Acceleration",
+      "impact": "The August OPEC+ meeting has been transformed from a routine quota review into a potential defensive action as Brent approaches Saudi Arabia's estimated $70–$75/bbl fiscal breakeven. Saudi Aramco's $6/bbl July OSP cut signals Riyadh's near-term priority is market share — but if Brent tests $68–$70 before the August meeting, an emergency ministerial call is possible. Saudi signaling alone historically moves markets $3–$5/bbl, which could anchor Brent above $70 even without a formal decision. UAE's May exit from OPEC+ complicates collective action but does not eliminate Saudi Arabia's unilateral pricing power.",
+      "market_impact": "OPEC+ signals production pause or cut: $3–5/bbl floor defense; potential rally to $75–$77 Brent. No action, Kingdom accepts lower prices: incrementally bearish, Brent tests $65–$68.",
+      "risk": "Medium"
+    },
+    {
+      "date": "August 21",
+      "name": "Treasury Sanctions Waiver Expiry — Extension, Treaty Conversion, or Lapse Sets Iranian Crude's Post-War Legal Status",
+      "impact": "Bessent's 60-day general sanctions waiver runs through August 21. Three outcomes remain live: (1) Waiver extended pending a permanent peace agreement — bearish, status quo continues; (2) Waiver converted to permanent sanction removal if Geneva treaty is signed before August 21 — full Iranian crude market access, most bearish for price; (3) Waiver lapses as IAEA dispute blocks treaty progress — sanctions re-impose, Iranian crude partially retreats, sharpest upside price shock remaining on the calendar. The market currently prices outcomes (1) or (2); outcome (3) would represent a sharp reversal of current positioning.",
+      "market_impact": "Waiver extended or treaty signed: status quo bearish; Iranian supply recovery continues. Waiver lapses: $5–8/bbl spike; 2–3 week sustained rally.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "WTI at $69.97 — technically below $70 for the first time since before the war — is a number worth sitting with. The war began on February 28. It sent crude from roughly $68–$70 WTI to $126 Brent and a North Sea Dated war peak near $144. The entire geographic, military, and diplomatic arc of the 2026 conflict — the mine-laying, the port closures, the tanker seizures, the Geneva MOU, the treaty signing, the mine-clearing, the Ras Tanura restart, and Saturday's Treasury sanctions waiver — has resolved back, in price terms, to where it started. <strong>The war premium is gone. What remains is the physical reality of a market that has to reabsorb supply that ran 10 million barrels per day short for roughly four months, against demand that was simultaneously suppressed by the price spike.</strong>",
+      "<strong>My read on today:</strong> The Monday bounce from Friday's lows is not conviction — it is the market choosing not to sell aggressively into a week with two major catalysts. The meaningful questions are not directional at this point; they are about floor and pace. <em>The floor:</em> Saudi Arabia's fiscal arithmetic argues for signaling support near $68–$70 Brent before the August meeting. That's not a formal price floor and it's not guaranteed, but it's a structural argument with a track record. <em>The pace:</em> Iranian crude return is not trickling — it is surging, motivated by the buyer incentive to front-load within the 60-day waiver window. That dynamic argues for a faster descent toward $65–$68 than most base-case models projected two weeks ago.",
+      "<strong>The bigger picture:</strong> The risk matrix remains asymmetric, but in a specific way. The base case — treaty progress in Geneva, Hormuz flows normalizing, Iranian barrels accelerating, OPEC+ eventually signaling a floor defense — plays out over four to six weeks and lands crude somewhere in the $62–$68 range for Brent by late August if OPEC+ does not intervene. <strong>The tail risk to the upside is not zero and carries significant magnitude:</strong> a lapse of the August 21 Treasury waiver due to IAEA impasse would be a $5–$8/bbl spike; a crude tanker mine incident in Hormuz with an Iranian fingerprint would re-rate the entire strait risk premium in a single session; a Russian diesel export ban — which Deputy PM Novak has signaled is under active consideration — would spike the refined-products complex without touching crude supply. <em>No war premium is left to absorb any of these.</em>",
+      "My call: <strong>Brent $68–$74 this week</strong>, with the July 2 EIA report as the decisive hinge. If the week-ending June 26 data shows a build of 4+ million barrels — the first evidence of Gulf crude arriving at US shores in quantity — the $70 WTI support is the next live test and the July price range compresses lower. A fourth consecutive draw buys a week of support. <strong>I'd set the structural floor at $68–$70 Brent</strong>, anchored by OPEC+ fiscal breakeven logic and the near-certainty of a Saudi signal before that level breaks in sustained fashion. The ceiling, absent a diplomatic shock, is <strong>$75–$77</strong>. <strong>Watch July 2. Watch Geneva. August 21 is the year's last major binary event — and the market is currently positioned as if it resolves cleanly.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing Rapidly — Waiver Active; Hormuz 13 mb/d; Ras Tanura Loading", "tone": "neutral", "pct": 15 },
+      { "name": "Geopolitical Risk", "label": "Residual — Vance in Geneva; Mine Clearance Months From Complete", "tone": "bullish", "pct": 22 },
+      { "name": "Demand Response", "label": "Weak — Supply Surge Risks Outpacing Demand Recovery", "tone": "bearish", "pct": 23 },
+      { "name": "Deal Durability", "label": "Strengthening — Treasury Waiver Operational; Phase 2 Under Way", "tone": "bullish", "pct": 83 },
+      { "name": "Implementation Progress", "label": "Accelerating — Waiver Day 3; Iranian Front-Loading Confirmed", "tone": "bearish", "pct": 88 },
+      { "name": "OPEC+ Pricing Power", "label": "At Breakeven — OSP Cuts Signal Volume Priority Over Price Defense", "tone": "bearish", "pct": 14 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$68 – $74",
+      "bias": "Bias: Lower — July 2 EIA and Iranian Front-Loading Are the Gravity; Floor Near $68–$70 ▼"
+    },
+    "watch_levels": {
+      "resistance": "$75–$77",
+      "support": "$68–$70",
+      "breakout": ">$79 (Geneva Phase-2 collapse; IAEA blocks waiver extension; mine incident on crude tanker)",
+      "breakdown": "<$65 (July 2 EIA build >5M bbl; Hormuz structural flows sustain above 16 mb/d; OPEC+ signals output acceleration)"
+    }
+  }
+}
