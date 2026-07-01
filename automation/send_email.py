@@ -60,8 +60,12 @@ DEFAULT_TO = os.environ.get("OIL_DESK_EMAIL_TO", "hakan.zw@gmail.com")
 def _post_form(url, fields):
     data = urllib.parse.urlencode(fields).encode()
     req = urllib.request.Request(url, data=data, method="POST")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode(errors="replace")
+        raise RuntimeError(f"HTTP {exc.code} from {url}: {body}") from exc
 
 
 def _load_client():
@@ -150,12 +154,20 @@ def get_access_token():
     if not TOKEN_FILE.exists():
         sys.exit("No Gmail token. Run a one-time authorization first:\n    python send_email.py --setup")
     saved = json.loads(TOKEN_FILE.read_text(encoding="utf-8"))
-    tok = _post_form(TOKEN_URI, {
-        "client_id": saved["client_id"],
-        "client_secret": saved["client_secret"],
-        "refresh_token": saved["refresh_token"],
-        "grant_type": "refresh_token",
-    })
+    try:
+        tok = _post_form(TOKEN_URI, {
+            "client_id": saved["client_id"],
+            "client_secret": saved["client_secret"],
+            "refresh_token": saved["refresh_token"],
+            "grant_type": "refresh_token",
+        })
+    except RuntimeError as exc:
+        sys.exit(
+            f"Token refresh failed — the stored refresh token is likely expired or revoked.\n"
+            f"Google said: {exc}\n\n"
+            "Fix: run  python3 automation/send_email.py --setup  locally, then update\n"
+            "the GMAIL_TOKEN_JSON GitHub secret with the new automation/gmail_token.json."
+        )
     return tok["access_token"]
 
 
