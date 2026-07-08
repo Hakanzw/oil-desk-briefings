@@ -1,0 +1,156 @@
+{
+  "date_long": "Wednesday, July 8, 2026",
+  "date_slug": "jul8-2026",
+  "volume": "Vol. XLII — No. 184",
+  "dateline": "Dubai / London / New York",
+  "sources": "Reuters, Al Jazeera, Bloomberg, CNBC, NPR, EIA, The National News, Insurance Journal, BOE Report, S&P Global",
+
+  "ticker": [
+    "BRENT CRUDE $73.29 ▲ +1.28% — HORMUZ TANKER ATTACKS JOLT MARKET; QATARI LNG CARRIER AL REKAYAT AND SAUDI SUPERTANKER WEDYAN STRUCK JULY 7; US REIMPOSED IRAN OIL SANCTIONS",
+    "WTI CRUDE $69.14 ▲ +0.86% — GEOPOLITICAL PREMIUM RETURNS; ONE-WEEK HIGH; ISLAMABAD MOU FRAMEWORK UNDER SEVEREST STRESS SINCE SIGNING; BRENT-WTI SPREAD $4.15",
+    "NATURAL GAS $3.28 ▲ +0.52% — QATARI LNG CARRIER ATTACK LIFTS SPOT; HENRY HUB RECOVERS FROM JULY 6 LOW OF $3.18; LNG SUPPLY DISRUPTION RISK REPRICED",
+    "IRAN IRGC STRUCK THREE VESSELS IN 24 HOURS — QATAR FORMALLY ACCUSES IRAN; US CENTCOM STRIKES IRANIAN MILITARY SITES NEAR STRAIT OF HORMUZ",
+    "GENERAL LICENSE X STATUS: US TREASURY REIMPOSED IRAN OIL SANCTIONS AFTER JULY 7 ATTACKS — 60-DAY WAIVER FRAMEWORK IN DOUBT; 2–3 MB/D AT RISK",
+    "EIA WEEK ENDING JULY 3 REPORT OUT TODAY — STOCKS 408.4M BBL; 7% BELOW 5-YR AVG; FIFTH CONSECUTIVE DRAW OR FIRST GULF-CRUDE BUILD NOW SECONDARY TO GEOPOLITICS",
+    "OPEC+ FIFTH 188K BPD HIKE CONFIRMED JULY 6 — BEARISH SUPPLY WAVE SIGNAL NOW CHALLENGED BY HORMUZ SECURITY REVERSAL; VOLUME PLEDGES CONTINGENT ON STRAIT ACCESS",
+    "SAUDI ARAMCO: BIGGEST ARAB LIGHT OSP CUT IN 26 YEARS — $11/BBL SLASH FOR ASIA NOW A CONTINGENT BET ON OPEN HORMUZ; MARKET-SHARE POSTURE PAUSED BY GEOPOLITICAL SHOCK"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$73.29", "change": "▲ +1.28% (Hormuz tanker attacks July 7; Iranian missiles struck Qatari LNG carrier Al Rekayat and Saudi supertanker Wedyan; US reimposed Iran oil sanctions; geopolitical premium re-enters zero-cushion tape)", "direction": "up" },
+    { "label": "WTI Crude", "value": "$69.14", "change": "▲ +0.86% (WTI/Brent spread $4.15; one-week high; peace-deal framework under stress; CENTCOM strikes Iranian military sites near Strait; sanctions reimposed by Treasury)", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.28", "change": "▲ +0.52% (Qatari LNG carrier struck near Oman coast; Henry Hub recovers from Jul 6 low of $3.18; spot supply disruption risk repriced; LNG routing uncertainty enters market)", "direction": "up" },
+    { "label": "EIA Crude (wk Jun 26)", "value": "−3.8M bbl", "change": "▼ Stocks 408.4M bbl, 7% below 5-yr avg; July 8 report (week ending Jul 3) released today — fifth draw or first Gulf build; geopolitical shock has displaced it as dominant catalyst", "direction": "down" },
+    { "label": "Brent vs. 2026 War Peak", "value": "−49.1%", "change": "▼ Off ~$144 April North Sea Dated high; Hormuz attacks arrest the six-week decline; geopolitical tail re-enters at zero-premium entry point; Islamabad MOU stress-tested for first time", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "The Tail Risk Materialized — Hormuz Tanker Attacks Shatter the Peace-Deal Calm; US Reimposed Iran Oil Sanctions; Brent Snaps Back +1.3% From Six-Month Bear Base",
+    "headline": "Iranian Missiles Strike Qatari LNG Carrier and Saudi Supertanker in Strait of Hormuz — US Reimposed Iran Oil Sanctions; CENTCOM Strikes Iranian Military Sites",
+    "paragraphs": [
+      "The asymmetric risk this column flagged for three consecutive weeks arrived on July 7: Iranian missiles struck two commercial vessels transiting the Strait of Hormuz — a <strong>Qatari-flagged LNG carrier, Al Rekayat</strong>, suffered an engine-room fire approximately 8 nautical miles east of Limah, Oman, with initial reports indicating explosion risk, and a <strong>Saudi-flagged supertanker, Wedyan</strong>, was struck hours later in a separate incident. A third vessel was attacked by Iran's Islamic Revolutionary Guard Corps within 24 hours, making July 7 the single largest day of Hormuz shipping strikes since the Islamabad Memorandum was signed on June 17. Qatar formally accused Iran. The U.S. Department of the Treasury, in direct response, <strong>reimposed Iranian crude export sanctions</strong> that had been lifted under General License X on June 22 — the 60-day waiver that the market had priced as transitioning smoothly to a permanent treaty. CENTCOM confirmed targeted strikes on Iranian military sites near the Strait. Markets reacted: Brent jumped from $71.89 to <strong>$73.29</strong> (+1.28%), WTI crossed above $69 to hit a one-week high, and Henry Hub natural gas edged higher on LNG supply disruption concerns.",
+      "The attacks hit a market carrying <strong>precisely zero geopolitical premium</strong>. Five consecutive OPEC+ hikes, Saudi Arabia's record OSP cuts, and the JPMorgan structural bear call had pushed Brent to its weakest close in months — a tape priced entirely on supply fundamentals with no Hormuz risk priced in. That was the vulnerability identified in Monday's column: \"The August 21 waiver expiry is priced at zero risk; any event that raises that probability — a Geneva walkout, an Iranian ultimatum, a Hormuz incident — produces a $5–8/bbl shock from a tape with no cushion.\" The $1.40 Brent jump represents only the opening leg of that adjustment. <em>The question markets must now answer is whether these attacks represent a sanctioned Iranian policy reversal, a rogue IRGC action, or a negotiating provocation — and whether the US sanctions reimposition is a 72-hour pressure signal or the beginning of a complete unraveling of the Islamabad framework.</em>",
+      "The timing is particularly acute. Saudi Aramco had just completed the largest Arab Light official selling price cut for Asian buyers in <strong>26 years</strong> — an $11/bbl reduction for August delivery that flipped the grade to a $1.50/bbl discount from a $9.50 premium — signaling Riyadh's commitment to volume over price. OPEC+ had sealed its fifth consecutive 188,000 bpd hike just 48 hours prior. Both decisions were predicated on the assumption that Hormuz flows would remain unobstructed. If sanctions reimposition is sustained and the Strait comes back under supply-disruption threat, every bearish catalyst deployed since June 17 becomes contingent. Today's EIA weekly petroleum report — covering the week ending July 3 — was framed in Monday's briefing as the \"near-term binary\" between a fifth consecutive draw and the first Gulf-crude build. It has been partially displaced as the dominant catalyst. Whether the report shows continued draws or Gulf crude arriving barely matters against the backdrop of a sanctions reversal that could remove an estimated <strong>2–3 million barrels per day</strong> of Iranian crude from global supply."
+    ],
+    "link_url": "https://www.bloomberg.com/news/articles/2026-07-07/iranian-missile-hits-qatari-lng-ship-in-strait-testing-us-talks",
+    "link_text": "Read Bloomberg",
+    "stats": [
+      { "num": "3 ships", "desc": "Vessels Struck by Iranian IRGC in 24 Hours — Qatari LNG Carrier Al Rekayat, Saudi Supertanker Wedyan, and a Third Vessel; Worst Single-Day Hormuz Attack Since June 17 Islamabad MOU" },
+      { "num": "+1.28%", "desc": "Brent Crude Gain on Wednesday Session — Reversal From $71.89 Six-Month Bear Base as Geopolitical Premium Re-Enters a Tape That Had Priced Zero Hormuz Risk" },
+      { "num": "$11/bbl", "desc": "Saudi Aramco Arab Light OSP Cut for Asian Delivery — Largest Monthly Reduction in 26 Years; Volume-Over-Price Signal Now Contingent on Hormuz Remaining Open to Saudi Export Flows" },
+      { "num": "2–3 mb/d", "desc": "Estimated Iranian Crude at Risk if General License X Is Fully Revoked — Sanctions Reimposed by US Treasury Following July 7 IRGC Tanker Attacks" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Hormuz / IRGC Attacks",
+      "headline": "Iran Strikes Qatari LNG Tanker and Saudi Supertanker — Biggest Hormuz Shipping Attack Day Since US-Iran Peace Deal",
+      "body": "Iranian IRGC forces struck three commercial vessels transiting the Strait of Hormuz on July 7, including the Qatari-flagged LNG carrier <strong>Al Rekayat</strong> and the Saudi-flagged supertanker <strong>Wedyan</strong>. The Al Rekayat suffered an engine-room fire approximately 8 nautical miles east of Limah, Oman, with initial reporting indicating a risk of explosion. Qatar formally accused Iran. Bloomberg characterized the incident as the biggest day of Hormuz shipping strikes since the June 17 Islamabad Memorandum — the peace-deal framework's most severe test to date — confirming the tail risk the market had priced at zero.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-07/iranian-missile-hits-qatari-lng-ship-in-strait-testing-us-talks",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "US Policy / Sanctions",
+      "headline": "US Treasury Reimposed Iran Oil Export Sanctions After Hormuz Attacks — General License X Framework Thrown Into Doubt",
+      "body": "The U.S. Department of the Treasury announced it was reimposing Iranian crude export sanctions that had been lifted under General License X on June 22, following the July 7 IRGC vessel strikes in the Strait of Hormuz. The reimposition threatens the 60-day waiver framework that had allowed Asian refiners in China, India, and South Korea to purchase Iranian crude through August 21. CENTCOM separately confirmed targeted strikes on Iranian military sites near the Strait. <em>If General License X is fully revoked, the estimated 2–3 mb/d of Iranian crude that has been returning to global markets since Hormuz reopened faces immediate supply disruption risk.</em>",
+      "link_url": "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "OPEC+ / August Quota",
+      "headline": "OPEC+ Fifth Consecutive 188,000 bpd Hike Sealed July 6 — Market-Share Signal Now Challenged by Hormuz Security Reversal",
+      "body": "Seven OPEC+ members confirmed the fifth consecutive 188,000 bpd output increase for August 2026 on July 6, restoring roughly <strong>940,000 bpd</strong> of quota since May and completing the largest phased unwind since the war began. The decision was predicated on continued Strait of Hormuz access. Less than 48 hours later, the July 7 tanker attacks introduced precisely the supply-security uncertainty the hike assumed away. Analyst Fabien Yip's framing — that quota increases were \"largely a formality\" given export recovery — now carries an asterisk: if Hormuz access is again compromised, the formality becomes a fiction and the bearish supply wave loses its delivery mechanism.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Saudi Aramco / OSP",
+      "headline": "Saudi Aramco's Biggest Arab Light Price Cut in 26 Years — $11/bbl Asia Slash Is Now a Contingent Bet on an Open Strait",
+      "body": "Saudi Aramco cut its August Arab Light official selling price for Asian buyers by <strong>$11/bbl</strong> — the steepest monthly reduction since at least 2000 — flipping the grade from a $9.50 premium to a $1.50/bbl discount versus the Oman/Dubai average. Northwest Europe pricing fell $15/bbl and North American pricing fell $8/bbl. The cut signaled Riyadh prioritizing volume over price as Hormuz flows recovered. <em>The July 7 tanker attacks introduced the contingency: OSP cuts and volume pledges are only as good as the shipping-lane security that lets barrels reach buyers. Arab Light at a historic discount is irrelevant if the tankers carrying it are under missile fire.</em>",
+      "link_url": "https://boereport.com/2026/07/06/saudi-arabia-cuts-august-arab-light-asia-osp-biggest-drop-in-over-two-decades/",
+      "link_text": "Read BOE Report"
+    },
+    {
+      "tag": "EIA / Weekly Report",
+      "headline": "EIA July 8 Weekly Petroleum Report — Fifth Draw or First Gulf-Crude Build? Near-Term Data Catalyst Partially Displaced by Geopolitical Shock",
+      "body": "Today's EIA Weekly Petroleum Status Report — covering the week ending July 3 — was positioned as the near-term binary for WTI's floor at $68–$70. Four consecutive crude draws totaling more than <strong>13 million barrels</strong> had provided the scarcity floor. Commercial crude stocks stand at <strong>408.4 million barrels</strong>, 7% below the five-year seasonal average. Whether today's report shows a fifth consecutive draw or the first Gulf-crude build has been partially displaced by the geopolitical shock from the tanker attacks — but the data still informs the medium-term balance: a large build would confirm Gulf crude was already arriving before sanctions were reimposed, adding complexity to any scenario where Iranian exports are curtailed.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "IEA / Glut Forecast",
+      "headline": "IEA's Demand-Destruction and Surplus Forecast Meets Geopolitical Floor — Hormuz Attack Risk Complicates the Bear Case",
+      "body": "The IEA's June Oil Market Report projected a <strong>1.1 mb/d year-on-year decline</strong> in 2026 global oil demand and a return to supply surplus by year-end, driven by post-war demand destruction in aviation and petrochemicals. The EIA STEO cut its Q3 2026 Brent forecast to <strong>$74/bbl</strong> — a $27/bbl downward revision. Both institutional forecasts were built on a stable Hormuz peace framework. The July 7 tanker attacks introduce a scenario neither model incorporated: partial or full sanctions reimposition removing Iranian barrels precisely as the IEA expected them to anchor a bearish surplus. <em>A Hormuz security reversal is the single most powerful supply-side upside shock remaining on the 2026 calendar.</em>",
+      "link_url": "https://www.cnbc.com/2026/06/17/global-oil-demand-suppy-energy-prices-iea-inventories.html",
+      "link_text": "Read CNBC"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Now — Ongoing",
+      "name": "US-Iran Crisis: Sanctions Reimposed After Hormuz Attacks — Will the Islamabad MOU Hold or Collapse?",
+      "impact": "The July 7 tanker attacks and subsequent US Treasury sanctions reimposition represent the most acute test of the June 17 Islamabad Memorandum. Three outcomes now compete: (1) US treats reimposition as a 72-hour diplomatic pressure signal — sanctions rescinded after credible Iranian condemnation of the IRGC; peace deal survives; (2) IRGC attacks deemed unauthorized by Iranian government — de-escalation and sanctions reversed within 48–72 hours; (3) Iranian government endorses attacks or fails to credibly distance itself — full General License X revocation, Iranian supply pipeline cut, potential Hormuz access disruption. Outcome (3) removes 2–3 mb/d of Iranian crude from global supply and is the most significant price shock remaining on the 2026 calendar.",
+      "market_impact": "De-escalation (outcomes 1 or 2): $1–2/bbl giveback; return to bearish supply fundamentals; Brent retest $71–$72. Full sanctions (outcome 3): $8–$15/bbl immediate spike; Brent targets $82–$88; WTI above $80; Hormuz access fears worst case risks $90+.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Wednesday, July 8 — Today",
+      "name": "EIA Weekly Petroleum Status Report — Week Ending July 3; Fifth Consecutive Draw or First Gulf-Crude Build",
+      "impact": "The dominant near-term data catalyst before July 7, now partially displaced by the geopolitical shock. Commercial crude stocks at 408.4M bbl, 7% below five-year seasonal average. Today's report covers the July 4 holiday week — potentially the first window to capture early Gulf crude arrivals from the late-June Ras Tanura VLCC loading restart. A fifth consecutive draw preserves the scarcity floor narrative. A first build confirms Gulf crude was arriving pre-attacks — critical for modeling supply under a full sanctions-reversal scenario.",
+      "market_impact": "Fifth draw: adds $0.50–$1/bbl to a tape already moving higher on geopolitics. First build 2–4M bbl: limited immediate impact given geopolitical dominance; medium-term bearish if peace deal survives. Build >4M bbl: confirms advanced supply normalization — modestly bearish on deal-survival scenario.",
+      "risk": "High"
+    },
+    {
+      "date": "Next 48–72 Hours",
+      "name": "Iranian Government Response — Condemn, Endorse, or Equivocate? The Signal That Sets the New Direction",
+      "impact": "The Iranian government's public response to the IRGC strikes is the decisive near-term signal. A swift, credible condemnation distancing Tehran from the attacks opens the path to sanctions reversal and deal preservation. Equivocation or silence sustains the current premium and creates sustained uncertainty. An endorsement or justification of the attacks would likely trigger full US sanctions reimposition, CENTCOM escalation, and the most severe price shock since the war began in February 2026.",
+      "market_impact": "Credible condemnation: $0.50–$1/bbl giveback; deal-survival narrative re-engages; Brent tests $72. Equivocation: Brent holds $73–$75 on sustained uncertainty. Endorsement: $8–$12/bbl spike; Brent targets $80–$85; worst-case Hormuz access fears return.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Before July 12",
+      "name": "Geneva Phase-2 IAEA Framework Talks — Now in Serious Jeopardy After Tanker Attacks and Sanctions Reimposition",
+      "impact": "The Geneva Phase-2 negotiations — aimed at an IAEA inspection framework as a condition for permanent sanctions removal — were described as 'constructive but complex' before July 7. The tanker attacks and US sanctions reimposition have thrown the entire diplomatic architecture into question. A Geneva walkout or Iranian ultimatum would be the single largest upside catalyst on the calendar, hitting a tape where deal survival had been priced as near-certainty, creating a violent repricing from a near-zero premium base.",
+      "market_impact": "Geneva continues and produces framework: $1–2/bbl relief; deal-survival narrative confirmed. Geneva suspended or collapsed: $5–8/bbl additional premium on top of tanker-attack shock; Brent risks $78–$82 and re-opening of $90+ war-premium scenarios.",
+      "risk": "Very High"
+    },
+    {
+      "date": "September OPEC+ Ministerial (TBD)",
+      "name": "Sixth OPEC+ Hike or Saudi Pause? Fiscal Floor Calculus Upended by New Geopolitical Uncertainty",
+      "impact": "Before July 7, the September ministerial was framed as the first opportunity for Riyadh to signal a production pause without loss of face, as Brent at $71.89 pressed against the Saudi fiscal breakeven. The Hormuz attacks change that calculus. If the peace deal survives and Iranian supply continues, bearish fundamentals reassert and Saudi fiscal pressure intensifies. If sanctions are fully reimposed and Iranian supply is curtailed, global supply tightens and the market-share strategy becomes less necessary — creating a perverse option for Riyadh where geopolitical disruption defends prices without requiring a production cut.",
+      "market_impact": "Deal survives and sixth hike proceeds: $2–3/bbl bearish; Brent risks mid-$60s by October. Sanctions fully reimposed: OPEC+ pauses hikes; sixth increase shelved; Brent supported $75–$80 through year-end.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "On July 5, I wrote that the asymmetric risk remaining in oil markets was the August 21 waiver expiry, priced at near-zero by a tape carrying no geopolitical cushion: \"Any event that raises that probability — a Geneva walkout, an Iranian ultimatum, a Hormuz incident — produces a $5–8/bbl shock from a tape with no cushion.\" On July 7, the Strait of Hormuz produced exactly that event: <strong>three vessels struck by Iranian IRGC forces, US Treasury sanctions reimposed, CENTCOM strikes on Iranian military sites near the Strait</strong>. Brent has moved from $71.89 to $73.29 — a 1.28% gain that represents only the opening adjustment in a market that is still trying to determine which of three very different outcomes is most probable: rapid de-escalation and deal preservation; sustained sanctions pressure with partial Iranian supply disruption; or full framework collapse with Hormuz access at risk.",
+      "<strong>My read on the new situation:</strong> The Islamabad Memorandum is under the most severe stress since it was signed on June 17, but it is not definitively broken. The critical variable is the Iranian government's public posture in the next 48–72 hours. A credible distancing from the IRGC strikes and re-engagement of diplomatic channels would make the US sanctions reimposition a pressure signal rather than a permanent reversal — and Brent would return toward $70–$72 as supply fundamentals reassert. If Tehran equivocates or endorses the attacks formally or through silence, the sanctions stick, Iranian supply faces disruption, and Brent has another $8–$12 to move. <em>The market is pricing the weighted average of those outcomes at $73.29. That is not the right number in either scenario — it is the number that reflects maximum uncertainty. It will not stay there long.</em>",
+      "<strong>What has structurally changed:</strong> The one-sided bear case that dominated July 1–6 — five OPEC+ hikes, record OSP cuts, IEA surplus forecast, JPMorgan glut call — is no longer uncontested. Every bearish signal since June 17 was predicated on the assumption of stable Hormuz access and a smooth progression to permanent sanctions removal. <strong>Saudi Aramco's $11/bbl OSP cut is contingent on barrels safely reaching Asian buyers. OPEC+'s fifth hike assumes those barrels can transit the Strait.</strong> The market cannot simultaneously price a supply glut and a supply disruption. The next 48–72 hours of Iranian signaling are what force a resolution of that contradiction.",
+      "My call: <strong>Brent $71–$79 for the week, with the range determined entirely by the Iranian government's response to the July 7 attacks.</strong> De-escalation and rapid sanctions reversal: $71–$73, bear trend reasserts. Sustained equivocation: $73–$76, geopolitical premium holds. Iranian endorsement or Geneva walkout: $76–$79 and climbing, Brent targets $82–$88. The EIA weekly report is secondary — watch Iranian diplomatic signals first. <em>Every barrel of geopolitical risk was discharged from this tape over the prior six weeks. It is being put back in, one tanker attack at a time.</em>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Rapidly Uncertain — Sanctions Reimposed; Iranian Supply Pipeline at Risk; Gulf Arrivals Now Contested", "tone": "neutral", "pct": 42 },
+      { "name": "Geopolitical Risk", "label": "Sharply Elevated — Three Hormuz Attacks in 24 Hours; US-Iran Framework Under Severest Test Since Islamabad MOU", "tone": "bearish", "pct": 74 },
+      { "name": "OPEC+ Pricing Power", "label": "Paused Pending Hormuz Clarity — Fifth Hike Sealed but Volume Pledges Contingent on Strait Access", "tone": "neutral", "pct": 35 },
+      { "name": "Iranian Supply Momentum", "label": "At Risk — General License X Status Uncertain After Sanctions Reimposition; 40M+ bbl Already Exported", "tone": "bearish", "pct": 38 },
+      { "name": "Deal Durability", "label": "Under Severe Stress — Islamabad MOU First Major Test; Iranian Government Response Next 48–72 Hours Is Key Signal", "tone": "bearish", "pct": 32 },
+      { "name": "Demand Recovery", "label": "Unchanged — Post-War Demand Soft; IEA Projects Surplus H2 2026; Disruption Fear Does Not Boost Demand", "tone": "bearish", "pct": 20 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$71 – $79",
+      "bias": "Bias: Direction Uncertain — Iranian Government Response Next 48–72 Hours Determines the Range ↕"
+    },
+    "watch_levels": {
+      "resistance": "$76–$79",
+      "support": "$71–$73",
+      "breakout": ">$79 (Iranian government endorses July 7 attacks or equivocates; General License X fully revoked; CENTCOM escalation; Hormuz access threatened; Brent targets $82–$88)",
+      "breakdown": "<$71 (Iran credibly condemns IRGC strikes; Treasury sanctions reversed within 48–72 hrs; Geneva Phase-2 resumes; supply-fundamentals bear case reasserts; WTI tests $66–$67)"
+    }
+  }
+}
