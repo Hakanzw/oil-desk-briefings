@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Friday, July 10, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $76.57 ▲ +0.35% — TRUMP DECLARES CEASEFIRE "OVER" FROM NATO ANKARA SUMMIT; US STRUCK KHARG ISLAND JULY 8; SEIZURE THREAT MAKES THIS THE MOST ACUTE SUPPLY-SHOCK RISK SINCE FEB 28 &nbsp;|&nbsp; WTI CRUDE $72.32 ▲ +0.33% — BRENT-WTI SPREAD $4.25; BRENT SURGED 5%+ WEDNESDAY ON KHARG THREAT; WTI HOLDS ABOVE $72 AS MARKET PRICES WORST-CASE IRANIAN EXPORT DISRUPTION &nbsp;|&nbsp; NATURAL GAS $2.99 ▼ -0.53% — SIX-WEEK LOW; FREEPORT LNG MAINTENANCE BEGINS TODAY THROUGH LATE AUGUST; 61 BCF STORAGE INJECTION EXCEEDED 49 BCF FORECAST; GAS DIVERGES FROM OIL &nbsp;|&nbsp; TRUMP AT NATO ANKARA: "I THINK IT'S OVER. I DON'T WANT TO DEAL WITH THEM ANYMORE; THEY'RE SCUM" — US STRUCK ~90 IRANIAN MILITARY TARGETS INCLUDING KHARG ISLAND; TRUMP SAYS US MAY SEIZE IT &nbsp;|&nbsp; KHARG ISLAND: ~90% OF IRAN'S CRUDE EXPORTS (~950M BBL/YR); US STRUCK JULY 8; TRUMP THREATENS OUTRIGHT SEIZURE — WORST-CASE REMOVES 2.5–3 MB/D FROM GLOBAL SUPPLY; BRENT TARGETS $90+ IF SEIZED &nbsp;|&nbsp; IRAN RETALIATED: IRGC STRUCK 85 US MILITARY SITES IN BAHRAIN AND KUWAIT; THREATENED "HARSHER RETALIATION" IN COMING DAYS; ISLAMABAD MOU FUNCTIONALLY SUSPENDED; SANCTIONS REIMPOSED &nbsp;|&nbsp; EIA JULY 8 REPORT (WEEK ENDING JUL 3): FIRST CRUDE BUILD +3.0M BBL VS FORECAST -1.9M BBL; STOCKS 411.4M BBL, 6% BELOW 5-YR AVG — BEARISH DATA OVERWHELMED BY KHARG ISLAND SUPPLY SHOCK RISK &nbsp;|&nbsp; DIPLOMATIC PARADOX: TRUMP DECLARED CEASEFIRE "OVER" BUT ALLOWED US NEGOTIATORS TO CONTINUE BACK-CHANNEL TALKS — WHETHER THAT IS A PRESSURE GAMBIT OR POLICY INCOHERENCE DETERMINES THE NEXT $10/BBL&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Friday, July 10, 2026<br>
+      Vol. XLII — No. 185<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$76.57</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$72.32</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$76.57</div>
+      <div class="price-change up">▲ +0.35% (holding near $77 after Wednesday's 5%+ surge on Trump Kharg Island seizure threat; from July 8 briefing base of $73.29; Islamabad MOU effectively suspended; worst geopolitical escalation since Feb 28 war start)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$72.32</div>
+      <div class="price-change up">▲ +0.33% (WTI/Brent spread $4.25; above $72 as market prices Iranian export disruption; up from $69.14 Jul 7 close; Kharg Island seizure threat is primary near-term upside catalyst)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$2.99</div>
+      <div class="price-change down">▼ -0.53% (six-week low; Freeport LNG maintenance begins today through late August reducing feedgas demand; 61 Bcf storage injection beat 49 Bcf forecast; gas diverges sharply from oil on supply-specific driver)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude (wk Jul 3)</div>
+      <div class="price-val">+3.0M bbl</div>
+      <div class="price-change up">▲ First crude build in weeks — stocks 411.4M bbl, 6% below 5-yr avg; actual +2.998M bbl vs forecast −1.9M bbl; data released July 8 confirms Gulf crude arriving pre-escalation; bullish bearish signal swamped by geopolitics</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. 2026 War Peak</div>
+      <div class="price-val">−46.8%</div>
+      <div class="price-change down">▼ Off ~$144 April North Sea Dated high; Wednesday's 5%+ surge arrested the six-week deflation; Kharg Island seizure scenario would target $90+; deal-revival scenario would retest $70–$72 support</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">Islamabad MOU Is Dead in All But Name — Trump Declares Ceasefire "Over"; US Strikes Kharg Island; Seizure Threat Targets 90% of Iran's Crude Exports; Brent Holds Near $77 as Markets Price the Worst</div>
+      <h3>Trump Says Ceasefire Is "Over" After US Strikes Kharg Island — IRGC Retaliates Against 85 US Bases; Kharg Seizure Would Remove 2.5–3 mb/d From Global Supply; Brent Surged 5%+ Wednesday, Holds $76.57 Friday</h3>
+      <p>Three weeks after the Islamabad Memorandum of Understanding was signed on June 17, the ceasefire it codified is effectively dead. Speaking from the NATO summit in Ankara on July 8, President Trump declared: <strong>"I think it's over. I don't want to deal with them anymore; they're scum."</strong> He revealed that US forces had struck <strong>Kharg Island</strong> — Iran's primary crude export hub — the previous night, and threatened further escalation: "Maybe we'll take over Kharg Island, and we may take over Kharg Island, and there's not a thing they can do about it." Those words hit the oil tape like a detonation. Brent surged more than 5% on Wednesday as traders priced the scenario that US military forces might seize or permanently neutralize the island that handles approximately <strong>90% of Iran's crude oil exports</strong> — roughly 950 million barrels annually — and through which China, India, and South Korea receive the bulk of their Iranian crude. US CENTCOM separately confirmed it had struck approximately <strong>90 Iranian military targets</strong> in the July 8 operation, including air defense systems, coastal surveillance assets, missile and drone storage sites, and IRGC naval capabilities along Iran's coastline. It was the second consecutive day of US strikes on Iran following CENTCOM's initial operation on July 7 in response to the Hormuz tanker attacks on three commercial vessels.</p>
+      <p>Iran's Islamic Revolutionary Guard Corps responded by striking <strong>85 US military sites in Bahrain and Kuwait</strong>, and Iranian leadership accused Washington of violating the Islamabad MOU's core provisions. The IRGC issued a warning that it would <strong>"retaliate in a harsher way"</strong> in the coming days — a statement that markets are pricing as a near-certainty given the escalatory cycle now underway. Kharg Island's strategic significance cannot be overstated. Located approximately 55 kilometers off Iran's coast in the Persian Gulf, the island's deep-water terminals serve as the pipeline terminus for multiple Iranian offshore fields, and it handles essentially all of Iran's crude export volumes. <em>During the Iran-Iraq War of the 1980s, Iraqi bombing of Kharg was the primary lever used to throttle Iranian oil revenue. A US seizure in 2026 would be categorically more severe: it would represent a permanent, kinetic removal of Iran's ability to export crude — not a temporary disruption, but a structural elimination of 2.5–3 million barrels per day of supply from global markets.</em> Brent's 5% surge on Wednesday reflected only the initial premium assigned to that scenario. If US forces moved from striking Kharg to occupying it, the tape would move another $15–20/bbl from current levels.</p>
+      <p>Amid the escalating military exchange, two data points arrived that complicate the supply narrative. The EIA's July 8 weekly petroleum report — covering the week ending July 3 — showed <strong>the first crude inventory build in weeks: +2.998 million barrels</strong>, against a forecast decline of 1.9 million barrels. Stocks stand at 411.4 million barrels, 6% below the five-year seasonal average. The build confirms that Gulf crude was reaching US shores even before the re-escalation — meaning the supply pipeline was normalizing precisely when the political architecture collapsed. That data has been almost entirely displaced by the geopolitical shock. Separately, <strong>natural gas diverged sharply from crude</strong>: Henry Hub front-month futures dropped more than 6% Thursday to a six-week low of approximately $3.01, held near $2.99 Friday — a move driven by two supply-specific factors entirely unrelated to the Iranian crisis. Freeport LNG, one of the largest US liquefied natural gas export facilities, began <strong>maintenance on pre-treatment and liquefaction facilities today, July 10, continuing through late August</strong>, sharply reducing feedgas demand. A 61 Bcf natural gas storage injection for the week ending July 3 far exceeded the 49 Bcf consensus forecast, widening the inventory surplus. The oil-gas divergence tells a layered story: crude markets are pricing Iranian geopolitical risk while gas markets are pricing domestic supply-demand fundamentals. That divergence will close only when the Iranian situation resolves — in one direction or the other.</p>
+      <a href="https://www.aljazeera.com/news/2026/7/8/trump-says-us-may-take-over-kharg-island-heres-what-you-need-to-know" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">~90</div>
+        <div class="stat-desc">Iranian Military Targets Struck by CENTCOM July 8 — Air Defense, Coastal Surveillance, Missile/Drone Sites, IRGC Naval Capabilities; Second Consecutive Day of US Strikes on Iran</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">90%</div>
+        <div class="stat-desc">Share of Iran's Crude Exports Flowing Through Kharg Island (~950M Bbl/Yr) — US Struck It July 8; Trump Threatens Outright Seizure; Loss of Kharg Would Remove ~2.5–3 mb/d From Global Supply</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">+3.0M bbl</div>
+        <div class="stat-desc">EIA Crude Inventory Build for Week Ending July 3 — First Build in Multiple Weeks; vs. Forecast Decline of 1.9M bbl; Confirms Gulf Crude Was Arriving Before Re-Escalation; Data Overwhelmed by Geopolitics</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$2.99</div>
+        <div class="stat-desc">Henry Hub Natural Gas — Six-Week Low; Freeport LNG Maintenance Begins Today Through Late August; 61 Bcf Storage Injection Exceeded 49 Bcf Forecast; Gas Diverges From Crude on Iran-Unrelated Supply Factors</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Ceasefire Collapse / Trump</div>
+      <h4>Trump Declares Ceasefire "Over" From NATO Ankara Summit — "I Don't Want to Deal With Them Anymore; They're Scum"</h4>
+      <p>President Trump declared the US-Iran ceasefire "over" on July 8 from the NATO summit in Ankara, approximately three weeks after the Islamabad Memorandum of Understanding was signed on June 17. "I think it's over," Trump told reporters. "I don't want to deal with them anymore; they're scum." He said the US had struck Kharg Island the previous night and threatened additional military action, including a potential naval blockade reinstatement and seizure of Kharg Island. In a significant contradiction, Trump simultaneously <em>allowed US negotiators to continue back-channel diplomatic discussions</em> — a paradox the market is now pricing as either a maximum-pressure strategy or policy incoherence, with very different oil-price implications depending on which interpretation is correct.</p>
+      <a href="https://www.aljazeera.com/news/2026/7/8/trump-says-ceasefire-over-after-us-iran-trade-attacks" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Kharg Island / Supply Risk</div>
+      <h4>US Strikes Kharg Island — Trump Threatens Seizure of the Hub Handling 90% of Iran's Crude Exports; Oil Surges 5%+</h4>
+      <p>US forces struck <strong>Kharg Island</strong> on the night of July 7-8 as part of CENTCOM's ~90-target operation against Iranian military assets. Trump revealed the strike and threatened outright seizure: "Maybe we'll take over Kharg Island, and we may take over Kharg Island, and there's not a thing they can do about it." Located 55 km off Iran's Persian Gulf coast, Kharg Island handles approximately <strong>90% of Iran's crude oil exports</strong> (~950 million barrels annually), with China as the primary destination. During the Iran-Iraq War, Iraqi bombing of Kharg was the primary mechanism for throttling Iranian oil revenue; a US seizure in 2026 would structurally eliminate Iran's ability to export crude — removing an estimated 2.5–3 mb/d from global supply. Brent crude jumped more than 5% on Wednesday as traders assigned initial probability to the seizure scenario.</p>
+      <a href="https://www.aljazeera.com/news/2026/7/8/trump-says-us-may-take-over-kharg-island-heres-what-you-need-to-know" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Iranian Retaliation / IRGC</div>
+      <h4>Iran Retaliates: IRGC Strikes 85 US Military Sites in Bahrain and Kuwait — Threatens "Harsher Retaliation" in Coming Days</h4>
+      <p>Iran's Islamic Revolutionary Guard Corps responded to the US strikes by targeting <strong>85 US military sites in Bahrain and Kuwait</strong>, and separately launched eight missiles at a US military base in Jordan (intercepted by Jordanian air defenses). Iranian leadership formally accused Washington of violating the Islamabad MOU. The IRGC issued a statement warning it would <strong>"retaliate in a harsher way"</strong> in the coming days. Iran's hard-line position frames the US strikes as treaty violations rather than legitimate responses to the July 7 tanker attacks — a framing that, if sustained, closes the diplomatic off-ramp and forces the market to price an extended military conflict rather than a resolvable crisis. <em>The next 72 hours of Iranian escalation or de-escalation signaling are the decisive near-term variable for Brent's direction.</em></p>
+      <a href="https://www.cbsnews.com/live-updates/us-iran-war-trump-says-ceasefire-over/" class="read-link" target="_blank">Read CBS News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">EIA / Inventories</div>
+      <h4>First Crude Build in Weeks — EIA Reports +3.0M bbl for Week Ending July 3; Stocks 411.4M bbl, 6% Below 5-Yr Avg</h4>
+      <p>The EIA's July 8 weekly petroleum status report delivered the first crude inventory build in multiple consecutive weeks: <strong>+2.998 million barrels</strong> for the week ending July 3, against a consensus forecast decline of 1.9 million barrels. Commercial crude stocks now stand at <strong>411.4 million barrels</strong>, 6% below the five-year seasonal average. The build confirms that Gulf crude from restarted Iranian and Saudi fields was reaching US shores before the July 7-8 escalation — meaning the bearish supply-normalization thesis was materializing in the data precisely as the political framework collapsed. <em>The July 15 EIA report will be the first inventory data capturing the period of re-escalation: whether tanker operators have re-routed or paused Hormuz transits will appear in the crude stock change.</em></p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Natural Gas / Freeport LNG</div>
+      <h4>Henry Hub Hits Six-Week Low — Freeport LNG Maintenance Begins Today Through Late August; 61 Bcf Storage Build Exceeds Forecast</h4>
+      <p>US natural gas front-month futures fell more than 6% Thursday to their lowest close since May 27, driven by two Iran-unrelated supply factors. <strong>Freeport LNG</strong> — one of the largest US LNG export facilities — began scheduled maintenance on pre-treatment and liquefaction facilities <strong>today, July 10, continuing through late August</strong>, sharply reducing feedgas demand. Separately, energy companies injected <strong>61 billion cubic feet</strong> of gas into storage for the week ending July 3, exceeding the 49 Bcf consensus forecast and widening the inventory surplus over the five-year average. Henry Hub holds near $2.99 on Friday after Thursday's decline. The oil-gas divergence — crude holding near $77 while gas retreats toward $3 — reflects structurally different supply-demand dynamics: crude priced on Iranian geopolitics, gas priced on domestic infrastructure and storage fundamentals.</p>
+      <a href="https://www.naturalgasintel.com/news/freeport-lng-feedgas-eases-ahead-of-major-maintenance/" class="read-link" target="_blank">Read Natural Gas Intelligence →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">CENTCOM / Military Operations</div>
+      <h4>US Forces Complete Second Round of Iran Strikes — ~90 Targets Hit Including Air Defense, IRGC Boats, Coastal Surveillance; Kharg Island Struck</h4>
+      <p>CENTCOM confirmed that US forces struck approximately <strong>90 Iranian military targets</strong> on July 8, including more than 60 IRGC boats, air defense systems, coastal surveillance assets, missile and drone storage sites, and military logistics infrastructure along Iran's coastline — the second consecutive day of operations following the initial July 7 response to the Hormuz tanker attacks. CENTCOM said the operations were intended to impose costs on Iran for violating the ceasefire and to degrade Iran's ability to attack commercial shipping in the Strait of Hormuz. Trump's confirmation that Kharg Island was among the targets struck elevated the market-moving significance of the operations far beyond a standard counter-IRGC campaign: <em>Kharg Island's destruction or seizure crosses the threshold from tactical pressure to strategic supply shock.</em></p>
+      <a href="https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4538814/us-forces-complete-another-round-of-strikes-against-iran/" class="read-link" target="_blank">Read CENTCOM →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Now — Ongoing</td>
+        <td>
+          <div class="event-name">Kharg Island: Will the US Seize It? The Single Largest Supply-Shock Risk on the 2026 Calendar</div>
+          <div class="event-impact">Trump's Kharg Island seizure threat is the most consequential supply-risk statement made since the war began on February 28. Kharg handles ~90% of Iran's crude exports (~950 million barrels annually). A strike that damages throughput capacity is already partially priced. A full seizure or destruction of loading infrastructure would structurally eliminate 2.5–3 mb/d of Iranian crude from global supply — a loss that OPEC+ cannot compensate for with its current spare capacity buffer of approximately 2.5 mb/d. This scenario carries a price impact larger than any single event on the 2026 calendar. The three probable outcomes: (1) US maintains strike pressure but does not physically seize Kharg — surgical degradation, some throughput reduction, ceasefire preserved in modified form; (2) US occupies Kharg temporarily as a maximum-pressure bargaining chip — Iranian exports halted for weeks, Brent $85–92; (3) Permanent US control or destruction of Kharg export infrastructure — 2.5–3 mb/d removed from supply; Brent targets $95–$105.</div>
+        </td>
+        <td>No Kharg seizure (outcome 1): $2–3/bbl giveback from current levels as market de-risks; Brent tests $73–$75. Temporary occupation (outcome 2): $8–15/bbl immediate spike; Brent $85–$92; WTI above $82. Permanent seizure/destruction (outcome 3): $18–28/bbl; Brent $95–$105; worst-case Hormuz re-closure adds further premium.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Next 48–72 Hours</td>
+        <td>
+          <div class="event-name">Iran's "Harsher Retaliation" Warning — IRGC Escalation or De-Escalation: The Second-Order Variable</div>
+          <div class="event-impact">The IRGC's explicit warning of "harsher retaliation in coming days" must be evaluated against two competing Iranian imperatives: the hardliners' institutional incentive to retaliate kinetically, and the Iranian government's economic imperative to preserve the residual export infrastructure at Kharg and keep some diplomatic path to crude revenue. Iran's 85-site retaliation in Bahrain and Kuwait was calibrated to stay below a threshold of direct US casualties — the line that historically triggers full US escalation. A harder retaliation targeting US naval assets, carrier groups, or bases in Iraq and Syria would cross that threshold. Critically, if Iranian missiles or drones directly damage Kharg's own loading infrastructure in a retaliatory miscalculation, the export disruption becomes Iranian self-inflicted — a bizarre but historically documented risk in Iran-Iraq War precedents.</div>
+        </td>
+        <td>Calibrated retaliation (Bahrain/Kuwait-style): $1–2/bbl additional premium; Brent holds $76–$78. Escalation to US naval assets or Iraqi bases: $4–6/bbl spike; Brent targets $80–$83. Iranian strike on Kharg or Hormuz shipping lanes: $10–18/bbl; catastrophic tail-risk scenario.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Next 48–72 Hours — Ongoing</td>
+        <td>
+          <div class="event-name">Diplomatic Back-Channel: Is the Ceasefire Truly "Over" or Is This a Maximum-Pressure Gambit?</div>
+          <div class="event-impact">Trump's most consequential self-contradiction was declaring the ceasefire "over" while simultaneously allowing US negotiators to continue diplomatic discussions with Iranian counterparts. This paradox is the hinge point of the entire market range. If the ceasefire declaration was a maximum-pressure tactic — designed to force Iran to disavow the IRGC attacks and return to the Islamabad framework on more favorable terms — then diplomatic channels remain live and the ceasefire can be restored within 48–72 hours of credible Iranian concessions. If the ceasefire declaration reflects a genuine policy shift toward regime-pressure or military resolution, the Islamabad MOU is dead and the market must price a sustained, open-ended conflict. The difference between these two interpretations is approximately $10–15/bbl in either direction from the current $76.57 Brent.</div>
+        </td>
+        <td>Ceasefire restored via back-channel (pressure gambit): $4–6/bbl relief; Brent tests $70–$73; bear fundamentals reassert. Ceasefire genuinely abandoned: $8–12/bbl additional premium; Brent targets $82–$88. Kharg seizure proceeds: compound with outcome from event 1 above.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Wednesday, July 15</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Report — First Post-Escalation Inventory Data; Will Hormuz Disruption Show in US Crude Stocks?</div>
+          <div class="event-impact">The EIA's July 15 report will cover the week ending July 10 — the first inventory period capturing the full re-escalation. The July 8 report showed the first crude build in weeks (+3.0M bbl), confirming Gulf crude was arriving before the ceasefire collapse. The July 15 data will answer whether tanker operators paused or re-routed Hormuz transits in the days following the July 7-8 attacks. A draw after the first build would suggest incoming supply disruption. A second consecutive build would confirm supply was already fully normalized before the political collapse — adding a bearish data counterpoint to the geopolitical premium.</div>
+        </td>
+        <td>Second consecutive build (2–5M bbl): limited price impact; bearish data note in geopolitically dominated tape. First draw in two weeks (−1 to −3M bbl): $0.50–1/bbl supportive; confirms Hormuz supply disruption materializing. Large draw (>3M bbl): $1.50–2.50/bbl supportive; confirms significant transit disruption; adds fundamental weight to geopolitical premium.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">September OPEC+ Ministerial (TBD)</td>
+        <td>
+          <div class="event-name">Sixth OPEC+ Hike or Emergency Pause? War Re-Escalation Upends Market-Share Calculus</div>
+          <div class="event-impact">Before the ceasefire collapse, the September OPEC+ ministerial was the first opportunity for Riyadh to pause the five-month hike cycle without losing face — Brent at $71.89 had been pressing against the Saudi fiscal breakeven. The Kharg Island threat and ceasefire collapse fundamentally alter that calculation. If US forces seize Kharg and Iranian exports are curtailed, global supply tightens sharply and Riyadh's market-share strategy becomes less necessary — Saudi Arabia gets fiscal support from geopolitically elevated prices without taking a production cut. OPEC+'s five consecutive hikes assumed Iranian supply was flowing freely through Hormuz; that assumption is no longer valid. The sixth hike for September is now contingent on the conflict's trajectory.</div>
+        </td>
+        <td>Conflict persists, sixth hike shelved: supply tightening on both Iranian and OPEC+ fronts; Brent supported at $78–$82 through year-end. Rapid ceasefire restoration, sixth hike proceeds: bearish; Brent risks mid-$60s by Q4 2026. Emergency OPEC+ cuts to defend prices: unlikely but would signal crisis-level fiscal pressure; prices $85+.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Friday, July 10, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Three weeks ago, the Islamabad Memorandum of Understanding was the most bullish-for-peace event in the oil market since February 28. This column tracked the sequential de-risking: Brent fell from $144 in April to $71.89 by July 7, with five consecutive OPEC+ hikes, Saudi Arabia's record OSP cuts, and the IEA's surplus forecast all pointing toward a structural bear case. On July 5 I wrote: <strong>"The August 21 waiver expiry is priced at zero risk; any event that raises that probability produces a $5–8/bbl shock from a tape with no cushion."</strong> Two days later the Hormuz tanker attacks arrived. Two days after that, Trump declared the ceasefire "over," US forces struck Kharg Island, and the president threatened to <em>seize the hub through which 90% of Iran's crude exports flow</em>. Brent has moved from $73.29 (Wednesday's briefing) to $76.57 today — a 4.5% gain over two sessions. That is the opening adjustment in a market that is trying, and largely failing, to price three wildly different outcomes from a single set of facts.</p>
+        <p><strong>My read on the current situation:</strong> The ceasefire is not simply "stressed" — it is functionally suspended. But it is not definitively dead, and the distinction matters enormously for where Brent trades next week. Trump's paradox — declaring the ceasefire "over" while allowing negotiators to continue talking — is either the most sophisticated maximum-pressure campaign of his presidency or genuine policy incoherence. If it is a pressure campaign, the Islamabad MOU can be restored within 48–72 hours of Iranian concessions, and Brent would give back $4–6 as bear fundamentals reassert. <em>If it reflects a genuine shift toward Iranian regime pressure or military resolution, Brent has another $15–20 to move higher as Kharg Island seizure probability approaches certainty.</em> The market is at $76.57 because it cannot distinguish between those two scenarios. It will be forced to do so within 72 hours as Iranian signals clarify.</p>
+        <p><strong>What has structurally changed since the last briefing:</strong> Kharg Island is now a live military objective. That is categorically different from anything priced in the prior six weeks. Saudi Arabia's $11/bbl OSP cut and OPEC+'s five consecutive hikes were both predicated on Iranian crude flowing freely through the Strait of Hormuz. <strong>A Kharg Island seizure removes the supply entirely — not by blocking the Strait, but by eliminating Iran's ability to load crude onto tankers regardless of whether the Strait is navigable.</strong> The EIA's first crude build (+3.0M bbl, week ending July 3) is almost irrelevant against this backdrop except as a baseline: it confirms supply was normalizing before the collapse, which means a rapid diplomatic resolution would see that normalization resume quickly. The natural gas divergence — six-week low on Freeport maintenance while crude holds near $77 — is the one clean domestic data signal: the commodity complex is not in a generalized risk-on move; it is pricing a specifically Iranian supply shock.</p>
+        <p>My call: <strong>Brent $74–$84 for the week, with the range driven entirely by Kharg Island's fate and the diplomatic back-channel's viability.</strong> Rapid ceasefire restoration via pressure gambit: $70–$73, bear trend reasserts, OPEC+ hike cycle resumes, Brent tests the low $70s. Kharg Island degraded but not seized, sustained military pressure: $76–$80, geopolitical premium holds at current levels. Kharg Island seized or Iranian supply structurally disrupted: $84–$92, six-week rally, worst-case $90+ if Hormuz access threatened concurrently. <em>Friday's $76.57 is the maximum-uncertainty price. It will not hold — resolution, in either direction, is imminent and violent. The only position that makes sense at this price is one where you know which outcome you're betting on.</em></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Acute — Kharg Island Struck; US Seizure Threat Targets 90% of Iranian Export Infrastructure; Gulf Transit Partially Disrupted</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:78%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Maximum — Ceasefire "Over" Per Trump; US-Iran in Active Military Exchange; Islamabad MOU Functionally Suspended After 23 Days</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:93%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Pricing Power</span><span style="color:#f0a500">Paused by Crisis — Fifth Hike in Place but Volume Pledges Contingent on Hormuz Access; Sixth Hike Now Geopolitically Contingent</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:38%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Iranian Supply Momentum</span><span style="color:#e05252">Critical Risk — Kharg Island Struck; Sanctions Reimposed; Export Hub Seizure Threat Would Remove 2.5–3 mb/d From Global Supply</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:15%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Durability</span><span style="color:#e05252">Effectively Zero — Islamabad MOU Functionally Dead; Ceasefire "Over" Per Trump; Diplomatic Back-Channel Is Sole Remaining Thread</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:10%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Recovery</span><span style="color:#e05252">Unchanged / Bearish — Post-War Demand Soft; Geopolitical Price Premium ≠ Demand Strength; IEA Surplus Forecast Still Operative</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:18%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$74 – $84</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Direction Uncertain — Kharg Island Fate and Diplomatic Back-Channel Determine the Range ↕</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$80–$84</span></div>
+            <div>🟢 Support: <span style="color:#fff">$73–$75</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$84 (US seizes or permanently disables Kharg Island; Iranian retaliation escalates to US naval assets; Hormuz access re-threatened; Brent targets $90–$105)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$73 (Trump ceasefire declaration revealed as maximum-pressure gambit; diplomatic back-channel delivers Iranian concessions; Kharg Island seizure threat withdrawn; Brent retests $70–$72 on reasserted bear fundamentals)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Friday, July 10, 2026</span>
+  <span>Sources: Reuters, Al Jazeera, Bloomberg, CNBC, CBS News, NBC News, EIA, Natural Gas Intelligence, Marine Link, Trading Economics, OilPrice.com</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
