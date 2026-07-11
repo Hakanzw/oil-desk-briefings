@@ -1,0 +1,156 @@
+{
+  "date_long": "Saturday, July 11, 2026",
+  "date_slug": "jul11-2026",
+  "volume": "Vol. XLII — No. 186",
+  "dateline": "Dubai / London / New York",
+  "sources": "EIA, IEA, OPEC, NBC News, CNBC, Al Jazeera, Reuters, Bloomberg, Natural Gas Intelligence, OilPrice.com",
+
+  "ticker": [
+    "BRENT CRUDE $76.01 ▼ -0.38% (FRI CLOSE) — WKL +5.9% ON HORMUZ RISK",
+    "WTI CRUDE $71.41 ▼ -0.93% (FRI CLOSE) — WEEKLY RANGE: $67.82–$76.08",
+    "TRUMP: CEASEFIRE \"EFFECTIVELY OVER\" — US REVOKES IRAN OIL SANCTIONS WAIVER",
+    "TANKER STRUCK NEAR HORMUZ; BAHRAIN AND KUWAIT HIT BY IRANIAN STRIKES",
+    "OPEC+ APPROVES 188K BPD AUGUST INCREASE — FIFTH CONSECUTIVE MONTHLY HIKE",
+    "EIA: SURPRISE +3.0M BBL CRUDE BUILD ENDS 10-WEEK DRAW STREAK",
+    "UAE JUNE OUTPUT HITS RECORD 4.1M BPD AFTER OPEC+ EXIT",
+    "NATGAS $2.95 SIX-WEEK LOW: FREEPORT LNG SHUTDOWN THROUGH LATE AUGUST"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$76.01", "change": "▼ −0.38% (Fri) | wk +5.9%", "direction": "down" },
+    { "label": "WTI Crude", "value": "$71.41", "change": "▼ −0.93% (Fri) | wk +5.1%", "direction": "down" },
+    { "label": "Natural Gas (HH)", "value": "$2.95", "change": "▼ −2.4% — 6-wk low", "direction": "down" },
+    { "label": "UAE June Output", "value": "4.1M bpd", "change": "▲ Record — post-OPEC+ exit", "direction": "up" },
+    { "label": "EIA Crude Build", "value": "+3.0M bbl", "change": "Surprise vs. −2.4M forecast", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Escalation Returns: Ceasefire \"Effectively Over\" as Tankers Are Struck and Sanctions Snap Back",
+    "headline": "Trump Declares Hormuz Ceasefire \"Effectively Over\" — Crude Posts 6% Weekly Gain on Revived Supply-Disruption Fear",
+    "paragraphs": [
+      "The June peace dividend is evaporating. In a week that began with cautious optimism about the June 17 Memorandum of Understanding, fighting in and around the Strait of Hormuz resumed in force. President Trump told reporters on Friday that the ceasefire was <strong>\"effectively over,\"</strong> but that both sides had agreed to keep diplomatic channels open. The immediate flashpoints: a Qatar-owned LNG tanker was struck near the Strait, Iran launched retaliatory strikes targeting Bahrain and Kuwait, and the Trump administration responded by revoking the sanctions waiver that had permitted Iranian oil sales — meaning Tehran cannot now sell even crude already shipped and sitting at sea. Brent ended Friday at <strong>$76.01</strong>, up nearly 6% on the week.",
+      "The re-escalation arrived as OPEC+ added another layer of bearish supply pressure. Seven member nations agreed on July 5–6 to raise output by <strong>188,000 barrels per day beginning in August</strong>, the fifth consecutive monthly increase in the group's phased unwind of 2023-era cuts. Saudi Arabia and Russia each absorbed the largest individual allotments at 62,000 bpd apiece. The structural counterweight to geopolitical risk was also on display in the EIA's weekly data: U.S. commercial crude stocks swelled by <strong>+3.0 million barrels</strong> for the week ending July 3, snapping a streak of ten consecutive draws and catching markets off guard versus a consensus forecast of a 2.4-million-barrel decline.",
+      "The picture that emerges is a market pulled hard in two directions at once. On the upside: a strait that handles roughly 20% of seaborne oil remains contested, the sanctions waiver is gone, and no large commodity vessel was observed transiting Hormuz on Friday. On the downside: OPEC+ is adding barrels monthly, the UAE — now outside OPEC+ quota discipline — pumped a record <strong>4.1 million bpd</strong> in June, and the IEA has cut Russia's supply forecast but still estimates Moscow producing 8.86 million bpd. The bulls have a headline; the bears have a balance sheet."
+    ],
+    "link_url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328",
+    "link_text": "Read NBC News",
+    "stats": [
+      { "num": "+5.9%", "desc": "Brent's Weekly Gain Driven Entirely by Hormuz Re-escalation Risk Premium" },
+      { "num": "188k bpd", "desc": "OPEC+ August Output Increase — Fifth Consecutive Monthly Hike in Production" },
+      { "num": "+3.0M bbl", "desc": "EIA Surprise Crude Build, Ending 10-Week Streak of Inventory Declines" },
+      { "num": "4.1M bpd", "desc": "UAE Record June Output Following Its Exit From OPEC+ Quota Constraints" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Trump Says Ceasefire \"Effectively Over\" After Tanker Strikes — Revokes Iran Sanctions Waiver",
+      "body": "President Trump declared the US–Iran ceasefire was \"effectively over\" Friday after a Qatar-owned LNG tanker was struck near the Strait of Hormuz and Iran launched retaliatory strikes on Bahrain and Kuwait. The Trump administration immediately revoked a temporary sanctions waiver, blocking Tehran from selling Iranian oil already loaded and at sea. Both sides have agreed to keep negotiations open. US Central Command noted it has facilitated transit of more than 800 commercial vessels and 380 million barrels of crude since early May.",
+      "link_url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Oil Posts Best Week Since March — Brent Near $76, WTI Above $71 Into the Weekend",
+      "body": "Brent crude ended Friday at $76.01, up 5.9% on the week — its best weekly performance in months — while WTI settled at $71.41, up roughly 5%. The weekly range for WTI stretched from $67.82 to an intraday high of $76.08 before a Friday pullback. Analysts note that with no large cargo vessels transiting Hormuz Friday, the physical disruption premium has moved from theoretical to observable, providing a durable floor for the risk bid.",
+      "link_url": "https://www.cnbc.com/2026/07/10/oil-edges-lower-but-heads-for-weekly-gain-as-middle-east-supply-risks-persist.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Approves Fifth Consecutive Monthly Hike — 188k bpd More Barrels in August",
+      "body": "Seven OPEC+ member nations convened virtually on July 5–6 and agreed to raise output by 188,000 barrels per day for August, the fifth straight monthly increase in the group's phased unwind of 2023-era production cuts. Saudi Arabia and Russia each add 62,000 bpd; Iraq adds 26,000 bpd. The decision continues the group's push to reclaim market share at what OPEC+ leadership still regards as a sustainable price level. The next scheduled review is August 2.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "EIA Data",
+      "headline": "Surprise +3M Barrel Crude Build Ends Ten-Week Draw Streak — Markets Absorb the Print",
+      "body": "The EIA's weekly petroleum status report, released July 8, showed U.S. commercial crude inventories rose 3.0 million barrels for the week ending July 3 — a sharp surprise against the consensus forecast of a 2.4-million-barrel draw. Total stocks sit at approximately 411 million barrels, still about 6% below the five-year seasonal average. The build was driven by higher net crude imports (+1.1 million bpd) and a dip in refinery throughput. Gasoline stocks fell 1.9 million barrels; distillates dropped 5.0 million barrels.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Supply Outlook",
+      "headline": "UAE Pumps Record 4.1M bpd in June; IEA Cuts Russian Forecast on Ukrainian Drone Damage",
+      "body": "The IEA's July Oil Market Report confirmed the UAE produced 4.1 million barrels per day in June — a new national record and up sharply from 3.3 million bpd in May — after exiting OPEC+ quota constraints on May 1. The country deployed its own fleet and chartered additional supertankers to maximize exports. Meanwhile, the IEA cut its Russian supply forecast by 85,000 bpd for 2026 and 150,000 bpd for 2027, citing intensifying Ukrainian drone strikes on refineries, storage and pipelines. Russia produced roughly 8.86 million bpd in June, about 910,000 bpd below its OPEC+ target.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-10/uae-s-oil-output-hit-record-high-in-june-iea-says",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub Hits Six-Week Low at $2.95 as Freeport LNG Begins Extended Maintenance Shutdown",
+      "body": "Natural gas futures fell to $2.95/MMBtu — a six-week low — after Freeport LNG began maintenance at its pre-treatment and liquefaction facilities in Texas on July 10, with work expected to run through late August, sharply reducing feedgas demand. The selloff was compounded by the EIA reporting a 61 Bcf storage injection for the week ended July 3, widening the surplus over the five-year average to 185 Bcf. Above-normal summer temperatures are supporting power-burn demand but have not been enough to absorb the supply overhang.",
+      "link_url": "https://www.naturalgasintel.com/news/freeport-lng-maintenance-ample-supply-drag-natural-gas-futures-lower/",
+      "link_text": "Read NGI"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jul 11–13 — This Weekend",
+      "name": "Hormuz Transit Watch — Will Cargo Vessels Resume Passage?",
+      "impact": "Friday ended with no large commodity vessels observed transiting the Strait. Every day of zero transit tightens physical supply and validates the risk premium. A resumption of vessel traffic — even partial — would suggest both sides are self-limiting the disruption; its absence over the weekend would open Monday with Brent testing $78+.",
+      "market_impact": "Directional: +$2–4/bbl per day of confirmed zero-transit; −$2–3 on visible resumption.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 13 — Monday Open",
+      "name": "Market Re-Open After Weekend Developments — Diplomacy or Deterioration?",
+      "impact": "Weekend diplomatic signals — or further strikes — will set the Monday gap. Any credible back-channel progress reported over the weekend would compress the risk bid sharply. Conversely, additional vessel strikes or Iranian statements on Hormuz closure would gap Brent higher. This is the binary event for the week.",
+      "market_impact": "Gap risk of ±$3–5/bbl depending on weekend headline flow.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 15 — Wednesday",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The follow-up to last week's surprise +3M barrel build. Another build would reinforce the supply-overhang narrative and temper the geopolitical bid. A return to draws would validate the demand signal and give bulls room to run the risk premium higher. Consensus will likely look for a modest draw of 1–2M barrels.",
+      "market_impact": "±$1.50–$2.50/bbl; directional depending on the crude figure.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug 2",
+      "name": "Next OPEC+ Review Meeting",
+      "impact": "After five consecutive monthly increases, the group's next decision is live. If geopolitical risk premium holds crude in the mid-$70s, OPEC+ may pause its unwind or slow the pace. A pause would be the most meaningful supply-positive signal the group can send; a sixth consecutive hike would add structural downward pressure.",
+      "market_impact": "Forward-looking — anchors the H2 2026 supply narrative.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Iran Sanctions Enforcement & Diplomatic Track",
+      "impact": "The revoked sanctions waiver means Iranian crude already at sea is now unsellable. How aggressively the US enforces secondary sanctions — and whether back-channel negotiations resume — determines whether this week's re-escalation becomes a sustained disruption or a brief spike. Buyers of Iranian oil face immediate pressure to find alternative supply.",
+      "market_impact": "Structural: affects ~1–1.5M bpd of Iranian exports and alternative demand for Gulf barrels.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Four weeks ago the narrative in this column was that the war premium had largely deflated and the implementation trade had begun. That framework is now under direct assault. The week of July 7–11 was not a wobble at the margin — it was a partial reversion to the crisis playbook. The ceasefire is, in Trump's own words, \"effectively over.\" The sanctions waiver is gone. A tanker has been struck. Bahrain and Kuwait have absorbed Iranian strikes. <strong>The risk premium that bled out over six weeks is trying to come back in five days.</strong>",
+      "<strong>My read on the setup:</strong> The geopolitical bid is real and physically grounded this time — not a future hypothetical but observed, absent-vessel reality in the Strait on Friday. That said, the fundamental counterweights are heavier than they were in February: OPEC+ is actively adding supply, the UAE is at record output outside quota discipline, and the EIA printed a surprise build in the same week Hormuz re-escalated. The market absorbed $76 Brent, not $90. That tells you where the two-sided tension lives right now.",
+      "<strong>The critical variable this weekend</strong> is vessel activity in the Strait. An empty Strait on Sunday and Monday confirms a genuine physical disruption and opens the door to $79–$82 Brent early next week. Any sign of resumed traffic — even a handful of smaller tankers — undercuts the escalation narrative and pulls the bid back toward $73–$74. The Monday open is the first clean print either side gets to register its position.",
+      "My call: <strong>Brent trades in a $73–$81 range next week</strong>, with the center of gravity around $75–$77 absent fresh headline shocks. The upside scenario — a confirmed multi-day Hormuz shutdown with no diplomatic progress — puts $82–$85 in range. The downside scenario — weekend back-channel progress and resumed vessel traffic — sends Brent toward $72. <strong>This is a headline-driven market with real physical stakes. Size your risk accordingly.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Re-Tightening", "tone": "bearish", "pct": 70 },
+      { "name": "Geopolitical Risk", "label": "Very Elevated", "tone": "bearish", "pct": 82 },
+      { "name": "OPEC+ Supply Pressure", "label": "Bearish (Adding)", "tone": "bullish", "pct": 60 },
+      { "name": "Demand Signal", "label": "Neutral", "tone": "neutral", "pct": 48 },
+      { "name": "Diplomatic Outlook", "label": "Deteriorating", "tone": "bearish", "pct": 25 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin", "tone": "bearish", "pct": 28 }
+    ],
+    "call": {
+      "label": "Next-Week Price Call — Brent Crude",
+      "value": "$73 – $81",
+      "bias": "Bias: Sideways to Higher — Headline Risk Dominant ▲"
+    },
+    "watch_levels": {
+      "resistance": "$80–$82",
+      "support": "$73–$74",
+      "breakout": ">$84 (confirmed Hormuz shutdown)",
+      "breakdown": "<$71 (weekend diplomacy + resumed transit)"
+    }
+  }
+}
