@@ -1,0 +1,156 @@
+{
+  "date_long": "Sunday, July 12, 2026",
+  "date_slug": "jul12-2026",
+  "volume": "Vol. XLII — No. 187",
+  "dateline": "Dubai / London / New York",
+  "sources": "EIA, Al Jazeera, CNBC, NBC News, Bloomberg, NPR/Marketplace, OilPrice.com, Natural Gas Intelligence",
+
+  "ticker": [
+    "BRENT CRUDE $76.01 (FRI CLOSE) — +5.9% ON THE WEEK; MARKETS REOPEN MONDAY",
+    "WTI CRUDE $71.41 (FRI CLOSE) — WEEKLY RANGE: $67.82–$76.08",
+    "CRACK SPREADS AT EXTREME LEVELS — REFINING MARGINS IN DISTRESS FROM DUAL SUPPLY SHOCK",
+    "HORMUZ: ZERO LARGE CARGO VESSELS OBSERVED FRI — WEEKEND TRANSIT WATCH ONGOING",
+    "RUSSIA: 25% OF REFINING CAPACITY OFFLINE; FUEL RATIONING AT STATIONS NATIONWIDE",
+    "US REVOKES IRAN SANCTIONS WAIVER — TEHRAN OIL AT SEA NOW UNSELLABLE",
+    "OPEC+: FIFTH MONTHLY HIKE APPROVED — 188K BPD FOR AUGUST",
+    "NATGAS $2.94 — 6-WK LOW; FREEPORT LNG OFFLINE THROUGH LATE AUGUST"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$76.01", "change": "▼ −0.38% (Fri) | wk +5.9%", "direction": "down" },
+    { "label": "WTI Crude", "value": "$71.41", "change": "▼ −0.93% (Fri) | wk +5.1%", "direction": "down" },
+    { "label": "Natural Gas (HH)", "value": "$2.94", "change": "▼ −2.4% — 6-wk low", "direction": "down" },
+    { "label": "Hormuz Transits / Day", "value": "~38 vessels", "change": "▼ vs. ~130 pre-war normal", "direction": "down" },
+    { "label": "Russia Refining Offline", "value": "~25%", "change": "▲ Ukrainian drone campaign", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "Weekend Watch: Two Shocks, One Market — Hormuz Disruption Meets Russian Refinery Crisis",
+    "headline": "The Real Hormuz Pain Is in Refined Products: Crack Spreads Hit Extremes as Two-Front Supply Shock Reshapes Global Energy",
+    "paragraphs": [
+      "Headline crude prices tell only half the story. While Brent settled Friday at <strong>$76.01</strong> — a level that seems almost benign compared to the March war peak near $120 — the true measure of stress in global energy markets is the refining margin. The Gulf Coast 3:2:1 crack spread has surged to <strong>extraordinary levels</strong>, signaling that the Hormuz disruption and Russia's refinery crisis have collided to create a refined-products squeeze that no barrel of crude alone can quickly resolve. Bloomberg's energy desk this week framed it plainly: <em>\"Oil product markets are the real Hormuz pain point.\"</em> With zero large cargo vessels observed transiting the Strait on Friday, and no diplomatic breakthrough visible over the weekend, that squeeze is not easing.",
+      "The structural explanation is a two-front supply shock with no clean offset. On one front: the Strait of Hormuz handles roughly 20% of seaborne oil — but it is the <em>products</em> that flow through Gulf refinery systems and terminals that the world's importers most urgently need. On the other front, Ukraine's intensifying drone campaign has <strong>knocked out approximately 25% of Russia's oil refining capacity</strong>, removing a major global source of diesel, jet fuel, and gasoline precisely when Gulf product flows are disrupted. Russia is paradoxically exporting seaborne crude at post-invasion highs — a four-week average of <strong>4.22 million barrels per day</strong> through July 5 — while simultaneously rationing domestic fuel, with drivers queuing at petrol stations limited to 20–30 liters per fill.",
+      "With markets closed until Monday, the weekend watch centers on a single variable: Strait of Hormuz vessel activity. Friday ended with no large commercial vessels completing Hormuz passage. A sustained zero-transit weekend <strong>transforms the geopolitical risk premium from theoretical to physically observable</strong>, and opens the door to a sharp Monday gap. Conversely, any sign of resumed traffic — even smaller tankers or partial transits — undercuts the escalation bid. The Trump administration has kept diplomatic channels open despite declaring the ceasefire \"effectively over,\" and back-channel Qatar diplomatic contacts with Tehran are ongoing. The Monday open is the first clean verdict on where this weekend's events land."
+    ],
+    "link_url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328",
+    "link_text": "Read NBC News",
+    "stats": [
+      { "num": "~38/day", "desc": "Hormuz Tanker Transits vs. ~130 Pre-War — Physical Disruption Now Confirmed" },
+      { "num": "25%", "desc": "Russian Refining Capacity Offline From Ukrainian Drone Strikes — Domestic Rationing Follows" },
+      { "num": "4.22M bpd", "desc": "Russia's 4-Week Average Seaborne Crude Exports Through July 5 — Post-Invasion Record" },
+      { "num": "+3.0M bbl", "desc": "EIA Surprise Crude Build for Week Ending July 3 — Ends a 10-Week Draw Streak" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "US Revokes Iran Sanctions Waiver After Tanker Strike — Trump: Ceasefire \"Effectively Over\"",
+      "body": "The Trump administration revoked the temporary sanctions waiver that had permitted limited Iranian oil sales, hours after a Qatar-owned LNG tanker was struck near the Strait of Hormuz and Iran launched retaliatory strikes on Bahrain and Kuwait. President Trump declared the ceasefire \"effectively over\" on Friday while keeping diplomatic channels open. The waiver revocation means Iranian crude already loaded and at sea is now unsellable, immediately tightening the effective supply picture for importers who had been quietly sourcing discounted Tehran barrels.",
+      "link_url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "Analysis",
+      "headline": "Bloomberg: Refined Products Are the Real Hormuz Pain Point — Crack Spreads Signal System Stress",
+      "body": "Bloomberg's energy desk argued this week that while headline crude benchmarks have largely retreated from war highs, the true Hormuz damage is in refined products markets, where diesel, jet fuel, and gasoline tightness is acute. Gulf refinery system disruptions have coincided with Ukrainian strike damage to Russian refining capacity, creating a dual-shock environment. The piece cited the Gulf Coast 3:2:1 crack spread at extraordinary levels — a direct measure of refiner margins — as evidence the supply chain stress extends well beyond spot crude prices.",
+      "link_url": "https://www.bloomberg.com/news/newsletters/2026-07-10/oil-product-markets-are-the-real-hormuz-pain-point",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Russia",
+      "headline": "\"The Crisis Is Deep\": Russian Fuel Shortages Worsen as Ukrainian Drones Hit Quarter of Refinery Capacity",
+      "body": "Al Jazeera's on-the-ground reporting from Russia documented long queues at petrol stations, per-vehicle fuel rationing of 20–30 liters, and a declared state of emergency in Crimea as Ukrainian drone strikes have disabled roughly 25% of Russia's oil refining capacity. Russia has responded with export bans on gasoline and jet fuel, and import sourcing from Belarus and India. The Omsk refinery — Russia's largest — was struck on July 6 and halted the following day. Putin acknowledged the situation publicly while describing it as \"not critical.\"",
+      "link_url": "https://www.aljazeera.com/news/2026/7/2/the-crisis-is-deep-the-view-from-russia-as-fuel-shortages-worsen",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Approves Fifth Consecutive Monthly Output Hike — 188k bpd in August, Next Review August 2",
+      "body": "Seven OPEC+ member nations approved a further 188,000-barrel-per-day production increase for August on July 6 — the fifth straight monthly hike in the group's unwind of 2023-era cuts. Saudi Arabia and Russia each absorbed 62,000 bpd; Iraq adds 26,000 bpd. Despite the quota increase, physical delivery from Gulf OPEC+ members remains constrained by the Hormuz near-closure. The UAE — now outside quota discipline since May — produced a record 4.1 million bpd in June via its Fujairah bypass route to the Indian Ocean. The next OPEC+ review is August 2.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "EIA Data",
+      "headline": "Surprise +3M Barrel Crude Build Ends 10-Week Draw Streak — Distillates Tumble 5M Barrels",
+      "body": "The EIA's weekly petroleum status report for the week ending July 3 showed U.S. commercial crude inventories rose 3.0 million barrels — sharply surprising a consensus forecast of a 2.4-million-barrel draw and ending a 10-week streak of inventory declines. Total crude stocks stand near 411 million barrels, still roughly 6% below the five-year average. Gasoline stocks fell 1.9 million barrels. The distillate draw of 5.0 million barrels dwarfed the 0.6 million barrel build that had been expected, reflecting tight diesel and heating oil conditions consistent with the products-market stress narrative.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Russia-Ukraine War Is Now Driving Refined Fuel Prices — And the Effect Is Global",
+      "body": "NPR/Marketplace traced how Ukraine's drone campaign against Russian refineries — disabling roughly a quarter of Moscow's processing capacity and triggering domestic rationing — is rippling through global refined-products prices even as Russia paradoxically ships crude at record export volumes. Four-week average Russian seaborne crude shipments hit 4.22 million barrels per day through July 5, a post-invasion record, as Moscow converts unavoidable crude into foreign exchange revenue. Meanwhile, natural gas settled at $2.94/MMBtu — a six-week low — as Freeport LNG's scheduled maintenance shutdown through late August sharply cut feedgas demand.",
+      "link_url": "https://www.marketplace.org/story/2026/07/10/how-the-russiaukraine-war-is-driving-up-refined-fuel-prices",
+      "link_text": "Read Marketplace"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jul 13 — Monday Open",
+      "name": "Market Re-Open — Weekend Hormuz Transit & Diplomacy Verdict",
+      "impact": "The Monday open is the binary event for the week. A continued zero-transit weekend in Hormuz confirms physical disruption and opens Brent to a gap toward $79–$82. Any resumption of vessel traffic or credible diplomatic signal from Qatari back-channel talks with Tehran would deflate the risk bid toward $72–$74. The Monday gap direction is the clearest read the market gets on whether the ceasefire collapse is an escalation or a negotiating posture.",
+      "market_impact": "Gap risk: +$3–5/bbl on no-transit/no-diplomacy; −$2–4/bbl on partial transit resumption.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 12–14 — This Weekend",
+      "name": "Strait of Hormuz Vessel Transit Monitoring",
+      "impact": "Friday ended with no large commercial cargo vessels completing Hormuz passage, confirming the physical dimension of the re-escalation. Every day of confirmed zero transit tightens the products supply chain and validates the risk premium. Satellite vessel-tracking reports and UKMTO advisories are the key real-time data sources. The standard for \"normal\" pre-war transit was approximately 130 vessels per day; current estimates are near 38.",
+      "market_impact": "Structural: each day of zero transit is incrementally price-positive for crude and acutely price-positive for products.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 15 — Wednesday",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The follow-on print to last week's surprise +3M barrel crude build. Another build would reinforce the supply-overhang narrative and temper the geopolitical bid. A return to draws signals demand is absorbing the constrained supply, supporting prices. Consensus likely looks for a modest draw of 1–2M barrels. Watch the distillate figure closely given this week's products-market stress theme.",
+      "market_impact": "±$1.50–$2.50/bbl directional; distillate figure could amplify products-market moves.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Ukraine Drone Campaign vs. Russian Refinery Infrastructure",
+      "impact": "Ukrainian precision drone strikes have disabled roughly 25% of Russian refining capacity — including the Omsk facility hit July 6. The campaign is systematically shifting Russia from a refined-products exporter to a crude-only exporter, reshaping global products balances. Each additional refinery hit widens the refined-products deficit that European and Asian importers must source elsewhere, supporting crack spreads and diesel premiums. No ceasefire or negotiated halt to the campaign is currently on the table.",
+      "market_impact": "Structural upward pressure on diesel and jet fuel premiums; widening crack spreads.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 2",
+      "name": "Next OPEC+ Ministerial Review",
+      "impact": "After five consecutive monthly increases totaling ~800,000 bpd, the August 2 meeting is the next scheduled decision point. If the Hormuz re-escalation keeps crude in the mid-$70s, OPEC+ may signal a pause or slow the pace of the unwind to defend the floor. A confirmed sixth consecutive hike adds structural downward pressure on crude. The UAE's record output outside quota discipline complicates any group effort to tighten supply.",
+      "market_impact": "Forward-looking: anchors the H2 2026 supply-price framework for the rest of summer.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Two briefings ago I wrote that the risk profile had flipped from one-sided to genuinely two-sided, with the implementation trade — not the deal trade — now governing prices. That framework still holds, but the re-escalation of the past week has added a third variable the June peace narrative did not adequately price: the <strong>refined-products shock</strong>. Crude headlines have kept Brent in a $68–$78 range since the ceasefire collapsed. But the real energy market stress is in the refining margin — crack spreads at extraordinary levels signal a system under severe strain, and that strain has two independent causes that will not resolve at the same speed.",
+      "<strong>My read on the setup:</strong> The geopolitical bid is real and grounded in observable physics — a Strait that is not moving the volumes it needs to move, and a sanctions waiver that just got yanked. But the structural counterweights remain: OPEC+ is methodically adding barrels, the UAE is at record output, and last week's EIA data printed a surprise build in the same session Hormuz re-escalated. The market processed all of that and settled at $76 Brent, not $90. That tells you exactly where the two-sided tension lives. <strong>The bulls have a headline; the bears still have a balance sheet.</strong>",
+      "<strong>The under-discussed story</strong> this weekend is the Russia layer. Moscow's domestic fuel rationing is not a market story in isolation — but when you combine a 25% reduction in Russian refining throughput with the Hormuz products disruption, you get a refined-products market that is significantly tighter than the crude price alone implies. Diesel and jet fuel buyers globally are competing for a smaller pool of supply from fewer refining centers. That products tightness will eventually transmit back into crude demand if refiners must run harder to fill the gap.",
+      "My call: <strong>Brent trades in a $74–$82 range this week</strong>, with the center of gravity around $76–$78 absent fresh headline shocks. The upside case — confirmed multi-day zero-transit in Hormuz with no diplomatic progress — puts $83–$86 in range; the downside case — weekend back-channel progress and resumed vessel traffic — sends Brent toward $71–$73. <strong>This is a market with real physical constraints and two compounding supply-chain crises. Size positions accordingly — and watch the Monday open.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Re-Tightening", "tone": "bearish", "pct": 74 },
+      { "name": "Geopolitical Risk", "label": "Very Elevated", "tone": "bearish", "pct": 85 },
+      { "name": "Refined Products Stress", "label": "Critical — Dual Shock", "tone": "bearish", "pct": 90 },
+      { "name": "OPEC+ Supply Pressure", "label": "Adding Barrels", "tone": "bullish", "pct": 62 },
+      { "name": "Diplomatic Outlook", "label": "Stalled", "tone": "bearish", "pct": 18 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin", "tone": "bearish", "pct": 27 }
+    ],
+    "call": {
+      "label": "This-Week Price Call — Brent Crude",
+      "value": "$74 – $82",
+      "bias": "Bias: Sideways to Higher — Monday Gap Risk Dominant ▲"
+    },
+    "watch_levels": {
+      "resistance": "$82–$84",
+      "support": "$74–$75",
+      "breakout": ">$86 (confirmed multi-day zero-transit + no diplomacy)",
+      "breakdown": "<$72 (weekend back-channel progress + vessel traffic resumes)"
+    }
+  }
+}
