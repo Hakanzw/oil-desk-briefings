@@ -1,0 +1,156 @@
+{
+  "date_long": "Saturday, July 18, 2026",
+  "date_slug": "jul18-2026",
+  "volume": "Vol. XLII — No. 189",
+  "dateline": "Dubai / London / New York",
+  "sources": "EIA, Al Jazeera, OilPrice.com, CNBC, IEA, Lloyd's List Intelligence, Oil & Gas Journal, Kpler",
+
+  "ticker": [
+    "BRENT CRUDE $88.10 ▲ +4.59% — SURGES AS IRAN STRIKES KUWAIT POWER AND WATER PLANT",
+    "WTI CRUDE $82.44 ▲ +4.42% — BOTH BENCHMARKS AT MULTI-WEEK HIGHS",
+    "IRAN ATTACKS KUWAIT INFRASTRUCTURE — FIRES REPORTED AT DESALINATION AND POWER FACILITY",
+    "HORMUZ: ~5 VESSEL TRANSITS/DAY — DOWN FROM 10 LAST WEEK; APPROACHING FUNCTIONAL ZERO",
+    "US CENTCOM: SIX CONSECUTIVE NIGHTS OF STRIKES ON IRANIAN MILITARY TARGETS",
+    "UKRAINE TAKES RUSSIA'S OMSK REFINERY OFFLINE — 42.7% OF RUSSIAN REFINING CAPACITY DOWN",
+    "OPEC+ FIFTH MONTHLY HIKE: 188K BPD FOR AUGUST — GULF DELIVERY CONSTRAINED BY HORMUZ",
+    "NATGAS $2.92/MMBTU ▲ +2.03% — TICKING HIGHER AS LNG TANKER ROUTES DISRUPTED"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$88.10", "change": "▲ +4.59% — largest 1-day gain since June", "direction": "up" },
+    { "label": "WTI Crude", "value": "$82.44", "change": "▲ +4.42% — multi-week high", "direction": "up" },
+    { "label": "Natural Gas (HH)", "value": "$2.92", "change": "▲ +2.03% — LNG routes disrupted", "direction": "up" },
+    { "label": "Hormuz Transits / Day", "value": "~5 vessels", "change": "▼ from 10 last week / 130 pre-war", "direction": "down" },
+    { "label": "Kuwait Infrastructure", "value": "Under Attack", "change": "▲ Iran struck power / water plant", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Breaking — Iran Strikes Kuwait, Hormuz Approaching Zero: The Supply Crisis Escalates Again",
+    "headline": "Iran Attacks Kuwait Power and Water Plant Overnight — Brent Surges 4.6% to $88.10 as Hormuz Transits Collapse to Five Per Day",
+    "paragraphs": [
+      "The conflict expanded its geographic footprint overnight. Iran's armed forces struck a power generation and water desalination facility in Kuwait, triggering fires and knocking out a significant portion of the emirate's generating capacity. The attack is the most direct Iranian strike on Kuwaiti infrastructure since the war began in late February, and came in the immediate aftermath of US Central Command announcing its <strong>sixth consecutive night of strikes</strong> on Iranian military targets — logistics infrastructure, maritime capabilities, and command nodes. The market read the expansion of the conflict swiftly: Brent crude surged <strong>+4.59% to $88.10 per barrel</strong> in the July 18 session, the front-month contract's largest single-day gain since June and a move that pushes it toward the critical <strong>$90 psychological threshold</strong> traders have been watching since the July 7 Hormuz tanker attacks.",
+      "Beneath the headline strike, the structural deterioration in Strait of Hormuz transit traffic continued without interruption. Lloyd's List Intelligence data places daily crossings at <strong>approximately five vessels</strong> on Friday — down from the roughly ten per day flagged in yesterday's briefing and a fraction of the <strong>~130 per day</strong> that characterized normal pre-war traffic. At five transits per day, the world's most critical oil chokepoint is not disrupted; it is functionally closed. The Strait carries an estimated 20% of global seaborne crude and 20% of global LNG. Iran also reportedly directed Houthi forces in Yemen to prepare to disrupt traffic at <strong>Bab el-Mandeb</strong> — adding the Red Sea's second critical choke point to an already extreme risk landscape.",
+      "The supply shock is now a multi-front event. Ukraine's armed forces struck the Omsk refinery — Russia's largest, with capacity exceeding 21 million metric tons annually — in one of Kyiv's deepest strikes on Russian territory, halting operations. A follow-on strike on the Saratov refinery compounded the damage; Ukrainian sources estimate that <strong>42.7% of Russia's total refining capacity</strong> is now offline. Simultaneously, the IEA's July 2026 Oil Market Report confirmed that global supply remains <strong>9.4 million barrels per day below pre-war February levels</strong> even after a partial Hormuz recovery in June. That recovery is now reversing. China responded to the week's 12% crude surge by raising retail gasoline prices 300 yuan per tonne — the first concrete demand-side signal, though analysts note meaningful demand destruction at these price levels remains weeks away."
+    ],
+    "link_url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "~5/day", "desc": "Hormuz Vessel Transits — Down From 10 Last Week and 130 Pre-War; Approaching Functional Zero" },
+      { "num": "+4.59%", "desc": "Brent's Largest Single-Day Surge Since June — Front-Month Hits $88.10 After Kuwait Strike" },
+      { "num": "42.7%", "desc": "Russian Refining Capacity Offline After Ukraine Drone Strikes on Omsk and Saratov Refineries" },
+      { "num": "9.4 mb/d", "desc": "Global Oil Supply Still Below Pre-War February Levels Per IEA July 2026 Oil Market Report" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Iran Strikes Kuwait Power and Water Infrastructure — Fires Reported, Generating Capacity Knocked Out",
+      "body": "Iran attacked a power generation and water desalination facility in Kuwait overnight, causing fires and knocking out a significant portion of Kuwait's generating capacity, according to Kuwait's Ministry of Electricity, Water and Renewable Energy. The strike represents an expansion of direct Iranian attacks to Gulf Co-operation Council member states and came amid US Central Command's sixth consecutive night of strikes on Iranian military targets, including logistics infrastructure and maritime capabilities. Iran also reported attacks against US military positions in Bahrain, Jordan, Kuwait, Oman, Qatar, and Syria.",
+      "link_url": "https://www.cnbc.com/2026/07/17/oil-price-today-brent-wti.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Chokepoints",
+      "headline": "Strait of Hormuz at ~5 Transits Per Day — Lloyd's List Confirms Near-Halt in Shipping Traffic",
+      "body": "Traceable vessel crossings through the Strait of Hormuz have fallen to approximately five per day, down from the ten per day reported in yesterday's briefing and far below the 130 that constituted pre-war normal flow, according to Lloyd's List Intelligence tracking. No large vessel has transited the US-coordinated lane while broadcasting its position since July 7. Reports also indicate Iran has directed Houthi-allied forces in Yemen to prepare to disrupt Bab el-Mandeb Strait shipping — potentially threatening the Red Sea's strategic waterway in addition to the Persian Gulf chokepoint.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "Fifth Consecutive Monthly Hike Approved — 188k bpd for August, But Gulf Delivery Blocked by Hormuz",
+      "body": "Seven OPEC+ member states — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — approved a 188,000-barrel-per-day output increase effective August 2026 on July 6, the group's fifth straight monthly hike as it continues unwinding 2023-era cuts. The decision was taken when Brent was trading near $72 following the June ceasefire. The group now has approximately 379,000 bpd of original cuts still to return. Analysts note the increase is largely theoretical for Gulf producers: total OPEC+ output has fallen from 42.77 million bpd in February to 33.13 million bpd in May, with Hormuz closures blocking barrel delivery regardless of paper quota levels.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Russia",
+      "headline": "Ukraine Drones Strike Omsk Refinery — Russia's Largest Halted; 42.7% of Refining Capacity Now Offline",
+      "body": "Ukrainian drones struck the Omsk oil refinery in western Siberia on July 6-7, halting operations at Russia's largest facility — with capacity exceeding 21 million metric tons per year — in one of Kyiv's deepest-range strikes on Russian infrastructure, covering approximately 2,500 km from Ukrainian territory. A follow-on strike on the Saratov refinery on July 8 further disabled Russian processing capacity. Ukrainian sources estimate that combined strikes have taken offline an estimated 42.7% of Russia's total refining capacity, adding a secondary supply shock to the primary Middle East disruption.",
+      "link_url": "https://www.cnbc.com/2026/07/07/ukraine-russia-omsk-oil-refinery-putin-nato.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Demand",
+      "headline": "China Raises Retail Gasoline and Diesel Prices — 300 Yuan/Tonne on Fuel as Crude Surges 12% in a Week",
+      "body": "China's National Development and Reform Commission announced fuel price hikes effective July 18 — gasoline up 300 yuan per tonne (~$44) and diesel up 290 yuan per tonne (~$43) — following international crude prices surging more than 12% in a single week due to Middle East escalation. The adjustment follows China's standard pricing formula tied to international benchmarks. Analysts warn that China's gasoline consumption could contract 5.5% in 2026 if elevated prices persist, introducing a demand-destruction dynamic that partially counteracts the supply-disruption narrative.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/China-to-Hike-Retail-Gasoline-and-Diesel-Prices-as-Oil-Jumps-12-in-a-Week.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "IEA",
+      "headline": "IEA: Global Oil Supply 9.4 mb/d Below Pre-War Levels — Demand to Fall 1 mb/d in 2026",
+      "body": "The IEA's July 2026 Oil Market Report found that global supply rebounded 4.1 million barrels per day in June to 98.8 mb/d as some Hormuz flows temporarily resumed, but output remained 9.4 mb/d below pre-war February levels. Gulf exports of refined products and LPG stayed below 50% of pre-war levels even as crude flows briefly recovered to nearly three-quarters of February rates, reflecting that key Gulf export refineries have not resumed operations. The IEA projects global oil demand declining 1 mb/d in 2026 before recovering 2 mb/d in 2027, with annual demand contractions easing from 4.8 mb/d in Q2 to 1.7 mb/d in Q3.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-july-2026",
+      "link_text": "Read IEA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jul 18 — Today",
+      "name": "Iran Strikes Kuwait — Conflict Expands to Gulf GCC Member State",
+      "impact": "Iran's overnight strike on Kuwait's power and water desalination infrastructure is the most significant geographic escalation since the war began in February. Kuwait is a GCC member and a key US partner in the region. If the attack is followed by Kuwaiti retaliatory measures, requests for US air support, or further Iranian strikes on energy infrastructure across the Gulf — Bahrain, Qatar, UAE — the current supply crisis compounds dramatically. The market is watching for any Kuwaiti or joint GCC diplomatic or military response through the weekend.",
+      "market_impact": "Acute: triggered today's +4.59% Brent surge; further Gulf state attacks add $5–10/bbl escalation premium.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Approaching Functional Zero — ~5 Transits Per Day vs. 130 Pre-War",
+      "impact": "The Strait's collapse from 130 vessels per day to approximately five represents a near-total closure of the world's most critical oil waterway. Each session at this transit level extends the physical tightening of crude and products markets globally. A confirmed zero-transit day — which Lloyd's List trackers have recorded on individual days this week — would mark the clearest acute price-spike catalyst on the board. Reports of Houthi preparation to close Bab el-Mandeb simultaneously represent the most severe possible chokepoint scenario the market can contemplate.",
+      "market_impact": "Structural: ongoing near-closure underpins the bull case; confirmed zero-transit day adds $6–10/bbl acute risk.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 2",
+      "name": "OPEC+ Ministerial Review — Sixth Hike or Defensive Pivot at $88+?",
+      "impact": "The August 2 virtual ministerial meeting comes after five consecutive monthly hikes — each approved when Brent was materially lower than today's $88.10. At current prices, the argument for a pause or reversal is strong: a sixth hike sends a bearish signal even if physical delivery remains blocked. Saudi Arabia and Russia face a strategic choice between defending market share through paper increases and defending price floors by signaling a pause. A confirmed sixth hike adds structured bearish forward pressure; a pause or reversal is the clearest top-down price-floor defense signal available.",
+      "market_impact": "Forward-looking: anchors H2 2026 supply framework; pause increasingly likely given current price levels.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US-Iran Diplomatic Back-Channel — Qatar / Oman Mediation Contacts",
+      "impact": "Despite the collapse of the June 17 MOU, back-channel contacts through Qatar and Oman have not been officially severed. Any credible re-engagement signal — a Qatari FM statement, an IAEA-Iran meeting, or a softer Trump tone — would be the single most powerful downside catalyst in this market. The complete absence of visible diplomacy after the Kuwait strike is itself a signal. Today's geographic expansion of Iranian attacks makes a near-term diplomatic breakthrough less likely, but any surprise reversal carries asymmetric downside price impact of $5–12/bbl.",
+      "market_impact": "Binary: credible diplomatic signal deflates Brent $5–12/bbl; confirmed collapse adds $6–10/bbl upside.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Russian Refinery Capacity Offline — Ukraine Strikes Remove 42.7% of Processing",
+      "impact": "The Omsk and Saratov refinery strikes represent a secondary supply shock layered on top of the primary Middle East disruption. With 42.7% of Russian processing capacity offline, Russian product exports face structural pressure and European diesel supply chains face an additional tightening not fully priced in the current market. The strategic implication: Russia's ability to generate petro-revenue and sustain the Ukraine war effort is materially degraded. Further Ukrainian strikes on Siberian or Ural-region refineries remain a plausible escalation path.",
+      "market_impact": "Secondary supply shock: tightens European diesel market; adds $2–4/bbl products-market premium.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called <strong>Brent in a $82–$92 range for the sessions ahead</strong>, with today's sanctions reinstatement providing a structural floor around $83 and the upside case pegged at $94–$98 for a weekend incident. Iran delivered the weekend incident: a direct strike on Kuwaiti power and water infrastructure, framed by US CENTCOM's sixth consecutive night of strikes and a Hormuz transit count that has fallen by half again — from 10 per day to five — since yesterday's session. Brent answered at <strong>$88.10, +4.59%</strong>. That is the right price for what the tape is being handed.",
+      "<strong>The situation as of this morning:</strong> Iran has now attacked a GCC member state's critical infrastructure directly. Hormuz is at five transits per day and trending toward zero. The June ceasefire framework is not merely paused — it is structurally finished. Ukraine has taken offline 42.7% of Russia's refining capacity. China is raising retail fuel prices today, printing the first observable demand-response data point in a market that has been supply-shock-dominated for months. The IEA confirms the world is still 9.4 million barrels per day below pre-war supply levels. <strong>This is a synchronized multi-theater supply crisis, and $88 is not the ceiling — it may not even be the midpoint.</strong>",
+      "The one caveat worth holding onto from the physical data: China's price hike is the market's internal circuit-breaker showing its first spark. A 5.5% contraction in Chinese gasoline demand — if it materializes at sustained prices above $85 Brent — would represent meaningful demand destruction at scale. The distillate build reported in last week's EIA data (+4.6 million barrels) is a second data point in the same direction. Demand-side pressure will not arrest today's move, but it is the structural release valve the market will need eventually. <strong>Watch China's July demand data in early August for the first real read.</strong>",
+      "My call: <strong>Brent trades $85–$97 in the sessions ahead</strong>, with the Kuwait escalation and Hormuz near-closure establishing the structural floor around $85–$87. The upside scenario — Hormuz at confirmed zero transits, further Gulf state infrastructure attacks, or Bab el-Mandeb closure — puts <strong>$97–$102</strong> in range, with $100 no longer the extreme tail it appeared last week. The downside case remains the same binary: a credible back-channel diplomatic signal via Qatar or Oman is the only mechanism capable of taking more than $5/bbl off this market before fundamentals catch up. <strong>The ceiling has moved. This weekend's events will determine how much.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme — Multi-Theater Shock", "tone": "bearish", "pct": 93 },
+      { "name": "Geopolitical Risk", "label": "Maximum — GCC Under Attack", "tone": "bearish", "pct": 96 },
+      { "name": "Hormuz Functionality", "label": "Near-Zero (~5/day)", "tone": "bearish", "pct": 97 },
+      { "name": "Demand Destruction Risk", "label": "First Signals — China Hike", "tone": "bullish", "pct": 38 },
+      { "name": "Diplomatic Outlook", "label": "Collapsed — Kuwait Strike", "tone": "bearish", "pct": 5 },
+      { "name": "OPEC+ Supply Relief", "label": "Paper-Only; Gulf Blocked", "tone": "bearish", "pct": 15 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$85 – $97",
+      "bias": "Bias: Higher — Kuwait Escalation Pushes Floor Up ▲"
+    },
+    "watch_levels": {
+      "resistance": "$90–$92 (psychological $90 + prior range top)",
+      "support": "$85–$87 (Friday closing levels / structural floor)",
+      "breakout": ">$97 (Hormuz zero transits + Gulf escalation broadens)",
+      "breakdown": "<$82 (surprise Qatar / Oman diplomatic breakthrough)"
+    }
+  }
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Saturday, July 18, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $88.10 ▲ +4.59% — SURGES AS IRAN STRIKES KUWAIT POWER AND WATER PLANT &nbsp;|&nbsp; WTI CRUDE $82.44 ▲ +4.42% — BOTH BENCHMARKS AT MULTI-WEEK HIGHS &nbsp;|&nbsp; IRAN ATTACKS KUWAIT INFRASTRUCTURE — FIRES REPORTED AT DESALINATION AND POWER FACILITY &nbsp;|&nbsp; HORMUZ: ~5 VESSEL TRANSITS/DAY — DOWN FROM 10 LAST WEEK; APPROACHING FUNCTIONAL ZERO &nbsp;|&nbsp; US CENTCOM: SIX CONSECUTIVE NIGHTS OF STRIKES ON IRANIAN MILITARY TARGETS &nbsp;|&nbsp; UKRAINE TAKES RUSSIA'S OMSK REFINERY OFFLINE — 42.7% OF RUSSIAN REFINING CAPACITY DOWN &nbsp;|&nbsp; OPEC+ FIFTH MONTHLY HIKE: 188K BPD FOR AUGUST — GULF DELIVERY CONSTRAINED BY HORMUZ &nbsp;|&nbsp; NATGAS $2.92/MMBTU ▲ +2.03% — TICKING HIGHER AS LNG TANKER ROUTES DISRUPTED&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Saturday, July 18, 2026<br>
+      Vol. XLII — No. 189<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$88.10</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$82.44</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$88.10</div>
+      <div class="price-change up">▲ +4.59% — largest 1-day gain since June</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$82.44</div>
+      <div class="price-change up">▲ +4.42% — multi-week high</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (HH)</div>
+      <div class="price-val">$2.92</div>
+      <div class="price-change up">▲ +2.03% — LNG routes disrupted</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Hormuz Transits / Day</div>
+      <div class="price-val">~5 vessels</div>
+      <div class="price-change down">▼ from 10 last week / 130 pre-war</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Kuwait Infrastructure</div>
+      <div class="price-val">Under Attack</div>
+      <div class="price-change up">▲ Iran struck power / water plant</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Breaking — Iran Strikes Kuwait, Hormuz Approaching Zero: The Supply Crisis Escalates Again</div>
+      <h3>Iran Attacks Kuwait Power and Water Plant Overnight — Brent Surges 4.6% to $88.10 as Hormuz Transits Collapse to Five Per Day</h3>
+      <p>The conflict expanded its geographic footprint overnight. Iran's armed forces struck a power generation and water desalination facility in Kuwait, triggering fires and knocking out a significant portion of the emirate's generating capacity. The attack is the most direct Iranian strike on Kuwaiti infrastructure since the war began in late February, and came in the immediate aftermath of US Central Command announcing its <strong>sixth consecutive night of strikes</strong> on Iranian military targets — logistics infrastructure, maritime capabilities, and command nodes. The market read the expansion of the conflict swiftly: Brent crude surged <strong>+4.59% to $88.10 per barrel</strong> in the July 18 session, the front-month contract's largest single-day gain since June and a move that pushes it toward the critical <strong>$90 psychological threshold</strong> traders have been watching since the July 7 Hormuz tanker attacks.</p>
+      <p>Beneath the headline strike, the structural deterioration in Strait of Hormuz transit traffic continued without interruption. Lloyd's List Intelligence data places daily crossings at <strong>approximately five vessels</strong> on Friday — down from the roughly ten per day flagged in yesterday's briefing and a fraction of the <strong>~130 per day</strong> that characterized normal pre-war traffic. At five transits per day, the world's most critical oil chokepoint is not disrupted; it is functionally closed. The Strait carries an estimated 20% of global seaborne crude and 20% of global LNG. Iran also reportedly directed Houthi forces in Yemen to prepare to disrupt traffic at <strong>Bab el-Mandeb</strong> — adding the Red Sea's second critical choke point to an already extreme risk landscape.</p>
+      <p>The supply shock is now a multi-front event. Ukraine's armed forces struck the Omsk refinery — Russia's largest, with capacity exceeding 21 million metric tons annually — in one of Kyiv's deepest strikes on Russian territory, halting operations. A follow-on strike on the Saratov refinery compounded the damage; Ukrainian sources estimate that <strong>42.7% of Russia's total refining capacity</strong> is now offline. Simultaneously, the IEA's July 2026 Oil Market Report confirmed that global supply remains <strong>9.4 million barrels per day below pre-war February levels</strong> even after a partial Hormuz recovery in June. That recovery is now reversing. China responded to the week's 12% crude surge by raising retail gasoline prices 300 yuan per tonne — the first concrete demand-side signal, though analysts note meaningful demand destruction at these price levels remains weeks away.</p>
+      <a href="https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">~5/day</div>
+        <div class="stat-desc">Hormuz Vessel Transits — Down From 10 Last Week and 130 Pre-War; Approaching Functional Zero</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">+4.59%</div>
+        <div class="stat-desc">Brent's Largest Single-Day Surge Since June — Front-Month Hits $88.10 After Kuwait Strike</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">42.7%</div>
+        <div class="stat-desc">Russian Refining Capacity Offline After Ukraine Drone Strikes on Omsk and Saratov Refineries</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">9.4 mb/d</div>
+        <div class="stat-desc">Global Oil Supply Still Below Pre-War February Levels Per IEA July 2026 Oil Market Report</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Geopolitics</div>
+      <h4>Iran Strikes Kuwait Power and Water Infrastructure — Fires Reported, Generating Capacity Knocked Out</h4>
+      <p>Iran attacked a power generation and water desalination facility in Kuwait overnight, causing fires and knocking out a significant portion of Kuwait's generating capacity, according to Kuwait's Ministry of Electricity, Water and Renewable Energy. The strike represents an expansion of direct Iranian attacks to Gulf Co-operation Council member states and came amid US Central Command's sixth consecutive night of strikes on Iranian military targets, including logistics infrastructure and maritime capabilities. Iran also reported attacks against US military positions in Bahrain, Jordan, Kuwait, Oman, Qatar, and Syria.</p>
+      <a href="https://www.cnbc.com/2026/07/17/oil-price-today-brent-wti.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Chokepoints</div>
+      <h4>Strait of Hormuz at ~5 Transits Per Day — Lloyd's List Confirms Near-Halt in Shipping Traffic</h4>
+      <p>Traceable vessel crossings through the Strait of Hormuz have fallen to approximately five per day, down from the ten per day reported in yesterday's briefing and far below the 130 that constituted pre-war normal flow, according to Lloyd's List Intelligence tracking. No large vessel has transited the US-coordinated lane while broadcasting its position since July 7. Reports also indicate Iran has directed Houthi-allied forces in Yemen to prepare to disrupt Bab el-Mandeb Strait shipping — potentially threatening the Red Sea's strategic waterway in addition to the Persian Gulf chokepoint.</p>
+      <a href="https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>Fifth Consecutive Monthly Hike Approved — 188k bpd for August, But Gulf Delivery Blocked by Hormuz</h4>
+      <p>Seven OPEC+ member states — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — approved a 188,000-barrel-per-day output increase effective August 2026 on July 6, the group's fifth straight monthly hike as it continues unwinding 2023-era cuts. The decision was taken when Brent was trading near $72 following the June ceasefire. The group now has approximately 379,000 bpd of original cuts still to return. Analysts note the increase is largely theoretical for Gulf producers: total OPEC+ output has fallen from 42.77 million bpd in February to 33.13 million bpd in May, with Hormuz closures blocking barrel delivery regardless of paper quota levels.</p>
+      <a href="https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Russia</div>
+      <h4>Ukraine Drones Strike Omsk Refinery — Russia's Largest Halted; 42.7% of Refining Capacity Now Offline</h4>
+      <p>Ukrainian drones struck the Omsk oil refinery in western Siberia on July 6-7, halting operations at Russia's largest facility — with capacity exceeding 21 million metric tons per year — in one of Kyiv's deepest-range strikes on Russian infrastructure, covering approximately 2,500 km from Ukrainian territory. A follow-on strike on the Saratov refinery on July 8 further disabled Russian processing capacity. Ukrainian sources estimate that combined strikes have taken offline an estimated 42.7% of Russia's total refining capacity, adding a secondary supply shock to the primary Middle East disruption.</p>
+      <a href="https://www.cnbc.com/2026/07/07/ukraine-russia-omsk-oil-refinery-putin-nato.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Demand</div>
+      <h4>China Raises Retail Gasoline and Diesel Prices — 300 Yuan/Tonne on Fuel as Crude Surges 12% in a Week</h4>
+      <p>China's National Development and Reform Commission announced fuel price hikes effective July 18 — gasoline up 300 yuan per tonne (~$44) and diesel up 290 yuan per tonne (~$43) — following international crude prices surging more than 12% in a single week due to Middle East escalation. The adjustment follows China's standard pricing formula tied to international benchmarks. Analysts warn that China's gasoline consumption could contract 5.5% in 2026 if elevated prices persist, introducing a demand-destruction dynamic that partially counteracts the supply-disruption narrative.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/China-to-Hike-Retail-Gasoline-and-Diesel-Prices-as-Oil-Jumps-12-in-a-Week.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">IEA</div>
+      <h4>IEA: Global Oil Supply 9.4 mb/d Below Pre-War Levels — Demand to Fall 1 mb/d in 2026</h4>
+      <p>The IEA's July 2026 Oil Market Report found that global supply rebounded 4.1 million barrels per day in June to 98.8 mb/d as some Hormuz flows temporarily resumed, but output remained 9.4 mb/d below pre-war February levels. Gulf exports of refined products and LPG stayed below 50% of pre-war levels even as crude flows briefly recovered to nearly three-quarters of February rates, reflecting that key Gulf export refineries have not resumed operations. The IEA projects global oil demand declining 1 mb/d in 2026 before recovering 2 mb/d in 2027, with annual demand contractions easing from 4.8 mb/d in Q2 to 1.7 mb/d in Q3.</p>
+      <a href="https://www.iea.org/reports/oil-market-report-july-2026" class="read-link" target="_blank">Read IEA →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Jul 18 — Today</td>
+        <td>
+          <div class="event-name">Iran Strikes Kuwait — Conflict Expands to Gulf GCC Member State</div>
+          <div class="event-impact">Iran's overnight strike on Kuwait's power and water desalination infrastructure is the most significant geographic escalation since the war began in February. Kuwait is a GCC member and a key US partner in the region. If the attack is followed by Kuwaiti retaliatory measures, requests for US air support, or further Iranian strikes on energy infrastructure across the Gulf — Bahrain, Qatar, UAE — the current supply crisis compounds dramatically. The market is watching for any Kuwaiti or joint GCC diplomatic or military response through the weekend.</div>
+        </td>
+        <td>Acute: triggered today's +4.59% Brent surge; further Gulf state attacks add $5–10/bbl escalation premium.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Hormuz Approaching Functional Zero — ~5 Transits Per Day vs. 130 Pre-War</div>
+          <div class="event-impact">The Strait's collapse from 130 vessels per day to approximately five represents a near-total closure of the world's most critical oil waterway. Each session at this transit level extends the physical tightening of crude and products markets globally. A confirmed zero-transit day — which Lloyd's List trackers have recorded on individual days this week — would mark the clearest acute price-spike catalyst on the board. Reports of Houthi preparation to close Bab el-Mandeb simultaneously represent the most severe possible chokepoint scenario the market can contemplate.</div>
+        </td>
+        <td>Structural: ongoing near-closure underpins the bull case; confirmed zero-transit day adds $6–10/bbl acute risk.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 2</td>
+        <td>
+          <div class="event-name">OPEC+ Ministerial Review — Sixth Hike or Defensive Pivot at $88+?</div>
+          <div class="event-impact">The August 2 virtual ministerial meeting comes after five consecutive monthly hikes — each approved when Brent was materially lower than today's $88.10. At current prices, the argument for a pause or reversal is strong: a sixth hike sends a bearish signal even if physical delivery remains blocked. Saudi Arabia and Russia face a strategic choice between defending market share through paper increases and defending price floors by signaling a pause. A confirmed sixth hike adds structured bearish forward pressure; a pause or reversal is the clearest top-down price-floor defense signal available.</div>
+        </td>
+        <td>Forward-looking: anchors H2 2026 supply framework; pause increasingly likely given current price levels.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">US-Iran Diplomatic Back-Channel — Qatar / Oman Mediation Contacts</div>
+          <div class="event-impact">Despite the collapse of the June 17 MOU, back-channel contacts through Qatar and Oman have not been officially severed. Any credible re-engagement signal — a Qatari FM statement, an IAEA-Iran meeting, or a softer Trump tone — would be the single most powerful downside catalyst in this market. The complete absence of visible diplomacy after the Kuwait strike is itself a signal. Today's geographic expansion of Iranian attacks makes a near-term diplomatic breakthrough less likely, but any surprise reversal carries asymmetric downside price impact of $5–12/bbl.</div>
+        </td>
+        <td>Binary: credible diplomatic signal deflates Brent $5–12/bbl; confirmed collapse adds $6–10/bbl upside.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Russian Refinery Capacity Offline — Ukraine Strikes Remove 42.7% of Processing</div>
+          <div class="event-impact">The Omsk and Saratov refinery strikes represent a secondary supply shock layered on top of the primary Middle East disruption. With 42.7% of Russian processing capacity offline, Russian product exports face structural pressure and European diesel supply chains face an additional tightening not fully priced in the current market. The strategic implication: Russia's ability to generate petro-revenue and sustain the Ukraine war effort is materially degraded. Further Ukrainian strikes on Siberian or Ural-region refineries remain a plausible escalation path.</div>
+        </td>
+        <td>Secondary supply shock: tightens European diesel market; adds $2–4/bbl products-market premium.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Saturday, July 18, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Yesterday I called <strong>Brent in a $82–$92 range for the sessions ahead</strong>, with today's sanctions reinstatement providing a structural floor around $83 and the upside case pegged at $94–$98 for a weekend incident. Iran delivered the weekend incident: a direct strike on Kuwaiti power and water infrastructure, framed by US CENTCOM's sixth consecutive night of strikes and a Hormuz transit count that has fallen by half again — from 10 per day to five — since yesterday's session. Brent answered at <strong>$88.10, +4.59%</strong>. That is the right price for what the tape is being handed.</p>
+        <p><strong>The situation as of this morning:</strong> Iran has now attacked a GCC member state's critical infrastructure directly. Hormuz is at five transits per day and trending toward zero. The June ceasefire framework is not merely paused — it is structurally finished. Ukraine has taken offline 42.7% of Russia's refining capacity. China is raising retail fuel prices today, printing the first observable demand-response data point in a market that has been supply-shock-dominated for months. The IEA confirms the world is still 9.4 million barrels per day below pre-war supply levels. <strong>This is a synchronized multi-theater supply crisis, and $88 is not the ceiling — it may not even be the midpoint.</strong></p>
+        <p>The one caveat worth holding onto from the physical data: China's price hike is the market's internal circuit-breaker showing its first spark. A 5.5% contraction in Chinese gasoline demand — if it materializes at sustained prices above $85 Brent — would represent meaningful demand destruction at scale. The distillate build reported in last week's EIA data (+4.6 million barrels) is a second data point in the same direction. Demand-side pressure will not arrest today's move, but it is the structural release valve the market will need eventually. <strong>Watch China's July demand data in early August for the first real read.</strong></p>
+        <p>My call: <strong>Brent trades $85–$97 in the sessions ahead</strong>, with the Kuwait escalation and Hormuz near-closure establishing the structural floor around $85–$87. The upside scenario — Hormuz at confirmed zero transits, further Gulf state infrastructure attacks, or Bab el-Mandeb closure — puts <strong>$97–$102</strong> in range, with $100 no longer the extreme tail it appeared last week. The downside case remains the same binary: a credible back-channel diplomatic signal via Qatar or Oman is the only mechanism capable of taking more than $5/bbl off this market before fundamentals catch up. <strong>The ceiling has moved. This weekend's events will determine how much.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Extreme — Multi-Theater Shock</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:93%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Maximum — GCC Under Attack</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:96%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Functionality</span><span style="color:#e05252">Near-Zero (~5/day)</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:97%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Destruction Risk</span><span style="color:#5cb85c">First Signals — China Hike</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:38%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diplomatic Outlook</span><span style="color:#e05252">Collapsed — Kuwait Strike</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:5%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Supply Relief</span><span style="color:#e05252">Paper-Only; Gulf Blocked</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:15%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$85 – $97</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Higher — Kuwait Escalation Pushes Floor Up ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$90–$92 (psychological $90 + prior range top)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$85–$87 (Friday closing levels / structural floor)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$97 (Hormuz zero transits + Gulf escalation broadens)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$82 (surprise Qatar / Oman diplomatic breakthrough)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Saturday, July 18, 2026</span>
+  <span>Sources: EIA, Al Jazeera, OilPrice.com, CNBC, IEA, Lloyd's List Intelligence, Oil & Gas Journal, Kpler</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
