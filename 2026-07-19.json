@@ -1,0 +1,156 @@
+{
+  "date_long": "Sunday, July 19, 2026",
+  "date_slug": "jul19-2026",
+  "volume": "Vol. XLII — No. 190",
+  "dateline": "Dubai / London / New York",
+  "sources": "EIA, Al Jazeera, OilPrice.com, IEA, Lloyd's List Intelligence, Oil & Gas Journal, CNBC, Reuters",
+
+  "ticker": [
+    "BRENT CRUDE $88.10 ▲ +4.59% — FRIDAY CLOSE; MARKETS CLOSED SUNDAY AS GULF CRISIS DEEPENS",
+    "WTI CRUDE $82.49 ▲ +4.48% — WEEKLY GAIN EXCEEDS 12%; LARGEST SINCE APRIL 2026",
+    "NATURAL GAS $2.91/MMBTU ▲ +1.85% — LNG TANKER ROUTES DISRUPTED; HENRY HUB EDGES HIGHER",
+    "CONOCOPHILLIPS ACQUIRES 42% STAKE IN BP'S KIRKUK OILFIELDS — BET ON NON-HORMUZ SUPPLY",
+    "PETROCHINA, SINOPEC IN TALKS FOR 10-YEAR NON-GULF LNG DEALS AS QATARI IMPORTS COLLAPSE",
+    "HORMUZ NEAR FUNCTIONAL ZERO — ~5 TRANSITS/DAY; IRAN POSITIONS HOUTHIS TOWARD BAB EL-MANDEB",
+    "GCC ON HIGH ALERT AFTER KUWAIT INFRASTRUCTURE STRIKE — BAHRAIN, QATAR, UAE ASSESS EXPOSURE",
+    "MONDAY OPEN WATCH: $90 BREAKOUT IN FOCUS IF GCC ESCALATES; DIPLOMATIC SILENCE HOLDS FLOOR"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$88.10", "change": "▲ +4.59% — Friday close; largest daily gain since June", "direction": "up" },
+    { "label": "WTI Crude", "value": "$82.49", "change": "▲ +4.48% — best week since April 2026", "direction": "up" },
+    { "label": "Natural Gas (HH)", "value": "$2.91", "change": "▲ +1.85% — LNG route anxiety", "direction": "up" },
+    { "label": "Hormuz Transits / Day", "value": "~5 vessels", "change": "▼ Near functional zero; 130 pre-war", "direction": "down" },
+    { "label": "GCC Risk Premium", "value": "Elevated", "change": "▲ Kuwait attack triggers multi-state alert", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Weekend Watch — Kuwait Strike Fallout, Hormuz at Functional Zero, and the Race to Reroute Global Energy",
+    "headline": "The World Braces for Monday: Energy Majors Bet on Non-Hormuz Supply, GCC Governments Assess Attack Exposure, and Brent Holds $88.10 Into a Weekend of Diplomatic Silence",
+    "paragraphs": [
+      "Saturday's Kuwait attack has not faded into the news cycle — it has reframed it. As Gulf Co-operation Council governments convened emergency consultations over the weekend to assess exposure after Iran struck Kuwait's power and water desalination infrastructure, two parallel responses emerged that carry more structural weight than the daily price move: energy companies began making long-term bets on <strong>supply routes that bypass the Strait of Hormuz entirely</strong>, and consuming nations began racing to lock in <strong>non-Gulf supply contracts for a decade or more</strong>. These are not tactical adjustments — they are market participants pricing in a structural, multi-year disruption of the world's most critical oil corridor. <strong>Brent closed Friday at $88.10, and weekend diplomatic silence has given the risk premium nowhere to go but sideways or higher into Monday's open.</strong>",
+      "The supply rerouting race is taking concrete form. ConocoPhillips has acquired a <strong>42% stake in BP's development subsidiary</strong> covering four major Kirkuk oilfields in northern Iraq — a producing region connected to Turkey via the Kirkuk-Ceyhan pipeline and therefore structurally insulated from the Hormuz closure. Meanwhile, China's PetroChina and Sinopec — two of the world's largest LNG importers — are in advanced talks with Canadian and other non-Gulf exporters for <strong>ten-year-plus supply contracts</strong> beginning before 2030. China's Q2 2026 LNG imports from Qatar collapsed to approximately <strong>100,000 tons</strong> — down from 4.7 million tons in the same period a year earlier. The decision to lock in Canadian supply is not a precaution; it is an acknowledgment that the Hormuz corridor has become structurally unreliable for long-horizon procurement planning.",
+      "The chokepoint picture continues to deteriorate. Lloyd's List Intelligence trackers confirm Hormuz vessel crossings at <strong>approximately five per day</strong>, with no change through the weekend — a level that represents roughly 4% of pre-war flow and approaches functional closure of the world's most critical oil waterway. Iran has also reportedly directed Houthi-affiliated forces in Yemen to position for potential disruption of the <strong>Bab el-Mandeb Strait</strong>, which would threaten the Red Sea route simultaneously — the most severe dual-chokepoint scenario energy markets can contemplate. Monday morning's first Hormuz transit count, paired with any GCC government statement or further Iranian military action, will set the tone for the week's trading. <strong>The weekend's silence is itself a signal: there is no ceasefire track, no Qatar or Oman mediation signal, and no relief valve in sight.</strong>"
+    ],
+    "link_url": "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "~5/day", "desc": "Hormuz Vessel Transits — Near Functional Zero; Down From 130 Pre-War and 10 Mid-Week" },
+      { "num": "42%", "desc": "ConocoPhillips Stake Acquired in BP's Kirkuk Iraq Oilfield Operations — Non-Hormuz Supply Bet" },
+      { "num": "~100k tons", "desc": "China Q2 LNG Imports from Qatar — Down from 4.7 Million Tons a Year Earlier" },
+      { "num": "Aug 2", "desc": "Next OPEC+ Ministerial Meeting — Sixth Consecutive Hike or Defensive Pivot at $88+" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "GCC on High Alert After Kuwait Infrastructure Strike — Bahrain, Qatar, UAE Assess Exposure to Iranian Attacks",
+      "body": "Gulf Co-operation Council member states convened emergency consultations over the weekend following Iran's strike on Kuwait's power and water desalination infrastructure on July 18 — the most direct Iranian attack on a GCC member state since the war began in February. Bahrain, Qatar, and the UAE are assessing their own infrastructure exposure as US Central Command continued overnight operations against Iranian military targets for a sixth consecutive night. The Kuwait attack has expanded Iran's declared target set beyond military and commercial shipping assets to civilian critical infrastructure across multiple GCC states, elevating the political and security calculus for all Gulf governments simultaneously.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "M&A / Supply Strategy",
+      "headline": "ConocoPhillips Acquires 42% Stake in BP's Kirkuk Oilfields — A Strategic Bet on Northern Iraq Outside the Hormuz Risk Zone",
+      "body": "ConocoPhillips has purchased a 42% stake in BP's Iraqi development subsidiary covering four major Kirkuk oilfields in northern Iraq, in a deal that deepens US operator presence in a key producing region served by the Kirkuk-Ceyhan pipeline to Turkey — a route entirely insulated from the Strait of Hormuz closure. The acquisition signals that Western energy majors are repositioning capital toward non-Gulf supply assets designed to remain accessible regardless of the strait's status. Kirkuk's combined production capacity and its land-export route to Mediterranean markets make it among the most strategically positioned barrels in the current market landscape.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/BP-ConocoPhillips-Partner-In-Iraqs-Giant-Oilfield.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "LNG / China",
+      "headline": "PetroChina and Sinopec Seek 10-Year Non-Gulf LNG Deals as Chinese Imports from Qatar Collapse to Near Zero",
+      "body": "China's two largest state energy companies are in advanced negotiations with Canadian and other non-Gulf LNG exporters for supply contracts lasting at least ten years, beginning before 2030, as the Strait of Hormuz crisis has rendered Qatari LNG imports near-inaccessible. China received approximately 100,000 tons of Qatari LNG in Q2 2026, down from 4.7 million tons in the same quarter a year earlier — a collapse of roughly 98%. The search for decade-long alternative supply contracts represents a structural shift in China's energy procurement posture that will outlast the current conflict regardless of its eventual resolution.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Seeks-Long-Term-LNG-Deals-Beyond-the-Strait-of-Hormuz.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Chokepoints",
+      "headline": "Hormuz at ~5 Transits Per Day; Iran Repositions Houthis Toward Bab el-Mandeb for Potential Red Sea Strike",
+      "body": "Lloyd's List Intelligence tracking confirmed Strait of Hormuz vessel crossings at approximately five per day through the weekend — roughly 4% of the 130-per-day pre-war baseline — with no improvement recorded since the July 7 tanker attack that collapsed traffic from a brief mid-June recovery. Reports indicate Iran has directed Houthi-affiliated forces in Yemen to position for potential disruption of the Bab el-Mandeb Strait, threatening a simultaneous closure of both critical chokepoints connecting Gulf and Red Sea energy exports to global markets. A dual-chokepoint scenario — Hormuz near zero and Bab el-Mandeb disrupted — would represent the most severe supply-shock escalation path remaining on the board.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "EIA",
+      "headline": "EIA: U.S. Crude Stocks Draw 1.7 Million Barrels to 409.7 mb — Sixth Consecutive Week Below 5-Year Average",
+      "body": "The EIA's weekly petroleum status report for the week ending July 10 showed U.S. commercial crude inventories declining 1.7 million barrels to 409.7 million barrels — approximately 6% below the five-year seasonal average. Refinery utilization reached 96.2% capacity at 17.1 million barrels per day of crude inputs, as domestic processors ran hard to meet summer demand with import volumes running 12.2% below year-ago levels due to the Hormuz closure. Gasoline stocks fell a further 1.5 million barrels, leaving them 8% below the five-year average, while distillate inventories posted a modest build of 4.6 million barrels — the only segment showing inventory accumulation.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "IEA",
+      "headline": "IEA July OMR: Global Oil Demand on Track for First Annual Decline Since 2020 — 1 mb/d Contraction Forecast",
+      "body": "The IEA's July 2026 Oil Market Report projects global oil demand declining approximately 1 million barrels per day year-on-year in 2026 — the first annual contraction since the COVID-19 pandemic — as the Iran war has curtailed industrial activity and suppressed demand across key Asian economies. Global supply rebounded 4.1 mb/d in June to 98.8 mb/d as some Hormuz flows temporarily resumed, but output remained 9.4 mb/d below pre-war February levels. The IEA noted that the July 7–8 escalation and Kuwait attack are 'clouding the outlook' for a projected market surplus in 2027, and that Gulf export of refined products remained below 50% of pre-war rates even when crude flows briefly recovered.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-july-2026",
+      "link_text": "Read IEA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Mon Jul 20 — Tomorrow",
+      "name": "Monday Market Open — First Price Discovery Since Kuwait Attack and GCC Weekend Consultations",
+      "impact": "Monday's open is the first liquid price discovery session since Iran struck Kuwait's power and water infrastructure on July 18. The weekend has produced no diplomatic signal, no ceasefire communication, and no de-escalation indication from either the US or Iran. GCC governments are in emergency consultations without a published response. Any weekend development — a GCC joint statement, Iranian military communiqué, or US CENTCOM operational update — arriving before 0600 Dubai time will be the primary opening catalyst. A clean, unchanged open around $88 would confirm the market has absorbed the Kuwait shock; a gap above $90 signals the geographic escalation has added fresh premium.",
+      "market_impact": "Directional: first post-Kuwait price discovery; $90 breakout risk if any GCC statement or further Iranian action surfaces overnight.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Transit Count — ~5/Day; Dual-Chokepoint Scenario if Bab el-Mandeb Activated",
+      "impact": "The Hormuz transit count at five vessels per day is the single most important daily data point in the energy market right now. Each day at this level extends the physical tightening of crude and products markets globally. Reports of Iran directing Houthi forces in Yemen to position for potential Bab el-Mandeb disruption are unconfirmed but, if executed, would represent the most severe supply-shock escalation path available — simultaneously closing both chokepoints that together carry roughly 35% of global seaborne energy trade. A confirmed zero-transit day at Hormuz, or any credible Bab el-Mandeb interdiction, is the highest-impact upside price catalyst on the board.",
+      "market_impact": "Structural: near-closure underpins the bull case; confirmed zero-transit day adds $6–10/bbl; dual-chokepoint scenario adds $15–25/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 2",
+      "name": "OPEC+ Ministerial Review — Sixth Hike or Defensive Pivot at $88+?",
+      "impact": "The August 2 virtual ministerial meeting arrives after five consecutive monthly production increases, each approved when Brent was materially below current levels. At $88.10, the case for a pause or outright reversal is strong — a sixth hike sends a bearish signal even if physical delivery remains blocked by the Hormuz closure. Saudi Arabia and Russia face a strategic inflection: press ahead with the unwinding schedule to defend market share, or signal a pause to defend the price floor that their fiscal budgets increasingly depend on. A confirmed pause is the clearest top-down price-support signal the producer coalition can send to a market already pricing maximum geopolitical risk.",
+      "market_impact": "Forward-looking: pause increasingly likely at current prices; a sixth hike adds structured bearish pressure while physical supply remains blocked.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "GCC Military and Diplomatic Response — Kuwait Attack Opens New Escalation Pathway",
+      "impact": "Iran's direct strike on Kuwait's civilian critical infrastructure marks the first attack on GCC power and water systems since the war began. The GCC is a mutual-defense arrangement, and Kuwait's allies in Bahrain, Qatar, Saudi Arabia, and the UAE are assessing their own exposure. A joint GCC military response, a formal request for expanded US air cover, or further Iranian strikes on GCC infrastructure across the Gulf would each represent distinct escalation steps that the market has not yet priced. The absence of a published GCC response through the weekend is the primary uncertainty entering Monday. Any formal collective statement — diplomatic or military — is the next scheduled catalyst.",
+      "market_impact": "Binary: GCC military response adds $5–10/bbl; diplomatic engagement with Iran via GCC mediation is the single largest downside catalyst.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Non-Gulf Supply Rerouting — Kirkuk, Canadian LNG, and the Long-Term Supply Realignment",
+      "impact": "ConocoPhillips' Kirkuk stake acquisition and China's PetroChina/Sinopec push for decade-long Canadian LNG contracts are the most significant structural market signals this week — not as price catalysts, but as evidence that the industry's planning horizon has shifted. Capital is now explicitly pricing in a structurally impaired Hormuz corridor for the next several years. The race to develop non-Gulf supply — northern Iraq pipeline exports, US LNG expansions, Canadian Pacific projects — will determine the pace of eventual price normalization and represents the clearest early indicator of when the market expects a durable Hormuz recovery.",
+      "market_impact": "Structural, multi-year: shapes H2 2027 and 2028 supply curve; near-term bullish confirmation (capital fleeing the Gulf is not pricing a quick resolution).",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's briefing called <strong>Brent in a $85–$97 range</strong>, with the Kuwait strike and Hormuz near-zero establishing the structural floor around $85–$87 and the upside scenario — a confirmed zero-transit day, further Gulf state infrastructure attacks, or Bab el-Mandeb closure — pegging the tail at $97–$102. Friday's close at <strong>$88.10</strong> landed squarely within that range. The weekend has provided no information that changes the framework: no diplomatic signal, no ceasefire track, no GCC response, no Iranian de-escalation. That silence is its own answer. <strong>Prices enter Monday's open carrying the full Kuwait premium with zero offset.</strong>",
+      "<strong>What the weekend told us:</strong> The market has moved past the question of whether this is a temporary disruption. ConocoPhillips' acquisition of BP's Kirkuk stake and China's pursuit of decade-long non-Gulf LNG contracts are bets on a structurally impaired Hormuz corridor that outlasts any near-term ceasefire. These are not precautionary pivots — they are capital allocation decisions by institutions that have concluded the strait is not reliably open for long-horizon planning. The IEA's confirmation that global supply remains <strong>9.4 million barrels per day below pre-war levels</strong> even after June's partial recovery is the supply-side number that frames Monday. On the demand side, the EIA's sixth consecutive week of below-average U.S. crude stocks, paired with 96.2% refinery utilization, confirms the physical market has no inventory cushion to absorb further disruption. <strong>The structure of the market remains acutely bullish.</strong>",
+      "The single caveat I'm watching is the GCC dynamic. Kuwait's Arab and GCC partners have not yet published a formal response to the infrastructure attack. The range of outcomes is wide: a collective GCC statement requesting expanded US air cover represents one end; a back-channel GCC diplomatic outreach to Tehran to request a ceasefire on GCC-specific infrastructure represents the other. The second scenario — GCC states offering Iran a separate understanding outside the US-Iran bilateral — is the most underpriced diplomatic tail in this market. It has not been discussed publicly, but it has precedent, and <strong>Kuwait's government absorbs the first direct infrastructure strike differently than it would absorb a third or fourth.</strong> I assign it low probability but high price impact: a credible GCC-Iran understanding would remove $6–10/bbl immediately.",
+      "My call going into Monday: <strong>Brent trades $85–$97, bias higher</strong>. The weekend has added no relief and no downside catalyst. The Kuwait escalation has pushed the structural floor to the $85–$87 zone established on Friday's close, and the next upside catalysts — GCC escalation, Hormuz zero-transit day, Bab el-Mandeb activation — are closer on the calendar than any downside event. <strong>The $90 threshold is the critical level to watch at Monday's open; a clean break and hold above $90 on volume confirms the Kuwait attack has permanently re-rated the geopolitical premium upward.</strong> The only mechanism that changes this calculus before fundamentals catch up remains a diplomatic breakthrough — and the weekend's silence has made that less, not more, likely."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme — 9.4 mb/d Below Pre-War", "tone": "bearish", "pct": 92 },
+      { "name": "Geopolitical Risk", "label": "Maximum — GCC Under Direct Attack", "tone": "bearish", "pct": 96 },
+      { "name": "Hormuz Functionality", "label": "Near-Zero (~5 Transits / Day)", "tone": "bearish", "pct": 97 },
+      { "name": "Demand Destruction Risk", "label": "Emerging — IEA Projects 1 mb/d Decline", "tone": "bullish", "pct": 40 },
+      { "name": "Diplomatic Outlook", "label": "Weekend Silence — No Relief Track", "tone": "bearish", "pct": 5 },
+      { "name": "Alternative Supply Race", "label": "Accelerating — Kirkuk / LNG Pivots", "tone": "bullish", "pct": 45 }
+    ],
+    "call": {
+      "label": "Monday Open Price Call — Brent Crude",
+      "value": "$85 – $97",
+      "bias": "Bias: Higher — $90 Breakout in Focus if GCC Escalates ▲"
+    },
+    "watch_levels": {
+      "resistance": "$90–$92 (psychological $90 + post-Kuwait escalation premium)",
+      "support": "$85–$87 (Friday closing floor / post-Kuwait structural base)",
+      "breakout": ">$97 (GCC military response OR Bab el-Mandeb closure activated)",
+      "breakdown": "<$82 (surprise GCC-Iran back-channel diplomatic signal or Qatar / Oman mediation)"
+    }
+  }
+}
