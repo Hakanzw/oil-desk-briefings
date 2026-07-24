@@ -1,0 +1,156 @@
+{
+  "date_long": "Friday, July 24, 2026",
+  "date_slug": "jul24-2026",
+  "volume": "Vol. XLII — No. 194",
+  "dateline": "Dubai / London / New York",
+  "sources": "CNBC, Al Jazeera, NBC News, The Astana Times, EIA, IEA, Bloomberg, oilprice.com, tradingeconomics.com",
+
+  "ticker": [
+    "BRENT CRUDE ~$100.30 ▼ -0.35% — CENTURY MARK HOLDS; FRIDAY CONSOLIDATION AFTER WEEK'S 13%+ SURGE",
+    "WTI CRUDE ~$91.65 ▼ -0.55% — PULLING BACK FROM THURSDAY'S $92.19 CLOSE; UP 12%+ ON THE WEEK",
+    "NATURAL GAS ~$2.92/MMBTU → FLAT — EIA STEO PROJECTS $3.57 Q4 AVG; LNG ROUTE ANXIETY PERSISTS",
+    "KAZAKHSTAN CUTS TENGIZ OUTPUT AFTER DRONE ATTACKS FORCE CPC BLACK SEA TERMINAL OFFLINE — 1.6 MB/D AT RISK",
+    "HOUTHI MARITIME EMBARGO IN KINETIC PHASE — TANKERS ENCELIA AND LAYLA STRUCK; CAPE REROUTING ACCELERATING",
+    "TRUMP THREATENS 'MAJOR MILITARY PUNISHMENT' FOR HOUTHIS — CONSIDERS 'MASSIVE ATTACK' ON IRAN",
+    "BRENT'S BIGGEST WEEKLY GAIN IN MONTHS — SIMULTANEOUS HORMUZ, RED SEA AND CPC DISRUPTIONS UNPRECEDENTED",
+    "OPEC+ AUG 2 MINISTERIAL IN 9 DAYS: SIXTH CONSECUTIVE HIKE OR DEFENSIVE FREEZE WITH BRENT AT $100?"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$100.30", "change": "▼ −0.35% — Century mark holds; Friday consolidation after Thursday's surge to $100.69", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$91.65", "change": "▼ −0.55% — Marginal pullback from Thursday's $92.19 close; up 12%+ on the week", "direction": "down" },
+    { "label": "Natural Gas (HH)", "value": "~$2.92", "change": "→ Flat — LNG route anxiety persists; EIA STEO projects $3.57/MMBtu Q4 2026 avg", "direction": "" },
+    { "label": "Brent Weekly Performance", "value": "+13.2%", "change": "▲ Largest weekly gain in months — Houthi embargo + CPC halt + Hormuz impairment", "direction": "up" },
+    { "label": "EIA Crude Stocks", "value": "411.7 mb", "change": "+2.0 mb build (wk of Jul 17); 6% below 5-yr avg; refinery utilization 96.1%", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "💯 Century Mark Holds: Brent Consolidates Above $100 as Triple-Corridor Supply Crisis Continues",
+    "headline": "Brent Holds $100 After Week's 13%+ Surge — Houthi Kinetic Embargo, Kazakhstan CPC Export Halt and Hormuz Impairment Deliver Simultaneous Disruptions to Three Critical Supply Corridors With No Modern Precedent",
+    "paragraphs": [
+      "Brent crude held above the <strong>$100-per-barrel threshold</strong> on Friday, consolidating at approximately $100.30 after surging past the century mark on Thursday — the first breach since late May — as markets absorbed the simultaneous disruption of three of the world's most critical oil export corridors. The week's <strong>13%+ gain for Brent</strong>, the largest in months, was built on compounding supply-architecture failures: Yemen's Houthis executed the first kinetic enforcement of their Saudi maritime embargo by striking oil tankers <em>Encelia</em> and <em>Layla</em> with ballistic missiles, cruise missiles, and drones; drone attacks knocked the <strong>Caspian Pipeline Consortium's Black Sea terminal offline</strong> and forced Tengiz output cuts at Kazakhstan's largest oilfield, disrupting approximately 1.6 million barrels per day; and the Strait of Hormuz continued to operate at severely impaired capacity after Secretary of State Rubio declared the Hormuz ceasefire MOU 'effectively dead.' No modern market precedent exists for a simultaneous shutdown of this many major export arteries.",
+      "The Kazakhstan dimension of this crisis arrived with less fanfare than the Houthi strikes but is structurally equally significant. Drone attacks attributed to Ukraine struck tankers <em>Asia</em> and <em>Nissos IOS</em> at the CPC Novorossiysk terminal on July 17–20, forcing a halt to exports from a pipeline system that processes approximately <strong>1.6 mb/d</strong> — roughly 76% of Kazakhstan's total production. The bulk of that output flows from the Tengiz field, a Chevron-operated super-giant. Kazakhstan implemented unplanned production cuts to manage the inventory buildup; the CPC terminal's infrastructure was reported intact and ready to resume once security conditions allow, but no timeline has been confirmed. For European buyers who had increasingly relied on CPC crude as a non-Gulf alternative since the Hormuz impairment began, the disruption removes one of the last meaningful substitution pathways available to them.",
+      "Friday's session is functioning as a consolidation and positioning reset after five consecutive sessions of gains. Trump's threats of <strong>'major military punishment'</strong> for further Houthi attacks — including reported consideration of a 'massive attack' on Iran — maintain a strong asymmetric risk premium anchored in the tape. Technically, Brent's close above $100 on Thursday was the cleanest confirmation that the century mark now functions as a floor rather than a ceiling, pending a credible de-escalation signal on at least one of the three disrupted corridors. No such signal is visible entering the weekend. With the OPEC+ ministerial on <strong>August 2</strong> now the next major scheduled catalyst, markets will trade headline risk at current levels or modestly higher through Friday's close."
+    ],
+    "link_url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "+13.2%", "desc": "Brent's Weekly Gain — Largest in Months; Driven by Houthi Kinetic Embargo + CPC Halt + Hormuz Impairment" },
+      { "num": "1.6 mb/d", "desc": "Kazakhstan Exports at Risk After CPC Black Sea Terminal Forced Offline by Drone Attacks on Tankers Asia and Nissos IOS" },
+      { "num": "3 corridors", "desc": "Simultaneous Disruptions: Strait of Hormuz + Red Sea (Bab el-Mandeb) + Caspian Pipeline Consortium — No Modern Precedent" },
+      { "num": "$100", "desc": "Brent's New Psychological Threshold — Breached Thursday for First Time Since Late May; Holding as Floor on Friday" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Markets",
+      "headline": "Brent Holds $100 on Friday — Consolidation After Thursday's Century-Mark Breach and Week's 13%+ Gain",
+      "body": "Brent crude traded at approximately $100.30 on Friday, down a marginal 0.35% from Thursday's close near $100.69 — the first settlement above $100 since late May. WTI similarly pulled back to roughly $91.65, off 0.55% from Thursday's $92.19 settlement. The mild retreat follows five consecutive sessions of gains totaling approximately 13% for Brent and 12% for WTI — the largest weekly advance for either benchmark in months. Friday's consolidation is broadly read as healthy positioning ahead of the weekend rather than a directional reversal: the three supply corridors that drove the week's rally (Hormuz, Red Sea, CPC) remain simultaneously disrupted, with no de-escalation signal on any front entering the two-day gap window.",
+      "link_url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Red Sea / Houthis",
+      "headline": "Houthis Strike Saudi Tankers Encelia and Layla With Ballistic Missiles and Drones — Embargo Now in Kinetic Phase",
+      "body": "Yemen's Houthi rebels struck two Saudi-linked oil tankers in the Red Sea on Thursday — <em>Encelia</em> and <em>Layla</em> — using ballistic missiles, cruise missiles, and drones, marking the first kinetic enforcement of the maritime blockade declared July 20. Both vessels were located approximately 70 nautical miles southwest of Al Shuqaiq when fires broke out aboard. Houthi spokesman Yahya Sarea said the tankers 'violated the embargo imposed by the group's armed forces' against vessels calling at Saudi ports. At least nine tankers had already altered their Red Sea routes following Monday's blockade declaration; Thursday's strikes will dramatically extend that number. The Bab el-Mandeb Strait — through which approximately 12% of global trade passes — is now under active military enforcement. Cape of Good Hope rerouting adds 2–3 weeks to Asia-Europe voyages and directly compresses Saudi Arabia's effective export capacity to Asian buyers.",
+      "link_url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Kazakhstan / CPC",
+      "headline": "Kazakhstan Cuts Tengiz Output After Drone Attacks Force CPC Black Sea Terminal Offline — 1.6 mb/d Disrupted",
+      "body": "Kazakhstan implemented unplanned production cuts at its Tengiz oilfield — a Chevron-operated super-giant and the country's largest — after drone attacks struck tankers <em>Asia</em> and <em>Nissos IOS</em> at the Caspian Pipeline Consortium's Novorossiysk terminal on July 17–20, forcing an export suspension. The disruption threatens approximately 1.6 million barrels per day, representing roughly 76% of Kazakhstan's total production. Russia and Kazakhstan have attributed the attacks to Ukraine. CPC infrastructure was reported intact and ready to resume but no security timeline has been established. The halt removes one of the last credible non-Gulf crude substitution pathways for European buyers — buyers who had already been paying a premium to source away from the Hormuz-impaired Gulf since the conflict began.",
+      "link_url": "https://astanatimes.com/2026/07/kazakhstan-temporarily-reduces-oil-production-amid-cpc-export-suspension/",
+      "link_text": "Read Astana Times"
+    },
+    {
+      "tag": "US-Iran / Diplomacy",
+      "headline": "Trump Threatens 'Massive Attack' on Iran — Rubio's Hormuz MOU 'Effectively Dead' as 11th Night of Strikes Continues",
+      "body": "President Trump threatened 'major military punishment' for further Houthi attacks and told Axios he is considering a 'massive attack' on Iran, escalating pressure on multiple fronts simultaneously. The statements follow Secretary of State Rubio's declaration that Iran had 'effectively killed' the memorandum of understanding meant to keep the Strait of Hormuz open, with Rubio stating Iran was 'not being serious' about negotiations while maintaining Washington remained 'committed to diplomacy.' US forces conducted their 11th consecutive night of strikes against Iranian military facilities. The convergence of diplomatic collapse and escalating military rhetoric removes the last functional guardrails on the conflict's trajectory and has kept a strong risk premium anchored in crude pricing through Friday.",
+      "link_url": "https://www.nbcnews.com/business/business-news/oil-prices-brent-gas-iran-war-trump-hormuz-red-sea-houthis-rcna588671",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "OPEC+ / Output",
+      "headline": "OPEC+ Approved Fifth Consecutive Monthly Hike of 188k bpd for August — Paper Quotas Cannot Reach Impaired Shipping Lanes",
+      "body": "Seven OPEC+ members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — agreed on July 6 to raise collective output by 188,000 barrels per day starting in August, the fifth consecutive monthly increase continuing the unwinding of 2023-era production cuts. Analysts have called the paper quotas 'essentially meaningless' in the near term given that physical flows remain constrained by Hormuz impairment and the newly enforced Red Sea embargo. Kazakhstan — one of the seven hike signatories — has since implemented emergency output cuts at Tengiz due to the CPC disruption, further undermining the coalition's ability to translate agreed volumes into market barrels. The August 2 ministerial will be a decisive test of whether OPEC+ pivots to a defensive price-floor posture as Saudi tanker exports remain under active Houthi missile attack.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Demand / IEA",
+      "headline": "IEA: Global Oil Demand Set for First Annual Decline Since 2020 — US-Iran War and Hormuz Impairment Destroying Economic Activity",
+      "body": "The International Energy Agency's July Oil Market Report projected global oil demand will fall by approximately 1 million barrels per day in 2026 — the first annual contraction since the COVID-19 pandemic. The forecast attributes the demand collapse to economic activity destruction caused by the US-Israel-Iran conflict and the sustained impairment of the Strait of Hormuz, which handles roughly 20% of seaborne oil. The report underscores the structural tension at the heart of the current market: supply is disrupted enough to push Brent to $100, but the economic damage from $100 oil is simultaneously destroying the demand base that would otherwise support higher prices. The IEA also projected Henry Hub natural gas to average $3.57/MMBtu in Q4 2026, up sharply from Friday's ~$2.92 spot level as LNG route anxiety builds with the Red Sea entering active combat.",
+      "link_url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+      "link_text": "Read CNBC"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 2 — 9 Days",
+      "name": "OPEC+ Ministerial Review — Sixth Hike or Defensive Freeze With Brent at $100 and Saudi Tankers Under Fire?",
+      "impact": "The August 2 ministerial will be the coalition's most consequential policy vote since the conflict began. Seven members committed to a 188,000-bpd August increase when Brent was materially lower; the group's own physical architecture has since deteriorated sharply — Saudi tankers struck with missiles, CPC offline, Hormuz at impaired capacity. The central question: does OPEC+ proceed with a paper hike that cannot reach markets through broken shipping lanes, or does it pivot to a defensive freeze that signals a price-floor defense above $100? Saudi Arabia casts its vote as the Bab el-Mandeb remains under active military enforcement against its own crude exports.",
+      "market_impact": "High-stakes: freeze signals >$100 floor defense; proceeding with hike sends dissonant signal given physical reality.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Red Sea Maritime Embargo — Active Kinetic Phase; Cape Rerouting Accelerating Sharply",
+      "impact": "Following Thursday's missile and drone strikes on the Encelia and Layla, the Houthi maritime embargo has transitioned from deterrence to active combat. Tanker captains and their insurers must now assess Red Sea transit as a live military threat. The number of vessels rerouting around the Cape of Good Hope is accelerating rapidly. Each additional transit avoidance extends the effective disruption of Saudi crude exports to Asian buyers — the primary destination for Red Sea-routed Saudi barrels — while adding structural cost and complexity to global shipping. A confirmed safe-passage signal from Houthi command, or a US military degradation of Houthi anti-ship missile capacity, would be the clearest single de-escalation catalyst available.",
+      "market_impact": "Structural: sustained kinetic enforcement adds $8–$15/bbl; each confirmed tanker strike adds $1–$3/bbl intraday.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Kazakhstan / CPC Disruption — Tengiz Output Cut; 1.6 mb/d Export Halt With No Timeline",
+      "impact": "The CPC Black Sea terminal attack is the most underreported major supply disruption of the current crisis. Kazakhstan's 1.6 mb/d of disrupted exports represent a meaningful fraction of total non-OPEC production and the loss of Europe's primary non-Gulf crude substitution pathway. The terminal's infrastructure is intact, but the security situation at Novorossiysk makes a resumption timeline impossible to predict. If the disruption extends beyond 2–3 weeks, European refiners must source replacement barrels from Atlantic Basin suppliers — a structural shift that permanently redirects flows and adds cost throughout the supply chain.",
+      "market_impact": "Additive: $3–$5/bbl alone; significantly amplifies the multi-corridor scarcity signal.",
+      "risk": "High"
+    },
+    {
+      "date": "Imminent",
+      "name": "US Military Escalation — Trump's 'Massive Attack' Consideration; Iranian Civilian Infrastructure at Risk",
+      "impact": "Trump's statement about considering a 'massive attack' on Iran, combined with Rubio's Hormuz MOU death sentence and 11 consecutive nights of US airstrikes on Iranian military facilities, places the conflict at an inflection point. Iranian retaliation for a civilian infrastructure strike (bridges, power plants) would be qualitatively different from responses to previous military strikes, with asymmetric options including full Hormuz closure, mass commercial shipping disruption, and proxy attacks across the region. The market has not fully priced this tail. Instantaneous reaction to infrastructure strike confirmation would be +$15–$30/bbl.",
+      "market_impact": "Tail risk: infrastructure strike adds $15–$30/bbl instantly; full Iranian retaliation scenario adds +$20–$40 further.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 29 — Next Wed",
+      "name": "EIA Weekly Petroleum Status Report — First Data Fully Reflecting CPC + Houthi Kinetic Embargo",
+      "impact": "Next Wednesday's EIA report will be the first inventory print to fully reflect the dual Red Sea and CPC disruption period. Based on historical patterns from naval blockade and maritime embargo scenarios, the report should show the beginning of sequential crude draws as rerouted and disrupted cargoes fail to arrive on schedule — a structural reversal of the 2.0-million-barrel build for the week of July 17. If the build continues for a second week (a possible lag artifact), the market will look through it as it did last week. If draws accelerate as expected, the report will provide independent statistical confirmation of the supply tightening narrative and reinforce the $100 floor.",
+      "market_impact": "±$2–$4/bbl; directionally critical — draws confirm supply tightening narrative underpinning $100 floor.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's briefing called $100 Brent a question of timing, not direction, absent a credible diplomatic reversal. The century mark arrived as forecast. Thursday's surge to approximately $100.69 — the first settlement above $100 since late May — confirmed what the compounding disruption architecture had been signaling all week: the market was not waiting for a new catalyst but simply catching up to a supply reality five consecutive sessions in the making. <strong>The century mark is no longer resistance. It is the new floor.</strong>",
+      "Friday's modest pullback is exactly the consolidation a $13 week deserves. Nothing in the geopolitical or supply picture has changed: the Houthi maritime embargo is in active kinetic enforcement after striking two Saudi tankers with ballistic missiles; the CPC Black Sea terminal remains offline with 1.6 mb/d of Kazakhstan's exports disrupted; the Strait of Hormuz continues to operate at severely impaired capacity; and Trump is publicly considering a 'massive attack' on Iran. <strong>Three supply corridors are simultaneously broken in a configuration without modern precedent, and the diplomatic architecture that might restore any one of them does not exist.</strong>",
+      "The IEA's 1 mb/d demand decline forecast for 2026 is the structural complication that keeps a simple bullish call from being a home run. At $100 Brent, demand destruction becomes a real, measurable force rather than a theoretical projection. Industrial buyers are already pricing the switch from oil to alternative fuels into Q3 procurement decisions. The question is whether the demand side can destroy enough barrels to offset a supply architecture that has lost Hormuz, Red Sea, and CPC simultaneously — and my answer, given the depth and breadth of the disruptions, is <strong>not in the near term.</strong> The supply disruptions are structural; the demand response will build more slowly.",
+      "My call for today: <strong>Brent trades $97–$103, biased flat-to-higher into weekend positioning.</strong> The week is closing; major participants will not add significant length into a two-day gap risk window. But the absence of any de-escalation signal — on Houthis, CPC, Hormuz, or US-Iran — means the floor defense is real and the bid is present. A weekend headline (a Houthi strike on a third tanker, a Trump infrastructure bombing announcement, or a CPC timeline extension) is the primary upside catalyst. A surprise US-Iran diplomatic contact that reopens the Hormuz MOU track is the only meaningful downside catalyst, and nothing in Rubio's record over the past 72 hours suggests that is coming. <strong>The $100 floor holds unless someone blinks. Nobody is blinking.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Critical — Hormuz + Red Sea + CPC; Three Corridors Down Simultaneously", "tone": "bearish", "pct": 97 },
+      { "name": "Geopolitical Risk", "label": "Maximum — 'Massive Attack' Considered; MOU Dead; 11 Consecutive Strike Nights", "tone": "bearish", "pct": 98 },
+      { "name": "Hormuz Functionality", "label": "Severely Impaired — MOU 'Effectively Dead'; No Restoration Timeline", "tone": "bearish", "pct": 94 },
+      { "name": "Red Sea / Bab el-Mandeb", "label": "Active Combat Zone — Kinetic Enforcement; Cape Rerouting Accelerating", "tone": "bearish", "pct": 92 },
+      { "name": "Demand Destruction Risk", "label": "Rising — $100 Brent Entering Industrial Demand Response Threshold", "tone": "bullish", "pct": 68 },
+      { "name": "Diplomatic Outlook", "label": "Near Zero — Rubio's MOU Declaration; No Ceasefire Track Active", "tone": "bearish", "pct": 2 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$97 – $103",
+      "bias": "Bias: Flat to Higher — $100 Now Floor; Weekend Gap Risk Skewed Up ▲"
+    },
+    "watch_levels": {
+      "resistance": "$103–$105 (Trump infrastructure strike announcement or confirmed third Houthi tanker attack)",
+      "support": "$97–$98 (prior six-week high base; holds absent major diplomatic signal)",
+      "breakout": ">$105 (US bombs Iranian bridges/power plants OR Houthi closes Bab el-Mandeb at scale OR CPC disruption extends 4+ weeks)",
+      "breakdown": "<$93 (credible US-Iran diplomatic contact reopens Hormuz MOU track AND Houthi declares Red Sea pause)"
+    }
+  }
+}
