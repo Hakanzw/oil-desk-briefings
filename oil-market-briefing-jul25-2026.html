@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Saturday, July 25, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $96.78 ▼ -3.88% — LATE FRIDAY REVERSAL DRAGS CRUDE FROM $100 CENTURY MARK ON PAKISTAN-CHINA DIPLOMACY SIGNAL &nbsp;|&nbsp; WTI CRUDE $89.31 ▼ -3.12% — HOLDS ABOVE $89 DESPITE FRIDAY SELL-OFF; STILL UP ~9% ON THE WEEK &nbsp;|&nbsp; NATURAL GAS ~$3.02/MMBTU ▲ SLIGHTLY HIGHER — RED SEA LNG ROUTE ANXIETY AS COMBAT ZONE EXPANDS &nbsp;|&nbsp; PAKISTAN PROPOSES NEW US-IRAN TALKS WITH CHINESE BACKING — OIL SURRENDERS $100 CENTURY MARK ON CEASEFIRE HOPE &nbsp;|&nbsp; HOUTHI KINETIC BLOCKADE CONTINUES — SAUDI CRUDE LOADINGS VIA RED SEA DOWN 36%; CAPE REROUTING ACCELERATING &nbsp;|&nbsp; INDIA SCRAMBLES: VENEZUELA NOW 3RD-LARGEST CRUDE SUPPLIER AS HORMUZ CRISIS CUTS MIDEAST ACCESS &nbsp;|&nbsp; SAUDI RED SEA CRUDE EXPORTS HIT RECORD BEFORE HOUTHI BLOCKADE REVERSED FLOWS ABRUPTLY &nbsp;|&nbsp; OPEC+ AUG 2 MINISTERIAL: 8 DAYS OUT — SIXTH CONSECUTIVE HIKE OR DEFENSIVE FREEZE AS SAUDI EXPORTS UNDER ATTACK?&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Saturday, July 25, 2026<br>
+      Vol. XLII — No. 195<br>
+      Dubai / London / New York
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$96.78</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$89.31</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$96.78</div>
+      <div class="price-change down">▼ −3.88% — Late Friday reversal as Pakistan and China push for new US-Iran talks</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$89.31</div>
+      <div class="price-change down">▼ −3.12% — Follows Brent lower; still up ~9% on the week despite Friday retreat</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (HH)</div>
+      <div class="price-val">~$3.02</div>
+      <div class="price-change up">▲ Slightly higher — Red Sea LNG route disruption builds; EIA projects $3.57/MMBtu Q4 2026 avg</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent Weekly Performance</div>
+      <div class="price-val">+9.3%</div>
+      <div class="price-change up">▲ Net weekly gain despite Friday's 3.88% pullback — triple-corridor disruption keeps floor intact</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude Stocks</div>
+      <div class="price-val">411.7 mb</div>
+      <div class="price-change up">+2.0 mb build (wk of Jul 17); 6% below 5-yr avg; refinery utilization 96.1%</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">📉 Century Mark Surrendered: Brent Falls 3.9% Late Friday on Pakistan-China Diplomatic Signal — But Triple-Corridor Disruption Intact</div>
+      <h3>Brent Retreats From $100 to $96.78 as Pakistan and China Push for New US-Iran Talks — Saudi Tanker Blockade, CPC Halt and Hormuz Impairment Remain Simultaneously Active as Market Pivots to Weekend Diplomatic Watch</h3>
+      <p>Brent crude surrendered the <strong>$100 century mark</strong> in a sharp late-session reversal on Friday, closing at <strong>$96.78 — down 3.88%</strong> — after reports broke that Pakistan, with Chinese diplomatic backing, was pushing for a new round of US-Iran negotiations. WTI settled at <strong>$89.31, down 3.12%</strong>. The move is significant in isolation but must be read in the context of the week's full arc: Brent entered Monday near $88 and exits Friday's close near $97 — a net weekly gain of roughly 9% — meaning the reversal retraced only a fraction of one of the largest weekly crude rallies in months. The diplomatic signal that caused Friday's selloff has not translated into a ceasefire, a weapons pause, or any restart of shipping through the three disrupted corridors. It has given traders a reason to reduce long exposure over the weekend gap — no more, no less.</p>
+      <p>The structural disruption picture that drove Brent above $100 on Thursday remains fully intact entering the weekend. Yemen's Houthi movement is enforcing a maritime blockade against Saudi-linked tankers in the Red Sea through kinetic military means: Saudi crude loadings through the Bab el-Mandeb have fallen <strong>36%</strong> from their July peak as tanker operators divert to the Cape of Good Hope route, adding two to three weeks to Asia-bound voyages. Simultaneously, the <strong>Caspian Pipeline Consortium's Black Sea terminal at Novorossiysk</strong> remains offline following drone attacks on tankers <em>Asia</em> and <em>Nissos IOS</em> in mid-July, with Kazakhstan's 1.6 million barrels per day of Tengiz exports still suspended with no restoration timeline. The Strait of Hormuz continues to operate at severely impaired capacity with Secretary Rubio having declared the ceasefire MOU <strong>"effectively dead."</strong> No credible de-escalation pathway exists on any of the three disrupted corridors as of Friday's close.</p>
+      <p>The Pakistan-China diplomatic move is the first credible external mediation signal since the Hormuz MOU breakdown. Markets are giving it partial weight — a 4% crude sell-off rather than the 8–10% that a confirmed ceasefire framework would likely deliver. The structure of the trade for early next week is binary: either diplomatic contacts develop into a framework over the weekend and crude retraces further toward the low $90s, or the weekend passes without progress and Brent gaps back toward — and through — $100 on Monday's open. The <strong>OPEC+ ministerial on August 2</strong> — now eight days away — adds another layer of complexity: the coalition must decide whether to proceed with a sixth consecutive 188,000-bpd paper increase or pivot to a defensive price-floor posture while Saudi crude exports remain under active Houthi attack.</p>
+      <a href="https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">-3.88%</div>
+        <div class="stat-desc">Brent's Friday Reversal From the $100 Century Mark — Pakistan-China Diplomatic Signal Triggers Late-Session Selloff</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">36%</div>
+        <div class="stat-desc">Drop in Saudi Red Sea Crude Loadings Through Bab el-Mandeb Since Houthi Blockade Declaration — Down From Recent Record High</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">+9.3%</div>
+        <div class="stat-desc">Brent's Net Weekly Gain Despite Friday's Pullback — Triple-Corridor Disruption Underpins Crude at a Multi-Week High</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Aug 2</div>
+        <div class="stat-desc">Next OPEC+ Ministerial Review — Eight Days Away; Coalition Must Decide on Sixth Hike or Defensive Price-Floor Freeze</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Diplomacy</div>
+      <h4>Pakistan and China Push for New US-Iran Talks — Brent Surrenders $100 in Late-Friday Reversal</h4>
+      <p>Reports on Friday that Pakistan, with Chinese diplomatic backing, was seeking to revive US-Iran negotiations sent Brent crude down sharply in the late session — a roughly 4% reversal from approximately $100.30 to a Friday close of $96.78. The diplomatic signal was the first credible external mediation overture since Secretary Rubio declared the Hormuz MOU 'effectively dead' days earlier. Traders trimmed long positions ahead of the weekend on the possibility the initiative develops into a ceasefire framework, though no formal talks have been announced and Tehran has not confirmed its participation. Monday's open will serve as a referendum on whether the signal has any substance.</p>
+      <a href="https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Red Sea / Houthis</div>
+      <h4>Saudi Crude Loadings Via Red Sea Collapse 36% as Houthi Kinetic Blockade Enters Second Week</h4>
+      <p>Saudi crude exports through Bab el-Mandeb — which had been tracking near record levels in early July — have fallen 36% as tanker operators avoid the Red Sea under the Houthi military blockade declared July 20. The Houthis followed their declaration with kinetic enforcement: ballistic missiles, cruise missiles and drones struck Saudi-linked tankers <em>Encelia</em> and <em>Layla</em>, setting one ablaze. Shipping analysts estimate that sustained enforcement of the blockade could remove 7% from effective global oil supply as Cape of Good Hope rerouting adds weeks to transit times for Asian buyers. Saudi Arabia's Yanbu port — through which approximately 4 million barrels per day of crude transits to Asia — is the focal point of the disruption, and the blockade has no articulated exit condition Saudi Arabia can satisfy unilaterally.</p>
+      <a href="https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Supply / India</div>
+      <h4>India Turns to Venezuela and Angola as Hormuz Crisis Cuts Middle East Crude Access — Venezuela Now Third-Largest Supplier</h4>
+      <p>Indian state refiners — cut off from traditional Middle East term supplies by the Strait of Hormuz impairment — are aggressively sourcing replacement crude from Venezuela and Angola. Venezuela has become India's third-largest crude supplier, with BPCL and IOC importing an estimated 12.51 million barrels of Venezuelan crude in a single month — the highest volume since February 2020. India is also testing new Angolan grades not previously processed at its refineries. The supply scramble reflects a broader structural rerouting of global crude flows as the Hormuz crisis enters its fifth month, with Asian buyers who historically depended on Gulf crude now competing for Atlantic Basin barrels against European refiners already displaced from Russian supply.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/India-Scours-Angola-Venezuela-for-Crude-as-Mideast-Supply-Dries-Up.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Saudi Arabia</div>
+      <h4>Saudi Red Sea Crude Exports Hit Record High Before Houthi Blockade Declaration Reversed Flows in Days</h4>
+      <p>Saudi Arabia had ramped crude exports from its Red Sea ports to a record high in early July as the kingdom attempted to route volumes around the Hormuz impairment and maintain market share with Asian buyers. The record was short-lived: the Houthi maritime blockade declaration on July 20 and subsequent kinetic enforcement forced a rapid and dramatic reversal. Shipping transponder data shows tankers going dark — with transponders switched off — as vessels near the Bab el-Mandeb assess risk in real time. Analysts note the reversal represents a double-bind for Saudi Arabia: its Gulf export route is compromised by Hormuz, and its Red Sea route is now under active military attack.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-07-21/saudi-crude-flow-from-red-sea-hit-record-before-houthi-warning" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Russia / Black Sea</div>
+      <h4>Ukraine Strikes Extend to 150+ Black Sea Vessels — CPC Terminal Offline; Kazakh Exports Suspended With No Timeline</h4>
+      <p>Ukraine has struck more than 150 Russian tankers and associated vessels in the Black Sea and Sea of Azov as part of its campaign to degrade Russia's shadow fleet and export infrastructure. The Caspian Pipeline Consortium's Novorossiysk terminal — struck in mid-July — remains offline with no confirmed resumption date, keeping Kazakhstan's 1.6 million-barrel-per-day Tengiz output suspended. The dual disruption — Red Sea under Houthi blockade and Black Sea under active Ukrainian targeting — removes both of the major crude export routes that European buyers developed as Hormuz alternatives since the US-Israel-Iran war began in February.</p>
+      <a href="https://www.cnbc.com/2026/07/24/oil-tanker-red-sea-hormuz-black-sea-iran-ukraine.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">EIA / Inventories</div>
+      <h4>EIA Reports Surprise 2.0 mb Crude Build — But Stocks Remain 6% Below Five-Year Average as Refinery Runs Hit 96.1%</h4>
+      <p>The Energy Information Administration's weekly petroleum status report for the week ending July 17 showed a 2.0-million-barrel crude build — well above the 1.1-million-barrel draw that analysts had forecast — bringing total commercial crude stocks to 411.7 million barrels, still 6% below the five-year seasonal average. Gasoline stocks added 0.8 million barrels and distillate stocks built 1.4 million barrels. Refinery utilization reached 96.1% of operable capacity as processors ran at maximum throughput ahead of peak summer demand. The July 17 data predates the worst of the Houthi kinetic enforcement; next week's report covering the July 25 week will be the first full reading to reflect the new disruption regime across all three corridors.</p>
+      <a href="https://www.eia.gov/todayinenergy/detail.php?id=67868" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Aug 2 — 8 Days</td>
+        <td>
+          <div class="event-name">OPEC+ Ministerial Review — Sixth Consecutive Hike or Defensive Freeze as Saudi Exports Under Kinetic Attack?</div>
+          <div class="event-impact">The August 2 ministerial arrives with Saudi Arabia simultaneously unable to export through Hormuz (impaired) and facing an active Houthi military blockade of its Red Sea loading terminals. The coalition's sixth planned increase of 188,000 bpd was agreed when the geopolitical architecture was significantly less fragile. The central question: does OPEC+ proceed with paper quotas that cannot reach markets through broken shipping lanes — or freeze output and explicitly defend a price floor above $95? Kazakhstan, one of the seven signatories, has since implemented emergency production cuts at Tengiz. The ministerial may be the most consequential meeting since OPEC+ was restructured.</div>
+        </td>
+        <td>High stakes: freeze signals >$95–$100 floor defense; proceeding with hike undermines OPEC+ credibility given physical reality.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">This Weekend</td>
+        <td>
+          <div class="event-name">Pakistan-China Diplomatic Initiative — New US-Iran Talks Overture; Will Tehran Engage Over the Two-Day Gap?</div>
+          <div class="event-impact">The diplomatic signal that triggered Friday's late-session crude reversal has not yet developed into a formal framework. Key unknowns: whether Pakistan's outreach has a confirmed channel to Tehran, whether Washington endorses the initiative, and whether Iran publicly engages. A positive response from Tehran — or a joint Pakistan-China-Iran statement — would constitute the largest single bearish catalyst for crude in weeks. Silence or rejection over the weekend would be immediately bullish on Monday's open as traders who cut positions on Friday re-enter.</div>
+        </td>
+        <td>Binary: confirmed framework → −$5 to −$8/bbl; silence or rejection → +$3 to +$5/bbl Monday open.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Houthi Red Sea Kinetic Blockade — Saudi Loadings Down 36%; Cape Rerouting Accelerating</div>
+          <div class="event-impact">The Houthi maritime embargo is in its most aggressive enforcement phase since the blockade was declared July 20. Tankers transiting near Bab el-Mandeb face confirmed missile and drone threat. Saudi crude loadings from Yanbu and Red Sea terminals have fallen 36% — roughly 1.4 million barrels per day of disrupted export capacity. The blockade has no articulated exit condition that Saudi Arabia can satisfy unilaterally. Each passing day extends the structural rerouting that adds cost and time to Asian crude supply chains. A US naval degradation of Houthi anti-ship missile batteries or a Houthi unilateral pause are the only credible de-escalation scenarios.</div>
+        </td>
+        <td>Structural: sustained enforcement adds $8–$12/bbl; each confirmed strike on a new tanker adds $1–$3/bbl intraday.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Kazakhstan / CPC Black Sea Export Halt — 1.6 mb/d Suspended; No Restoration Timeline</div>
+          <div class="event-impact">The CPC Novorossiysk terminal attack has produced a sustained export suspension from Kazakhstan's Tengiz super-giant. The field is operating at reduced capacity with no inventory outlet, creating a production management problem that compounds with each passing week. European refiners who had relied on CPC crude as a non-Gulf, non-Russian substitute now face the complete elimination of that pathway simultaneously with the Red Sea disruption. If the CPC outage extends beyond four weeks total, European crude procurement will require structural re-contracting with Atlantic Basin and US suppliers at materially higher cost.</div>
+        </td>
+        <td>Additive: $3–$5/bbl alone; amplifies the multi-corridor scarcity signal underpinning the $95+ Brent floor.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jul 29 — Next Wed</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report — First Full Reading After CPC Disruption and Houthi Kinetic Enforcement</div>
+          <div class="event-impact">The July 29 EIA report will cover the week ending July 25 — the first full week encompassing both the confirmed CPC terminal outage and the Houthi kinetic enforcement of the Red Sea embargo. The surprise crude build in the July 17 data has already been explained by pre-crisis imports arriving on schedule; the July 25 data should begin reflecting disrupted cargoes. A reversal to sequential crude draws of 2–4 million barrels would provide statistical confirmation of the supply tightening narrative and reinforce the $95+ Brent floor regardless of diplomatic noise. A second consecutive build would be treated as a pipeline lag artifact and looked through.</div>
+        </td>
+        <td>±$2–$4/bbl; draw confirms tightening narrative; second build would be dismissed as pre-disruption import lag.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Saturday, July 25, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Friday's briefing held that the $100 floor was real unless someone blinked, and that nothing in Rubio's record suggested a diplomatic contact was coming. The Pakistan-China initiative is the blink — partial, unconfirmed, and fragile, but real enough to send Brent down nearly 4% in the final hours of the trading week. <strong>This is not a reversal; it is a repositioning.</strong> Traders who were long crude into a two-day gap window cut exposure on the first credible external mediation signal in weeks. That is rational risk management, not a change in the underlying supply equation. Brent ends the week at $96.78 — up more than 9% from Monday's open — and every barrel of structural disruption that drove that gain is still missing from the market.</p>
+        <p>The supply architecture that drove Brent above $100 on Thursday has not changed by one barrel entering the weekend. The Houthi maritime blockade is in kinetic enforcement with Saudi crude loadings down 36%. The CPC Black Sea terminal remains offline with 1.6 million barrels per day of Kazakh exports suspended. The Strait of Hormuz continues to operate at severely impaired capacity, and the MOU that was supposed to govern it has been declared effectively dead by the US Secretary of State. <strong>Three of the world's most critical oil export corridors are simultaneously disrupted, and the diplomatic signal that moved markets Friday has not repaired a single one of them.</strong> India is importing Venezuelan crude. Saudi tankers are going dark in the Red Sea. European refiners have lost their last non-Gulf, non-Russian substitute. The physical reality of this market is $95+ Brent until something structural changes.</p>
+        <p>The Pakistan-China initiative deserves a measured assessment rather than dismissal. Pakistan has historically served as a back-channel between Washington and Tehran, and China's backing gives it economic weight. But the preconditions for US engagement are steep: Iran would need to credibly commit to Hormuz reopening before any administration could justify a ceasefire framework without that provision. Tehran's posture has hardened since Rubio's MOU declaration. The probability that the weekend produces a formal framework that moves crude materially lower on Monday's open is real but remains a <strong>tail scenario, not the base case.</strong> The base case is that the Houthi blockade, CPC suspension, and Hormuz impairment remain fully intact on Monday morning.</p>
+        <p><strong>My call for next week's open: Brent trades $93–$100</strong>, with Monday's direction entirely driven by whether weekend diplomatic contacts produce a concrete statement. Base case — silence or vague encouragement — means Brent gaps up 1–2% on Monday as Friday's position-cutting reverses and the underlying triple-corridor scarcity reasserts itself. Bull scenario for crude: confirmed Iranian engagement with the Pakistan-China framework; Brent extends toward $91–$93. Bear scenario for crude bulls: Trump authorizes strikes on Iranian civilian infrastructure over the weekend; Brent opens above $106. <strong>The century mark is not far. Unless diplomacy firms into something concrete this weekend, we go back there before month-end.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Critical — Hormuz + Red Sea + CPC; Three Corridors Disrupted Simultaneously</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:95%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Extreme — Houthi Kinetic Enforcement; MOU Dead; US Strikes on 11th Consecutive Night</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:93%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diplomatic Outlook</span><span style="color:#f0a500">Marginally Improved — Pak-China Initiative; But No Framework, No Tehran Engagement Yet</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:18%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Red Sea / Bab el-Mandeb</span><span style="color:#e05252">Active Combat Zone — Saudi Loadings -36%; Cape Rerouting Structural and Accelerating</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:90%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Destruction Risk</span><span style="color:#5cb85c">Rising — IEA Projects 1 mb/d Decline in 2026; $96 Brent Approaching Industrial Response Zone</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:65%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Weekend Gap Risk</span><span style="color:#f0a500">Elevated — Pak-China Initiative Creates Binary Monday Open; No Scheduled Catalyst</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:50%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$93 – $100</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Sideways to Lower on Diplomatic Hope — Return to $100 If Weekend Talks Stall ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$99–$101 (returns if weekend diplomacy produces no concrete framework — base case)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$93–$95 (Pakistan-China framework develops into formal US-Iran back-channel contact)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$103 (US bombs Iranian civilian infrastructure OR Houthi strikes third Saudi tanker)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$91 (confirmed Iran-US back-channel engagement via Pakistan AND Houthi declares Red Sea pause)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Saturday, July 25, 2026</span>
+  <span>Sources: CNBC, Al Jazeera, Bloomberg, OilPrice.com, EIA, Rigzone, The National, NBC News, Atlantic Council</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>

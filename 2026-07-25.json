@@ -1,0 +1,156 @@
+{
+  "date_long": "Saturday, July 25, 2026",
+  "date_slug": "jul25-2026",
+  "volume": "Vol. XLII — No. 195",
+  "dateline": "Dubai / London / New York",
+  "sources": "CNBC, Al Jazeera, Bloomberg, OilPrice.com, EIA, Rigzone, The National, NBC News, Atlantic Council",
+
+  "ticker": [
+    "BRENT CRUDE $96.78 ▼ -3.88% — LATE FRIDAY REVERSAL DRAGS CRUDE FROM $100 CENTURY MARK ON PAKISTAN-CHINA DIPLOMACY SIGNAL",
+    "WTI CRUDE $89.31 ▼ -3.12% — HOLDS ABOVE $89 DESPITE FRIDAY SELL-OFF; STILL UP ~9% ON THE WEEK",
+    "NATURAL GAS ~$3.02/MMBTU ▲ SLIGHTLY HIGHER — RED SEA LNG ROUTE ANXIETY AS COMBAT ZONE EXPANDS",
+    "PAKISTAN PROPOSES NEW US-IRAN TALKS WITH CHINESE BACKING — OIL SURRENDERS $100 CENTURY MARK ON CEASEFIRE HOPE",
+    "HOUTHI KINETIC BLOCKADE CONTINUES — SAUDI CRUDE LOADINGS VIA RED SEA DOWN 36%; CAPE REROUTING ACCELERATING",
+    "INDIA SCRAMBLES: VENEZUELA NOW 3RD-LARGEST CRUDE SUPPLIER AS HORMUZ CRISIS CUTS MIDEAST ACCESS",
+    "SAUDI RED SEA CRUDE EXPORTS HIT RECORD BEFORE HOUTHI BLOCKADE REVERSED FLOWS ABRUPTLY",
+    "OPEC+ AUG 2 MINISTERIAL: 8 DAYS OUT — SIXTH CONSECUTIVE HIKE OR DEFENSIVE FREEZE AS SAUDI EXPORTS UNDER ATTACK?"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$96.78", "change": "▼ −3.88% — Late Friday reversal as Pakistan and China push for new US-Iran talks", "direction": "down" },
+    { "label": "WTI Crude", "value": "$89.31", "change": "▼ −3.12% — Follows Brent lower; still up ~9% on the week despite Friday retreat", "direction": "down" },
+    { "label": "Natural Gas (HH)", "value": "~$3.02", "change": "▲ Slightly higher — Red Sea LNG route disruption builds; EIA projects $3.57/MMBtu Q4 2026 avg", "direction": "up" },
+    { "label": "Brent Weekly Performance", "value": "+9.3%", "change": "▲ Net weekly gain despite Friday's 3.88% pullback — triple-corridor disruption keeps floor intact", "direction": "up" },
+    { "label": "EIA Crude Stocks", "value": "411.7 mb", "change": "+2.0 mb build (wk of Jul 17); 6% below 5-yr avg; refinery utilization 96.1%", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "📉 Century Mark Surrendered: Brent Falls 3.9% Late Friday on Pakistan-China Diplomatic Signal — But Triple-Corridor Disruption Intact",
+    "headline": "Brent Retreats From $100 to $96.78 as Pakistan and China Push for New US-Iran Talks — Saudi Tanker Blockade, CPC Halt and Hormuz Impairment Remain Simultaneously Active as Market Pivots to Weekend Diplomatic Watch",
+    "paragraphs": [
+      "Brent crude surrendered the <strong>$100 century mark</strong> in a sharp late-session reversal on Friday, closing at <strong>$96.78 — down 3.88%</strong> — after reports broke that Pakistan, with Chinese diplomatic backing, was pushing for a new round of US-Iran negotiations. WTI settled at <strong>$89.31, down 3.12%</strong>. The move is significant in isolation but must be read in the context of the week's full arc: Brent entered Monday near $88 and exits Friday's close near $97 — a net weekly gain of roughly 9% — meaning the reversal retraced only a fraction of one of the largest weekly crude rallies in months. The diplomatic signal that caused Friday's selloff has not translated into a ceasefire, a weapons pause, or any restart of shipping through the three disrupted corridors. It has given traders a reason to reduce long exposure over the weekend gap — no more, no less.",
+      "The structural disruption picture that drove Brent above $100 on Thursday remains fully intact entering the weekend. Yemen's Houthi movement is enforcing a maritime blockade against Saudi-linked tankers in the Red Sea through kinetic military means: Saudi crude loadings through the Bab el-Mandeb have fallen <strong>36%</strong> from their July peak as tanker operators divert to the Cape of Good Hope route, adding two to three weeks to Asia-bound voyages. Simultaneously, the <strong>Caspian Pipeline Consortium's Black Sea terminal at Novorossiysk</strong> remains offline following drone attacks on tankers <em>Asia</em> and <em>Nissos IOS</em> in mid-July, with Kazakhstan's 1.6 million barrels per day of Tengiz exports still suspended with no restoration timeline. The Strait of Hormuz continues to operate at severely impaired capacity with Secretary Rubio having declared the ceasefire MOU <strong>\"effectively dead.\"</strong> No credible de-escalation pathway exists on any of the three disrupted corridors as of Friday's close.",
+      "The Pakistan-China diplomatic move is the first credible external mediation signal since the Hormuz MOU breakdown. Markets are giving it partial weight — a 4% crude sell-off rather than the 8–10% that a confirmed ceasefire framework would likely deliver. The structure of the trade for early next week is binary: either diplomatic contacts develop into a framework over the weekend and crude retraces further toward the low $90s, or the weekend passes without progress and Brent gaps back toward — and through — $100 on Monday's open. The <strong>OPEC+ ministerial on August 2</strong> — now eight days away — adds another layer of complexity: the coalition must decide whether to proceed with a sixth consecutive 188,000-bpd paper increase or pivot to a defensive price-floor posture while Saudi crude exports remain under active Houthi attack."
+    ],
+    "link_url": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "-3.88%", "desc": "Brent's Friday Reversal From the $100 Century Mark — Pakistan-China Diplomatic Signal Triggers Late-Session Selloff" },
+      { "num": "36%", "desc": "Drop in Saudi Red Sea Crude Loadings Through Bab el-Mandeb Since Houthi Blockade Declaration — Down From Recent Record High" },
+      { "num": "+9.3%", "desc": "Brent's Net Weekly Gain Despite Friday's Pullback — Triple-Corridor Disruption Underpins Crude at a Multi-Week High" },
+      { "num": "Aug 2", "desc": "Next OPEC+ Ministerial Review — Eight Days Away; Coalition Must Decide on Sixth Hike or Defensive Price-Floor Freeze" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Pakistan and China Push for New US-Iran Talks — Brent Surrenders $100 in Late-Friday Reversal",
+      "body": "Reports on Friday that Pakistan, with Chinese diplomatic backing, was seeking to revive US-Iran negotiations sent Brent crude down sharply in the late session — a roughly 4% reversal from approximately $100.30 to a Friday close of $96.78. The diplomatic signal was the first credible external mediation overture since Secretary Rubio declared the Hormuz MOU 'effectively dead' days earlier. Traders trimmed long positions ahead of the weekend on the possibility the initiative develops into a ceasefire framework, though no formal talks have been announced and Tehran has not confirmed its participation. Monday's open will serve as a referendum on whether the signal has any substance.",
+      "link_url": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Red Sea / Houthis",
+      "headline": "Saudi Crude Loadings Via Red Sea Collapse 36% as Houthi Kinetic Blockade Enters Second Week",
+      "body": "Saudi crude exports through Bab el-Mandeb — which had been tracking near record levels in early July — have fallen 36% as tanker operators avoid the Red Sea under the Houthi military blockade declared July 20. The Houthis followed their declaration with kinetic enforcement: ballistic missiles, cruise missiles and drones struck Saudi-linked tankers <em>Encelia</em> and <em>Layla</em>, setting one ablaze. Shipping analysts estimate that sustained enforcement of the blockade could remove 7% from effective global oil supply as Cape of Good Hope rerouting adds weeks to transit times for Asian buyers. Saudi Arabia's Yanbu port — through which approximately 4 million barrels per day of crude transits to Asia — is the focal point of the disruption, and the blockade has no articulated exit condition Saudi Arabia can satisfy unilaterally.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Supply / India",
+      "headline": "India Turns to Venezuela and Angola as Hormuz Crisis Cuts Middle East Crude Access — Venezuela Now Third-Largest Supplier",
+      "body": "Indian state refiners — cut off from traditional Middle East term supplies by the Strait of Hormuz impairment — are aggressively sourcing replacement crude from Venezuela and Angola. Venezuela has become India's third-largest crude supplier, with BPCL and IOC importing an estimated 12.51 million barrels of Venezuelan crude in a single month — the highest volume since February 2020. India is also testing new Angolan grades not previously processed at its refineries. The supply scramble reflects a broader structural rerouting of global crude flows as the Hormuz crisis enters its fifth month, with Asian buyers who historically depended on Gulf crude now competing for Atlantic Basin barrels against European refiners already displaced from Russian supply.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Scours-Angola-Venezuela-for-Crude-as-Mideast-Supply-Dries-Up.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Saudi Arabia",
+      "headline": "Saudi Red Sea Crude Exports Hit Record High Before Houthi Blockade Declaration Reversed Flows in Days",
+      "body": "Saudi Arabia had ramped crude exports from its Red Sea ports to a record high in early July as the kingdom attempted to route volumes around the Hormuz impairment and maintain market share with Asian buyers. The record was short-lived: the Houthi maritime blockade declaration on July 20 and subsequent kinetic enforcement forced a rapid and dramatic reversal. Shipping transponder data shows tankers going dark — with transponders switched off — as vessels near the Bab el-Mandeb assess risk in real time. Analysts note the reversal represents a double-bind for Saudi Arabia: its Gulf export route is compromised by Hormuz, and its Red Sea route is now under active military attack.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-21/saudi-crude-flow-from-red-sea-hit-record-before-houthi-warning",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Russia / Black Sea",
+      "headline": "Ukraine Strikes Extend to 150+ Black Sea Vessels — CPC Terminal Offline; Kazakh Exports Suspended With No Timeline",
+      "body": "Ukraine has struck more than 150 Russian tankers and associated vessels in the Black Sea and Sea of Azov as part of its campaign to degrade Russia's shadow fleet and export infrastructure. The Caspian Pipeline Consortium's Novorossiysk terminal — struck in mid-July — remains offline with no confirmed resumption date, keeping Kazakhstan's 1.6 million-barrel-per-day Tengiz output suspended. The dual disruption — Red Sea under Houthi blockade and Black Sea under active Ukrainian targeting — removes both of the major crude export routes that European buyers developed as Hormuz alternatives since the US-Israel-Iran war began in February.",
+      "link_url": "https://www.cnbc.com/2026/07/24/oil-tanker-red-sea-hormuz-black-sea-iran-ukraine.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "EIA Reports Surprise 2.0 mb Crude Build — But Stocks Remain 6% Below Five-Year Average as Refinery Runs Hit 96.1%",
+      "body": "The Energy Information Administration's weekly petroleum status report for the week ending July 17 showed a 2.0-million-barrel crude build — well above the 1.1-million-barrel draw that analysts had forecast — bringing total commercial crude stocks to 411.7 million barrels, still 6% below the five-year seasonal average. Gasoline stocks added 0.8 million barrels and distillate stocks built 1.4 million barrels. Refinery utilization reached 96.1% of operable capacity as processors ran at maximum throughput ahead of peak summer demand. The July 17 data predates the worst of the Houthi kinetic enforcement; next week's report covering the July 25 week will be the first full reading to reflect the new disruption regime across all three corridors.",
+      "link_url": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "link_text": "Read EIA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 2 — 8 Days",
+      "name": "OPEC+ Ministerial Review — Sixth Consecutive Hike or Defensive Freeze as Saudi Exports Under Kinetic Attack?",
+      "impact": "The August 2 ministerial arrives with Saudi Arabia simultaneously unable to export through Hormuz (impaired) and facing an active Houthi military blockade of its Red Sea loading terminals. The coalition's sixth planned increase of 188,000 bpd was agreed when the geopolitical architecture was significantly less fragile. The central question: does OPEC+ proceed with paper quotas that cannot reach markets through broken shipping lanes — or freeze output and explicitly defend a price floor above $95? Kazakhstan, one of the seven signatories, has since implemented emergency production cuts at Tengiz. The ministerial may be the most consequential meeting since OPEC+ was restructured.",
+      "market_impact": "High stakes: freeze signals >$95–$100 floor defense; proceeding with hike undermines OPEC+ credibility given physical reality.",
+      "risk": "High"
+    },
+    {
+      "date": "This Weekend",
+      "name": "Pakistan-China Diplomatic Initiative — New US-Iran Talks Overture; Will Tehran Engage Over the Two-Day Gap?",
+      "impact": "The diplomatic signal that triggered Friday's late-session crude reversal has not yet developed into a formal framework. Key unknowns: whether Pakistan's outreach has a confirmed channel to Tehran, whether Washington endorses the initiative, and whether Iran publicly engages. A positive response from Tehran — or a joint Pakistan-China-Iran statement — would constitute the largest single bearish catalyst for crude in weeks. Silence or rejection over the weekend would be immediately bullish on Monday's open as traders who cut positions on Friday re-enter.",
+      "market_impact": "Binary: confirmed framework → −$5 to −$8/bbl; silence or rejection → +$3 to +$5/bbl Monday open.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Red Sea Kinetic Blockade — Saudi Loadings Down 36%; Cape Rerouting Accelerating",
+      "impact": "The Houthi maritime embargo is in its most aggressive enforcement phase since the blockade was declared July 20. Tankers transiting near Bab el-Mandeb face confirmed missile and drone threat. Saudi crude loadings from Yanbu and Red Sea terminals have fallen 36% — roughly 1.4 million barrels per day of disrupted export capacity. The blockade has no articulated exit condition that Saudi Arabia can satisfy unilaterally. Each passing day extends the structural rerouting that adds cost and time to Asian crude supply chains. A US naval degradation of Houthi anti-ship missile batteries or a Houthi unilateral pause are the only credible de-escalation scenarios.",
+      "market_impact": "Structural: sustained enforcement adds $8–$12/bbl; each confirmed strike on a new tanker adds $1–$3/bbl intraday.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Kazakhstan / CPC Black Sea Export Halt — 1.6 mb/d Suspended; No Restoration Timeline",
+      "impact": "The CPC Novorossiysk terminal attack has produced a sustained export suspension from Kazakhstan's Tengiz super-giant. The field is operating at reduced capacity with no inventory outlet, creating a production management problem that compounds with each passing week. European refiners who had relied on CPC crude as a non-Gulf, non-Russian substitute now face the complete elimination of that pathway simultaneously with the Red Sea disruption. If the CPC outage extends beyond four weeks total, European crude procurement will require structural re-contracting with Atlantic Basin and US suppliers at materially higher cost.",
+      "market_impact": "Additive: $3–$5/bbl alone; amplifies the multi-corridor scarcity signal underpinning the $95+ Brent floor.",
+      "risk": "High"
+    },
+    {
+      "date": "Jul 29 — Next Wed",
+      "name": "EIA Weekly Petroleum Status Report — First Full Reading After CPC Disruption and Houthi Kinetic Enforcement",
+      "impact": "The July 29 EIA report will cover the week ending July 25 — the first full week encompassing both the confirmed CPC terminal outage and the Houthi kinetic enforcement of the Red Sea embargo. The surprise crude build in the July 17 data has already been explained by pre-crisis imports arriving on schedule; the July 25 data should begin reflecting disrupted cargoes. A reversal to sequential crude draws of 2–4 million barrels would provide statistical confirmation of the supply tightening narrative and reinforce the $95+ Brent floor regardless of diplomatic noise. A second consecutive build would be treated as a pipeline lag artifact and looked through.",
+      "market_impact": "±$2–$4/bbl; draw confirms tightening narrative; second build would be dismissed as pre-disruption import lag.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Friday's briefing held that the $100 floor was real unless someone blinked, and that nothing in Rubio's record suggested a diplomatic contact was coming. The Pakistan-China initiative is the blink — partial, unconfirmed, and fragile, but real enough to send Brent down nearly 4% in the final hours of the trading week. <strong>This is not a reversal; it is a repositioning.</strong> Traders who were long crude into a two-day gap window cut exposure on the first credible external mediation signal in weeks. That is rational risk management, not a change in the underlying supply equation. Brent ends the week at $96.78 — up more than 9% from Monday's open — and every barrel of structural disruption that drove that gain is still missing from the market.",
+      "The supply architecture that drove Brent above $100 on Thursday has not changed by one barrel entering the weekend. The Houthi maritime blockade is in kinetic enforcement with Saudi crude loadings down 36%. The CPC Black Sea terminal remains offline with 1.6 million barrels per day of Kazakh exports suspended. The Strait of Hormuz continues to operate at severely impaired capacity, and the MOU that was supposed to govern it has been declared effectively dead by the US Secretary of State. <strong>Three of the world's most critical oil export corridors are simultaneously disrupted, and the diplomatic signal that moved markets Friday has not repaired a single one of them.</strong> India is importing Venezuelan crude. Saudi tankers are going dark in the Red Sea. European refiners have lost their last non-Gulf, non-Russian substitute. The physical reality of this market is $95+ Brent until something structural changes.",
+      "The Pakistan-China initiative deserves a measured assessment rather than dismissal. Pakistan has historically served as a back-channel between Washington and Tehran, and China's backing gives it economic weight. But the preconditions for US engagement are steep: Iran would need to credibly commit to Hormuz reopening before any administration could justify a ceasefire framework without that provision. Tehran's posture has hardened since Rubio's MOU declaration. The probability that the weekend produces a formal framework that moves crude materially lower on Monday's open is real but remains a <strong>tail scenario, not the base case.</strong> The base case is that the Houthi blockade, CPC suspension, and Hormuz impairment remain fully intact on Monday morning.",
+      "<strong>My call for next week's open: Brent trades $93–$100</strong>, with Monday's direction entirely driven by whether weekend diplomatic contacts produce a concrete statement. Base case — silence or vague encouragement — means Brent gaps up 1–2% on Monday as Friday's position-cutting reverses and the underlying triple-corridor scarcity reasserts itself. Bull scenario for crude: confirmed Iranian engagement with the Pakistan-China framework; Brent extends toward $91–$93. Bear scenario for crude bulls: Trump authorizes strikes on Iranian civilian infrastructure over the weekend; Brent opens above $106. <strong>The century mark is not far. Unless diplomacy firms into something concrete this weekend, we go back there before month-end.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Critical — Hormuz + Red Sea + CPC; Three Corridors Disrupted Simultaneously", "tone": "bearish", "pct": 95 },
+      { "name": "Geopolitical Risk", "label": "Extreme — Houthi Kinetic Enforcement; MOU Dead; US Strikes on 11th Consecutive Night", "tone": "bearish", "pct": 93 },
+      { "name": "Diplomatic Outlook", "label": "Marginally Improved — Pak-China Initiative; But No Framework, No Tehran Engagement Yet", "tone": "neutral", "pct": 18 },
+      { "name": "Red Sea / Bab el-Mandeb", "label": "Active Combat Zone — Saudi Loadings -36%; Cape Rerouting Structural and Accelerating", "tone": "bearish", "pct": 90 },
+      { "name": "Demand Destruction Risk", "label": "Rising — IEA Projects 1 mb/d Decline in 2026; $96 Brent Approaching Industrial Response Zone", "tone": "bullish", "pct": 65 },
+      { "name": "Weekend Gap Risk", "label": "Elevated — Pak-China Initiative Creates Binary Monday Open; No Scheduled Catalyst", "tone": "neutral", "pct": 50 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$93 – $100",
+      "bias": "Bias: Sideways to Lower on Diplomatic Hope — Return to $100 If Weekend Talks Stall ▲"
+    },
+    "watch_levels": {
+      "resistance": "$99–$101 (returns if weekend diplomacy produces no concrete framework — base case)",
+      "support": "$93–$95 (Pakistan-China framework develops into formal US-Iran back-channel contact)",
+      "breakout": ">$103 (US bombs Iranian civilian infrastructure OR Houthi strikes third Saudi tanker)",
+      "breakdown": "<$91 (confirmed Iran-US back-channel engagement via Pakistan AND Houthi declares Red Sea pause)"
+    }
+  }
+}
