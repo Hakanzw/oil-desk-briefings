@@ -1,0 +1,156 @@
+{
+  "date_long": "Sunday, July 26, 2026",
+  "date_slug": "jul26-2026",
+  "volume": "Vol. XLII — No. 196",
+  "dateline": "Dubai / London / New York",
+  "sources": "Reuters, CNBC, The Hill, Bloomberg, CNN, Forbes, Al Jazeera, ABC News, EIA, IEA",
+
+  "ticker": [
+    "BRENT CRUDE $96.78 ▼ -3.9% (FRIDAY CLOSE)",
+    "WTI CRUDE $90.46 ▼ -3.5% (FRIDAY CLOSE)",
+    "NATURAL GAS $3.34 ▼ -1.2% (HENRY HUB)",
+    "TRUMP DECLARES US-IRAN CEASEFIRE \"OVER\" — BUT BACKS PAKISTAN-CHINA MEDIATION",
+    "BRENT SPIKED ABOVE $100 MID-WEEK ON HOUTHI SAUDI BLOCKADE — SURRENDERED CENTURY MARK BY FRIDAY",
+    "CPC TERMINAL OFFLINE: 80% OF KAZAKH EXPORTS SUSPENDED — NOW IN SECOND WEEK",
+    "FOMC MEETS JULY 28-29: MARKETS PRICE 1-IN-3 ODDS OF RATE HIKE ON OIL-DRIVEN INFLATION",
+    "HOUTHI RED SEA BLOCKADE WEEK TWO: SAUDI CRUDE LOADINGS DOWN 36%, NO TANKER HAS RESUMED"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$96.78", "change": "▼ −3.9% (ceasefire declared over)", "direction": "down" },
+    { "label": "WTI Crude", "value": "$90.46", "change": "▼ −3.5% (weekly +9.4% still intact)", "direction": "down" },
+    { "label": "Brent Weekly Gain", "value": "+9.4%", "change": "▲ Houthi-driven escalation spike", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.34", "change": "▼ −1.2% (demand concerns weigh)", "direction": "down" },
+    { "label": "Brent/WTI Spread", "value": "$6.32", "change": "▲ Widest in two months — logistical bottlenecks", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚠️ Ceasefire OVER — Talks Still Live: Markets Enter a Week of Maximum Uncertainty",
+    "headline": "Trump Declares US-Iran Ceasefire \"OVER\" as Pakistan-China Mediation Steps In — Brent Surrenders $100 and Drifts Into a Five-Day Calendar Gauntlet: FOMC, GDP, and the Next Diplomatic Wire",
+    "paragraphs": [
+      "The 38-day US-Iran ceasefire that had nominally capped the hot phase of the Hormuz war expired Friday in acrimony. President Trump declared the framework <strong>\"OVER\"</strong> in a social media post, citing repeated Iranian violations of the Strait of Hormuz terms — specifically Tehran's insistence on the right to impose fees on commercial transits. In the same breath, he said the US had agreed to continue talks at Iran's request, and simultaneously Pakistan and China separately surfaced a proposal for a formal back-channel, a diplomatic signal that pulled Brent 3.9% lower from its intra-week high above $100 to a Friday close of <strong>$96.78</strong>.",
+      "The market is now navigating a contradiction that the tape cannot hold indefinitely: a ceasefire that is <em>officially dead</em> but <em>diplomatically still breathing</em>. Three supply corridors remain simultaneously impaired — the Strait of Hormuz, running at well below pre-war transit levels; the Red Sea, where the Houthi kinetic blockade has driven Saudi crude loadings down 36% and into a second week with no tanker company willing to resume northbound transits; and the Black Sea-CPC route, offline since July 19 after Ukrainian drone attacks put four tankers out of service in four days, suspending roughly 80% of Kazakhstan's oil exports. Any deterioration in any single corridor snaps Brent back above $100.",
+      "The week ahead concentrates maximum uncertainty into five sessions. The FOMC meets July 28–29 with markets pricing <strong>one-in-three odds of a rate hike</strong> driven by oil-led inflation — a decision that would reprice the energy demand outlook and complicate already-battered supply chains. US Q2 GDP prints July 30. The EIA weekly inventory report arrives July 29. Against that macro backdrop, the diplomatic clock is also ticking: if Pakistan-China mediation produces nothing concrete by mid-week, \"OVER\" starts to mean what it says — and the geopolitical premium that the Friday tape partially discounted would return in full."
+    ],
+    "link_url": "https://thehill.com/homenews/administration/5962657-trump-us-iran-ceasefire-talks/",
+    "link_text": "Read The Hill",
+    "stats": [
+      { "num": "38 days", "desc": "Duration of the US-Iran Ceasefire Before Trump Declared It \"OVER\" on Friday" },
+      { "num": "3", "desc": "Active Supply-Corridor Disruptions Running Simultaneously: Hormuz, Red Sea, Black Sea" },
+      { "num": "1-in-3", "desc": "Market-Implied Probability of a Fed Rate Hike at the July 28–29 FOMC Meeting" },
+      { "num": "$6.32", "desc": "Friday's Brent-WTI Spread — Widest in Two Months as Logistical Bottlenecks Persist" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Trump Declares Ceasefire \"OVER\" — But Backs Pakistan-China Mediation, Talks to Continue",
+      "body": "President Trump ended the 38-day US-Iran ceasefire in a Friday social media post, citing Iranian violations of the Strait of Hormuz terms — specifically Tehran's insistence on charging fees for commercial transits, a condition Trump declared categorically unacceptable. He simultaneously confirmed the US had agreed to continue talks at Iran's request. The announcement came the same afternoon Pakistan and China separately pushed for a formal back-channel — driving Brent 3.9% lower. Whether \"OVER\" is a negotiating gambit or a genuine end of the framework will be answered within 72 hours.",
+      "link_url": "https://thehill.com/homenews/administration/5962657-trump-us-iran-ceasefire-talks/",
+      "link_text": "Read The Hill"
+    },
+    {
+      "tag": "Macro / Fed",
+      "headline": "FOMC Meets July 28–29 — One-in-Three Odds of a Hike as Oil Inflation Complicates Chair Warsh's First Test",
+      "body": "The Federal Reserve's July meeting — the first chaired by Kevin Warsh — arrives with markets pricing a one-in-three probability of a rate hike, driven by persistent oil-led inflation with Brent averaging well above $90 for the past three weeks. The Fed faces a genuine trap: energy price pressure keeps headline CPI elevated, but the IEA's first projected annual demand decline since 2020 argues for patience on tightening. A hike would reprice the energy demand outlook downward — a bearish macro headwind for crude. A hold risks being read as accommodation of the oil shock.",
+      "link_url": "https://www.forbes.com/sites/simonmoore/2026/07/23/markets-see-chance-fed-hikes-next-week-at-july-meeting/",
+      "link_text": "Read Forbes"
+    },
+    {
+      "tag": "Red Sea / Houthis",
+      "headline": "Houthi Maritime Blockade of Saudi Arabia Enters Second Week — Saudi Crude Loadings Down 36%, No Tanker Has Resumed",
+      "body": "The Houthi maritime blockade of Saudi Arabia entered its second week with no tanker company willing to risk northbound Red Sea transits through the Bab al-Mandab Strait. Saudi crude loadings via the Red Sea route have collapsed 36%, rerouting volumes around the Cape of Good Hope and adding 8–12 days of transit time. Brent surged above $100 midweek when the attacks on Saudi tankers Encelia and Layla confirmed the blockade was kinetic, not rhetorical. Trump has pledged to hold Iran responsible for further Houthi escalation — a statement that makes the Pakistan-China back-channel even more load-bearing.",
+      "link_url": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Black Sea / Kazakhstan",
+      "headline": "CPC Terminal Offline Into Second Week — 80% of Kazakh Exports Suspended With No Restart Timeline",
+      "body": "The Caspian Pipeline Consortium's Novorossiysk terminal has now been offline for seven days following Ukrainian drone attacks that put four tankers out of service in four consecutive days (July 19–22). With no tanker company willing to send vessels to the facility, Kazakhstan halted piped supplies and began cutting upstream production — removing approximately 1.5 mb/d from the market on a route that handles roughly 80% of the country's exports. European refiners dependent on KEBCO-grade crude are seeking replacement barrels from the Atlantic basin, pushing differentials sharply wider.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-21/kazakhstan-to-stop-piping-oil-to-black-sea-after-tanker-attacks",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Demand",
+      "headline": "IEA: First Annual Oil Demand Decline Since 2020 — War-Driven Destruction Cuts 1 mb/d From 2026 Baseline",
+      "body": "The IEA's July report projected a 1 mb/d year-on-year decline in global oil demand in 2026 — the first contraction since the height of the Covid-19 pandemic. The agency described the decline as \"highly skewed\" in product and regional terms, driven by the Hormuz closure cutting industrial and transport fuel demand across Asia and Europe. Crucially, the IEA's forecast assumed a ceasefire and a gradual Hormuz normalization — an assumption now in doubt following the ceasefire's formal collapse. If the corridor disruptions deepen, the demand-destruction arithmetic worsens further.",
+      "link_url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Russia / Ukraine",
+      "headline": "Ukraine Sustains Refinery Campaign — Omsk, Yaroslavl, Syzran and Saratov Hit in Two-Week Offensive",
+      "body": "Ukraine's campaign against Russian oil-refining capacity has intensified through July, with confirmed strikes on refineries in Omsk (Russia's largest, located 2,500 km from the Ukrainian border), Yaroslavl, Saratov and Syzran — four of Russia's five largest facilities targeted in two weeks. Russian refinery output has fallen sharply, tightening Europe's diesel market at the start of winter planning season. The Moscow Times separately reported Kazakhstan was cutting upstream production following the CPC disruption — a compounding blow to supply from the former Soviet space arriving just as the European refining slate is already stretched.",
+      "link_url": "https://www.cnbc.com/2026/07/07/ukraine-russia-omsk-oil-refinery-putin-nato.html",
+      "link_text": "Read CNBC"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jul 28–29",
+      "name": "FOMC Rate Decision — Chair Warsh's First Meeting With Oil Inflation on the Table",
+      "impact": "Markets price a one-in-three chance of a rate hike driven by oil-led CPI pressure, with Brent averaging above $90 for three weeks. A hike would reprice the energy demand outlook lower and strengthen the dollar — a net bearish impulse for crude. A hold risks being interpreted as accommodation of the oil shock, adding a floor under crude near-term. The guidance language matters as much as the decision.",
+      "market_impact": "Binary: ±$4–6/bbl on surprise hike or dovish hold signal.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 26–28",
+      "name": "Pakistan-China Mediation — Does \"OVER\" Become Formal Escalation or a Negotiating Gambit?",
+      "impact": "With Trump declaring the ceasefire OVER but talks continuing, the Pakistan-China back-channel is now the only diplomatic wire keeping the geopolitical premium partially in check. A concrete communique by Tuesday — even a vague framework — keeps the Friday tape's 3.9% pullback intact. Silence or an Iranian rejection would confirm full escalation mode: $100+ returns in a single session.",
+      "market_impact": "Largest unscheduled catalyst on the calendar. Binary, headline-driven.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Week of Jul 27",
+      "name": "Houthi Red Sea Blockade — Will Saudi Arabia or US Force a Resolution?",
+      "impact": "The Houthi kinetic blockade of Saudi Arabia is now in its second week with no tanker resuming. Every additional week of disruption tightens the physical market further: Saudi Red Sea barrels were rerouting around the Cape, but if this extends into August it begins to hit Atlantic basin crude balances. US forces are reportedly considering a direct response — which would escalate the Iran war's second front.",
+      "market_impact": "Structural: +$3–5/bbl for every additional week of full blockade.",
+      "risk": "High"
+    },
+    {
+      "date": "Week of Jul 27",
+      "name": "CPC / Kazakhstan — Restart or Extended Shutdown?",
+      "impact": "The CPC Novorossiysk terminal enters its second week offline with no restart timeline. Kazakh production cuts are compounding the supply loss. If Ukrainian drone operations continue, tanker companies will not return — and the 1.5 mb/d loss becomes a structural fixture through August. A restart requires military de-escalation in the Black Sea, which currently looks unlikely.",
+      "market_impact": "Structural: ~1.5 mb/d loss now priced in; extension would add incremental premium.",
+      "risk": "High"
+    },
+    {
+      "date": "Jul 29",
+      "name": "EIA Weekly Petroleum Status Report — First Inventory Print Into \"Ceasefire-Over\" Tape",
+      "impact": "The first inventory data point after Trump's ceasefire declaration. A surprise crude draw would confirm that supply disruptions are outweighing demand destruction — lending support to the $96–$100 range. A build would suggest prices have further room to correct — but only if diplomatic signals simultaneously improve. Context: the prior week (ending Jul 17) showed a 2.0 mb build to 411.7 mb, already 6% below the five-year average.",
+      "market_impact": "±$2–3/bbl; sets the demand-destruction vs. supply-disruption narrative for the week.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Saturday's briefing called for $93–$100, biased sideways to lower on the Pakistan-China diplomatic signal, with a ceiling at $100 unless the weekend produced nothing. The Friday tape delivered exactly that arithmetic: Brent fell 3.9% from $100.57 to $96.78 on the same afternoon Trump formally declared the ceasefire OVER. The market held both facts simultaneously — \"OVER\" and \"talks continue\" — and priced them as net neutral. I don't think that equilibrium survives 48 hours of silence from Islamabad and Beijing.",
+      "<strong>My read heading into Monday:</strong> The diplomatic architecture has shifted from a bilateral US-Iran framework with US-backed enforcement to a third-party mediated process through Pakistan and China. That is a materially weaker structure. The original ceasefire collapsed because Iran violated the Hormuz tolling terms and the US had no enforcement mechanism it was willing to use. A Pakistan-China back-channel has <em>even less</em> enforcement capacity. If it produces no concrete deliverable by Wednesday, \"OVER\" starts to mean what it says — and the market's Friday risk-off move will reverse.",
+      "<strong>The bigger picture:</strong> We are now running three simultaneous supply-corridor disruptions for the first time in the history of this conflict. The Hormuz recovery is stalled at below pre-war levels. The Red Sea is kinetically blockaded. The Black Sea-CPC route is offline. The IEA's 1 mb/d demand-decline forecast was built on an assumption of Hormuz normalization that is now in serious doubt. Against that backdrop, the FOMC may be about to hike into an oil shock — a combination that argues for continued volatility at the top of the range rather than a clean directional break.",
+      "My call: <strong>Brent $92–$103 on Monday</strong> — a deliberately wide range because the uncertainty is genuine and both tails are live. Bias is asymmetrically to the upside: three impaired corridors, a defunct ceasefire, a Fed meeting that may signal persistent inflation, and no sign of Houthi retreat. If Pakistan-China produces a communique, $93–$95 opens. If it produces nothing — or any corridor deteriorates — $100 returns within the session. <strong>This is not a directional call. It is a volatility call. The range is the story.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme — Triple Corridor", "tone": "bullish", "pct": 88 },
+      { "name": "Geopolitical Risk", "label": "Maximum — Ceasefire Dead", "tone": "bullish", "pct": 92 },
+      { "name": "Demand Outlook", "label": "Contracting — IEA Cuts", "tone": "bearish", "pct": 28 },
+      { "name": "Diplomatic Momentum", "label": "Fragile — Back-Channel Only", "tone": "bullish", "pct": 20 },
+      { "name": "FOMC / Macro Risk", "label": "Elevated — Hike Possible", "tone": "bearish", "pct": 67 },
+      { "name": "Hormuz Recovery", "label": "Stalled — Below Pre-War", "tone": "bullish", "pct": 22 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$92 – $103",
+      "bias": "Bias: Volatility Call — Upside Skew Until Diplomacy Clarifies ▲"
+    },
+    "watch_levels": {
+      "resistance": "$100–$103 (ceasefire collapse confirmed — any corridor worsens)",
+      "support": "$92–$94 (Pakistan-China back-channel produces concrete framework)",
+      "breakout": ">$106 (US resumes direct strikes on Iranian energy infrastructure)",
+      "breakdown": "<$90 (formal Iran-US re-engagement confirmed AND Houthi declares Red Sea pause)"
+    }
+  }
+}
