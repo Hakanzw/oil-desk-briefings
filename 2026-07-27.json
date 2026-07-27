@@ -1,0 +1,156 @@
+{
+  "date_long": "Monday, July 27, 2026",
+  "date_slug": "jul27-2026",
+  "volume": "Vol. XLII — No. 197",
+  "dateline": "Dubai / London / New York",
+  "sources": "IEA, EIA, OPEC, Al Jazeera, Bloomberg, CNBC, The National, Washington Post, NPR, Reuters",
+
+  "ticker": [
+    "BRENT CRUDE ~$92.00 ▼ -4.9%",
+    "WTI CRUDE ~$86.20 ▼ -5.5%",
+    "NATURAL GAS $2.88 ▼ -1.2%",
+    "US-IRAN MUTUAL PAUSE IN MILITARY STRIKES — OIL RETREATS FROM $102 HIGH",
+    "HOUTHIS STRIKE ARAMCO'S JIZAN REFINERY — YANBU FACILITY ALSO TARGETED",
+    "BRENT CROSSED $100 ON JULY 23 — FIRST CLOSE ABOVE $100 SINCE MAY",
+    "EIA: US CRUDE STOCKS +2.0 MB TO 411.7 MB — HORMUZ TRANSIT AT ~25 SHIPS/DAY",
+    "OPEC+ ADDS 188K BPD FOR AUGUST — SAUDI, RUSSIA EACH +62K BPD"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$92.00", "change": "▼ −4.9% (pause-driven selloff)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$86.20", "change": "▼ −5.5% (ceasefire relief)", "direction": "down" },
+    { "label": "Brent vs. July 23 Peak", "value": "−10%+", "change": "▼ Off $102 war high", "direction": "down" },
+    { "label": "Hormuz Transit", "value": "~25 ships/day", "change": "▼ vs. ~130 pre-war", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$2.88", "change": "▼ −1.2% (risk unwind)", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Breaking — Ceasefire Pause: Oil Retreats From $102 High, But Houthi Strikes on Aramco Keep a Floor",
+    "headline": "US and Iran Halt Military Strikes — Brent Falls Below $92 as Weekend Houthi Attacks on Saudi Aramco Complicate the Selloff",
+    "paragraphs": [
+      "The trade that drove Brent above $100 for the first time since May snapped violently over the weekend. The United States and Iran announced a <strong>mutual pause in military strikes</strong> on Sunday, July 26 — the first suspension since hostilities resumed in early July after the June ceasefire collapsed. The announcement triggered an immediate selloff: Brent crude fell 7.56% to $90.95 on Sunday and extended declines at Monday's open before partially recovering to around <strong>$92</strong> — approximately 10% below the $102 peak reached just four days earlier on July 23. WTI fell to as low as $83.80 before steadying in the mid-$80s.",
+      "The picture is sharply complicated by simultaneous Houthi escalation in a new theater. On Friday July 25, Houthi forces struck <strong>Saudi Aramco's Jizan refinery complex</strong>, triggering a large fire visible from offshore. A follow-on ballistic missile salvo targeting Aramco's <strong>Yanbu facility</strong> was intercepted Sunday by a Patriot battery before causing damage. The dual-strike campaign represents the most serious sustained threat to Saudi oil export infrastructure since the 2019 Abqaiq attack and adds a second chokepoint risk — the Bab al-Mandeb — alongside the already-constrained Strait of Hormuz, which is running at only ~25 ships per day versus 130 pre-war.",
+      "Traders are navigating a genuinely two-sided tape. The US-Iran pause removes the most acute escalation risk and theoretically opens a path toward Hormuz re-normalization. But the pause carries no formal terms, no published timeline, and no Houthi commitment to stand down — meaning Saudi supply risk could deepen even as the Iran headline risk fades. The next EIA weekly inventory report on Tuesday, July 29 will provide the first hard demand-signal into the de-escalation window."
+    ],
+    "link_url": "https://www.aljazeera.com/news/2026/7/26/new-front-in-us-iran-war-escalates-as-houthis-fire-at-saudi-oil-facilities",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "$102", "desc": "Brent's July 23 Close — First Above $100 Since May; Now Retreating on Pause News" },
+      { "num": "−10%+", "desc": "Brent's Decline From the $102 War-Escalation Peak in Just Four Sessions" },
+      { "num": "2 facilities", "desc": "Saudi Aramco Sites Struck by Houthis Over the Weekend (Jizan Refinery & Yanbu)" },
+      { "num": "~25/day", "desc": "Ships Currently Transiting Hormuz — Down From ~130 Before the War Began" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "US and Iran Announce Mutual Pause in Military Strikes — First Suspension Since July Escalation",
+      "body": "The United States and Iran agreed to a mutual pause in military strikes on Sunday July 26, the first halt in near-continuous operations since the ceasefire collapsed in early July. The announcement came after approximately 13 days of sustained US strikes on Iranian military targets. Iran reciprocated, halting its own retaliatory strikes. No formal terms, duration, or timeline were published alongside the pause. Oil markets took the news as a strong bearish signal — Brent briefly dipped below $90 before recovering to ~$92 Monday morning — while equity futures rallied sharply, with S&amp;P 500 futures up ~60 points and Nasdaq futures gaining approximately 1.4%.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Saudi Arabia",
+      "headline": "Houthis Strike Saudi Aramco's Jizan Refinery and Yanbu Facility in Weekend Escalation",
+      "body": "Yemen's Houthis struck two Saudi Aramco facilities over the weekend, escalating their campaign against Saudi oil infrastructure to its most intense level since the 2019 Abqaiq attack. On Friday July 25, a missile barrage hit the Jizan refinery complex, sparking a large fire. On Sunday July 26, Houthis launched ballistic missiles at the Yanbu coastal facility, which were intercepted by a Patriot battery. The strikes add a Bab al-Mandeb chokepoint risk on top of the already-constrained Strait of Hormuz and prevented a fuller oil selloff on the Iran pause news — any confirmed damage to Yanbu or Ras Tanura would be an immediate +$5–10 price catalyst.",
+      "link_url": "https://www.thenationalnews.com/news/mena/2026/07/25/houthis-attack-saudi-aramco-sites-with-yemen-at-risk-of-renewed-war/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Oil's Wild Week: Brent From $78 to $102 — and Now Back Below $92 in Four Sessions",
+      "body": "Brent crude's arc over the past two weeks encapsulates the war-premium cycle in miniature. From $71–72 in early July, prices surged to $102 on July 23 as US military operations intensified and threatened to choke supply further. The July 23 close was the first above $100 since May. Friday's partial retreat and Sunday's pause announcement then erased roughly 10% in four sessions — yet Brent remains up roughly 10% on a week-over-week basis from July 21, reflecting the sustained structural supply disruption from Hormuz. WTI followed the same arc, reaching $92.19 on July 23 before falling to $83.80 at Monday's open.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-26/latest-oil-market-news-and-analysis-for-july-27",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "EIA Inventory",
+      "headline": "EIA: US Crude Stocks +2.0 mb to 411.7 mb — Refinery Utilization Hits 96.1%; Next Report Due Tuesday",
+      "body": "The EIA's weekly petroleum status report for the week ending July 17, 2026, showed US commercial crude oil inventories rose 2.0 million barrels to 411.7 million barrels, remaining roughly 6% below the five-year seasonal average. Distillate stocks rose 1.4 mb but remain 10% below the five-year average. Refinery utilization hit 96.1% of operable capacity, near operational limits. Crude oil imports averaged 5.8 mb/d — the four-week average is 5.6 mb/d, down 11.4% year-on-year, reflecting the Hormuz disruption. The next report covering the week ending July 25 is due Tuesday, July 29.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_07_22/wpsr_2026_07_22.php",
+      "link_text": "Read EIA Report"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Adds 188,000 bpd for August — Saudi Arabia and Russia Each Absorb 62,000 bpd",
+      "body": "Seven OPEC+ members agreed on July 5 to raise combined output by 188,000 barrels per day in August 2026, the fifth consecutive monthly increase under the voluntary-cut unwind. Saudi Arabia and Russia each absorb the largest share at 62,000 bpd; Iraq adds 26,000 bpd, Kuwait 16,000 bpd, Kazakhstan 11,000 bpd. Analysts note the quota increase is largely symbolic given the continued Hormuz disruption constrains how much Gulf crude can actually move — transit volumes at ~25 ships per day versus 130 pre-war. The JMMC is scheduled to review progress in August, with members committed to compensating for overproduction since January 2024.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Demand / IEA",
+      "headline": "IEA: Global Oil Demand Set to Fall 1 mb/d in 2026 — First Annual Decline Since COVID-Era 2020",
+      "body": "The IEA's July 2026 Oil Market Report projects global oil demand will decline by approximately 1 million barrels per day in 2026, the first annual contraction since 2020. Global supply rebounded 4.1 mb/d in June to 98.8 mb/d as Hormuz flows partially recovered, but world output remains roughly 9.4 mb/d below pre-war levels. The IEA flags a disconnect between apparently well-supplied crude markets and tight refined product markets — refinery margins hit four-year highs in early July. US retail gasoline averaged $3.78/gallon as of early July, up 20.5% year-on-year, consistent with the IEA's demand-destruction thesis.",
+      "link_url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+      "link_text": "Read CNBC"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jul 27 — Today",
+      "name": "Market Digests US-Iran Pause — Duration and Houthi Wild Card",
+      "impact": "The first full trading session under the mutual-pause framework is the most consequential of the week. A clean session that absorbs the selloff and holds Brent above $88 confirms markets trust the pause framework. Any official walk-back from Tehran or a major new Houthi strike on Saudi infrastructure would drive a violent reversal back toward $95–$98, potentially retesting $100 if Yanbu or Ras Tanura is hit.",
+      "market_impact": "Directional: ±$5–8/bbl on any framework wobble or new infrastructure strike.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 27–Aug",
+      "name": "Houthi Campaign Against Saudi Aramco — Active Dual-Chokepoint Threat",
+      "impact": "Saturday's Jizan refinery fire and Sunday's Yanbu intercept mark the Houthis' most serious sustained campaign against Saudi oil infrastructure since Abqaiq 2019. With the Bab al-Mandeb potentially added to the Hormuz disruption, Saudi exports face a dual-chokepoint threat. Any confirmed damage to Yanbu or Ras Tanura — Aramco's largest export terminal — would be an immediate $5–10 price catalyst and set a new war-premium baseline.",
+      "market_impact": "Structural upside risk. Each confirmed Saudi supply disruption is a market floor event.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Jul 29",
+      "name": "EIA Weekly Petroleum Status Report — First Data Into the Pause Window",
+      "impact": "The first inventory print into the de-escalation window. With prices retreating 10% from peak, the report's signal shifts from 'how tight is supply' to 'how fast is demand recovering at lower prices.' A crude draw larger than 3 mb would signal demand is absorbing the disruption; a build would accelerate the selloff.",
+      "market_impact": "±$2–3/bbl; sets the demand-recovery narrative for the week.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Jul 27–Aug",
+      "name": "Strait of Hormuz Transit Recovery — The Real Normalization Signal",
+      "impact": "With ~25 ships per day currently moving through Hormuz versus 130 pre-war, any visible uptick in transit counts or tanker convoy confirmations would be the single most bullish structural signal for supply recovery. Mine-clearing operations are ongoing but months from completion. Progress reports are the bridge between 'pause in hostilities' and 'barrels actually flowing.'",
+      "market_impact": "Structural — governs the pace of any supply return and the eventual price floor.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 2026",
+      "name": "OPEC+ JMMC Review — Group Faces Credibility Test as Gulf Supply Attempts to Return",
+      "impact": "With the August +188,000 bpd increase now in place, the next JMMC review will assess whether Gulf OPEC+ members have the export-channel capacity to deliver on their quotas given ongoing Hormuz constraints. The group's decision to pause, continue, or reverse the unwind of voluntary cuts will set the price floor narrative for H2 2026.",
+      "market_impact": "Forward-looking: determines the H2 2026 price band and group credibility.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Last week I wrote that the first close above $100 was a <em>warning signal</em> — not because the underlying supply disruption was not real, but because a market trading $30 above its pre-conflict equilibrium on purely military headlines is vulnerable to any hint of de-escalation. That hint arrived Sunday. The US-Iran mutual pause sent Brent down more than 7% in hours, confirming how much war premium had been baked in. Markets were right to be long above $100; they were also right to sell the pause.",
+      "<strong>My read on today:</strong> This is not a clean bearish signal. The US-Iran pause is genuine but lacks the elements that would validate a sustained selloff: no formal terms, no Houthi stand-down, and two Saudi Aramco facilities struck or nearly struck over the weekend. The Jizan fire and Yanbu intercept represent a new front that adds structural <em>floor</em> risk even as the Iran headline premium deflates. The market is not pricing a deal — it is pricing a pause, and pauses can end.",
+      "<strong>The bigger picture:</strong> The risk structure is now the most genuinely two-sided it has been since the war began. The bearish case — an orderly US-Iran drawdown with Hormuz traffic recovering — is the base case. But the bullish tail is fatter than headlines suggest: Houthi capability against Saudi Arabia is demonstrated, spare capacity is thin at roughly 2.5 mb/d, Hormuz transit at 25 ships per day is nowhere near normalization, and the IEA is already projecting the first annual demand decline since 2020 — meaning some demand destruction has already occurred, removing a ceiling on any price recovery.",
+      "My call: <strong>Brent holds $87–$96 today</strong>, with the range anchored by the Jizan/Yanbu floor on the downside and the pause-confidence ceiling on the upside. <strong>The war premium is deflating, not gone — and the Houthi factor could re-inflate it overnight.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Elevated", "tone": "bearish", "pct": 72 },
+      { "name": "Geopolitical Risk", "label": "Mixed (Iran↓ / Houthi↑)", "tone": "neutral", "pct": 65 },
+      { "name": "Demand Response", "label": "Weakening", "tone": "bullish", "pct": 42 },
+      { "name": "Pause Durability", "label": "Uncertain — No Formal Terms", "tone": "neutral", "pct": 45 },
+      { "name": "Houthi Escalation", "label": "Active Threat to Saudi Aramco", "tone": "bearish", "pct": 78 },
+      { "name": "Hormuz Recovery", "label": "Sluggish (~25 ships/day)", "tone": "bearish", "pct": 28 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$87 – $96",
+      "bias": "Bias: Volatile — Houthi Floor Vs. Pause Ceiling ▲▼"
+    },
+    "watch_levels": {
+      "resistance": "$95–$98",
+      "support": "$87–$88",
+      "breakout": ">$100 (pause collapse or major Saudi Aramco strike)",
+      "breakdown": "<$85 (formal deal terms confirmed + Hormuz transit uptick)"
+    }
+  }
+}
