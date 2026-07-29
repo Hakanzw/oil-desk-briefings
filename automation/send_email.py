@@ -171,8 +171,82 @@ def get_access_token():
     return tok["access_token"]
 
 
-def _link_email_html(body_text, url, date_long):
-    lines = (body_text or "").replace("\n", "<br>")
+def _load_briefing_data():
+    """Find the most recent YYYY-MM-DD.json in the repo root."""
+    candidates = sorted(HERE.parent.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].json"))
+    if not candidates:
+        return None
+    try:
+        return json.loads(candidates[-1].read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def _meter_bar(meter):
+    pct = max(0, min(100, int(meter.get("pct", 0))))
+    rest = 100 - pct
+    color = "#b03a2e" if meter.get("tone") == "bearish" else "#1e8449"
+    name = meter.get("name", "")
+    label = meter.get("label", "")
+    # Use a thin spacer td for the empty portion to avoid collapsed cells at 0%
+    right_td = f'<td width="{rest}%" style="font-size:0;">&nbsp;</td>' if rest > 0 else ""
+    return f"""<table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+      <tr><td style="font-size:11px;font-weight:bold;color:#222222;padding-bottom:2px;text-transform:uppercase;letter-spacing:0.5px;">{name}</td></tr>
+      <tr><td style="font-size:11px;color:#666666;padding-bottom:5px;">{label}</td></tr>
+      <tr><td><table width="100%" cellpadding="0" cellspacing="0" style="background:#e0e0e0;border-radius:3px;">
+        <tr>
+          <td width="{pct}%" style="background:{color};border-radius:3px;height:7px;font-size:0;">&nbsp;</td>
+          {right_td}
+        </tr>
+      </table></td></tr>
+    </table>"""
+
+
+def _link_email_html(body_text, url, date_long, data=None):
+    verdict_html = ""
+    meters_html = ""
+    call_html = ""
+
+    if data:
+        verdict = data.get("verdict", {})
+
+        # Verdict paragraphs (no heading)
+        paras = verdict.get("paragraphs", [])
+        if paras:
+            verdict_html = "".join(
+                f'<p style="color:#333333;font-size:14px;line-height:1.75;margin:0 0 14px;">{p}</p>'
+                for p in paras
+            )
+
+        # Price call
+        call = verdict.get("call", {})
+        if call:
+            call_html = f"""<table width="100%" cellpadding="0" cellspacing="0" style="background:#1a1a2e;border-radius:4px;margin:4px 0 24px;">
+              <tr><td style="padding:16px 20px;">
+                <p style="color:#c8a96e;font-size:10px;letter-spacing:2px;text-transform:uppercase;margin:0 0 4px;">{call.get('label','')}</p>
+                <p style="color:#ffffff;font-size:22px;font-weight:bold;margin:0 0 4px;">{call.get('value','')}</p>
+                <p style="color:#aaaaaa;font-size:12px;margin:0;">{call.get('bias','')}</p>
+              </td></tr>
+            </table>"""
+
+        # Meters
+        meters = verdict.get("meters", [])
+        if meters:
+            bars = "".join(_meter_bar(m) for m in meters)
+            meters_html = f"""<tr><td style="padding:0 30px 8px;">
+              <p style="color:#1a1a2e;font-size:11px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;margin:0 0 16px;border-bottom:2px solid #c8a96e;padding-bottom:8px;">Directional Pressure Gauge</p>
+              {bars}
+            </td></tr>"""
+
+    # Fallback to plain body text if no verdict data
+    if not verdict_html:
+        verdict_html = f'<p style="color:#333333;font-size:14px;line-height:1.75;margin:0;">{(body_text or "").replace(chr(10), "<br>")}</p>'
+
+    verdict_block = f"""<tr><td style="padding:28px 30px 8px;">
+      {verdict_html}
+      {call_html}
+    </td></tr>"""
+
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="margin:0;padding:0;background:#f0f0f0;font-family:Arial,Helvetica,sans-serif;">
@@ -184,10 +258,9 @@ def _link_email_html(body_text, url, date_long):
           <h1 style="color:#ffffff;font-size:22px;margin:0;letter-spacing:2px;">OIL DESK</h1>
           <p style="color:#aaaaaa;font-size:12px;margin:8px 0 0;">{date_long}</p>
         </td></tr>
-        <tr><td style="padding:28px 30px;">
-          <p style="color:#333333;font-size:15px;line-height:1.7;margin:0;">{lines}</p>
-        </td></tr>
-        <tr><td align="center" style="padding:0 30px 36px;">
+        {verdict_block}
+        {meters_html}
+        <tr><td align="center" style="padding:20px 30px 36px;">
           <table cellpadding="0" cellspacing="0">
             <tr><td style="background:#c8a96e;border-radius:4px;">
               <a href="{url}" style="display:inline-block;padding:13px 30px;color:#1a1a2e;font-weight:bold;font-size:13px;text-decoration:none;letter-spacing:1px;">READ FULL BRIEFING &#8594;</a>
@@ -209,7 +282,8 @@ def build_raw(to_addr, subject, body_text, html_path=None, url=None, date_long=N
     msg["Subject"] = subject
     msg.set_content(body_text or "Today's OIL DESK briefing is available online.")
     if url:
-        msg.add_alternative(_link_email_html(body_text, url, date_long or ""), subtype="html")
+        data = _load_briefing_data()
+        msg.add_alternative(_link_email_html(body_text, url, date_long or "", data=data), subtype="html")
     elif html_path:
         html_doc = html_path.read_text(encoding="utf-8")
         msg.add_alternative(html_doc, subtype="html")
