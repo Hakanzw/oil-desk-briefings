@@ -1,0 +1,39 @@
+name: Test Email Step
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Restore Gmail token from secret
+        env:
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+        run: printf '%s' "$GMAIL_TOKEN_JSON" > automation/gmail_token.json
+
+      - name: Create test email meta
+        run: |
+          cat > automation/_email_meta.json << 'EOF'
+          {
+            "slug": "jul29-2026",
+            "date_long": "Wednesday, July 29, 2026",
+            "subject": "OIL DESK — Daily Briefing | Wednesday, July 29, 2026",
+            "body": "Brent crude surged to $87.36 (+3.89%) as US airstrikes resumed on Houthi positions near the Abqaiq corridor for a third consecutive day, stoking supply-disruption fears. WTI followed at $82.30 (+3.84%). EIA inventories showed a surprise crude build of +2.0 mb. Price call: $84–$93 biased higher."
+          }
+          EOF
+
+      - name: Email the briefing
+        run: |
+          SLUG=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['slug'])")
+          SUBJECT=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['subject'])")
+          BODY=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['body'])")
+          DATE_LONG=$(python3 -c "import json;print(json.load(open('automation/_email_meta.json'))['date_long'])")
+          URL="https://hakanzw.github.io/oil-desk-briefings/oil-market-briefing-${SLUG}.html"
+          python3 automation/send_email.py --url "$URL" --subject "$SUBJECT" --body "$BODY" --date-long "$DATE_LONG"
