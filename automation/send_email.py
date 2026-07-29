@@ -171,12 +171,46 @@ def get_access_token():
     return tok["access_token"]
 
 
-def build_raw(to_addr, subject, body_text, html_path):
+def _link_email_html(body_text, url, date_long):
+    lines = (body_text or "").replace("\n", "<br>")
+    return f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f0f0f0;font-family:Arial,Helvetica,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f0f0f0;">
+    <tr><td align="center" style="padding:40px 16px;">
+      <table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:6px;max-width:600px;">
+        <tr><td style="background:#1a1a2e;padding:28px 30px;text-align:center;border-radius:6px 6px 0 0;">
+          <p style="color:#c8a96e;font-size:10px;letter-spacing:3px;margin:0 0 6px;text-transform:uppercase;">Daily Briefing</p>
+          <h1 style="color:#ffffff;font-size:22px;margin:0;letter-spacing:2px;">OIL DESK</h1>
+          <p style="color:#aaaaaa;font-size:12px;margin:8px 0 0;">{date_long}</p>
+        </td></tr>
+        <tr><td style="padding:28px 30px;">
+          <p style="color:#333333;font-size:15px;line-height:1.7;margin:0;">{lines}</p>
+        </td></tr>
+        <tr><td align="center" style="padding:0 30px 36px;">
+          <table cellpadding="0" cellspacing="0">
+            <tr><td style="background:#c8a96e;border-radius:4px;">
+              <a href="{url}" style="display:inline-block;padding:13px 30px;color:#1a1a2e;font-weight:bold;font-size:13px;text-decoration:none;letter-spacing:1px;">READ FULL BRIEFING &#8594;</a>
+            </td></tr>
+          </table>
+        </td></tr>
+        <tr><td style="background:#f8f8f8;padding:18px 30px;text-align:center;border-top:1px solid #eeeeee;border-radius:0 0 6px 6px;">
+          <p style="color:#999999;font-size:11px;margin:0;">OIL DESK — Daily Market Intelligence</p>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body></html>"""
+
+
+def build_raw(to_addr, subject, body_text, html_path=None, url=None, date_long=None):
     msg = EmailMessage()
     msg["To"] = to_addr
     msg["Subject"] = subject
-    msg.set_content(body_text or "Today's OIL DESK briefing is attached.")
-    if html_path:
+    msg.set_content(body_text or "Today's OIL DESK briefing is available online.")
+    if url:
+        msg.add_alternative(_link_email_html(body_text, url, date_long or ""), subtype="html")
+    elif html_path:
         html_doc = html_path.read_text(encoding="utf-8")
         msg.add_alternative(html_doc, subtype="html")
         msg.add_attachment(
@@ -186,9 +220,9 @@ def build_raw(to_addr, subject, body_text, html_path):
     return base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
 
-def send(to_addr, subject, body_text, html_path):
+def send(to_addr, subject, body_text, html_path=None, url=None, date_long=None):
     access_token = get_access_token()
-    payload = json.dumps({"raw": build_raw(to_addr, subject, body_text, html_path)}).encode()
+    payload = json.dumps({"raw": build_raw(to_addr, subject, body_text, html_path=html_path, url=url, date_long=date_long)}).encode()
     req = urllib.request.Request(
         SEND_URI, data=payload, method="POST",
         headers={"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"},
@@ -200,7 +234,9 @@ def send(to_addr, subject, body_text, html_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Send the OIL DESK briefing via Gmail.")
-    parser.add_argument("html", nargs="?", help="Path to the rendered briefing HTML.")
+    parser.add_argument("html", nargs="?", help="Path to the rendered briefing HTML (fallback if --url not given).")
+    parser.add_argument("--url", default="", help="GitHub Pages URL for the briefing.")
+    parser.add_argument("--date-long", default="", help="Human-readable date shown in email header.")
     parser.add_argument("--subject", default="OIL DESK — Daily Briefing")
     parser.add_argument("--body", default="", help="Short summary for the email body.")
     parser.add_argument("--to", default=DEFAULT_TO)
@@ -211,12 +247,15 @@ def main():
     if args.setup:
         run_setup()
         return
+    if args.url:
+        send(args.to, args.subject, args.body, url=args.url, date_long=args.date_long)
+        return
     if not args.html:
-        parser.error("a path to the briefing HTML is required (or use --setup)")
+        parser.error("either --url or a path to the briefing HTML is required (or use --setup)")
     html_path = Path(args.html)
     if not html_path.exists():
         sys.exit(f"HTML file not found: {html_path}")
-    send(args.to, args.subject, args.body, html_path)
+    send(args.to, args.subject, args.body, html_path=html_path)
 
 
 if __name__ == "__main__":
