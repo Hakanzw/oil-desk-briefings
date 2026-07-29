@@ -294,7 +294,7 @@ def render(data):
     <div class="masthead-left">
       {esc(d.get('date_long'))}<br>
       {esc(d.get('volume'))}<br>
-      {esc(d.get('dateline', 'Dubai / London / New York'))}
+      {esc(d.get('dateline', 'Harare, Zimbabwe'))}
     </div>
     <div class="masthead-title">
       <div class="pub-name">OIL DESK</div>

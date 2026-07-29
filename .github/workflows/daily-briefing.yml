@@ -56,7 +56,7 @@ jobs:
 
             3. WRITE a data file YYYY-MM-DD.json in the repo root that matches the
                schema in automation/sample-data.json EXACTLY: date_long,
-               date_slug (e.g. jun17-2026), volume, dateline, sources; the ticker;
+               date_slug (e.g. jun17-2026), volume, dateline ("Harare, Zimbabwe"), sources; the ticker;
                5 prices tiles (Brent then WTI first — they feed the masthead); the
                lead story (eyebrow, headline, 3 paragraphs, 4 stats, source link);
                6 news cards; 5 events with risk badges (Very High/High/Medium/Low);
