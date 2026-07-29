@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate today's briefing with Claude
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           PROMPT: |
             You are producing today's OIL DESK daily oil-market briefing. You are
             running in GitHub Actions inside the checked-out repository root on
