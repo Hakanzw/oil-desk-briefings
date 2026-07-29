@@ -1,10 +1,9 @@
 {
   "date_long": "Wednesday, July 29, 2026",
   "date_slug": "jul29-2026",
-  "volume": "Vol. XLII — No. 199",
+  "volume": "Vol. I — No. 1",
   "dateline": "Dubai / London / New York",
   "sources": "EIA, IEA, CNBC, Al Jazeera, Rigzone, Bloomberg, PriceOfOil.com, The National, Reuters, Egypt Oil & Gas",
-
   "ticker": [
     "BRENT CRUDE $90.74 ▲ +8.14% — Iraqi Militias Strike Saudi Eastern Province Day 2; CENTCOM Intercepts Iranian Attack",
     "WTI CRUDE $84.95 ▲ +8.15% — Brent–WTI Spread Widens to $5.79 as War Premium Fully Restored",
@@ -15,15 +14,38 @@
     "ABQAIQ DAY 3: NO RESTART TIMELINE — SATELLITE IMAGERY CONFIRMS STRUCTURAL DAMAGE ACROSS MULTIPLE UNITS",
     "EIA WEEKLY PETROLEUM REPORT DUE TODAY — WEEK ENDING JULY 24; FIRST INVENTORY DATA INTO POST-ABQAIQ WINDOW"
   ],
-
   "prices": [
-    { "label": "Brent Crude", "value": "$90.74", "change": "▲ +8.14% (Iraqi drones + CENTCOM intercept)", "direction": "up" },
-    { "label": "WTI Crude", "value": "$84.95", "change": "▲ +8.15% (war premium fully restored)", "direction": "up" },
-    { "label": "Brent vs. July 23 War-High", "value": "−10.1%", "change": "▲ 6% of 16% ceasefire drop clawed back today", "direction": "up" },
-    { "label": "Hormuz Transit", "value": "~25 ships/day", "change": "▼ vs. ~130 pre-war; Oman talks only channel", "direction": "down" },
-    { "label": "Natural Gas (Henry Hub)", "value": "$2.69", "change": "▲ +1.13% — energy complex repricing risk", "direction": "up" }
+    {
+      "label": "Brent Crude",
+      "value": "$90.74",
+      "change": "▲ +8.14% (Iraqi drones + CENTCOM intercept)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$84.95",
+      "change": "▲ +8.15% (war premium fully restored)",
+      "direction": "up"
+    },
+    {
+      "label": "Brent vs. July 23 War-High",
+      "value": "−10.1%",
+      "change": "▲ 6% of 16% ceasefire drop clawed back today",
+      "direction": "up"
+    },
+    {
+      "label": "Hormuz Transit",
+      "value": "~25 ships/day",
+      "change": "▼ vs. ~130 pre-war; Oman talks only channel",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$2.69",
+      "change": "▲ +1.13% — energy complex repricing risk",
+      "direction": "up"
+    }
   ],
-
   "lead": {
     "eyebrow": "⚡ Breaking — Brent Surges 8% Past $90: Fresh Hostilities Erase the Ceasefire Rally in a Single Session",
     "headline": "Iraqi Militias Drone Saudi Eastern Province for the Second Day; CENTCOM Intercepts Iranian Attack — Brent Crosses $90 as the Three-Day Ceasefire Trade Fully Unwinds",
@@ -35,13 +57,24 @@
     "link_url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
     "link_text": "Read CNBC",
     "stats": [
-      { "num": "+8.14%", "desc": "Brent's Single-Day Surge — Largest Since the War's Early Days; Fully Erases the Three-Session Ceasefire Rally" },
-      { "num": "Day 2", "desc": "Iraqi Militia Drone Strikes on Saudi Oil Facilities in the Eastern Province — Compounding Abqaiq Shutdown With Active Military Presence" },
-      { "num": "7 mb/d", "desc": "Abqaiq Processing Capacity Offline Since July 27 — Day 3 With No Aramco Restart Timeline; Eastern Province Drones Extend Risk" },
-      { "num": "~25/day", "desc": "Current Hormuz Ship Transits vs. ~130 Pre-War Baseline — Oman-Mediated Traffic Talks the Sole Remaining Diplomatic Channel" }
+      {
+        "num": "+8.14%",
+        "desc": "Brent's Single-Day Surge — Largest Since the War's Early Days; Fully Erases the Three-Session Ceasefire Rally"
+      },
+      {
+        "num": "Day 2",
+        "desc": "Iraqi Militia Drone Strikes on Saudi Oil Facilities in the Eastern Province — Compounding Abqaiq Shutdown With Active Military Presence"
+      },
+      {
+        "num": "7 mb/d",
+        "desc": "Abqaiq Processing Capacity Offline Since July 27 — Day 3 With No Aramco Restart Timeline; Eastern Province Drones Extend Risk"
+      },
+      {
+        "num": "~25/day",
+        "desc": "Current Hormuz Ship Transits vs. ~130 Pre-War Baseline — Oman-Mediated Traffic Talks the Sole Remaining Diplomatic Channel"
+      }
     ]
   },
-
   "news": [
     {
       "tag": "Geopolitical",
@@ -86,7 +119,6 @@
       "link_text": "Read EIA"
     }
   ],
-
   "events": [
     {
       "date": "Jul 29 — Today",
@@ -124,7 +156,6 @@
       "risk": "High"
     }
   ],
-
   "verdict": {
     "paragraphs": [
       "Yesterday I called the session the most technically difficult of the war — two forces of equal magnitude colliding in real time: the Abqaiq supply shock setting the floor, the US-Iran pause setting the ceiling. Today, that framing is resolved. The ceiling is gone. The pause lasted 48 hours and ended not with a negotiated framework but with CENTCOM confirming it intercepted an Iranian attack — which is not a de-escalation, it is a resumption of war under a different operational tempo. The ceiling traders had priced via the ceasefire trade has been removed, and the floor — Abqaiq — remains exactly where it was and is now actively hardened by militia drone activity directly over the complex.",
@@ -134,12 +165,42 @@
     ],
     "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
     "meters": [
-      { "name": "Supply Tightness", "label": "Critical — Abqaiq + Hormuz + Eastern Province Drone Campaign", "tone": "bearish", "pct": 93 },
-      { "name": "Geopolitical Risk", "label": "Severely Elevated — CENTCOM Intercept + Iraqi Militia Day 2", "tone": "bearish", "pct": 87 },
-      { "name": "Demand Response", "label": "Weakening — IEA Projects −1 mb/d for Full-Year 2026", "tone": "bullish", "pct": 34 },
-      { "name": "Ceasefire Probability", "label": "Near-Zero — Iran FM Denies US Talks; CENTCOM Confirms Intercept", "tone": "bearish", "pct": 10 },
-      { "name": "Saudi Infrastructure Risk", "label": "Maximum — Abqaiq Offline, Eastern Province Active Zone", "tone": "bearish", "pct": 95 },
-      { "name": "Hormuz Recovery", "label": "Stalled — Oman Channel Only; No Timeline; 25 Ships/Day", "tone": "bearish", "pct": 18 }
+      {
+        "name": "Supply Tightness",
+        "label": "Critical — Abqaiq + Hormuz + Eastern Province Drone Campaign",
+        "tone": "bearish",
+        "pct": 93
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Severely Elevated — CENTCOM Intercept + Iraqi Militia Day 2",
+        "tone": "bearish",
+        "pct": 87
+      },
+      {
+        "name": "Demand Response",
+        "label": "Weakening — IEA Projects −1 mb/d for Full-Year 2026",
+        "tone": "bullish",
+        "pct": 34
+      },
+      {
+        "name": "Ceasefire Probability",
+        "label": "Near-Zero — Iran FM Denies US Talks; CENTCOM Confirms Intercept",
+        "tone": "bearish",
+        "pct": 10
+      },
+      {
+        "name": "Saudi Infrastructure Risk",
+        "label": "Maximum — Abqaiq Offline, Eastern Province Active Zone",
+        "tone": "bearish",
+        "pct": 95
+      },
+      {
+        "name": "Hormuz Recovery",
+        "label": "Stalled — Oman Channel Only; No Timeline; 25 Ships/Day",
+        "tone": "bearish",
+        "pct": 18
+      }
     ],
     "call": {
       "label": "Today's Price Call — Brent Crude",
