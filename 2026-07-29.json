@@ -1,0 +1,156 @@
+{
+  "date_long": "Wednesday, July 29, 2026",
+  "date_slug": "jul29-2026",
+  "volume": "Vol. XLII — No. 199",
+  "dateline": "Dubai / London / New York",
+  "sources": "IEA, EIA, CNBC, Al Jazeera, Reuters, Bloomberg, OilPrice.com, Rigzone, The National, Middle East Eye",
+
+  "ticker": [
+    "BRENT CRUDE ~$87.36 ▲ +3.89% — US Strikes Resume; Ceasefire Window Closes",
+    "WTI CRUDE ~$82.30 ▲ +3.84% — 48-Hour Iran Pause Collapses; War Pricing Returns",
+    "NATURAL GAS ~$2.72 ▼ −1.75% — 3-Month Low on Strong Output, Soft LNG Demand",
+    "BREAKING: US RESUMES STRIKES ON IRAN — BRENT SURGES 4% AS BRIEF PEACE WINDOW SNAPS SHUT",
+    "ABQAIQ DAY 3: NO ARAMCO RESTART TIMELINE — SATELLITE IMAGERY CONFIRMS MAJOR STRUCTURAL DAMAGE",
+    "EIA WEEKLY PETROLEUM REPORT RELEASED TODAY — FIRST INVENTORY DATA INTO POST-PAUSE PERIOD",
+    "HOUTHI BLOCKADE HOLDS — SAUDI SUEZ EXPORTS DOUBLE TO 1.06 MB/D AS RED SEA ROUTE CLOSES",
+    "FED RATE DECISION TOMORROW — HAWKISH WARSH TONE ADDS MACRO HEADWIND TO CRUDE RALLY"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$87.36", "change": "▲ +3.89% (strikes resume)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$82.30", "change": "▲ +3.84% (war premium returns)", "direction": "up" },
+    { "label": "Brent vs. July 23 Peak", "value": "−14.4%", "change": "▼ Off $102 war-high — still in correction", "direction": "down" },
+    { "label": "Hormuz Transit", "value": "~25 ships/day", "change": "▼ vs. ~130 pre-war; no improvement", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.72", "change": "▼ −1.75% — 3-month low", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Breaking — The Pause Is Over: US Strikes Resume on Iran as the 48-Hour Peace Window Closes",
+    "headline": "US Resumes Military Strikes Against Iran — Brent Surges 4% to $87 as the Market Reprices a Durable War and an Ongoing 7 mb/d Processing Outage at Abqaiq",
+    "paragraphs": [
+      "The brief diplomatic window that sent crude tumbling more than 16% over three sessions has closed. US Central Command confirmed the resumption of military strikes against Iranian targets Wednesday, ending the 48-hour pause that had briefly revived hopes of a negotiated ceasefire. Iran's Foreign Ministry set the tone Tuesday, with spokesman Esmail Baghaei stating flatly that Tehran <strong>\"currently have no negotiations with the United States\"</strong> and would \"never allow the United States to determine the timing of war and peace.\" With that door shut, Brent crude reacted sharply — surging more than 4% to near $87.36 per barrel by midday London trading, though it remains <strong>14.4% below the $102 war-high</strong> reached July 23 when Houthi drones first attacked Saudi oil tankers in the Red Sea.",
+      "The resumption of strikes compounds an already severe supply shock that remains unquantified in Saudi Arabia's Eastern Province. Houthi drones struck <strong>Saudi Aramco's Abqaiq processing and stabilization facility</strong> on Monday, July 27, forcing total suspension of operations at the world's largest crude-processing plant — approximately <strong>7 million barrels per day</strong> of processing capacity, or roughly 7% of global oil supply. As of Wednesday morning, Aramco has issued no restart timeline and no official damage assessment. High-resolution Sentinel-2 satellite imagery has confirmed <strong>major structural damage</strong> to multiple processing units with emergency flaring triggered across surrounding production sites. With Jizan refinery struck Friday, Yanbu's East-West corridor targeted Sunday, and Abqaiq now in its third day of suspension, Saudi Arabia's entire crude-processing and export infrastructure is under simultaneous disruption for which the oil market has no recent historical analogue.",
+      "The only functioning diplomatic channel remains narrow and slow. Oman's Foreign Minister Badr Albusaidi is mediating Iran-Oman talks exclusively on Hormuz traffic management — not a broader ceasefire — with no published timeline. Two additional catalysts arrive within 36 hours: the EIA weekly petroleum status report, released today, covers the period ending July 24 and will be the <strong>first inventory data into the post-pause window</strong>; and Federal Reserve Chair Kevin Warsh faces his first FOMC decision Thursday, where his hawkish opening tone has left markets braced for a <strong>tighter-for-longer signal</strong> that would strengthen the dollar and weigh on commodity demand. The market is navigating a simultaneous supply shock, a collapsing ceasefire, and a macro policy overhang — making Wednesday one of the most consequential trading sessions of the year."
+    ],
+    "link_url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "+3.89%", "desc": "Brent's Single-Day Surge as US Strikes Resume — Recovering From the 16% Three-Session Sell-Off on Ceasefire Hopes" },
+      { "num": "7 mb/d", "desc": "Abqaiq's Daily Processing Capacity Offline Since July 27 — Day 3 With No Aramco Restart Timeline" },
+      { "num": "3 sites", "desc": "Saudi Aramco Facilities Hit in 5 Days: Jizan Refinery (Fri), Yanbu East-West Terminal (Sun), Abqaiq (Mon)" },
+      { "num": "25/day", "desc": "Current Hormuz Ship Transits vs. ~130 Pre-War Baseline — Oman-Mediated Talks the Only Active Channel" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitical",
+      "headline": "US Strikes Resume on Iran — Ceasefire Window Closes After 48 Hours of False Dawn",
+      "body": "US Central Command confirmed the resumption of military strikes against Iranian targets Wednesday, ending the briefest pause of the war. The 48-hour halt had spurred the largest single-day oil price decline since May, with Brent collapsing more than 11% on hopes of a negotiated resolution. Those hopes evaporated Tuesday when Iran's Foreign Ministry rejected any suggestion of active US negotiations, calling the only valid channel a bilateral Iran-Oman track on Hormuz traffic. Kyle Rodda at Capital.com noted the conflict \"requires a major compromise from either the US or Iran to resolve,\" and with neither side showing willingness, oil market participants are repricing the conflict as a sustained war rather than a peak-to-deal trajectory. Analysts warn any fresh Iranian retaliation against US forces or allied shipping could retest the $95–$102 range in a single session.",
+      "link_url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply Shock",
+      "headline": "Abqaiq Day 3: Satellite Imagery Confirms Major Damage — No Aramco Restart Timeline",
+      "body": "Saudi Aramco's Abqaiq crude oil processing and stabilization facility remains fully suspended for a third consecutive day following Houthi drone strikes Monday. New high-resolution Sentinel-2 satellite imagery has confirmed major structural damage across multiple processing units, with a large black smoke plume still visible above the complex and emergency flaring continuing across adjacent production sites. Aramco triggered emergency depressurization of multiple systems on Monday to prevent catastrophic explosions. The 2019 Abqaiq-Khurais attack — a significantly smaller incident — required approximately five weeks to fully restore and sent prices surging 15% overnight. With three Saudi facilities struck in five days and no restart timeline published, the market is running an open-ended 7 mb/d processing outage that exceeds the IEA's entire June supply rebound.",
+      "link_url": "https://cryptobriefing.com/satellite-images-confirm-damage-at-saudi-aramcos-abqaiq-oil-facility/",
+      "link_text": "Read CryptoBriefing"
+    },
+    {
+      "tag": "Shipping",
+      "headline": "Houthi Blockade Holds — Saudi Aramco Doubles Suez Canal Crude Exports to 1.06 mb/d",
+      "body": "With the Bab el-Mandeb effectively blockaded, Saudi Aramco has doubled crude exports through the Suez Canal to approximately 1.06 million barrels per day — rerouting oil that previously flowed south through the Red Sea to Asian markets. The pivot adds roughly 30 days of sailing time per cargo and is driving war-risk shipping premiums sharply higher as Lloyd's of London has pulled back wartime coverage for Saudi-affiliated tankers in the Red Sea. Tracking data shows Chinese-flagged vessels are passing through the strait with minimal interference, while Western-affiliated tankers are being diverted or turned back — a selective approach that experts say is calibrated to maximize market pressure without provoking Beijing. <strong>Rachel Ziemba</strong> of the Center for a New American Security warned that multiple simultaneous chokepoint threats are \"particularly destabilizing\" with crude buffers already depleted from earlier crisis draws.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "EIA Inventories",
+      "headline": "EIA Weekly Report: Crude Stocks at 411.7 mb — First Post-Pause Inventory Print in Focus",
+      "body": "The EIA's weekly petroleum status report released Wednesday covers the period ending July 24, 2026 — the first inventory data to capture any portion of the US-Iran pause and the Abqaiq shock. The prior report (week ending July 17) showed a modest crude build of 2.0 million barrels to 411.7 million barrels, leaving US stockpiles 6% below the five-year average. The Strategic Petroleum Reserve stood at 311.4 million barrels — some 91.1 million barrels below year-ago levels after extended drawdowns. Distillate inventories were running 10% below the five-year average, reflecting the refined-product crunch from damaged Middle East refining capacity. Analysts will watch today's print for signs of demand destruction at $85–102/bbl prices — specifically whether refinery utilization has softened under the product-supply crisis, and whether US crude imports have been affected by the chokepoint disruptions.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "IEA Analysis",
+      "headline": "IEA July Report: Global Supply Still 9.4 mb/d Below Pre-War Levels — \"No Room for Complacency\"",
+      "body": "The International Energy Agency's July 2026 Oil Market Report documented a sharp rebound of 4.1 mb/d in global supply to 98.8 mb/d in June, as partial Hormuz flow resumption allowed some Gulf production to come back online. However, the agency warned that world output remains some <strong>9.4 mb/d below pre-war levels</strong> and that supply is on track to decline an average 3.7 mb/d for full-year 2026. Crucially, the Abqaiq suspension — which occurred after the report's data cutoff — threatens to reverse June's entire supply rebound in a single facility incident. The IEA also projected global oil demand to fall 1 mb/d in 2026 — the first annual demand contraction since COVID-era 2020 — driven by elevated prices and fuel substitution in trucking and power generation. The agency stated explicitly: <strong>\"There is no room for complacency on oil security amid the escalation in hostilities.\"</strong>",
+      "link_url": "https://www.iea.org/reports/oil-market-report-july-2026",
+      "link_text": "Read IEA Report"
+    },
+    {
+      "tag": "Macro / Fed",
+      "headline": "Fed Decision Tomorrow: Hawkish Warsh at First FOMC Adds Dollar Headwind to Crude Rally",
+      "body": "Federal Reserve Chair Kevin Warsh faces his first Federal Open Market Committee rate decision Thursday, and his hawkish tone at the opening meeting has rattled commodity markets. Traders are split on the central bank's decision, but Warsh's emphasis on price stability and his criticism of the prior Fed's \"easy money\" era has put an outsized probability on a tighter-than-expected signal. A stronger dollar — the typical result of hawkish Fed guidance — acts as a direct headwind to dollar-denominated crude prices. For oil markets already dealing with demand destruction from elevated crude prices (the IEA projects -1 mb/d demand in 2026), a macro tightening signal would be a secondary but meaningful bearish overlay on top of the supply-shock narrative dominating Wednesday's trading. A dovish surprise, by contrast, would remove the macro ceiling and leave the supply shock as the sole pricing force, potentially pushing Brent toward $92–95.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-07-28/latest-oil-market-news-and-analysis-for-july-29",
+      "link_text": "Read Bloomberg"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Jul 29 — Today",
+      "name": "EIA Weekly Petroleum Report (Week Ending July 24) — First Post-Pause Inventory Data",
+      "impact": "The first inventory print to capture any part of the US-Iran pause and the Abqaiq disruption. A large crude draw (>3 mb) confirms resilient demand and reinforces the tight-supply narrative, adding fuel to today's rally. A surprise build — consistent with the IEA's demand-destruction thesis at $85–102 prices — could cap the rally and revive selling pressure. Distillate and gasoline movements will gauge whether US product markets are tightening independently of crude.",
+      "market_impact": "±$2–4/bbl on a significant miss versus analyst expectations.",
+      "risk": "High"
+    },
+    {
+      "date": "Jul 30",
+      "name": "Federal Reserve Rate Decision — Warsh's First FOMC Meeting",
+      "impact": "Chair Warsh has signaled a hawkish disposition since taking office, and any surprise — a hike, a more aggressive dot plot, or notably hawkish language — would strengthen the dollar and weigh on oil. The market is pricing a hold, so a hawkish hold with upgraded inflation language still constitutes a hawkish surprise. A dovish read would allow the supply-shock story to drive prices without a macro headwind, opening the $90–$93 range.",
+      "market_impact": "±$2–3/bbl; indirect via dollar and rate-path repricing.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Abqaiq Damage Assessment — Aramco Restart Guidance Expected Any Hour",
+      "impact": "The single most consequential binary in today's market. A preliminary Aramco statement pointing to contained damage and a short restart window (72 hours to one week) would immediately remove the supply-shock floor and allow Brent to slide back toward $83–85. Confirmation of multi-week disruption — consistent with satellite imagery showing structural damage beyond the LPG units — would drive Brent toward $93–98 and likely prompt SPR coordination among IEA members. Every hour without guidance extends the uncertainty premium.",
+      "market_impact": "Binary ±$6–12/bbl on the Aramco statement.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Iran-Oman Hormuz Traffic Talks — The Only Active Diplomatic Channel",
+      "impact": "With the US-Iran pause collapsed, Oman's mediated talks between Tehran and Gulf producers on Hormuz transit management represent the sole functioning diplomatic thread. Any published framework for safe passage — even a partial convoy arrangement — would allow incremental flow restoration and would be structurally bearish for prices. With Hormuz at ~25 ships/day versus a pre-war 130, even a partial normalization could release substantial spare production into the market.",
+      "market_impact": "Structural — governs the pace of Gulf barrel recovery and the eventual price ceiling.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Saudi Arabia Yanbu Export Corridor — The Last Overland Route",
+      "impact": "With Hormuz constrained and Abqaiq processing capacity suspended, the Yanbu pipeline and terminal on the Red Sea coast is Saudi Arabia's primary remaining crude-export route. Houthis attacked Yanbu on Sunday and have explicitly targeted it in subsequent warnings. A confirmed structural hit to Yanbu's pumping or loading infrastructure would be an immediate $8–12/bbl catalyst and would remove the last viable Saudi export path — a scenario the market has not yet priced.",
+      "market_impact": "Tail-risk upside: if realized, sets a structural new price floor above $95.",
+      "risk": "Very High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called the session the most technically difficult of the war to trade — two forces of equal magnitude, opposite direction, colliding in real time: the Abqaiq supply shock pinning the floor, and the US-Iran pause setting the ceiling. Today, one of those forces has resolved, and not toward peace. With strikes resumed and Iran's Foreign Ministry explicitly rejecting the idea of US negotiations, the 48-hour de-escalation must now be read for what it was: a pause inside a war, not a prelude to a deal. That matters enormously for positioning.",
+      "<strong>My read on today:</strong> The directional skew has shifted back to the upside. The bull case is now stacked on multiple fronts: Abqaiq offline with no restart timeline, fresh US strikes removing the deal-ceiling, Houthi Red Sea blockade holding, Hormuz at 20% of normal capacity, and Saudi Arabia routing its last available crude through the Suez Canal at doubled volume. The bear case requires a simultaneous resolution of at least two of those factors — Abqaiq restarting quickly <em>and</em> a ceasefire signal — neither of which is imminent. The EIA report today and the Fed decision tomorrow are the wild cards.",
+      "<strong>The bigger picture:</strong> Three data points arrive in the next 36 hours that will define next week's tape. If the EIA shows a large crude draw (demand holding), Abqaiq issues a multi-week repair timeline, and Warsh's Fed signals a hold rather than a hike — all three of those break bullish for crude, and the $92–$95 range opens. If the EIA shows a surprise build, Aramco gives a quick-fix timeline, and Warsh is hawkish — you get a sharp retest of $82–84. Wednesday is a session where the range of outcomes over the next 24 hours spans more than $10/bbl, and professional traders know it.",
+      "My call: <strong>Brent holds $84–$93 today</strong>, biased toward the upper half of that range while strikes are active and Abqaiq guidance is pending. <strong>The deal window is closed. The Abqaiq restart clock is running. Watch for Aramco's statement — it moves the tape more than any diplomatic headline today.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Critical — Abqaiq + Hormuz + Houthi Triple Threat", "tone": "bearish", "pct": 90 },
+      { "name": "Geopolitical Risk", "label": "Elevated — Strikes Resumed, No Ceasefire Path", "tone": "bearish", "pct": 82 },
+      { "name": "Demand Response", "label": "Weakening — IEA Projects −1 mb/d for 2026", "tone": "bullish", "pct": 36 },
+      { "name": "Ceasefire Probability", "label": "Near-Zero — Iran FM Denies US Talks", "tone": "bearish", "pct": 12 },
+      { "name": "Saudi Infrastructure Risk", "label": "Maximum — 3 Sites Down, Yanbu Still at Risk", "tone": "bearish", "pct": 92 },
+      { "name": "Hormuz Recovery", "label": "Stalled — Oman Channel Only; 25 Ships/Day", "tone": "bearish", "pct": 20 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$84 – $93",
+      "bias": "Bias: Higher — Strikes Resume, Abqaiq Offline, No Deal in Sight ▲"
+    },
+    "watch_levels": {
+      "resistance": "$92–$95 (Abqaiq multi-week timeline confirmed + continued strikes)",
+      "support": "$84–$86 (Abqaiq quick restart signal + Oman framework progress)",
+      "breakout": ">$98 (Yanbu infrastructure hit OR Iranian retaliatory escalation)",
+      "breakdown": "<$82 (Aramco fast-track restart + surprise Hormuz safe-passage announcement)"
+    }
+  }
+}
