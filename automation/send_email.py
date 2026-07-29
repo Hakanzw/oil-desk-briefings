@@ -202,12 +202,37 @@ def _meter_bar(meter):
     </table>"""
 
 
+def _price_tiles_html(prices):
+    tiles = prices[:5]
+    cells = []
+    for i, tile in enumerate(tiles):
+        direction = tile.get("direction", "up")
+        change_color = "#1e8449" if direction == "up" else "#b03a2e"
+        label = tile.get("label", "")
+        value = tile.get("value", "")
+        change = tile.get("change", "")
+        border = "border-right:1px solid #eeeeee;" if i < len(tiles) - 1 else ""
+        cells.append(f"""<td style="padding:14px 8px;text-align:center;{border}">
+          <p style="color:#888888;font-size:9px;letter-spacing:1px;text-transform:uppercase;margin:0 0 5px;">{label}</p>
+          <p style="color:#1a1a2e;font-size:17px;font-weight:bold;margin:0 0 4px;">{value}</p>
+          <p style="color:{change_color};font-size:9px;margin:0;line-height:1.4;">{change}</p>
+        </td>""")
+    return f"""<tr><td style="padding:0;border-bottom:1px solid #eeeeee;">
+      <table width="100%" cellpadding="0" cellspacing="0"><tr>{"".join(cells)}</tr></table>
+    </td></tr>"""
+
+
 def _link_email_html(body_text, url, date_long, data=None):
     verdict_html = ""
     meters_html = ""
     call_html = ""
+    prices_html = ""
 
     if data:
+        prices = data.get("prices", [])
+        if prices:
+            prices_html = _price_tiles_html(prices)
+
         verdict = data.get("verdict", {})
 
         # Verdict paragraphs (no heading)
@@ -258,6 +283,7 @@ def _link_email_html(body_text, url, date_long, data=None):
           <h1 style="color:#ffffff;font-size:22px;margin:0;letter-spacing:2px;">OIL DESK</h1>
           <p style="color:#aaaaaa;font-size:12px;margin:8px 0 0;">{date_long}</p>
         </td></tr>
+        {prices_html}
         {verdict_block}
         {meters_html}
         <tr><td align="center" style="padding:20px 30px 36px;">
