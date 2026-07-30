@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Thursday, July 30, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $89.74 ▼ −1.10% — Consolidation After Yesterday's 8% Surge; Abqaiq Offline Day 4 &nbsp;|&nbsp; WTI CRUDE $83.73 ▼ −0.86% — Holds Bulk of Wednesday's Rally; 7.2 mb EIA Draw Underpins Floor &nbsp;|&nbsp; NATURAL GAS $2.73 ▲ +0.44% — Modest Gains Amid Energy-Complex Repricing &nbsp;|&nbsp; FOMC DAY: WARSH'S FIRST RATE DECISION — HAWKISH SIGNAL COULD STRENGTHEN DOLLAR, CAP CRUDE RALLY &nbsp;|&nbsp; EIA CONFIRMS 7.2 MILLION BARREL CRUDE DRAW — COMMERCIAL STOCKS 7% BELOW 5-YEAR AVERAGE &nbsp;|&nbsp; TRUMP VOWS TO 'HIT IRAN HARD' AFTER US FORCES INTERCEPT IRANIAN BALLISTIC MISSILE SALVO &nbsp;|&nbsp; ABQAIQ: DAY 4 WITH NO ARAMCO RESTART TIMELINE — EASTERN PROVINCE DRONE CAMPAIGN BLOCKS ACCESS &nbsp;|&nbsp; CRACK SPREADS AT RECORD HIGHS — US GASOLINE HITS $4.09/GAL NATIONALLY; DIESEL UP 51% FROM Q2&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Thursday, July 30, 2026<br>
+      Vol. I — No. 2<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$89.74</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$83.73</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$89.74</div>
+      <div class="price-change down">▼ −1.10% (post-surge consolidation)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$83.73</div>
+      <div class="price-change down">▼ −0.86% (holds war premium)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent — 1-Month Change</div>
+      <div class="price-val">+21%</div>
+      <div class="price-change up">▲ War-premium re-accumulation</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude Draw (Jul 24)</div>
+      <div class="price-val">−7.2 mb</div>
+      <div class="price-change down">▼ Stocks 7% below 5-yr avg</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$2.73</div>
+      <div class="price-change up">▲ +0.44% (energy complex bid)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Consolidation Day — Brent Holds Near $90 on FOMC Watch as Abqaiq Shutdown Enters Day 4</div>
+      <h3>Brent Steadies Near $90 After Wednesday's 8% Surge; Trump Threatens Direct Iran Strikes, EIA Confirms 7.2-Million-Barrel Draw, and Aramco Remains Silent on Abqaiq</h3>
+      <p>The oil market spent Thursday morning digesting Wednesday's extraordinary session — Brent's largest single-day gain since the earliest days of the war — and emerged holding virtually all of the rally's gains. Brent crude pulled back just <strong>$1.00 to $89.74</strong>, while WTI dipped $0.73 to $83.73, as traders balanced three simultaneous bullish forces against a single macro headwind: the Federal Reserve. The EIA's weekly petroleum status report — released Wednesday and covering the period ending July 24 — confirmed a <strong>7.2-million-barrel commercial crude draw</strong>, bringing US stockpiles to 404.5 million barrels, 7% below the seasonal five-year average and well below the Strategic Petroleum Reserve's already-depleted 311.4-million-barrel balance. The draw, nearly double analyst median expectations, validated that demand held firm across the prior two weeks' $85–$102 per-barrel price band and gave bulls solid structural footing heading into the FOMC decision.</p>
+      <p>The geopolitical backdrop tightened further overnight. President Trump issued an explicit warning early Thursday that the United States would <strong>"hit Iran hard"</strong> in direct retaliation for Wednesday's Iranian Revolutionary Guard ballistic missile salvo against US forces across the Middle East — a salvo US Central Command confirmed it intercepted in full but that nonetheless represents the most direct Iranian military provocation of the conflict to date. The statement has reopened the possibility of a unilateral US strike on Iranian oil infrastructure or nuclear sites, a scenario that would push Brent instantly toward $100 and potentially beyond. Meanwhile, Saudi Aramco's Abqaiq crude processing and stabilization plant — handling approximately <strong>7 million barrels per day</strong>, or roughly 7% of world supply — entered its fourth consecutive day of shutdown with still no official damage assessment or restart guidance from Riyadh. Satellite imagery continues to show emergency flaring across the complex, and the ongoing Eastern Province drone campaign by Iraqi militias is physically preventing engineering teams from conducting the access surveys necessary to begin any repair sequence.</p>
+      <p>The macro counterweight arrives this afternoon. Federal Reserve Chair <strong>Kevin Warsh</strong> chairs his first Federal Open Market Committee meeting, and markets are braced for a tone more hawkish than his predecessor. A rate hike, or a hold with aggressively hawkish language, would strengthen the dollar and apply a meaningful headwind to the commodity rally; a clean hold with neutral guidance removes the macro ceiling and leaves supply fundamentals — Abqaiq offline, Hormuz at 35% of normal throughput, commercial stocks 7% below average — as the sole price driver. Most analysts expect a hold, making the statement's language and the updated dot plot the key variable. <strong>Brent's $89–$90 range is the battlefield:</strong> Warsh's tone determines which side of it the Thursday close lands on.</p>
+      <a href="https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">−7.2 mb</div>
+        <div class="stat-desc">EIA Crude Draw for Week Ending July 24 — Nearly Double Analyst Expectations; Stocks 7% Below 5-Year Average</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Day 4</div>
+        <div class="stat-desc">Abqaiq Crude Processing Shutdown With No Aramco Restart Guidance — Eastern Province Drone Campaign Blocks Engineering Access</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$4.09/gal</div>
+        <div class="stat-desc">US National Average Retail Gasoline Price — Up ~15 Cents in One Week; California at $5.34/gallon</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">97.2%</div>
+        <div class="stat-desc">US Refinery Utilization Rate (Week Ending July 24) — Near Capacity as Refiners Scramble to Build Product Stocks</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Macro / Fed</div>
+      <h4>Warsh's First FOMC Decision Due Today — Hawkish Signal Could Strengthen Dollar, Cap $90 Crude Rally</h4>
+      <p>Federal Reserve Chair Kevin Warsh chairs his first FOMC meeting Thursday. His hawkish public posture since confirmation — including skepticism about lingering supply-chain inflation — has markets positioned for a tone tighter than the market-neutral baseline. A rate hold with hawkish language or an upgraded rate path in the dot plot would boost the dollar and apply a cross-market headwind to commodity prices. Conversely, a neutral hold removes the last macro ceiling on a market already biased higher by supply shocks. The consensus base case is a hold, leaving the statement's precise language and Warsh's press-conference tone as the key market variables of Thursday's session.</p>
+      <a href="https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">EIA Inventories</div>
+      <h4>EIA: 7.2-Million-Barrel Crude Draw — Stocks Hit 7% Below Five-Year Average; SPR at Historic Low</h4>
+      <p>The EIA's weekly petroleum status report (week ending July 24, 2026) showed a commercial crude draw of <strong>7.2 million barrels</strong> — one of the largest of the year and nearly double analyst median estimates. Commercial stocks fell to 404.5 million barrels, 7% below the seasonal five-year average. The Strategic Petroleum Reserve held at 311.4 million barrels, roughly 91 million barrels below year-ago levels after sustained crisis drawdowns. Refinery utilization reached 97.2%, and distillate inventories remained approximately 10% below the five-year average. The data confirms that US demand stayed resilient in the $85–$102 price range of the preceding two weeks — providing significant structural support to a market already gripped by geopolitical risk.</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Geopolitical</div>
+      <h4>Trump Vows to 'Hit Iran Hard' After US Forces Intercept Ballistic Missile Salvo — Direct Strike Scenario Returns to Market</h4>
+      <p>President Trump issued an explicit threat Thursday to strike Iran directly after US Central Command confirmed intercepting an Iranian Revolutionary Guard ballistic missile salvo targeting US forces across the Middle East on Wednesday. The warning — posted directly to Truth Social and then repeated to reporters — reintroduced a scenario the market had not fully priced: a unilateral US strike on Iranian oil infrastructure or nuclear sites, which analysts estimate would push Brent immediately toward $100 and potentially well beyond. Iran's foreign ministry characterized Trump's statement as "a declaration of hostile intent" and said Tehran would respond to any direct strike on Iranian soil. The verbal escalation follows the collapse of the 48-hour ceasefire window that had briefly pulled crude down 16% over three sessions.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-07-29/latest-oil-market-news-and-analysis-for-july-30" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Supply Shock</div>
+      <h4>Abqaiq Day 4: No Aramco Restart Guidance; Eastern Province Drones Block Engineering Access</h4>
+      <p>Saudi Aramco's Abqaiq crude processing facility — the world's largest, handling roughly 7 million barrels per day — remained fully offline Thursday for a fourth consecutive day without any official damage assessment or restart timeline from Riyadh. Satellite imagery continues to show structural damage across multiple processing units and emergency flaring at adjacent production sites. The ongoing Iraqi militia drone campaign in the Saudi Eastern Province is physically preventing engineering teams from reaching the complex to conduct the access surveys required to begin any repair sequence. Analysts note that the 2019 Abqaiq attack — far smaller in scope — required five weeks to restore from a position of uncontested site access, making a rapid restart scenario under active drone activity extremely unlikely.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-07-29/latest-oil-market-news-and-analysis-for-july-30" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Downstream / Consumers</div>
+      <h4>Crack Spreads Hit Record Highs — Gasoline at $4.09/Gallon Nationally; Diesel Up 51% From Q2, Refiners' Shares Double</h4>
+      <p>The oil price shock is migrating downstream at an accelerating pace. The US 3-2-1 crack spread — a proxy for refinery profit margins — reached a record near $70 per barrel as war-related damage to global refining capacity has reduced worldwide throughput by an estimated 4.5 million barrels per day. National average retail gasoline reached $4.09 per gallon (up ~15 cents in a single week), with California at $5.34. Diesel prices have jumped 51% from Q2 levels, compressing trucking and logistics margins. Grocery chain Albertsons lowered its 2026 fiscal outlook, citing consumer spending pullback and food transport cost pressure. Meanwhile, US refining stocks — Marathon Petroleum, Valero, and Phillips 66 — have roughly doubled year-to-date as refiners capture unprecedented crack-spread economics.</p>
+      <a href="https://fortune.com/2026/07/26/mideast-oil-iran-war-hormuz-red-sea-black-sea-refined-products-supply-crisis/" class="read-link" target="_blank">Read Fortune →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>OPEC+ August Hike of 188,000 bpd Largely Symbolic — Hormuz at 35% Capacity, Abqaiq Offline</h4>
+      <p>Seven core OPEC+ members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — agreed July 5 to raise collective output by <strong>188,000 barrels per day in August</strong>, the fifth consecutive monthly production increase. The agreement framed the hike as continued unwinding of April 2023 voluntary cuts, retaining "full flexibility" to pause or reverse. In practice, the increase is largely theoretical: the Strait of Hormuz continues to operate at only about 35% of its pre-war 20-million-bpd baseline, physically blocking Gulf producers from exporting their stated quotas. With Abqaiq now adding a downstream processing bottleneck, the actual supply impact of August's paper hike is expected to be minimal. The group's monitoring committee meets August 2 amid rising pressure to respond to the current escalation.</p>
+      <a href="https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Jul 30 — Today</td>
+        <td>
+          <div class="event-name">FOMC Rate Decision — Warsh's Debut; Hawkish Tone Could Cap the $90 Crude Rally</div>
+          <div class="event-impact">The Federal Reserve's decision and Chair Warsh's press conference are the single largest scheduled market-moving event of Thursday's session. A rate hold with neutral language removes the macro ceiling and leaves the supply-shock narrative driving prices toward $93–95. A hawkish hold — elevated dot-plot projections, explicit inflation warnings — strengthens the dollar and compresses commodity prices, opening a retracement toward $86–88. A surprise rate hike would be the most disruptive outcome, potentially unwinding a meaningful portion of the war-premium rally temporarily. The oil market will take its cue from the 2:00 PM ET statement.</div>
+        </td>
+        <td>±$2–4/bbl on the statement; language-dependent.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Jul 30 — Today</td>
+        <td>
+          <div class="event-name">Aramco Abqaiq Restart Guidance — Expected But Not Yet Issued; Day 4 Silence Is Itself Bearish Supply Signal</div>
+          <div class="event-impact">Every hour Aramco maintains silence on Abqaiq's damage status and restart timeline is a signal that the situation is more severe than a rapid-repair scenario would allow. Markets are now interpreting the silence as confirmation of a multi-week outage consistent with satellite imagery showing structural damage across multiple processing units. An official statement indicating a short restart window (under seven days) would trigger a sharp partial retracement. A statement confirming multi-week or open-ended timeline would add an immediate $3–5/bbl premium and confirm Abqaiq as the dominant supply variable for August.</div>
+        </td>
+        <td>Binary ±$5–8/bbl on an official Aramco statement; upside asymmetry given active drone zone.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Eastern Province Drone Campaign — Day 3; Active Military Zone Prevents Abqaiq Access</div>
+          <div class="event-impact">Iran-backed Iraqi militias are in their third consecutive day of drone strikes targeting Saudi oil infrastructure in the Eastern Province. The campaign has a dual effect: directly threatening additional targets (gas-oil separation plants, Ras Tanura export terminal, East-West pipeline pump stations) while physically denying Aramco access to Abqaiq for damage assessment and repair. Any confirmed hit on the Ras Tanura terminal — the world's largest crude export facility — would be an immediate $8–12/bbl shock on top of the current Abqaiq outage. A lull in the campaign that allowed engineering teams access to Abqaiq would be the most structurally bearish near-term development.</div>
+        </td>
+        <td>Structural upside risk; each new confirmed target extends the outage and raises the supply shock floor.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 2</td>
+        <td>
+          <div class="event-name">OPEC+ Ministerial Monitoring Committee — Will Group Pause August Hike Given Escalation?</div>
+          <div class="event-impact">The alliance's monitoring committee meets just three days after the Eastern Province drone campaign entered its third day. The key question: does OPEC+ suspend the 188,000 bpd August increase to defend prices against a potential diplomatic resolution that could flood supply, or does the group maintain the hike signaling confidence that physical volumes are constrained by Hormuz regardless of the production decision? A pause would be moderately bullish by removing one of the few potential supply levers; maintaining the hike signals group confidence in the supply constraint and is effectively neutral-to-bullish.</div>
+        </td>
+        <td>Moderate — ±$1–2/bbl; outcome framed by the group's broader signaling posture.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Iran-Oman Hormuz Transit Talks — Only Active Diplomatic Channel; No Timeline After CENTCOM Intercept</div>
+          <div class="event-impact">Following Wednesday's Iranian ballistic missile salvo and Trump's direct-strike threat, Oman's mediated dialogue between Tehran and Gulf producers on Hormuz transit management remains the only functioning diplomatic thread in the crisis. Any progress toward a partial safe-passage framework — even a convoy arrangement for humanitarian or food cargo — would represent the first genuine diplomatic step since the June 17 ceasefire MOU collapsed and would be structurally bearish. Iran's foreign ministry has explicitly separated Oman-facilitated talks from any bilateral US-Iran discussion, making these negotiations both the most important and the most fragile remaining channel.</div>
+        </td>
+        <td>Forward-looking structural; a partial convoy deal shifts the supply recovery timeline materially.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Thursday, July 30, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Yesterday I wrote that the ceasefire trade was closed and the supply-shock trade was open. That framing survived the night intact. Brent gave back exactly $1.00 today — 1.1% — and is holding $89.74 as I write this. The pullback is entirely consistent with a consolidation after the largest single-session surge since the war's early days; it is not capitulation, not a trend change, and not the EIA print proving demand destruction. The 7.2-million-barrel draw published yesterday afternoon is one of the largest of the year. Demand did not break at $85–102. The floor is verified.</p>
+        <p><strong>My read on today:</strong> The market has one real variable to resolve: Warsh. Everything else — Abqaiq, Eastern Province drones, Hormuz at 35%, Trump's "hit Iran hard" threat — is already priced into the $87–$90 base. Warsh is the macro wildcard. A hawkish surprise pulls the tape toward $86–88 temporarily. A neutral hold removes the ceiling and the supply-shock narrative owns the session. I lean toward a neutral hold — the base case — which means $90 is more floor than ceiling by Thursday close. The Trump threat adds a binary tail nobody has fully priced: a unilateral US strike on Iranian energy infrastructure is a $10–15/bbl immediate shock. That tail is not consensus, but it is no longer theoretical.</p>
+        <p><strong>The bigger picture:</strong> We are now in the third distinct phase of this oil market crisis. Phase one was the war-premium accumulation (February–April: Brent from the $70s to $144). Phase two was the premium partial unwind on ceasefire optimism (May–mid-July: from the war high to the low $80s). Phase three — which began July 27 with the Abqaiq strike and resumed in full Wednesday — is the re-accumulation of the premium as traders recognize that the ceasefire window was a pause, not a resolution. In phase three, the physical supply argument is stronger than in phase one, because the inventory buffer has been drawn down, refining capacity is permanently reduced, and OPEC spare capacity is thin. The upside in phase three may be more durable than the market currently expects.</p>
+        <p>My call: <strong>Brent holds $87–$94 today</strong>, biased toward the upper half if Warsh is neutral and Aramco breaks silence with a multi-week timeline. <strong>The consolidation is healthy. The supply story is intact. Watch the 2:00 PM FOMC statement and any Aramco press release — those two events together set the week's close.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Critical — Abqaiq Day 4 + Hormuz 35% + 7% Below 5-yr Avg</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:91%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Severely Elevated — Direct-Strike Threat + Drone Campaign Day 3</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:85%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#e05252">Resilient — 7.2 mb Draw Confirms Demand Held at $85–102</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:60%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Fed / Macro Risk</span><span style="color:#f0a500">Elevated — Warsh Hawkish Bias; Dollar Headwind Possible</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:55%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Saudi Infrastructure Risk</span><span style="color:#e05252">Maximum — Abqaiq Offline, Eastern Province Active Zone</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:93%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Recovery</span><span style="color:#e05252">Stalled — 35% Capacity; Oman Channel Only</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:22%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$87 – $94</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Upper Half if Warsh Neutral + Aramco Multi-Week Timeline ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$93–$95 (Abqaiq multi-week confirmed + Warsh neutral + Eastern Province escalates)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$86–$88 (Warsh hawkish hike + brief Eastern Province lull)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$100 (US direct strike on Iran OR Ras Tanura terminal hit)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$84 (surprise Abqaiq fast restart + Warsh aggressively hawkish)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Thursday, July 30, 2026</span>
+  <span>Sources: EIA, IEA, OPEC, Reuters, CNBC, Al Jazeera, Bloomberg, PBS NewsHour, Fortune, Forbes, Oil & Gas 360</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
