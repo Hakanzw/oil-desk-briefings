@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Friday, July 31, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $85.10 ▼ −2.04% — Month-End Profit-Taking as Hormuz Shows First Transit Recovery &nbsp;|&nbsp; WTI CRUDE $81.70 ▼ −2.28% — Both Benchmarks Ease From Near-$90 Peak; Monthly Gain Holds at ~19% &nbsp;|&nbsp; NATURAL GAS $2.90 — Latest Available (Jul 29); Energy Complex Repricing Underway &nbsp;|&nbsp; DRONE STRIKE ON EGYPT'S DAMIETTA LNG HUB — TWO GAS VESSELS HIT; FIRST ATTACK ON EGYPTIAN SOIL IN CONFLICT &nbsp;|&nbsp; HORMUZ TANKER TRADE TICKS UP — 14 COMMODITY VESSEL TRANSITS JULY 29, UP FROM NEAR ZERO; STILL FAR BELOW PRE-WAR NORMS &nbsp;|&nbsp; SHELL Q2 ADJUSTED EARNINGS $9.84 BILLION — BEST QUARTERLY PROFIT IN FOUR YEARS ON WAR-INFLATED PRICES &nbsp;|&nbsp; OPEC+ MONITORING COMMITTEE MEETS AUG 2 — SEPTEMBER PRODUCTION TARGETS UNDER REVIEW &nbsp;|&nbsp; ABQAIQ PROCESSING SHUTDOWN ENTERS DAY 5 — NO ARAMCO RESTART GUIDANCE; EASTERN PROVINCE DRONE CAMPAIGN ONGOING&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Friday, July 31, 2026<br>
+      Vol. I — No. 3<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$85.10</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$81.70</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$85.10</div>
+      <div class="price-change down">▼ −2.04% (month-end retreat)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$81.70</div>
+      <div class="price-change down">▼ −2.28% (profit-taking, Hormuz early recovery)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent — Monthly Gain</div>
+      <div class="price-val">+~19%</div>
+      <div class="price-change up">▲ Strongest month since March 2026</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">EIA Crude Draw (Jul 24)</div>
+      <div class="price-val">−7.2 mb</div>
+      <div class="price-change down">▼ Stocks 7% below 5-yr avg</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$2.90</div>
+      <div class="price-change up">≈ Flat — Latest Jul 29 figure</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Month-End Pullback — Brent Retreats 2% From Near-$90 High as Hormuz Inches Toward Recovery and Damietta Widens the Energy War</div>
+      <h3>Brent Slides to $85 on Final Day of July as Hormuz Shows First Shipping Signs of Life — Drone Strike on Egypt's Damietta LNG Hub Opens Dangerous New Front in Middle East Energy War</h3>
+      <p>July 31 arrived with oil markets stepping back from the precipice of $90. Brent crude slid <strong>$1.76 to $85.10</strong>, while WTI fell $1.91 to $81.70, as a confluence of month-end profit-taking, dollar strength, and the first tentative signs of Hormuz transit recovery cooled the supply-shock rally that had defined the past week. Both benchmarks still close out July with gains of roughly <strong>19–20%</strong> — one of the strongest monthly performances of the year — as the Strait of Hormuz crisis, the Abqaiq shutdown, and the broader US-Iran war continue to underpin the structural price floor. The retreat is orderly; it is not a trend break. Brent remains <strong>roughly $10 above its pre-Abqaiq-strike level</strong>, and every key supply constraint that drove the rally remains intact heading into August.</p>
+      <p>The session's most significant new development came not from the Strait of Hormuz but from the Mediterranean. On July 29, a drone of unattributed origin struck two LNG-related vessels at <strong>Egypt's Damietta port</strong> — the US-owned <em>Energos Winter</em> and the <em>Gaslog Salem</em> — triggering fires that burned into the night before Egyptian emergency services contained them. Neither Iran nor Yemen's Houthi rebel movement claimed responsibility, and Egyptian authorities have opened an investigation. The attack marks the first strike on Egyptian soil since the US-Iran war began in February, and it carries profound strategic significance: Damietta is one of Egypt's two primary LNG export terminals, a facility that has served as a partial bypass route for European gas buyers locked out of Qatari LNG cargoes moving through the Hormuz corridor. If the attack signals the expansion of the energy-infrastructure campaign to Mediterranean port facilities, Europe's diversification strategy faces a serious new vulnerability — and the geopolitical risk premium, which today's pullback might suggest is deflating, could prove far more resilient than the tape implies.</p>
+      <p>On the Hormuz front, the first genuine glimmers of recovery emerged. Bloomberg, citing Kpler tanker-tracking data, reported on July 30 that 14 commodity vessel transits were counted on July 29 — up sharply from the near-zero readings of the preceding ten days and the first visible uptick since the July 7 Iranian vessel attacks reignited the crisis. Qatar dispatched its first LNG cargo through the strait since the conflict resumed, a symbolically important move even if physical volumes remain <strong>well below 20% of the pre-war baseline</strong>. Meanwhile, the US-Iran ceasefire pause — announced July 27 with Trump indicating talks could resume — has introduced the first diplomatic light since the June 17 ceasefire MOU collapsed. Analysts caution against over-reading either data point: 14 transits against a pre-war baseline of 88–100 per day represents only a modest improvement, and no formal negotiating framework is in place. <strong>August enters as a month of contested direction</strong>, with the Damietta attack and OPEC+ monitoring committee meeting (August 2) as the first tests.</p>
+      <a href="https://www.aljazeera.com/news/2026/7/29/fire-erupts-on-ships-at-egypts-damietta-port" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">14</div>
+        <div class="stat-desc">Commodity Vessel Transits Through Hormuz on July 29 — Up From Near Zero; Still Only 14–16% of Pre-War Norm of 88–100/Day</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$9.84 bn</div>
+        <div class="stat-desc">Shell Q2 Adjusted Earnings — Best Quarterly Profit in Four Years; More Than Double Year-Ago Levels as War Inflates Oil and LNG Prices</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−7.2 mb</div>
+        <div class="stat-desc">EIA Crude Inventory Draw for Week Ending July 24 — Commercial Stocks at 404.5 Million Barrels, 7% Below Seasonal Five-Year Average</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Day 5</div>
+        <div class="stat-desc">Abqaiq Crude Processing Shutdown — No Official Aramco Damage Assessment or Restart Timeline; Eastern Province Drone Activity Ongoing</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Geopolitical Expansion</div>
+      <h4>Drone Strikes Egypt's Damietta LNG Hub — US-Owned Vessels Hit in First Attack on Egyptian Soil Since War Began</h4>
+      <p>A drone of unattributed origin struck two vessels at Egypt's Damietta Mediterranean port on July 29: the US-owned LNG storage vessel <em>Energos Winter</em> and the gas processing ship <em>Gaslog Salem</em>. Fires burned for hours before Egyptian emergency responders gained control. No group has claimed responsibility; both Iran and Houthi rebels denied involvement. Damietta has served as a partial bypass for European buyers unable to source Qatari LNG through the Hormuz corridor, making it a strategically critical facility. An attack that disrupts its operations would close a key European supply diversification route — adding a new layer of risk to an already severely stressed global LNG market and marking the first time the energy-infrastructure campaign has explicitly targeted a Mediterranean facility on Egyptian territory.</p>
+      <a href="https://www.aljazeera.com/news/2026/7/29/fire-erupts-on-ships-at-egypts-damietta-port" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Hormuz Recovery</div>
+      <h4>Hormuz Tanker Transits Tick Up to 14 on July 29 — Qatar Ships First LNG Cargo Through Strait Since Conflict Resumed</h4>
+      <p>Bloomberg reported on July 30, citing Kpler tanker-tracking data, that 14 commodity vessels transited the Strait of Hormuz on July 29 — a meaningful improvement from the near-zero readings in the immediate aftermath of Iran's July 7 vessel attacks. Qatar, which had suspended LNG shipments through the strait following the escalation, dispatched its first LNG cargo since the resumption of hostilities. Analysts cautioned against premature optimism: 14 transits represent only about 14–16% of the pre-war 88–100 daily norm, and shipping insurers continue to charge war-risk premiums that make many voyages economically marginal. <strong>The recovery is real but extremely fragile</strong> — a single new incident in the strait could erase the week's progress within hours.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-07-30/hormuz-oil-tanker-shuttling-trade-is-picking-up-again-after-lull" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Corporate Earnings</div>
+      <h4>Shell Posts Best Quarterly Profit in Four Years — $9.84 Billion Q2 Adjusted Earnings on War-Inflated Oil and LNG Prices</h4>
+      <p>Shell reported Q2 2026 adjusted earnings of <strong>$9.84 billion</strong> on July 30, more than double year-ago levels and comfortably above analyst median forecasts of $8.79 billion — the company's best quarterly result in four years. The Hormuz crisis has proven a windfall for integrated energy majors: elevated crude benchmarks, record LNG spot prices, and near-capacity refinery utilization drove margins across all business segments simultaneously. Shell's refinery operations ran at close to maximum utilization as downstream crack spreads remain at historic highs. The result puts a sharp point on the distributional paradox of the crisis: while consumers face record pump prices, the upstream and integrated operators capturing crisis-level margins are posting profits not seen since the early post-COVID commodity surge.</p>
+      <a href="https://www.cnbc.com/2026/07/30/shell-2q-earnings-iran-war-oil.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Ceasefire / Diplomacy</div>
+      <h4>US and Iran Pause Fighting — Trump Signals Talks Could Resume, But Tehran Says No Formal Negotiations Underway</h4>
+      <p>On July 27, the United States halted new strikes on Iranian targets at Iran's request, and President Trump indicated he was open to resuming talks. Iran's foreign ministry, however, stated explicitly that no formal bilateral negotiations with the US were underway — a gap in framing that illustrates the fragility of the current pause. Oman-facilitated back-channel communications remain the only active diplomatic thread. The pause follows Trump's July 27 warning that the US would resume strikes without a new deal, and comes after the US revoked a 60-day Iranian oil sanctions waiver on July 8 following Iran's attack on three Hormuz vessels. <strong>The ceasefire pause is neither a ceasefire nor a deal</strong> — it is a cooling-off period whose durability depends on both sides finding sufficient incentive to avoid the next escalatory act.</p>
+      <a href="https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>OPEC+ Approved 188,000 bpd August Hike — Monitoring Committee Meets August 2 on September Targets as Hormuz Constrains Actual Flows</h4>
+      <p>Seven core OPEC+ members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — agreed on July 6 to raise collective output by <strong>188,000 barrels per day effective August</strong>, the fifth consecutive monthly production increase and part of the gradual unwinding of the 2023 voluntary cut agreement. The group's monitoring committee meets August 2 to discuss September targets. In practice, the August hike is largely theoretical: with the Strait of Hormuz operating at well below 20% of its pre-war throughput of roughly 20 million barrels per day, Persian Gulf producers have no viable export route for incremental barrels regardless of paper quota levels. The August 2 meeting will be watched for any signal on whether the group pauses further increases in response to the sustained disruption — a pause would be modestly bullish by reducing one potential source of future supply.</p>
+      <a href="https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">EIA Inventories</div>
+      <h4>EIA: 7.2-Million-Barrel Crude Draw for Week Ending July 24 — Stocks at 404.5 Million Barrels, 7% Below Five-Year Average</h4>
+      <p>The EIA's weekly petroleum status report (week ending July 24, released July 29) confirmed a commercial crude draw of <strong>7.2 million barrels</strong> — one of the largest draws of the year and nearly double analyst median expectations. Commercial crude stocks fell to 404.5 million barrels, 7% below the seasonal five-year average. Refineries operated at 97.2% capacity, one of the highest utilization rates on record, as processors raced to rebuild product inventories. Gasoline stocks added 0.9 million barrels but remain approximately 6% below seasonal averages, while distillate inventories rose 1.1 million barrels but stay about 9% below normal. The data confirms that US demand remained robust in the $85–$102 per barrel price band of the preceding two weeks — providing structural underpinning to any price pullback.</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Aug 2</td>
+        <td>
+          <div class="event-name">OPEC+ Monitoring Committee — September Production Quota Review Amid Ongoing Hormuz Disruption</div>
+          <div class="event-impact">The alliance's ministerial monitoring committee meets Sunday, August 2, to set September production targets. The central question: does the group maintain the pace of monthly output increases despite the physical impossibility of delivering incremental Gulf barrels through a severely constrained Hormuz? A pause in increases — signaling the group will not compound the supply disruption with paper-hike credibility problems — would be modestly bullish. Maintaining the hike sends a message of confidence in eventual normalization but may accelerate quota-compliance skepticism. Saudi Arabia and Russia, as the swing producers with the most spare capacity that cannot currently move to market, hold the decisive votes.</div>
+        </td>
+        <td>Moderate — ±$1–2/bbl; signal-driven rather than volume-driven.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Damietta Port Damage Assessment — Mediterranean LNG Hub Under Threat After Drone Strike on Two Vessels</div>
+          <div class="event-impact">Egyptian authorities are assessing structural damage to the Damietta LNG export terminal following the July 29 drone strike on the Energos Winter and Gaslog Salem. Damietta handles a meaningful share of Egyptian LNG exports and has been a critical diversification option for European buyers unable to access Qatari cargoes via the Hormuz route. If the damage forces a sustained reduction in Damietta's throughput, European spot LNG prices will spike, adding downstream demand pressure on pipeline gas alternatives and potentially bidding up Henry Hub-linked cargoes. The attack also raises the question of retaliation or further escalation against Mediterranean energy infrastructure — a scenario not previously in the consensus risk framework.</div>
+        </td>
+        <td>European gas and LNG: High risk of spot-price spike. Crude: indirect upside pressure via energy-complex sentiment.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Hormuz Partial Recovery Watch — 14 Transits July 29 vs. 88–100 Pre-War Norm; Qatar First LNG Cargo Moving</div>
+          <div class="event-impact">The first tangible recovery signal since the July 7 Iranian vessel attacks. Fourteen commodity vessel transits on July 29, including Qatar's first LNG shipment through the strait since the resumption of hostilities, represent a real if very early step toward normalization. The pace of further recovery depends on ceasefire durability, war-risk insurance premiums, and mine-clearing progress. Each incremental week of uninterrupted transits shifts the supply recovery timeline forward and reduces the structural upside ceiling. A return to 30–40 daily transits — still far below normal — would represent a meaningful supply-recovery signal and likely prompt a $3–5/bbl retracement of the war premium.</div>
+        </td>
+        <td>Gradual structural headwind to war premium; each week of recovery lowers the ceiling.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">US-Iran Ceasefire Pause — No Formal Talks; Oman Channel Remains Only Active Diplomatic Thread</div>
+          <div class="event-impact">The July 27 announcement of a mutual pause in hostilities is the most important diplomatic development since the June 17 ceasefire MOU collapsed. However, the asymmetry between Trump's openness to talks and Iran's explicit denial of formal negotiations leaves the pause on uncertain footing. Any Iranian action perceived as violating the spirit of the pause — further vessel interdictions, strikes on US-ally infrastructure, or Houthi attacks attributable to Iranian direction — would prompt a rapid US response and send Brent back toward $90+. A genuine diplomatic breakthrough that yields a structured talks framework would be the single most bearish scheduled catalyst for crude: even partial Hormuz normalization could remove $8–12/bbl of war premium.</div>
+        </td>
+        <td>Binary risk: breakthrough bearish $8–12/bbl; breakdown bullish $5–10/bbl.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Abqaiq Processing Plant — Day 5 Shutdown; No Aramco Restart Guidance as Eastern Province Drones Continue</div>
+          <div class="event-impact">Saudi Aramco's Abqaiq crude processing and stabilization facility — handling approximately 7 million barrels per day, or roughly 7% of world supply — entered its fifth consecutive day of shutdown with no official damage assessment or restart timeline from Riyadh. The ongoing Iraqi militia drone campaign in the Eastern Province continues to prevent engineering teams from accessing the complex for the initial damage survey required before any repair sequence can begin. Satellite imagery reported through July 30 continues to show structural damage across multiple processing units. The 2019 Abqaiq attack — a far smaller incident conducted under uncontested site-access conditions — took five weeks to restore. An active drone zone adds an open-ended variable to the repair timeline that no analyst currently models as resolved before mid-August at the earliest.</div>
+        </td>
+        <td>Every additional day of silence from Aramco extends the supply shock floor; binary upside on any official restart guidance.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Friday, July 31, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>July closes with oil bulls bruised but unbroken. Brent's 2% retreat today to $85.10 is the kind of pullback that looks painful on the daily tape but registers as entirely healthy consolidation when you zoom out: the benchmark is still up roughly 19% for the month, still holding nearly all of Wednesday's extraordinary surge, and still supported by the same constellation of structural factors that have governed pricing for the past five weeks. Abqaiq is still offline. Hormuz is still operating at a fraction of normal capacity. US commercial crude stocks are 7% below the five-year seasonal average after a 7.2-million-barrel draw. None of those fundamentals changed today. What changed was the calendar — month-end position squaring and some profit-taking from traders who bought the mid-July lows under $80.</p>
+        <p><strong>My read on today's Damietta development:</strong> The drone strike on Egypt's Damietta LNG hub is the most underappreciated risk event of the week. Markets are correctly focused on the Strait of Hormuz as the primary chokepoint, but Damietta represents the single most important bypass valve for European LNG buyers who have been routing demand away from Qatari cargoes since the Hormuz crisis began. If Damietta's export capacity is meaningfully curtailed — even temporarily — European gas markets face a secondary supply shock that the crude complex will eventually reprice upward. The market doesn't yet fully know what it's looking at with Damietta. That uncertainty is itself a reason to maintain a supply-risk bias rather than lean into today's pullback.</p>
+        <p><strong>The bigger picture heading into August:</strong> We are entering a month of contested direction. The Hormuz recovery signal — 14 transits on July 29, Qatar's first LNG shipment through the strait — is real and, if it holds, represents the beginning of the supply normalization trade that the market has been anticipating since the June 15 peace deal announcement. But every previous attempt at normalization has been interrupted by escalation. The Damietta attack suggests that whatever actor is running the energy-infrastructure campaign is adapting its target set in response to Hormuz's partial recovery. <strong>The game is not over; it is expanding geographically.</strong> OPEC+ meets August 2 with the power to set the September quota tone. The Warsh FOMC decision on July 30 removed one key macro variable — the meeting is now behind us and the macro ceiling, whatever its precise height, is known. Supply uncertainty remains the dominant narrative.</p>
+        <p>My call: <strong>Brent holds $83–$91 next week</strong>, biased toward the lower half of that range in the very near term as month-end positioning unwinds, but with the structural bid intact and capable of reasserting sharply on any Damietta escalation, Abqaiq update, or ceasefire breakdown. <strong>Sell the spike, don't chase the dip — but recognize the floor is real and the tail risks are still skewed to the upside.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Very Tight — Abqaiq Day 5 + Hormuz Sub-20% + Stocks 7% Below Avg</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:88%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Elevated — Damietta Attack Opens Mediterranean Front</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:80%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Recovery</span><span style="color:#f0a500">Early Signs — 14 Transits; Far Below Pre-War Norm</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:14%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#e05252">Resilient — 7.2 mb Draw Confirms Demand at $85–102/bbl</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:62%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Ceasefire Durability</span><span style="color:#f0a500">Fragile — Pause Only; No Formal Talks Framework</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:28%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Monthly Price Trend</span><span style="color:#5cb85c">Strong Close — +19% July; Healthy Consolidation Today</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:74%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Next-Week Price Call — Brent Crude</div>
+          <div class="call-text">$83 – $91</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Lower Near-Term on Month-End Unwind; Upside Tail on Damietta/Ceasefire Risk ▼▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$90–$92 (ceasefire breakdown OR new Abqaiq/Damietta escalation)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$83–$85 (Hormuz recovery accelerates + OPEC+ hawkish pause signal)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$95 (Damietta terminal sustained disruption + Hormuz re-escalation)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$80 (formal US-Iran talks framework + Abqaiq rapid restart + Hormuz 30%+ recovery)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Friday, July 31, 2026</span>
+  <span>Sources: EIA, OPEC, Al Jazeera, CNBC, Bloomberg, Reuters, Trading Economics, YCharts, World Oil, Oil & Gas 360</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
