@@ -1,0 +1,156 @@
+{
+  "date_long": "Saturday, August 1, 2026",
+  "date_slug": "aug01-2026",
+  "volume": "Vol. I — No. 4",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, IEA, OPEC, Reuters, Al Jazeera, NPR, Bloomberg, CNBC, Rigzone, Astana Times, World Oil",
+
+  "ticker": [
+    "BRENT CRUDE ~$88.18 ▲ +1.5% — AUGUST OPENS WITH A BID",
+    "WTI CRUDE ~$85.47 ▲ +2.3% — SUPPLY-SHOCK FLOOR REASSERTS AFTER MONTH-END RETREAT",
+    "NATURAL GAS ~$2.88 → FLAT — DAMIETTA LNG HUB DAMAGE ASSESSMENT STILL ONGOING",
+    "HORMUZ THROUGHPUT: ~14 VESSELS/DAY — 11% OF PRE-WAR BASELINE OF 88–100 DAILY CROSSINGS",
+    "KAZAKHSTAN CPC TERMINAL RESUMES — TENGIZCHEVROIL LOADING RESTARTS AFTER DRONE SHUTDOWN",
+    "OPEC+ MONITORING COMMITTEE MEETS AUGUST 2 — FIFTH CONSECUTIVE OUTPUT HIKE ON TABLE",
+    "EIA: US CRUDE STOCKPILES FALL 7.2M BARRELS TO 404.5M — 6% BELOW 5-YEAR SEASONAL AVERAGE",
+    "JULY WRAP: BRENT +~21% — STRONGEST MONTHLY PERFORMANCE SINCE MARCH 2026"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$88.18", "change": "▲ +1.50% (August opens with a bid)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$85.47", "change": "▲ +2.28% (supply-shock floor reasserts)", "direction": "up" },
+    { "label": "Brent — July Gain", "value": "+~21%", "change": "▲ Strongest month since March 2026", "direction": "up" },
+    { "label": "US Crude Stocks (Jul 24)", "value": "404.5M bbl", "change": "▼ −7.2M bbl draw (6% below avg)", "direction": "down" },
+    { "label": "Natural Gas", "value": "~$2.88", "change": "→ Flat (Damietta assessment ongoing)", "direction": "" }
+  ],
+
+  "lead": {
+    "eyebrow": "August Open — Supply Deficit Reasserts After July's Final-Day Retreat",
+    "headline": "Brent Climbs Back to $88 at the August Open — A 7.2-Million-Barrel US Crude Draw and an Unbroken Hormuz Blockade Reassert the Supply-Shock Floor",
+    "paragraphs": [
+      "August 1 opened with crude reclaiming ground lost in Thursday's month-end retreat. Brent pushed back to <strong>~$88.18</strong> — up roughly 1.5% — while WTI climbed to <strong>~$85.47</strong>, up more than 2%, as buyers re-entered the market after the prior session's profit-taking unwound. The move confirms what the underlying data had already signalled: the structural supply deficit that drove Brent's <strong>~21% July gain</strong> — one of the strongest monthly performances of the year — has not resolved, and the floor is real. US commercial crude inventories tumbled <strong>7.2 million barrels</strong> in the week ending July 24 to 404.5 million barrels, now sitting <strong>6% below the five-year seasonal average</strong>, according to EIA data released July 29. Refinery inputs averaged 17.3 million bpd — still running hard — while import flows through the Hormuz corridor remain severely depressed. The crude draw was not an anomaly; it was supply arithmetic.",
+      "The Strait of Hormuz remains the governing constraint. Tanker-tracking data shows the strait handling approximately <strong>14 commodity vessel transits per day</strong> — a fraction of the 88–100 crossings that constituted the pre-war baseline. That modest recovery from the near-zero readings of mid-July has raised cautious optimism, but the market understands that 14 transits represents roughly <strong>11% of normal throughput</strong>. The August output ceiling increase of 188,000 bpd agreed by seven core OPEC+ members on July 5 — the fifth consecutive monthly hike — is largely a paper exercise in the current environment: Saudi, Iraqi, and Kuwaiti barrels destined for global markets still require transit through waters that remain militarily contested. War-risk insurance on tankers is priced at eight times pre-crisis levels; six P&I clubs have withdrawn Hormuz-corridor coverage entirely.",
+      "The week's most meaningful supply-side positive came from Kazakhstan. The Caspian Pipeline Consortium marine terminal at Novorossiysk, suspended after drone strikes on the <em>SEAMAJESTY</em> and <em>MILOS</em> tankers in the Black Sea, <strong>resumed operations on July 27</strong>, with Tengizchevroil loading restarting almost immediately. At its peak, the CPC shutdown had halved Kazakhstan's daily oil output to roughly 1 million bpd from a normal ~2.16 million bpd — an involuntary removal of more than a million barrels per day from global supply. The resumption restores that flow and provides a counterweight to the continued Hormuz restrictions, but the episode underlines the vulnerability of the world's commodity export corridors to drone warfare: the Black Sea, the Strait of Hormuz, and now the Mediterranean's Damietta LNG hub have all been struck in a single month."
+    ],
+    "link_url": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+    "link_text": "Read EIA",
+    "stats": [
+      { "num": "−7.2M bbl", "desc": "US Crude Draw for Week Ending July 24 — Stocks Now 6% Below Five-Year Average" },
+      { "num": "~14/day", "desc": "Hormuz Tanker Transits — Only 11% of Pre-War Baseline of 88–100 Daily Crossings" },
+      { "num": "+188k bpd", "desc": "OPEC+ August Output Hike — Fifth Consecutive Monthly Increase, Largely Symbolic" },
+      { "num": "+~21%", "desc": "Brent's July Gain — One of the Year's Strongest Monthly Performances" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Monthly Wrap",
+      "headline": "Brent Caps July as One of the Year's Strongest Months — Up ~21% on Hormuz Shock",
+      "body": "Brent crude closed out July near $88/barrel, wrapping up a month in which the benchmark gained roughly 21% — its strongest monthly performance since March 2026. WTI gained approximately 20% over the same period. The rally was almost entirely geopolitics-driven: Hormuz disruptions, the Abqaiq shutdown, and the broader US-Iran conflict combined to deliver one of the most sustained supply-shock rallies in recent memory. July's range spanned from the low $70s to a peak near $100 during peak Hormuz escalation before settling into the high $80s as de-escalation signals emerged late in the month.",
+      "link_url": "https://www.rigzone.com/news/wire/brent_caps_strongest_month_since_march-31-jul-2026-184273-article/",
+      "link_text": "Read Rigzone"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Agrees Fifth Consecutive Monthly Hike — 188k bpd for August, Monitoring Meeting Sunday",
+      "body": "Seven core OPEC+ members agreed on July 5 to raise collective output by 188,000 barrels per day for August, the fifth consecutive monthly increase since the group began unwinding its 2023 cuts in April. The group reiterated that future hikes could be \"accelerated, paused or reversed\" based on market conditions. The August 2 monitoring committee meeting will be the first opportunity to calibrate the September quota given July's price surge and persistent Hormuz physical constraints. Market analysts describe the August increase as largely symbolic: the Hormuz blockade physically prevents most Gulf quota barrels from reaching export markets.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "US-Iran War",
+      "headline": "US Fires New Wave of Strikes on Iran, Hits Tanker Attempting to Skirt Blockade",
+      "body": "US forces launched another round of strikes against Iranian command centres and missile sites on July 15, and also struck a commercial vessel reportedly attempting to reach Iran's Kharg Island export terminal while evading the US naval blockade. Iran retaliated with missile and drone attacks on US military bases in Gulf states, including an attack on Kuwait's power and desalination facilities. The exchange marked the sixth consecutive day of mutual strikes at that point in the conflict, illustrating the entrenched nature of the military standoff that continues to govern Hormuz throughput — and that has kept war-risk insurance at eight times pre-crisis rates entering August.",
+      "link_url": "https://www.npr.org/2026/07/15/nx-s1-5894582/us-iran-updates",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "Supply Corridor",
+      "headline": "Kazakhstan Resumes CPC Oil Exports After Drone Strike Suspended Black Sea Terminal",
+      "body": "Kazakhstan's Caspian Pipeline Consortium marine terminal at Novorossiysk resumed operations on July 27 after a week-long suspension caused by drone strikes on two tankers in the Black Sea. The SEAMAJESTY and MILOS had been struck while loading, triggering a shutdown that halved Kazakhstan's daily output to roughly 1 million bpd from a normal 2.16 million bpd. Tengizchevroil restarted loading almost immediately after the announcement. The episode underlines how the energy-infrastructure campaign has extended from the Persian Gulf to the Black Sea and Mediterranean — and how multiple chokepoints are simultaneously under pressure.",
+      "link_url": "https://astanatimes.com/2026/07/kazakhstan-resumes-cpc-oil-exports-as-marine-terminal-reopens/",
+      "link_text": "Read Astana Times"
+    },
+    {
+      "tag": "EIA Data",
+      "headline": "EIA Reports 7.2M-Barrel Crude Draw — US Stocks Now 6% Below Five-Year Average",
+      "body": "The EIA's weekly petroleum status report for the week ending July 24 showed US commercial crude stockpiles falling to 404.5 million barrels — a draw of 7.2 million barrels and roughly 6% below the five-year seasonal average. Refinery inputs averaged 17.3 million bpd, up 271,000 bpd week-on-week, with facilities running at elevated utilization. Distillate stocks posted a modest 1.1 million barrel build. The large crude draw reflects strong domestic throughput against severely curtailed import flows, continuing a trend of below-average stockpiles that has underpinned the structural price floor throughout the Hormuz crisis.",
+      "link_url": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Market Dynamics",
+      "headline": "Oil Prices Surged as US-Iran Traded Attacks Over Hormuz — What August Inherits",
+      "body": "Oil surged more than 4% in mid-July as the US and Iran exchanged strikes over the Strait of Hormuz, with Brent briefly touching $100 before retreating. As of August 1, tanker throughput remains at approximately 11% of pre-war levels, with war-risk insurance priced at 8× pre-crisis rates and six P&I clubs having withdrawn coverage. OPEC+ and IEA data confirm the supply shock is structural, not transient — global crude balances are drawing down quarter-on-quarter, and the EIA's July 29 inventory report reinforced the message: the world is consuming commercial reserves to make up the deficit. August begins with the same architecture intact.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz",
+      "link_text": "Read Al Jazeera"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 2 — Sunday",
+      "name": "OPEC+ JMMC Monitoring Committee — September Quota Decision",
+      "impact": "The Joint Ministerial Monitoring Committee convenes to assess compliance and set the September output adjustment. With Brent at $88 and physical supply tighter than quota data implies — Hormuz is blocking real barrel flows — the committee faces a binary choice: press ahead with another 188k bpd hike on schedule, or pause to acknowledge that paper quotas are not translating into delivered barrels. A pause would be explicitly bullish; an acceleration would signal overconfidence in Hormuz normalization and would be tested immediately by the physical market.",
+      "market_impact": "Directional: ±$3–5/bbl; strongest scheduled catalyst of the week.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 5 — Wednesday",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Aug 1)",
+      "impact": "The first August inventory print tests whether the 7.2 million barrel crude draw (week ending July 24) was an anomaly or the continuation of a structural tightening trend. Refinery runs are elevated and Hormuz imports remain severely curtailed. A second consecutive large draw would materially strengthen the bull case and likely push Brent toward $92–$94. A surprise build would need to be explained — most likely SPR releases or a sudden demand softening — to carry significant bearish weight.",
+      "market_impact": "±$2–3/bbl; frames the near-term supply narrative for the week.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 1–31",
+      "name": "Hormuz Transit Recovery — Daily Throughput Tracking",
+      "impact": "At 14 transits per day (11% of the pre-war baseline), Hormuz is still functionally closed for commercial purposes. Any sustained move toward 30–40 transits per day would represent the beginning of genuine supply recovery. Conversely, any new strike on a transiting vessel would reset the throughput counter to near-zero and trigger an immediate $8–12/bbl spike. This is the single most important data series in the oil market right now.",
+      "market_impact": "Structural — governs the pace and credibility of any supply recovery.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 1–31",
+      "name": "Damietta LNG Hub — Damage Assessment and Export Restart",
+      "impact": "Egypt's damage assessment of the Damietta terminal, struck by a drone on July 29, continues. European gas buyers who had rerouted demand through Damietta as a Hormuz bypass are watching closely. A significant curtailment in Damietta export capacity would close one of the few remaining bypass routes for LNG flows, putting upward pressure on European gas prices and indirectly supporting crude as power generators seek alternative fuels.",
+      "market_impact": "±$1.50–$3/MMBtu natural gas; indirect crude support if bypass capacity is curtailed.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US-Iran Ceasefire Diplomacy — Prospects for Resuming Talks",
+      "impact": "Trump's July 27 indication that ceasefire talks could resume remains the most important medium-term variable in oil markets. Any confirmation of a diplomatic channel — even informal back-channel contact — would begin to bleed the supply-risk premium. A full resumption of the June 15-style framework talks would likely send Brent back toward the low $80s. The absence of any diplomatic signal by mid-August would suggest an entrenched standoff and support for the high $80s–$90s range.",
+      "market_impact": "Binary and large: −$10–15/bbl on genuine diplomacy; +$8–12 on escalation.",
+      "risk": "Very High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "August 1 opens exactly where the underlying data says it should: with Brent north of $88, WTI above $85, and the market reasserting the supply-shock floor after Thursday's month-end profit-taking. Yesterday's session looked like a trend break; today's buying makes clear it was routine position management. The fundamentals have not changed — and the EIA's July 29 report made sure of that, printing a 7.2 million barrel crude draw that took US commercial stocks to their lowest seasonal level in years, sitting 6% below the five-year average. You do not erode those cushions without a structural problem. The structural problem remains: the Strait of Hormuz is handling <strong>11% of its normal cargo throughput</strong>.",
+      "<strong>My read on tomorrow's OPEC+ meeting:</strong> The August 2 monitoring committee is the most consequential scheduled event of the week, and the market is not fully pricing the range of outcomes. The committee can press ahead with another 188k bpd September hike (market neutral, confirms policy autopilot), pause (explicitly bullish — signals acknowledgment of the physical constraint), or accelerate (bearish on paper but likely self-defeating given Hormuz realities). My base case is a pause or a heavily caveated hike — Saudi Arabia did not endure two months of extraordinary volatility to hand the market a comfort signal at $88. Watch the language around \"market conditions\" and \"future hike flexibility\" for the real signal.",
+      "<strong>The bigger picture:</strong> The Kazakhstan CPC resumption is the week's under-appreciated supply-side development. Restoring approximately 1 million bpd of Kazakh supply to Black Sea export channels removes one of the three simultaneous supply shocks that defined July — Hormuz, Abqaiq, and the CPC shutdown. Two of three shocks are now at least partially resolved. That leaves Hormuz, which is not partially resolved — it is marginally less catastrophic than its July nadir. <strong>The game is still Hormuz.</strong> Until that throughput number moves materially and sustainably above 40–50 transits per day, the structural bid under crude remains intact and the upside tail risk from any new incident stays very much alive.",
+      "My call: <strong>Brent $86–$94 this week</strong>, biased toward the upper half of the range heading into Sunday's OPEC+ meeting, with the most likely single catalyst being a JMMC pause decision or a new Hormuz incident. The floor is real and anchored by the inventory data. The ceiling is the diplomatic variable — and diplomacy is currently silent. <strong>Sell the spike above $94; respect the bid below $87.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme", "tone": "bearish", "pct": 83 },
+      { "name": "Geopolitical Risk", "label": "Very High", "tone": "bearish", "pct": 80 },
+      { "name": "Demand Response", "label": "Resilient", "tone": "neutral", "pct": 58 },
+      { "name": "Hormuz Recovery", "label": "Fractional", "tone": "bearish", "pct": 18 },
+      { "name": "OPEC+ Effectiveness", "label": "Constrained", "tone": "neutral", "pct": 32 },
+      { "name": "Diplomatic Momentum", "label": "Stalled", "tone": "bearish", "pct": 22 }
+    ],
+    "call": {
+      "label": "This Week's Price Call — Brent Crude",
+      "value": "$86 – $94",
+      "bias": "Bias: Upper Half of Range — OPEC+ Pause and Hormuz Tail Both Bullish ▲"
+    },
+    "watch_levels": {
+      "resistance": "$93–$95",
+      "support": "$85–$87",
+      "breakout": ">$96 (new Hormuz incident / OPEC+ pause)",
+      "breakdown": "<$83 (ceasefire diplomacy resumes / large crude build)"
+    }
+  }
+}
