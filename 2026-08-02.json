@@ -1,0 +1,156 @@
+{
+  "date_long": "Sunday, August 2, 2026",
+  "date_slug": "aug02-2026",
+  "volume": "Vol. I — No. 5",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, OPEC, Reuters, Al Jazeera, NPR, CNBC, Fortune, FXStreet, World Oil, OilPrice.com",
+
+  "ticker": [
+    "BRENT CRUDE ~$87.93 ▲ +1.21% — JULY 31 SETTLEMENT; IRGC TANKER STRIKE LIFTS CLOSE",
+    "WTI CRUDE ~$84.67 ▲ +1.29% — SUPPLY-RISK BID HOLDS INTO MONTH-END",
+    "NATURAL GAS ~$2.75 ▼ -0.40% — DAMIETTA LNG DAMAGE ASSESSMENT ONGOING",
+    "IRGC STRIKES TWO US-ESCORTED TANKERS IN HORMUZ — FOUR ADDITIONAL VESSELS DIVERTED",
+    "OPEC+ JMMC MEETS TODAY — SEPTEMBER QUOTA DECISION IN FOCUS AT $87.93 BRENT",
+    "CHEVRON Q2 NET INCOME: $12.1B — LARGEST QUARTERLY PROFIT IN COMPANY HISTORY",
+    "EXXONMOBIL Q2 NET INCOME: $14.5B — ROUGHLY FIVE TIMES YEAR-AGO RESULT",
+    "BRENT JULY GAIN: ~21% — STRONGEST SINGLE MONTH SINCE EARLY 2022"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$87.93", "change": "▲ +1.21% (Jul 31 settlement; IRGC tanker strike lifts close)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$84.67", "change": "▲ +1.29% (supply-risk bid holds into month-end)", "direction": "up" },
+    { "label": "Brent — July Gain", "value": "+~21%", "change": "▲ Strongest monthly performance since early 2022", "direction": "up" },
+    { "label": "US Crude Stocks (Jul 24)", "value": "404.5M bbl", "change": "▼ −7.2M bbl draw (6% below 5-yr avg)", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.75", "change": "▼ −0.40% (Damietta assessment weighs on LNG sentiment)", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "July Wrap & August 2 Outlook — IRGC Tanker Strikes Cap a Wild Month; OPEC+ JMMC Convenes Today",
+    "headline": "IRGC Hits Two US-Escorted Tankers in Hormuz to Close Out July — Brent Holds $87.93 as OPEC+ Monitoring Committee Meets Today on September Quota",
+    "paragraphs": [
+      "July ended the way it lived: violently. On July 31, Iran's Islamic Revolutionary Guards Corps claimed it struck and halted two oil tankers transiting the Strait of Hormuz under US military escort, releasing imagery of one vessel on fire. Four additional tankers diverted course. US Central Command disputed Iran's claim to authority over the waterway, but the market recorded its verdict — WTI closed <strong>+1.29% at $84.67</strong> and Brent finished <strong>+1.21% at $87.93</strong>, capping a month in which the international benchmark gained approximately <strong>21%</strong>, the strongest single-month advance since early 2022. The July 31 IRGC action confirms what the supply data had already signalled: the Hormuz corridor remains functionally closed to normal commerce, and any residual expectation that the physical situation would normalise without a formal diplomatic breakthrough was extinguished before the calendar turned.",
+      "The backdrop for today's <strong>OPEC+ Joint Ministerial Monitoring Committee</strong> meeting is therefore one of acute tension between paper quotas and physical reality. Seven core members agreed on July 5 to raise collective output by <strong>188,000 barrels per day for August</strong> — the fifth consecutive monthly hike — but the decision exists largely in abstraction. Saudi, Iraqi, and Kuwaiti barrels earmarked for export still require Hormuz passage, and the IRGC's July 31 action demonstrates that the strait remains contested at the military level. The committee's September quota decision will reveal whether the group is pricing a corridor it does not yet control — or stepping back to acknowledge reality. A pause in the hike schedule would be unambiguously bullish for spot prices; an acceleration would test the market's confidence in physical delivery.",
+      "The US commercial crude inventory picture reinforces the structural underpinning. The EIA's report for the week ending July 24 showed stockpiles at <strong>404.5 million barrels</strong> — a draw of <strong>7.2 million barrels</strong> and roughly <strong>6% below the five-year seasonal average</strong>. Refinery inputs averaged 17.3 million bpd at a utilisation rate of 97.2%, meaning downstream demand for crude is not the constraint. The constraint is incoming supply, and the July 31 tanker incident made clear that the supply-side constraint is not easing. Meanwhile, the week's second-order story — <strong>Big Oil's record Q2 earnings</strong> — provided a market-structure signal: Chevron posted its largest quarterly profit ever at $12.1 billion, ExxonMobil earned $14.5 billion, and Shell reported $10.8 billion, collectively signalling that demand destruction is not materialising at scale."
+    ],
+    "link_url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "+~21%", "desc": "Brent's July Gain — Strongest Single Month Since Early 2022, Capped by IRGC Tanker Strike on July 31" },
+      { "num": "−7.2M bbl", "desc": "EIA US Crude Draw for Week Ending July 24 — Stocks Now 6% Below Five-Year Seasonal Average" },
+      { "num": "$12.1B", "desc": "Chevron Q2 Net Income — Largest Quarterly Profit in Company History; ExxonMobil Earned $14.5B" },
+      { "num": "188k bpd", "desc": "OPEC+ August Output Hike — Fifth Consecutive Increase; September Decision Lands Today at JMMC Meeting" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Hormuz Incident",
+      "headline": "IRGC Claims Two US-Escorted Tankers Hit in Strait of Hormuz — WTI Closes Up 1.3% on July 31",
+      "body": "Iran's Islamic Revolutionary Guards Corps claimed it struck and halted two oil tankers transiting the Strait of Hormuz under US military escort on July 31, releasing imagery of one vessel on fire and diverting four additional tankers. US Central Command rejected Iran's claim to authority over the waterway but acknowledged the incident. WTI and Brent each closed more than 1% higher. The episode underscores that the strait — handling roughly 14 tanker transits per day versus a pre-war baseline of 88–100 — remains militarily contested. US military escort has proven an imperfect deterrent rather than a guaranteed safe-passage mechanism.",
+      "link_url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Earnings",
+      "headline": "Chevron Posts Largest Quarterly Profit Ever at $12.1B — Exxon Earns $14.5B as War-Era Crude Prices Soar",
+      "body": "Chevron reported Q2 net income of $12.1 billion — the company's largest quarterly profit in its history — while ExxonMobil earned $14.5 billion and Shell posted $10.8 billion, roughly five times their year-ago results. WTI futures averaged $92.45 per barrel during Q2 2026, up 27% quarter-over-quarter. Chevron CEO Mike Wirth noted that demand destruction is \"not obvious to me at any significant scale\" — a signal that elevated prices have not yet meaningfully choked consumption. Exxon's Permian Basin output hit 1.8 million barrels per day equivalent, while Chevron's US production reached an all-time high of approximately 2 million bpd.",
+      "link_url": "https://fortune.com/2026/07/31/chevron-posts-largest-quarterly-profit-ever-exxon-income-surges-iran-war-squeezes-oil-supply/",
+      "link_text": "Read Fortune"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Agrees Fifth Consecutive Output Hike for August — JMMC Monitoring Committee Meets Today on September",
+      "body": "Seven core OPEC+ members agreed on July 5 to raise collective output by 188,000 barrels per day for August — the fifth consecutive monthly increase since the group began unwinding its 2023 cuts. The group retained language that future hikes could be \"accelerated, paused, or reversed\" depending on market conditions. Today's Joint Ministerial Monitoring Committee meeting is the first opportunity to set September's quota. With Brent at $87.93 and Hormuz throughput still at roughly 11% of its pre-war baseline — compounded by the July 31 IRGC tanker strike — analysts say paper increases are not translating into delivered barrels, making the September decision a binary market catalyst.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Big Oil",
+      "headline": "Oil Companies Report Sky-High Q2 Profits on Wartime Crude — Executives Warn Supply Disruptions May Persist",
+      "body": "ExxonMobil, Chevron, and Shell collectively reported more than $37 billion in Q2 net income, with executives uniformly warning that elevated prices reflect a structural, not transient, supply disruption. Chevron's CEO said demand destruction is \"not obvious\" at current price levels, while Exxon pointed to its Permian Basin as a critical swing producer at 1.8 million bpd equivalent. War-risk insurance costs and constrained refinery logistics are expected to keep upstream margins elevated through Q3 even if spot prices moderate — though executives declined to forecast when Hormuz normalisation might occur or what further escalation would mean for their operations.",
+      "link_url": "https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "EIA Data",
+      "headline": "EIA Reports 7.2M-Barrel Crude Draw — US Stocks Fall to 404.5M bbl, 6% Below Five-Year Seasonal Average",
+      "body": "The EIA's weekly petroleum status report for the week ending July 24 showed US commercial crude stockpiles falling 7.2 million barrels to 404.5 million barrels — roughly 6% below the five-year seasonal average. Refinery inputs averaged 17.3 million bpd at 97.2% of operable capacity, with facilities running at near-maximum throughput. Distillate stocks posted a modest 1.4 million barrel build; gasoline stocks rose 0.8 million barrels. The large crude draw reflects high domestic throughput against severely curtailed Hormuz import flows, continuing a trend that has underpinned the structural price floor throughout the conflict.",
+      "link_url": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Supply Corridor",
+      "headline": "Kazakhstan CPC Terminal Resumes Black Sea Exports After Drone Strike — Ceyhan Contamination a Secondary Wrinkle",
+      "body": "Kazakhstan's Caspian Pipeline Consortium terminal at Novorossiysk resumed operations on July 27 following a suspension caused by drone strikes on the <em>SEAMAJESTY</em> and <em>MILOS</em> tankers, with Tengizchevroil loading restarting almost immediately. The resumption restores roughly 1 million bpd of Kazakh supply after the shutdown had halved output from a normal 2.16 million bpd. Commerzbank flagged that chloride contamination also triggered inspections at Turkey's Ceyhan port, affecting Azerbaijani and Kazakhstani flows of approximately 560,000 bpd combined — though both channels have since resumed. The episode illustrates how the energy-infrastructure disruption campaign has extended from the Persian Gulf into the Black Sea.",
+      "link_url": "https://www.fxstreet.com/news/temporary-reduction-in-oil-exports-from-kazakhstan-commerzbank-202507251101",
+      "link_text": "Read FXStreet"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 2 — Today",
+      "name": "OPEC+ JMMC Meeting — September Quota Decision",
+      "impact": "The Joint Ministerial Monitoring Committee convenes today to set September output levels in the immediate aftermath of the July 31 IRGC tanker strike. The committee can press ahead with another 188k bpd hike (market neutral to mildly bearish on paper), pause (explicitly bullish — signals acknowledgment of the Hormuz physical constraint), or accelerate (bearish on paper but likely self-defeating). With Brent at $87.93 and Hormuz throughput still at 11% of baseline, the market has already signalled it wants clarity on whether the group is producing for a corridor it does not control. Watch the language around 'market conditions' and 'hike flexibility' for the real signal.",
+      "market_impact": "Directional: ±$3–5/bbl; the week's single most impactful scheduled catalyst.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 5 — Wednesday",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Aug 1)",
+      "impact": "The first August inventory print tests whether the 7.2 million barrel crude draw (week ending July 24) is a structural pattern or a one-week anomaly. Refinery runs are elevated and Hormuz import flows remain severely curtailed, with the July 31 tanker strike further disrupting corridor confidence. A second consecutive large draw would materially strengthen the bull case and likely push Brent toward $92–$94. A surprise build would need to be explained — most likely SPR releases or a sudden demand softening — to carry significant bearish weight in this tape.",
+      "market_impact": "±$2–3/bbl; sets the near-term supply narrative heading into the following week.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 2–15",
+      "name": "Hormuz Transit Recovery — Daily Throughput Tracking After July 31 IRGC Strike",
+      "impact": "The July 31 tanker strike resets expectations: the strait is handling approximately 14 transits per day (roughly 11% of its 88–100 pre-war baseline), and the latest incident confirms that US military escort is not a guaranteed deterrent. Any sustained move above 30–40 transits per day would signal genuine corridor normalisation. Another tanker strike would likely reset throughput to near-zero and trigger an immediate $8–12/bbl spike. This remains the single most important real-time data series in the oil market — more significant than any scheduled macro event.",
+      "market_impact": "Structural — governs the credibility and pace of any supply recovery narrative.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US-Iran Ceasefire Diplomacy — Any Signal of Renewed Talks After July 31 Strike",
+      "impact": "Trump's July 27 indication that ceasefire talks could resume was the most positive diplomatic signal in weeks — and was followed four days later by the IRGC striking US-escorted tankers. Any confirmation of renewed back-channel contact would begin deflating the geopolitical risk premium. A full resumption of the June 15-style framework talks would likely push Brent back toward the low $80s. The absence of any diplomatic signal through mid-August points to an entrenched standoff and sustained support for the high $80s–$90s range. Silence is itself a price signal.",
+      "market_impact": "Binary and large: −$10–15/bbl on genuine diplomacy; +$8–12/bbl on escalation.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 1–15",
+      "name": "Damietta LNG Hub — Damage Assessment and Export Restart Timeline",
+      "impact": "Egypt's assessment of the Damietta terminal, struck by a drone on July 29, continues. European gas buyers who had rerouted demand through Damietta as a Hormuz bypass are watching closely. A significant curtailment in export capacity would close one of the few remaining bypass routes for LNG flows, putting upward pressure on European gas prices and indirectly supporting crude as power generators seek alternative fuels. With Henry Hub at ~$2.75 and suppressed, a confirmed Damietta supply disruption would likely push natural gas toward $3.25–$3.50.",
+      "market_impact": "±$1.50–$3/MMBtu natural gas; indirect crude support if bypass capacity is curtailed.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "August 2 opens with the oil market exactly where July's extraordinary arithmetic left it: structurally bid, geopolitically charged, and waiting for a catalyst that does not yet exist. The July 31 IRGC tanker strikes were not a surprise — they were the logical terminus of a month that opened with US airstrikes on Iran, saw Brent briefly touch $100, watched a ceasefire signal briefly deflate the premium, and then reasserted the supply-shock floor when diplomacy went quiet. The Strait of Hormuz is handling <strong>14 tanker transits per day</strong> against a pre-war baseline of 88–100. That is not a market experiencing supply disruption. That is a market experiencing a supply <em>removal</em> — and the July 31 incident confirmed that US military escort has not changed that calculus.",
+      "<strong>My read on today's OPEC+ meeting:</strong> The JMMC meeting is the week's most important scheduled event, and the market's reaction will tell you everything about sentiment. If the committee pauses the hike cycle — acknowledging that quota increases are not translating into delivered barrels when the delivery corridor is contested at gunpoint — that is unambiguously bullish: Brent tests $92–$95 this week. If the committee presses ahead with another 188k bpd September hike, that is market neutral at best; the physical market will ignore it because the barrels cannot reach customers. The third scenario — acceleration — signals overconfidence and would likely attract selling above $91. My base case: <strong>a pause, or a heavily qualified hike with language explicitly tying further increases to Hormuz normalisation.</strong>",
+      "<strong>The bigger picture after July:</strong> Big Oil's record earnings season puts the structural dynamics in the sharpest possible relief. Chevron's $12.1 billion quarterly record and ExxonMobil's $14.5 billion Q2 net income are not aberrations — they are receipts from a supply shock that the market can now price with quarterly precision. And the CEO commentary was the most telling signal of the week: <em>no demand destruction at current prices</em>. The global consumer is absorbing $85–$90 crude without capitulating. That removes one of the few credible bearish arguments still standing — that high prices would self-correct via demand erosion. <strong>They are not. The market is tight, the consumer is paying, and the supply corridor is still closed.</strong>",
+      "My call: <strong>Brent $85–$93 this week</strong>, biased toward the upper half following OPEC+'s likely pause and the continued Hormuz physical constraint. The floor — anchored by a 6%-below-average inventory reading and 14-per-day Hormuz throughput — is real and tested. The ceiling is the diplomatic variable, and diplomacy was set back by Friday's tanker strikes. <strong>Respect the bid below $86; sell the spike above $93 only with confirmed de-escalation signals from both sides.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme", "tone": "bearish", "pct": 85 },
+      { "name": "Geopolitical Risk", "label": "Very High", "tone": "bearish", "pct": 83 },
+      { "name": "Demand Response", "label": "Resilient", "tone": "neutral", "pct": 60 },
+      { "name": "Hormuz Recovery", "label": "Fractional", "tone": "bearish", "pct": 14 },
+      { "name": "OPEC+ Effectiveness", "label": "Constrained", "tone": "neutral", "pct": 29 },
+      { "name": "Diplomatic Momentum", "label": "Set Back", "tone": "bearish", "pct": 16 }
+    ],
+    "call": {
+      "label": "This Week's Price Call — Brent Crude",
+      "value": "$85 – $93",
+      "bias": "Bias: Upper Half of Range — OPEC+ Pause Expected; Hormuz Tail Intact ▲"
+    },
+    "watch_levels": {
+      "resistance": "$91–$93",
+      "support": "$85–$87",
+      "breakout": ">$95 (new Hormuz escalation or confirmed OPEC+ pause)",
+      "breakdown": "<$82 (ceasefire diplomacy resumes / large inventory build)"
+    }
+  }
+}
