@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Monday, August 3, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE ~$83.87 ▼ -5.0% — TRUMP CALLS OFF IRAN STRIKES; DIPLOMACY PIVOT PULLS WAR PREMIUM &nbsp;|&nbsp; WTI CRUDE ~$80.23 ▼ -5.0% — BACK BELOW $81 FOR FIRST TIME SINCE LATE JUNE &nbsp;|&nbsp; NATURAL GAS ~$2.76 ▼ FLAT — DAMIETTA DAMAGE STILL BEING ASSESSED &nbsp;|&nbsp; TRUMP SUNDAY NIGHT: U.S. FORCES STOOD DOWN FROM 'MASSIVE ATTACK' ON IRAN &nbsp;|&nbsp; ALLIES INCLUDING SAUDI ARABIA URGED DIPLOMATIC PATH — NEW TALKS EXPECTED TODAY &nbsp;|&nbsp; OPEC+ JMMC MET YESTERDAY — SEPTEMBER QUOTA DECISION RESULT PENDING CONFIRMATION &nbsp;|&nbsp; BRENT 7-DAY ROUNDTRIP: $87.93 CLOSE → $81.55 INTRADAY LOW → $83.87 &nbsp;|&nbsp; TURKEY-IRAQ KIRKUK-CEYHAN PIPELINE DEAL SIGNED — 750,000 BPD MINIMUM GUARANTEED&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Monday, August 3, 2026<br>
+      Vol. I — No. 6<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$83.87</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$80.23</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">~$83.87</div>
+      <div class="price-change down">▼ −5.0% (Trump diplomacy pivot pulls war premium)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$80.23</div>
+      <div class="price-change down">▼ −5.0% (Back below $81 for first time since late June)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent — July Peak</div>
+      <div class="price-val">~$100+</div>
+      <div class="price-change down">▼ July 23 intraday high; down >$16 since</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">US Crude Stocks (Jul 24)</div>
+      <div class="price-val">404.5M bbl</div>
+      <div class="price-change down">▼ −7.2M bbl draw (6% below 5-yr avg)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">~$2.76</div>
+      <div class="price-change down">▼ Flat — Damietta LNG assessment ongoing</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">Breaking — The Second Peace Pivot: Trump Calls Off Iran Strike, Crude Plunges 5–7%</div>
+      <h3>Trump Cancels Planned 'Massive Attack' on Iran — Oil Slides 5–7% as Diplomatic Talks Set to Resume Monday</h3>
+      <p>Two days after Iran's IRGC struck two US-escorted tankers in the Strait of Hormuz to close out July, President Trump made a stunning reversal: aboard Air Force One on Sunday night, he announced he had ordered US forces to stand down from what he called a planned <strong>"massive attack" on Iranian infrastructure.</strong> Trump said allies in the Middle East — including Saudi Arabia — had urged a diplomatic path instead. New talks are expected to begin Monday. The market delivered its instant verdict: Brent crude for October fell as much as <strong>7.3% intraday to $81.55</strong> before recovering toward $83.87, while WTI touched $79.62 before steadying near $80. The session opened with one of the sharpest single-day drops since June's peace deal, when a framework agreement briefly pushed crude to a two-month low.</p>
+      <p>The context for Trump's pivot is the extraordinary arithmetic of July. In just 31 days, Brent rose approximately <strong>21%</strong> — the strongest monthly advance since early 2022 — driven entirely by Hormuz supply removal: tanker throughput collapsed to roughly 11–14 vessels per day against a pre-war baseline of 88–100. Brent briefly touched $100 per barrel on July 23 following reports of Iranian strikes on Kuwaiti infrastructure. By late July, Tehran had signalled willingness to halt attacks if the United States reciprocated; Friday's IRGC tanker strike had appeared to extinguish that signal — until Trump's Sunday statement reopened it. The swing from July 31's $87.93 close to Monday's intraday low of $81.55 is a <strong>$6.38 two-day round trip</strong> and captures exactly the geopolitical volatility that has defined 2026 crude.</p>
+      <p>Market participants are pricing cautious optimism, not euphoria. The June 15 framework — which saw Brent drop into the low $80s only for implementation failures to push prices back toward $90 — taught traders that diplomatic announcements and physical oil delivery are two different things. The Strait of Hormuz still contains Iranian-laid mines whose clearance Congress was told could take up to six months. Gulf production fields shut in during the conflict must be restarted. And the IRGC's July 31 tanker strike is only two days old. <strong>The war premium is deflating again, but the supply physics have not changed overnight.</strong></p>
+      <a href="https://www.nbcnews.com/world/iran/oil-prices-slide-us-iran-pause-strikes-trump-diplomacy-hormuz-red-sea-rcna589383" class="read-link" target="_blank">Read NBC News →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">−7.3%</div>
+        <div class="stat-desc">Brent's Intraday Low — Fell to $81.55 Before Recovering; WTI Briefly Below $80 on Trump Diplomacy Pivot</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$6.38</div>
+        <div class="stat-desc">Brent's Two-Day Round Trip: July 31 Close of $87.93 to Monday Intraday Low of $81.55</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">+21%</div>
+        <div class="stat-desc">Brent's July Gain — Strongest Single Month Since Early 2022; Now Partially Reversed by Diplomacy Signal</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~6 mo</div>
+        <div class="stat-desc">Congress's Estimate for Full Hormuz Mine-Clearing — Underscoring That Diplomacy Alone Does Not Restore Barrels</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Diplomacy</div>
+      <h4>Trump Calls Off Iran Strike, Orders Forces to Stand Down — New Talks Expected Monday</h4>
+      <p>President Trump said Sunday night he cancelled a planned 'massive attack' on Iranian infrastructure after allies including Saudi Arabia urged a diplomatic path. New US-Iran diplomatic contacts are expected to begin Monday. The announcement reverses the military escalation posture that followed the July 31 IRGC tanker strikes and triggered the sharpest single-day crude price drop since June's initial peace deal. Brent fell as much as 7.3% to $81.55 intraday before partially recovering; WTI slid to $79.62. The market is treating the move as a serious de-escalation signal — but one still requiring verification through follow-through talks.</p>
+      <a href="https://www.nbcnews.com/world/iran/oil-prices-slide-us-iran-pause-strikes-trump-diplomacy-hormuz-red-sea-rcna589383" class="read-link" target="_blank">Read NBC News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Market Reaction</div>
+      <h4>Oil Slumps 5–7% as Trump Holds Off Iran Attack — Brent Logs Biggest One-Day Drop Since June</h4>
+      <p>Brent crude for October delivery plunged as much as 7.3% to $81.55 per barrel — the sharpest single-session drop since Trump declared the June 15 US-Iran peace deal 'complete' — before recovering toward $83.87 by mid-session. WTI briefly crossed below $80 for the first time since late June. The move erases roughly one week of July's war-premium build in a single session, leaving Brent down approximately $4 from Friday's settlement. RBOB gasoline fell approximately 2.4%, providing a modest tailwind for US consumers. Bloomberg noted that July's 20%-plus surge — the largest monthly gain since March — is now being partially unwound as diplomacy re-enters the frame.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-08-02/latest-oil-market-news-and-analysis-for-aug-3" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Supply Corridor</div>
+      <h4>Turkey and Iraq Sign One-Year Kirkuk-Ceyhan Pipeline Deal — 750,000 bpd Minimum as Hormuz Alternative</h4>
+      <p>Turkish state firm BOTAS and Iraqi state companies SOMO and NOC signed a one-year agreement on August 1 to maintain flow through the 986-kilometre Kirkuk-Ceyhan pipeline at a minimum guaranteed capacity of 750,000 barrels per day. The deal has become strategically critical because Iran's Strait of Hormuz closure slashed Iraq's monthly oil revenues from approximately $6 billion to under $2 billion — making the Mediterranean export route through Turkey a lifeline for Baghdad's budget. The agreement represents one of the few Hormuz-bypass corridors that has actually expanded during the conflict, providing a measure of supply-chain resilience for a producer otherwise trapped behind an Iranian military chokepoint.</p>
+      <a href="https://www.aljazeera.com/news/2026/8/1/turkiye-and-iraq-sign-one-year-oil-pipeline-deal-amid-global-shift" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">European Energy</div>
+      <h4>Hungary's Paks Nuclear Plant Faces Full Shutdown After Danube Hits Record Low — First in 44 Years</h4>
+      <p>Hungary's Paks nuclear plant — which provides nearly half the country's electricity — is bracing for a complete shutdown after the Danube River fell to record low levels and disabled cooling pumps across all four reactor blocks. Prime Minister Péter Magyar warned of an impending national energy crisis, and neighbouring countries are assessing reserve capacity availability. The episode underscores Europe's compounding energy vulnerability: with Middle East supply disruptions already stressing global crude and gas markets, the loss of a major nuclear baseload source would force Hungary toward heavier fossil-fuel imports at elevated prices. The Paks situation is the most significant European energy infrastructure threat since the 2022 gas crisis.</p>
+      <a href="https://www.nbcnews.com/world/europe/hungary-braces-full-shutdown-nuclear-plant-danube-river-hits-record-lo-rcna590347" class="read-link" target="_blank">Read NBC News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Earnings</div>
+      <h4>ExxonMobil Earns $14.5B, Chevron Posts Record $12.1B, Shell Logs Best Quarter in Four Years</h4>
+      <p>The full picture from Big Oil's Q2 2026 earnings season confirms the war-premium dividend: ExxonMobil earned approximately $14.5 billion (~$160 million per day), Chevron posted its largest quarterly profit ever at $12.1 billion, and Shell reported $9.8 billion — its best result in four years. Together, the three companies generated more than $404 million per day during the quarter when WTI averaged $92.45 per barrel. Chevron CEO Mike Wirth said demand destruction is 'not obvious to me at any significant scale,' removing one of the few credible bearish arguments: that elevated prices would self-correct through consumption collapse. Congressional Democrats and European lawmakers are calling for windfall taxes; executives declined to forecast Hormuz normalisation timelines.</p>
+      <a href="https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>OPEC+ JMMC Held September Quota Review Yesterday — Market Awaits Outcome as Diplomacy Rewrites the Calculus</h4>
+      <p>The OPEC+ Joint Ministerial Monitoring Committee convened Sunday (August 2) to set September 2026 output levels, meeting hours after the July 31 IRGC tanker strikes had pushed Brent to $87.93 and before Trump's Sunday-night diplomatic announcement reshuffled the entire price deck. The committee faced a binary choice: press ahead with another 188,000 bpd September hike — the sixth consecutive monthly increase — or pause to acknowledge that Hormuz quota paper is not translating into delivered barrels. The result of that meeting was not yet publicly confirmed as of early Monday trading, but in a market down 5–7% on diplomacy, any September hike announcement is likely to be met with a shrug: the corridor question is now back in diplomatic hands, not supply-quota hands.</p>
+      <a href="https://www.worldoil.com/news/2026/7/5/opec-to-raise-oil-production-by-188-000-bpd-in-august/" class="read-link" target="_blank">Read World Oil →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Aug 3 — Today</td>
+        <td>
+          <div class="event-name">New US-Iran Diplomatic Contacts Begin — First Formal Touch Since July 31 IRGC Tanker Strikes</div>
+          <div class="event-impact">The most binary event of the week: do the diplomats actually meet, and do they produce any language pointing toward a ceasefire resumption or Hormuz reopening timeline? A confirmed meeting with positive framing extends today's selloff and tests Brent's support in the low $80s. Any Iranian walk-back — or a new IRGC maritime action — resets the clock and triggers an immediate $8–12/bbl spike. The asymmetry favours the upside tail because the physical constraints (mines, idled fields, damaged infrastructure) are unchanged regardless of the diplomatic signal.</div>
+        </td>
+        <td>Binary: −$4–6/bbl on constructive talks; +$8–12/bbl on breakdown or new IRGC action.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 5 — Wednesday</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report (Week Ending August 1)</div>
+          <div class="event-impact">The first post-IRGC-tanker-strike inventory print: does the structural crude-draw trend hold? Week ending July 24 showed a 7.2 million barrel draw with stocks at 404.5 million barrels, 6% below the five-year average. If the week ending August 1 shows another large draw — consistent with 97%-plus refinery utilisation against severely curtailed Hormuz imports — the physical market is signalling it does not yet believe the diplomatic pivot. A surprise build would be the first meaningful challenge to the supply-tightness narrative and could accelerate today's selloff.</div>
+        </td>
+        <td>±$2–4/bbl; sets the direction of next week's trade.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 3–15</td>
+        <td>
+          <div class="event-name">Hormuz Throughput — Daily Transit Count After July 31 IRGC Strike</div>
+          <div class="event-impact">The single most important real-time data series in the oil market. Pre-war baseline: 88–100 tanker transits per day. Current: approximately 14 per day. Trump's diplomatic announcement does not move a single mine or restart a single shut-in field. Any sustained move in Hormuz throughput above 30–40 transits per day signals genuine operational de-escalation — that is the number the physical market needs to see before it prices a real supply recovery. Another IRGC maritime action at any point in August would overwhelm all diplomatic messaging and push Brent back above $90.</div>
+        </td>
+        <td>Structural — the real-time signal that governs whether the diplomatic discount holds.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 3 (pending)</td>
+        <td>
+          <div class="event-name">OPEC+ JMMC — September Quota Decision Confirmation</div>
+          <div class="event-impact">Yesterday's JMMC meeting set September production levels in the context of a Brent price that was $87.93 at close of play — but the market has since moved 5% lower on Trump's diplomatic pivot. A pause in the hike cycle announced today would normally be bullish, but in a market down 5–7% on de-escalation, a pause signals the group is reacting to the physical Hormuz constraint rather than directing it. A sixth consecutive 188k bpd hike would be seen as paper noise. The real OPEC+ question for August is whether member-state revenues can survive a sustained return to the low $80s — and whether the group blinks before crude does.</div>
+        </td>
+        <td>±$2–3/bbl; secondary to the diplomatic signal but confirms the supply-side posture.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 3–31</td>
+        <td>
+          <div class="event-name">Deal Implementation Timeline — Hormuz Mine-Clearing and Field Restarts</div>
+          <div class="event-impact">If today's diplomacy produces an agreement, the implementation clock starts — and it runs through the same gauntlet as the June 15 framework: full mine-clearance of the Strait (Congress was told up to six months), restarting Gulf production fields shut in for months, and repairing refineries, terminals and pipelines damaged by strikes. The lesson of June-July is that an announcement can compress the war premium in hours; bringing actual barrels back takes the better part of a year. The calendar risk runs in both directions: faster mine-clearing is bearish for prices; any field-restart incident is bullish. Watch US Central Command statements on mine-clearing progress as the leading physical indicator.</div>
+        </td>
+        <td>Governs the multi-month price path; each week of confirmed progress is worth $2–4/bbl of structural downside.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Monday, August 3, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Oil markets opened Monday with one of the most disorienting price sessions of a year that has been nothing but disorienting price sessions. Two days after the IRGC struck US-escorted tankers in the Strait of Hormuz — cementing July's 21% run as the strongest monthly advance since early 2022 — President Trump announced he had called off a planned massive attack on Iran. Brent fell 7.3% intraday to $81.55 before recovering toward $83.87. WTI briefly broke below $80. <strong>The war premium, which it took all of July to build, gave back nearly a third of itself in a single overnight session.</strong> That is the geometry of a geopolitical-risk trade in a market where the asset and the geopolitics move faster than the underlying supply physics.</p>
+        <p><strong>My read on today:</strong> This is the same trade as June 15, but with the market older and wiser. In June, Brent fell to the low $80s on Trump's 'deal complete' declaration, then spent six weeks clawing back toward $90 as implementation failed and the IRGC resumed attacks. The setup today is structurally identical: a diplomatic announcement, no mine-clearing, no field restarts, no change to the 14-transits-per-day Hormuz reality — just a statement. What's different is that both sides have since demonstrated a willingness to use military force within days of diplomatic overtures, which means the credibility window is shorter and the scepticism discount is already priced in. <strong>The selloff is real and the diplomacy may be real — but the floor is also real.</strong> Stocks at 404.5 million barrels, 6% below the seasonal average, do not lie.</p>
+        <p><strong>The bigger picture:</strong> Big Oil's record Q2 earnings season — Exxon at $14.5 billion, Chevron at a company-record $12.1 billion, Shell at its best quarter in four years — provides the structural anchor. These numbers reflect Q2 averages when WTI was running at $92.45. If Trump's diplomatic pivot collapses the war premium to the mid-$70s, the earnings picture for Q3 changes materially, and the Permian Basin's role as the critical swing producer reasserts itself. But if diplomacy again proves to be an announcement without implementation — as June demonstrated — the Q3 print will look a great deal like Q2. <strong>The oil market is in a credibility-testing mode, and the test runs on weeks, not hours.</strong></p>
+        <p>My call: <strong>Brent $79–$88 today</strong>, with the bias firmly toward the lower half on initial diplomacy optimism — but with the tail risk emphatically to the upside. Any IRGC action, Iranian official pushback on the talks, or breakdown in the US-Iran contact today sends Brent back above $90 before the New York close. <strong>Respect the diplomatic signal but do not front-run the physics. The Strait of Hormuz is still mined, the fields are still shut, and the history of this conflict says never to price the press release as the policy.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">High — Easing</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:72%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#f0a500">Falling (for Now)</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:60%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#f0a500">Resilient</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:60%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Recovery</span><span style="color:#e05252">Fractional</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:14%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diplomatic Momentum</span><span style="color:#5cb85c">Reviving</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:44%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Deal Credibility</span><span style="color:#f0a500">Unproven</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:35%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$79 – $88</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Lower Half on Diplomacy — Tail Risk Up If Talks Break Down ▼</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$86–$88 (Friday settlement zone; where shorts get nervous)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$79–$81 (June low-$80s floor; mine-clearing lag discount)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$92 (talks fail / new IRGC maritime action)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$77 (confirmed mine-clearing progress + formal ceasefire framework)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Monday, August 3, 2026</span>
+  <span>Sources: Reuters, Al Jazeera, NBC News, NPR, CNBC, Bloomberg, ABC News / AP, World Oil, EIA, OilPrice.com</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
