@@ -1,0 +1,156 @@
+{
+  "date_long": "Wednesday, August 5, 2026",
+  "date_slug": "aug05-2026",
+  "volume": "Vol. I — No. 8",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters, Bloomberg, CNBC, Al Jazeera, Japan Times, Axios, OilPrice.com, ABC News, EIA, IEA",
+
+  "ticker": [
+    "BRENT CRUDE ~$79.50 ▼ -5.1% — DROPS BELOW $80 FOR FIRST TIME SINCE JULY 13; TWO-SESSION TOTAL DECLINE EXCEEDS 10%",
+    "WTI CRUDE ~$75.77 ▼ -5.5% — BELOW $76 AND AT A THREE-WEEK LOW AS HORMUZ CORRIDOR DEAL MOVES TOWARD SIGNING",
+    "NATURAL GAS ~$2.73 ▼ -1.4% — BROADER ENERGY COMPLEX SELLS OFF ALONGSIDE CRUDE AS RISK PREMIUM UNWINDS",
+    "BESSENT ON CNBC: 'WE MAY HAVE A DEAL TODAY OR TOMORROW' — QATAR CONFIRMS INTERIM PROPOSAL DRAFTED; IRAN LEADERSHIP APPROVES",
+    "INDIA-FLAGGED TANKER SINKS IN RED SEA AFTER PROJECTILE STRIKE; SEPARATE PROJECTILE HITS VESSEL IN HORMUZ STRAIT",
+    "EIA WEEKLY INVENTORY REPORT: SURPRISE CRUDE BUILD — FIRST IN SIX WEEKS — AS CUSHING RISES AND DIPLOMATIC OPTIMISM TEMPERS BUYING",
+    "BRENT 3-SESSION TRACK: $87.93 CLOSE FRI → $84.10 TUE CLOSE → ~$79.50 WED — TOTAL DECLINE ~$8.43 (-9.6%)",
+    "RUBIO ECHOES BESSENT; TRUMP EXTENDS IRAN DEADLINE RATHER THAN TRIGGERS STRIKES — MILITARY OPTION PRESERVED BUT PARKED"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$79.50", "change": "▼ −5.1% — First Close Below $80 Since July 13; Deal Optimism Accelerates Selloff", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$75.77", "change": "▼ −5.5% — Three-Week Low as Hormuz Corridor Agreement Deemed Imminent", "direction": "down" },
+    { "label": "Brent — Friday-to-Wednesday Decline", "value": "−$8.43", "change": "▼ −9.6% From Friday's $87.93 Close — Steepest Multi-Session Drop Since June 'Deal Complete'", "direction": "down" },
+    { "label": "US Crude Stocks (Wk Jul 31, EIA)", "value": "~406M bbl", "change": "▲ Surprise Build — First in Six Weeks; Cushing Rose ~2.4M bbl; Prior Wk Was 7.2M bbl Draw", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.73", "change": "▼ −1.4% — Broader Energy Complex Risk-Off Alongside Crude", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Deal Window Opens — Bessent Names 24 Hours; Qatar Drafts Proposal; Iran Leadership Approves",
+    "headline": "'We May Have a Deal Today or Tomorrow': Oil Plunges Below $80 as Iran Approves Hormuz Corridor Plan, Qatar Confirms Draft Proposal, Bessent Names a 24-Hour Window",
+    "paragraphs": [
+      "The Hormuz peace trade entered its most concrete phase yet on Wednesday, as three independent confirmation signals converged to price in an imminent deal. Treasury Secretary Scott Bessent told CNBC Tuesday that <strong>\"there is a chance we may have a deal today or tomorrow to open the strait and move towards a more normalized position,\"</strong> adding that \"hundreds of ships are waiting to go out.\" Secretary of State Marco Rubio echoed the language. Qatar, serving as a key intermediary, confirmed that an interim proposal had been drafted and that both Washington and Tehran were signaling progress. Most decisively, a US official and a regional source told Reuters that Iranian leadership had <strong>completed its internal approval process</strong> on Tuesday. Oil responded without hesitation: Brent plunged more than 5% to approximately $79.50 per barrel — its first breach of the $80 threshold since July 13 — while WTI fell 5.5% to $75.77, both benchmarks now down more than 10% over two sessions.",
+      "The structure taking shape is a <strong>60-day temporary arrangement between Oman and Iran</strong> to establish a combined safe-shipping corridor through the Strait of Hormuz — merging Oman's southern passage with Iran's northern transit lane into a single round-trip corridor. This is not a full Hormuz reopening, which would require a US-Iran ceasefire agreement and mine-clearing operations that US commanders have told Congress could take up to six months. Instead, it is an operational workaround: a managed partial solution that could restore incremental commercial navigation without dissolving the broader conflict. The diplomatic consensus supporting it is unusually broad — Qatar drafted the proposal, Saudi Arabia and the UAE reportedly urged Trump last weekend to delay strikes to allow the corridor talks to proceed, and Oman has been directly mediating the technical parameters throughout. Trump extended his Iran deal deadline rather than authorising new strikes, preserving military optionality while the corridor agreement matures.",
+      "Two maritime incidents on Tuesday-Wednesday complicated the picture without fully derailing it. The Indian-flagged cargo vessel <strong>MSV Faize Noore Oliya</strong>, carrying oil from Saudi Arabia, sank in the Red Sea off Yemen after a projectile strike approximately 13 nautical miles off Hodeidah — all 14 crew members were rescued. Separately, <strong>an unknown projectile struck a cargo ship inside the Strait of Hormuz</strong> itself on Tuesday, with no party claiming responsibility. The EIA's weekly petroleum status report, released Wednesday, added a further unexpected variable: US commercial crude oil inventories posted a <strong>surprise build</strong> — the first in six weeks — as Cushing, Oklahoma rose and diplomatic optimism tempered the pace of spot crude purchasing, even while gasoline and distillate stocks remained approximately 6–9% below their five-year seasonal averages. The convergence of a deal-pricing market, active maritime risk, and a cracking tightness thesis defines Wednesday's session."
+    ],
+    "link_url": "https://www.japantimes.co.jp/news/2026/08/05/world/politics/us-hormuz-deal-ship-red-sea/",
+    "link_text": "Read Japan Times",
+    "stats": [
+      { "num": "'Today or Tomorrow'", "desc": "Bessent's CNBC Language for Hormuz Corridor Deal Timing — Qatar Confirmed Interim Proposal; Iran Leadership Completed Approval" },
+      { "num": "−9.6%", "desc": "Brent's Two-Session Decline From Friday's $87.93 Close — Steepest Multi-Session Drop Since the June 15 'Deal Complete' Announcement" },
+      { "num": "60 days", "desc": "Duration of the Proposed Temporary Oman-Iran Hormuz Corridor; Extendable; Does Not Require a US-Iran Ceasefire or Mine Clearance" },
+      { "num": "First Build in 6 Wks", "desc": "EIA Aug 5 Crude Inventory Surprise — Cushing Rose ~2.4M bbl; Prior Week Had Shown 7.2M bbl Draw at 404.5M Barrels" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Bessent: 'We May Have a Deal Today or Tomorrow' — Rubio Agrees; Qatar Confirms Interim Proposal; Iran Leadership Has Approved",
+      "body": "Treasury Secretary Scott Bessent told CNBC on Tuesday that 'there is a chance we may have a deal today or tomorrow to open the strait and move towards a more normalized position in this conflict,' adding that 'hundreds of ships are waiting to go out.' Secretary of State Rubio separately signalled the same imminence. Qatar — which has served as an intermediary throughout the conflict — confirmed that an interim proposal had been drafted and that both Washington and Tehran were indicating progress. A US official and a regional source told Reuters that Iranian leadership had completed its internal approval process on Tuesday. The deal under discussion is a 60-day temporary Oman-Iran combined Hormuz shipping corridor, which Iran's foreign ministry acknowledged is being directly negotiated with Oman — avoiding the US-Iran direct-contact question that has complicated every prior framework.",
+      "link_url": "https://www.cnbc.com/2026/08/04/bessent-says-there-may-be-deal-tuesday-or-wednesday-to-open-strait-of-hormuz-with-freedom-of-movement.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Below $80 for First Time Since July 13 — Two-Session Decline Exceeds 10% From Friday's Close",
+      "body": "Brent crude fell more than 5% on Wednesday to approximately $79.50 per barrel — its first breach of the $80 threshold since July 13, before the most recent escalation cycle repriced the full Hormuz premium. WTI fell to $75.77, down 5.5%. Combined with Monday's 5% decline, Brent has shed more than $8.40 per barrel — roughly 9.6% — in just two sessions from Friday's $87.93 pre-announcement close. Bloomberg's August 5 market note reported that oil was 'holding a two-day drop on signs of progress toward a Hormuz deal,' with analysts noting that the market was pricing the deal before it was signed — mirroring the June session, but with notably stronger underlying signal quality given multi-party confirmation.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-04/latest-oil-market-news-and-analysis-for-aug-5",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "EIA / Inventory",
+      "headline": "Surprise EIA Crude Build — First in Six Weeks; Cushing Rises as Diplomatic Optimism Tempers Spot Buying",
+      "body": "The EIA's weekly petroleum status report, released Wednesday August 5 for the week ending July 31, showed a surprise build in US commercial crude oil inventories — the first weekly increase in six weeks — as Cushing, Oklahoma hub storage rose approximately 2.4 million barrels and diplomatic optimism reduced the urgency of spot crude purchasing. Gasoline inventories remained approximately 6% below the five-year seasonal average, while distillate stocks were roughly 9% below. The build represents the first credible challenge to the supply-tightness thesis that has underpinned the price floor throughout the Hormuz disruption: if stocks are growing before the corridor is even operational, the physical-market floor may be softer than six weeks of consecutive draws implied. The OilPrice.com headline noted the direct connection: 'US Crude Oil Inventories Build As Washington Talks Up Potential Peace Deal.'",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Build-As-Washington-Talks-Up-Potential-Peace-Deal.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Maritime Risk",
+      "headline": "Indian Tanker Sinks in Red Sea After Attack; Second Vessel Hit in Hormuz Strait — Dual Strikes on Deal Day",
+      "body": "Two separate maritime incidents on Tuesday-Wednesday underscored that the operating environment has not normalised alongside diplomatic signals. The Indian-flagged cargo vessel MSV Faize Noore Oliya, carrying oil from Saudi Arabia, sank in the Red Sea off Yemen after a projectile strike approximately 13 nautical miles off Hodeidah in the Bab al-Mandab — all 14 crew members were safely rescued. The Week and Outlook India reported the ship was blown up by a Yemeni suicide boat; Houthi factions have not claimed responsibility. Separately, an unknown projectile struck a cargo ship inside the Strait of Hormuz itself on Tuesday. The dual incidents — arriving precisely as Bessent named a deal window of 'today or tomorrow' — prevented the market from fully pre-pricing a clean diplomatic outcome and contribute to the dual-reality trade the market is navigating: the paper says deal, the strait says conflict.",
+      "link_url": "https://www.japantimes.co.jp/news/2026/08/05/world/politics/us-hormuz-deal-ship-red-sea/",
+      "link_text": "Read Japan Times"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ September 188,000 bpd Hike Confirmed — Year-End Production Pause Provides Structural Floor for Gradual Hormuz Recovery",
+      "body": "OPEC+'s voluntary-cut bloc confirmed the 188,000 barrel-per-day September output increase, completing the phased rollback of the April 2023 voluntary reductions. Sources previously told Reuters and Bloomberg the group has agreed in principle to pause all further output increases through year-end after September. The significance of the pause has grown sharper as Brent approaches $79: if a Hormuz corridor materialises and barrels begin returning gradually, they will arrive into a market where OPEC+ is holding production flat — limiting the pace of any supply-surplus build and establishing a medium-term floor the market can trade against. The pause does not prevent emergency action if Brent falls below a tolerated floor, which analysts estimate in the mid-$70s for Saudi Arabia's fiscal breakeven.",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Demand / Asia",
+      "headline": "Brent Below $80 Activates Asian Demand Floor — India and China Lift Spot Purchasing as Sub-$80 Trigger Kicks In",
+      "body": "The slide below $80 per barrel activated a well-telegraphed demand-side response from Asian buyers. India and China — which together account for the majority of incremental global oil demand growth in 2026 — have standing guidance from their state refiners to increase spot crude purchases when Brent trades below $80. India has recently overtaken China as the top demand-growth driver, adding approximately 130,000 bpd year-on-year; Indian state refiners including IOC and BPCL had signalled readiness to increase volumes at sub-$80 prices. Global petroleum consumption tracks toward 104.2 million barrels per day for 2026, meaning recovered Hormuz barrels arrive into a market with limited structural slack — the demand floor below $80 historically limits downside to the mid-$70s without a dramatic and sustained throughput normalization.",
+      "link_url": "https://www.axios.com/2026/08/05/us-iran-strait-of-hormuz-deal-nears",
+      "link_text": "Read Axios"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 5 — Today",
+      "name": "Hormuz Corridor Deal Signing — Bessent Named Today or Tomorrow as the Window",
+      "impact": "With Bessent's CNBC statement, Qatar's confirmation of a drafted proposal, and Iranian leadership having completed its approval process, Wednesday is the highest-probability deal-signing window since the conflict began. A formal announcement today converts the paper trade into a physical-market signal and could push Brent toward $74–76 in the afternoon session. If today passes without an announcement, the market will question the credibility of the signals and look for a new timeline — likely triggering a 2–3% reversal toward $82–83. If either maritime incident is attributed to the IRGC or if Iran's hardliners publicly reject the Oman corridor terms, prices snap back above $85 immediately.",
+      "market_impact": "±$5–7/bbl on deal announcement or failure; +$10–15/bbl on confirmed IRGC escalation.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 5–10",
+      "name": "Physical Hormuz Transit Count — First Operational Test of the Corridor",
+      "impact": "A deal announcement is necessary but not sufficient. The market's next trigger is the first confirmed commercial tanker transiting the Oman-Iran combined corridor under the interim arrangement. Pre-war baseline: 88–100 transits per day. Current: approximately 14 per day. A jump to 25–35 transits in the first operational week validates the corridor thesis and would push Brent toward $74–76. Continued suppression at 14 transits despite a 'deal' would mirror the June pattern — prices would begin recovering toward $83–85 within sessions. This transit-count series is the most important single data stream in the global oil market for the next 30 days.",
+      "market_impact": "Structural — governs the medium-term price path above all other variables.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 5 — Ongoing",
+      "name": "Dual Maritime Incidents — Red Sea and Hormuz Strikes Under Investigation",
+      "impact": "The Indian tanker sinking in the Red Sea and the Hormuz projectile strike — both on Tuesday-Wednesday — represent a meaningful escalation of maritime risk during the most sensitive diplomatic window of the conflict. If either is attributed to the IRGC, or if Iran's hardliners launch a fresh strike to disrupt the deal, it would be the single most bullish price catalyst since the original Hormuz closure in late February. The market is trading the 'deal' scenario but is one IRGC press release away from a $10–15 reversal. Attribution by Wednesday afternoon is the session's most critical informational variable.",
+      "market_impact": "Tail risk: +$12–20/bbl on confirmed IRGC escalation; rising probability given timing.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 5–15",
+      "name": "OPEC+ Year-End Pause — Formal Communiqué Still Pending",
+      "impact": "The sources-based indication that OPEC+ will pause all output increases through year-end after September has not been formalised in a public communiqué. A formal statement confirming the freeze would reduce H2 2026 production uncertainty considerably. In a Hormuz corridor scenario, the freeze is the key variable determining whether any supply normalisation becomes a price rout or a gradual adjustment. Watch for delegate comments, particularly from Saudi Arabia and Russia, on whether they would shorten the pause if Brent sustainably breaches $75.",
+      "market_impact": "±$1–3/bbl; primarily relevant for H2 2026 forward curves.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug (ongoing)",
+      "name": "Trump Deadline Extension and 'Wall of Steel' Military Posture",
+      "impact": "Trump extended his Iran deal deadline rather than authorising new strikes — a confidence-building gesture toward the Oman corridor process that preserves military optionality if the corridor fails. The 'decapitation' strike language from Monday's Oval Office session and the 'Wall of Steel' naval blockade remain active policy frameworks. If Iran's hardliners are perceived as sabotaging the corridor deal, Trump's historically low tolerance for perceived betrayal means the tail risk of renewed military action is non-trivial and rising. The market is currently pricing the de-escalation base case; a return to the strikes posture would snap Brent above $90 immediately.",
+      "market_impact": "Tail risk: +$15–25/bbl on confirmed US military action; low probability while corridor talks hold.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Wednesday's oil market is trading the deal before the deal exists. Brent at $79.50 and WTI at $75.77 represent a complete erasure of the past two weeks' war-premium reconstruction — the exact trade the June 15 'deal complete' declaration produced in a single session, and which was fully reversed within six weeks. The difference today is the specificity of the signals: it is not a single presidential announcement from the Oval Office. It is <strong>Bessent naming a 24-hour window on CNBC, Qatar confirming a drafted proposal, and a regional source telling Reuters that Iran's leadership has completed its approval process</strong> — three independent confirmation points from distinct channels, each corroborating the others. The market is treating them as qualitatively superior to anything it has seen since February. <strong>The question is no longer whether the press conference happens. It is whether the corridor moves a tanker.</strong>",
+      "<strong>My read on today:</strong> The Oman-Iran corridor structure is actually more implementable than a full ceasefire — and that is why it is moving faster. It does not require mine-clearing. It does not require a formal US-Iran diplomatic agreement. It requires only Iran's operational consent and Oman's logistical cooperation to designate a combined southern-northern transit lane. If it materialises and tanker transits move from 14 per day to even 30, the supply-tightness thesis takes a serious hit — not a rout, but a structural downward reprice that the EIA build today amplifies: <strong>if stocks are building before the corridor is even operational, the physical floor is softer than six weeks of draws implied. I am revising my near-term supply-tightness read from 'persisting' to 'cracking.'</strong> The mid-$70s, which I treated as a tail scenario for a clean signing last week, is now the central scenario for a working corridor.",
+      "<strong>The bigger picture:</strong> The two maritime strikes — an Indian tanker in the Red Sea and a projectile in the strait itself — are the market's insurance policy against over-confidence. Neither has been claimed. Neither has escalated. But they demonstrate that the physical operating environment remains adversarial even as diplomatic calendars fill with deal language. The Oman corridor makes maritime insurance premiums affordable again; it does not guarantee safe passage without active security arrangements on the water. I am watching for two things Thursday: (1) the first transit-count data point under any new corridor arrangement, and (2) whether either incident is attributed to the IRGC — because that attribution changes the entire diplomatic calculus before ink dries on any agreement. <strong>The deal trades like a deal. The strait trades like a conflict. Both are true simultaneously.</strong>",
+      "My call: <strong>Brent $74–$82 today</strong>, bias lower toward a deal announcement, with violent upside tail if either maritime incident escalates or the Oman corridor talks stall. The market has moved aggressively to price an imminent deal — a clean corridor announcement pushes Brent toward $74–76; failure to deliver by Thursday's Asia open triggers a sharp reversal toward $83–85. <strong>This is the highest-conviction directional session of the past six weeks. Respect the signals. But remember that the last time this many credible sources confirmed a 'complete' deal, oil was back at $88 within a month. The corridor must move tankers, not press releases.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Cracking — EIA Build Surprises", "tone": "neutral", "pct": 42 },
+      { "name": "Geopolitical Risk", "label": "Falling Fast — Corridor Deal Imminent", "tone": "bullish", "pct": 26 },
+      { "name": "Demand Response", "label": "Floor Forming — Asian Buyers Active Below $80", "tone": "neutral", "pct": 58 },
+      { "name": "Hormuz Recovery", "label": "Highest Probability Yet — 24-Hour Window", "tone": "bullish", "pct": 72 },
+      { "name": "Diplomatic Momentum", "label": "Multi-Party Confirmed — Strongest Signal This Year", "tone": "bullish", "pct": 85 },
+      { "name": "Deal Credibility", "label": "High — Bessent + Qatar + Iran Approval", "tone": "bullish", "pct": 74 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$74 – $82",
+      "bias": "Bias: Lower on Corridor Deal Announcement — Snap-Back Risk if Maritime Escalation ▼"
+    },
+    "watch_levels": {
+      "resistance": "$83–$85 (Tuesday equilibrium; where prices snap back if deal fails to materialise)",
+      "support": "$77–$79 (current deal-pricing band; holds if corridor confirmed but not yet operational)",
+      "breakout": ">$90 (IRGC escalation / Iran hardliners disrupt corridor / new maritime strike claimed)",
+      "breakdown": "<$74 (corridor operational, Hormuz transits sustained above 30/day, EIA draws reverse)"
+    }
+  }
+}
