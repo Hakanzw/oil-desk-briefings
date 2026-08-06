@@ -1,0 +1,156 @@
+{
+  "date_long": "Thursday, August 6, 2026",
+  "date_slug": "aug06-2026",
+  "volume": "Vol. I — No. 9",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters, Bloomberg, CNBC, Al Jazeera, PBS NewsHour, NBC News, EIA, IEA, TradingEconomics",
+
+  "ticker": [
+    "BRENT CRUDE ~$79.10 ▼ -0.44% — HOLDS BELOW $80 FOR SECOND STRAIGHT SESSION AS IRAN-OMAN ROUTING AGREEMENT CONFIRMED BUT NOT YET SIGNED",
+    "WTI CRUDE ~$74.83 ▼ -0.52% — FOURTH SESSION IN DEAL-PRICING BAND; ASIAN BUYERS ACTIVATE SUB-$80 PURCHASING PROGRAMS",
+    "NATURAL GAS ~$2.62 ▼ -21% MONTH-TO-DATE — HENRY HUB AT LOWEST SINCE APRIL AS BROADER ENERGY RISK PREMIUM UNWINDS",
+    "IRAN-OMAN AGREE ON HORMUZ CORRIDOR GEOGRAPHIC COORDINATES — RUBIO: 'PROGRESS, BUT NOT FINALITY'; US TEXT REVIEW IS FINAL GATE",
+    "OPEC JULY OUTPUT RISES 1.16 MB/D TO 19.44 MB/D — LARGEST MONTHLY GAIN SINCE HORMUZ DISRUPTION; IRAQ SOUTHERN EXPORTS JUMP 37%",
+    "ARAMCO Q2 PROFIT: $32.7BN (+33% YOY) — CEO NASSER WARNS CRISIS 'CONTINUES TO AGGRAVATE THE BIGGEST SUPPLY SHOCK IN HISTORY'",
+    "IEA: GLOBAL OIL DEMAND ON TRACK FOR FIRST ANNUAL DECLINE SINCE 2020 AS WAR-ELEVATED PRICES DESTROY CONSUMPTION",
+    "BRENT WEEK-TO-DATE: −10.0% FROM MONDAY OPEN — FULL WAR-PREMIUM ERASURE; NEXT TRADE IS TANKER TRANSIT COUNT, NOT DIPLOMACY"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$79.10", "change": "▼ −0.44% — Holds Below $80 as Iran-Oman Confirm Corridor Route; Deal Pending US Sign-Off", "direction": "down" },
+    { "label": "WTI Crude", "value": "$74.83", "change": "▼ −0.52% — Fourth Session in Deal-Pricing Band; Asian Buyers Absorb the Offer Below $75", "direction": "down" },
+    { "label": "Brent — Week-to-Date Decline", "value": "−10.0%", "change": "▼ From Monday's Open — Full Erasure of the Last Escalation Cycle's War Premium", "direction": "down" },
+    { "label": "US Crude Stocks (Wk Jul 31, EIA)", "value": "407.0M bbl", "change": "▲ +2.5M bbl Build — First in Six Weeks; Physical-Market Tightness Thesis Under Pressure", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$2.62", "change": "▼ −21% Month-to-Date From $3.34 on July 3 — Broader Energy Risk Unwind Extends", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "The Final Gate — Geographic Coordinates Agreed, Washington's Legal Text Review Holds the Line",
+    "headline": "Iran and Oman Confirm Hormuz Corridor Route — Rubio Says 'Progress, Not Finality' as Brent Holds Below $80 for Second Straight Session",
+    "paragraphs": [
+      "The Hormuz corridor deal crossed a critical technical threshold on Thursday as Iran and Oman announced they had <strong>agreed on the precise geographic coordinates</strong> for the new transit route through the strait — converting the framework from a diplomatic concept into an operational specification. Under the emerging 60-day interim arrangement, commercial ships would enter the Persian Gulf via an Iranian-controlled inbound lane and exit via an Omani-controlled outbound lane, with no transit fees during the provisional period. The routing agreement represents the most concrete single step since Qatar confirmed a draft proposal on Wednesday, and traders interpreted it as the last technical precondition to a formal signing. Brent crude dipped a further 0.44% to <strong>$79.10 per barrel</strong>, while WTI declined 0.52% to <strong>$74.83</strong> — continuing to hold in the deal-pricing band that has prevailed since Monday's opening session began erasing the prior week's war-premium reconstruction.",
+      "Washington's posture remained a step behind the operational progress. Secretary of State Marco Rubio offered <strong>\"progress, but not finality,\"</strong> reiterating the core American sticking point: the US refuses to accept any arrangement that leaves Iran with permanent control over, or tolling rights on, the waterway. Iran continues to insist that its sovereign rights over its territorial waters must be explicitly recognized in the text of any corridor agreement. The gap is narrow — both sides are bargaining over the precise legal framing of routing authority, not over whether the corridor exists — but the absence of a US sign-off means Thursday's session is technically a continuation trade rather than a post-signing clearance. President Trump's statement that a deal could come <strong>\"as early as today\"</strong> had not materialized into a joint communiqué before the European close, and traders have learned to treat deal-window language with at least one session of skepticism before pricing it as confirmed.",
+      "The session carried structural significance beyond the immediate diplomatic timeline. OPEC's July output survey, published by Bloomberg, showed total production climbed by <strong>1.16 million barrels per day</strong> to 19.44 mb/d — the largest monthly gain since the Hormuz disruption began in late February — led by Saudi Arabia (+390,000 b/d), Iraq (+460,000 b/d via southern port recovery), and Kuwait (+360,000 b/d). Yet the group remains several million barrels below pre-war levels, meaning a Hormuz corridor would arrive into a market that is already recovering incrementally from the supply side. The IEA's July Oil Market Report cuts across both supply and demand simultaneously: it projects global oil demand will contract by approximately <strong>1 million barrels per day year-on-year</strong> in 2026 — the first annual demand decline since the pandemic year of 2020 — as elevated fuel prices and economic disruption from the Iran war have destroyed consumption at a rate that the supply shock alone cannot fully price away. <strong>Corridor or not, the fundamental picture has shifted: this is no longer a simple supply-shortage story.</strong>"
+    ],
+    "link_url": "https://www.aljazeera.com/news/2026/8/5/iran-oman-us-close-to-hormuz-deal-what-do-they-all-want",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "Route Agreed", "desc": "Iran and Oman Confirm Geographic Coordinates for 60-Day Hormuz Corridor — Last Technical Precondition Before Formal Signing" },
+      { "num": "+1.16 mb/d", "desc": "OPEC July Output Increase — Largest Monthly Gain Since Hormuz Disruption; Led by Saudi Arabia, Iraq, and Kuwait" },
+      { "num": "−1 mb/d", "desc": "IEA 2026 Global Oil Demand Projection vs. 2025 — First Year-on-Year Decline Since COVID-2020; War Has Destroyed Consumption" },
+      { "num": "$32.7bn", "desc": "Aramco Q2 2026 Net Income — Up 33% Year-on-Year on War Premium; CEO Nasser Calls It the 'Biggest Supply Shock in History'" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran and Oman Agree on Hormuz Corridor Coordinates — Washington Reviews Legal Text, Rubio Notes 'Progress, Not Finality'",
+      "body": "Iran and Oman confirmed Thursday that they have agreed on the precise geographic coordinates for the combined transit corridor through the Strait of Hormuz — inbound lane via Iran's northern territorial waters, outbound via Oman's southern passage. The 60-day interim framework includes a toll-free provisional period and is structured to avoid a formal US-Iran diplomatic agreement. Secretary of State Marco Rubio acknowledged 'progress, but not finality,' flagging the persistent sticking point over whether the routing language implies Iranian sovereign control of the waterway. Trump had said a deal could come 'as early as today,' but no joint communiqué was issued before the European close. Multiple sources indicate Washington's text review is the sole remaining gate.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Holds Below $80 for Second Straight Session — 10% Week-to-Date Decline Fully Priced; Next Move Requires Transit Data",
+      "body": "Brent crude settled near $79.10 per barrel and WTI near $74.83 on Thursday — the fourth consecutive session holding within the deal-pricing band that has prevailed since Monday's corridor announcement began erasing the prior week's war premium. Thursday's 0.44% decline signals a market that has largely completed its directional repricing and is now waiting for operational validation: specifically, the first confirmed tanker transit under the new corridor arrangement. Asian demand-side buyers, including Indian and Chinese state refiners with pre-announced sub-$80 purchasing programs, absorbed the physical offer and prevented any capitulation toward the mid-$70s. The price stability itself is a bullish signal — a market that truly doubted the corridor would have retraced more sharply toward $83–85.",
+      "link_url": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "OPEC+ / Supply",
+      "headline": "OPEC July Output Rises 1.16 mb/d to 19.44 mb/d — Largest Monthly Gain Since Hormuz Closure; Iraq's Southern Exports Jump 37%",
+      "body": "Bloomberg's monthly OPEC output survey for July 2026 found total production climbed 1.16 million barrels per day to 19.44 mb/d — the largest single-month gain since the Hormuz disruption began in late February. Iraq's southern port exports jumped 37%; Kuwait reached its highest output level since the conflict started; Saudi Arabia added 390,000 b/d. The group has now approved a fifth consecutive monthly quota increase of 188,000 b/d for August. Despite the recovery, OPEC+ remains several million barrels below pre-war levels, with physical shipping constraints — not quota — governing the pace of restoration. A working Hormuz corridor could accelerate the recovery trajectory significantly, arriving into a market that has already partially adjusted from the supply side.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-04/opec-output-rose-in-july-led-by-gulf-nations-survey-shows",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Earnings / Majors",
+      "headline": "Aramco Profit Jumps 33% in Q2 to $32.7bn — CEO Nasser Warns War 'Continues to Aggravate the Biggest Supply Shock in History'",
+      "body": "Saudi Aramco reported Q2 2026 net income of approximately $32.69 billion, up 33% year-on-year, driven by elevated crude and refined product prices throughout the quarter. CEO Amin Nasser described the Iran war as continuing to 'aggravate the biggest supply shock in history,' noting the world has lost access to more than 2.6 billion barrels of redirected oil since the conflict began. Aramco highlighted its 1,200-km East-West pipeline to the Red Sea as the critical bypass infrastructure enabling it to maintain elevated exports. The results accompanied exceptional earnings across Western majors: ExxonMobil ($14.5bn — highest in four years), Chevron ($12bn — highest in six years), Shell (~$10bn), TotalEnergies (+67%), and BP ($5.73bn) all reported multi-year-high quarterly profits amid the war-premium environment.",
+      "link_url": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Demand / IEA",
+      "headline": "IEA: 2026 Global Oil Demand Heading for First Annual Decline Since COVID as War Destroys Consumption",
+      "body": "The IEA's July 2026 Oil Market Report projected global oil demand will fall by approximately 1 million barrels per day year-on-year in 2026 — the first annual contraction since the pandemic-impacted year of 2020. The agency attributed the demand destruction directly to elevated fuel prices and economic disruption caused by the Iran war and Hormuz closure: US gasoline averaged above $4 per gallon, with similar spikes in Europe and Asia driving consumers and industries to curtail fuel consumption at a pace exceeding normal price elasticity. The IEA sees a potential supply surplus forming by end-2026 if Hormuz flows gradually recover — a scenario with significant bearish implications for the H2 2026 price path even before the corridor has moved a single tanker.",
+      "link_url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "EIA Data Holds: 407 Million Barrels as of July 31 — First Six-Week Build Confirms Physical-Market Softening Ahead of Corridor",
+      "body": "US commercial crude oil inventories stood at approximately 407 million barrels as of the week ending July 31 — reflecting the 2.5 million barrel build reported Wednesday that was the first weekly increase in six weeks. Refinery utilization ran at 96.5% and crude imports climbed to 6.2 mb/d, suggesting procurement patterns had already begun adjusting ahead of any corridor announcement. The data point matters for the corridor trade: if physical-market tightness was already softening before the Hormuz arrangement takes effect, the supply-surplus risk on the other side of a working corridor is meaningfully larger than markets were pricing at the start of this week. The next inventory read — for the week ending August 7 — will be released August 12 and will be the first print fully reflecting corridor-era market dynamics.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 6–7",
+      "name": "Hormuz Corridor Formal Signing — Coordinates Agreed; Washington Legal Text Review Is the Final Gate",
+      "impact": "Iran and Oman have resolved the technical routing parameters. The remaining obstacle is Washington's acceptance of the legal text — specifically whether language around Iranian 'sovereign rights' over the transit lanes appears in any form. A joint communiqué by Friday's Asia open would push Brent toward $74–76 and trigger the first tanker-count validation. Failure to sign by Friday would cause a partial reversal toward $82–84 as traders reprice the probability of another near-miss. The window is narrow: Rubio's 'not finality' language is a negotiating posture, not a deal-breaker signal — multiple sources indicate text review is the sole remaining step.",
+      "market_impact": "±$5–8/bbl on signing vs. failure to deliver; $74–76 corridor target on confirmation.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 6–14",
+      "name": "First Hormuz Transit Count Under Corridor — The Metric That Converts Press Releases Into Barrels",
+      "impact": "The daily count of commercial ship transits through the Strait of Hormuz is now the most important single data series in the global oil market. Pre-war baseline: 88–100 transits per day. Current: approximately 14 per day. A signed corridor should produce an initial jump to 25–40 transits within 3–5 days. Fewer than 20 transits after five days signals either Iranian operational obstruction or persistent insurance and routing barriers preventing commercial ships from using the lanes regardless of the political agreement. Tanker tracking platforms (Kpler, Vortexa) will serve as the market's primary real-time reference.",
+      "market_impact": "Structural — governs the medium-term price path above all other variables. Every 10 additional daily transits approximates 0.3–0.5 mb/d of supply recovery.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 12",
+      "name": "EIA Weekly Petroleum Status Report — First Post-Corridor Inventory Read",
+      "impact": "The EIA report for the week ending August 7 — to be released August 12 — will be the first inventory print fully reflecting market behavior under corridor-announcement conditions. If commercial crude purchasing accelerated ahead of a signing (restocking), the report could show a draw even as prices fall — a bullish physical signal. If stocks build further despite an active or imminent corridor, the supply-surplus thesis strengthens considerably and the medium-term price floor moves lower. This report may prove more directionally significant than the signing itself.",
+      "market_impact": "±$2–4/bbl; primary fundamental data point for the week of August 10.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug (ongoing)",
+      "name": "OPEC+ September Hike and Year-End Pause Communiqué — Structural Price Floor Depends on Formal Confirmation",
+      "impact": "The 188,000 b/d September output increase has been approved but not formalized in a public OPEC+ communiqué. The sources-based indication of a year-end production freeze after September — if confirmed officially — is the primary structural support for the medium-term price floor. In a Hormuz corridor scenario where Gulf output continues its July recovery trajectory, OPEC+ holding production flat prevents the supply return from cascading into a price rout. A formal statement confirming the freeze is expected before September's quota takes effect. Watch for Saudi and Russian delegate signals on whether they would shorten the pause if Brent breaches $75 sustainably.",
+      "market_impact": "±$1–3/bbl; primarily relevant for September forward curves and H2 2026 price floor setting.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug–Dec 2026",
+      "name": "Demand Destruction Thesis — IEA's First Annual Demand Decline Since 2020 Reframes the Post-Corridor Price Path",
+      "impact": "The IEA's projection of the first annual demand contraction since 2020 introduces a structural bear case independent of the Hormuz corridor timeline. If consumption has been permanently impaired — fuel switching, industrial curtailment, accelerated EV adoption — then recovered supply will arrive into a market that no longer needs as many barrels. The gap between a 1 mb/d demand loss and a multi-mb/d supply recovery from Hormuz and OPEC recovery is the single most significant determinant of whether the post-corridor price floor settles near $70 or near $80. H2 2026 forward curves have not fully priced this scenario.",
+      "market_impact": "Structural — defines the 2026 and 2027 fundamental price frame; corridor announcement does not resolve it.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Thursday's session is the corridor deal's most important test so far — not because of what happened, but because of what did <em>not</em>. The oil market absorbed a full day of 'progress but not finality' at $79.10 without panic in either direction. <strong>That price stability is itself a signal.</strong> If the market genuinely doubted the corridor, it would have retraced more sharply toward $83–85; instead, it held the deal-pricing band with Asian buying providing the floor. The market has made a collective judgment that the geographic coordinates agreement means the corridor <em>will</em> happen — and that Washington's text review is a procedural gate, not a substantive barrier. I share that read, with one important qualification: the specific language around Iranian sovereign rights has derailed agreements before, and Rubio's phrasing was measured rather than dismissive.",
+      "<strong>My read on today:</strong> We are living in the briefest gap between 'done operationally' and 'signed officially.' Brent at $79.10 is pricing approximately an 80% probability of a formal corridor agreement by Friday's Asia open. The remaining 20% reflects the Rubio sticking point — but Rubio's language has historically been his opening bid in a final negotiation, not his closing position. <strong>The IEA demand data, however, is the emerging story beneath the diplomatic noise.</strong> A 1 mb/d demand contraction in 2026 means that even a partial corridor recovery — say, 3–4 mb/d of restored Gulf flow — arrives into a market that is structurally smaller than it was twelve months ago. The post-corridor price floor is not $80. It may be closer to <strong>$68–72 if the demand destruction proves sticky</strong> — and the pre-corridor EIA build suggests softening was already underway.",
+      "<strong>The bigger picture:</strong> The OPEC July output recovery — +1.16 mb/d in a single month, before a single corridor barrel flows — tells us that Gulf producers have been working around the Hormuz closure more aggressively than markets fully credited: dark tankers, pipeline diversions, port rehabilitation. When the corridor opens, it does not supplement those workarounds; it replaces them and adds incremental volume on top. That supply-side picture is structurally more bearish than the 'corridor opens, problem solved' narrative implies. The demand side is also weaker, consumption having been destroyed at a pace not seen since the pandemic. <strong>Both vectors point lower over the medium term. The Brent chart today looks like stability. The fundamental sheet looks like pressure building toward a downside re-rating.</strong>",
+      "My call: <strong>Brent $76–$82 today and through the weekend</strong>, biased toward the lower bound on corridor signing and toward $82+ only if Rubio's text review stalls beyond 48 hours. The week-to-date decline of roughly 10% from Monday's open has fully priced a working corridor. <strong>The next trade is not whether the deal happens — it is how many barrels actually move and at what pace.</strong> Watch the tanker transit count on Kpler and Vortexa. That number, not any press conference, is what sets the H2 2026 price."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Softening — OPEC Recovery + EIA Build Pre-Corridor", "tone": "neutral", "pct": 38 },
+      { "name": "Geopolitical Risk", "label": "Near Resolution — Corridor Coordinates Agreed", "tone": "bullish", "pct": 22 },
+      { "name": "Demand Outlook", "label": "Deteriorating — IEA Projects First Annual Decline Since 2020", "tone": "bearish", "pct": 30 },
+      { "name": "Hormuz Recovery", "label": "Imminent — Text Review Is the Only Remaining Gate", "tone": "bullish", "pct": 82 },
+      { "name": "Diplomatic Momentum", "label": "Coordinates Confirmed; Washington Reviewing Final Legal Text", "tone": "bullish", "pct": 78 },
+      { "name": "Medium-Term Price Pressure", "label": "Rising — Demand Loss + Supply Return = Structural Bear", "tone": "bearish", "pct": 63 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$76 – $82",
+      "bias": "Bias: Lower on Formal Corridor Signing — Watch Tanker Transit Count ▼"
+    },
+    "watch_levels": {
+      "resistance": "$83–$85 (pre-corridor equilibrium; reversal target if text review stalls)",
+      "support": "$78–$80 (current deal-pricing band; holds while corridor signing is imminent)",
+      "breakout": ">$88 (Iranian hardliners disrupt corridor or fresh IRGC maritime escalation)",
+      "breakdown": "<$74 (corridor signed and tanker transits exceed 30/day within 48 hours)"
+    }
+  }
+}
