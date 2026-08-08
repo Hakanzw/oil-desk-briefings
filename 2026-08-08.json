@@ -1,0 +1,155 @@
+{
+  "date_long": "Saturday, August 8, 2026",
+  "date_slug": "aug08-2026",
+  "volume": "Vol. I — No. 11",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "TradingEconomics, Bloomberg, CNBC, The National, Fortune, Al Jazeera, World Oil, EIA, OPEC, Energy Connects, YCharts, Axios, France 24, Wikipedia (Oil Market Chronology)",
+
+  "ticker": [
+    "BRENT CRUDE $83.55 ▲ +1.29% FRI CLOSE — DOWN ~5% ON THE WEEK; MID-WEEK LOW ~$79 ON CORRIDOR DEAL OPTIMISM NOW FULLY ERASED",
+    "WTI CRUDE $78.18 ▲ ~+1% FRI CLOSE — HORMUZ RISK PREMIUM REINSTATED AS IRAN STRIKES STRAIT AND PROPOSES EXCLUSIONARY CORRIDOR TERMS",
+    "NATURAL GAS ~$2.68 — HENRY HUB STEADY; GULF LNG ROUTES STILL CONSTRAINED BY ONGOING HORMUZ DISRUPTION",
+    "IRAN PROPOSES CORRIDOR EXCLUDING U.S./ISRAELI VESSELS — RUBIO: 'PROGRESS BUT NOT FINALITY'; BESSENT SAID DEAL POSSIBLE 'IN HOURS' — HOURS PASSED WITHOUT SIGNING",
+    "OPEC+ COMPLETES 2023 CUT ROLLBACK WITH FINAL 188,000 BPD SEPTEMBER QUOTA — RYSTAD: 'Q4 PAUSE NOW LIKELY'",
+    "EIA WK JUL 31: +2.48MB CRUDE BUILD TO 407.0MB; -3.47MB DISTILLATE DRAW; CUSHING +2.36MB — FUNDAMENTAL SIGNAL SWAMPED BY RISK PREMIUM",
+    "WEEK IN REVIEW: BRENT ROUND-TRIPPED $88 → $79 → $83.55 IN FIVE SESSIONS — CORRIDOR WINDOW OPENED AND SLAMMED SHUT"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude (Fri Close)", "value": "$83.55", "change": "▲ +1.29% Fri — Down ~5% on the Week; Mid-Week Low ~$79 on Corridor Optimism Fully Erased by Iranian Strikes and Exclusionary Terms", "direction": "up" },
+    { "label": "WTI Crude (Fri Close)", "value": "$78.18", "change": "▲ ~+1% Fri — Down ~8% on the Week From $84.67 Jul-31 Close; Full Corridor-Announcement Discount Reversed", "direction": "up" },
+    { "label": "Brent — Weekly Swing", "value": "$88 → $79 → $83.55", "change": "▲ ~$9 Intra-Week Round-Trip; One of the Widest Five-Session Ranges of the 2026 Crisis", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.68", "change": "▲ Steady; Most Recent Confirmed Data Aug 3 at $2.81/MMBtu; Below EIA Q3 Forecast of $3.37/MMBtu", "direction": "up" },
+    { "label": "US Crude Stocks (Wk Jul 31, EIA)", "value": "407.0M bbl", "change": "▲ +2.48M bbl Build; Cushing +2.36MB to 21.0MB; Stocks 6% Below 5-Yr Average", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "Week in Review — The Corridor Window Opened and Slammed Shut in Five Sessions",
+    "headline": "Brent's Wild Week: $88 → $79 → $83.55 as Iran's Exclusionary Corridor Terms and Thursday Strikes Erase the Deal Discount — Weekend Diplomacy Is the Sole Variable for Monday's Open",
+    "paragraphs": [
+      "Markets are closed Saturday, but the oil desk is not. This week was among the most volatile five-session stretches of the 2026 crisis — a week that opened with Brent near <strong>$88</strong>, saw it crash toward <strong>$79</strong> on the strongest corridor deal optimism since June, then snapped back to <strong>$83.55</strong> by Friday's close as Iran struck \"hostile targets\" in the Strait of Hormuz near Qeshm Island and proposed corridor terms that would ban U.S. and Israeli vessels from the waterway. The round-trip of nearly <strong>$9 per barrel</strong> unfolded in five sessions. The corridor discount that markets priced in from Monday through Wednesday evening has been fully erased. Weekly performance: Brent down approximately <strong>5%</strong> from last Friday's $87.93 close; WTI down approximately <strong>8%</strong> from $84.67.",
+      "The anatomy of the week is instructive for understanding what remains unresolved. Monday opened with Brent gapping lower as President Trump signaled renewed diplomatic engagement following appeals from Gulf allies, and crude fell further as optimism mounted toward a corridor signing. By mid-week, Treasury Secretary Scott Bessent told CNBC <strong>\"there is a chance we may have a deal\"</strong> within hours, and Secretary of State Marco Rubio described negotiations as being in their \"final gate\" — acknowledging <strong>\"progress made, but not finality.\"</strong> Oil fell below $80 as the market priced a signing as imminent. Kyle Rodda of capital.com captured the broader dynamic: <em>\"Fridays are for fighting but Mondays are for the markets in Trump's world, with crude prices gapping lower at the open.\"</em> Then Thursday's session inverted everything: Iran struck what it described as \"hostile targets\" near Qeshm Island, Brent surged approximately 4.9%, and by Friday the emerging Iran-Oman framework was revealed to include a demand to exclude U.S.- and Israeli-flagged vessels — a term Washington has explicitly ruled out as incompatible with freedom-of-navigation principles.",
+      "The OPEC+ backdrop completed the week's picture. On August 2, seven core members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — approved a final <strong>188,000 barrels per day quota increase for September</strong>, completing the formal rollback of the voluntary cuts announced in April 2023 and restoring OPEC+ to pre-April-2023 quota levels on paper. The group's official statement retained \"full flexibility to increase, pause or reverse\" future changes. Rystad Energy's Head of Geopolitical Analysis Jorge Leon noted that <em>\"OPEC+ has little incentive to rush into further supply changes\"</em> and flagged a Q4 production pause as the most likely next step. The EIA's inventory report for the week ending July 31 — released August 5 — confirmed a <strong>2.48 million barrel crude build</strong> concentrated at Cushing, Oklahoma, alongside a more constructive <strong>3.47 million barrel distillate draw</strong>. The fundamental read is mixed; the market has set it aside entirely in favour of the diplomatic binary."
+    ],
+    "link_url": "https://www.bloomberg.com/news/articles/2026-08-04/latest-oil-market-news-and-analysis-for-aug-5",
+    "link_text": "Read Bloomberg",
+    "stats": [
+      { "num": "$88 → $79 → $83.55", "desc": "Brent's Five-Session Round-Trip — One of the Widest Intra-Week Swings of the 2026 Crisis; Corridor Hope and Iranian Escalation Both Priced in a Single Week" },
+      { "num": "U.S./Israel Excluded", "desc": "Iran's Proposed Corridor Terms Would Ban U.S. and Israeli Vessels — Incompatible With Washington's Freedom-of-Navigation Position; Washington Has Explicitly Ruled It Out" },
+      { "num": "188,000 bpd", "desc": "OPEC+ Final September Quota Increase — Completes 2023 Cut Rollback; Rystad Flags Q4 Pause as Most Likely Next Step; 2M bpd in Separate 2022 Cuts Remain Active Through Year-End" },
+      { "num": "+2.48M bbl", "desc": "EIA Crude Build (Wk Jul 31) to 407.0M Barrels — Concentrated at Cushing Hub; Distillate Draw of 3.47M bbl Signals Steady Downstream Demand Despite Supply Disruption" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitical — Lead",
+      "headline": "Iran Proposes 'Middle Corridor' Excluding U.S. and Israeli Vessels — Rubio: 'Progress Made, But Not Finality'; Deal Window Closes Without Signing",
+      "body": "Iran and Oman are negotiating a 'middle corridor' through the Strait of Hormuz: a single two-way route with inbound traffic via a northern lane through Iranian waters and outbound via a southern lane through Omani waters, initially as a 60-day interim arrangement with no transit fees during that period. However, Iran's framework reportedly includes a ban on vessels flagged or owned by the United States or Israel, and Iran has floated longer-term compensation levies on nations it classifies as hostile. Qatar, Pakistan, and Oman are coordinating to exchange drafts between Washington and Tehran. Secretary of State Marco Rubio acknowledged 'progress made, but not finality,' while Treasury Secretary Scott Bessent told CNBC 'there is a chance we may have a deal' within hours — those hours passed without a signing. Iran then struck 'hostile targets' near Qeshm Island on Thursday, and Friday's corridor term disclosures confirmed that the gap between Iranian demands and US freedom-of-navigation principles has widened, not narrowed, since Tuesday's optimism peak.",
+      "link_url": "https://www.thenationalnews.com/news/mena/2026/08/04/strait-of-hormuzs-middle-corridor-iran-claims-new-route-is-focus-of-talks/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent's $9 Round-Trip: From $88 to a $79 Mid-Week Trough and Back to $83.55 — The Week's Full Intra-Crisis Volatility in Five Sessions",
+      "body": "Brent crude entered the week near $88 (from last Friday's $87.93 close), fell toward $79 by mid-week as corridor deal optimism peaked — Treasury Secretary Bessent's 'deal within hours' statement drove the trough — then reversed course entirely on Iran's Thursday strikes and Friday's exclusionary corridor term disclosures, settling at $83.55 (+1.29% on the day) at Friday's close. WTI followed an identical trajectory, settling at $78.18 and also up approximately 1% on Friday. The week's net change: Brent -5%, WTI -8%. The intra-week range of approximately $9 on Brent represents one of the widest five-session swings since the crisis began in late February. The rapid reversal confirms that the market treats every diplomatic breakthrough as provisional until Omani-mediated drafts are accepted by both Washington and Tehran — and that confirmation has not come.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read TradingEconomics"
+    },
+    {
+      "tag": "OPEC+ / Supply",
+      "headline": "OPEC+ Completes Rollback of 2023 Cuts With Final 188,000 bpd September Quota — Rystad Energy Sees Q4 Pause",
+      "body": "Seven OPEC+ members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — approved a 188,000 barrel per day production quota increase for September 2026 at their August 2 virtual meeting, formally completing the phased restoration of the 1.65 million bpd removed from markets starting April 2023. The group stated it would 'closely monitor and assess market conditions' and retained 'full flexibility to increase, pause or reverse' future adjustments. A separate 2 million bpd in cuts dating to 2022 remain active through the end of 2026. Rystad Energy's Jorge Leon said 'OPEC+ has little incentive to rush into further supply changes' and anticipates a formal Q4 pause at the September 6 JMMC meeting. Analysts broadly describe September's quota as disconnected from deliverable reality: with Hormuz shipping still at roughly 15% of its pre-war baseline, paper increases cannot translate to additional delivered barrels without a functional corridor.",
+      "link_url": "https://www.energyconnects.com/news/oil/2026/august/opecplus-completes-rollback-of-oil-production-cuts-with-september-hike/",
+      "link_text": "Read Energy Connects"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "EIA Week Jul 31: +2.48MB Crude Build to 407.0M Barrels — Cushing +2.36MB; Distillates Draw 3.47MB; SPR Falls to 304.8MB",
+      "body": "The EIA's Weekly Petroleum Status Report for the week ending July 31 showed US commercial crude oil inventories rising 2.48 million barrels to 407.0 million barrels — a larger-than-consensus build that would normally pressure WTI. The increase was concentrated at the Cushing, Oklahoma WTI delivery hub (+2.36 million barrels to 21.0 million), which nevertheless remains 9.47 million barrels below the five-year seasonal average. Total commercial crude stocks sit 6% below the five-year norm. Distillate fuel inventories (diesel and heating oil) drew 3.47 million barrels, placing stocks 14.5 million barrels below the five-year median heading into heating season — a signal of sustained downstream demand. Gasoline stocks drew 1.64 million barrels. The Strategic Petroleum Reserve fell another 2.84 million barrels to 304.8 million, continuing a multi-month depletion. The next EIA report — for the week ending August 7 — releases August 12 and will be the first post-Thursday-escalation inventory read.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Hormuz / Shipping",
+      "headline": "Hormuz at ~15% of Pre-War Baseline — Gulf Crude Exports Climbed to 4.8 mb/d in July From May's Crisis Low of 1.6 mb/d",
+      "body": "Despite the diplomatic impasse, Gulf crude exports via Hormuz have climbed from a May crisis low of 1.6 million barrels per day to approximately 4.8 million barrels per day in July — a partial recovery enabled by US military escort operations and sporadic convoy arrangements, but still far below the pre-war norm of roughly 17–18 million bpd. Visible ship traffic tracked by AIS shows some vessels transiting with transponders switched off. The International Maritime Organization has reported approximately 20,000 stranded mariners and 2,000 ships in the Persian Gulf as of April's crisis peak. Iran's Thursday strikes on 'hostile targets' near Qeshm Island, combined with the parallel emergence of its exclusionary corridor proposal, have cast doubt on near-term recovery. The Houthis struck the Saudi-affiliated tanker Wafa with ballistic missiles in the Red Sea on August 5 — the eighth Saudi vessel struck since Houthis announced a Bab el Mandeb pressure campaign in late July — compounding the Persian Gulf constraint with a parallel Red Sea threat.",
+      "link_url": "https://straits.live/",
+      "link_text": "Read Straits Live"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub ~$2.68 — Well Below EIA's Q3 Forecast of $3.37/MMBtu; Hormuz LNG Constraint a Structural Support Floor",
+      "body": "Henry Hub natural gas spot prices are tracking near $2.68 per MMBtu — materially below the EIA's Short-Term Energy Outlook Q3 2026 forecast of $3.37/MMBtu and well beneath the $3.50/MMBtu annual average the agency projected in January 2026. The most recent confirmed YCharts spot price (August 3) registered $2.81/MMBtu, up 8.49% from July 31's $2.59, attributed to heat-driven cooling demand. Henry Hub's domestic character has insulated it from the full crude oil geopolitical risk premium, but the Hormuz LNG disruption provides a structural underpinning: before the crisis, approximately 20% of global LNG transited the strait, and European buyers who rerouted to alternative suppliers absorbed higher delivered costs, indirectly supporting US LNG export margins. If the Damietta LNG terminal in Egypt — struck by drone on July 29 — sustains lasting damage, that bypass narrows further and could push Henry Hub above $3.00/MMBtu.",
+      "link_url": "https://ycharts.com/indicators/henry_hub_natural_gas_spot_price",
+      "link_text": "Read YCharts"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 8–10 (Weekend)",
+      "name": "Iran-Oman Corridor Renegotiation — Will Iran Soften Exclusionary Vessel Terms Before Monday's Open?",
+      "impact": "The sole operative variable for Monday's open is whether Oman's back-channel mediation produces any modification of Iran's proposed exclusionary corridor terms over the weekend. Iran's current position — banning US and Israeli vessels and potentially imposing compensation levies on hostile nations — is incompatible with Washington's freedom-of-navigation floor. A softened Iranian position removing the vessel exclusions would push Brent back to the $79–$81 range at Monday's open. A hardened Iranian position confirmed by public US rejection would push Brent toward $87–$90. Diplomatic silence over the weekend — the most probable outcome — reads as bullish in this tape because it prolongs the shipping constraint and defers the corridor discount.",
+      "market_impact": "±$5–8/bbl at Monday open on weekend diplomatic signals; $87–90 target on confirmed corridor collapse.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 12",
+      "name": "EIA Weekly Petroleum Status Report — First Post-Escalation Inventory Print",
+      "impact": "The EIA report for the week ending August 7 releases August 12 and will capture the full week's extraordinary volatility: restocking purchases when corridor optimism was peak (early week) alongside the demand-side uncertainty when prices recovered sharply (Thursday–Friday). A crude draw would reinforce the supply-tightness narrative; a second consecutive build (after the +2.48MB print for Jul 31) would add a bearish fundamental data point beneath the geopolitical noise. Distillate inventory trajectory is the more important refined-product signal given the 14.5MB below-normal position heading into heating season.",
+      "market_impact": "±$2–4/bbl; first inventory print under post-Thursday-escalation conditions.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 10 Onwards",
+      "name": "Hormuz Transit Count — Daily Data From Straits.Live and MarineTraffic",
+      "impact": "Pre-war Hormuz transit baseline: 88–100 ships per day. Current: approximately 10–15 per day. Gulf crude export recovery has reached 4.8 mb/d (July average) but remains far below the 17–18 mb/d pre-war norm. Every additional 10 visible transits per day approximates 0.3–0.5 mb/d of supply recovery. The threshold for declaring a meaningful corridor reopening is sustained traffic above 40–50 transits per day for multiple consecutive sessions — a figure that requires a signed, operational agreement rather than a diplomatic communiqué.",
+      "market_impact": "Structural — the transit count is the ground truth; no other data series matters more until this normalises.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 6",
+      "name": "OPEC+ JMMC Monthly Review — First Meeting After September Quota Takes Effect; Q4 Stance Signal",
+      "impact": "OPEC+'s next Joint Ministerial Monitoring Committee review is September 6 — the first formal meeting after the September quota increase takes effect and the first opportunity to signal the Q4 production stance. Rystad Energy's Jorge Leon anticipates a Q4 pause as the group prepares for 2027 negotiations and confronts the reality that Hormuz shipping constraints disconnect paper quotas from deliverable output. Saudi and Russian delegate signals in the run-up to September 6 are the market's primary structural price-floor indicator for H2 2026. A confirmed pause would be unambiguously bullish for Q4 price floors.",
+      "market_impact": "±$2–4/bbl; primarily sets Q4 forward curve and medium-term price floor narrative.",
+      "risk": "Medium-High"
+    },
+    {
+      "date": "Aug–Oct 2026",
+      "name": "IEA Demand Destruction vs. Corridor Supply Return — The Structural Reckoning Beneath the Diplomatic Noise",
+      "impact": "The IEA projects a potential crude surplus expanding toward 4 million barrels per day if the Hormuz crisis resolves and Gulf producer output recovers. Simultaneously, the agency projects the first annual oil demand contraction since 2020 — approximately 1 mb/d year-on-year — as war-elevated prices erode consumption. Both scenarios converge on a single variable: the corridor. If it opens and 4+ mb/d of supply returns, prices could fall to the mid-$60s–$70s. If the corridor remains closed through Q4, supply tightness supports Brent above $80. This is not a balanced risk — it is a binary contingent on a single diplomatic and military variable that Iranian and US decision-makers control.",
+      "market_impact": "Structural — defines the H2 2026 fundamental price frame; cannot be resolved by technical analysis alone.",
+      "risk": "Very High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "This week was a masterclass in how fast the corridor trade unwinds — and how asymmetrically the market prices diplomatic hope versus Iranian escalation. Five sessions, nearly <strong>$9 of intra-week movement</strong> on Brent, and the benchmark ended approximately 5% below where it started. The narrative has shifted fundamentally, even if the price has not fully reflected it. The week opened with markets pricing an imminent corridor signing. It closes with markets repricing a structural impasse. <strong>Iran's proposed exclusionary vessel terms are not a negotiating footnote — they are a statement of political intent.</strong> The demand to ban US and Israeli vessels is not a term Washington can accept under any diplomatic framework compatible with its longstanding positions on maritime law. The gap has widened, not narrowed.",
+      "<strong>My weekend read:</strong> Oman's mediation remains the most plausible off-ramp, and Iran has economic incentives to reopen the strait that ultimately outweigh its political maximalism on vessel exclusions. But the timeline has shifted from <em>hours</em> to <em>weeks</em>. The market is appropriately repricing that extension at Friday's close of $83.55. <strong>The correct framework for Monday's open: a geopolitical risk premium of $5–7 above the fundamental clearing price.</strong> With the fundamental picture pointing toward a supply glut if the corridor opens — as Goldman Sachs, Morgan Stanley, and the IEA all confirm — the underlying clearing price without the risk premium sits in the mid-to-high $70s. Brent at $83.55 reflects a risk premium that is elevated but not stretched. It prices a corridor <em>delay</em>, not a corridor <em>collapse</em>.",
+      "<strong>OPEC+ context:</strong> The September quota completion matters less than most headlines suggest. Seven nations formally restored their pre-April-2023 quota levels on paper on August 2 — but those barrels cannot reach most buyers while Hormuz handles 15% of its normal traffic. <strong>OPEC+'s paper production ceiling and its physical delivery capacity are two entirely different numbers, and Rystad's Q4 pause call is the only rational response to that disconnect.</strong> The group will not accelerate quotas into a corridor it does not control. Watch September 6 for the formal confirmation.",
+      "My call for the coming week: <strong>Brent $80–$88</strong>, with the center of gravity near $83–$85 absent fresh escalation. Downside requires a weekend diplomatic breakthrough that modifies Iran's exclusionary terms — achievable but not signaled. Upside requires a hardened Iranian position confirmed by Washington — probable if weekend contacts produce no progress and Iran reaffirms Thursday's military posture. <strong>The asymmetry: in this tape, headline risk is skewed upward through the weekend because Iranian escalation generates immediate market reaction while diplomatic progress generates a slower grind lower.</strong> Do not chase upside above $88 without confirmed military escalation. Do not short below $81 without corridor language that Washington explicitly accepts as compatible with freedom-of-navigation principles."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Elevated — Corridor Delay Reinstates Hormuz Constraint", "tone": "bearish", "pct": 68 },
+      { "name": "Geopolitical Risk", "label": "High — Iranian Strikes + Exclusionary Corridor Terms", "tone": "bearish", "pct": 72 },
+      { "name": "Demand Outlook", "label": "Softening — IEA Projects First Annual Decline Since 2020", "tone": "bearish", "pct": 32 },
+      { "name": "Hormuz Recovery", "label": "Stalled — Transit Count ~15% of Pre-War Baseline", "tone": "bearish", "pct": 15 },
+      { "name": "Diplomatic Momentum", "label": "Reset — Exclusionary Terms Widen Gap With Washington", "tone": "bearish", "pct": 28 },
+      { "name": "OPEC+ Quota Effect", "label": "Paper Only — Shipping Constraints Disconnect Quota From Deliverable Output", "tone": "neutral", "pct": 43 }
+    ],
+    "call": {
+      "label": "Week-Ahead Price Call — Brent Crude",
+      "value": "$80 – $88",
+      "bias": "Bias: $83–$85 Center of Gravity — Upside Asymmetric If Weekend Diplomacy Stalls; Downside Only on Confirmed Corridor Acceptance ▲"
+    },
+    "watch_levels": {
+      "resistance": "$88–$90 (corridor collapse confirmed / fresh Iranian maritime strikes)",
+      "support": "$80–$82 (deal-pricing band returns if Iran removes vessel exclusion terms)",
+      "breakout": ">$92 (full Hormuz closure resumption or US publicly declares corridor framework unacceptable)",
+      "breakdown": "<$78 (Iran removes exclusionary vessel terms; corridor signing credibly imminent)"
+    }
+  }
+}
