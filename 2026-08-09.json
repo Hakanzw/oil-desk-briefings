@@ -1,0 +1,156 @@
+{
+  "date_long": "Sunday, August 9, 2026",
+  "date_slug": "aug9-2026",
+  "volume": "Vol. I — No. 12",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, IEA, OPEC, Bloomberg, Al Jazeera, CNBC, CNN, Fortune, Forbes, AGA, Reuters, Atlantic Council",
+
+  "ticker": [
+    "BRENT CRUDE $83.55 ▲ +1.29% (FRI CLOSE)",
+    "WTI CRUDE ~$78.30 ▲ +0.6% (FRI CLOSE)",
+    "NATURAL GAS $2.66 ▲ +0.83% — DOWN 17% ON THE MONTH",
+    "IRAN-OMAN AGREE 'IN PRINCIPLE' ON NEW HORMUZ SHIPPING ROUTES — FULL REOPENING NOT GUARANTEED",
+    "HOUTHI BLOCKADE THREATENS SAUDI RED SEA ESCAPE HATCH — ~4 MB/D AT RISK FROM YANBU",
+    "OPEC+ COMPLETES VOLUNTARY CUT ROLLBACK WITH SEP 188K BPD HIKE; Q4 PAUSE SIGNALED",
+    "EIA: CRUDE INVENTORIES BUILD +2.479M BARRELS — UNEXPECTED BEARISH SIGNAL",
+    "EIA AUGUST STEO + IEA MONTHLY REPORT DUE TUESDAY — WATCH FOR SURPLUS FORECAST"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$83.55", "change": "▲ +1.29% (Fri close)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$78.30", "change": "▲ +0.6% (Fri close, est.)", "direction": "up" },
+    { "label": "Brent vs. Houthi Peak", "value": "−$11+", "change": "▼ Off mid-Jul high ~$95", "direction": "down" },
+    { "label": "EIA Inventory Change", "value": "+2.479M bbls", "change": "▼ vs. −1.5M forecast", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$2.66", "change": "▲ +0.83% (−17% past month)", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Developing — Hormuz Deal 'In Principle' as Saudi Arabia Is Caught in a Pincer",
+    "headline": "Iran and Oman Agree 'In Principle' on New Strait of Hormuz Shipping Routes — But Tehran Says Full Opening Requires US Military Concessions",
+    "paragraphs": [
+      "Iran and Oman announced on Thursday that they have reached an in-principle agreement on the coordinates of new commercial shipping routes through the Strait of Hormuz, with a joint statement described as being in the <strong>\"final drafting stage.\"</strong> Under the proposed arrangement, commercial vessels would enter the Persian Gulf through an Iranian-controlled corridor and exit through a lane overseen by Oman — a compromise structure designed to allow trade to resume without Tehran formally ceding control of the strait it has blockaded since February. President Trump, calling progress <em>\"very good,\"</em> said the Strait would reopen <strong>\"soon,\"</strong> and a US official told reporters an announcement could come as early as Wednesday.",
+      "But Iran has drawn a sharp and public line: Tehran's Foreign Ministry explicitly stated the Oman arrangement <strong>cannot be equated with a full reopening,</strong> and that restoring unrestricted passage requires the United States to remove its naval presence and halt strikes on Iranian infrastructure. That gap — between Trump's \"soon\" and Iran's stated conditions — is the single most important variable in oil markets this week. The 50/50 probability estimated by one senior Gulf official familiar with the talks reflects how finely balanced the outcome remains.",
+      "Meanwhile, Saudi Arabia faces a structural threat that has transformed the supply calculus entirely. When Iran shut the Strait of Hormuz in late February, Riyadh pivoted rapidly to its East-West Pipeline, pumping up to <strong>~4 million barrels per day</strong> through the Red Sea terminal at Yanbu — a fourfold increase over pre-conflict levels. Since late July, Houthi forces have declared a maritime blockade of Saudi Arabia and struck at least eight Saudi tankers in the northern Red Sea, vowing to close every exit point. If both Hormuz and Yanbu are simultaneously disrupted, the kingdom — the world's largest oil exporter — would face a supply-side crisis without a near-term relief valve."
+    ],
+    "link_url": "https://www.bloomberg.com/news/articles/2026-08-06/iran-says-deal-with-oman-on-strait-of-hormuz-agreed-in-principle",
+    "link_text": "Read Bloomberg",
+    "stats": [
+      { "num": "~4 mb/d", "desc": "Saudi Crude Exports Through Yanbu (Red Sea) Now Threatened by Houthi Blockade" },
+      { "num": "8+", "desc": "Saudi Tankers Attacked or Targeted Off Yanbu Since Houthi Blockade Began Late July" },
+      { "num": "188k bpd", "desc": "OPEC+ September Production Increase — Completes Full Rollback of the 1.65 mb/d Voluntary Cut" },
+      { "num": "+2.479M", "desc": "EIA Crude Oil Inventory Build Last Week, vs. Consensus Forecast of a −1.5M Barrel Draw" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Hormuz Talks",
+      "headline": "Iran-Oman Hormuz Shipping Pact 'Agreed in Principle' — Gaps With US Remain Wide",
+      "body": "Iran confirmed Thursday that it reached an in-principle agreement with Oman on new commercial shipping coordinates through the Strait of Hormuz, with a joint statement in final drafting. The mechanism channels inbound tankers through an Iranian-controlled corridor and outbound vessels through Oman's lane. But Tehran's Foreign Ministry cautioned explicitly that this is <strong>not a full reopening</strong>: Iran still demands the US end naval strikes and withdraw forces. Trump called progress \"very good\" and hinted at an announcement this week — potentially as early as Wednesday — raising the stakes on a deal that one Gulf source put at 50/50 odds.",
+      "link_url": "https://www.aljazeera.com/news/2026/8/5/iran-oman-us-close-to-hormuz-deal-what-do-they-all-want",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Saudi Arabia / Houthis",
+      "headline": "Houthis Declare Red Sea Blockade — Saudi Arabia's Only Oil Escape Route Under Fire",
+      "body": "Yemen's Houthi movement declared a maritime blockade of Saudi Arabia on July 21–22 and has since struck at least eight Saudi oil tankers in the northern Red Sea, including the Wafa off Yanbu on August 5. Saudi Arabia had rerouted <strong>~4 million barrels per day</strong> of crude through Yanbu after Iran closed the Strait of Hormuz — a fourfold increase over pre-conflict levels. Houthi forces are now targeting this escape valve. At least seven tankers diverted or paused voyages after the initial warning, and Brent surged briefly above <strong>$95/bbl</strong> when the blockade was announced before retracing.",
+      "link_url": "https://www.aljazeera.com/news/2026/7/21/saudi-condemns-houthi-blockade-how-will-the-rest-of-the-world-be-impacted",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Completes Voluntary Cut Rollback — 188,000 bpd September Hike Closes Book on 2023 Cuts; Q4 Pause Signaled",
+      "body": "On August 2, seven core OPEC+ countries — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — approved a <strong>188,000 bpd output increase for September,</strong> completing the full rollback of the 1.65 million bpd voluntary supply cut first agreed in 2023. Sources signaled the group will then pause further increases in Q4, with Saudi Arabia believed to be working to defend a price floor in the low $80s. Analyst Jorge Leon at Rystad said the group \"has little incentive to rush into further supply changes.\" A deeper layer of roughly 2 million bpd in baseline cuts from 2022 remains in place through year-end.",
+      "link_url": "https://www.cnbc.com/2026/08/02/opec-agrees-september-oil-hike-completing-rollback-of-voluntary-cuts.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "EIA Inventory",
+      "headline": "US Crude Inventories Post Surprise +2.479 Million Barrel Build — Bearish Counterpoint to Supply-Risk Story",
+      "body": "The latest EIA Weekly Petroleum Status Report showed US commercial crude inventories rising by <strong>2.479 million barrels</strong> for the week ending approximately July 31, against a consensus forecast for a 1.5 million barrel draw. Inventories now stand in the 404–410 million barrel range, roughly 7% below the five-year seasonal average. The build came despite elevated refinery runs (averaging 17.3 mb/d) as domestic crude supply increased. The unexpected result adds a meaningful bearish undertone to a market otherwise dominated by geopolitical risk premium.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub Slides 17% in a Month — Record Production and Weak LNG Feedgas Demand Drive Prices to $2.66",
+      "body": "US natural gas futures continued their slide into August, with Henry Hub dropping from $3.22/MMBtu on July 1 to <strong>$2.66 on August 7</strong> — a decline of roughly 17% in five weeks. Record-high Lower 48 dry gas production (averaging ~110.6 bcfd in August so far) and weakening feedgas demand at LNG export terminals (averaging 16.9 bcfd) are the twin drivers. The EIA's August STEO, due Tuesday, is expected to trim its 2026 Henry Hub average forecast further below the current $3.31/MMBtu projection.",
+      "link_url": "https://www.aga.org/research-policy/resource-library/natural-gas-market-indicators-august-7-2026/",
+      "link_text": "Read AGA"
+    },
+    {
+      "tag": "Market Outlook",
+      "headline": "EIA Short-Term Energy Outlook + IEA Monthly Report Due Tuesday — Watch for Global Surplus Signal",
+      "body": "The EIA releases its August Short-Term Energy Outlook on <strong>Tuesday, August 11,</strong> alongside the IEA's monthly Oil Market Report. The July STEO projected a 2.2 mb/d inventory draw in Q3 2026 and pegged average June Brent at $85/bbl. With OPEC+ completing its cut rollback and supply recovery underway, the August edition is widely expected to project a faster-than-prior shift toward surplus — potentially by Q1 2027. An IEA demand downgrade, fueled by softer Chinese industrial data, would compound the bearish supply-side signal.",
+      "link_url": "https://www.eia.gov/outlooks/steo/",
+      "link_text": "Read EIA STEO"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 10 — Mon",
+      "name": "Markets Reopen: First Session After Iran-Oman 'In Principle' Deal",
+      "impact": "Oil opens into a market digesting Thursday's Oman-Iran shipping corridor agreement and Trump's 'soon' framing. A concrete joint statement or US confirmation of a formal deal framework would be the week's dominant catalyst, with potential to push Brent sharply toward $79–$80. Conversely, any Iranian walk-back or clarification that no final deal exists could snap prices higher toward $88+. The open sets the tone for a highly binary week.",
+      "market_impact": "Directional: ±$3–5/bbl on deal headline; ±$1–2/bbl on neutral tape.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 11 — Tue",
+      "name": "EIA Short-Term Energy Outlook + IEA Monthly Oil Market Report",
+      "impact": "Twin forecasting institutions release August assessments. The EIA STEO is expected to project faster-than-prior movement toward global surplus and may lower the 2026 Brent price forecast. The IEA may downgrade demand on softer Chinese industrial activity. A double-bearish signal — higher supply plus lower demand — could add structural downside pressure of $2–4/bbl.",
+      "market_impact": "±$2–4/bbl on significant forecast revisions; structural signal for H2 2026 price path.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 12–14",
+      "name": "Formal US-Iran-Oman Hormuz Deal Announcement Window",
+      "impact": "A US official told reporters this week that the administration aimed for a formal Hormuz announcement by Wednesday August 12. If Washington and Tehran can bridge the concessions gap — US commitments on naval posture in exchange for Iranian commitment to open the strait unconditionally — markets could reprice Brent to the high $70s or below $80 rapidly. Failure to meet this window injects fresh uncertainty and extends the range-bound premium.",
+      "market_impact": "Largest scheduled catalyst of the week. Asymmetric: deal = −$5–8/bbl; breakdown = +$3–6/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Blockade of Saudi Red Sea Exports (Yanbu)",
+      "impact": "Houthi attacks on Saudi tankers at Yanbu directly threaten the ~4 mb/d of Saudi crude now moving through the Red Sea — the kingdom's only meaningful alternative to the closed Hormuz route. Escalation that seriously disrupts Yanbu flows could produce the worst oil supply shock of the conflict. Effective US Navy convoy protection or a Saudi-Houthi de-escalation agreement would be significantly supply-positive.",
+      "market_impact": "Structural upside risk: +$5–15/bbl if Yanbu flows are materially disrupted.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 1",
+      "name": "OPEC+ September Output Hike Takes Effect (+188,000 bpd)",
+      "impact": "September marks the official completion of OPEC+'s three-year voluntary cut rollback, adding a final 188k bpd to market supply. With sources signaling a Q4 pause, attention now shifts to whether the group will need to reverse course if Hormuz reopening and Iranian barrels flood the market simultaneously. Saudi Arabia's informal $80/bbl price floor defense will be tested.",
+      "market_impact": "Structural bearish: adds 188k bpd at a moment of uncertain demand and potential supply return.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Saudi Arabia is caught in a <em>pincer.</em> Iran's closure of the Strait of Hormuz in February forced the kingdom to pivot its export infrastructure entirely to Yanbu on the Red Sea, running that terminal to near-maximum capacity at ~4 mb/d. The Houthis identified this dependency and moved — and now the escape hatch is under fire. The kingdom that was supposed to be OPEC+'s swing-capacity anchor is itself squeezed between two blockades it cannot resolve unilaterally.",
+      "<strong>My read on today:</strong> The Iran-Oman 'in principle' Hormuz agreement is real and represents genuine diplomatic progress — but it is carefully circumscribed. Iran has not surrendered control of the strait; it has agreed to a <em>commercial corridor mechanism</em> while preserving its political leverage against the US. Whether that mechanism translates into meaningful tanker flows in the coming days is a different question from whether the diplomatic framework exists. <strong>This week's announcement window is the market's most important scheduled event since the June signing ceremony that failed to deliver.</strong>",
+      "<strong>The bearish case builds:</strong> A formal Hormuz announcement this week — combined with the OPEC+ September hike completing the voluntary cut rollback and a bearish EIA/IEA double on Tuesday — could push Brent below $80, perhaps to the high $70s. The physical pipeline is ready: Iranian, Qatari, and Gulf crude have been waiting since February. <strong>The bullish tail is real:</strong> If Houthi strikes succeed in materially disrupting Saudi Yanbu flows, the market confronts a supply shock that no OPEC+ hike or diplomatic communiqué can quickly replace. In that scenario, $95/bbl returns fast.",
+      "My call: <strong>Brent trades in a $79–$88 range this week,</strong> with dominant sensitivity to the deal announcement timeline. The base case is a partial, caveated Hormuz reopening that eases — but does not eliminate — the geopolitical premium. The extreme risk scenario — both Hormuz and Yanbu simultaneously disrupted — is not the base case, but it is live, and the market has not fully priced it."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Elevated", "tone": "bearish", "pct": 72 },
+      { "name": "Geopolitical Risk", "label": "Very High", "tone": "bearish", "pct": 82 },
+      { "name": "Demand Response", "label": "Softening", "tone": "neutral", "pct": 42 },
+      { "name": "Deal Probability", "label": "Improving", "tone": "bullish", "pct": 58 },
+      { "name": "OPEC+ Support", "label": "Fading", "tone": "neutral", "pct": 45 },
+      { "name": "Houthi Escalation Risk", "label": "High", "tone": "bearish", "pct": 78 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$79 – $88",
+      "bias": "Bias: Deal-Dependent — Downside on Hormuz Deal, Upside if Yanbu Disrupted ▼▲"
+    },
+    "watch_levels": {
+      "resistance": "$88–$90",
+      "support": "$80–$81",
+      "breakout": ">$92 (Houthi closes Yanbu + deal breakdown)",
+      "breakdown": "<$78 (clean Hormuz deal + OPEC+ Sep hike pressure)"
+    }
+  }
+}
