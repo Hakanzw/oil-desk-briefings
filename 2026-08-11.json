@@ -1,0 +1,155 @@
+{
+  "date_long": "Tuesday, August 11, 2026",
+  "date_slug": "aug11-2026",
+  "volume": "Vol. I — No. 14",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Al Jazeera, CNBC, NPR, NBC News, PBS, OilPrice.com, EIA, Energy Connects, AGA",
+
+  "ticker": [
+    "BRENT CRUDE ~$87.78 ▲ +0.07%",
+    "WTI CRUDE ~$82.31 ▲ +0.22%",
+    "NATURAL GAS ~$2.77/MMBtu ▼ -0.75%",
+    "TRUMP: U.S. IS \"ONLY SEMI-NEGOTIATING\" WITH IRAN AS HORMUZ STANDOFF DRAGS ON",
+    "BRENT SETTLES AT HIGHEST CLOSE SINCE MARCH AFTER MONDAY'S 5% SINGLE-SESSION SURGE",
+    "EGYPT AND LIBYA NEAR $1 BILLION TOBRUK-TO-ALEXANDRIA OIL PIPELINE DEAL",
+    "EIA WEEKLY REPORT DUE WEDNESDAY — CRUDE BUILD OR DRAW AFTER SURPRISE +2.5M LAST WEEK?"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$87.78", "change": "▲ +0.07% (Oct front-month)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$82.31", "change": "▲ +0.22% (Sep front-month)", "direction": "up" },
+    { "label": "Brent–WTI Spread", "value": "~$5.47", "change": "Hormuz freight premium", "direction": "" },
+    { "label": "Brent vs. 2026 Peak", "value": "−31%", "change": "▼ Off the ~$126 war high", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.77", "change": "▼ −0.75% (record output weighs)", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "Hormuz Stalemate — Crude Consolidates After Monday's 5% Surge on \"Only Semi-Negotiating\" Comment",
+    "headline": "Brent Holds Near $88 as Trump Admits U.S. Is \"Only Semi-Negotiating\" With Iran — Hormuz Risk Premium Locked In at a New High",
+    "paragraphs": [
+      "Brent crude is consolidating near <strong>$87.78/bbl</strong> Tuesday — pinned at its highest level since late March — after Monday's dramatic 5% single-session surge repriced the entire Hormuz resolution timeline. The catalyst was President Trump's comment to Axios on Sunday that the United States is <strong>\"only semi-negotiating\"</strong> with Iran and plans to rely on its naval blockade rather than further airstrikes to pressure Tehran. Markets interpreted the remark as a direct admission that a near-term deal is off the table, adding roughly $4/bbl to Monday's open and sending WTI back above $82 for the first time since early August.",
+      "Iran's Foreign Minister Abbas Araghchi is holding a firm line. His conditions for reopening the Strait of Hormuz — an end to the U.S. naval blockade, eased sanctions, and <strong>war reparations</strong> — remain publicly unchanged, and Iranian Foreign Ministry spokesman Esmail Baghaei underscored Monday that the blockade must be lifted as a precondition to any agreement. With only 8–15 vessels now transiting daily versus the pre-conflict average of 130, the strait's closure is costing global markets roughly <strong>17 million barrels per day</strong> in normal throughput. Analyst Tim Waterer of KCM Trade described the market mood: the lack of concrete movement, together with lingering questions about any agreement's practical details, is keeping a meaningful risk premium embedded in every Brent contract.",
+      "Tuesday's session is relatively quiet on scheduled data, leaving headline risk as the dominant price driver. <strong>The EIA's weekly petroleum status report</strong> due Wednesday will be the next hard datapoint — the first print since the surprise 2.479-million-barrel crude build for the week ending July 31. Meanwhile, a separate Houthi drone strike on the Saudi Aramco refinery in Jizan on Saturday, swiftly extinguished with no reported casualties, is a reminder that the infrastructure risk premium is not confined to the strait: Saudi export assets are also in the crosshairs. The desk watches for any overnight Oman channel signal that Washington is prepared to offer a substantive concession on the blockade — that remains the sole near-term downside catalyst."
+    ],
+    "link_url": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "~5%", "desc": "Brent's Single-Session Surge on Monday — Biggest Daily Gain Since the March War-Premium Spike" },
+      { "num": "8–15", "desc": "Daily Vessel Transits Through Hormuz vs. ~130 Before the Crisis — Strait Effectively Closed" },
+      { "num": "$87.72", "desc": "Monday's Brent Settlement — Highest Closing Price Since Late March" },
+      { "num": "17M bpd", "desc": "Pre-Crisis Volume the Strait Carried — ~20% of All Global Seaborne Oil Supply" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Trump: U.S. Is \"Only Semi-Negotiating\" With Iran — Plans to Keep Naval Blockade in Place",
+      "body": "President Trump told Axios on Sunday that Washington is \"only semi-negotiating\" with Tehran and that the U.S. will rely on its naval blockade — not further airstrikes — to pressure Iran. The comment reversed weeks of cautious optimism around Oman-brokered talks and was the immediate catalyst for Monday's 5% single-session surge in both Brent and WTI. Iran's FM Araghchi repeated his three conditions for reopening Hormuz: end the blockade, lift sanctions, pay war reparations. Iranian FM spokesman Esmail Baghaei added Monday that the blockade must be lifted first before any agreement can proceed.",
+      "link_url": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply Risk",
+      "headline": "Houthis Strike Aramco Refinery in Jizan — Fire Quickly Extinguished, No Casualties Reported",
+      "body": "Houthi forces launched a drone strike on the Saudi Aramco refinery complex in Jizan on Saturday, the southwestern Saudi city near the Yemeni border. A fire broke out but was extinguished with no reported casualties. Aramco CEO Amin Nasser confirmed the attack caused \"some production interruptions\" but had \"no material operational or financial impact.\" A separate Houthi assault on al-Makha port killed seven Saudi soldiers. The back-to-back strikes reinforce that Saudi export infrastructure remains an active target even as diplomatic channels between Washington and Tehran remain nominally open.",
+      "link_url": "https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Pipeline / Infrastructure",
+      "headline": "Turkey and Iraq Ink One-Year Kirkuk-Ceyhan Pipeline Deal at 750,000 bpd — Baghdad's Only Viable Export Route",
+      "body": "Ankara and Baghdad on August 1 signed a one-year transit agreement keeping crude flowing through the Kirkuk-to-Ceyhan Oil Pipeline at 750,000 bpd — against a theoretical maximum of 1.5 million bpd. The deal is effectively Iraq's only functioning export corridor to the Mediterranean, as the Hormuz closure has collapsed Baghdad's oil revenues from roughly $6 billion per month to under $2 billion. Both governments are negotiating a longer-term framework spanning oil, electricity, and water cooperation.",
+      "link_url": "https://www.aljazeera.com/news/2026/8/1/turkiye-and-iraq-sign-one-year-oil-pipeline-deal-amid-global-shift",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Big Oil",
+      "headline": "Chevron, Shell and ExxonMobil Post Record or Near-Record Profits on Wartime Crude Prices",
+      "body": "The Q2 2026 earnings season is over and it belongs to Big Oil. Chevron posted its highest quarterly earnings ever, Shell recorded its second-biggest quarter, and ExxonMobil doubled its year-over-year profit. American refineries are running near full capacity and benefiting as facilities in the Middle East and Russia sustained conflict-related damage. The results have reignited the U.S. windfall-profits tax debate; Senator Sheldon Whitehouse and several colleagues are backing new levies on oil-company windfall earnings for as long as the Hormuz crisis persists.",
+      "link_url": "https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "New Infrastructure",
+      "headline": "Egypt and Libya Near $1 Billion Tobruk-to-Alexandria Pipeline Deal to Bypass Gulf Disruption",
+      "body": "Cairo and Tripoli are finalizing a joint feasibility study for an 800-km oil pipeline connecting Libya's Tobruk terminal to Egypt's Alexandria port — estimated to cost over $1 billion. The project would give Egypt direct access to Libyan crude to replace suspended Gulf supplies, with Cairo seeking at least one million barrels per month. Libya's production has meanwhile climbed to decade-highs, giving Tripoli a compelling export incentive. Both sides are actively evaluating financing structures and an implementation timeline.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Egypt-and-Libya-Near-1-Billion-Oil-Pipeline-Deal.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Downstream",
+      "headline": "U.S. Gas Prices Fall Below $4/Gallon for First Time Since March — But Analysts Warn Hormuz Tail Risk Remains",
+      "body": "The national average retail gasoline price dropped below $4.00 per gallon for the first time since March 2026, closing a painful stretch of elevated pump prices driven by the Iran war. GasBuddy analyst Patrick De Haan cautioned the relief could be temporary: \"With the strait remaining closed, upward pressure on fuel prices could return quickly.\" If the Hormuz standoff deteriorates further, De Haan noted the national average could climb to its highest level ever recorded this late in the calendar year.",
+      "link_url": "https://www.nbcnews.com/business/consumer/gas-prices-below-4-dollars-rcna350673",
+      "link_text": "Read NBC News"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 11 — Today",
+      "name": "Iran-U.S. Back-Channel Diplomacy: Does \"Only Semi-Negotiating\" Signal a Hard Pause?",
+      "impact": "With Trump publicly downgrading the negotiation intensity, the market is watching for any Oman-brokered signal that Washington is prepared to offer a substantive concession on the naval blockade. A credible concession — even symbolic — would be the sharpest single-session downside catalyst for crude. Another quiet day from the Oman channel, or further Iranian escalation, keeps the premium locked in at the $87–$88 level.",
+      "market_impact": "Binary: ±$4–6/bbl on any Oman breakthrough or Iranian walk-back.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 12",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Aug 7)",
+      "impact": "The first inventory print since the 2.5-million-barrel crude surprise build and after Monday's sharp rally. Refinery utilization at 96.5% in the prior week suggests strong crude demand pull. A return to draws — especially in distillates, already 12% below the five-year average — would reinforce the supply tightness narrative and support prices. A second consecutive crude build would flag demand softening and weigh on WTI.",
+      "market_impact": "±$1.50–$2.50/bbl depending on crude and product inventory moves.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug 10–31",
+      "name": "Iran Parliament Vote: Ship-Ban and Hormuz Toll Legislation",
+      "impact": "Iran's parliament is reviewing legislation that would permanently ban U.S.- and Israel-linked vessels from the strait and impose transit tolls on all others. Passage would legally entrench the blockade, make any diplomatic reopening structurally harder, and likely add $4–8/bbl to Brent. Market relief if the bill is tabled or fails. The timeline for a vote is unknown; any news of scheduling accelerates the risk.",
+      "market_impact": "Structural upside risk: +$4–8/bbl if passed; relief rally if tabled.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 10–31",
+      "name": "Houthi Escalation — Saudi and UAE Energy Infrastructure",
+      "impact": "Saturday's Jizan refinery strike demonstrated continued Houthi capability and intent against Aramco. A future strike that causes actual production loss or significant damage to a major export terminal — rather than a quickly-contained fire — would represent a distinct supply-shock catalyst on top of the Hormuz closure. Markets have repeatedly discounted the Houthi threat after \"no operational impact\" outcomes, creating complacency that an escalation would quickly unwind.",
+      "market_impact": "Event-risk spike: +$3–6/bbl on a material production or export infrastructure hit.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 6",
+      "name": "OPEC+ Ministerial Monitoring Committee — Post-Rollback Baseline Review",
+      "impact": "With the full 1.65 million bpd voluntary cut rollback now complete, the September 6 meeting will set Q4 2026 direction. The group must decide whether to pause further increases, address the gap between paper quotas and physical Hormuz-constrained flows, or signal quota defence around $80/bbl Brent. Any language defending a price floor would be bullish for Q4 forward curves.",
+      "market_impact": "Forward-price anchor — shapes Q4 2026 floor expectations for Brent and WTI.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Trump's \"only semi-negotiating\" comment is doing more work this Tuesday than any scheduled data release. Strip away the noise and the signal is straightforward: the U.S. president has publicly demoted the Hormuz talks from active deal-making to something short of that, in the same week that Iran's Foreign Minister codified his three non-negotiable conditions. The gap between Washington and Tehran is not narrowing on any publicly visible metric. That gap is what Brent's $87–$88 handle is pricing.",
+      "<strong>My read on today:</strong> Monday's 5% surge was the market's rational response to a shift in the negotiation posture — not a speculative overshoot. Brent at $87.78 is orderly. The move from $84 to $88 in a single session reflects a genuine repricing of the resolution timeline, not a panic: the prior $84 level had already embedded some optimism about Oman-brokered progress, and Trump's candor erased it. Today's quiet <strong>+0.07%</strong> consolidation is the market digesting that repricing.",
+      "<strong>The two-sided picture:</strong> The bearish scenario requires the Oman channel to deliver a meaningful concession — most plausibly a U.S. softening on the naval blockade, perhaps styled as a \"confidence-building\" measure — within the next session or two. That is not impossible; back-channel deals have surprised before. The bullish tail is the Iran parliament scheduling a vote on the ship-ban bill, a Houthi strike that actually knocks out Saudi production, or Trump hardening further (\"not negotiating at all\"). Any of those puts $93+ back on the board. China's demand destruction — crude imports at a 10-year low — remains the one structural buffer preventing a full return to the March shock levels.",
+      "<strong>The call:</strong> <em>Brent holds $86–$90 today</em>, with the midpoint around $87–$88 as the base case absent a headline. <strong>I am not chasing yesterday's surge, but I am not fading it either</strong> — Iranian conditions must credibly narrow and Washington must visibly soften before the risk premium justifies unwinding. Watch the Oman channel and Wednesday's EIA inventory print. The next meaningful directional move is, again, headline-driven."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Very Tight", "tone": "bearish", "pct": 85 },
+      { "name": "Geopolitical Risk", "label": "Elevated — Talks Downgraded", "tone": "bearish", "pct": 88 },
+      { "name": "Demand Response", "label": "Weakening (China)", "tone": "bullish", "pct": 30 },
+      { "name": "Hormuz Resolution", "label": "Semi-Stalled", "tone": "bearish", "pct": 18 },
+      { "name": "OPEC+ Cohesion", "label": "Constrained by Hormuz", "tone": "neutral", "pct": 52 },
+      { "name": "Price Momentum", "label": "Consolidating Post-Surge", "tone": "neutral", "pct": 72 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$86 – $90",
+      "bias": "Bias: Holding Premium — Headline-Driven ▲"
+    },
+    "watch_levels": {
+      "resistance": "$90–$93",
+      "support": "$84–$86",
+      "breakout": ">$93 (Iran parliament bill or Houthi production hit)",
+      "breakdown": "<$82 (U.S. blockade concession or Oman breakthrough)"
+    }
+  }
+}
