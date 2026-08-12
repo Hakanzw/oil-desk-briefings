@@ -22,10 +22,10 @@ jobs:
         run: |
           cat > automation/_email_meta.json << 'EOF'
           {
-            "slug": "jul29-2026",
-            "date_long": "Wednesday, July 29, 2026",
-            "subject": "OIL DESK — Daily Briefing | Wednesday, July 29, 2026",
-            "body": "Brent crude surged to $87.36 (+3.89%) as US airstrikes resumed on Houthi positions near the Abqaiq corridor for a third consecutive day, stoking supply-disruption fears. WTI followed at $82.30 (+3.84%). EIA inventories showed a surprise crude build of +2.0 mb. Price call: $84–$93 biased higher."
+            "slug": "aug12-2026",
+            "date_long": "Wednesday, August 12, 2026",
+            "subject": "OIL DESK — Daily Briefing | Wednesday, August 12, 2026",
+            "body": "Brent extended its six-day winning streak to ~$89.45 (+0.63%), knocking on $90 resistance after the EIA reported a 1.7M-barrel crude draw reversing last week's surprise build. Iran published a restrictive Hormuz navigation draft requiring ships to seek Iranian permission — markets read it as a hardening signal. Trump added a reparations demand to the mix. Price call: $88–$92, testing $90, bias higher."
           }
           EOF
 
