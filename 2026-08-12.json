@@ -1,0 +1,155 @@
+{
+  "date_long": "Wednesday, August 12, 2026",
+  "date_slug": "aug12-2026",
+  "volume": "Vol. I — No. 15",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Bloomberg, CNBC, Al Jazeera, NPR, EIA, EnergyConnects, Forbes, Energies Media, Investing.com",
+
+  "ticker": [
+    "BRENT CRUDE ~$89.45 ▲ +0.63%",
+    "WTI CRUDE ~$83.77 ▲ +0.67%",
+    "NATURAL GAS ~$2.77/MMBtu ▲ +0.18%",
+    "EIA: CRUDE STOCKS FELL 1.7M BBL — REVERSAL OF PRIOR WEEK'S SURPRISE +2.5M BUILD",
+    "BRENT RISES FOR SIXTH CONSECUTIVE SESSION — APPROACHING $90 RESISTANCE",
+    "OPEC+ COMPLETES VOLUNTARY CUT ROLLBACK WITH SEPTEMBER 188K BPD HIKE",
+    "IRAN PUBLISHES DRAFT HORMUZ RULES: SHIPS MUST SEEK PERMISSION, SAIL NEAR IRANIAN COASTLINE"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$89.45", "change": "▲ +0.63% (Oct front-month)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$83.77", "change": "▲ +0.67% (Sep front-month)", "direction": "up" },
+    { "label": "Brent–WTI Spread", "value": "~$5.68", "change": "Hormuz freight premium holding", "direction": "" },
+    { "label": "Brent vs. 2026 Peak", "value": "−29%", "change": "▼ Off the ~$126 war high", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.77", "change": "▲ +0.18% (near flat)", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "EIA Crude Draw Reverses Surprise Build — Brent Extends Six-Day Run Toward $90 as Hormuz Deadlock Deepens",
+    "headline": "Brent Pushes Toward $90 on EIA Draw Surprise and Sixth Day of Gains — Iran's Restrictive Navigation Draft Hardens the Standoff",
+    "paragraphs": [
+      "Brent crude extended its winning streak to <strong>six consecutive sessions</strong> on Wednesday, climbing to ~<strong>$89.45/bbl</strong> — its highest level since before the June ceasefire repricing — after this morning's EIA weekly petroleum status report delivered a <strong>1.7-million-barrel crude draw</strong> for the week ending August 7. The draw reversed the prior week's surprise 2.479-million-barrel build and came in squarely against consensus expectations of a small build of around 0.5 million barrels. Distillates — diesel and heating oil — remain <strong>12% below the five-year seasonal average</strong>, a structural tightness that continues to underpin refinery margins even as upstream flows remain constrained by the Hormuz closure.",
+      "The diplomatic backdrop darkened further overnight. President Trump, in a Tuesday interview, added a new precondition to any deal: Iran must pay <strong>war reparations</strong> for Americans killed in attacks linked to the Islamic Republic. Tehran's position is the mirror image — Iran's Foreign Ministry insisted the U.S. must pay reparations as part of any framework. Meanwhile, Iran published a detailed navigation draft on Wednesday that would require all ships to request permission from Iranian authorities and sail <strong>close to the Iranian coastline</strong> while transiting the strait — conditions markets read as hardline and structurally difficult to impose on the broader shipping community. Analysts at CNBC warned that if the deadlock runs into next week without resolution, market moves will \"not be so benign.\"",
+      "The cumulative effect of six days of gains — a <strong>+12% price run</strong> since the early-August low near $79/bbl — reflects accumulated risk premium rather than any fundamental supply recovery. Daily transits through the Strait of Hormuz remain at <strong>8–15 vessels</strong> against a pre-war baseline of 130, and OPEC+ paper quota increases continue to be described by the Joint Ministerial Monitoring Committee itself as having a \"negligible impact on the physical crude market\" while the strait stays closed. Wednesday's EIA draw confirms the physical market is tight; the question for the desk is whether the $90 psychological resistance becomes a ceiling or a launching pad."
+    ],
+    "link_url": "https://www.cnbc.com/amp/2026/08/11/hormuz-oil-prices-us-iran.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "−1.7M", "desc": "Million-Barrel Crude Draw in This Week's EIA Report — Reversal of Last Week's +2.479M Surprise Build" },
+      { "num": "6", "desc": "Consecutive Sessions of Brent Gains — Longest Winning Streak Since the March War-Premium Spike" },
+      { "num": "+12%", "desc": "Brent's Price Run Over the Prior Five Trading Sessions From the Early-August Low Near $79/bbl" },
+      { "num": "8–15", "desc": "Daily Vessel Transits Through Hormuz vs. ~130 Before the Crisis — Strait Effectively Still Closed" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "EIA Data",
+      "headline": "EIA: Crude Stocks Draw 1.7M Barrels — Reverses Last Week's Surprise Build; Distillates Remain 12% Below 5-Year Average",
+      "body": "The U.S. Energy Information Administration's weekly petroleum status report, released Wednesday morning, showed a crude oil inventory draw of <strong>1.7 million barrels</strong> for the week ending August 7 — against consensus expectations of a small build of roughly 0.5 million barrels and reversing the prior week's surprise 2.479-million-barrel build. Gasoline stocks also drew down, while distillate inventories remain approximately 12% below the five-year seasonal average at 107.2 million barrels — a structural deficit that keeps refinery margins elevated. The Strategic Petroleum Reserve has now fallen below 300 million barrels, its lowest level since 1983, as the Hormuz crisis continues to deplete emergency reserves.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Geopolitics",
+      "headline": "Trump Adds War Reparations Demand — Iran Publishes Restrictive Hormuz Navigation Draft Requiring Ships to Seek Permission",
+      "body": "The Hormuz negotiating gap widened Wednesday on two fronts. President Trump said Iran must pay <strong>war reparations</strong> for Americans killed in attacks linked to Tehran as a precondition for any deal — the mirror of Iran's own reparations demand on Washington. Separately, Iran published a draft Hormuz navigation framework that would require all ships to formally request permission from Iranian authorities and transit in a lane close to the Iranian coastline — conditions shipping analysts called \"operationally unworkable\" for the global tanker fleet. Markets had briefly rallied on Pakistan's defense minister saying the two sides were \"close to some sort of arrangement\"; the draft publication reversed that optimism. CNBC warned that a continued deadlock into next week \"will not produce benign market moves.\"",
+      "link_url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Completes Voluntary Cut Rollback With September 188K bpd Hike — Group Signals Pause After Unwinding 1.65M bpd",
+      "body": "Eight OPEC+ nations approved a <strong>188,000 bpd production increase for September</strong> at their August 3 virtual meeting — the sixth consecutive monthly hike and the final tranche needed to unwind the 1.65 million bpd in additional voluntary cuts first introduced in April 2023. Saudi Arabia and Russia each absorb 62,000 bpd of the increase, with Iraq, Kuwait, Kazakhstan, Algeria and Oman sharing the remainder. Rystad Energy's Jorge Leon noted the group has \"little incentive to rush further changes\" and predicted a pause through Q4 2026 while members prepare 2027 quota negotiations. A separate, larger 2022 tranche of 2.0 million bpd in cuts remains in effect through end-2026. The OPEC+ JMMC acknowledged publicly that Hormuz constraints have made recent quota increases a \"negligible\" influence on physical supply.",
+      "link_url": "https://www.energyconnects.com/news/oil/2026/august/opecplus-completes-rollback-of-oil-production-cuts-with-september-hike/",
+      "link_text": "Read EnergyConnects"
+    },
+    {
+      "tag": "Supply Risk",
+      "headline": "Houthis Strike Jizan Aramco Refinery Again — Fire Contained, No Casualties, But Infrastructure Complacency Flagged",
+      "body": "Yemen's Houthi forces launched a drone attack on Saudi Aramco's Jizan refinery on Sunday, August 9 — the second major strike on the facility in weeks. Houthi military spokesman Yahya Saree confirmed the strike was \"precise\" and targeted the refinery complex directly. A fire broke out and was extinguished; Saudi Arabia reported no casualties from the refinery hit, though a concurrent Houthi attack on Yemen's al-Makha port killed seven people. <strong>Saudi Aramco CEO Amin Nasser</strong> acknowledged the attacks have caused \"some production interruptions\" but said operations remain recoverable with no material financial impact. Analysts warn the repeated \"no operational impact\" framing is creating complacency — a strike that knocks out actual production or damages a major export terminal would be an immediate, distinct shock on top of the Hormuz closure.",
+      "link_url": "https://www.npr.org/2026/08/09/nx-s1-5926387/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "Demand",
+      "headline": "China Q2 Crude Imports Collapse 32% — Lowest Level Since 2016 as Hormuz Disruption Bites Beijing's Supply Chain",
+      "body": "China's crude oil imports fell to <strong>8.1 million barrels per day</strong> in Q2 2026 — a 32% drop quarter-over-quarter and the lowest import pace since 2016. The decline reflects the Hormuz crisis's direct impact on China's supply chain: waterborne arrivals from Iraq fell by 910,000 b/d, from Russia by 640,000 b/d, and from the UAE by 600,000 b/d — all major exporters whose cargoes typically transit the strait. Chinese refineries have been drawing down the enormous strategic reserves built in late 2025 (when Beijing aggressively stockpiled at $55–65/bbl) at a rate of 1.7 million b/d, contributing to global inventory draws of 5.1 million b/d in the quarter. The Chinese pullback has paradoxically moderated the price spike — reduced demand at high prices offsetting what could have been a far sharper supply squeeze.",
+      "link_url": "https://energiesmedia.com/china-crude-oil-imports-q2-2026-energy/",
+      "link_text": "Read Energies Media"
+    },
+    {
+      "tag": "Market Sentiment",
+      "headline": "Bloomberg: Oil Advances for Sixth Day — Traders Dismiss Pakistani Optimism, Digest Iran Navigation Draft as Price Runs 12% Off August Low",
+      "body": "Oil advanced for a sixth consecutive session Wednesday as traders remained firmly skeptical of near-term Hormuz resolution, even after Pakistan's defense minister said Washington and Tehran were \"close to some sort of arrangement\" — an upbeat signal that briefly buoyed prices before Iran's restrictive navigation draft and Trump's reparations demand reversed it. Brent has now rallied roughly <strong>12% from the early-August low</strong> near $79/bbl, approaching the psychologically significant $90 level. Bloomberg analysts noted the run reflects accumulated risk premium, not a fundamental supply recovery. The key question heading into Thursday is whether the $90 handle proves a ceiling — triggering profit-taking — or a technical breakout that opens the $93–$95 range.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-11/latest-oil-market-news-and-analysis-for-aug-12",
+      "link_text": "Read Bloomberg"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 12 — Today",
+      "name": "Iran Navigation Draft & Trump Reparations Demand — Hormuz Gap Widens Again",
+      "impact": "Iran's publication of a restrictive navigation framework — ships must seek Iranian permission and sail near the coastline — is the session's most consequential new variable. Combined with Trump's reparations demand meeting Iran's own reparations demand, the public negotiating gap has widened rather than narrowed. The desk watches for any quiet Oman-channel signal contradicting the public posture: a credible softening from either side — particularly a U.S. willingness to treat the navigation draft as a starting position rather than a dealbreaker — would be the sharpest single-session downside catalyst for crude.",
+      "market_impact": "Binary: ±$4–7/bbl on any Oman breakthrough or Iranian walk-back of the navigation draft.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 12 — Today",
+      "name": "EIA Weekly Report Released — Crude Draw Supports Tight Physical Market Narrative",
+      "impact": "The 1.7-million-barrel crude draw — reversing last week's surprise 2.479-million-barrel build — confirms the physical market remains well-supported. Distillate deficit at 12% below the five-year average signals underlying demand resilience even as Chinese imports collapse. The data removes the bearish \"demand destruction is winning\" argument that was gathering traction after the prior week's build. An additional product draw in gasoline and distillates would reinforce the tight margin environment.",
+      "market_impact": "Modestly bullish: removed a short-term bearish overhang, supports $88–$90 floor.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug 10–31",
+      "name": "Iran Parliament Vote: Ship-Ban and Hormuz Toll Legislation",
+      "impact": "Iran's parliament continues to review legislation that would permanently ban U.S.- and Israel-linked vessels from the strait and impose transit tolls on all others. Iran's publication of the navigation draft this week is consistent with parliament moving toward codifying restrictive access rules. If a formal vote is scheduled and passes, the legal entrenchment of the closure would push Brent sharply higher and make diplomatic reopening structurally harder. The navigation draft could be read as a preview of what legislated access rules might look like.",
+      "market_impact": "Structural upside risk: +$4–8/bbl if passed; relief rally if tabled.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug 10–31",
+      "name": "Houthi Escalation — Saudi and UAE Energy Infrastructure",
+      "impact": "Sunday's second Jizan refinery strike in weeks confirms the Houthis maintain both the capability and intent to target Aramco assets. The market has repeatedly discounted the threat after \"no operational impact\" outcomes, but this creates a complacency risk. A strike that produces actual production loss or damages a major export terminal — rather than a quickly-contained fire — would represent a distinct supply shock on top of the Hormuz closure. With Saudi Arabia's Red Sea export route (Yanbu) also periodically targeted, the kingdom's entire hydrocarbon infrastructure remains exposed.",
+      "market_impact": "Event-risk spike: +$3–6/bbl on a material production or export infrastructure hit.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 6",
+      "name": "OPEC+ Ministerial Monitoring Committee — Q4 2026 Direction After Rollback Completion",
+      "impact": "With the 1.65 million bpd voluntary cut rollback now fully complete, the September 6 meeting will set Q4 2026 direction. Rystad predicts a pause on further increases while the group prepares 2027 quotas. The key question is whether OPEC+ language signals a price floor around $80/bbl Brent — which would be bullish for forward curves — or whether members with Hormuz-constrained deliveries (Iraq, Kuwait) push for quota relief to compensate for lost revenue. The JMMC's own acknowledgment that recent hikes have had \"negligible\" physical impact underscores the structural peculiarity of OPEC+ managing paper quotas while the real bottleneck is a closed strait.",
+      "market_impact": "Forward-price anchor — shapes Q4 2026 floor expectations for Brent and WTI.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Two things happened today that pull in the same direction: a bullish EIA report and a tougher diplomatic picture. The 1.7-million-barrel crude draw reversed last week's jarring surprise build and took the \"inventory demand destruction\" narrative off the table for now. The distillate deficit — 12% below the five-year average — tells you the physical market is not finding equilibrium despite Chinese imports at decade lows. When that structural tightness combines with a Hormuz closure that is not visibly approaching resolution, you get what you have: a sixth consecutive day of gains and Brent knocking on $90.",
+      "<strong>My read on today:</strong> Iran's navigation draft is the most important new variable. Publishing a draft framework that requires ships to request permission and sail close to the Iranian coastline is not the behavior of a government about to reopen the strait. It is the behavior of a government institutionalizing its control of access — either as a bargaining position, or as the first draft of what a permanent Iranian toll regime might look like. The market is correctly treating it as a hardening signal. Trump's added reparations demand closes the public negotiating space further. Both sides are publicly demanding the other pay reparations — that is not a gap closable by the Oman channel alone.",
+      "<strong>The two-sided picture:</strong> The bearish scenario is a quiet back-channel concession that neither side announces publicly — perhaps a U.S. agreement to treat the navigation draft as a basis for negotiation, styled as a humanitarian gesture, while Iran quietly allows a few additional tankers through. That is not impossible; the June 15 deal surprised everyone. The bullish tail is the Iranian parliament scheduling the ship-ban vote, another Houthi strike that actually hits production, or Trump escalating the economic pressure with new sanctions. Any of those puts $93–$95 back on the board quickly. The EIA draw eliminates the one data-based reason to be bearish on physical tightness.",
+      "<strong>The call:</strong> <em>Brent holds $88–$92 today</em>, with $90 as the test. <strong>I am not chasing the sixth day of gains, but I am not fading the physical tightness either.</strong> The $90 level is psychological resistance, not fundamental resistance — the fundamentals, between a closed strait, a 12% distillate deficit, and a just-confirmed crude draw, argue for the upside of that range. Watch the Oman channel overnight and any Iranian parliamentary scheduling news. The next move is headline-driven from Tehran or Washington."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Very Tight — EIA Draw Confirmed", "tone": "bearish", "pct": 88 },
+      { "name": "Geopolitical Risk", "label": "Escalating — Draft Hardens Stance", "tone": "bearish", "pct": 91 },
+      { "name": "Demand Response", "label": "Weakening (China at 2016 Lows)", "tone": "bullish", "pct": 28 },
+      { "name": "Hormuz Resolution", "label": "Receding — Navigation Draft Published", "tone": "bearish", "pct": 12 },
+      { "name": "OPEC+ Cohesion", "label": "Paper Quotas, Physical Constrained", "tone": "neutral", "pct": 50 },
+      { "name": "Price Momentum", "label": "Strong — Six-Day Streak", "tone": "bearish", "pct": 80 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$88 – $92",
+      "bias": "Bias: Testing $90 Resistance — Headline-Driven ▲"
+    },
+    "watch_levels": {
+      "resistance": "$90–$93",
+      "support": "$86–$88",
+      "breakout": ">$93 (Iran parliament bill vote or Houthi production hit)",
+      "breakdown": "<$84 (Oman breakthrough or U.S. acceptance of Iran navigation draft as basis for talks)"
+    }
+  }
+}
