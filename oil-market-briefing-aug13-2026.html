@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Thursday, August 13, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE ~$87.92 ▼ -1.19% &nbsp;|&nbsp; WTI CRUDE ~$82.11 ▼ -1.39% &nbsp;|&nbsp; NATURAL GAS ~$2.78/MMBtu ▼ -0.78% &nbsp;|&nbsp; EIA: CRUDE STOCKS SURGE +17.4M BBL — SECOND-LARGEST BUILD IN HISTORY AS EXPORTS SLUMP TO 3.06M BPD &nbsp;|&nbsp; BRENT SIX-SESSION WINNING STREAK SNAPPED — RETREATS FROM $90 RESISTANCE ON BEARISH EIA DATA &nbsp;|&nbsp; HOUTHIS KILL SIX ON RED SEA CARGO SHIP — FIRST DEADLY BAB EL-MANDEB STRIKE IN MORE THAN A YEAR &nbsp;|&nbsp; OMAN-IRAN HORMUZ TALKS IN 'FINAL STAGES' — RUBIO: 'PROGRESS MADE BUT NOT FINALITY'&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Thursday, August 13, 2026<br>
+      Vol. I — No. 16<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$87.92</span><br>
+      WTI Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$82.11</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">~$87.92</div>
+      <div class="price-change down">▼ -1.19% (Oct front-month)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$82.11</div>
+      <div class="price-change down">▼ -1.39% (Sep front-month)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent–WTI Spread</div>
+      <div class="price-val">~$5.81</div>
+      <div class="price-change " style="color:#888;">Spread steady; export logistics constrained</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Brent vs. July Peak</div>
+      <div class="price-val">−16%</div>
+      <div class="price-change down">▼ Off the ~$105 July 23 war-spike high</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">~$2.78</div>
+      <div class="price-change down">▼ -0.78% (pullback)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">Six-Day Rally Breaks: EIA's Record Build Digests and Houthis Open a Second Front — Both Bab el-Mandeb and Hormuz Now Under Active Interdiction</div>
+      <h3>Brent Snaps Six-Session Streak at $87.92 as +17.4M-Barrel EIA Shock Digests — Houthi's First Fatal Red Sea Strike in a Year Complicates the Picture</h3>
+      <p>Brent crude snapped a six-session winning streak on Thursday, falling to ~<strong>$87.92/bbl (−1.19%)</strong> as the market finally fully digested Wednesday's bombshell EIA weekly petroleum status report: a <strong>+17.4 million barrel crude build</strong> — the second-largest single-week inventory surge on record — driven primarily by a dramatic slump in U.S. crude exports to <strong>3.06 million barrels per day</strong>, the lowest level since November 2025. The build dwarfed analyst expectations for a 1.4-million-barrel draw and lifted commercial crude stocks to 424.4 million barrels, their highest since June 5. The mechanism is the Hormuz paradox: the strait closure that supports prices geopolitically is simultaneously trapping U.S. crude onshore, building domestic inventories at a historic pace as export routes are disrupted. Wednesday's session absorbed the data with only modest losses before recovering; by Thursday, the tape could no longer look away.</p>
+      <p>Even as the bearish inventory data weighed, a new supply-chain shock emerged to set a floor. Houthi forces confirmed a deadly missile attack on the Egyptian-owned, Tanzania-flagged cargo ship <em>Tihamah</em> in the <strong>Bab el-Mandeb strait</strong> — killing <strong>six crew members</strong>, the first fatal strike in the waterway in more than a year. The attack marks a significant tactical escalation: with the Strait of Hormuz already restricted by Iran to roughly 6–10 vessel transits per day (versus ~130 pre-war), the Houthis appear to be opening a southern front to squeeze the Saudi Red Sea export route that had been absorbing some of the Hormuz disruption via the East-West pipeline to Yanbu. Bab el-Mandeb throughput — which had already been halved before Tuesday's attack — now faces another potential step down. The dual-chokepoint scenario, both Bab el-Mandeb and Hormuz simultaneously under active interdiction, is the most bearish structural oil supply narrative in decades.</p>
+      <p>On the diplomatic front, cautiously encouraging signals also landed Thursday. Qatar's Ministry of Foreign Affairs confirmed Oman-Iran Hormuz negotiations are at an <strong>'advanced stage,'</strong> with route coordinates for approved shipping lanes reportedly agreed between the parties. Secretary of State Rubio acknowledged U.S. involvement in the mediation and said 'progress has been made' — but added there is 'not finality' yet. A Bloomberg Opinion piece argued pointedly that 'for the oil market, the Strait of Hormuz isn't closed,' noting that EIA data shows roughly <strong>4.9 million bpd</strong> still flowed through the strait in Q2 2026, against 21.6 million bpd pre-war — a 77% reduction but not a complete shutoff. The net effect: Brent is caught between a historic domestic crude build that argues for further retreat and a worsening dual-chokepoint supply risk that argues for a floor. Thursday's $87–$88 holding level reflects exactly that standoff.</p>
+      <a href="https://www.bnnbloomberg.ca/business/international/2026/08/12/us-crude-inventories-rise-by-most-in-35-years-as-exports-slump/" class="read-link" target="_blank">Read BNN Bloomberg →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">+17.4M</div>
+        <div class="stat-desc">Million-Barrel EIA Crude Build for Week Ending Aug 7 — Second-Largest in History; Exports Slumped to 3.06M bpd</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">6</div>
+        <div class="stat-desc">Crew Members Killed in Houthi Attack on Tihamah in Bab el-Mandeb — First Fatal Red Sea Strike in More Than a Year</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−77%</div>
+        <div class="stat-desc">Decline in Hormuz Oil Flows Q2 2026 — From 21.6M bpd Pre-War to 4.9M bpd as Closure Persists</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$87.92</div>
+        <div class="stat-desc">Brent Settling Price Thursday — Snapping the Six-Session Rally Off the Early-August Low Near $79/bbl</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">EIA Data</div>
+      <h4>EIA: +17.4M Barrel Crude Build — Second-Largest in History as Hormuz Export Slump Traps U.S. Oil Onshore</h4>
+      <p>The EIA's weekly petroleum status report, released Wednesday August 12, delivered a <strong>+17.4 million barrel crude build</strong> for the week ending August 7 — the second-largest single-week inventory increase on record — as U.S. crude exports plummeted to <strong>3.06 million barrels per day</strong>, the lowest since November 2025. Analysts had expected a 1.4-million-barrel draw; the actual print followed the API's Tuesday-evening estimate of +9.1 million barrels. Commercial crude stocks rose to 424.4 million barrels — their highest since June 5 — while refinery utilization ran at a robust 96.2%. The core paradox: the Hormuz closure that supports prices geopolitically is simultaneously blocking U.S. export routes, building domestic inventories at a record pace. Gasoline stocks fell 1.0 million barrels (now 6% below the five-year average); distillate fuel fell just 0.1 million barrels (still 12% below average, its own structural support for refinery margins).</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Supply Risk</div>
+      <h4>Houthis Kill Six on Red Sea Cargo Ship Tihamah — First Fatal Bab el-Mandeb Strike in a Year Opens a Second Chokepoint</h4>
+      <p>Yemen's Iran-backed Houthi forces killed <strong>six crew members</strong> aboard the Egyptian-owned, Tanzania-flagged cargo ship <em>Tihamah</em> in the Bab el-Mandeb strait on Tuesday — the first fatal strike in the waterway in more than a year and a significant escalation from the Houthis' recently announced Red Sea blockade. The attack compounds the Hormuz closure in a structurally alarming way: Saudi Arabia had been partially offsetting the Iran-restricted Hormuz route by re-routing crude via its East-West pipeline to the Red Sea port of Yanbu — a route that transits Bab el-Mandeb. With Bab el-Mandeb throughput already halved before the attack, a sustained Houthi interdiction of the Red Sea would foreclose the only meaningful alternative to Hormuz for Gulf producers. The desk flags this as the most under-priced tail risk in the current market: <strong>two chokepoints, both under active attack simultaneously</strong>.</p>
+      <a href="https://www.semafor.com/article/08/12/2026/houthis-attack-red-sea-cargo-ship-in-first-deadly-strike-in-a-year" class="read-link" target="_blank">Read Semafor →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Geopolitics</div>
+      <h4>Qatar: Oman-Iran Hormuz Talks in 'Advanced Stage' — Route Coordinates Agreed; Rubio Says 'Progress Made, Not Finality'</h4>
+      <p>Qatar's Ministry of Foreign Affairs confirmed Wednesday that Oman-Iran negotiations over Strait of Hormuz transit routes have reached an <strong>'advanced stage,'</strong> with the coordinates of approved shipping lanes reportedly agreed between the parties. Secretary of State Marco Rubio, in remarks to reporters, confirmed U.S. involvement in the mediation and said 'progress has been made' — but added there is 'not finality' and expressed hope a deal will materialize 'very shortly.' Iran's Foreign Ministry simultaneously signaled that an Oman-mediated framework alone would be insufficient without the U.S. meeting a full list of conditions, including ending its naval blockade of Iranian ports, withdrawing military forces from Iran's vicinity, and permanently ending the war. The gap between 'advanced-stage talks' and a framework that satisfies Iran's public conditions remains significant, but the diplomatic language is the most constructive seen in over a week.</p>
+      <a href="https://www.gulf-times.com/article/730873/qatar/oman-iran-talks-on-hormuz-are-in-advanced-stage-qatar-says" class="read-link" target="_blank">Read Gulf Times →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Analysis</div>
+      <h4>Bloomberg Opinion: 'The Strait of Hormuz Isn't Closed' — 4.9M bpd Still Flowing; What Is the Market Actually Pricing?</h4>
+      <p>A Bloomberg Opinion piece published Thursday argues the oil market's binary framing of a 'closed' Hormuz strait overstates the disruption: EIA data shows <strong>4.9 million barrels per day</strong> still transited the strait in Q2 2026, against 21.6 million bpd in Q4 2025 pre-war — a 77% decline, not a shutoff. The piece notes that Brent's range of $69–$105 since the conflict began reflects a market wrestling with a partial, variable closure rather than a clean binary state. The argument carries a bearish implication: if the market has overpriced the closure by treating it as total rather than severe-but-partial, any clarity on actual flow volumes — or the Oman deal formalizing partial access — could trigger meaningful repricing lower. The bulls counter that Thursday's Houthi Bab el-Mandeb escalation changes the calculus entirely: if the Red Sea alternative route is also closing, it no longer matters that Hormuz was 'only' 77% disrupted.</p>
+      <a href="https://www.bloomberg.com/opinion/articles/2026-08-13/for-the-oil-market-the-strait-of-hormuz-isn-t-closed" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Geopolitics</div>
+      <h4>Trump: 'We Own the Strait of Hormuz — Total Control' — Hard-Line U.S. Posture Sits Uneasily With Oman Mediation Track</h4>
+      <p>President Trump reinforced the U.S. negotiating posture Wednesday, declaring the United States has <strong>'total control over the Hormuz Strait — we own it'</strong> and warning that Iran's continued restrictions would 'be met with force.' The statement, rhetorically consistent with Trump's previous hardline declarations, introduced fresh ambiguity around the ongoing Oman-mediated talks: if the U.S. claims 'total control,' what is the basis for mediated negotiations? Markets interpret the posture as sustained maximum pressure rather than an operational action timeline. Iran has not backed down from its public conditions — reparations, sanctions removal, and U.S. force withdrawal — leaving the gap between Trump's 'we own it' framing and Iran's preconditions as wide as ever. Both Pakistan's defense minister ('close to an arrangement') and Rubio's 'progress but not finality' sit awkwardly against Trump's declaratory stance.</p>
+      <a href="https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">IEA Report</div>
+      <h4>IEA: Global Oil Deficit to Hit 1.8M bpd This Quarter — Demand Outlook Cut 510K bpd as High Prices Bite</h4>
+      <p>The International Energy Agency's August Oil Market Report delivered a double-sided verdict on the crisis: a global oil supply shortfall of <strong>1.8 million barrels per day</strong> in Q3 2026 — more than double its prior projection — as the U.S.-Iran conflict dragged on, while simultaneously cutting its 2026 global demand outlook by <strong>510,000 bpd</strong> as elevated fuel prices suppress consumption. Global oil supply is forecast to fall 4.3 mb/d in 2026 to 102 mb/d. The agency, which has characterized the Hormuz closure as the 'largest supply disruption in the history of the global oil market,' noted that China's strategic reserve draws (1.7 mb/d) and record U.S. production have been the primary buffers. The IEA also flagged that a Caroline Bezengi sanctioned Russian crude tanker ran aground near the Omani coast, producing an oil spill spreading across more than 2,000 sq km — an environmental crisis with secondary maritime traffic implications for an already-stressed waterway.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/IEA-Global-Oil-Deficit-To-Hit-18-Million-Bpd-This-Quarter.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Aug 13 — Today</td>
+        <td>
+          <div class="event-name">Dual Chokepoint Alert: Houthis Escalate at Bab el-Mandeb While Iran Restricts Hormuz</div>
+          <div class="event-impact">Tuesday's fatal attack on the Tihamah — combined with Iran's continuing Hormuz restrictions — means both of the world's two most critical oil transit chokepoints are now under active interdiction simultaneously. Saudi Arabia's alternative Yanbu export route via the East-West pipeline crosses Bab el-Mandeb; a sustained Houthi blockade of the Red Sea would foreclose Gulf producers' last meaningful export alternative. The market has not yet fully priced this scenario: current pricing reflects a Hormuz-closed risk, but not a Hormuz-AND-Bab el-Mandeb-closed risk, which removes any geographic escape valve. The desk watches for any Houthi statement clarifying the scope of their blockade, any Saudi response, or U.S. naval repositioning in the southern Red Sea.</div>
+        </td>
+        <td>Structural upside risk: +$5–10/bbl if Bab el-Mandeb sustained closure alongside Hormuz.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 13–17</td>
+        <td>
+          <div class="event-name">Oman-Iran 'Advanced Stage' Talks — A Partial Hormuz Deal Could Trigger a Relief Repricing</div>
+          <div class="event-impact">With Qatar's MOFA and multiple sources confirming Oman-Iran talks are in an 'advanced stage' with route coordinates reportedly agreed, the near-term risk is binary: either a partial-access framework is announced (bearish, removes part of the premium) or talks break down again on Iran's broader political conditions (bullish, sustains premium). Rubio's 'progress but not finality' language keeps the door open without committing to a timeline. A deal formalizing partial Hormuz access — even 5–8M bpd — would validate the Bloomberg Opinion argument and could trigger a $3–6 repricing lower. The Houthi Bab el-Mandeb threat, however, limits how far a Hormuz deal alone can push prices down if the Red Sea route is simultaneously closing.</div>
+        </td>
+        <td>Binary: −$3–6/bbl on a partial-access framework; +$2–4/bbl on an Iranian walk-back.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 13 — Today</td>
+        <td>
+          <div class="event-name">EIA Build Digest — Does the Market Accept the 'Hormuz Paradox' or Reprice the Six-Day Rally?</div>
+          <div class="event-impact">The +17.4M barrel build challenges the physical tightness narrative that drove the six-session rally, but the mechanism — export slump caused by Hormuz disruption, not demand collapse — means the data is paradoxically bullish for geopolitics and bearish for domestic crude valuations simultaneously. The key question is whether Thursday's session triggers further selling or whether the Houthi Bab el-Mandeb escalation stabilizes the $87–$89 range. Gasoline (6% below five-year average) and distillates (12% below) remain structurally tight, limiting the scope for a crude-led selloff to drag product prices much lower.</div>
+        </td>
+        <td>Continued modest pressure: $85–$89 range; product market tightness limits sharp downside.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 13+</td>
+        <td>
+          <div class="event-name">Trump 'We Own Hormuz' — Force Threat Creates Policy Ambiguity at a Critical Diplomatic Moment</div>
+          <div class="event-impact">Trump's declaration that Iran's actions 'will be met with force' raises an operational question: at what threshold does the rhetorical posture become a trigger? The ambiguity is intentional — maximum pressure without a commitment — but it creates market optionality. If Iran formally codifies restrictive navigation rules (as it drafted last week) and tests Trump's 'force' threshold, a U.S. military response would deliver an immediate $5–10 bullish spike. Conversely, if the 'we own it' framing is a negotiating instrument and the Oman track advances quietly to a deal, the statement becomes background noise. The desk treats Trump's Hormuz declarations as live option premium.</div>
+        </td>
+        <td>Optionality: $0 impact if talks progress; +$5–10/bbl spike on any military escalation.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 6</td>
+        <td>
+          <div class="event-name">OPEC+ JMMC — Q4 2026 Quota Direction After Voluntary-Cut Rollback Completion</div>
+          <div class="event-impact">With the 1.65 million bpd voluntary-cut rollback fully unwound through the September hike, the September 6 JMMC meeting is the first opportunity for OPEC+ to signal Q4 2026 direction. Rystad Energy predicts a pause on further increases as members prepare 2027 quota negotiations. The JMMC's own acknowledgment that recent hikes have had 'negligible' physical impact while Hormuz stays closed frames the meeting as more about price-floor signaling than actual supply management. The key watch: whether Saudi Arabia signals willingness to defend $80–$85 Brent through voluntary cuts, or allows the market to find its equilibrium as diplomatic pressure on Hormuz builds.</div>
+        </td>
+        <td>Forward curve anchor — a Saudi price-floor signal would support $85+ Brent through Q4.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Thursday, August 13, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Two forces that should push in opposite directions are instead creating a standoff. The EIA's +17.4 million barrel crude build — the second-largest in history — is the starkest domestic supply-side data point in years, and it is unambiguously bearish for U.S. crude valuations. But the mechanism — Hormuz-driven export slump, not demand destruction — means the build is a symptom of the crisis, not evidence the crisis is easing. You cannot use a Hormuz-caused domestic build to argue that oil is heading back to $70. The geopolitics creating the build are the same geopolitics justifying the price.</p>
+        <p><strong>My read on today:</strong> The Houthi attack on the Tihamah in Bab el-Mandeb is the most important new variable, and the market has not yet fully priced it. Saudi Arabia's alternative export route to Yanbu depends on the Red Sea being accessible. If the Houthis sustain and extend their Bab el-Mandeb blockade — as they have now signaled with their first fatal strike in over a year — there is no geographic escape valve for Gulf producers. The dual-chokepoint scenario is no longer a tail risk; it is a live threat. The desk is not bearish on oil today, even with a historic inventory build, because the Houthi escalation has cancelled out whatever diplomatic optimism the Oman talks were generating.</p>
+        <p><strong>The two-sided picture:</strong> The bearish case is an imminent Oman-Iran deal formalizing 5–8M bpd of partial Hormuz access — combined with the massive EIA build reminding the market that U.S. domestic supply is not as tight as a six-session rally implied. That combination could take Brent back toward $83–$85 quickly. The bullish case is a sustained Houthi closure of Bab el-Mandeb that forecloses the Yanbu alternative — in which case, even a Hormuz partial deal doesn't solve the supply problem, and $90–$95 comes back into view. The Tihamah attack has materially shifted the probability distribution toward that latter scenario.</p>
+        <p><strong>The call:</strong> <em>Brent holds $85–$89 today</em>, with $87 as the near-term anchor. <strong>I am not chasing this down, because the dual-chokepoint risk is real and likely underpriced.</strong> A Hormuz partial-deal announcement is the sharpest single downside catalyst; a confirmed Houthi escalation in Bab el-Mandeb is the sharpest upside catalyst. Until one of those resolves, this is a range-bound market — not a trending market — and should be traded as such.</p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Mixed — Record Build vs. Dual Chokepoint Threat</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:58%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Extreme — Dual Chokepoint Active</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:92%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#5cb85c">Weakening (China Imports Near Decade Low)</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:28%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Resolution</span><span style="color:#e05252">Advanced Talks — Not There Yet</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:22%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Cohesion</span><span style="color:#f0a500">Watching — Pause Expected Through Q4</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:50%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Price Momentum</span><span style="color:#f0a500">Cooling — Six-Day Streak Broken</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:42%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$85 – $89</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Range-Bound — Dual Chokepoint Floor vs. Diplomatic Progress Ceiling ◀▶</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$90–$93</span></div>
+            <div>🟢 Support: <span style="color:#fff">$85–$87</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$93 (Houthi Bab el-Mandeb blockade confirmed; Hormuz talks collapse)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$83 (Oman-Iran partial Hormuz access deal announced; EIA build persists)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Thursday, August 13, 2026</span>
+  <span>Sources: Bloomberg, BNN Bloomberg, CNBC, Al Jazeera, Semafor, EIA, Gulf Times, IndexBox</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
