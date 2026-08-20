@@ -1,0 +1,154 @@
+{
+  "date_long": "Thursday, August 20, 2026",
+  "date_slug": "aug20-2026",
+  "volume": "Vol. I — No. 23",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, OPEC, Al Jazeera, CNBC, Bloomberg, Rigzone, Energy Connects, Reuters",
+
+  "ticker": [
+    "BRENT $91.77 ▲ +0.16% — CONSOLIDATES BELOW $92 AFTER 5-SESSION RALLY",
+    "WTI $84.43 ▲ +0.07% — NARROW RANGE AS MARKETS WATCH DIPLOMACY",
+    "STRAIT OF HORMUZ: 8 VESSEL ATTACKS THIS MONTH; CEASEFIRE COLLAPSED JULY 8",
+    "OPEC+ COMPLETES VOLUNTARY-CUT ROLLBACK — 188K BPD INCREASE FOR SEPTEMBER",
+    "IEA: HORMUZ CRISIS \"LARGEST DISRUPTION IN HISTORY OF GLOBAL OIL MARKET\"",
+    "EIA CUTS HENRY HUB FORECAST TO $3.44/MMBTU — RECORD US GAS PRODUCTION"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$91.77", "change": "▲ +0.16% (5-session rally pause)", "direction": "up" },
+    { "label": "WTI Crude", "value": "$84.43", "change": "▲ +0.07% (narrow $84.23–$84.92 range)", "direction": "up" },
+    { "label": "Brent vs. 2026 Peak", "value": "−27%", "change": "▼ Off $126 war spike", "direction": "down" },
+    { "label": "EIA Crude Stocks", "value": "+2.5M bbl", "change": "▲ 407M bbl total (wk Aug 7)", "direction": "up" },
+    { "label": "Natural Gas (HH)", "value": "~$2.87", "change": "▼ EIA lowers 2026 outlook", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "Strait of Hormuz — Month Three of the Collapsed Ceasefire",
+    "headline": "Brent Steadies at $91.77 as Hormuz Attacks Persist and Diplomacy Stalls — Eight Vessels Struck This Month",
+    "paragraphs": [
+      "Crude oil markets found a narrow equilibrium Thursday as Brent held near $91.77 per barrel and WTI clung to $84.43, both essentially flat after a <strong>five-session, 5%-plus rally</strong> driven by escalating tanker attacks in the Strait of Hormuz. The pause is less a sign of market confidence than of exhaustion: buyers absorbed the war-premium repricing through last week; sellers are reluctant to push lower with the strait still under fire. Eight vessel strikes have been confirmed in August alone — including attacks on Qatari LNG tankers and Saudi crude carriers — since Iran's IRGC collapsed the June ceasefire memorandum on <strong>July 8</strong>, when fresh projectile strikes ended six weeks of fragile diplomacy.",
+      "The strategic picture has barely moved. Oil throughput through the Strait of Hormuz, which carried some 21.6 million barrels per day before the February 28 conflict began, has fallen to an estimated <strong>4.9 million bpd</strong> — a loss the IEA declared the <strong>\"largest disruption in the history of the global oil market,\"</strong> surpassing even the 1970s oil crisis. Alternative tanker routes via the Cape of Good Hope and overland pipelines have partially offset the shortfall, but freight costs remain elevated and delivery times have stretched, keeping a structural premium embedded in forward curves.",
+      "Against this backdrop, OPEC+ completed the rollback of its 2023-era voluntary cuts on <strong>August 2</strong>, approving a 188,000 bpd increase for September — the sixth consecutive monthly hike. The move closes out the 1.65 million bpd programme but leaves 2 million bpd of older 2022 cuts intact through end-2026. Analysts broadly view the September increase as symbolic: the Gulf producers most affected by the Hormuz closure cannot easily deliver the extra barrels anyway, and actual export constraints remain geopolitical rather than policy-driven. <strong>OPEC+'s next review is September 6.</strong>"
+    ],
+    "link_url": "https://www.aljazeera.com/news/2026/7/7/ships-attacked-in-the-strait-of-hormuz-what-that-means-for-ongoing-talks",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "8", "desc": "Confirmed Vessel Strikes in the Strait of Hormuz So Far in August 2026" },
+      { "num": "4.9 mb/d", "desc": "Current Oil Throughput via Hormuz — Down from 21.6 mb/d Pre-Conflict" },
+      { "num": "188k bpd", "desc": "OPEC+ September Production Increase — Completing the 1.65 mb/d Voluntary-Cut Rollback" },
+      { "num": "Sep 6", "desc": "Next OPEC+ Review Meeting — Group Pledged to Accelerate, Pause, or Reverse Hikes" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Ships Attacked in Hormuz — Peace Talks Remain at Impasse as Iran Demands Transit Fees",
+      "body": "Iran's IRGC has struck 16 of 18 UKMTO-reported vessels along shipping lanes since July 6, the majority along the Southern Omani route. Key sticking points blocking fresh ceasefire talks include Iran's insistence on collecting transit fees from commercial shipping and its demand for control over shipping lane designation — terms rejected outright by the US and Saudi Arabia. Iran's foreign minister has warned negotiations cannot proceed \"if threats continue,\" a statement widely read as diplomatic cover for continued pressure.",
+      "link_url": "https://www.aljazeera.com/news/2026/7/7/ships-attacked-in-the-strait-of-hormuz-what-that-means-for-ongoing-talks",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Supply Outlook",
+      "headline": "US Government: Iran War Oil Disruptions Will Persist Into 2027, SPR at 1983 Lows",
+      "body": "A US government assessment circulated August 11 projects that Strait of Hormuz disruptions will suppress global oil flows by approximately 600,000 bpd through the end of 2027, even under optimistic diplomatic scenarios. The report also flagged that the US Strategic Petroleum Reserve has been drawn down to its lowest level since 1983, providing roughly 43 days of crude supply cover — a thin buffer against another escalation spike.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-11/us-sees-iran-war-oil-supply-disruptions-lasting-through-2027",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Completes Voluntary-Cut Rollback With September Hike — But Gulf Exports Still Constrained",
+      "body": "The seven-nation OPEC+ core approved a 188,000 bpd output increase for September at its August 2 virtual meeting, closing out the 1.65 million bpd of voluntary cuts first implemented in April 2023. Saudi Arabia and Russia each absorb the largest share. Analysts caution the hike is largely symbolic: actual Gulf export capacity remains pinned by the Hormuz closure and damaged infrastructure, meaning the quota increase has minimal physical impact on global supply for now.",
+      "link_url": "https://www.energyconnects.com/news/oil/2026/august/opecplus-completes-rollback-of-oil-production-cuts-with-september-hike/",
+      "link_text": "Read Energy Connects"
+    },
+    {
+      "tag": "IEA Report",
+      "headline": "IEA: Hormuz Crisis Is Largest Disruption in History of Global Oil Markets — 8.3 mb/d Still Shut In",
+      "body": "The IEA's August 2026 Oil Market Report declared the Strait of Hormuz crisis the worst supply disruption in the history of global oil markets, exceeding even the 1973 Arab oil embargo in scale. Global oil supply is forecast to fall 4.3 mb/d for full-year 2026 to 102 mb/d, with 8.3 mb/d of Gulf output still shut in. The global oil balance shows a deficit of 1.8 mb/d in Q3 2026, supporting prices well above pre-conflict levels despite demand destruction.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-august-2026",
+      "link_text": "Read IEA"
+    },
+    {
+      "tag": "Equities",
+      "headline": "Dow Falls 270 Points as Elevated Oil Weighs on Equities — Energy Costs Squeezing Margins",
+      "body": "US equity markets fell sharply August 16 as Brent climbed toward $93 on fresh Iranian threats, with the Dow shedding more than 270 points. The S&P 500 energy sector outperformed while transports, airlines, and consumer discretionary names bore the brunt of margin pressure. Year-over-year oil price gains have now exceeded 41%, sustaining a persistent drag on corporate earnings in fuel-intensive industries. Fed minutes from the July meeting noted that elevated energy costs remain a \"meaningful upside risk\" to inflation projections.",
+      "link_url": "https://www.cnbc.com/2026/08/16/stock-market-today-live-updates-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "EIA Slashes Henry Hub Forecast to $3.44 — Record US Gas Production Swamps LNG Demand Loss",
+      "body": "The EIA's August Short-Term Energy Outlook cut its full-year 2026 Henry Hub average forecast to $3.44/MMBtu from $3.67 (July estimate) and trimmed its 2027 forecast to $3.31 from $3.49. The agency attributed the revision to record domestic gas production offsetting the loss of LNG feedgas demand caused by the Hormuz closure — Qatari and Gulf LNG exports have collapsed, but US production has surged to fill domestic needs. Pre-winter gas inventories are on pace for their highest levels since 2016.",
+      "link_url": "https://www.rigzone.com/news/eia_lowers_henry_hub_gas_price_forecasts-19-aug-2026-184410-article/",
+      "link_text": "Read Rigzone"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 20 — Today",
+      "name": "Brent Consolidates After 5-Session Rally — Diplomatic Signals Watched Closely",
+      "impact": "After a >5% rally from Aug 12 lows, the market is in a consolidation phase. Any credible signal of fresh ceasefire talks — or conversely, another mass vessel attack in the strait — will break the range. Iran's foreign minister is expected to deliver a statement today on the state of negotiations; traders will parse it for any softening on the transit-fee dispute.",
+      "market_impact": "Binary: ±$3–5/bbl on diplomatic signal or fresh IRGC strike.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 26",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Aug 21)",
+      "impact": "The previous report showed crude stocks building (+2.5M bbl) while gasoline and distillate drew down. If refinery utilization remains near 96% and crude builds continue, the data will partly offset geopolitical support. A crude draw amid tight imports would reinforce the supply-disruption narrative.",
+      "market_impact": "±$1.50–$2.50/bbl; sets the short-term stock-versus-geopolitics balance.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Sep 6",
+      "name": "OPEC+ Monthly Review Meeting",
+      "impact": "The group pledged at its August 2 meeting to retain flexibility to \"accelerate, pause, or reverse\" increases. With Brent in the low $90s, there is limited pressure to cut, but if a ceasefire breakthrough emerges before September 6, an emergency pause could be called to avoid an oversupply spike on the relief rally.",
+      "market_impact": "Forward-looking — governs H2 2026 quota trajectory and price floor sentiment.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing — Aug–Sep",
+      "name": "Hormuz Mine-Clearing & Alternative-Route Tanker Safety",
+      "impact": "US mine-clearing operations, which began April 11, have cleared sections of the strait but progress has slowed amid active Iranian mining. Congress was briefed that full clearance could take up to six months from the start date — implying October at the earliest. Any acceleration in cleared corridors, or a first safe VLCC transit under US escort, would be a major bearish catalyst for crude.",
+      "market_impact": "Structural — the single most important supply-normalization variable.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US Strategic Petroleum Reserve at 1983 Lows — Drawdown Debate Intensifies",
+      "impact": "With the SPR at its lowest level since 1983 (~43-day cover), the Biden-era release capacity is effectively exhausted. The Trump administration faces growing congressional pressure to authorize emergency purchases at current prices to rebuild the buffer, but doing so would signal longer-term supply anxiety. A formal SPR-rebuild announcement would be read as a price floor acknowledgment.",
+      "market_impact": "Low immediate price impact; significant signal for market psychology and H1 2027 demand.",
+      "risk": "Low"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Brent's five-session rally from the low $87s to nearly $93.60 before settling here at $91.77 tells you everything about where the market's center of gravity sits: not low enough to price a resolution, not high enough to price a full-blown supply catastrophe. The strait is still mostly closed, the ceasefire is still collapsed, and the IEA is calling this the worst disruption in energy market history — yet Brent is <strong>27% below its March peak</strong>. Markets have found a weary equilibrium.",
+      "<strong>My read on today:</strong> The consolidation phase is healthy but fragile. The rally exhausted itself into $93 resistance; now the tape waits for a directional catalyst. There are two plausible ones: a credible diplomatic signal — even a procedural one — would trigger a rapid $4–6 sell-off as traders front-run a resolution trade. A new mass-casualty vessel attack or closure of the Omani alternative route would push crude back toward $95–$97 before the week ends.",
+      "<strong>The structural backdrop:</strong> OPEC+'s completed rollback matters less than it sounds. The Gulf producers pressing the extra barrels are largely the same ones unable to export through Hormuz. What actually matters is the IEA's Q3 deficit figure of <strong>1.8 mb/d</strong> — that structural shortfall is the floor under this market, keeping crude from retreating to the low $80s without a physical supply improvement.",
+      "My call: <strong>Brent holds $88–$94 today</strong>, bias sideways-to-cautiously-lower in the absence of fresh escalation. <strong>The Hormuz premium is deeply embedded — but every diplomatic headline carries the risk of a fast, sharp unwind.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Hormuz Disruption", "label": "Critical", "tone": "bullish", "pct": 88 },
+      { "name": "Geopolitical Risk", "label": "Extreme", "tone": "bullish", "pct": 90 },
+      { "name": "OPEC+ Supply Relief", "label": "Largely Symbolic", "tone": "neutral", "pct": 20 },
+      { "name": "Demand Destruction", "label": "Moderate — Ongoing", "tone": "bearish", "pct": 42 },
+      { "name": "Price Momentum", "label": "Pausing After Rally", "tone": "neutral", "pct": 55 },
+      { "name": "SPR / Emergency Buffer", "label": "Near-Empty (1983 Low)", "tone": "bullish", "pct": 85 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$88 – $94",
+      "bias": "Bias: Sideways — Tail Risk Both Ways ↔"
+    },
+    "watch_levels": {
+      "resistance": "$93–$95",
+      "support": "$88–$90",
+      "breakout": ">$96 (fresh mass IRGC attack / Omani route closure)",
+      "breakdown": "<$87 (credible ceasefire signal)"
+    }
+  }
+}
