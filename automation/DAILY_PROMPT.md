@@ -11,7 +11,8 @@ You are producing today's **OIL DESK** daily oil-market briefing. Work in
 on this Windows machine.
 
 1. **Research** the current state of the global oil market as of today's date:
-   latest Brent and WTI front-month prices and daily % change, natural gas, the
+   latest Brent front-month price, Low Sulphur Gasoil Futures (ICE Europe,
+   ticker ULS1!) front-month price, both with daily % change; natural gas; the
    dominant geopolitical/supply story, OPEC+ developments, the latest EIA
    inventory data, and 5–6 distinct news items. Prefer reputable sources
    (Reuters, Al Jazeera, CNBC, NPR, PBS, EIA, OPEC, Bloomberg, NBC, WSJ) and keep
@@ -27,7 +28,8 @@ on this Windows machine.
 3. **Write** a data file `YYYY-MM-DD.json` in the folder that matches the schema
    in `automation\sample-data.json` exactly. Fill in: `date_long`, `date_slug`
    (e.g. `jun16-2026`), `volume`, `dateline`, `sources`; the `ticker`; 5 `prices`
-   tiles (first two are Brent then WTI — they also feed the masthead); the `lead`
+   tiles (first two are Brent then Low Sulphur Gasoil ULS1! — they also feed the
+   masthead; label the Gasoil tile "Low Sulphur Gasoil (ULS1!)"); the `lead`
    story (eyebrow, headline, 3 paragraphs, 4 stats, source link); 6 `news` cards;
    5 `events` with risk badges (`Very High`/`High`/`Medium`/`Low`); and the
    `verdict` (4 paragraphs, disclaimer, 6 directional meters, the price `call`,

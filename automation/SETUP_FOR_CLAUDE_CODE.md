@@ -29,7 +29,7 @@ python3 build_report.py 2026-06-16.json
 The JSON schema (see `sample-data.json` for a filled example):
 - `date_long`, `date_slug`, `volume`, `dateline`, `sources` — masthead/footer strings.
 - `ticker[]` — scrolling headline strings.
-- `prices[]` — `{label, value, change, direction}` where `direction` is `up`/`down`/`""`. First two entries also feed the masthead (Brent, WTI).
+- `prices[]` — `{label, value, change, direction}` where `direction` is `up`/`down`/`""`. First two entries also feed the masthead (Brent, Low Sulphur Gasoil ULS1!).
 - `lead` — `{eyebrow, headline, paragraphs[], link_url, link_text, stats[]}`; each stat is `{num, desc}`. Body copy may contain `<strong>`/`<em>`.
 - `news[]` — `{tag, headline, body, link_url, link_text}` (renders numbered cards 01..NN).
 - `events[]` — `{date, name, impact, market_impact, risk}`; `risk` of `Very High`/`High`→red, `Medium`→amber, `Low`→green badge.
@@ -77,7 +77,7 @@ JSON, then calls the generator.
 > You are producing today's **OIL DESK** daily oil-market briefing.
 >
 > 1. Research the current state of the global oil market as of today: latest
->    Brent and WTI spot/front-month prices and daily % change, natural gas,
+>    Brent front-month, Low Sulphur Gasoil (ULS1! on ICE Europe) front-month prices and daily % change, natural gas,
 >    the dominant geopolitical/supply story, OPEC+ developments, the latest EIA
 >    inventory data, and 5–6 distinct news items. Prefer reputable sources
 >    (Reuters, Al Jazeera, CNBC, NPR, PBS, EIA, OPEC, Bloomberg) and keep real

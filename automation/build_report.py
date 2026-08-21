@@ -191,7 +191,7 @@ def render(data):
 
     # masthead right uses first two prices if present
     brent = prices[0] if len(prices) > 0 else {"value": ""}
-    wti = prices[1] if len(prices) > 1 else {"value": ""}
+    gasoil = prices[1] if len(prices) > 1 else {"value": ""}
 
     # ---- lead story stats ----
     stat_html = "\n".join(f"""      <div class="stat-block">
@@ -303,8 +303,8 @@ def render(data):
     <div class="masthead-right">
       {esc(brent.get('label', 'Brent Spot'))}<br>
       <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">{esc(brent.get('value'))}</span><br>
-      {esc(wti.get('label', 'WTI Spot'))}<br>
-      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">{esc(wti.get('value'))}</span>
+      {esc(gasoil.get('label', 'Low Sulphur Gasoil (ULS1!)'))}<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">{esc(gasoil.get('value'))}</span>
     </div>
   </div>
 

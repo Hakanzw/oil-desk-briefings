@@ -41,8 +41,9 @@ jobs:
             running in GitHub Actions inside the checked-out repository root on
             Linux. Use `python3`.
 
-            1. RESEARCH today's global oil market: latest Brent and WTI
-               front-month prices and daily % change, natural gas, the dominant
+            1. RESEARCH today's global oil market: latest Brent front-month
+               price, Low Sulphur Gasoil Futures (ICE Europe, ticker ULS1!)
+               front-month price, both with daily % change; natural gas; the dominant
                geopolitical/supply story, OPEC+ developments, the latest EIA
                inventory data, and 5-6 distinct news items. Prefer reputable
                sources (Reuters, Al Jazeera, CNBC, NPR, PBS, EIA, OPEC, Bloomberg,
@@ -57,7 +58,9 @@ jobs:
             3. WRITE a data file YYYY-MM-DD.json in the repo root that matches the
                schema in automation/sample-data.json EXACTLY: date_long,
                date_slug (e.g. jun17-2026), volume, dateline ("Harare, Zimbabwe"), sources; the ticker;
-               5 prices tiles (Brent then WTI first — they feed the masthead); the
+               5 prices tiles (Brent then Low Sulphur Gasoil ULS1! first — they
+               feed the masthead; label the Gasoil tile "Low Sulphur Gasoil (ULS1!)");
+               the
                lead story (eyebrow, headline, 3 paragraphs, 4 stats, source link);
                6 news cards; 5 events with risk badges (Very High/High/Medium/Low);
                and the verdict (4 paragraphs, disclaimer, 6 directional meters, the
