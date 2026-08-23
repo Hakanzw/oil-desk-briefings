@@ -1,0 +1,180 @@
+{
+  "date_long": "Sunday, August 23, 2026",
+  "date_slug": "aug23-2026",
+  "volume": "Vol. I — No. 26",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, OPEC, Reuters, Al Jazeera, CNBC, NPR, PBS, TradingEconomics, Bloomberg",
+
+  "ticker": [
+    "BRENT $94.39 ▲ +0.65% FRI CLOSE — HORMUZ CRISIS ENTERS SEVENTH MONTH WITH NO RESOLUTION",
+    "LOW SULPHUR GASOIL (ULS1!) $1,296.25/T — GASOIL CRACK HOLDS ABOVE $100/BBL RECORD HIGH",
+    "BESSENT: 'TOUGHEST SANCTIONS IN HISTORY' COMING FOR IRAN — BANKS, CRYPTO, SHIPPING IN CROSSHAIRS",
+    "PEZESHKIAN: IRAN WILL END WAR 'FROM POSITION OF STRENGTH' — BINARY MONDAY OPEN AHEAD",
+    "EIA: US DISTILLATES 13% BELOW 5-YR AVG — PRE-WINTER RESTOCKING RACE FALLING FURTHER BEHIND",
+    "OPEC+ AUG BOOST OF 188K BPD LARGELY THEORETICAL — GULF BARRELS STILL LANDLOCKED BEHIND HORMUZ",
+    "BIG OIL Q2 RECORD: EXXON $14.5B, CHEVRON $12.1B — MAJORS CLEAR ~$404M/DAY IN WARTIME PROFITS"
+  ],
+
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$94.39",
+      "change": "▲ +0.65% (Fri close; best week in months)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,296.25/t",
+      "change": "Unch. (weekend — last Fri. close; crack >$100/bbl)",
+      "direction": "neutral"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$87.06",
+      "change": "▲ +0.26% (Fri close; weekly +5%+)",
+      "direction": "up"
+    },
+    {
+      "label": "Diesel Crack (WTI-ULSD)",
+      "value": ">$100/bbl",
+      "change": "▲ Record territory — first triple-digit margin ever",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (TTF)",
+      "value": "€63.34/MWh",
+      "change": "▼ −0.48% (LNG rerouting caps upside; heat demand easing)",
+      "direction": "down"
+    }
+  ],
+
+  "lead": {
+    "eyebrow": "Sunday Briefing — Maximum Pressure Meets 'End From Strength'",
+    "headline": "Bessent Vows 'Toughest Sanctions in History' as Iran Signals It Won't Bow — Brent Holds Near $94 Ahead of Binary Monday Open",
+    "paragraphs": [
+      "The weekend brought no diplomatic breakthrough, but it delivered plenty of market-moving rhetoric. Treasury Secretary Scott Bessent told CNBC on Thursday that Washington would impose <strong>\"the toughest sanctions in history\"</strong> against Iran, targeting banks, cryptocurrency exchanges, and the shadow-shipping network that has kept a trickle of Iranian crude flowing to China and other buyers despite the official embargo. The statement lifted Brent more than 5% on the week, consolidating near <strong>$94.39 per barrel</strong> at Friday's close — the strongest sustained weekly performance in months and the sixth consecutive close above the $90 threshold.",
+      "Iran's President Masoud Pezeshkian countered Saturday, telling state media that Tehran <strong>\"would prefer to end the war from a position of strength.\"</strong> Analysts read the phrasing as a deliberate signal of continued stalling rather than genuine diplomatic openness — language consistent with Iran's posture during the June ceasefire collapse, when a framework emerged briefly before unravelling amid a resumption of tanker attacks. The statement effectively closes the door on a near-term deal and locks in the maximum-pressure dynamic Bessent described as Washington's primary policy tool.",
+      "The practical consequence is a market suspended in a high-tension equilibrium. With the Strait of Hormuz still effectively closed to normal tanker traffic — roughly <strong>8 million barrels per day remain shut in</strong>, according to IEA estimates — and the WTI-ULSD diesel crack spread above $100 per barrel for the first time in history, the price floor is well-supported by physical scarcity. Monday's market open will be the first live verdict on the weekend's rhetoric, and with no diplomatic backstop in sight, the tape is primed for an outsized move in either direction."
+    ],
+    "link_url": "https://www.cnbc.com/2026/08/21/oil-prices-us-iran.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      { "num": "$94.39/bbl", "desc": "Brent's Friday Close — Best Sustained Weekly Performance in Months; Up 5%+ on the Week" },
+      { "num": "$100+/bbl", "desc": "WTI-ULSD Diesel Crack Spread — First Triple-Digit Margin in the History of the Energy Market" },
+      { "num": "~8 mb/d", "desc": "Barrels Remaining Shut In Through Hormuz as the Blockade Enters Its Seventh Month" },
+      { "num": "\"Toughest Ever\"", "desc": "Bessent's Characterisation of Planned Iran Sanctions Targeting Banks, Crypto and Shadow Shipping" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran's Pezeshkian: Tehran Wants to End the War 'From a Position of Strength'",
+      "body": "Iranian President Masoud Pezeshkian said Saturday that Tehran <strong>\"would prefer to end the war from a position of strength\"</strong> — language that energy traders and Iran analysts read as a deliberate signal of continued stalling. The phrase mirrors the posture Iran adopted during the June ceasefire collapse: a rhetorical door left ajar, but no substantive engagement. No new diplomatic contact between Washington and Tehran was confirmed over the weekend, and the statement landed as a cold douche on any residual market hope for a near-term breakthrough.",
+      "link_url": "https://www.cnbc.com/2026/08/21/oil-prices-us-iran.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Sanctions",
+      "headline": "Bessent: U.S. Will 'Collapse' Iran's Economy With Maximum Sanctions — Banks, Crypto, Shipping in Crosshairs",
+      "body": "Treasury Secretary Scott Bessent told CNBC the US would impose <strong>\"the toughest sanctions in history\"</strong> against Iran, explicitly naming the shadow-banking networks, cryptocurrency exchanges, and flag-of-convenience shipping operators that have helped Tehran sell discounted crude to China, India, and other buyers. The statement was the single biggest market catalyst of the week, lifting Brent more than 5% as traders recalibrated the probability of a near-term diplomatic resolution toward zero and repriced the duration of the supply disruption higher.",
+      "link_url": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Hormuz",
+      "headline": "Oil Rises as Fresh Attacks Dash Hopes for Strait Reopening — Brent Jumps 2% in a Single Session",
+      "body": "Brent crude jumped more than 2% in a single session on August 12 after fresh shipping attacks in and around the Strait of Hormuz upended market expectations of an imminent reopening deal. The attacks targeted two product tankers attempting a passage through the southern channel, confirming Iran's continued enforcement of the effective blockade. The episode underscored the pattern that has defined 2026: each diplomatic opening is followed by a kinetic reset that destroys the credibility of the framework and extends the physical-tightness trade.",
+      "link_url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Adds 188k bpd for August — Fifth Consecutive Increase, but Largely Landlocked Behind Hormuz",
+      "body": "Seven OPEC+ member states agreed in early July to raise collective output by <strong>188,000 barrels per day</strong> for August 2026, the fifth consecutive monthly increase and a continuation of the formal unwind of the 2023 voluntary cuts. In practice the boost is largely theoretical: the majority of incremental barrels from Saudi Arabia, Kuwait, and Iraq cannot reach international markets while Hormuz remains effectively closed. A senior Sparta Commodities analyst noted: <em>\"OPEC crude production can only increase once there is a normalcy in flows in both directions through the Strait.\"</em>",
+      "link_url": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Earnings",
+      "headline": "Big Oil's Wartime Windfall: Majors Clear ~$404 Million Per Day in Q2 Profits",
+      "body": "The three Western energy majors collectively earned approximately <strong>$404 million per day</strong> in Q2 2026 profit, according to NPR analysis of earnings reports. ExxonMobil posted <strong>$14.53 billion</strong> in quarterly net income — double the year-prior figure — while Chevron earned <strong>$12.07 billion</strong>, nearly quadrupling year-on-year as elevated crude and record distillate cracks pushed refinery margins to historic levels. Shell recorded its second-highest profit ever. US gasoline averaged $4.11 per gallon nationally; diesel ran roughly 41% above pre-Hormuz-closure levels.",
+      "link_url": "https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "EIA Data",
+      "headline": "EIA: US Crude Builds for Third Straight Week — But Distillates Remain 13% Below Five-Year Average",
+      "body": "The EIA's most recent weekly petroleum status report (week ending August 14, released August 19) showed US commercial crude inventories at approximately <strong>428.8 million barrels</strong> — in line with the five-year seasonal average — after a third consecutive weekly build. The headline figure, however, masks acute downstream stress: <strong>distillate stocks remain 13% below the five-year average</strong> and gasoline inventories sit 5% below. Refinery crude runs held at 17.2 mb/d as operators push throughput to capture record crack margins, deepening the bifurcation between ample crude and scarce products.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 24 — Monday",
+      "name": "Markets Reopen: First Price Signal After Weekend Rhetoric",
+      "impact": "Monday's open is the market's direct verdict on Bessent's sanctions threat and Pezeshkian's 'position of strength' statement. A higher open confirms the bullish risk-premium interpretation; any unexpected diplomatic contact confirmed over Sunday would send Brent sharply lower toward the $88–$90 range. With no diplomatic backstop evident as of Sunday evening, the bias entering the open is higher.",
+      "market_impact": "Binary direction-setter. ±$4–6/bbl on any overnight surprise.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Aug 26–27",
+      "name": "EIA Weekly Petroleum Status Report — Distillate Draw or Surprise Build?",
+      "impact": "The next EIA inventory print will update the distillate picture that has been the structural bullish anchor for weeks. A fourth consecutive crude build alongside another distillate draw would confirm the bifurcated supply story — ample crude, scarce diesel — and sustain crack spreads at record levels. A surprise distillate build would be the first bearish signal from the downstream complex in weeks and could take $3–4 off Brent quickly.",
+      "market_impact": "±$2–3/bbl; key for crack spread direction.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Sep 6",
+      "name": "OPEC+ JMMC Meeting — Pause to Further Output Increases Expected",
+      "impact": "Sources expect the Joint Ministerial Monitoring Committee to recommend pausing further quota increases given that the August 188k bpd boost has been largely ineffectual while Hormuz remains shut. A pause would signal OPEC+ acknowledging physical market constraints rather than fighting them. Any surprise signal of accelerated increases to recapture share would be a bearish catalyst for H2 2026 expectations.",
+      "market_impact": "Forward-looking — sets the Q4 supply narrative.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug–Oct",
+      "name": "Hormuz Mine-Clearing — October Window for Viable VLCC Transit",
+      "impact": "The EIA and IEA have flagged October as the earliest realistic window for resumed Very Large Crude Carrier transit through the Strait, contingent on US Navy mine-clearance operations reaching sufficient completion. Any acceleration — or setback — in the clearance programme directly shifts the supply-return timeline the market is pricing. Mine-clearing progress reports are the single most material structural catalyst on the calendar.",
+      "market_impact": "Structural — governs the pace and timing of the barrel return.",
+      "risk": "High"
+    },
+    {
+      "date": "Aug–Sep",
+      "name": "US Maximum-Pressure Sanctions Rollout — Banks, Crypto, Shipping Networks Targeted",
+      "impact": "Bessent's 'toughest ever' announcement sets the stage for a detailed sanctions package in the coming weeks. The market will watch whether secondary sanctions reach Chinese banks processing Iranian crude payments — a step that, if implemented, would meaningfully cut Iran's remaining export revenue and remove the partial floor under Tehran's war-financing capacity. Implementation details and any retaliatory Iranian escalation will be the dominant headline risk.",
+      "market_impact": "Sustained escalatory pressure on Iranian export economics.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I flagged the record diesel crack spread as the oil market's hidden crisis — a signal that the physical supply disruption is more severe, and more durable, than the Brent headline alone suggests. Nothing that happened over the weekend changes that structural read. The Bessent sanctions announcement has effectively closed the diplomatic window that the market was treating as a partial offset to physical tightness, and Pezeshkian's 'position of strength' language removes any residual basis for pricing a near-term deal premium.",
+      "<strong>My read on the balance of risks:</strong> Tehran's framing is not a ceasefire signal — it is the opposite. It is the Iranian government managing domestic expectations for a <em>prolonged</em> confrontation while keeping a rhetorical escape route open for later. The nuclear question remains unresolved, no active framework exists in either capital, and the US is now explicitly intensifying economic pressure with language designed to signal to Beijing that Chinese bank participation in Iranian crude settlements carries real secondary-sanction risk. This combination does not produce a quick resolution.",
+      "<strong>The structural picture for the week ahead:</strong> Two dynamics keep Brent from running materially higher right now — residual ceasefire hope (however faint) and the demand-destruction signal that $90+ crude and $4.11-per-gallon US gasoline are beginning to generate. The EIA's latest data showing gasoline inventories 5% below average and distillates 13% below reflects the tension: consumption is still healthy enough to keep drawing stocks, but the pace of demand growth has slowed. If the diesel crack holds above $100/bbl through September, trucking and airline operators will begin passing costs through in earnest, and the demand-destruction bear case starts to build a real foundation.",
+      "My call: <strong>Brent holds in the $91–$97 range this week,</strong> with a bias higher on Monday's open as markets absorb the Bessent maximum-pressure signal and the absence of any weekend diplomatic contact. The distillate crack spread is the number to watch — if it holds above $100/bbl into Wednesday's EIA print, the structural bull case intensifies. A sustainable move above $98 requires either a new Hormuz escalation or confirmation that secondary sanctions are reaching Chinese bank counterparties processing Iranian crude."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Hormuz Disruption", "label": "Critical — No Resolution In Sight", "tone": "bullish", "pct": 92 },
+      { "name": "Distillate Supply Stress", "label": "Severe — Crack >$100/bbl Record", "tone": "bullish", "pct": 88 },
+      { "name": "Geopolitical Risk", "label": "Intensifying — Max Pressure Active", "tone": "bullish", "pct": 90 },
+      { "name": "OPEC+ Supply Relief", "label": "Theoretical Only — Barrels Landlocked", "tone": "neutral", "pct": 12 },
+      { "name": "Demand Destruction", "label": "Building — $90+ Price Signal Active", "tone": "bearish", "pct": 60 },
+      { "name": "Diplomatic Resolution", "label": "Near Zero — 'Position of Strength'", "tone": "bullish", "pct": 8 }
+    ],
+    "call": {
+      "label": "This Week's Price Call — Brent Crude",
+      "value": "$91 – $97",
+      "bias": "Bias: Higher on Sanctions Escalation — Binary Monday Open ▲"
+    },
+    "watch_levels": {
+      "resistance": "$95–$97",
+      "support": "$91–$93",
+      "breakout": ">$99 (new Hormuz escalation / secondary sanctions hit Chinese banks)",
+      "breakdown": "<$89 (weekend diplomatic contact confirmed / ceasefire signal emerges)"
+    }
+  }
+}
