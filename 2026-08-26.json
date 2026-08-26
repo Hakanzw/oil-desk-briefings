@@ -1,0 +1,180 @@
+{
+  "date_long": "Wednesday, August 26, 2026",
+  "date_slug": "aug26-2026",
+  "volume": "Vol. I — No. 29",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, OPEC, Reuters, Al Jazeera, CNN, Axios, CNBC, US News & World Report, Fortune",
+
+  "ticker": [
+    "BRENT $86.69 ▼ −2.13% — IRAN–OMAN TALKS ADVANCE ON ‘TEMPORARY JOINT MARITIME CORRIDOR’: THIRD CONSECUTIVE SESSION OF HORMUZ DIPLOMACY",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,265/T ▼ est. −0.4% — PRODUCTS SIDE STILL BLOCKED: ZERO REFINED CARGOES CLEARING HORMUZ",
+    "TANKER DISABLED IN ATTACK OFF OMAN COAST — PHYSICAL RISK PERSISTS AS DIPLOMATIC TRACK ADVANCES",
+    "US MILITARY STEALTH HORMUZ CORRIDOR: 15–20 TANKERS/NIGHT; 80%+ OF TRANSITING VESSELS ON DARK OR UNCLASSIFIED ROUTES",
+    "OPEC+ APPROVES FIFTH CONSECUTIVE 188,000 BPD INCREASE FOR SEPTEMBER — NEARLY 1 MB/D RESTORED SINCE APRIL",
+    "IEA SLASHES 2026 GLOBAL DEMAND FORECAST BY 1.6 MB/D TOTAL; 8.3 MB/D GULF OUTPUT STILL SHUT IN",
+    "EIA WK ENDING AUG 14: CRUDE +4.4 MB (3RD CONSECUTIVE BUILD); DISTILLATES −1.5 MB, 13% BELOW 5-YR AVG; SPR AT LOWEST SINCE 1983"
+  ],
+
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$86.69",
+      "change": "▼ −2.13% (Hormuz diplomacy extends losing streak to 3 sessions)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,265/T",
+      "change": "▼ est. −0.4% (products still zero through Hormuz; lag crude move)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$80.65",
+      "change": "▼ −2.08% (three-session losing streak; Brent−WTI spread holds ~$6)",
+      "direction": "down"
+    },
+    {
+      "label": "Diesel Crack (WTI-ULSD)",
+      "value": ">$100/bbl",
+      "change": "▲ Holds near record — products blockade fully intact",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$2.80",
+      "change": "▲ +1.17% (LNG rerouting demand; modest rebound)",
+      "direction": "up"
+    }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Diplomacy — Iran–Oman ‘Temporary Joint Maritime Corridor’ Talks Drive Third Session of Brent Losses",
+    "headline": "Brent Slides to $86.69 as Iran–Oman Diplomatic Breakthrough Edges Closer — But Tanker Attack Off Oman Coast Underscores That Physical Risk Has Not Resolved",
+    "paragraphs": [
+      "For a third consecutive session, crude is moving lower — not on a fresh supply shock, but on the quiet, grinding progress of diplomacy. Iran and Oman concluded a new round of talks Tuesday on what Iranian officials described as a <strong>‘temporary joint maritime corridor’</strong> through the Strait of Hormuz, a proposed framework that would allow structured tanker traffic under joint monitoring before a permanent arrangement is negotiated. Pakistan’s army chief separately concluded a one-day visit to Tehran carrying a proposal reported to include sanctions relief elements, while Qatar confirmed it remains an active channel. Washington, critically, has held short of immediately imposing secondary sanctions on Iran’s trading partners — a less aggressive posture than markets had priced as the downside scenario from Bessent’s Monday ‘Economic D-Day’ declaration — and reports suggest evacuated US diplomats may soon return to the region, signalling that a broader military escalation is now seen as less likely than it appeared 48 hours ago. Brent dropped 2.13% to $86.69, its lowest in three weeks, extending a slide that has erased more than five dollars since Monday’s close.",
+      "The physical risk picture, however, has not resolved cleanly alongside the diplomatic one. A tanker was disabled in an attack off the Omani coast on or around August 25 — a reminder that the geography of the Strait leaves vessels exposed even as political tracks advance. The US military’s stealth shipping corridor along the southern Oman coast continues to move 15 to 20 tankers per night, and data through August 19 shows that of 112 vessels carrying crude, LPG and LNG that transited the strait, <strong>89 (more than 80%) used dark or unclassified routes</strong>. Only two used the official Omani route; 21 used the Iranian-controlled route openly. The gap between a diplomatic framework and genuinely open, daylight commercial shipping remains the central structural question for the energy market.",
+      "The crude-products divergence that has defined the market since the Hormuz closure remains stubbornly in place. Not a single refined product cargo has cleared the Strait. Distillate stocks in the US fell 1.5 million barrels in the week ending August 14 and now sit <strong>13% below their five-year seasonal average</strong> — a structural deficit that will not normalise even if crude transits accelerate, because the refining and logistics chain east of the Strait has yet to resume. The diesel crack spread above $100/bbl continues to reflect a products market trading an entirely different risk than the crude market, and TotalEnergies CEO Patrick Pouyanné captured the split exactly at a London conference this week: crude, <em>bearish</em>; products, <em>bullish</em> — until Iran allows refined cargoes to move freely, that is not a paradox, it is the structure of this market."
+    ],
+    "link_url": "https://fortune.com/2026/08/15/iran-oman-hormuz-strait-deal-shipping-map-routes-attacks/",
+    "link_text": "Read Fortune",
+    "stats": [
+      { "num": ">80%", "desc": "Share of Hormuz Vessel Transits Using Dark or Unclassified Routes Through August 19" },
+      { "num": "15–20/night", "desc": "Tankers Moving Nightly Through the US Military’s Stealth Hormuz Corridor Along the Omani Coast" },
+      { "num": "−13%", "desc": "US Distillate Stocks Below Five-Year Seasonal Average — Products Blockade Intact Despite Crude Resumption" },
+      { "num": "3 sessions", "desc": "Consecutive Losing Streak for Brent as Hormuz Diplomacy Progressively Erodes the Geopolitical Risk Premium" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran–Oman Talks Target ‘Temporary Joint Maritime Corridor’ as Multiple Mediators Converge on Hormuz",
+      "body": "Iran and Oman concluded fresh talks on a framework for structured tanker traffic through the Strait of Hormuz, with Iranian officials describing negotiations as targeting a ‘temporary joint maritime corridor’ as a first step toward a permanent arrangement covering traffic management, information-sharing, and maritime security services. Pakistan’s army chief concluded a one-day Tehran visit reportedly carrying a proposal that includes potential sanctions relief elements, and Qatar separately confirmed its continued role as a mediator. The convergence of Oman, Pakistan, Qatar and indirect US signals represents the most active diplomatic week on Hormuz since the conflict began in February.",
+      "link_url": "https://fortune.com/2026/08/15/iran-oman-hormuz-strait-deal-shipping-map-routes-attacks/",
+      "link_text": "Read Fortune"
+    },
+    {
+      "tag": "Physical Risk",
+      "headline": "Tanker Disabled in Attack Off Oman Coast — Diplomatic Progress Does Not Equal Safe Passage",
+      "body": "A tanker was disabled in an attack off the coast of Oman on or around August 25, the latest incident to highlight the persistent gap between diplomatic progress and on-the-ground maritime security in and around the Strait of Hormuz. The attack occurred even as crude transits quietly resumed at scale: more than 80% of approximately 112 vessels recorded as transiting the Strait through August 19 used dark or unclassified routes, reflecting a structural adaptation to continued physical risk rather than any genuine return to normal commercial navigation.",
+      "link_url": "https://www.usnews.com/news/world/articles/2026-08-25/ship-disabled-by-attack-in-strait-of-hormuz-and-other-news-from-around-the-middle-east",
+      "link_text": "Read US News"
+    },
+    {
+      "tag": "Stealth Logistics",
+      "headline": "Iran ‘Losing Control’ of Hormuz as US Military Runs 15–20 Tankers Per Night Through Dark Southern Corridor",
+      "body": "Iran has “lost significant control” of the Strait of Hormuz according to CNN Business, as the US military has established a stealth shipping corridor along the southern Omani coast moving 15 to 20 tankers per night. Tanker flow data through August 19 confirms the informal market workaround is operating at scale: of 112 vessels carrying crude, LPG and LNG across the strait, only 2 used the official Omani route, 21 used the Iranian-controlled route openly, and 89 used dark or unclassified channels. The operational adaptation keeps crude barrels moving but cannot solve the products-side blockade — refined cargoes remain at zero transit.",
+      "link_url": "https://www.axios.com/2026/08/19/hormuz-iran-oil-gulf-trump",
+      "link_text": "Read Axios"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Approves Fifth Consecutive 188,000 bpd Output Hike for September at August 2 Meeting",
+      "body": "Seven core OPEC+ members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman — approved a further 188,000 barrel-per-day output hike for September at the August 2 ministerial meeting, continuing a run of consecutive monthly increases that has now collectively restored nearly 1 million bpd of quota since April. The JMMC cited improved compliance for May–June 2026 while acknowledging Kazakhstan’s persistent overproduction from the Tengiz field expansion. Saudi Arabia and Russia each signalled flexibility to pause or reverse increases if market conditions deteriorate materially, though no such signal was offered at this meeting.",
+      "link_url": "https://english.alarabiya.net/business/energy/2026/08/02/opec-to-increase-oil-production-by-188000-bpd-in-september",
+      "link_text": "Read Al Arabiya"
+    },
+    {
+      "tag": "IEA Outlook",
+      "headline": "IEA Slashes 2026 Global Demand by 1.6 mb/d and Supply by 4.3 mb/d; 8.3 mb/d Gulf Output Remains Shut In",
+      "body": "The IEA’s August Oil Market Report revised 2026 global demand down by a cumulative 1.6 mb/d versus the pre-conflict baseline — including an additional 510 kb/d cut from the prior month’s estimate — citing elevated fuel prices suppressing emerging-market consumption and the extended Strait of Hormuz disruption. On the supply side, the IEA forecast a 4.3 mb/d full-year contraction to 102 mb/d, with 8.3 mb/d of Gulf output still shut in. Global demand is expected to return to growth only in Q4 2026, with a 2.4 mb/d expansion projected for 2027 as Hormuz normalises.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-august-2026",
+      "link_text": "Read IEA"
+    },
+    {
+      "tag": "EIA Inventories",
+      "headline": "EIA: Crude +4.4 mb Third Consecutive Build; Distillates −1.5 mb at 13% Below Seasonal Average; SPR at 1983 Low",
+      "body": "The most recent EIA weekly petroleum report — covering the week ending August 14 — showed a third consecutive crude stock build of +4.4 million barrels to 428.8 million barrels, matching the five-year average. Gasoline inventories rose 0.7 million barrels while distillates fell 1.5 million barrels and now sit 13% below their five-year seasonal average — the enduring fingerprint of zero refined product transit through Hormuz. Refinery runs averaged 17.4 million bpd at 97.2% utilisation, confirming the bottleneck is not domestic refining capacity. The Strategic Petroleum Reserve fell a further 6.1 million barrels to 298.7 million barrels, its lowest level since approximately 1983.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 26 — Today",
+      "name": "EIA Weekly Petroleum Status Report — Week Ending August 21 Released",
+      "impact": "The EIA publishes its weekly inventory data today covering the week ending August 21 — the first report to capture the full week following Bessent’s Economic D-Day announcement. Markets will focus on crude imports: a further build would confirm the three-consecutive-week trend and validate the crude-bearish narrative. A surprise draw, especially paired with a distillate build, would challenge the products scarcity thesis and could trigger a short-covering bounce.",
+      "market_impact": "±1.50–2.50/bbl; reinforces or tests the three-session downtrend.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Aug 26–28",
+      "name": "Iran–Oman Temporary Maritime Corridor Talks — Live Catalyst",
+      "impact": "The most active near-term catalyst on the calendar. Any announcement of a formal framework — even a temporary corridor agreement with defined parameters — would accelerate the geopolitical premium unwind and could push Brent toward the low-$80s. An Iranian reversal, or a breakdown triggered by the tanker attack reported August 25, would snap crude sharply higher and potentially recover $4–6/bbl within a single session.",
+      "market_impact": "Binary, headline-driven: ±4–6/bbl on any definitive diplomatic statement.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US Secondary Sanctions Enforcement — Chinese and Indian Bank Compliance Deadlines",
+      "impact": "The clock is running on Bessent’s ultimatum to third-party institutions doing business with Iran. Markets are watching for the first visible compliance action — a Chinese or Indian bank publicly severing ties — or a counter-move from Beijing or New Delhi. Full enforcement removes the last residual Iranian crude export channel and would be strongly bullish; non-enforcement signals Washington blinked, removing economic pressure from Tehran.",
+      "market_impact": "Structural: determines the trajectory of Iranian export volumes over the next 30–60 days.",
+      "risk": "High"
+    },
+    {
+      "date": "Late Aug–Sep",
+      "name": "OPEC+ September Output Increase Materialises in Shipments",
+      "impact": "The 188,000 bpd September quota increase approved August 2 begins to show in tanker loading schedules and official Saudi selling prices. Actual delivery is likely well short of headline quota given Hormuz-adjacent logistics constraints and prior chronic overproduction by Kazakhstan. Watch Saudi Aramco OSPs and regional tanker loading data for the true volume signal.",
+      "market_impact": "Bearish structural headwind if deliveries surprise to the upside; largely priced if constrained.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Products Blockade — When Does a Crude Corridor Become a Products Deal?",
+      "impact": "A temporary maritime corridor for crude does not automatically open the products lane. Iran’s leverage over refined product flows is structurally separate and arguably more potent: distillates sit 13% below the five-year seasonal average and the diesel crack holds above $100/bbl. The market is watching for any Iranian signal — even an informal one — that product tankers would be permitted to move. The absence of such a signal is the dominant bullish tailwind for product cracks.",
+      "market_impact": "Product crack spreads ±15–25/bbl on any confirmed product-flow shift; crude-side neutral to this event.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Three sessions, more than five dollars off Monday’s close, and the question is no longer whether the diplomatic track is real — it is whether it is <em>fast enough</em> for a market that has already started repricing. The Iran–Oman ‘temporary joint maritime corridor’ talks represent the most structured engagement on Hormuz transit since February, and the convergence of Pakistan, Qatar and indirect Washington signals around them gives this round more credibility than any single bilateral conversation has generated all year.",
+      "<strong>My read on today:</strong> The crude tape is pricing a deal at somewhere between 40 and 60 percent probability of materialising within 30 days. That is neither euphoric nor dismissive — it is an appropriately sceptical read of a region that has produced two prior false dawns this year. What the market is <em>not</em> pricing is the tanker attack off Oman, which slipped into the newswire with almost no price response. That complacency feels premature: the physical risk has not resolved, and a single escalatory incident could reprice $86.69 back toward $92 inside a trading session.",
+      "<strong>The bigger picture:</strong> The structural trade has not changed. Crude is bearish-to-neutral as Hormuz transits quietly resume and OPEC+ quotas accumulate against a demand base the IEA just cut by 1.6 mb/d. Products remain critically short as zero refined cargo clears the Strait — and the diesel crack above $100/bbl is the market’s way of pricing that the products blockade outlasts any crude corridor deal by months. The divergence only resolves one way: with a formal agreement that explicitly covers product tankers, not merely crude.",
+      "My call: <strong>Brent holds $83–$91 today</strong>, with the intraday bias firmly lower if any Iran–Oman communiqué confirms even a temporary framework. <strong>The diplomatic premium is leaving the building — but the physical risk is still in the room, and the tanker attack off Oman is the market’s clearest reminder that both stories are running simultaneously.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing (Crude Only)", "tone": "neutral", "pct": 45 },
+      { "name": "Geopolitical Risk", "label": "Declining But Not Gone", "tone": "neutral", "pct": 50 },
+      { "name": "Products Scarcity", "label": "Critical — Zero Through Hormuz", "tone": "bearish", "pct": 85 },
+      { "name": "Diplomatic Progress", "label": "Accelerating", "tone": "bullish", "pct": 65 },
+      { "name": "OPEC+ Supply Pressure", "label": "Building (5th Consecutive Hike)", "tone": "bearish", "pct": 60 },
+      { "name": "Demand Outlook", "label": "Weakening — IEA Cut 1.6 mb/d", "tone": "bearish", "pct": 30 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$83 – $91",
+      "bias": "Bias: Lower on Diplomatic Progress — Tail Risk Up on Tanker Escalation ▼"
+    },
+    "watch_levels": {
+      "resistance": "$91–$92.50",
+      "support": "$83–$85",
+      "breakout": ">$93 (deal breakdown or major tanker escalation)",
+      "breakdown": "<$82 (formal Hormuz corridor announcement confirmed)"
+    }
+  }
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Wednesday, August 26, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT $86.69 ▼ −2.13% — IRAN–OMAN TALKS ADVANCE ON ‘TEMPORARY JOINT MARITIME CORRIDOR’: THIRD CONSECUTIVE SESSION OF HORMUZ DIPLOMACY &nbsp;|&nbsp; LOW SULPHUR GASOIL (ULS1!) ~$1,265/T ▼ est. −0.4% — PRODUCTS SIDE STILL BLOCKED: ZERO REFINED CARGOES CLEARING HORMUZ &nbsp;|&nbsp; TANKER DISABLED IN ATTACK OFF OMAN COAST — PHYSICAL RISK PERSISTS AS DIPLOMATIC TRACK ADVANCES &nbsp;|&nbsp; US MILITARY STEALTH HORMUZ CORRIDOR: 15–20 TANKERS/NIGHT; 80%+ OF TRANSITING VESSELS ON DARK OR UNCLASSIFIED ROUTES &nbsp;|&nbsp; OPEC+ APPROVES FIFTH CONSECUTIVE 188,000 BPD INCREASE FOR SEPTEMBER — NEARLY 1 MB/D RESTORED SINCE APRIL &nbsp;|&nbsp; IEA SLASHES 2026 GLOBAL DEMAND FORECAST BY 1.6 MB/D TOTAL; 8.3 MB/D GULF OUTPUT STILL SHUT IN &nbsp;|&nbsp; EIA WK ENDING AUG 14: CRUDE +4.4 MB (3RD CONSECUTIVE BUILD); DISTILLATES −1.5 MB, 13% BELOW 5-YR AVG; SPR AT LOWEST SINCE 1983&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Wednesday, August 26, 2026<br>
+      Vol. I — No. 29<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$86.69</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$1,265/T</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$86.69</div>
+      <div class="price-change down">▼ −2.13% (Hormuz diplomacy extends losing streak to 3 sessions)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">~$1,265/T</div>
+      <div class="price-change down">▼ est. −0.4% (products still zero through Hormuz; lag crude move)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$80.65</div>
+      <div class="price-change down">▼ −2.08% (three-session losing streak; Brent−WTI spread holds ~$6)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Diesel Crack (WTI-ULSD)</div>
+      <div class="price-val">>$100/bbl</div>
+      <div class="price-change up">▲ Holds near record — products blockade fully intact</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$2.80</div>
+      <div class="price-change up">▲ +1.17% (LNG rerouting demand; modest rebound)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Diplomacy — Iran–Oman ‘Temporary Joint Maritime Corridor’ Talks Drive Third Session of Brent Losses</div>
+      <h3>Brent Slides to $86.69 as Iran–Oman Diplomatic Breakthrough Edges Closer — But Tanker Attack Off Oman Coast Underscores That Physical Risk Has Not Resolved</h3>
+      <p>For a third consecutive session, crude is moving lower — not on a fresh supply shock, but on the quiet, grinding progress of diplomacy. Iran and Oman concluded a new round of talks Tuesday on what Iranian officials described as a <strong>‘temporary joint maritime corridor’</strong> through the Strait of Hormuz, a proposed framework that would allow structured tanker traffic under joint monitoring before a permanent arrangement is negotiated. Pakistan’s army chief separately concluded a one-day visit to Tehran carrying a proposal reported to include sanctions relief elements, while Qatar confirmed it remains an active channel. Washington, critically, has held short of immediately imposing secondary sanctions on Iran’s trading partners — a less aggressive posture than markets had priced as the downside scenario from Bessent’s Monday ‘Economic D-Day’ declaration — and reports suggest evacuated US diplomats may soon return to the region, signalling that a broader military escalation is now seen as less likely than it appeared 48 hours ago. Brent dropped 2.13% to $86.69, its lowest in three weeks, extending a slide that has erased more than five dollars since Monday’s close.</p>
+      <p>The physical risk picture, however, has not resolved cleanly alongside the diplomatic one. A tanker was disabled in an attack off the Omani coast on or around August 25 — a reminder that the geography of the Strait leaves vessels exposed even as political tracks advance. The US military’s stealth shipping corridor along the southern Oman coast continues to move 15 to 20 tankers per night, and data through August 19 shows that of 112 vessels carrying crude, LPG and LNG that transited the strait, <strong>89 (more than 80%) used dark or unclassified routes</strong>. Only two used the official Omani route; 21 used the Iranian-controlled route openly. The gap between a diplomatic framework and genuinely open, daylight commercial shipping remains the central structural question for the energy market.</p>
+      <p>The crude-products divergence that has defined the market since the Hormuz closure remains stubbornly in place. Not a single refined product cargo has cleared the Strait. Distillate stocks in the US fell 1.5 million barrels in the week ending August 14 and now sit <strong>13% below their five-year seasonal average</strong> — a structural deficit that will not normalise even if crude transits accelerate, because the refining and logistics chain east of the Strait has yet to resume. The diesel crack spread above $100/bbl continues to reflect a products market trading an entirely different risk than the crude market, and TotalEnergies CEO Patrick Pouyanné captured the split exactly at a London conference this week: crude, <em>bearish</em>; products, <em>bullish</em> — until Iran allows refined cargoes to move freely, that is not a paradox, it is the structure of this market.</p>
+      <a href="https://fortune.com/2026/08/15/iran-oman-hormuz-strait-deal-shipping-map-routes-attacks/" class="read-link" target="_blank">Read Fortune →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">>80%</div>
+        <div class="stat-desc">Share of Hormuz Vessel Transits Using Dark or Unclassified Routes Through August 19</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">15–20/night</div>
+        <div class="stat-desc">Tankers Moving Nightly Through the US Military’s Stealth Hormuz Corridor Along the Omani Coast</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−13%</div>
+        <div class="stat-desc">US Distillate Stocks Below Five-Year Seasonal Average — Products Blockade Intact Despite Crude Resumption</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">3 sessions</div>
+        <div class="stat-desc">Consecutive Losing Streak for Brent as Hormuz Diplomacy Progressively Erodes the Geopolitical Risk Premium</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Diplomacy</div>
+      <h4>Iran–Oman Talks Target ‘Temporary Joint Maritime Corridor’ as Multiple Mediators Converge on Hormuz</h4>
+      <p>Iran and Oman concluded fresh talks on a framework for structured tanker traffic through the Strait of Hormuz, with Iranian officials describing negotiations as targeting a ‘temporary joint maritime corridor’ as a first step toward a permanent arrangement covering traffic management, information-sharing, and maritime security services. Pakistan’s army chief concluded a one-day Tehran visit reportedly carrying a proposal that includes potential sanctions relief elements, and Qatar separately confirmed its continued role as a mediator. The convergence of Oman, Pakistan, Qatar and indirect US signals represents the most active diplomatic week on Hormuz since the conflict began in February.</p>
+      <a href="https://fortune.com/2026/08/15/iran-oman-hormuz-strait-deal-shipping-map-routes-attacks/" class="read-link" target="_blank">Read Fortune →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Physical Risk</div>
+      <h4>Tanker Disabled in Attack Off Oman Coast — Diplomatic Progress Does Not Equal Safe Passage</h4>
+      <p>A tanker was disabled in an attack off the coast of Oman on or around August 25, the latest incident to highlight the persistent gap between diplomatic progress and on-the-ground maritime security in and around the Strait of Hormuz. The attack occurred even as crude transits quietly resumed at scale: more than 80% of approximately 112 vessels recorded as transiting the Strait through August 19 used dark or unclassified routes, reflecting a structural adaptation to continued physical risk rather than any genuine return to normal commercial navigation.</p>
+      <a href="https://www.usnews.com/news/world/articles/2026-08-25/ship-disabled-by-attack-in-strait-of-hormuz-and-other-news-from-around-the-middle-east" class="read-link" target="_blank">Read US News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Stealth Logistics</div>
+      <h4>Iran ‘Losing Control’ of Hormuz as US Military Runs 15–20 Tankers Per Night Through Dark Southern Corridor</h4>
+      <p>Iran has “lost significant control” of the Strait of Hormuz according to CNN Business, as the US military has established a stealth shipping corridor along the southern Omani coast moving 15 to 20 tankers per night. Tanker flow data through August 19 confirms the informal market workaround is operating at scale: of 112 vessels carrying crude, LPG and LNG across the strait, only 2 used the official Omani route, 21 used the Iranian-controlled route openly, and 89 used dark or unclassified channels. The operational adaptation keeps crude barrels moving but cannot solve the products-side blockade — refined cargoes remain at zero transit.</p>
+      <a href="https://www.axios.com/2026/08/19/hormuz-iran-oil-gulf-trump" class="read-link" target="_blank">Read Axios →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>OPEC+ Approves Fifth Consecutive 188,000 bpd Output Hike for September at August 2 Meeting</h4>
+      <p>Seven core OPEC+ members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman — approved a further 188,000 barrel-per-day output hike for September at the August 2 ministerial meeting, continuing a run of consecutive monthly increases that has now collectively restored nearly 1 million bpd of quota since April. The JMMC cited improved compliance for May–June 2026 while acknowledging Kazakhstan’s persistent overproduction from the Tengiz field expansion. Saudi Arabia and Russia each signalled flexibility to pause or reverse increases if market conditions deteriorate materially, though no such signal was offered at this meeting.</p>
+      <a href="https://english.alarabiya.net/business/energy/2026/08/02/opec-to-increase-oil-production-by-188000-bpd-in-september" class="read-link" target="_blank">Read Al Arabiya →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">IEA Outlook</div>
+      <h4>IEA Slashes 2026 Global Demand by 1.6 mb/d and Supply by 4.3 mb/d; 8.3 mb/d Gulf Output Remains Shut In</h4>
+      <p>The IEA’s August Oil Market Report revised 2026 global demand down by a cumulative 1.6 mb/d versus the pre-conflict baseline — including an additional 510 kb/d cut from the prior month’s estimate — citing elevated fuel prices suppressing emerging-market consumption and the extended Strait of Hormuz disruption. On the supply side, the IEA forecast a 4.3 mb/d full-year contraction to 102 mb/d, with 8.3 mb/d of Gulf output still shut in. Global demand is expected to return to growth only in Q4 2026, with a 2.4 mb/d expansion projected for 2027 as Hormuz normalises.</p>
+      <a href="https://www.iea.org/reports/oil-market-report-august-2026" class="read-link" target="_blank">Read IEA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">EIA Inventories</div>
+      <h4>EIA: Crude +4.4 mb Third Consecutive Build; Distillates −1.5 mb at 13% Below Seasonal Average; SPR at 1983 Low</h4>
+      <p>The most recent EIA weekly petroleum report — covering the week ending August 14 — showed a third consecutive crude stock build of +4.4 million barrels to 428.8 million barrels, matching the five-year average. Gasoline inventories rose 0.7 million barrels while distillates fell 1.5 million barrels and now sit 13% below their five-year seasonal average — the enduring fingerprint of zero refined product transit through Hormuz. Refinery runs averaged 17.4 million bpd at 97.2% utilisation, confirming the bottleneck is not domestic refining capacity. The Strategic Petroleum Reserve fell a further 6.1 million barrels to 298.7 million barrels, its lowest level since approximately 1983.</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Aug 26 — Today</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report — Week Ending August 21 Released</div>
+          <div class="event-impact">The EIA publishes its weekly inventory data today covering the week ending August 21 — the first report to capture the full week following Bessent’s Economic D-Day announcement. Markets will focus on crude imports: a further build would confirm the three-consecutive-week trend and validate the crude-bearish narrative. A surprise draw, especially paired with a distillate build, would challenge the products scarcity thesis and could trigger a short-covering bounce.</div>
+        </td>
+        <td>±1.50–2.50/bbl; reinforces or tests the three-session downtrend.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Aug 26–28</td>
+        <td>
+          <div class="event-name">Iran–Oman Temporary Maritime Corridor Talks — Live Catalyst</div>
+          <div class="event-impact">The most active near-term catalyst on the calendar. Any announcement of a formal framework — even a temporary corridor agreement with defined parameters — would accelerate the geopolitical premium unwind and could push Brent toward the low-$80s. An Iranian reversal, or a breakdown triggered by the tanker attack reported August 25, would snap crude sharply higher and potentially recover $4–6/bbl within a single session.</div>
+        </td>
+        <td>Binary, headline-driven: ±4–6/bbl on any definitive diplomatic statement.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">US Secondary Sanctions Enforcement — Chinese and Indian Bank Compliance Deadlines</div>
+          <div class="event-impact">The clock is running on Bessent’s ultimatum to third-party institutions doing business with Iran. Markets are watching for the first visible compliance action — a Chinese or Indian bank publicly severing ties — or a counter-move from Beijing or New Delhi. Full enforcement removes the last residual Iranian crude export channel and would be strongly bullish; non-enforcement signals Washington blinked, removing economic pressure from Tehran.</div>
+        </td>
+        <td>Structural: determines the trajectory of Iranian export volumes over the next 30–60 days.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Late Aug–Sep</td>
+        <td>
+          <div class="event-name">OPEC+ September Output Increase Materialises in Shipments</div>
+          <div class="event-impact">The 188,000 bpd September quota increase approved August 2 begins to show in tanker loading schedules and official Saudi selling prices. Actual delivery is likely well short of headline quota given Hormuz-adjacent logistics constraints and prior chronic overproduction by Kazakhstan. Watch Saudi Aramco OSPs and regional tanker loading data for the true volume signal.</div>
+        </td>
+        <td>Bearish structural headwind if deliveries surprise to the upside; largely priced if constrained.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Hormuz Products Blockade — When Does a Crude Corridor Become a Products Deal?</div>
+          <div class="event-impact">A temporary maritime corridor for crude does not automatically open the products lane. Iran’s leverage over refined product flows is structurally separate and arguably more potent: distillates sit 13% below the five-year seasonal average and the diesel crack holds above $100/bbl. The market is watching for any Iranian signal — even an informal one — that product tankers would be permitted to move. The absence of such a signal is the dominant bullish tailwind for product cracks.</div>
+        </td>
+        <td>Product crack spreads ±15–25/bbl on any confirmed product-flow shift; crude-side neutral to this event.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Wednesday, August 26, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Three sessions, more than five dollars off Monday’s close, and the question is no longer whether the diplomatic track is real — it is whether it is <em>fast enough</em> for a market that has already started repricing. The Iran–Oman ‘temporary joint maritime corridor’ talks represent the most structured engagement on Hormuz transit since February, and the convergence of Pakistan, Qatar and indirect Washington signals around them gives this round more credibility than any single bilateral conversation has generated all year.</p>
+        <p><strong>My read on today:</strong> The crude tape is pricing a deal at somewhere between 40 and 60 percent probability of materialising within 30 days. That is neither euphoric nor dismissive — it is an appropriately sceptical read of a region that has produced two prior false dawns this year. What the market is <em>not</em> pricing is the tanker attack off Oman, which slipped into the newswire with almost no price response. That complacency feels premature: the physical risk has not resolved, and a single escalatory incident could reprice $86.69 back toward $92 inside a trading session.</p>
+        <p><strong>The bigger picture:</strong> The structural trade has not changed. Crude is bearish-to-neutral as Hormuz transits quietly resume and OPEC+ quotas accumulate against a demand base the IEA just cut by 1.6 mb/d. Products remain critically short as zero refined cargo clears the Strait — and the diesel crack above $100/bbl is the market’s way of pricing that the products blockade outlasts any crude corridor deal by months. The divergence only resolves one way: with a formal agreement that explicitly covers product tankers, not merely crude.</p>
+        <p>My call: <strong>Brent holds $83–$91 today</strong>, with the intraday bias firmly lower if any Iran–Oman communiqué confirms even a temporary framework. <strong>The diplomatic premium is leaving the building — but the physical risk is still in the room, and the tanker attack off Oman is the market’s clearest reminder that both stories are running simultaneously.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Easing (Crude Only)</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:45%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#f0a500">Declining But Not Gone</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:50%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Products Scarcity</span><span style="color:#e05252">Critical — Zero Through Hormuz</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:85%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diplomatic Progress</span><span style="color:#5cb85c">Accelerating</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:65%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Supply Pressure</span><span style="color:#e05252">Building (5th Consecutive Hike)</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:60%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Outlook</span><span style="color:#e05252">Weakening — IEA Cut 1.6 mb/d</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:30%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$83 – $91</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Lower on Diplomatic Progress — Tail Risk Up on Tanker Escalation ▼</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$91–$92.50</span></div>
+            <div>🟢 Support: <span style="color:#fff">$83–$85</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$93 (deal breakdown or major tanker escalation)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$82 (formal Hormuz corridor announcement confirmed)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Wednesday, August 26, 2026</span>
+  <span>Sources: IEA, EIA, OPEC, Reuters, Al Jazeera, CNN, Axios, CNBC, US News & World Report, Fortune</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
