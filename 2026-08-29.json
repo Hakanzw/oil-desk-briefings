@@ -1,0 +1,180 @@
+{
+  "date_long": "Saturday, August 29, 2026",
+  "date_slug": "aug29-2026",
+  "volume": "Vol. I — No. 32",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, OPEC, Bloomberg, Goldman Sachs, Al Jazeera, Reuters, NBC News, CNBC, Foreign Policy",
+
+  "ticker": [
+    "BRENT $88.22 — MARKETS CLOSED SATURDAY; FRIDAY CLOSE; CRUDE DOWN 7%+ ON THE WEEK DESPITE UKRAINE-DRIVEN FRIDAY RECOVERY",
+    "LOW SULPHUR GASOIL (ULS1!) $1,270.25/T — PRODUCTS LANE SEALED; SEPARATE DEAL REQUIRED; DISTILLATES 14% BELOW SEASONAL AVERAGE",
+    "GOLDMAN: GULF OIL EXPORTS RECOVER TO 15–16 MB/D — TWO-THIRDS OF PRE-WAR BASELINE; DARK CROSSINGS AND STS TRANSFERS ACCELERATING",
+    "IRAN–OMAN HORMUZ REVENUE DEAL: IRGC GOES BEYOND JOINT STATEMENT; TEHRAN ACCUSES US OF 'OBSTRUCTING PROGRESS'",
+    "IEA AUGUST 2026: WORLD OIL DEMAND TO CONTRACT 1.6 MB/D IN 2026 — SUPPLY RUNNING 6.3 MB/D BELOW YEAR-AGO LEVELS",
+    "UKRAINE HAS DISRUPTED 17% OF RUSSIA'S REFINING CAPACITY — RYAZAN HIT AUGUST 27; LUKOIL VOLGOGRAD HALTED SINCE AUG 14",
+    "TTF NATURAL GAS €69.44/MWH ▲ +4.34% FRIDAY — UKRAINE ESCALATION LIFTS EUROPEAN BENCHMARK AS LNG SCRAMBLE INTENSIFIES"
+  ],
+
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$88.22",
+      "change": "▼ −7.2% on the week (Friday close; markets closed Saturday; Hormuz diplomatic unwind offset by Ukraine escalation bid)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,270.25/T",
+      "change": "▼ −1.30% on Friday (products lane explicitly excluded from Iran–Oman deal; distillates 14% below five-year seasonal average)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$82.10",
+      "change": "▼ −7%+ on the week (Friday close; Brent−WTI spread steady near $6; Cushing stocks at 22.4 mb)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (TTF Europe)",
+      "value": "€69.44/MWh",
+      "change": "▲ +4.34% on Friday (Ukraine escalation premium bids up European benchmark; LNG scramble as Qatari volumes constrained by Hormuz)",
+      "direction": "up"
+    },
+    {
+      "label": "Strategic Petroleum Reserve",
+      "value": "289.7 mb",
+      "change": "▼ 44-year low — 103 mb operationally constrained; Washington enters weekend with emergency buffer at floor amid elevated Ukraine risk",
+      "direction": "down"
+    }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Weekend Edition — Gulf Oil Exports Climb to Two-Thirds of Pre-War Levels as Iran–Oman Strike Hormuz Revenue Deal; Products Lane Stays Sealed",
+    "headline": "Goldman Sachs: Gulf Crude Flows Recover to 15–16 mb/d as Iran–Oman Formalise Revenue Deal — IEA Forecasts 1.6 mb/d Demand Destruction in 2026 as Products Blockade Remains Structurally Intact",
+    "paragraphs": [
+      "As crude markets close out a week that sent Brent down more than 7% from Monday's opening — the largest weekly decline since April's war-peak reversal — two competing data points are shaping the weekend narrative. Goldman Sachs published estimates on August 28 showing Gulf crude and product exports have climbed to <strong>15–16 million barrels per day</strong>, equivalent to roughly two-thirds of the pre-war baseline of approximately 23 mb/d. The bank attributed the recovery to a rising volume of Strait of Hormuz transits — including dark crossings with AIS transponders disabled — and increasing ship-to-ship transfers outside the Strait, noting that market participants are adapting creatively to the conflict environment. Simultaneously, Iran and Oman formalised a <strong>Strait of Hormuz revenue-sharing agreement</strong> on August 26, with the IRGC framing the arrangement as going materially beyond the cautious joint foreign ministry statement issued the day prior. Tehran stressed the deal does not guarantee immediate full reopening and accused Washington of actively obstructing the negotiation process.",
+      "Against the supply recovery signal, the International Energy Agency's <strong>August 2026 Oil Market Report</strong> delivers a sobering demand-side counterweight: world oil demand is projected to contract by <strong>1.6 mb/d in 2026</strong> as elevated fuel prices and Hormuz-driven product shortages suppress consumption across major import economies. The agency noted global oil supply in July ran <strong>6.3 mb/d below year-ago levels</strong>, with renewed hostilities reducing third-quarter supply estimates by a further 370 kb/d. Demand contractions are expected to ease from 4.9 mb/d in Q2 2026 to 2.8 mb/d in Q3, before a return to growth is projected in Q4 — a trajectory conditional on Hormuz normalisation proceeding without relapse. The IEA's demand outlook matters for the medium-term price floor: even a full restoration of Gulf supply must re-enter a market consuming materially less crude than it did a year ago.",
+      "The structural feature the week's diplomatic progress has <em>not</em> resolved remains the <strong>products lane</strong>. The Iran–Oman agreement covers crude vessel governance, maritime security monitoring, and navigation protocol for the Strait — it does not extend to refined product tankers. Europe's diesel, heating oil, and jet fuel supply chain continues to run through an effectively closed channel: <strong>US distillate inventories stand 14% below their five-year seasonal average</strong>, Low Sulphur Gasoil futures hold at $1,270.25/T, and no products-specific negotiating framework is currently under discussion. The weekend risk is further complicated by Ukraine: following President Putin's reported abandonment of peace talks and signal of military escalation on August 27, European natural gas futures surged 4.34% on Friday, and energy markets enter the weekend with the largest unresolved geopolitical tail since the Hormuz closure itself."
+    ],
+    "link_url": "https://www.bloomberg.com/news/articles/2026-08-28/goldman-says-hormuz-oil-flows-at-two-thirds-of-pre-war-levels",
+    "link_text": "Read Bloomberg",
+    "stats": [
+      { "num": "15–16 mb/d", "desc": "Gulf Oil Exports Now — Two-Thirds of ~23 mb/d Pre-War Baseline; Goldman Sachs Estimate Published August 28" },
+      { "num": "−1.6 mb/d", "desc": "IEA Forecast for 2026 World Oil Demand Change — Elevated Prices and Hormuz Disruption Suppress Consumption" },
+      { "num": "−7.2%", "desc": "Brent's Weekly Decline — Largest Since April's War-Peak Reversal; Hormuz Diplomacy Drives the Unwind" },
+      { "num": "17%", "desc": "Share of Russian Refining Capacity Disrupted by Ukrainian Strikes — Ryazan Hit August 27; Ten Facilities Affected" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Supply Recovery",
+      "headline": "Goldman Sachs: Gulf Oil Exports Climb to Two-Thirds of Pre-War Levels — Dark Crossings and Ship-to-Ship Transfers Accelerating",
+      "body": "Goldman Sachs estimated on August 28 that Gulf crude and product exports have recovered to 15–16 mb/d, against a pre-conflict baseline of approximately 23 mb/d. The bank attributed the rebound to a rising volume of Strait of Hormuz transits — with over 60% of vessels still disabling AIS transponders — and a growing network of ship-to-ship transfer points beyond the Strait itself. Prices have fallen from above $120/bbl in April to the high $80s as a result, but Goldman cautions that the recovery remains fragile and dependent on continued Iranian restraint within the nascent revenue-sharing framework now established with Oman.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-28/goldman-says-hormuz-oil-flows-at-two-thirds-of-pre-war-levels",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran–Oman Formalise Hormuz Revenue Deal — IRGC Goes Beyond Joint Statement; Tehran Accuses US of Obstructing Progress",
+      "body": "Iran's Islamic Revolutionary Guard Corps announced on August 26 that Tehran and Muscat have agreed to divide revenues from Strait of Hormuz vessel transit fees — a step framed as going materially beyond the cautious joint foreign ministry statement of August 25. Tehran stressed the deal does not guarantee immediate full reopening and accused Washington of actively obstructing the negotiation process. A prior 60-day interim framework had lapsed in early August with repeated breaches. Analysts view the revenue-sharing agreement as a potential foundation for more durable end-of-conflict talks, but note that its explicit exclusion of refined product tankers limits the near-term market impact on distillate and gasoil markets.",
+      "link_url": "https://foreignpolicy.com/2026/08/26/iran-oman-strait-hormuz-deal-us-trump-oil-shipping/",
+      "link_text": "Read Foreign Policy"
+    },
+    {
+      "tag": "Demand Destruction",
+      "headline": "IEA August 2026 Report: World Oil Demand to Contract 1.6 mb/d — Supply Runs 6.3 mb/d Below Year-Ago Levels",
+      "body": "The IEA's August 2026 Oil Market Report projects world oil demand will contract by 1.6 mb/d in 2026 as elevated fuel prices and Hormuz-driven product shortages suppress consumption across major importing economies. Global oil supply in July ran 6.3 mb/d below year-ago levels, with the IEA cutting Q3 2026 supply estimates by a further 370 kb/d on renewed hostilities. Annual demand contractions are expected to ease from 4.9 mb/d in Q2 2026 to 2.8 mb/d in Q3, before a return to growth is projected in Q4 — conditional on Hormuz normalisation proceeding without relapse. The report marks the most comprehensive downward demand revision since the 2020 pandemic.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-august-2026",
+      "link_text": "Read IEA"
+    },
+    {
+      "tag": "Russia / Ukraine",
+      "headline": "Ukraine Disrupts 17% of Russian Refining Capacity — Ryazan Struck August 27; Lukoil Volgograd Halted",
+      "body": "Reuters confirmed that Ukrainian drone campaigns have disrupted the equivalent of 17% of Russia's total refining capacity, halting approximately 1.1 mb/d of throughput across ten facilities. The Ryazan refinery was struck on August 27; the Lukoil Volgograd facility has been halted since a strike on August 14. The Novoshakhtinsk refinery in Rostov Oblast was struck on August 20 and burned for more than 60 hours. Russia's domestic petrol output fell to 75,000–80,000 tonnes per day in July against demand of 115,000–120,000 tonnes per day, sustaining a nationwide fuel deficit that now affects over 90% of Russian administrative regions.",
+      "link_url": "https://www.yahoo.com/news/articles/ukraine-disrupted-17-russias-refining-095624733.html",
+      "link_text": "Read Reuters via Yahoo"
+    },
+    {
+      "tag": "Market Wrap",
+      "headline": "Brent Falls 7%+ on the Week — Largest Weekly Decline Since April; Products Dislocation Deepens as Crude Unwinds",
+      "body": "Brent crude shed more than 7% in the week ending August 28, the largest weekly decline since the war-premium began reversing after the June US–Iran ceasefire. The sell-off was driven by diplomatic progress on the Strait of Hormuz crude corridor — the Iran–Oman revenue-sharing agreement and improving ship transit data — but Friday saw a partial reversal on Putin's escalation signal, with Brent recovering from a session low of $86.93 to settle near $88.22. Low Sulphur Gasoil futures at $1,270.25/T remain structurally elevated: the products lane is sealed, European distillate stocks are critically low, and no products-specific diplomatic framework is under negotiation.",
+      "link_url": "https://www.nbcnews.com/business/energy/oil-prices-inflation-trump-strait-hormuz-rcna594477",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "EIA Inventories",
+      "headline": "EIA Week Ending August 21: Crude +0.1 mb; Gasoline −3.2 mb; Distillates 14% Below Average; SPR at 44-Year Low",
+      "body": "The EIA's weekly petroleum status report for the week ending August 21 showed commercial crude inventories up just 0.1 mb to 428.9 mb, while gasoline stocks drew 3.2 mb — a demand-resilience signal as lower prices supported consumer fuel buying. Distillate inventories remained 14% below the five-year seasonal average, the structural fingerprint of the Hormuz products blockade. Refinery utilisation rose to 97.4%, near peak seasonal levels. The US Strategic Petroleum Reserve stood at 289.7 mb — its lowest level since November 1982 — with approximately 103 mb operationally constrained and unavailable for emergency drawdown.",
+      "link_url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf",
+      "link_text": "Read EIA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 1 — Monday Open",
+      "name": "First Market Tape Since Putin Escalation Signal — Ukraine Headlines Dominate September's Opening Session",
+      "impact": "The first trading session of September arrives with Putin's reported military escalation signal unresolved. Any weekend confirmation through NATO intelligence sourcing, Russian state media, or satellite imagery of military build-up will reprice Monday's open immediately. Conversely, a quiet weekend allows the Hormuz-bearish trend to reassert. Month-end positioning distortions have cleared, leaving Monday's tape as a cleaner read on the Ukraine-vs-Hormuz tug-of-war that defined August's final week.",
+      "market_impact": "Binary: +$3–6/bbl on Ukraine escalation confirmation; −$2–4/bbl on quiet weekend with continued Hormuz diplomatic progress.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Products Lane — Sealed; Separate Framework Required; No Talks Scheduled",
+      "impact": "The Iran–Oman revenue-sharing agreement explicitly excludes refined product tankers. Full Hormuz normalisation for European diesel, heating oil, and jet fuel requires a distinct negotiating framework covering product vessel governance, cargo insurance, and transit fees — a more complex and politically sensitive negotiation than the crude corridor arrangement. Iran has not signaled readiness to enter this framework. Until a products deal is announced, distillate inventories remain structurally below seasonal norms, diesel crack spreads stay historically wide, and Low Sulphur Gasoil is the cleaner directional expression of the ongoing supply dislocation.",
+      "market_impact": "Structural: products reopening = major pressure on ULS1! and diesel cracks; continuation = sustained support for gasoil above $1,200/T.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Ukraine War Escalation — Putin Abandons Peace Talks; Military Build-Up Signaled",
+      "impact": "Bloomberg's Kremlin-sourced reporting that Putin has concluded peace negotiations are at a dead end and is preparing military escalation introduces the largest unpriced upside tail in the near-term crude market. An escalation that expands geographic footprint, threatens Baltic Sea energy infrastructure, strikes NATO-adjacent territory, or draws additional state actors into engagement would reprice crude sharply. European TTF gas already surged 4.34% on Friday in partial anticipation. Russia's domestic refining degradation — 17% of capacity disrupted — simultaneously constrains Moscow's economic flexibility.",
+      "market_impact": "Structural upside tail: +$5–10/bbl on confirmed escalation toward energy infrastructure or NATO-border operations; TTF +10%+ in same scenario.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Imminent",
+      "name": "US Secondary Sanctions Enforcement — Chinese and Indian Banks at 'Economic D-Day'",
+      "impact": "Treasury Secretary Bessent's ultimatum to third-party institutions financing Iranian oil trade is approaching enforcement deadlines. Markets are watching for the first visible compliance action — a Chinese or Indian bank publicly severing ties with Iranian oil payment flows — or a counter-move from Beijing or New Delhi. Full enforcement removes residual Iranian export volumes and is structurally bullish for crude; non-enforcement signals softened US resolve and sustains Iranian supply, adding a bearish tailwind at a time when Hormuz crude flows are already recovering toward pre-war levels.",
+      "market_impact": "Structural: ±$3–5/bbl over 30–60 days; directional hinge for Iranian supply trajectory.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 2026",
+      "name": "IEA Demand Contraction Meets Recovering Supply — The 1.6 mb/d Destruction Floor",
+      "impact": "The IEA's forecast of 1.6 mb/d demand destruction in 2026 reshapes the medium-term price calculus. A recovering supply base — Goldman's 15–16 mb/d and rising — re-entering a market consuming materially less oil than 2025 compresses the price floor more than a straight supply-return headline implies. Watch September IEA and EIA demand revisions for signs of whether consumption is deepening further or beginning to recover as fuel prices ease from April war highs above $120/bbl.",
+      "market_impact": "Medium-term bearish structural pressure — a ceiling on the pace of price recovery even if Hormuz normalises cleanly.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "The week ending August 28 delivered the largest weekly crude decline since April's post-ceasefire unwind, and for broadly the same reason: diplomatic progress on the Strait of Hormuz — this time a formalised revenue-sharing agreement between Iran and Oman — gave the market permission to sell the geopolitical premium. Goldman Sachs has put a number on the recovery: Gulf exports now run at 15–16 mb/d, two-thirds of the pre-war baseline, as dark crossings multiply and ship-to-ship transfers outside the Strait build into a parallel routing network. That recovery, if it continues at the current pace, is structurally bearish for headline crude prices, and the tape spent most of the week expressing precisely that thesis.",
+      "<strong>My read on the weekend:</strong> Friday's reversal — Brent recovering from $86.93 to $88.22 on the Putin escalation signal — is the market telling you that the Hormuz-bearish thesis has a live counterweight it cannot fully suppress. Three Kremlin sources telling Bloomberg that Putin has abandoned peace talks and is preparing military escalation is not a routine intelligence leak — it is the kind of signal that precedes major market-moving events, and the 4.34% spike in European natural gas on the same day confirms that at least one major benchmark is taking it seriously. Crude held back because the week's Hormuz narrative dominated positioning. Monday's open will reveal which force the market decides to price into September.",
+      "<strong>The bigger picture:</strong> The IEA's 1.6 mb/d demand destruction forecast is the variable that most changes the medium-term calculus. A recovering supply base — Goldman's 15–16 mb/d and climbing — re-entering a market consuming materially less oil than 2025 compresses the price floor more than a surface supply-return headline implies. The products structural dislocation is the counterweight that the crude-bearish narrative consistently undervalues: distillates 14% below seasonal average, ULS1! at $1,270/T, and zero products-lane diplomatic progress mean the refining and distribution economics of the global oil market remain severely distorted even as the crude corridor advances. <em>This creates a bifurcated market: crude bearish on Hormuz diplomacy, products structurally bullish on the products blockade — and gasoil remains the cleaner directional expression of the supply dislocation that is not going away until Iran agrees to negotiate a separate products framework.</em>",
+      "My call for Monday's open: <strong>Brent trades in the $86–$92 range</strong>, with the intraday bias determined entirely by weekend Ukraine headlines. A quiet weekend allows Hormuz bearishness to reassert and Brent tests the $86–$87 zone into Tuesday. A confirmed Putin military escalation order reprices a move toward $90–$92 before European markets have finished their morning session. <strong>Watch the products trade: ULS1! will not correct meaningfully until Iran agrees to open a products-specific negotiating channel — and that conversation has not started.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing — Crude Corridor at 2/3 Pre-War Level", "tone": "neutral", "pct": 38 },
+      { "name": "Geopolitical Risk (Hormuz)", "label": "Declining — Deal Advancing, Products Still Excluded", "tone": "neutral", "pct": 40 },
+      { "name": "Ukraine Escalation Risk", "label": "Rising — Putin Signals Military Build-Up", "tone": "bullish", "pct": 72 },
+      { "name": "Products Scarcity", "label": "Critical — 14% Below Seasonal Average, No Deal in Sight", "tone": "bearish", "pct": 82 },
+      { "name": "Demand Outlook", "label": "Contracting — IEA Forecasts −1.6 mb/d in 2026", "tone": "bearish", "pct": 35 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin — SPR at 44-Year Low; Gulf Recovery Partial", "tone": "bearish", "pct": 28 }
+    ],
+    "call": {
+      "label": "Monday Open Price Call — Brent Crude",
+      "value": "$86 – $92",
+      "bias": "Bias: Binary — Quiet Weekend → $86–87; Ukraine Escalation Confirmed → $90–92 ▲"
+    },
+    "watch_levels": {
+      "resistance": "$91–$93",
+      "support": "$85–$87",
+      "breakout": ">$93 (Putin escalation confirmed; energy infrastructure or NATO-adjacent strike)",
+      "breakdown": "<$85 (Hormuz products deal announced; quiet weekend; Goldman flow data accelerates)"
+    }
+  }
+}
