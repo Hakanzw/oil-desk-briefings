@@ -1,0 +1,156 @@
+{
+  "date_long": "Monday, August 31, 2026",
+  "date_slug": "aug31-2026",
+  "volume": "Vol. I — No. 34",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, OPEC, Al Jazeera, Reuters, Bloomberg, Axios, The National, World Oil, AAA, OilPrice.com",
+
+  "ticker": [
+    "BRENT TOPS $90 AS US STRIKES IRANIAN POSITIONS IN STRAIT OF HORMUZ",
+    "BRENT CRUDE $90.25 ▲ +2.44% — FIRST TIME ABOVE $90 IN THREE WEEKS",
+    "US FORCES HIT IRGC ROCKET LAUNCHERS ON LARAK ISLAND — SUNDAY STRIKE",
+    "VENEZUELA WEIGHING OPEC EXIT AS TRUMP EYES STAKE IN ITS OIL FIELDS",
+    "US GASOLINE NATIONAL AVERAGE HITS ALL-TIME AUGUST RECORD: $4.10/GAL",
+    "IRAN: HORMUZ WON'T REOPEN UNTIL SANCTIONS LIFTED AND REPARATIONS PAID",
+    "EIA: GLOBAL OIL INVENTORIES FELL AVG 4.2 MB/D IN Q2 2026",
+    "OPEC+ COMPLETES PLANNED 2026 INCREASES — VENEZUELA WEIGHS DEPARTURE"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$90.25", "change": "▲ +2.44% (Larak strike bid)", "direction": "up" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,302.25/t", "change": "▼ −3.36% (Fri. settlement)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$86.00", "change": "▲ ~+2.6% (early trade)", "direction": "up" },
+    { "label": "Natural Gas (TTF)", "value": "€69.44/MWh", "change": "▲ +4.34%", "direction": "up" },
+    { "label": "US Gasoline (AAA Avg)", "value": "$4.10/gal", "change": "▲ All-time August record", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Escalation Resumes — First US Strike on Iran in a Month Ends Fragile Diplomatic Pause",
+    "headline": "US Forces Strike Iranian Rocket Launchers on Larak Island — Brent Surges Above $90 as Hormuz Peace Hopes Fade",
+    "paragraphs": [
+      "A fragile month-long pause in US–Iran military hostilities collapsed over the weekend when American forces struck two IRGC rocket launchers on Larak Island in the Strait of Hormuz on Sunday, August 30. US intelligence had observed Iranian forces preparing to deploy sea mines into the waterway — a development the Pentagon said it could not allow to proceed. The strike — the <strong>first US military action against Iran in approximately one month</strong> — immediately erased what had been a brief window of diplomatic optimism: Oman-mediated back-channel talks between Washington and Tehran had suggested a possible easing of conditions for the strait's reopening. Brent surged above <strong>$90 per barrel</strong> in Monday morning trading, posting its largest single-day gain in three weeks.",
+      "Iran's Foreign Ministry had already reiterated over the weekend that the Strait of Hormuz — through which roughly one-fifth of global seaborne oil flows in normal times — would not reopen until <strong>US sanctions were fully lifted</strong> and Washington paid <strong>war reparations</strong>. Tanker transits through the corridor have fallen from approximately 130 per day before the February 28 outbreak of hostilities to as few as 6–15 transits daily. The EIA has described this as <strong>\"the largest energy supply disruption in recorded history.\"</strong> Sunday's strike has effectively reset the diplomatic clock to zero.",
+      "The Larak escalation compounds a structural fragility in global oil supply that has been building since February. OPEC+ this month completed its final planned production quota increases for 2026 — reversing all 3.5 million bpd of 2023 cuts — but the move is largely symbolic while physical barrels from Middle Eastern producers cannot transit Hormuz. Adding to the cartel's existential pressures, Venezuela is reported to be weighing an exit from OPEC, with the Trump administration said to be in talks about acquiring a US stake in the country's oil resources. If confirmed, the combined departures of Venezuela and the UAE — which withdrew earlier in 2026 — would strip OPEC of roughly <strong>5 million bpd of production capacity</strong>, approximately 17% of core member supply."
+    ],
+    "link_url": "https://www.thenationalnews.com/news/us/2026/08/30/us-strikes-iran-near-strait-of-hormuz-in-first-military-action-in-a-month/",
+    "link_text": "Read The National",
+    "stats": [
+      { "num": "$90.25", "desc": "Brent Front-Month Price Monday Morning — First Close Above $90 in Three Weeks" },
+      { "num": "6–15/day", "desc": "Current Tanker Transits Through Hormuz vs. ~130/Day Before the February War" },
+      { "num": "3.5 MMbpd", "desc": "OPEC+ Output Cuts Reversed in 2026 — Barrels Largely Physically Blocked at Hormuz" },
+      { "num": "~5 MMbpd", "desc": "OPEC Production Capacity at Risk if Both Venezuela and UAE Departures Are Confirmed" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Military / Hormuz",
+      "headline": "US Forces Strike IRGC Rocket Launchers on Larak Island — First Action Against Iran in a Month",
+      "body": "US military forces struck two Iranian Revolutionary Guard Corps (IRGC) rocket launcher positions on Larak Island in the Strait of Hormuz on Sunday, August 30, after intelligence observed preparations to deploy sea mines into the waterway. The strike was the first US military action against Iran in approximately one month, ending a fragile quiet period during which Oman-mediated diplomatic contacts had appeared to be progressing. Iran's government condemned the strike as an act of aggression and called an emergency session of the Supreme National Security Council. Brent surged above $90 at Monday's open — the highest in three weeks.",
+      "link_url": "https://www.axios.com/2026/08/30/us-iran-strike-hormuz-mines",
+      "link_text": "Read Axios"
+    },
+    {
+      "tag": "OPEC / Geopolitics",
+      "headline": "Venezuela Weighs OPEC Exit as Trump Administration Eyes US Stake in Its Oil Fields",
+      "body": "Venezuela is examining plans to leave OPEC — the cartel it helped found in 1960 — Bloomberg reported, as the Trump administration holds talks with Venezuela's interim government about acquiring a US stake in the country's approximately 1.16 mb/d oil resource base. No final decision has been made, but the potential exit follows the UAE's earlier 2026 withdrawal. The two combined departures would reduce OPEC's core member production capacity by roughly 5 million bpd, or about 17%, and would accelerate the cartel's structural erosion at a moment when it is already struggling to maintain relevance amid the Hormuz crisis.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-28/opec-s-future-darkens-with-venezuela-latest-nation-to-mull-exit",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Diplomacy / Iran",
+      "headline": "Iran: Hormuz Will Not Reopen Until Sanctions Are Lifted and the US Pays War Reparations",
+      "body": "Iran's Foreign Minister Abbas Araghchi declared that the Strait of Hormuz would remain closed to international shipping until the United States fully lifted oil sanctions and paid war reparations — demands that had already stalled the Oman-mediated back-channel talks before Sunday's strike made them moot. Analyst Tim Waterer of KCM Trade noted that \"optimism from earlier in the month is steadily being replaced by a more cautious, risk-premium-driven stance,\" an assessment that proved prescient. With Sunday's US strike, even that cautious optimism has now been extinguished.",
+      "link_url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC+ Supply",
+      "headline": "OPEC+ Ratifies Final Planned 2026 Output Hike — 188,000 bpd for September",
+      "body": "At its August 2 ministerial meeting, OPEC+ ratified a 188,000 bpd production quota increase for September, completing the full reversal of the 3.5 million bpd in cuts implemented in 2023. The seven participating members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — are expected to hold quotas steady through year-end. Analysts were broadly skeptical: while the increases are real on paper, physical barrels from most Middle Eastern OPEC+ producers remain blocked by the Hormuz crisis, meaning the supply boost exists mainly in quota ledgers, not in actual shipments.",
+      "link_url": "https://worldoil.com/news/2026/8/2/opec-approves-final-production-quota-increase-of-2026/",
+      "link_text": "Read World Oil"
+    },
+    {
+      "tag": "M&A / Mediterranean",
+      "headline": "Energean in Exclusive Talks to Acquire BP's Egyptian Oil and Gas Portfolio for ~$1 Billion",
+      "body": "Energean entered exclusive negotiations to acquire BP's Egyptian upstream portfolio, including interests in the West Nile Delta gas assets (co-developed with Harbour Energy) and a 50% working interest in the Temsah concession in the eastern Mediterranean. The Temsah block rose sharply in strategic value following Eni's Denise West discovery (estimated at 2 tcf of gas) earlier in 2026. For BP, the sale advances a broader asset-disposal and debt-reduction program; the company would retain its Arcius Energy interests, including a stake in the Zohr gas field. The deal is expected to close before year-end pending regulatory approval.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Energean-in-Exclusive-Talks-for-1-Billion-BP-Egypt-Gas-Deal.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Demand / US Retail",
+      "headline": "US Gasoline Hits All-Time August Record at $4.10 Per Gallon — AAA",
+      "body": "AAA reported the US national average for regular gasoline reached $4.10 per gallon on August 20, setting an all-time record for that calendar date. The August 2026 monthly average of $4.06 eclipses the previous August record of $3.97 set in 2022. Crude oil prices in the $83–$90 per barrel range, driven primarily by the Hormuz supply disruption, are cited as the dominant driver. Demand, while slightly above seasonal norms, plays only a secondary role — the price story is overwhelmingly one of constrained supply. Monday's move above $90 Brent will sustain pressure at the pump through September.",
+      "link_url": "https://newsroom.aaa.com/2026/08/high-crude-oil-prices-push-up-national-average/",
+      "link_text": "Read AAA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Aug 31 — Today",
+      "name": "Markets Absorb Larak Island Strike; Iran Formal Response Awaited",
+      "impact": "The first full trading session after Sunday's strike is a direct referendum on how much additional geopolitical risk premium crude can absorb. Brent's early surge above $90 reflects the immediate shock bid; Iran's formal response from the Supreme National Security Council — expected later Monday — will determine whether this is a contained tactical exchange or the start of a new escalation spiral. Any reported Iranian retaliation against shipping would push Brent toward $95–$97.",
+      "market_impact": "Directional: ±$5–8/bbl depending on Iranian response severity.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 1–3",
+      "name": "Iran Supreme National Security Council Response to Larak Strike",
+      "impact": "Tehran convened an emergency session of the Supreme National Security Council after the Sunday strike. Its formal posture — whether rhetorical condemnation, accelerated mine deployment, or attacks on commercial tankers — will define the near-term price range. A hardened Iranian position that leads to renewed tanker attacks would remove any residual market hope for a Hormuz reopening before year-end and could push Brent firmly into the $95–$100 range.",
+      "market_impact": "Binary: de-escalatory statement = $88–91 range; retaliatory action against shipping = $95–100+.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 3",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Aug 28)",
+      "impact": "The next major US inventory print. Commercial crude stocks ticked back above the five-year average in the week ending August 21 (428.9 MB, +1% vs. average), suggesting some demand rationing at record pump prices. Traders will monitor whether the Strategic Petroleum Reserve (289.7 MB) sees any further releases in response to Monday's price spike above $90 Brent.",
+      "market_impact": "±$2–3/bbl; SPR release signal could add $1–2 in either direction.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Venezuela OPEC Exit — Decision Timeline Uncertain",
+      "impact": "Bloomberg reports Venezuela is in active internal consultations on leaving OPEC. A formal announcement would force the cartel's remaining members to reckon with an organization that has lost two founding members and roughly 17% of core production capacity in a single year. Markets would likely read the exit as reinforcing the narrative of OPEC's structural decline, modestly bullish for prices in the medium term as coordination weakens.",
+      "market_impact": "Structural — medium-term bullish signal for price floor; tactically ±$1–2/bbl on headline.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 2026",
+      "name": "OPEC+ September Output Quota Takes Effect — Last Planned Hike of 2026",
+      "impact": "The 188,000 bpd September quota increase is the final planned production increase for 2026. On paper it adds supply; in practice, physical barrels from most Middle Eastern OPEC+ producers cannot transit a closed or near-closed Hormuz. The gap between paper quotas and physical deliveries will continue to widen until the strait reopens, providing structural price support that Sunday's strike has only reinforced.",
+      "market_impact": "Modest bearish on paper; structurally price-supportive while Hormuz remains constrained.",
+      "risk": "Low"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Sunday's Larak Island strike is, in a single word, <em>destabilizing</em> — not necessarily in the sense that prices go vertical from here, but in the specific and important sense that it has dismantled the one thin thread of optimism that had held since late July: the idea that Oman could quietly broker an off-ramp. <strong>That thread is now cut.</strong> The Hormuz reopening is not a near-term story; it is at minimum a 2027 story, and possibly longer.",
+      "<strong>My read on today:</strong> Brent above $90 at Monday's open is the market pricing something real, not just noise. The Larak strike was not a minor skirmish — it was the US destroying hardware that Iran was actively preparing to use to extend the mining of the most important oil-shipping lane on the planet. Iran's formal response almost certainly cannot be softer than its pre-strike posture, and could easily be harder. The risk is deeply asymmetric: the downside from here is $2–3/bbl if Tehran backs down; the upside if it retaliates against a tanker is $8–15/bbl.",
+      "<strong>The bigger picture:</strong> We enter September with three overlapping structural pressures on crude supply: first, a Strait of Hormuz that is no closer to reopening and may now be further away; second, an OPEC+ completing paper quota increases it cannot physically deliver; and third, an incipient crisis of legitimacy at the cartel itself, with Venezuela likely to follow the UAE toward the exit. None of these are short-term catalysts — all three are directionally bullish for the long-run price floor.",
+      "My call: <strong>Brent trades $88–$96 today</strong>, with the most probable range $90–$93 absent an immediate Iranian counter-strike. <strong>The geopolitical risk premium is back. It never fully left — it just slept for a month. Today it woke up.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Very Tight", "tone": "bearish", "pct": 85 },
+      { "name": "Geopolitical Risk", "label": "Surging", "tone": "bearish", "pct": 90 },
+      { "name": "Demand Destruction", "label": "Emerging", "tone": "bullish", "pct": 38 },
+      { "name": "Hormuz Resolution", "label": "Stalled / Reversed", "tone": "bearish", "pct": 12 },
+      { "name": "OPEC+ Cohesion", "label": "Fracturing", "tone": "bearish", "pct": 28 },
+      { "name": "Spare-Capacity Buffer", "label": "Critically Thin", "tone": "bearish", "pct": 18 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$88 – $96",
+      "bias": "Bias: Upside Risk Dominant — Watch Iranian Response ▲"
+    },
+    "watch_levels": {
+      "resistance": "$95–$97",
+      "support": "$88–$90",
+      "breakout": ">$97 (Iranian retaliation / tanker attack)",
+      "breakdown": "<$87 (Iran backs down, Oman talks restart)"
+    }
+  }
+}
