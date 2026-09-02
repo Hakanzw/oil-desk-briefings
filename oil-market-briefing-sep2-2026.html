@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Wednesday, September 2, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT $95.25 ▲ +0.63% — OIL CLIMBS FOR THIRD CONSECUTIVE SESSION TO HIGHEST LEVEL IN NEARLY SIX WEEKS &nbsp;|&nbsp; ICE LOW SULPHUR GASOIL (ULS1!) ~$683.75/MT ▲ EST. +1.22% — OCT. FRONT-MONTH TRACKS BRENT SURGE; DISTILLATE CRACKS FIRM &nbsp;|&nbsp; US MQ-9 DRONE DOWNED BY IRGC OVER EASTERN STRAIT OF HORMUZ — PENTAGON CONFIRMS LOSS OF AIRCRAFT &nbsp;|&nbsp; TRUMP: 'WE MAY TAKE KHARG ISLAND' — IRAN WARNS ANY STRIKE ON EXPORT HUB WOULD TRIGGER REGIONAL WAR &nbsp;|&nbsp; TEHRAN URGES RETURN TO JUNE MOU; WASHINGTON SAYS PRECONDITIONS UNMET — OMAN BACK-CHANNEL IN INTENSIVE CONTACT &nbsp;|&nbsp; EIA WEEKLY PETROLEUM REPORT DUE 10:30AM ET — API ESTIMATES -2.6MB CRUDE DRAW; DISTILLATES STILL 14% BELOW SEASONAL NORM &nbsp;|&nbsp; TANKER STRUCK BY THREE PROJECTILES IN HORMUZ TRANSIT; VESSEL TRAFFIC FALLS TO 107/WEEK FROM 121 PRIOR WEEK &nbsp;|&nbsp; VENEZUELA IN ACTIVE OPEC EXIT DELIBERATIONS — FORMAL ANNOUNCEMENT POSSIBLE THIS MONTH, BLOOMBERG REPORTS&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Wednesday, September 2, 2026<br>
+      Vol. I — No. 36<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$95.25/bbl</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$683.75/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$95.25/bbl</div>
+      <div class="price-change up">▲ +0.63% (third session of gains; highest since early August; tanker strike and drone loss lift risk premium)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">~$683.75/mt</div>
+      <div class="price-change up">▲ est. +1.22% (Oct. front-month; tracking Brent move; distillate cracks firm on persistent 14%-below-norm stock deficit)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$90.68/bbl</div>
+      <div class="price-change up">▲ +0.51% (Oct. futures; Brent-WTI spread ~$4.57 as Atlantic Basin procurement premium persists)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (TTF)</div>
+      <div class="price-val">~€70.00/MWh</div>
+      <div class="price-change up">▲ Extending rally above €70; EU storage ~64% full vs. seasonal norms; Hormuz LNG disruption premium intact</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Henry Hub Natural Gas</div>
+      <div class="price-val">~$2.85/MMBtu</div>
+      <div class="price-change down">▼ ~−2.7% (easing from five-week high; record US production and elevated storage absorbing war-premium overflow)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Escalation — Third Session of Gains as Tanker Is Hit, US Drone Downed; Trump Revives the Kharg Island Ultimatum</div>
+      <h3>Brent Tops $95 for the First Time in Nearly Six Weeks as a Tanker Is Struck in Hormuz, a US Drone Falls, and Trump Revives the Kharg Island Threat</h3>
+      <p>Oil climbed for a third consecutive session on Wednesday to its highest level since late July, as two incidents in the Strait of Hormuz within a single trading day confirmed what the market had suspected since the Larak Island strike: the tempo of the conflict is accelerating, not stabilising. An unidentified tanker transiting eastbound through the strait was struck by three projectiles — vessel and flag not immediately confirmed — while Iran's Islamic Revolutionary Guard Corps separately announced it had intercepted and downed a US Navy MQ-9 drone over the eastern Strait. The Pentagon confirmed the loss of the aircraft. Brent crude settled at <strong>$95.25/bbl</strong>, up 0.63% on the session and the highest since early August, bringing the three-session gain from Monday's opening to more than four dollars per barrel. WTI tracked higher to <strong>$90.68/bbl</strong> on equivalent volume.</p>
+      <p>The day's second shock was rhetorical but no less consequential for price. President Trump, speaking at a White House media availability, returned to the Kharg Island threat that has episodically electrified the oil market since March: <strong>"We may take over Kharg Island. There's not a thing they can do about it."</strong> Kharg handles approximately 90% of Iran's crude oil exports; a confirmed US strike on the facility would constitute the single largest supply shock since the Russian invasion of Ukraine, and analysts estimate the initial price response would be a $10–$20/bbl impulse across all major benchmarks. Iran's Foreign Minister Abbas Araghchi issued a pointed counter-warning that any strike on Kharg would trigger a broader regional military response. Tehran simultaneously extended, through diplomatic back-channels, an offer to resume the June memorandum of understanding framework — a posture the Trump administration described as inadequate given Iran's refusal to pre-agree to sanctions relief terms.</p>
+      <p>The three-session rally crystallises the market's dominant interpretation of the conflict's current phase: a <strong>"no war, no peace"</strong> equilibrium that is structurally price-supportive at the $90–$97 range and carries violent upside optionality. Hormuz tanker transits for the week of August 24–30 fell to 107 per week — down from 121 the prior week and far below the 130+ peacetime baseline — as operators continued disabling AIS transponders to reduce targeting risk. The EIA's weekly petroleum status report covering the week ending August 28 is scheduled for release at 10:30am ET today; the American Petroleum Institute's preliminary estimate, released Tuesday, showed a <strong>2.6-million-barrel crude draw</strong> and a 3.1-million-barrel decline in the Strategic Petroleum Reserve — the SPR now estimated at 286.6 million barrels, its lowest level since the drawdown campaigns of 2021–2022. <strong>The market's risk premium is no longer a spike responding to events; it is the baseline from which events push prices higher.</strong></p>
+      <a href="https://www.aljazeera.com/economy/2026/9/1/oil-prices-climb-as-us-iranian-attacks-stoke-fears-of-escalation" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$95.25</div>
+        <div class="stat-desc">Brent Crude on Wednesday — Third Consecutive Gain; Highest Since Early August; WTI at $90.68/bbl</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">107/week</div>
+        <div class="stat-desc">Tanker Transits Through Hormuz (Aug 24–30) — Down from 121 the Prior Week; Operators Disabling AIS to Avoid Targeting</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−2.6M bbl</div>
+        <div class="stat-desc">API's Estimated Crude Inventory Draw for Week Ending Aug 28 — Official EIA Data Due 10:30AM ET Today</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~$683.75</div>
+        <div class="stat-desc">ICE Low Sulphur Gasoil (ULS1!) Oct. Front-Month Estimate ($/mt) — Tracking Brent Surge as Distillate Stocks Remain 14% Below Seasonal Norm</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Military / Hormuz</div>
+      <h4>Tanker Struck by Three Projectiles in Hormuz Transit; US MQ-9 Drone Downed by IRGC Over Eastern Strait</h4>
+      <p>Two distinct military incidents in the Strait of Hormuz within a single trading session drove oil's third consecutive daily gain on Wednesday. A commercial tanker transiting eastbound through the strait was struck by three unidentified projectiles; neither the vessel's flag nor the origin of the projectiles was immediately confirmed. Separately, Iran's Islamic Revolutionary Guard Corps announced it had intercepted a US Navy MQ-9 Reaper drone operating over the eastern portion of the strait — a claim the Pentagon confirmed, acknowledging the loss of the unmanned aircraft. Neither incident directly disrupted cargo on a scale large enough to move physical supply, but together they confirm that the strait's daily risk choreography has intensified markedly since the late-August Larak Island strike.</p>
+      <a href="https://www.aljazeera.com/economy/2026/9/1/oil-prices-climb-as-us-iranian-attacks-stoke-fears-of-escalation" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Diplomacy / Trump</div>
+      <h4>Trump Revives Kharg Island Threat; Tehran Urges Return to June MOU as Washington Rejects Preconditions</h4>
+      <p>President Trump used a White House media availability Wednesday to revive the Kharg Island ultimatum — "We may take over Kharg Island. There's not a thing they can do about it" — a statement that sent Brent briefly above $96 before settling. Iran's Foreign Minister Araghchi immediately warned that a strike on Kharg Island, which handles approximately 90% of Iranian crude exports, would trigger a broader regional military escalation. Tehran simultaneously extended a diplomatic signal through the Oman back-channel, offering to return to the framework of the June memorandum of understanding. The Trump administration publicly characterised the offer as inadequate, saying Iran had refused to commit to core sanctions-relief sequencing. Analysts noted the simultaneous rhetorical escalation and diplomatic outreach as consistent with Iran's "maximum ambiguity" negotiating posture.</p>
+      <a href="https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Markets</div>
+      <h4>Brent Tops $95 for First Time Since Early August — Three-Session Rally Reflects Structural Premium, Not Spike Logic</h4>
+      <p>Brent crude's three-session rally from the low $90s to $95.25/bbl marks a qualitative shift in how traders are reading the conflict: less spike, more structural equilibrium. The move since Sunday's close is roughly four dollars — modest by war-era standards — but its texture is notable: there was no single dramatic headline to anchor it (the way the Larak Island strike anchored Monday's $90.25 jolt), and it came on steady volume as positions built rather than unwound. Goldman Sachs analysts, writing in a Wednesday note, maintained their view that Gulf exports are running at roughly two-thirds of the pre-war baseline, and flagged the declining Hormuz transit count as the most tangible early warning indicator to watch in the coming weeks. WTI at $90.68/bbl widens the Brent premium to approximately $4.57/bbl, reflecting the continued logistical advantage of Atlantic Basin crude for Asian importers rerouting away from the Gulf.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-09-01/latest-oil-market-news-and-analysis-for-sept-2" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Inventories / EIA</div>
+      <h4>EIA Weekly Report Due Today — API Pegs 2.6MB Crude Draw; SPR Falls to Est. 286.6MB as Distillate Deficit Persists</h4>
+      <p>The EIA's Weekly Petroleum Status Report covering the week ending August 28 is scheduled for release at 10:30am ET on Wednesday, September 2. The American Petroleum Institute's preliminary estimate showed a 2.6-million-barrel crude inventory draw — larger than the modest 0.1-million-barrel build in the prior official EIA report (week ending August 21, crude at 428.9 MB). The API also estimated a 3.1-million-barrel decline in the Strategic Petroleum Reserve, placing the SPR at approximately 286.6 million barrels — its lowest since the 2021–2022 drawdown era. Distillates, which have run 14% below the five-year seasonal average for several weeks, are expected to show continued pressure as refinery runs remain at or near 97% utilization while Hormuz-constrained feedstocks limit output flexibility. The official EIA data will either confirm the API draw — adding a supply-tightness narrative to the day's Kharg Island rhetoric — or provide a modest relief signal if crude stocks built.</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">OPEC / Geopolitics</div>
+      <h4>Venezuela in Active OPEC Exit Deliberations — Formal Announcement Could Come This Month, Bloomberg Reports</h4>
+      <p>Bloomberg reported on August 27 that Venezuela is in active internal deliberations about leaving OPEC, the producer organisation it helped found in 1960, amid deepening ties with the Trump administration over potential US acquisition of a stake in Venezuela's oil resources. President Trump's government ousted Nicolás Maduro's government earlier in 2026 and has been in talks about managing Venezuela's approximately 1 mb/d production base. A Venezuelan exit would follow the UAE's 2026 withdrawal and would strip the cartel of roughly 17% of core-member production capacity — the largest single institutional fracture in OPEC's history. Analysts note that the practical market impact of a Venezuelan departure is modest (the country's output has been constrained for years), but the symbolic and credibility damage to OPEC — already managing the Hormuz production fiction — would be severe and lasting.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-08-27/venezuela-weighs-opec-exit-after-decades-as-it-deepens-us-ties" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">OPEC+ Supply</div>
+      <h4>OPEC+ September Hike in Effect; Monitoring Meeting Sep 6 to Assess Whether Paper Quotas Mean Anything Deliverable</h4>
+      <p>OPEC+'s final 188,000-bpd quota increase for 2026 — completing the full reversal of all 1.65 million bpd in voluntary cuts agreed in 2023 — took effect September 1, with the next scheduled ministerial monitoring meeting on September 6. The group has signalled no further production changes for Q4 2026, leaving approximately 2 million bpd of 2022-era cuts still in place. The September 6 session will be the first opportunity for ministers to formally respond to the Larak strike escalation and assess whether any production guidance adjustment is warranted. In practice, the gap between OPEC+ paper quotas and physical deliverability remains the central structural paradox of the 2026 market: most Middle Eastern members cannot route their allocated barrels through the near-closed Hormuz corridor, meaning the quota-restoration programme has added little to actual global supply while providing modest political cover for keeping the alliance nominally intact.</p>
+      <a href="https://www.energyconnects.com/news/oil/2026/august/opecplus-completes-rollback-of-oil-production-cuts-with-september-hike/" class="read-link" target="_blank">Read Energy Connects →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Sep 2 — Today, 10:30AM ET</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report (Week Ending August 28)</div>
+          <div class="event-impact">The first inventory print to reflect the week that included the Larak Island escalation (August 31) and Monday's market spike to $90.25. The API estimate of a 2.6-million-barrel crude draw, if confirmed by EIA, reinforces the tightening narrative and adds a supply-side anchor to Wednesday's Kharg Island rhetoric. A surprise crude build (if refinery runs slowed in response to the spike) could temporarily cap the rally. Either way, distillate levels will be the most closely watched data point given their persistent 14%-below-seasonal-norm deficit entering the autumn heating season.</div>
+        </td>
+        <td>±$2–3/bbl; a larger-than-expected crude draw of 3MB+ would extend the rally toward $97.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Kharg Island — Trump's Threat and Iran's Counter-Warning</div>
+          <div class="event-impact">Trump's explicit statement Wednesday — "We may take over Kharg Island" — elevates the probability of a deliberate US strike on the facility that handles ~90% of Iranian crude exports from a tail risk to a live scenario. A confirmed strike on Kharg would constitute the single largest supply shock since the Russian invasion of Ukraine; analysts place the initial Brent price response at $10–$20/bbl. Iran's counter-warning — that a Kharg strike triggers broader regional escalation — adds a second-order risk of Saudi and Gulf infrastructure targeting. The gap between Trump's rhetoric and confirmed US military action on Kharg has been the defining tension of the conflict since March.</div>
+        </td>
+        <td>Binary, non-linear: ±$0–3/bbl on continued rhetoric; +$10–20/bbl if Kharg is struck.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 6</td>
+        <td>
+          <div class="event-name">OPEC+ Joint Ministerial Monitoring Committee</div>
+          <div class="event-impact">The first OPEC+ ministerial session since the Larak Island escalation and the three-session oil rally. Ministers are expected to discuss whether the group's Q4 production hold is still appropriate or whether the rapidly evolving conflict conditions require a response — either accelerating the remaining 2 million bpd of 2022-era cuts back to market (technically bearish but physically difficult given Hormuz) or signalling a willingness to release barrels if diplomatic conditions improve (unlikely absent a ceasefire). The Venezuela exit story adds an agenda item on OPEC cohesion. Headline risk is moderate; surprise is low given the complexity of the supply picture.</div>
+        </td>
+        <td>±$1–2/bbl on expected hold; +$3–5/bbl if the group signals an emergency cut to floor prices.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Hormuz Tanker Transits — Weekly Decline to 107 Is a Leading Indicator</div>
+          <div class="event-impact">The fall from 121 to 107 transits in the most recent weekly count is the clearest quantitative signal that operators are scaling back Hormuz exposure in response to the Larak Island strike and its aftermath. Each percentage-point decline in transit volumes tightens the physical supply side further — not because of dramatic shutdowns but through the slow aggregation of individual commercial risk-avoidance decisions. If the next weekly count dips below 100, it would represent a structural tightening that the market has not yet fully priced. Conversely, a rebound toward 120+ would be a quiet de-escalation signal.</div>
+        </td>
+        <td>Structural — governs medium-term physical tightness; not a single-session catalyst but a multi-week trend driver.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">September 2026</td>
+        <td>
+          <div class="event-name">Venezuela OPEC Exit — Decision Timeline Uncertain, Announcement Window Open</div>
+          <div class="event-impact">Bloomberg's August 27 reporting confirmed internal Venezuelan deliberations on leaving OPEC, with the Trump administration simultaneously in talks about a US stake in Venezuelan oil resources. A formal exit announcement could come at any point in September. The practical production impact is limited (Venezuela's output has been constrained well below quota for years), but the institutional signal — OPEC losing its third-largest founding member within months of the UAE's exit — would mark the most consequential fracture in the cartel's 66-year history. Markets would interpret it as a medium-term bearish signal for OPEC's ability to defend price floors, though the immediate tactical reaction to the headline could be a 1–2 dollar move in either direction.</div>
+        </td>
+        <td>Structural — long-term bearish for OPEC cohesion; tactically ±$1–2/bbl on the announcement headline.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Wednesday, September 2, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>There is a meaningful difference between a spike and a trend, and Wednesday's tape is offering the market's answer to which category the past three sessions belong to. The Larak Island strike on August 31 was a shock — violent, immediate, driven by a single event. What has happened since is something more durable: a <strong>systematic repricing of the conflict's floor</strong>. Three sessions of consistent, moderate gains without a single new supply-disruption event large enough to justify each increment is the market's way of saying that the risk premium it assigned during the June deal era was too low, and it is now correcting that error one dollar at a time.</p>
+        <p><strong>My read on today:</strong> Brent at $95 is not expensive given the conflict's current state — it is <em>approximately fair value</em> for a world in which Hormuz tanker transits are declining week-on-week, a US drone has been shot down over the strait, and the President of the United States has explicitly threatened to seize Iran's primary crude export terminal. The Kharg Island rhetoric raises the upper tail materially: a confirmed strike on Kharg would not produce a $5 move — it would produce a $15–$20 move, because the market's spare-capacity buffer has been depleted to the point where no producer can quickly replace Iranian export volumes. That tail is not the base case, but it is now a trading scenario rather than a thought experiment.</p>
+        <p><strong>The bigger picture:</strong> The September 6 OPEC+ meeting lands in a week where the Venezuelan exit story, the Hormuz transit decline, and the Kharg Island threat are all in simultaneous motion. OPEC ministers will face a question that has no comfortable answer: the group's paper production increases are largely undeliverable to market while Hormuz is near-closed, yet signalling a cut would be interpreted as panic and a supply-floor acknowledgement that could paradoxically push prices above where members want them for demand-management reasons. The Venezuela story adds existential dimension — OPEC without Venezuela and the UAE is an organisation that has lost roughly 17% of its core production capacity and two of its founding members in less than twelve months.</p>
+        <p>My call: <strong>Brent trades $92–$99 today</strong>, with the most probable range $94–$97 absent a new Kharg Island or Hormuz escalation. The EIA inventory data at 10:30am ET is the day's scheduled pivot: a draw confirmation adds upward pressure toward $97; a surprise build could temporarily retest $92–$93. <strong>The war premium is not a premium anymore — it is the price. Everything below $90 now requires a diplomatic catalyst to access.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Very Tight</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:85%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Extreme — Rising</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:90%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Destruction</span><span style="color:#5cb85c">Moderate</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:40%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Resolution</span><span style="color:#e05252">Stalled — Deteriorating</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:6%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Cohesion</span><span style="color:#e05252">Fracturing</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:18%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">Critically Thin</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:13%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$92 – $99</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Sideways to Higher — $100+ Tail if Kharg Is Struck ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$97–$99</span></div>
+            <div>🟢 Support: <span style="color:#fff">$91–$93</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$100 (Kharg Island strike confirmed or Hormuz transit count <90/week)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$90 (EIA surprise build + credible Oman diplomatic signal)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Wednesday, September 2, 2026</span>
+  <span>Sources: EIA, API, OPEC, Al Jazeera, Bloomberg, CNBC, Reuters, Energy Connects, Trading Economics, The National, Rigzone, Wikipedia</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
