@@ -1,0 +1,179 @@
+{
+  "date_long": "Friday, September 4, 2026",
+  "date_slug": "sep4-2026",
+  "volume": "Vol. I — No. 38",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, OPEC, Al Jazeera, Bloomberg, CNBC, Reuters, New Arab, OilPrice.com, Trading Economics, Kpler, Lloyd's List Intelligence",
+
+  "ticker": [
+    "BRENT CRUDE $95.67/bbl ▲ +0.2% — WEEKLY GAIN +7.1%, BIGGEST SINCE MID-JULY",
+    "WTI CRUDE $91.56/bbl ▲ +0.3% — WEEKLY GAIN +9.8% | US STRIKES IRANIAN TANKERS FOR FIRST TIME IN CONFLICT",
+    "HORMUZ TRANSITS: 6 SHIPS WEDNESDAY (KPLER) — US CLAIMS 17M BBL/DAY; INDEPENDENT DATA SHOWS <12 SHIPS/DAY",
+    "OPEC+ JMMC SUNDAY SEPT 6 — SOURCES: Q4 OUTPUT FREEZE CONFIRMED AFTER SEPTEMBER'S 188K BPD HIKE",
+    "ISRAEL KATZ: 'WE WILL CRIPPLE ALL OF IRAN'S ENERGY INFRASTRUCTURE' — BRENT INTRADAY HIGH $97.39 THURSDAY",
+    "VENEZUELA WEIGHS OPEC EXIT — CHEVRON $7B ORINOCO DEAL SIGNED; CARTEL COHESION UNDER PRESSURE"
+  ],
+
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$95.67/bbl",
+      "change": "▲ +0.2% (Oct. front-month; weekly gain +7.1% — steepest since mid-July; consolidating after Thursday intraday spike to $97.39 on Israel's threat to 'cripple' Iranian energy infrastructure)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$690.25/mt",
+      "change": "▲ est. +0.4% (Oct. front-month; tracking Brent's weekly surge; distillate deficit 14%-below-seasonal-norm entering northern hemisphere heating season; cracks remain firm)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$91.56/bbl",
+      "change": "▲ +0.3% (Oct. futures; weekly gain +9.8% — biggest since mid-July; Brent-WTI spread ~$4.11 as Atlantic Basin procurement premium holds through weekly close)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (TTF)",
+      "value": "~€74.50/MWh",
+      "change": "▲ Elevated; Hormuz LNG disruption premium intact; EU storage ~64% full vs. seasonal norm; winter risk premium building as September progresses",
+      "direction": "up"
+    },
+    {
+      "label": "Henry Hub Natural Gas",
+      "value": "$2.93/MMBtu",
+      "change": "▲ +0.45% (front-month; near two-month high; hot weather lifting US cooling demand; below $3 ceiling reflects ample domestic production buffer)",
+      "direction": "up"
+    }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Weekly Wrap — Oil's Biggest Surge Since July: US Strikes Iranian Tankers, Hormuz Transits Collapse",
+    "headline": "Brent Holds $95.67 as Oil Posts Steepest Weekly Gain Since Mid-July: US Strikes Iranian Government Tankers for the First Time, Strait Transits Fall to Six Ships, and the OPEC+ JMMC Convenes Sunday",
+    "paragraphs": [
+      "The week ending September 4 delivered the most significant escalation in the US-Iran war since July, and the oil market priced every headline. West Texas Intermediate surged toward $92 — a weekly gain of <strong>9.8%</strong> — while Brent gained <strong>7.1%</strong> to settle at $95.67, its steepest weekly advance since mid-July. The catalyst was September 1's US military action: Washington launched its <strong>largest barrage since July</strong>, striking roughly 100 IRGC targets in and around the Strait of Hormuz, including — for the first time in the conflict — two Iranian government tankers under a new 'tanker for tanker' retaliation policy. Iran's IRGC claimed retaliatory strikes on US facilities in Bahrain, Kuwait, and Jordan; Jordanian forces confirmed intercepting 10 of 13 incoming ballistic missiles. The week's final bullish catalyst arrived Thursday, when Israeli Defense Minister Israel Katz threatened to <strong>\"cripple all of Iran's national military and civilian infrastructure — including energy infrastructure\"</strong>, briefly pushing Brent to an intraday high of $97.39 before a partial reversal into Friday's close.",
+      "Beneath the headline moves, the physical picture at the Strait of Hormuz has darkened materially. Independent maritime analytics firm Kpler recorded <strong>just six vessels</strong> transiting the strait on Wednesday — against a 10-day average of 13 and a pre-war baseline of roughly 100 per day — while Lloyd's List Intelligence put the August 26–September 1 daily average at around 12. These figures stand in sharp contrast to the US government's public accounting: Energy Secretary Chris Wright stated Monday's transit totalled 17 million barrels, and Trump described 40 ships being guided through nightly under US Navy escort. Iran's Parliament Speaker offered a simpler framing: \"the enemy managed to get some ships through, but we remain in complete control of the strait.\" Iran's Foreign Minister has separately stated the strait will not fully reopen until Washington lifts sanctions and pays war reparations.",
+      "The weekend's key scheduled catalyst is Sunday's OPEC+ Joint Ministerial Monitoring Committee. Multiple sources told Reuters the group will confirm a <strong>freeze on output for Q4 2026</strong>, following September's final 188,000 bpd increase that completed the rollback of 2023 voluntary cuts. The confirmation matters because the underlying supply context has shifted since August: Venezuela is actively weighing a formal OPEC exit; Iraq's exports rebounded 73% in August to 2.34 million bpd (still less than two-thirds of the pre-war 3.7 million bpd level); and spare capacity has narrowed critically after the UAE's departure in May. What the JMMC says Sunday about energy infrastructure threats and maritime security will be as closely parsed as the production headline itself."
+    ],
+    "link_url": "https://www.investing.com/news/commodities-news/oil-set-for-steepest-weekly-gain-since-midjuly-over-intensifying-usiran-tensions-4888751",
+    "link_text": "Read Reuters",
+    "stats": [
+      { "num": "+9.8%", "desc": "WTI's Steepest Weekly Gain Since Mid-July — Brent +7.1%; Fiercest US-Iran Clashes Since July Drive the Surge" },
+      { "num": "6 ships", "desc": "Kpler's Wednesday Hormuz Transit Count — Against a 10-Day Average of 13 and Pre-War Baseline of ~100/Day" },
+      { "num": "2 tankers", "desc": "Iranian Government Tankers Struck by US on Sep 1 — First-Ever Retaliatory Tanker Strikes in the Conflict" },
+      { "num": "Sep 6", "desc": "OPEC+ JMMC Date This Sunday — Sources Expect Q4 Output Freeze Confirmation After September's 188k bpd Hike" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Military / Hormuz",
+      "headline": "US Strikes Two Iranian Government Tankers on September 1 — First-Ever Retaliatory Tanker Strikes Mark New Phase in Strait Conflict",
+      "body": "US Central Command completed its largest barrage since July on September 1, striking roughly 100 IRGC targets including air defense sites, radar systems, and maritime assets. For the first time in the conflict, two Iranian government tankers were struck under a new \"tanker for tanker\" retaliation policy — a significant escalation from prior actions aimed solely at preventing blockade violations. Iran's IRGC claimed retaliatory strikes on US facilities in Bahrain, Kuwait, and Jordan; Jordan confirmed intercepting 10 of 13 incoming ballistic missiles. WTI climbed to $91.05 and Brent to $95.68 on the session, with both benchmarks gaining roughly $5 since hostilities renewed.",
+      "link_url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply / Hormuz",
+      "headline": "Hormuz Transits: US Claims 17 Million Barrels Daily — Kpler Records 6 Ships on Wednesday, 10-Day Average of 13",
+      "body": "A sharp discrepancy between US government statements and independent maritime data is defining how traders price the Hormuz risk premium. Energy Secretary Chris Wright cited 17 million barrels transiting on Monday; Trump described 40 ships guided through nightly. Kpler recorded only six vessel crossings on Wednesday, 11 on Tuesday, and five on Monday — a 10-day average of 13, against a pre-war baseline of ~100 per day. Analysts attribute the gap to methodology: the US may count smaller craft, naval auxiliaries, and \"dark\" transits (transponders disabled), while independent trackers count cargo vessels above 10,000 deadweight tonnes. Iran's Parliament Speaker maintained that Iranian forces remain \"in complete control\" of the strait.",
+      "link_url": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Markets",
+      "headline": "Oil Books Steepest Weekly Gain Since Mid-July — Brent +7.1%, WTI +9.8% as Renewed US-Iran Fighting Stacks Bullish Headlines",
+      "body": "Crude headed for its best week since the height of the July escalation as a succession of supply-shock developments compounded through the session. Brent rose 7.1% and WTI surged 9.8% — the benchmarks' steepest weekly advance since the week ended July 20 — as US strikes on Iranian tankers, Iran's retaliatory rocket attacks, and Israel's threat to \"cripple\" Iranian energy infrastructure stacked on top of each other. Israeli Defense Minister Katz's Thursday statement briefly pushed Brent to an intraday high of $97.39 before profit-taking pulled it back to $95.67 on Friday. Analysts noted the US-Iran conflict has now killed and wounded dozens of civilians in the latest exchange — the fiercest clashes since July.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-09-03/latest-oil-market-news-and-analysis-for-sept-4",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Supply / Iraq",
+      "headline": "Iraq's Oil Exports Jump 73% in August to 2.34M bpd — Highest Since War Began, Still Less Than Two-Thirds of Pre-War Level",
+      "body": "Iraq's crude exports rebounded sharply in August, rising roughly 73% to approximately 2.34 million barrels per day from around 1.35 million bpd in July — the highest level since the war began in late February 2026. Steep price discounts and alternative shipping arrangements through non-Hormuz routes partially restored flows disrupted by the strait crisis. Preliminary Vortexa and Kpler estimates put the figure at 2.3M and 2.17M bpd respectively, still less than two-thirds of the 3.7 million bpd Iraq exported before the war. Analysts caution that Iraq's recovery remains vulnerable to renewed Hormuz hostilities and persistent route-switch logistics constraints.",
+      "link_url": "https://www.newarab.com/news/iraqi-daily-oil-exports-august-highest-start-war",
+      "link_text": "Read New Arab"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ to Freeze Q4 Output After September's Final 188k bpd Hike — JMMC Convenes Sunday; No Further Increases Through Year-End",
+      "body": "The September 6 OPEC+ Joint Ministerial Monitoring Committee is expected to confirm a freeze on production quotas through Q4 2026. Seven core producers — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — agreed in August to a final 188,000 bpd September increase, completing the phased reversal of 2023 voluntary cuts totalling 1.65 million bpd. Sources told Reuters the group will not raise further beyond September, citing Hormuz supply uncertainty and the limited spare capacity available after the UAE's May departure. The JMMC previously flagged \"attacks on regional energy infrastructure and threats to maritime security\" as the key risks to its output management framework.",
+      "link_url": "https://www.cnbc.com/2026/08/02/opec-agrees-september-oil-hike-completing-rollback-of-voluntary-cuts.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "OPEC / Geopolitics",
+      "headline": "Venezuela Weighs Formal OPEC Exit as Chevron Signs $7B Orinoco Deal — Another Blow to Cartel Cohesion",
+      "body": "Venezuela is actively deliberating whether to leave OPEC — the organization it helped found more than six decades ago — with the idea surfacing in conversations with US officials as Caracas deepens its alignment with Washington. Venezuela's crude output stands at approximately 1.16 million bpd in July 2026 — roughly a third of its 1990s peak — and it is already exempt from OPEC's quota system due to sanctions and economic collapse. A departure would have limited immediate supply impact but would represent another symbolic blow to the cartel's coherence following the UAE's exit in May. Chevron's concurrent $7 billion Orinoco Belt expansion agreement underscores Venezuela's pivot toward US-aligned investment.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-08-27/venezuela-weighs-opec-exit-after-decades-as-it-deepens-us-ties",
+      "link_text": "Read Bloomberg"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 6 — Sunday",
+      "name": "OPEC+ Joint Ministerial Monitoring Committee",
+      "impact": "Sources overwhelmingly expect the JMMC to confirm a Q4 production freeze — no output increases after September's final 188k bpd hike. A clean as-expected confirmation would be neutral to mildly bearish on the supply narrative. Any deviation — a surprise cut, a conditional increase, or a Venezuela-related announcement — could move the forward curve by $3–5. The JMMC's language on infrastructure attacks and maritime security will be as closely read as the production headline.",
+      "market_impact": "±$2–4/bbl on any deviation from the expected freeze confirmation.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Transit Collapse — Next Kpler Count Could Confirm Sub-10 Daily Average",
+      "impact": "Wednesday's six-vessel crossing is the lowest single-day count in months. If the 10-day average falls below 10 — currently at 13 — that would signal a genuine deterioration below even the depressed norms of the past six months. Any improvement in the count (above 15–20 per day, independently verifiable) would provide meaningful downside relief; any further collapse would accelerate the move toward $100.",
+      "market_impact": "Structural — the single most important physical indicator for price direction.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Israel-Iran Direct Strike Risk — Katz's 'Cripple' Threat to Iranian Energy Infrastructure",
+      "impact": "Israeli Defense Minister Katz's explicit statement that Israel would target Iranian energy and civilian infrastructure represents a qualitatively new axis of risk not yet fully priced by the market. A confirmed Israeli strike on Kharg Island, Abadan refinery, or South Pars gas fields would be the largest single supply disruption since the conflict began and could add $15–25/bbl instantaneously. The US-Israel coordination requirement is the primary constraint on probability.",
+      "market_impact": ">$15/bbl instantaneous upside if confirmed. The unpriced tail risk of the current complex.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 10",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending September 4)",
+      "impact": "The first inventory print into the week's sharp rally. The market will look for confirmation that last week's 4.5-million-barrel draw is the start of a sustained drawdown trend, or whether the prior August builds (including the 17.4M-barrel anomaly for week ending August 7) were the truer signal. Distillate inventories — already 14% below seasonal norms — will be the most closely watched product-level figure.",
+      "market_impact": "±$2–3/bbl; builds would cap the rally, draws would extend it.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Venezuela OPEC Exit — Formal Announcement Could Come Before October Ministerial",
+      "impact": "A Venezuelan departure from OPEC would have limited immediate supply impact — Caracas is quota-exempt and its 1.16M bpd output sits outside the group's production management framework. But losing another founding member after the UAE's May exit would accelerate questions about OPEC's cohesion at the worst possible moment for the cartel's price-setting credibility. Chevron's $7B Orinoco deal signals the pivot is structural, not tactical.",
+      "market_impact": "Sentiment-level. Minor downward pressure on OPEC's credibility and long-run price-setting power.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "The week ending September 4 has done something structurally important to this market: it has transformed what was a three-theatre supply disruption into a <strong>four-theatre problem</strong>. The Hormuz conflict was already priced; the Ust-Luga fire was largely absorbed; the Saudi Sidr crew deaths added a human-cost premium. What Thursday added — Israeli Defense Minister Katz's explicit threat to target Iranian civilian and energy infrastructure — is <em>not yet priced</em>. The market spiked to $97.39 intraday and then pulled back to $95.67, which is the correct initial reaction: it acknowledged the risk without committing to a scenario. That hovering is where Brent ends the week.",
+      "<strong>My read on today:</strong> Friday is a consolidation session, not a directional one. The week's move is in the books — Brent +7.1%, WTI +9.8% — and no single headline strong enough to break the $94–$97 range is scheduled before Sunday's OPEC+ JMMC. The JMMC itself is expected to be procedurally benign: a Q4 freeze is priced, the group has limited room to surprise, and spare capacity has narrowed to the point where unilateral policy moves carry limited credibility. What traders will watch heading into the weekend is whether Katz's statement was rhetorical or operational, and whether the next Kpler Hormuz transit count prints above or below the current 10-day average of 13.",
+      "<strong>The bigger picture:</strong> Venezuela's OPEC exit deliberations are a symptom, not a cause. They tell you that the cartel architecture which worked through 2022–2024 is under structural stress from multiple directions simultaneously — the UAE gone, Iraq overproducing, Venezuela pivoting toward Washington, Saudi Arabia managing price floors in a war environment it did not design and cannot control. OPEC+ has completed unwinding its voluntary cuts at precisely the moment the underlying supply system is most disrupted since 2008. The Q4 freeze is the right call given the uncertainty, but the spare-capacity cushion to enforce any floor — below 2 mb/d after the UAE exit — is thinner than at any point in the modern era.",
+      "My call: <strong>Brent trades $93–$99 today</strong>, with the most probable range $94.50–$97.00 absent a new headline shock. The $97.39 intraday high from Thursday is the first resistance level; above that, the market needs a fresh catalyst — an Israeli strike, a Hormuz transit count collapse below five per day for multiple sessions, or another major US-Iran exchange. The unpriced tail risk is a <strong>direct Israeli strike on Iranian energy infrastructure — that is the $110+ scenario</strong>, and Katz put it explicitly on the table this week. <strong>The market acknowledged it with a brief spike. It has not priced it. Watch carefully.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Very Tight — Escalating", "tone": "bearish", "pct": 90 },
+      { "name": "Geopolitical Risk", "label": "Extreme — Four-Theatre Risk", "tone": "bearish", "pct": 92 },
+      { "name": "Demand Destruction", "label": "Moderate — Building", "tone": "bullish", "pct": 45 },
+      { "name": "Hormuz Resolution", "label": "Deteriorating — Sub-10 Risk", "tone": "bearish", "pct": 3 },
+      { "name": "OPEC+ Cohesion", "label": "Fracturing — Venezuela Exit Imminent", "tone": "bearish", "pct": 12 },
+      { "name": "Spare-Capacity Buffer", "label": "Critically Thin", "tone": "bearish", "pct": 11 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$93 – $99",
+      "bias": "Bias: Sideways Ahead of JMMC — $110 Tail if Israel Strikes Iranian Energy Infrastructure ▲"
+    },
+    "watch_levels": {
+      "resistance": "$97–$99 (Thursday's intraday spike to $97.39; prior six-week high)",
+      "support": "$93–$95 (week's consolidation floor; base of the US-Iran escalation premium)",
+      "breakout": ">$100 (Israeli strike on Kharg Island or South Pars; or Hormuz transits fall below 5/day for 3+ consecutive sessions)",
+      "breakdown": "<$91 (JMMC surprise + independently verified Hormuz transit improvement above 20/day)"
+    }
+  }
+}
