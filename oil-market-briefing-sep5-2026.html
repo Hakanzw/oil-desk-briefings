@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Saturday, September 5, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT $95.23/bbl ▼ -0.31% FRIDAY CLOSE — MARKETS CLOSED (SATURDAY); WEEKLY GAIN +6%, STEEPEST SINCE MID-JULY &nbsp;|&nbsp; OPEC+ JMMC SUNDAY SEPT 6 — Q4 FREEZE EXPECTED; LANGUAGE ON ISRAEL STRIKE RISK WILL BE CLOSELY PARSED &nbsp;|&nbsp; ISRAEL KATZ: 'CRIPPLE ALL IRAN'S ENERGY INFRASTRUCTURE' — BRENT INTRADAY HIGH $97.39 THURSDAY; TAIL RISK UNPRICED &nbsp;|&nbsp; KPLER: 6 SHIPS THROUGH HORMUZ WEDNESDAY — 10-DAY AVG NOW 13; US DIESEL HITS ALL-TIME HIGH &nbsp;|&nbsp; IRAQ AUGUST EXPORTS: 2.34M BPD (+73% M/M) — STILL LESS THAN TWO-THIRDS OF PRE-WAR 3.7M BPD &nbsp;|&nbsp; CHEVRON EXPANDS VENEZUELA ORINOCO DEAL; CARACAS IN ACTIVE OPEC EXIT TALKS WITH US OFFICIALS&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Saturday, September 5, 2026<br>
+      Vol. I — No. 39<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$95.23/bbl</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$621.50/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$95.23/bbl</div>
+      <div class="price-change up">▼ −0.31% Friday close (Oct. front-month; markets closed Saturday; weekly gain ~+6% — steepest since mid-July; intraday high $97.39 Thursday on Katz energy-strike threat; partial profit-taking at weekly close)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">$621.50/mt</div>
+      <div class="price-change down">▼ −0.12% Friday close (Sep. contract ULSU2026, expires Sep 10; markets closed Saturday; Oct. roll next week; distillate stocks 14%-below-seasonal-norm entering heating season; US diesel at all-time high)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$91.12/bbl</div>
+      <div class="price-change up">▼ slight Friday close (Oct. futures; weekly gain +9%+ — biggest since mid-July; Brent-WTI spread ~$4.11; Atlantic Basin procurement premium holding through weekly close)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (TTF)</div>
+      <div class="price-val">€72.73/MWh</div>
+      <div class="price-change up">▲ +1.28% Friday close; up ~127% year-on-year; EU storage ~55% full vs. 80% Nov target — 11 points below prior year; LNG disruption premium intact as Hormuz chokes ~20% of global LNG supply</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Henry Hub Natural Gas</div>
+      <div class="price-val">$2.87/MMBtu</div>
+      <div class="price-change up">▲ EIA Q3 2026 average forecast; Oct prompt settled $2.96 Sep 2; record August production limiting upside; LNG feedgas demand at 17.3 Bcf/day, 8.4% above prior year</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Saturday Analysis — JMMC Eve: Brent Settles $95.23 as Israel's Energy Strike Threat Reshapes the Tail-Risk Landscape</div>
+      <h3>Brent Settles at $95.23 Ahead of Sunday's OPEC+ JMMC — Israel Katz's Explicit Threat to 'Cripple' Iranian Energy Infrastructure Is the Weekend's Unpriced Tail Risk</h3>
+      <p>Saturday brings no trading session, but the market's next directional move is already set up. Brent settled Friday at <strong>$95.23</strong> — giving back 0.31% on the day but holding the bulk of a weekly surge approaching <strong>+6%</strong>, the steepest advance since mid-July. Three compounding catalysts drove that weekly gain: the September 1 US strikes on Iranian tankers under a new 'tanker for tanker' retaliation policy (the first-ever direct US strikes on Iranian government tankers in the conflict), the continued collapse of Hormuz maritime transits to just six vessels on Wednesday per Kpler data, and — the catalyst that broke Thursday's session wide open — Israeli Defense Minister Israel Katz's explicit statement that Israel would <strong>"cripple all of Iran's national military and civilian infrastructure, including energy infrastructure,"</strong> warning Tehran not to take "desperate measures" as the Jewish New Year approaches September 11. That single statement pushed Brent to an intraday high of <strong>$97.39</strong> before profit-taking pulled it back to the $95.23 settle. The tail risk Katz described — a direct Israeli strike on Kharg Island, Abadan refinery, or the South Pars gas complex — is the most consequential unpriced scenario in the market heading into this weekend.</p>
+      <p>Sunday's OPEC+ Joint Ministerial Monitoring Committee is the scheduled catalyst that will frame the week ahead. Multiple sources have told Reuters and CNBC the group will confirm a <strong>freeze on production quotas through Q4 2026</strong>, following September's final 188,000 bpd increase — the last step in the phased rollback of 2023 voluntary cuts. A clean as-expected freeze confirmation is already priced and would be directionally neutral. What traders will scrutinise is the JMMC's <em>language</em>: any explicit reference to energy infrastructure threats, maritime security deterioration, or a coordinated response mechanism to an Israeli strike on Iranian facilities would signal the cartel is preparing for the scenario Katz put on the table. Separately, Venezuela's active deliberations over a formal OPEC exit — now confirmed to involve direct conversations with US officials — adds another layer of cartel-cohesion anxiety that the JMMC communiqué may or may not address.</p>
+      <p>The physical underpinning of the market's $95+ handle remains the Hormuz transit collapse. Kpler recorded <strong>six vessel crossings</strong> on Wednesday against a 10-day average of 13 and a pre-war baseline of approximately 100 per day. Lloyd's List Intelligence puts the August 26–September 1 daily average at around 12. Iraq's August export recovery — up <strong>73% month-on-month</strong> to 2.34 million bpd — offers some relief, but still only restores flows to less than two-thirds of the pre-war 3.7 million bpd level. The EIA's most recent weekly print (week ending August 28) showed commercial crude stocks drawing by <strong>4.5 million barrels</strong> to 424.5 million barrels, with distillate inventories remaining 14% below the five-year seasonal average — exactly the kind of tight product balance that turns Katz's energy-infrastructure threat from rhetorical to structurally catastrophic for the northern hemisphere heating season now beginning.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-09-01/latest-oil-market-news-and-analysis-for-sept-2" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$97.39</div>
+        <div class="stat-desc">Brent's Thursday Intraday High — Driven by Katz's Explicit Threat to 'Cripple' Iranian Energy Infrastructure; Profit-Taking Pulled It Back to $95.23 Friday Settle</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">6 ships</div>
+        <div class="stat-desc">Kpler's Wednesday Hormuz Transit Count — 10-Day Average Now 13, Pre-War Baseline ~100/Day; the Physical Floor the $95 Handle Rests On</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Sep 6</div>
+        <div class="stat-desc">OPEC+ JMMC Sunday — Q4 Freeze Expected; JMMC Language on Infrastructure Threats and Maritime Security Will Be as Closely Parsed as the Production Headline</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">14%</div>
+        <div class="stat-desc">Distillate Inventory Deficit vs. Seasonal Five-Year Norm (EIA, Week Ending Aug 28) — Gasoil Already Tight as Northern Hemisphere Heating Season Begins</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">OPEC+ / Preview</div>
+      <h4>OPEC+ JMMC Convenes Sunday — Q4 Freeze Expected; Israel Strike Language Is the Wildcard</h4>
+      <p>The OPEC+ Joint Ministerial Monitoring Committee meets September 6 with a near-consensus expectation of confirming a production freeze through Q4 2026. Seven core producers — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman — completed the phased rollback of 2023 voluntary cuts with September's final 188,000 bpd hike. What markets are less certain about is the JMMC's language on the new tail risk: Israeli Defense Minister Katz's September 4 threat to target Iranian energy and civilian infrastructure. A JMMC communiqué that explicitly flags a potential Israeli strike as a force-majeure scenario would be a significant signal — and could add $3–5/bbl to the forward curve independently of the output decision itself.</p>
+      <a href="https://www.opec.org/pr-detail/1854611-2-august-2026.html" class="read-link" target="_blank">Read OPEC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Geopolitics / Tail Risk</div>
+      <h4>Israel Katz: 'We Will Cripple All of Iran's Energy Infrastructure' — Market Has Not Priced the Scenario, Analysts Warn</h4>
+      <p>Israeli Defense Minister Israel Katz issued his most explicit threat to Iranian energy facilities to date on September 4, warning that Israel would return Iran to 'the Stone Age and darkness' by striking civilian and military infrastructure — including energy assets — if Tehran launched a 'desperate measure' ahead of the Jewish New Year (September 11). The statement sent Brent to an intraday high of $97.39 before profit-taking into the settle at $95.23. Israel has previously struck South Pars on March 18; a repeat attack on Kharg Island — which handles roughly 90% of Iran's crude exports — or the Abadan refinery complex would be the largest single supply disruption since the conflict began and could add $15–25/bbl instantaneously. US and Israeli forces have been reported in preparatory stages for strikes on Iran energy-related targets, with the September 11 window the specific near-term risk horizon.</p>
+      <a href="https://www.cbsnews.com/news/us-israel-iran-war-energy-related-targets-trump/" class="read-link" target="_blank">Read CBS News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Supply / Hormuz</div>
+      <h4>Hormuz Transits: Kpler Records 6 Ships Wednesday — 10-Day Average Falls to 13 Against Pre-War Baseline of ~100</h4>
+      <p>Independent maritime analytics data continues to show a Strait of Hormuz operating at a fraction of its pre-war throughput. Kpler's Wednesday count of six cargo vessels — against a prior 10-day average of approximately 13 and the pre-war baseline of roughly 100 per day — is defining the physical supply constraint that underpins the $95+ Brent handle. A further fall in the 10-day average below 10 would signal a deterioration beyond even the depressed norms of the past six months. Iran's Foreign Minister continues to condition full Hormuz reopening on Washington lifting sanctions and paying war reparations — a timeline that does not align with any current ceasefire framework.</p>
+      <a href="https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Supply / Iraq</div>
+      <h4>Iraq August Oil Exports Jump 73% to 2.34M bpd — Highest Since War Began, Still Below Two-Thirds of Pre-War Level</h4>
+      <p>Iraq's crude exports rebounded sharply in August, rising approximately 73% to around 2.34 million barrels per day from roughly 1.35 million bpd in July — the highest level since hostilities began on February 28. Steep price discounts and alternative non-Hormuz shipping arrangements partially restored flows disrupted by the strait crisis. Preliminary Vortexa and Kpler estimates placed the figure at 2.30M and 2.17M bpd respectively; Iraq's oil minister put the daily rate at around 2 million bpd when speaking publicly earlier this month. At 2.34 million bpd, Iraq is still exporting less than two-thirds of its pre-war 3.7 million bpd — and the recovery remains vulnerable to renewed Hormuz hostilities and persistent logistics constraints on alternative routes.</p>
+      <a href="https://www.investing.com/news/commodities-news/iraq-oil-exports-rise-in-august-amid-discounts-and-iran-approval-93CH-4886265" class="read-link" target="_blank">Read Investing.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">OPEC / Geopolitics</div>
+      <h4>Chevron Expands Venezuela Orinoco Deal — Caracas in Active OPEC Exit Talks With US Officials</h4>
+      <p>Chevron's expansion into Venezuela's Orinoco Belt — announced days after the Trump administration struck a deal to develop 17 Venezuelan oil fields in a joint venture with North American Blue Energy Partners — deepens a US-Venezuela alignment that market participants are tracking as a structural threat to OPEC cohesion. Venezuela is simultaneously in active discussions with US officials about a formal OPEC exit, an idea gaining momentum as Caracas deepens alignment with Washington. Venezuela is already quota-exempt given its ~1.16 million bpd output — a third of its 1990s peak — so the immediate supply impact of an exit would be limited. But losing another founding member after the UAE's departure in May would further erode the cartel's credibility at the worst possible moment.</p>
+      <a href="https://www.npr.org/2026/09/02/nx-s1-5952190/chevron-venezuela-oil-deal" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Inventories / Demand</div>
+      <h4>US Diesel Hits All-Time High as EIA Data Confirms Distillates 14% Below Seasonal Norm — Heating Season Supply Warning</h4>
+      <p>US retail diesel prices surpassed their 2022 record highs this week, reflecting a distillate market under acute pressure from Middle Eastern crude supply disruption and redirected global supply chains. The EIA's weekly petroleum status report (week ending August 28) showed commercial crude inventories drawing by 4.5 million barrels to 424.5 million barrels — roughly 1% above the five-year crude average — but the product mix is far more alarming: distillate fuel inventories remain <strong>14% below the five-year seasonal average</strong>, gasoline stocks fell 1.2 million barrels to sit 6% below seasonal norms, and refinery utilisation was 98% of capacity — leaving minimal surge capacity to replenish products as the northern hemisphere heating season begins.</p>
+      <a href="https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Hit-All-Time-High-as-Global-Fuel-Squeeze-Deepens.html" class="read-link" target="_blank">Read OilPrice.com →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Sep 6 — Sunday</td>
+        <td>
+          <div class="event-name">OPEC+ JMMC — Q4 Production Freeze Confirmation + Israel Strike Risk Language</div>
+          <div class="event-impact">A clean Q4 freeze confirmation — already largely priced — is neutral to mildly bearish. The real market signal is whether the JMMC communiqué explicitly addresses the Israeli energy-infrastructure threat as a force-majeure variable, or signals any coordinated OPEC+ response mechanism. A communiqué that includes strong language on infrastructure attacks and maritime security could add $3–5/bbl to the forward curve independently of the output headline. A Venezuela OPEC exit announcement before or during the meeting would be the additional wildcard.</div>
+        </td>
+        <td>±$2–5/bbl on any deviation from the freeze; +$3–5 if JMMC flags Israel strike scenario formally.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 11 — Jewish New Year Window</td>
+        <td>
+          <div class="event-name">Israeli Strike on Iranian Energy Infrastructure — Katz's 'Stone Age' Threat Is the Weekend's Unpriced Tail</div>
+          <div class="event-impact">Israel Katz's explicit September 4 statement — threatening to return Iran to 'the Stone Age and darkness' by striking civilian and energy infrastructure — combined with his warning that Iran may attempt a 'desperate measure' around the September 11 Jewish New Year, has created a specific near-term escalation window. A confirmed Israeli strike on Kharg Island, Abadan, or South Pars would be the largest single supply disruption since the conflict began. At $95.67, the market is pricing some geopolitical premium but nothing close to this scenario. The constraint is US-Israel coordination: Washington has previously restrained Israeli energy strikes, but after Katz's public statement this calculus is under active review.</div>
+        </td>
+        <td>>$15/bbl instantaneous upside on confirmed strike on Kharg Island or South Pars. The unpriced tail risk of the current complex.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Hormuz Transit Count — Next Kpler Print Will Confirm Whether Sub-10 Average Is Emerging</div>
+          <div class="event-impact">Wednesday's six-vessel count is the lowest single-day transit total in months. If the 10-day average falls from 13 to below 10, that would signal a genuine deterioration below even the depressed norms of the past six months and provide the catalyst for a move toward $100. Any independent verification of transits above 15–20 per day would provide meaningful downside relief. Iran's Foreign Minister's stated conditions for full reopening (sanctions relief plus war reparations) remain unmet — suggesting no near-term transit improvement.</div>
+        </td>
+        <td>Structural — the single most important physical indicator for the direction of the Brent front month.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 10</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report (Week Ending Sep 4) + ULS1 Sep Contract Expiry</div>
+          <div class="event-impact">The first inventory print after the week's sharp Brent rally. The market will look for whether the 4.5-million-barrel crude draw marks the start of a sustained drawdown, or whether the August builds (including the 17.4M-barrel anomaly for week ending August 7) were the truer signal. Distillate inventories — already 14% below seasonal norms — will be the product-level figure most closely watched as the heating season begins. Also on September 10: the Low Sulphur Gasoil September (ULSU2026) contract expires and open interest rolls to the October front month.</div>
+        </td>
+        <td>±$2–3/bbl on crude; distillate miss could add $4–6/bbl to ULS1 Oct crack premium.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 11</td>
+        <td>
+          <div class="event-name">Venezuela OPEC Exit — Formal Announcement Could Come Before October Ministerial</div>
+          <div class="event-impact">Chevron's Orinoco Belt expansion and active US-Venezuela diplomatic alignment suggest a formal OPEC exit announcement is moving from 'possible' to 'probable' before the October ministerial. Venezuela's ~1.16M bpd output is quota-exempt, so the direct supply impact is negligible. But a second founding-member departure — after the UAE's May exit — at the same moment OPEC+ faces its most significant geopolitical stress-test since 2008 would materially damage the cartel's price-setting credibility and could trigger follow-on exits from other loosely aligned producers.</div>
+        </td>
+        <td>Sentiment-level. Minor bearish pressure on OPEC's long-run credibility; no immediate supply response.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Saturday, September 5, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Saturday's analysis has one dominant organising question: <strong>has Israel put $100 oil on the table?</strong> The answer is yes — Katz put it there explicitly on Thursday, and the market gave a one-session, $1.72/bbl acknowledgment before pulling back. That pullback is not a verdict that the risk is low. It is a verdict that traders are not willing to hold a position into a weekend on a risk that may or may not materialise around September 11. The OPEC+ JMMC tomorrow will tell us how the cartel's own risk managers are viewing Katz's statement — and that language will matter enormously for how the week of September 7 opens.</p>
+        <p><strong>My read on today:</strong> The market is in a holding pattern, and correctly so. No new data will arrive today. The Hormuz transit count from Thursday or Friday has not yet been published. The JMMC communiqué will not be issued until Sunday. Israel has not struck — or not struck yet. In that environment, the $95.67 close is a sensible equilibrium: it reflects the Hormuz premium, the weekly demand destruction, and a partial but not full pricing of the Israeli tail risk. Brent would need to close below $93 to signal that traders are fading Katz's statement outright, and that is not the signal Friday sent.</p>
+        <p><strong>The structural picture:</strong> Distillates are the metric that makes the current set of risks uniquely dangerous for the northern hemisphere. Gasoil stocks are 14% below the five-year seasonal norm <em>before</em> the heating season has meaningfully begun. The Low Sulphur Gasoil September contract expires September 10, and the October roll will price what the market thinks winter stock replenishment looks like through a Hormuz corridor operating at 13% of its pre-war capacity. If Katz's threat converts from rhetoric to action before that roll, the gasoil crack premium would be the most violent mover of any liquid instrument in the complex.</p>
+        <p>My call: <strong>Brent opens the week of September 7 in the $93–$98 range</strong>, with the bias sideways-to-up pending Sunday's JMMC. The most probable Monday open absent a new headline is <strong>$94.00–$96.00</strong>, reflecting the Friday settle at $95.23 and the consolidation dynamic. A clean JMMC freeze confirmation with no new language = mildly bearish, Brent tests $93–$94. JMMC language explicitly flagging Israeli energy strikes as a force-majeure scenario = mildly bullish, Brent revisits $97. A confirmed Israeli strike on Kharg Island or South Pars over the weekend = <strong>$110+ instantaneous open</strong>. <strong>That is the unpriced risk. Watch it carefully.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Very Tight — Worsening</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:91%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Extreme — Israeli Strike Window Open</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:94%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Destruction</span><span style="color:#5cb85c">Moderate — Building</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:44%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Resolution</span><span style="color:#e05252">No Progress — Conditions Unmet</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:2%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Cohesion</span><span style="color:#e05252">Fracturing — Venezuela Exit Imminent</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:11%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Distillate Supply Buffer</span><span style="color:#e05252">Critically Thin — 14% Below Norm</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:9%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Week-Open Price Call — Brent Crude (Monday, Sep 7)</div>
+          <div class="call-text">$93 – $98</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Sideways-to-Up — $110+ Instantaneous Tail if Israel Strikes Iranian Energy Infrastructure ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$97–$99 (Thursday intraday high $97.39; prior six-week ceiling; Friday settle $95.23)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$93–$95 (weekly consolidation floor; base of US-Iran escalation premium)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$100 (Israeli strike on Kharg Island or South Pars; Hormuz transits below 5/day for 3+ sessions; JMMC surprise cut)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$91 (clean JMMC + Hormuz transit independently verified above 20/day; Israeli threat publicly walked back)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Saturday, September 5, 2026</span>
+  <span>Sources: EIA, OPEC, Al Jazeera, Bloomberg, CNBC, Reuters, CBS News, NPR, Investing.com, Kpler, OilPrice.com, TradingEconomics, ICE</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
