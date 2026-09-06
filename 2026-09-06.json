@@ -1,0 +1,179 @@
+{
+  "date_long": "Sunday, September 6, 2026",
+  "date_slug": "sep6-2026",
+  "volume": "Vol. I — No. 40",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, OPEC, Al Jazeera, Bloomberg, CNBC, Reuters, CBS News, NPR, Daily Sabah, FDD, Natural Gas Intel, TradingEconomics, Kpler, ICE",
+
+  "ticker": [
+    "BRENT $95.23/bbl ▼ -0.31% FRIDAY CLOSE — MARKETS CLOSED (SUNDAY); WEEKLY GAIN +6%, STEEPEST SINCE MID-JULY",
+    "US + ISRAEL REPORTEDLY PREPARING STRIKES ON IRAN ENERGY INFRASTRUCTURE — TIMING DISCUSSIONS BEFORE MARKETS OPEN MONDAY (CBS NEWS, DAILY SABAH)",
+    "OPEC+ JMMC MEETING TODAY (SEP 6) — Q4 FREEZE EXPECTED; COMMUNIQUÉ PENDING; VENEZUELA EXIT TALKS ACTIVE",
+    "US DIESEL ALL-TIME HIGH $5.85/GAL (SEP 4) — GASOLINE $4.14/GAL; DISTILLATES 14%-BELOW-SEASONAL-NORM",
+    "RUSSIA-UKRAINE 3-DAY CEASEFIRE SEP 5-8 — WITKOFF & KUSHNER IN MOSCOW; HEADING TO KYIV SUNDAY",
+    "FREEPORT LNG RETURNS TO FULL OPS — HENRY HUB TICKS TO $2.98; US LNG FEEDGAS DEMAND +6.4% M/M"
+  ],
+
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$95.23/bbl",
+      "change": "▼ −0.31% Friday close (Oct. front-month; markets closed Sunday; weekly gain ~+6% — steepest since mid-July; intraday high $97.39 Thursday on Katz energy-strike threat; US-Israel strike reports inject extreme overnight tail risk)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$621.50/mt",
+      "change": "▼ −0.12% Friday close (Sep. contract ULSU2026, expires Sep 10; markets closed Sunday; Oct. roll next week; distillates 14%-below-seasonal-norm; US diesel record $5.85/gal Sep 4; any strike on Kharg or Abadan would detonate gasoil crack premium)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$91.12/bbl",
+      "change": "▼ slight Friday close (Oct. futures; weekly gain +9%+ — biggest since mid-July; Brent-WTI spread ~$4.11; Atlantic Basin procurement premium holding; US domestic supply most exposed if Hormuz flows deteriorate further)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (TTF)",
+      "value": "€72.73/MWh",
+      "change": "▲ +1.28% Friday close; up ~127% year-on-year; EU storage ~55% full vs. 80% Nov target — 11 pts below prior year; Hormuz choking ~20% of global LNG supply; Freeport restart eases US market at the margin but does not resolve global tightness",
+      "direction": "up"
+    },
+    {
+      "label": "Henry Hub Natural Gas",
+      "value": "$2.98/MMBtu",
+      "change": "▲ up from ~$2.87 Aug avg; Freeport LNG returned to full ops after July 10–late Aug maintenance; LNG feedgas demand rose to 18.3 Bcf/d from 17.2 Bcf/d in Aug (+6.4% m/m); record US production capping further upside",
+      "direction": "up"
+    }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Sunday Analysis — Strike This Weekend? US-Israel Prepare Campaign on Iran Energy Infrastructure; OPEC+ JMMC Convenes",
+    "headline": "US and Israel Reportedly Preparing Strikes on Iranian Energy Infrastructure — Discussions Included Timing Before Monday's Market Open; OPEC+ JMMC Meets Against the Backdrop of the Sharpest Single Escalation of the War",
+    "paragraphs": [
+      "The oil market enters Monday's open carrying the highest acute tail risk of the entire US-Iran conflict. CBS News and Daily Sabah reported Friday evening, citing people familiar with the matter, that the United States and Israel are preparing what sources described as <strong>\"one of the harshest yet\" campaigns against Iranian energy infrastructure</strong> — a campaign that could include power plants, refineries, and petroleum export terminals. Critically, discussions reportedly included explicit deliberations about <em>timing the operations to conclude before financial markets open Monday</em>, reflecting White House awareness of the market impact. President Trump had not given final authorization as of Friday's reporting, but the disclosure itself — that both governments are in active strike-planning mode with market timing as an explicit coordination variable — is unprecedented in the seven-month history of this conflict. Israeli Defense Minister Israel Katz set the rhetorical framework on September 4 when he explicitly threatened to return Iran to <strong>\"the Stone Age and darkness\"</strong> by striking civilian and military infrastructure including energy assets, warning Tehran not to take \"desperate measures\" as the Jewish New Year approaches September 11.",
+      "What a strike on Iran's energy infrastructure would mean for markets cannot be overstated. Kharg Island — which handles roughly <strong>90% of Iran's crude exports</strong> — the Abadan refinery complex, or the South Pars gas installations represent targets that, if struck, would constitute the single largest supply disruption since the conflict began on February 28. Analysts surveyed by Bloomberg following Katz's September 4 statement estimated an instantaneous Brent spike of <strong>$15–25/bbl</strong> on a confirmed Kharg Island strike, with gasoil crack spreads potentially widening by $30–50/mt — from a market that already enters this weekend with distillate inventories <strong>14% below the five-year seasonal average</strong> and the northern hemisphere heating season now underway. US retail diesel surpassed $5.85 per gallon on September 4, setting an all-time record. At Friday's $95.23 settle, the market is priced for the continuation of Hormuz disruption — not for the physical obliteration of the infrastructure behind Iran's remaining crude and product export capacity. The gap between those two scenarios is the defining trade of this weekend.",
+      "OPEC+ provided the day's other major structural catalyst: the Joint Ministerial Monitoring Committee convened September 6 to review market conditions, with multiple delegate sources telling Reuters and CNBC the group was set to confirm a <strong>production freeze through Q4 2026</strong> following September's final 188,000 bpd increase — the last step in the full phased rollback of the 2023 voluntary cuts. A clean Q4 freeze communiqué is already priced and would be directionally neutral. Two complications loom: Venezuela is in advanced discussions with US officials about a <strong>formal OPEC exit</strong> following the announcement of a historic US-Venezuela 100-year oil field lease deal, and any JMMC communiqué language that explicitly flags Israeli energy-infrastructure threats as a force-majeure scenario would itself add $3–5/bbl to the forward curve independently of the output headline. A parallel diplomatic track emerged this weekend: Russia and Ukraine declared a mutual three-day ceasefire beginning September 5, with US special envoys Steve Witkoff and Jared Kushner in Moscow presenting a Trump peace framework and planning Sunday travel to Kyiv. A Ukraine settlement that eventually lifts Russian oil sanctions is the largest medium-term downside catalyst for crude — but at current negotiations pace, that scenario is weeks to months away at best."
+    ],
+    "link_url": "https://www.cbsnews.com/news/us-israel-iran-war-energy-related-targets-trump/",
+    "link_text": "Read CBS News",
+    "stats": [
+      { "num": "$15–25/bbl", "desc": "Estimated Instantaneous Brent Spike on Confirmed Kharg Island Strike — Bloomberg Analyst Survey After Katz's September 4 Threat; Not Priced at $95.23 Friday Close" },
+      { "num": "90%", "desc": "Share of Iran's Crude Exports Handled by Kharg Island — Prime Target in Any US-Israel Energy Campaign; a Strike Would Be the Largest Single Supply Disruption Since February 28" },
+      { "num": "$5.85/gal", "desc": "US Retail Diesel All-Time High (September 4) — Exceeds the June 2022 Post-Ukraine Record; GasBuddy Cites Iran War Disruption, Tight Inventories, Reduced Refining Capacity as Primary Drivers" },
+      { "num": "14%", "desc": "Distillate Inventory Deficit vs. Five-Year Seasonal Norm (EIA, Week Ending Aug 28) — Critical Threshold Entering Northern Hemisphere Heating Season; Any Abadan Strike Cascades into Gasoil Crack Explosion" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics / Breaking",
+      "headline": "US and Israel Preparing Strikes on Iranian Energy Infrastructure — Timing Discussed for Before Monday Market Open",
+      "body": "CBS News and Daily Sabah reported Friday, citing people familiar with the matter, that the United States and Israel are preparing a major campaign against Iranian energy infrastructure — potentially targeting power plants, refineries, and petroleum export terminals. Sources indicated discussions about timing the operations to conclude before financial markets open Monday, reflecting acute White House awareness of the market shock a confirmed strike would produce. President Trump had not yet given final authorization. The reports arrived after Israeli Defense Minister Katz's September 4 explicit threat to return Iran to 'the Stone Age and darkness' by striking civilian and energy infrastructure had already pushed Brent to an intraday high of $97.39 and established the Jewish New Year (September 11) as the stated near-term escalation window.",
+      "link_url": "https://www.cbsnews.com/news/us-israel-iran-war-energy-related-targets-trump/",
+      "link_text": "Read CBS News"
+    },
+    {
+      "tag": "OPEC+ / JMMC",
+      "headline": "OPEC+ JMMC Convenes Today — Q4 Freeze Expected; Venezuela Exit and Israel Threat Language Are the Wildcards",
+      "body": "The OPEC+ Joint Ministerial Monitoring Committee met September 6 to review market conditions, with multiple delegate sources confirming a Q4 2026 production freeze — no further increases following September's final 188,000 bpd hike, which completed the full rollback of 2023 voluntary cuts. What markets are watching beyond the output headline: whether the communiqué explicitly addresses Israeli energy-infrastructure threats as a force-majeure variable (estimated +$3–5/bbl if so), and whether Venezuela's active OPEC exit deliberations — now involving direct US official conversations following the announcement of a historic 100-year oil field lease deal — produce a formal exit announcement before October's ministerial.",
+      "link_url": "https://www.opec.org/pr-detail/1854611-2-august-2026.html",
+      "link_text": "Read OPEC"
+    },
+    {
+      "tag": "Supply / Demand",
+      "headline": "US Diesel Hits All-Time Record $5.85/Gallon — Exceeds June 2022 Peak as Iran War Squeezes Global Distillates",
+      "body": "US retail diesel prices hit a national average of <strong>$5.85 per gallon</strong> on September 4 — surpassing the June 2022 post-Ukraine-invasion record and setting a new all-time high. GasBuddy attributed the surge to the combination of Iran-war supply disruption, reduced global refining capacity, tight distillate inventories (14% below the five-year seasonal average per EIA), and elevated crude prices. Gasoline also hit a Labor Day record of $4.14 per gallon. EIA economists estimate the current diesel level is the equivalent of a <strong>$50 billion annualised household tax</strong>, with transportation and logistics sectors absorbing rising operating costs that are beginning to feed through to consumer prices across the supply chain.",
+      "link_url": "https://www.aljazeera.com/economy/2026/9/4/diesel-price-hits-all-time-high-in-us-amid-iran-war-woes",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Diplomacy / Russia",
+      "headline": "Russia-Ukraine Three-Day Ceasefire Declared — US Envoys Witkoff and Kushner in Moscow, Heading to Kyiv Sunday",
+      "body": "Russia and Ukraine declared a mutual three-day ceasefire beginning midnight September 5 through September 8, as US special envoy Steve Witkoff and Jared Kushner arrived in Moscow to present a Trump peace framework. Putin characterized talks as 'substantive' but reiterated demands that Ukraine formally withdraw from Donetsk and Luhansk — conditions Kyiv rejects as constitutionally impossible. Envoys planned Sunday travel to Kyiv. Oil markets are monitoring this track for medium-term implications: a peace settlement that lifted Western sanctions on Russian oil exports could eventually add <strong>1–1.5 million bpd</strong> to global supply — a significant downside catalyst for crude if combined with any Hormuz reopening, though that scenario remains weeks to months away at current negotiations pace.",
+      "link_url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "OPEC / Venezuela",
+      "headline": "US Secures 100-Year Lease on 17 Venezuelan Oil Fields — Caracas in Active OPEC Exit Talks With Washington",
+      "body": "The White House and Caracas released details of a historic US-Venezuela oil deal giving the United States a 100-year operating lease across 17 Venezuelan oil fields containing an estimated <strong>65 billion barrels of reserves</strong>, with the Department of Defense Office of Strategic Capital holding a 35% stake. Venezuela is simultaneously in active discussions with US officials about a formal OPEC departure. Trump, when asked, said 'It's up to them.' Venezuela is already quota-exempt at ~1.16 million bpd output — roughly a third of its 1990s peak — so the immediate supply impact of an exit would be limited. But a second founding-member departure after the UAE's May exit would materially damage OPEC+ credibility at the worst possible moment for the cartel's market-setting authority.",
+      "link_url": "https://www.fdd.org/analysis/2026/09/02/white-house-caracas-release-details-on-historic-us-venezuela-oil-deal/",
+      "link_text": "Read FDD"
+    },
+    {
+      "tag": "Natural Gas / LNG",
+      "headline": "Freeport LNG Returns to Full Operations — Henry Hub Ticks to $2.98; US Feedgas Demand Up 6.4% Month-on-Month",
+      "body": "Freeport LNG in Texas returned to full operations following maintenance that ran from July 10 through late August, restoring approximately <strong>0.8 Bcf/d</strong> of feedgas demand to the Gulf Coast. Average flows to nine major US LNG export facilities rose to 18.3 Bcf/d in early September from 17.2 Bcf/d in August — a 6.4% month-on-month increase. Henry Hub prompt prices ticked up from the approximately $2.87/MMBtu August average to near <strong>$2.98/MMBtu</strong> in early September. Record US natural gas production at an estimated 109 Bcf/d continues to limit upside, but any further escalation of the Iran conflict constraining Hormuz-transiting LNG would quickly remove the current production-buffer ceiling on US gas prices.",
+      "link_url": "https://naturalgasintel.com/news/freeport-lng-completes-major-maintenance/",
+      "link_text": "Read Natural Gas Intel"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 6–7 — This Weekend",
+      "name": "US-Israel Strike on Iranian Energy Infrastructure — Active Planning Reported; Monday Open Is the Risk Horizon",
+      "impact": "CBS News and Daily Sabah reported Friday that the US and Israel are in active planning for strikes on Iranian energy infrastructure — including power plants, refineries, and export terminals — with discussions about timing before financial markets open Monday. Final authorization from Trump had not been given as of reporting. A confirmed strike on Kharg Island (90% of Iran's crude exports) or Abadan refinery would be the single largest supply disruption since the conflict began and would produce an instantaneous Brent spike of $15–25/bbl with gasoil crack spreads widening $30–50/mt — from a market already 14% below seasonal distillate norms. This is the defining risk event for Monday's open.",
+      "market_impact": "+$15–25/bbl on Brent instantaneous if Kharg struck; gasoil crack explosion from critical-deficit baseline. Largest unpriced tail risk in the complex.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 6 — Today",
+      "name": "OPEC+ JMMC — Q4 Freeze Confirmation + Language on Israeli Energy Infrastructure Threat",
+      "impact": "The JMMC convened today with a near-consensus Q4 production freeze expected — already priced and directionally neutral. The market signal is the communiqué language: any explicit mention of Israeli energy-infrastructure threats as a force-majeure scenario, or indication of a coordinated OPEC+ response mechanism, could add $3–5/bbl to the forward curve independently of the output decision. Venezuela's active OPEC exit talks add cartel-cohesion anxiety that the communiqué may or may not address.",
+      "market_impact": "±$2–5/bbl on any deviation from the freeze; +$3–5 if JMMC explicitly flags Israeli strike scenario as force majeure.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 10",
+      "name": "EIA Weekly Petroleum Report (Week Ending Sep 4) + ULS1! September Contract Expiry",
+      "impact": "The first EIA inventory print after the week's sharp Brent rally. The market will watch whether the 4.5M-barrel crude draw (week ending Aug 28) continues or reverses. Distillate inventories at 14% below seasonal norms remain the critical product-level figure heading into heating season. Simultaneously, the Low Sulphur Gasoil September contract (ULSU2026) expires September 10, with open interest rolling to the October front month — a structural roll that will price market expectations for winter distillate replenishment through a Hormuz corridor running at approximately 13% of pre-war throughput.",
+      "market_impact": "±$2–3/bbl on crude; ULS1! Oct roll will establish the gasoil crack premium for Q4 2026.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Sep 11 — Jewish New Year",
+      "name": "Israeli Energy Strike Window — Katz's Explicitly Stated Near-Term Threshold",
+      "impact": "Israeli Defense Minister Katz explicitly identified the Jewish New Year (September 11) as the reference date for potential Iranian 'desperate measures' — and implicitly as the window for Israeli preemptive action. Combined with the Friday CBS/Daily Sabah strike-planning reports, September 11 is now the most concretely flagged escalation date of the entire conflict. Markets closed Friday at $95.23 with this risk partially but not fully priced — the gap between current pricing and the $110+ scenario remains wide and unresolved.",
+      "market_impact": ">$15/bbl instantaneous on confirmed Kharg Island or South Pars strike. The defining unpriced risk of the current complex.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Russia-Ukraine Ceasefire Track — Medium-Term Downside Risk if Sanctions Lifted",
+      "impact": "The three-day Russia-Ukraine ceasefire (Sep 5–8) and active US envoy presence in Moscow and Kyiv represent the first concrete peace-process movement since 2022. A sustainable ceasefire that eventually lifts Western sanctions on Russian oil exports could add 1–1.5 million bpd to global supply over a 6–12 month horizon — the largest potential medium-term downside catalyst for crude outside of a Hormuz reopening. Putin's territorial demands remain irreconcilable with Kyiv's position, keeping near-term probability low, but this track is now active in a way it has not been for years.",
+      "market_impact": "Medium-term: −$8–15/bbl on Brent over 6–12 months if full settlement + sanctions relief materialise. Negligible near-term impact given negotiations pace.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Sunday's dominant question is the same one that has driven every session since September 4: <strong>will US and Israeli forces strike Iranian energy infrastructure before oil markets open Monday morning?</strong> Friday's CBS News and Daily Sabah reports — which explicitly cited discussions about timing strikes to conclude before markets open — transformed that question from speculative tail risk to active planning scenario. The market closed Friday at $95.23 without pricing that scenario anywhere near full. The gap between $95 and $110+ is not priced. It is the trade the weekend has handed the market, and it will resolve at Sunday midnight, one way or the other.",
+      "<strong>My read on today:</strong> Three scenarios frame Monday's open. Scenario one — no strike: markets open near Friday's $95.23 close, drift lower on JMMC Q4 freeze confirmation, test $93–$94 on partial tail-risk relief. Scenario two — strikes reported but limited scope (power infrastructure, not core export terminals): Brent opens $98–$103, gasoil cracks widen sharply, market re-prices the conflict's scope upgrade. Scenario three — confirmed strike on Kharg Island or Abadan refinery: <strong>Brent opens $110–$120</strong>, gasoil crack premium detonates from its already critical 14%-below-norm baseline, and ULS1! October prints prices not seen since the April war spike. The JMMC Q4 freeze outcome is directionally neutral and already priced. The JMMC communiqué language is the only OPEC-related variable with real information content today, and even that is secondary to the overnight strike question.",
+      "<strong>The structural picture:</strong> Whatever happens overnight, the physical market that greets any Monday outcome is the tightest it has been since early May. Distillates sit 14% below the five-year seasonal average with the northern hemisphere heating season underway. Hormuz transits average 13 per day against a pre-war baseline of ~100 per day. US diesel is at an all-time high of $5.85 per gallon. Freeport LNG returning to full operations eases the US domestic gas market at the margin — it does not address the global LNG disruption premium from Hormuz. The Brent-WTI spread of ~$4.11 reflects an Atlantic Basin that cannot replenish from Gulf sources at pre-war rates. And the Russia-Ukraine ceasefire track — though now active — is months away from translating into barrels even in the most optimistic scenario.",
+      "My call: <strong>Brent Monday open $93–$98 absent a strike confirmed overnight; $110–$120 if strikes on energy infrastructure are confirmed</strong>. The Friday close at $95.23 is the equilibrium in the no-strike scenario — a clean JMMC freeze confirmation pushes it mildly lower to $93–$94. Any confirmed US-Israel action against Iranian energy assets breaks $100 in the opening minutes. <strong>The most consequential oil market event since February 28 may occur while most traders sleep. Watch the wires closely.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Strike Probability (48h)", "label": "Active Planning — Extreme Tail Risk", "tone": "bearish", "pct": 79 },
+      { "name": "Geopolitical Risk", "label": "Extreme — Strike Window Open", "tone": "bearish", "pct": 96 },
+      { "name": "Supply Tightness", "label": "Critical — 14% Distillate Deficit", "tone": "bearish", "pct": 92 },
+      { "name": "Hormuz Resolution", "label": "No Progress — Conditions Unmet", "tone": "bearish", "pct": 2 },
+      { "name": "OPEC+ Cohesion", "label": "Fracturing — Venezuela Exit Imminent", "tone": "bearish", "pct": 10 },
+      { "name": "Demand Destruction", "label": "Building — Diesel Record Headwind", "tone": "bullish", "pct": 41 }
+    ],
+    "call": {
+      "label": "Monday Open Price Call — Brent Crude (Monday, Sep 7)",
+      "value": "$93 – $98 / $110 – $120",
+      "bias": "Bias: Binary — No Strike = $93–$98 Sideways; Confirmed Strike on Iranian Energy Infrastructure = $110–$120 Instantaneous ▲"
+    },
+    "watch_levels": {
+      "resistance": "$97–$100 (Thursday intraday high $97.39; psychological $100 ceiling; weekly consolidation top)",
+      "support": "$93–$95 (JMMC-freeze base case; Friday settle $95.23; geopolitical floor)",
+      "breakout": ">$100 (confirmed US-Israel strike on Iranian energy infrastructure; Hormuz transits fall below 5/day for 3+ sessions)",
+      "breakdown": "<$91 (strike reports publicly walked back by White House; JMMC surprise ceasefire language; Hormuz transits independently verified above 20/day)"
+    }
+  }
+}
