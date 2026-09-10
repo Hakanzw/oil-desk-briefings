@@ -77,11 +77,15 @@ jobs:
 
             Do NOT run git and do NOT send email — later workflow steps handle
             committing and emailing. Stop after step 5.
+
+            Do the research YOURSELF using WebFetch and WebSearch. Do NOT
+            spawn a Task/Agent subagent for the research — subagents have
+            hung on this workflow before and blocked file writes.
         run: |
           claude -p "$PROMPT" \
             --permission-mode bypassPermissions \
             --model claude-sonnet-4-6 \
-            --max-turns 60
+            --max-turns 100
 
       - name: Verify Claude produced the briefing
         run: |
