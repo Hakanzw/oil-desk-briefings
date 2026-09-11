@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Friday, September 11, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT $107.72/bbl ▲ +0.28% — ICE EUROPE; TWO-MONTH HIGH; US PERMANENTLY DISABLES THREE MORE IRANIAN TANKERS; IRAN FIRES BALLISTIC MISSILES AT CARRIER STRIKE GROUP OVERNIGHT &nbsp;|&nbsp; WTI $102.50/bbl ▼ -0.02% — FLAT; BRENT-WTI SPREAD $5.22; ABOVE $100 FOR SECOND CONSECUTIVE WEEK; NATIONAL DIESEL RECORD $5.90/GAL; US SPR BELOW 290MB — LOWEST SINCE 1982 &nbsp;|&nbsp; ULS1! (OCT FRONT-MONTH) $1,422.75/MT ▼ -0.38% — ICE EUROPE; OCT CONTRACT NOW FRONT-MONTH AFTER SEP EXPIRY SEP 10; DISTILLATES PLUNGE BELOW 100MB — FIVE-YEAR SEASONAL LOW &nbsp;|&nbsp; CHINA OIL DEMAND TO FALL 8.9% IN 2026 — SINOPEC RESEARCH; GASOLINE -8.7%, DIESEL -11.4%; THIRD STRAIGHT ANNUAL DECLINE; DEMAND DESTRUCTION ACCELERATING AT RECORD PRICES &nbsp;|&nbsp; QATAR RAS LAFFAN LNG: 13 MT/YR OFFLINE AFTER IRAN STRIKES — $3BN REBUILD; 3–5 YR RECOVERY; EU GAS STORAGE 55% VS 80% NOVEMBER TARGET &nbsp;|&nbsp; EIA SEPT STEO: US DISTILLATES BELOW 100MB — HISTORIC FIVE-YEAR LOW; GLOBAL OIL STOCKS DOWN 400MB IN 2026; BRENT FORECAST $90/BBL H2 (NOW LOOKS CONSERVATIVE)&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Friday, September 11, 2026<br>
+      Vol. I — No. 43<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$107.72/bbl</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$1,422.75/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$107.72/bbl</div>
+      <div class="price-change up">▲ +$0.30 (+0.28%) from Thursday close; ICE Europe; two-month high zone; up ~$10 from Tuesday Sep 8 close of $97.62; US-Iran ballistic missile exchange overnight escalates tanker war; Source: OilPrice.com / Trading Economics</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">$1,422.75/mt</div>
+      <div class="price-change down">▼ −$5.41 (−0.38%) on session; October contract now front-month after Sep expiry Sep 10; extreme winter heating-season premium; distillates below 100 mb — multi-decade seasonal low; Source: ICE Europe / TradingView (tradingview.com/symbols/ICEEUR-ULS1!/)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$102.50/bbl</div>
+      <div class="price-change down">▼ −$0.02 (−0.02%) essentially flat; Brent-WTI spread $5.22; above $100 mark for second consecutive week; record national diesel $5.90/gallon; Source: OilPrice.com</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Henry Hub Natural Gas</div>
+      <div class="price-val">$2.828/MMBtu</div>
+      <div class="price-change down">▼ −$0.006 (−0.21%) on session; Qatar Ras Laffan LNG damage limits global LNG arbitrage into US markets; domestic supply broadly adequate; Source: OilPrice.com / Trading Economics</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Murban Crude (UAE Benchmark)</div>
+      <div class="price-val">$122.50/bbl</div>
+      <div class="price-change up">▲ +$6.23 (+5.36%) sharp premium surge; Hormuz workaround indicator; Gulf crude that clears the chokepoint commands extreme scarcity premium; Source: OilPrice.com</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">Friday, September 11 — US-Iran Tanker War Escalates: Ballistic Missiles Strike US Destroyer; Brent Tops $107 as Distillates Plunge Below Historic Floor</div>
+      <h3>Brent Surges Past $107 as Iran Fires Ballistic Missiles at US Carrier Strike Group — Hormuz at Fraction of Pre-War Flow; Distillates Drop Below 100 Million Barrels for First Time in Decades</h3>
+      <p>On the twenty-fifth anniversary of the September 11 attacks, global energy markets contend with a crisis less sudden but no less acute. Brent crude rose to <strong>$107.72/bbl (+0.28%)</strong> — the highest level in two months and roughly <strong>$10 above Tuesday's close</strong> — as Iran's Islamic Revolutionary Guard Corps fired a wave of ballistic missiles at a US carrier strike group patrolling near the Strait of Hormuz overnight. US Central Command confirmed a destroyer sustained minor damage; Iran's state media claimed a direct hit on a carrier. US forces responded by permanently disabling two Iranian crude tankers and sinking a third. For a market that had spent two weeks slowly pricing the Iran-Oman shipping deal as a soft de-escalation ceiling, Thursday night's exchange has stripped that narrative away.</p>
+      <p>The physical market remains critically impaired. Strait of Hormuz transit is averaging <strong>approximately 10 commodity ships per day</strong> — versus the pre-war baseline of vessels carrying nearly 20 million barrels of oil and LNG daily. Marine analytics firm Kpler reported only 6–13 vessels crossing daily on a rolling 10-day basis, sharply contradicting US Treasury Secretary Scott Bessent's claim of 17 million barrels shipped recently — a discrepancy independent analysts say renders US assertions of a 'fully open' waterway at odds with observable shipping data. <strong>Murban crude</strong> — the UAE benchmark increasingly used as a Hormuz workaround indicator — surged to <strong>$122.50/bbl (+5.36%)</strong>, the premium reflecting the extreme scarcity of Gulf crude actually clearing the chokepoint.</p>
+      <p>The structural backdrop has deteriorated further since Tuesday's briefing. The EIA's September Short-Term Energy Outlook, released September 9, confirmed that US <strong>distillate fuel oil inventories have dropped below 100 million barrels</strong> — below the five-year (2021–2025) average low for this time of year and forecast to remain there through much of 2027. The October ICE Low Sulphur Gasoil front-month contract — now the active contract following the September expiry on Wednesday — is trading at <strong>$1,422.75/mt (−0.38%)</strong>, the extreme gasoil crack spread reflecting the severity of the heating-season distillate deficit compounded by supply disruption. EIA also reported that global oil inventories have declined by <strong>400 million barrels</strong> since January, amplifying the market's sensitivity to any further Hormuz escalation.</p>
+      <a href="https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$107.72/bbl</div>
+        <div class="stat-desc">Brent Crude — Up +0.28% Friday; Two-Month High; ~$10 Above Tuesday Close as US-Iran Ballistic Missile Exchange Escalates Overnight (Source: OilPrice.com / Trading Economics)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">10 ships/day</div>
+        <div class="stat-desc">Strait of Hormuz Average Daily Commodity Traffic — vs. ~20 mb/d Pre-War Baseline; Independent Kpler Data Contradicts US 'Fully Open' Waterway Claim (Source: Al Jazeera / Kpler)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num"><100 mb</div>
+        <div class="stat-desc">US Distillate Fuel Oil Inventories — Below Five-Year Seasonal Low Entering Heating Season; EIA STEO Warns Deficit Persists Through Much of 2027 (Source: EIA STEO, September 2026)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">400 mb</div>
+        <div class="stat-desc">Global Oil Inventory Decline Since January 2026 — Amplifying Price Sensitivity to Any Further Hormuz Escalation; Structural Floor for Elevated Prices (Source: EIA STEO, September 2026)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Geopolitics / Hormuz</div>
+      <h4>Iran Fires Ballistic Missiles at US Carrier Group — US Sinks Three Iranian Tankers in Retaliation; Strait at Decade-Low Traffic of 10 Ships/Day</h4>
+      <p>Iran's IRGC fired multiple ballistic missiles at a US carrier strike group near the Strait of Hormuz overnight, with US Central Command confirming a destroyer sustained minor damage. US forces responded by permanently disabling two Iranian crude tankers and sinking a third — the most destructive single US action against Iranian shipping since the conflict began February 28. The exchange marks the first confirmed ballistic missile hit on a US Navy vessel in this conflict, removing the Iran-Oman shipping deal narrative that had briefly capped Brent near the high-$90s. Kpler data puts Strait of Hormuz vessel traffic at just <strong>10 ships per day</strong> on a 10-day rolling average — far below the US Treasury's 17 million-barrel throughput claim.</p>
+      <a href="https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Demand Destruction</div>
+      <h4>Sinopec Research: China's Oil Demand to Fall 8.9% in 2026 — Gasoline Down 8.7%, Diesel Down 11.4%; Third Consecutive Annual Decline</h4>
+      <p>Sinopec's research arm has forecast that Chinese oil demand will decline by <strong>8.9% in 2026</strong> — the sharpest single-year drop since the 1970s oil shock era and the third consecutive annual decline. Gasoline demand is projected to fall 8.7% and diesel 11.4%, reflecting record fuel prices and the rapid EV transition (now over 50% of new Chinese vehicle sales). China's crude imports already fell <strong>32% in Q2 2026</strong> versus Q1 as Hormuz disruption drove prices higher, before partially recovering to 8.93 mb/d in August. The Sinopec data represents the most significant demand-side counterweight to the extreme supply disruption premium currently embedded in prices, and it shapes the ceiling on how far crude can rally before accelerating its own demand destruction.</p>
+      <a href="https://energiesmedia.com/china-crude-oil-imports-q2-2026-energy/" class="read-link" target="_blank">Read Energies Media →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">OPEC+ / Production</div>
+      <h4>OPEC+ September Hike Completes Full Voluntary-Cut Rollback — Q4 Quotas Frozen; Larger 2 mb/d Cut Stays Through Year-End</h4>
+      <p>OPEC+ has completed the unwinding of its 3.5 million barrels per day of voluntary cuts first announced in 2023, with September's 188,000 bpd increase finalising the rollback. For Q4 2026, the group will hold quotas flat. The larger 2 mb/d cut from 2022 remains in place through year-end, citing ongoing market volatility and the US-Iran conflict. The practical effect of the September increase remains limited: actual Gulf OPEC+ production lags quotas significantly because Hormuz disruptions prevent exports from reaching destination markets at quota-implied volumes. The group's 2027 production baseline review — via DeGolyer and MacNaughton capacity assessments — is expected in late September.</p>
+      <a href="https://www.forbes.com/sites/gauravsharma/2026/08/02/opec-to-rollback-all-voluntary-oil-production-cuts-in-september/" class="read-link" target="_blank">Read Forbes →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">EIA / Inventories</div>
+      <h4>EIA September STEO: Distillates Below 100 mb — Five-Year Low; Global Stocks Down 400 mb in 2026; Crude at 424.5 mb for Week Ending Sep 4</h4>
+      <p>The EIA's September Short-Term Energy Outlook (released September 9) delivered a stark assessment: US distillate fuel oil inventories have dropped <strong>below 100 million barrels</strong> and will remain below the five-year (2021–2025) seasonal low through much of 2027. The EIA forecasts Brent averaging around <strong>$90/bbl in H2 2026</strong> — a forecast that appeared conservative before Thursday night's missile exchange. The most recent Weekly Petroleum Status Report (week ending September 4, released September 10) showed US commercial crude at <strong>424.5 million barrels — 1% above the five-year average</strong>. Global oil inventories have declined by 400 million barrels since January, and tightness in the global distillate market has raised domestic prices and incentivised US exporters to increase distillate exports, removing further supply from domestic markets.</p>
+      <a href="https://www.eia.gov/outlooks/steo/" class="read-link" target="_blank">Read EIA STEO →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">LNG / Qatar</div>
+      <h4>Qatar Ras Laffan LNG: 13 MT/Year Offline After Iran Strikes — $3 Billion Rebuild; 3–5 Year Recovery; EU Gas Storage Falls Behind Target</h4>
+      <p>Iran-backed attacks on Qatar's Ras Laffan LNG facility have removed approximately <strong>13 million tonnes per year of liquefaction capacity</strong> — roughly 5% of global LNG supply — with repair costs estimated near $3 billion and a timeline of three to five years, per Rystad Energy. Iran-backed forces have executed at least <strong>172 attacks</strong> on nonmilitary infrastructure across six GCC nations since February 28, with nearly half targeting energy facilities. US oil companies' regional gas supplies are projected to drop roughly 40% this year. The Qatar damage is structurally significant for Europe: EU gas storage stands at roughly 55% capacity against an 80% November target, and TTF gas trades near <strong>€72.73/MWh</strong>, with European winter supply security deteriorating ahead of the heating season.</p>
+      <a href="https://www.aljazeera.com/news/2026/8/30/mapping-the-iran-wars-strikes-on-gulf-energy-and-what-comes-next-for-oil" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Strategy / Nuclear</div>
+      <h4>US-Saudi Nuclear Deal in 90-Day Congressional Review — Enrichment Path Could Free Oil Barrels; Proliferation Risk Debated at Moment of Regional Instability</h4>
+      <p>The landmark US-Saudi commercial nuclear cooperation agreement — signed in July 2026 and giving Saudi Arabia a path to enriching nuclear fuel using US firms — has entered its 90-day congressional review period. Saudi officials have framed the program as a means to <strong>free up more oil barrels for export</strong> by displacing domestic crude consumption with nuclear power. The deal aligns with the Trump administration's regional strategy during the Iran conflict, offering Riyadh advanced technology in exchange for sustained oil production cooperation. Arms-control experts warn the deal could trigger nuclear proliferation across the Middle East at a moment of exceptional regional instability; several senators have publicly opposed it. Congress has 90 days to act.</p>
+      <a href="https://www.npr.org/2026/07/23/nx-s1-5903125/u-s-signs-commercial-nuclear-deal-with-saudi-arabia" class="read-link" target="_blank">Read NPR →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Sep 11 — Today</td>
+        <td>
+          <div class="event-name">US Response to Iran's Ballistic Missile Strike on Carrier Group — The Day's Defining Risk</div>
+          <div class="event-impact">Thursday night's IRGC ballistic missile strike — the first confirmed direct hit on a US Navy vessel in this conflict — demands a US response that markets must price through today's session. A proportionate US military strike on Iranian missile batteries or Bandar Abbas naval assets keeps Brent in the $105–$112 corridor. A major escalation targeting Iranian oil infrastructure or Kharg Island would remove approximately 1.5–2 mb/d of residual Iranian export capacity and drive Brent toward $120+. A surprise diplomatic de-escalation channel — however unlikely given the overnight exchange — would pull Brent back toward $98–$104.</div>
+        </td>
+        <td>Binary headline risk. Proportionate military response: $105–$112. Kharg Island or Abadan strike: $115–$130+. Diplomatic channel opens: $98–$104.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 15</td>
+        <td>
+          <div class="event-name">Potential OPEC+ JMMC Emergency Response if Brent Sustains Above $110</div>
+          <div class="event-impact">The OPEC+ Joint Ministerial Monitoring Committee is not formally scheduled this week, but a sustained Brent push above $110 could trigger an emergency call. Saudi Arabia holds most of the group's remaining spare capacity (~2 mb/d) but faces conflicting incentives: elevated prices support fiscal revenues while demand destruction threatens long-term market share. A statement signalling readiness to release spare barrels would provide modest bearish relief.</div>
+        </td>
+        <td>Emergency OPEC+ signal or spare-capacity release pledge: −$2–5/bbl. No action: neutral to bullish, market reads as implicit $110+ price acceptance.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 17</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report (Week Ending Sep 12) — Post-Escalation Inventory Print</div>
+          <div class="event-impact">This will be the first inventory report capturing the full impact of $5.90/gallon diesel on demand and the post-Labor Day tanker war escalation on supply chains. The distillate figure is critical: a further decline from the already-below-100mb threshold heading into late September would be the most severe structural signal for heating-season supply adequacy. A crude build on demand destruction would be the only clear bearish surprise.</div>
+        </td>
+        <td>±$2–3/bbl on crude; a distillate miss below 98 mb could add $20–40/mt to the ULS1! October contract from an already-extreme base.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Late September</td>
+        <td>
+          <div class="event-name">DeGolyer and MacNaughton OPEC+ Capacity Review — 2027 Quota Baseline Setting</div>
+          <div class="event-impact">The Dallas-based petroleum engineering firm's capacity assessments for OPEC+ members will set 2027 production quota baselines. Given that Gulf member actual production lags quotas significantly due to Hormuz disruption, the distinction between sustainable capacity and accessible capacity is critical. Saudi Arabia's assessment will be the most watched data point for 2027 market balance projections.</div>
+        </td>
+        <td>Medium-term forward-curve signal. Upward revision: bearish on 2027 strip. Downward revision: structural support for $90+/bbl into 2027.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Ongoing</td>
+        <td>
+          <div class="event-name">Russia-Ukraine Ceasefire Track — Full Settlement Would Add 1–1.5 mb/d Medium-Term</div>
+          <div class="event-impact">The Russia-Ukraine ceasefire declared September 5 held through its early days, with US envoys continuing shuttle diplomacy. A full settlement and Russian oil sanctions relief remains the largest medium-term downside catalyst for Brent outside a Hormuz reopening — adding 1–1.5 mb/d to global supply over 6–12 months. However, territorial demands remain irreconcilable and Russian domestic politics constrain any deal short of significant territorial concessions from Ukraine.</div>
+        </td>
+        <td>Near-term: neutral. Full settlement and sanctions relief (6–18 months out): −$8–15/bbl Brent over time.</td>
+        <td><span class="badge badge-low">Low</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Friday, September 11, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Twenty-five years on from the original September 11, global energy markets face a crisis less sudden but no less structural. Brent at <strong>$107.72</strong>, WTI at <strong>$102.50</strong>, and Murban at <strong>$122.50</strong> are not the product of a single morning's shock but of six months of cumulative damage: Hormuz averaging 10 ships per day, Ras Laffan offline for three to five years, distillates below 100 million barrels heading into the northern hemisphere's heating season, and now the first confirmed ballistic missile hit on a US Navy vessel in this conflict.</p>
+        <p><strong>The read on today:</strong> The Iran-Oman shipping deal that briefly looked like a ceiling on Brent in the high $90s has been superseded by Thursday night's missile exchange. The market is no longer pricing a <em>de-escalation path</em> — it is pricing the <em>probability distribution of a US military response</em>. The two most important variables today are the nature and timing of any CENTCOM action and whether that response targets non-oil Iranian military assets (contained escalation: $105–$112 corridor) or oil infrastructure including Kharg Island (severe escalation: $115–$130+).</p>
+        <p><strong>The structural read:</strong> Even if today passes without fresh military escalation, the physical market's fundamentals have not improved. Distillates are now below 100 million barrels — a threshold the EIA says will hold through much of 2027. The gasoil crack embedded in the October ULS1! front-month at $1,422.75/mt is pricing a heating season without adequate supply. Global inventories are 400 million barrels lighter than at the start of the year. The EIA's own H2 2026 Brent forecast of $90/bbl, published just two days ago on Tuesday, is already looking insufficient given the overnight escalation and the structural deficit.</p>
+        <p><strong>My call: Brent $104–$114 today</strong>, with the range entirely driven by CENTCOM and White House escalation decisions over the next several hours. The distillate market needs no new catalyst to widen further — that story is already written in the inventory data. <strong>The headline risk is asymmetrically to the upside, and today's anniversary of September 11 does not make de-escalation any more likely.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Hormuz Escalation Risk (24h)</span><span style="color:#e05252">Extreme — Ballistic Missile Hit on US Destroyer; CENTCOM Response Pending</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:93%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Critical — First Direct Navy Hit; Conflict Deepening</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:96%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Severe — Distillates Below 100 mb; Global Stocks −400 mb YTD</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:89%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Destruction</span><span style="color:#5cb85c">Accelerating — Sinopec: China −8.9%; EV 50%+ of New Sales</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:64%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>OPEC+ Buffer</span><span style="color:#e05252">Thin — ~2 mb/d Spare Capacity; Q4 Quotas Frozen</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:22%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Resolution Prospects</span><span style="color:#e05252">Near Zero — Missile Exchange Closes Oman Deal Path</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:4%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude (Friday, Sep 11)</div>
+          <div class="call-text">$104 – $114</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Asymmetrically Higher — CENTCOM Response Determines Range; Kharg Island Strike = $115–$130+ ▲▲; Contained Military Response = $105–$112 ▲; Diplomatic Surprise = $98–$104 ▼</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$112–$115 (escalation ceiling pre-Kharg Island; Murban premium signals physical tightness; ULS1! crack drives refinery bid for crude)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$102–$105 (WTI psychological $100 floor; Brent-WTI spread support; demand-destruction signal from record diesel prices)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$115 (Kharg Island or Abadan confirmed struck by CENTCOM; Iran closes Hormuz to all traffic including Oman-managed corridor; further carrier group damage reported)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$100 (surprise diplomatic channel opens; IRGC agrees to stand-down on missile strikes; Oman deal reactivated with explicit US endorsement)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Friday, September 11, 2026</span>
+  <span>Sources: Al Jazeera, EIA, OPEC, Reuters, Bloomberg, CNBC, NPR, OilPrice.com, Trading Economics, ICE/TradingView, Forbes, Energies Media, Hydrocarbon Engineering, Rystad Energy</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>

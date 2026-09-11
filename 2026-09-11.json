@@ -1,0 +1,179 @@
+{
+  "date_long": "Friday, September 11, 2026",
+  "date_slug": "sep11-2026",
+  "volume": "Vol. I — No. 43",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Al Jazeera, EIA, OPEC, Reuters, Bloomberg, CNBC, NPR, OilPrice.com, Trading Economics, ICE/TradingView, Forbes, Energies Media, Hydrocarbon Engineering, Rystad Energy",
+
+  "ticker": [
+    "BRENT $107.72/bbl ▲ +0.28% — ICE EUROPE; TWO-MONTH HIGH; US PERMANENTLY DISABLES THREE MORE IRANIAN TANKERS; IRAN FIRES BALLISTIC MISSILES AT CARRIER STRIKE GROUP OVERNIGHT",
+    "WTI $102.50/bbl ▼ -0.02% — FLAT; BRENT-WTI SPREAD $5.22; ABOVE $100 FOR SECOND CONSECUTIVE WEEK; NATIONAL DIESEL RECORD $5.90/GAL; US SPR BELOW 290MB — LOWEST SINCE 1982",
+    "ULS1! (OCT FRONT-MONTH) $1,422.75/MT ▼ -0.38% — ICE EUROPE; OCT CONTRACT NOW FRONT-MONTH AFTER SEP EXPIRY SEP 10; DISTILLATES PLUNGE BELOW 100MB — FIVE-YEAR SEASONAL LOW",
+    "CHINA OIL DEMAND TO FALL 8.9% IN 2026 — SINOPEC RESEARCH; GASOLINE -8.7%, DIESEL -11.4%; THIRD STRAIGHT ANNUAL DECLINE; DEMAND DESTRUCTION ACCELERATING AT RECORD PRICES",
+    "QATAR RAS LAFFAN LNG: 13 MT/YR OFFLINE AFTER IRAN STRIKES — $3BN REBUILD; 3–5 YR RECOVERY; EU GAS STORAGE 55% VS 80% NOVEMBER TARGET",
+    "EIA SEPT STEO: US DISTILLATES BELOW 100MB — HISTORIC FIVE-YEAR LOW; GLOBAL OIL STOCKS DOWN 400MB IN 2026; BRENT FORECAST $90/BBL H2 (NOW LOOKS CONSERVATIVE)"
+  ],
+
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$107.72/bbl",
+      "change": "▲ +$0.30 (+0.28%) from Thursday close; ICE Europe; two-month high zone; up ~$10 from Tuesday Sep 8 close of $97.62; US-Iran ballistic missile exchange overnight escalates tanker war; Source: OilPrice.com / Trading Economics",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,422.75/mt",
+      "change": "▼ −$5.41 (−0.38%) on session; October contract now front-month after Sep expiry Sep 10; extreme winter heating-season premium; distillates below 100 mb — multi-decade seasonal low; Source: ICE Europe / TradingView (tradingview.com/symbols/ICEEUR-ULS1!/)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$102.50/bbl",
+      "change": "▼ −$0.02 (−0.02%) essentially flat; Brent-WTI spread $5.22; above $100 mark for second consecutive week; record national diesel $5.90/gallon; Source: OilPrice.com",
+      "direction": "down"
+    },
+    {
+      "label": "Henry Hub Natural Gas",
+      "value": "$2.828/MMBtu",
+      "change": "▼ −$0.006 (−0.21%) on session; Qatar Ras Laffan LNG damage limits global LNG arbitrage into US markets; domestic supply broadly adequate; Source: OilPrice.com / Trading Economics",
+      "direction": "down"
+    },
+    {
+      "label": "Murban Crude (UAE Benchmark)",
+      "value": "$122.50/bbl",
+      "change": "▲ +$6.23 (+5.36%) sharp premium surge; Hormuz workaround indicator; Gulf crude that clears the chokepoint commands extreme scarcity premium; Source: OilPrice.com",
+      "direction": "up"
+    }
+  ],
+
+  "lead": {
+    "eyebrow": "Friday, September 11 — US-Iran Tanker War Escalates: Ballistic Missiles Strike US Destroyer; Brent Tops $107 as Distillates Plunge Below Historic Floor",
+    "headline": "Brent Surges Past $107 as Iran Fires Ballistic Missiles at US Carrier Strike Group — Hormuz at Fraction of Pre-War Flow; Distillates Drop Below 100 Million Barrels for First Time in Decades",
+    "paragraphs": [
+      "On the twenty-fifth anniversary of the September 11 attacks, global energy markets contend with a crisis less sudden but no less acute. Brent crude rose to <strong>$107.72/bbl (+0.28%)</strong> — the highest level in two months and roughly <strong>$10 above Tuesday's close</strong> — as Iran's Islamic Revolutionary Guard Corps fired a wave of ballistic missiles at a US carrier strike group patrolling near the Strait of Hormuz overnight. US Central Command confirmed a destroyer sustained minor damage; Iran's state media claimed a direct hit on a carrier. US forces responded by permanently disabling two Iranian crude tankers and sinking a third. For a market that had spent two weeks slowly pricing the Iran-Oman shipping deal as a soft de-escalation ceiling, Thursday night's exchange has stripped that narrative away.",
+      "The physical market remains critically impaired. Strait of Hormuz transit is averaging <strong>approximately 10 commodity ships per day</strong> — versus the pre-war baseline of vessels carrying nearly 20 million barrels of oil and LNG daily. Marine analytics firm Kpler reported only 6–13 vessels crossing daily on a rolling 10-day basis, sharply contradicting US Treasury Secretary Scott Bessent's claim of 17 million barrels shipped recently — a discrepancy independent analysts say renders US assertions of a 'fully open' waterway at odds with observable shipping data. <strong>Murban crude</strong> — the UAE benchmark increasingly used as a Hormuz workaround indicator — surged to <strong>$122.50/bbl (+5.36%)</strong>, the premium reflecting the extreme scarcity of Gulf crude actually clearing the chokepoint.",
+      "The structural backdrop has deteriorated further since Tuesday's briefing. The EIA's September Short-Term Energy Outlook, released September 9, confirmed that US <strong>distillate fuel oil inventories have dropped below 100 million barrels</strong> — below the five-year (2021–2025) average low for this time of year and forecast to remain there through much of 2027. The October ICE Low Sulphur Gasoil front-month contract — now the active contract following the September expiry on Wednesday — is trading at <strong>$1,422.75/mt (−0.38%)</strong>, the extreme gasoil crack spread reflecting the severity of the heating-season distillate deficit compounded by supply disruption. EIA also reported that global oil inventories have declined by <strong>400 million barrels</strong> since January, amplifying the market's sensitivity to any further Hormuz escalation."
+    ],
+    "link_url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "$107.72/bbl", "desc": "Brent Crude — Up +0.28% Friday; Two-Month High; ~$10 Above Tuesday Close as US-Iran Ballistic Missile Exchange Escalates Overnight (Source: OilPrice.com / Trading Economics)" },
+      { "num": "10 ships/day", "desc": "Strait of Hormuz Average Daily Commodity Traffic — vs. ~20 mb/d Pre-War Baseline; Independent Kpler Data Contradicts US 'Fully Open' Waterway Claim (Source: Al Jazeera / Kpler)" },
+      { "num": "<100 mb", "desc": "US Distillate Fuel Oil Inventories — Below Five-Year Seasonal Low Entering Heating Season; EIA STEO Warns Deficit Persists Through Much of 2027 (Source: EIA STEO, September 2026)" },
+      { "num": "400 mb", "desc": "Global Oil Inventory Decline Since January 2026 — Amplifying Price Sensitivity to Any Further Hormuz Escalation; Structural Floor for Elevated Prices (Source: EIA STEO, September 2026)" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Geopolitics / Hormuz",
+      "headline": "Iran Fires Ballistic Missiles at US Carrier Group — US Sinks Three Iranian Tankers in Retaliation; Strait at Decade-Low Traffic of 10 Ships/Day",
+      "body": "Iran's IRGC fired multiple ballistic missiles at a US carrier strike group near the Strait of Hormuz overnight, with US Central Command confirming a destroyer sustained minor damage. US forces responded by permanently disabling two Iranian crude tankers and sinking a third — the most destructive single US action against Iranian shipping since the conflict began February 28. The exchange marks the first confirmed ballistic missile hit on a US Navy vessel in this conflict, removing the Iran-Oman shipping deal narrative that had briefly capped Brent near the high-$90s. Kpler data puts Strait of Hormuz vessel traffic at just <strong>10 ships per day</strong> on a 10-day rolling average — far below the US Treasury's 17 million-barrel throughput claim.",
+      "link_url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Demand Destruction",
+      "headline": "Sinopec Research: China's Oil Demand to Fall 8.9% in 2026 — Gasoline Down 8.7%, Diesel Down 11.4%; Third Consecutive Annual Decline",
+      "body": "Sinopec's research arm has forecast that Chinese oil demand will decline by <strong>8.9% in 2026</strong> — the sharpest single-year drop since the 1970s oil shock era and the third consecutive annual decline. Gasoline demand is projected to fall 8.7% and diesel 11.4%, reflecting record fuel prices and the rapid EV transition (now over 50% of new Chinese vehicle sales). China's crude imports already fell <strong>32% in Q2 2026</strong> versus Q1 as Hormuz disruption drove prices higher, before partially recovering to 8.93 mb/d in August. The Sinopec data represents the most significant demand-side counterweight to the extreme supply disruption premium currently embedded in prices, and it shapes the ceiling on how far crude can rally before accelerating its own demand destruction.",
+      "link_url": "https://energiesmedia.com/china-crude-oil-imports-q2-2026-energy/",
+      "link_text": "Read Energies Media"
+    },
+    {
+      "tag": "OPEC+ / Production",
+      "headline": "OPEC+ September Hike Completes Full Voluntary-Cut Rollback — Q4 Quotas Frozen; Larger 2 mb/d Cut Stays Through Year-End",
+      "body": "OPEC+ has completed the unwinding of its 3.5 million barrels per day of voluntary cuts first announced in 2023, with September's 188,000 bpd increase finalising the rollback. For Q4 2026, the group will hold quotas flat. The larger 2 mb/d cut from 2022 remains in place through year-end, citing ongoing market volatility and the US-Iran conflict. The practical effect of the September increase remains limited: actual Gulf OPEC+ production lags quotas significantly because Hormuz disruptions prevent exports from reaching destination markets at quota-implied volumes. The group's 2027 production baseline review — via DeGolyer and MacNaughton capacity assessments — is expected in late September.",
+      "link_url": "https://www.forbes.com/sites/gauravsharma/2026/08/02/opec-to-rollback-all-voluntary-oil-production-cuts-in-september/",
+      "link_text": "Read Forbes"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "EIA September STEO: Distillates Below 100 mb — Five-Year Low; Global Stocks Down 400 mb in 2026; Crude at 424.5 mb for Week Ending Sep 4",
+      "body": "The EIA's September Short-Term Energy Outlook (released September 9) delivered a stark assessment: US distillate fuel oil inventories have dropped <strong>below 100 million barrels</strong> and will remain below the five-year (2021–2025) seasonal low through much of 2027. The EIA forecasts Brent averaging around <strong>$90/bbl in H2 2026</strong> — a forecast that appeared conservative before Thursday night's missile exchange. The most recent Weekly Petroleum Status Report (week ending September 4, released September 10) showed US commercial crude at <strong>424.5 million barrels — 1% above the five-year average</strong>. Global oil inventories have declined by 400 million barrels since January, and tightness in the global distillate market has raised domestic prices and incentivised US exporters to increase distillate exports, removing further supply from domestic markets.",
+      "link_url": "https://www.eia.gov/outlooks/steo/",
+      "link_text": "Read EIA STEO"
+    },
+    {
+      "tag": "LNG / Qatar",
+      "headline": "Qatar Ras Laffan LNG: 13 MT/Year Offline After Iran Strikes — $3 Billion Rebuild; 3–5 Year Recovery; EU Gas Storage Falls Behind Target",
+      "body": "Iran-backed attacks on Qatar's Ras Laffan LNG facility have removed approximately <strong>13 million tonnes per year of liquefaction capacity</strong> — roughly 5% of global LNG supply — with repair costs estimated near $3 billion and a timeline of three to five years, per Rystad Energy. Iran-backed forces have executed at least <strong>172 attacks</strong> on nonmilitary infrastructure across six GCC nations since February 28, with nearly half targeting energy facilities. US oil companies' regional gas supplies are projected to drop roughly 40% this year. The Qatar damage is structurally significant for Europe: EU gas storage stands at roughly 55% capacity against an 80% November target, and TTF gas trades near <strong>€72.73/MWh</strong>, with European winter supply security deteriorating ahead of the heating season.",
+      "link_url": "https://www.aljazeera.com/news/2026/8/30/mapping-the-iran-wars-strikes-on-gulf-energy-and-what-comes-next-for-oil",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Strategy / Nuclear",
+      "headline": "US-Saudi Nuclear Deal in 90-Day Congressional Review — Enrichment Path Could Free Oil Barrels; Proliferation Risk Debated at Moment of Regional Instability",
+      "body": "The landmark US-Saudi commercial nuclear cooperation agreement — signed in July 2026 and giving Saudi Arabia a path to enriching nuclear fuel using US firms — has entered its 90-day congressional review period. Saudi officials have framed the program as a means to <strong>free up more oil barrels for export</strong> by displacing domestic crude consumption with nuclear power. The deal aligns with the Trump administration's regional strategy during the Iran conflict, offering Riyadh advanced technology in exchange for sustained oil production cooperation. Arms-control experts warn the deal could trigger nuclear proliferation across the Middle East at a moment of exceptional regional instability; several senators have publicly opposed it. Congress has 90 days to act.",
+      "link_url": "https://www.npr.org/2026/07/23/nx-s1-5903125/u-s-signs-commercial-nuclear-deal-with-saudi-arabia",
+      "link_text": "Read NPR"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 11 — Today",
+      "name": "US Response to Iran's Ballistic Missile Strike on Carrier Group — The Day's Defining Risk",
+      "impact": "Thursday night's IRGC ballistic missile strike — the first confirmed direct hit on a US Navy vessel in this conflict — demands a US response that markets must price through today's session. A proportionate US military strike on Iranian missile batteries or Bandar Abbas naval assets keeps Brent in the $105–$112 corridor. A major escalation targeting Iranian oil infrastructure or Kharg Island would remove approximately 1.5–2 mb/d of residual Iranian export capacity and drive Brent toward $120+. A surprise diplomatic de-escalation channel — however unlikely given the overnight exchange — would pull Brent back toward $98–$104.",
+      "market_impact": "Binary headline risk. Proportionate military response: $105–$112. Kharg Island or Abadan strike: $115–$130+. Diplomatic channel opens: $98–$104.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 15",
+      "name": "Potential OPEC+ JMMC Emergency Response if Brent Sustains Above $110",
+      "impact": "The OPEC+ Joint Ministerial Monitoring Committee is not formally scheduled this week, but a sustained Brent push above $110 could trigger an emergency call. Saudi Arabia holds most of the group's remaining spare capacity (~2 mb/d) but faces conflicting incentives: elevated prices support fiscal revenues while demand destruction threatens long-term market share. A statement signalling readiness to release spare barrels would provide modest bearish relief.",
+      "market_impact": "Emergency OPEC+ signal or spare-capacity release pledge: −$2–5/bbl. No action: neutral to bullish, market reads as implicit $110+ price acceptance.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Sep 17",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Sep 12) — Post-Escalation Inventory Print",
+      "impact": "This will be the first inventory report capturing the full impact of $5.90/gallon diesel on demand and the post-Labor Day tanker war escalation on supply chains. The distillate figure is critical: a further decline from the already-below-100mb threshold heading into late September would be the most severe structural signal for heating-season supply adequacy. A crude build on demand destruction would be the only clear bearish surprise.",
+      "market_impact": "±$2–3/bbl on crude; a distillate miss below 98 mb could add $20–40/mt to the ULS1! October contract from an already-extreme base.",
+      "risk": "High"
+    },
+    {
+      "date": "Late September",
+      "name": "DeGolyer and MacNaughton OPEC+ Capacity Review — 2027 Quota Baseline Setting",
+      "impact": "The Dallas-based petroleum engineering firm's capacity assessments for OPEC+ members will set 2027 production quota baselines. Given that Gulf member actual production lags quotas significantly due to Hormuz disruption, the distinction between sustainable capacity and accessible capacity is critical. Saudi Arabia's assessment will be the most watched data point for 2027 market balance projections.",
+      "market_impact": "Medium-term forward-curve signal. Upward revision: bearish on 2027 strip. Downward revision: structural support for $90+/bbl into 2027.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Russia-Ukraine Ceasefire Track — Full Settlement Would Add 1–1.5 mb/d Medium-Term",
+      "impact": "The Russia-Ukraine ceasefire declared September 5 held through its early days, with US envoys continuing shuttle diplomacy. A full settlement and Russian oil sanctions relief remains the largest medium-term downside catalyst for Brent outside a Hormuz reopening — adding 1–1.5 mb/d to global supply over 6–12 months. However, territorial demands remain irreconcilable and Russian domestic politics constrain any deal short of significant territorial concessions from Ukraine.",
+      "market_impact": "Near-term: neutral. Full settlement and sanctions relief (6–18 months out): −$8–15/bbl Brent over time.",
+      "risk": "Low"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Twenty-five years on from the original September 11, global energy markets face a crisis less sudden but no less structural. Brent at <strong>$107.72</strong>, WTI at <strong>$102.50</strong>, and Murban at <strong>$122.50</strong> are not the product of a single morning's shock but of six months of cumulative damage: Hormuz averaging 10 ships per day, Ras Laffan offline for three to five years, distillates below 100 million barrels heading into the northern hemisphere's heating season, and now the first confirmed ballistic missile hit on a US Navy vessel in this conflict.",
+      "<strong>The read on today:</strong> The Iran-Oman shipping deal that briefly looked like a ceiling on Brent in the high $90s has been superseded by Thursday night's missile exchange. The market is no longer pricing a <em>de-escalation path</em> — it is pricing the <em>probability distribution of a US military response</em>. The two most important variables today are the nature and timing of any CENTCOM action and whether that response targets non-oil Iranian military assets (contained escalation: $105–$112 corridor) or oil infrastructure including Kharg Island (severe escalation: $115–$130+).",
+      "<strong>The structural read:</strong> Even if today passes without fresh military escalation, the physical market's fundamentals have not improved. Distillates are now below 100 million barrels — a threshold the EIA says will hold through much of 2027. The gasoil crack embedded in the October ULS1! front-month at $1,422.75/mt is pricing a heating season without adequate supply. Global inventories are 400 million barrels lighter than at the start of the year. The EIA's own H2 2026 Brent forecast of $90/bbl, published just two days ago on Tuesday, is already looking insufficient given the overnight escalation and the structural deficit.",
+      "<strong>My call: Brent $104–$114 today</strong>, with the range entirely driven by CENTCOM and White House escalation decisions over the next several hours. The distillate market needs no new catalyst to widen further — that story is already written in the inventory data. <strong>The headline risk is asymmetrically to the upside, and today's anniversary of September 11 does not make de-escalation any more likely.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Hormuz Escalation Risk (24h)", "label": "Extreme — Ballistic Missile Hit on US Destroyer; CENTCOM Response Pending", "tone": "bearish", "pct": 93 },
+      { "name": "Geopolitical Risk", "label": "Critical — First Direct Navy Hit; Conflict Deepening", "tone": "bearish", "pct": 96 },
+      { "name": "Supply Tightness", "label": "Severe — Distillates Below 100 mb; Global Stocks −400 mb YTD", "tone": "bearish", "pct": 89 },
+      { "name": "Demand Destruction", "label": "Accelerating — Sinopec: China −8.9%; EV 50%+ of New Sales", "tone": "bullish", "pct": 64 },
+      { "name": "OPEC+ Buffer", "label": "Thin — ~2 mb/d Spare Capacity; Q4 Quotas Frozen", "tone": "bearish", "pct": 22 },
+      { "name": "Resolution Prospects", "label": "Near Zero — Missile Exchange Closes Oman Deal Path", "tone": "bearish", "pct": 4 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Friday, Sep 11)",
+      "value": "$104 – $114",
+      "bias": "Bias: Asymmetrically Higher — CENTCOM Response Determines Range; Kharg Island Strike = $115–$130+ ▲▲; Contained Military Response = $105–$112 ▲; Diplomatic Surprise = $98–$104 ▼"
+    },
+    "watch_levels": {
+      "resistance": "$112–$115 (escalation ceiling pre-Kharg Island; Murban premium signals physical tightness; ULS1! crack drives refinery bid for crude)",
+      "support": "$102–$105 (WTI psychological $100 floor; Brent-WTI spread support; demand-destruction signal from record diesel prices)",
+      "breakout": ">$115 (Kharg Island or Abadan confirmed struck by CENTCOM; Iran closes Hormuz to all traffic including Oman-managed corridor; further carrier group damage reported)",
+      "breakdown": "<$100 (surprise diplomatic channel opens; IRGC agrees to stand-down on missile strikes; Oman deal reactivated with explicit US endorsement)"
+    }
+  }
+}
