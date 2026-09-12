@@ -1,0 +1,155 @@
+{
+  "date_long": "Saturday, September 12, 2026",
+  "date_slug": "sep12-2026",
+  "volume": "Vol. I — No. 44",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, Fortune, Al Jazeera, NBC News, Energy Connects, SBS News, CBS News, Reuters, Bloomberg",
+
+  "ticker": [
+    "BRENT $104.52/bbl ▼ -2.85% — ICE EUROPE FRIDAY CLOSE; REVERSAL FROM $107.72 THURSDAY HIGH; GCC-IRAN SALALAH SUMMIT OVERRIDES BALLISTIC MISSILE ESCALATION",
+    "ULS1! (OCT FRONT-MONTH) $1,422.75/MT ▼ -0.38% — ICE EUROPE; DISTILLATES BELOW 100MB ENTERING HEATING SEASON; STRUCTURAL DEFICIT FORECAST THROUGH MUCH OF 2027",
+    "NATURAL GAS $2.87/MMBtu — HENRY HUB; FLAT AMID ONGOING LNG SUPPLY DISRUPTION; EU STORAGE 55% vs. 80% NOV TARGET",
+    "FIRST IRAN-GCC MINISTERIAL MEETING SINCE FEB 28 WAR — SEPT 14 IN SALALAH, OMAN; HORMUZ DE-ESCALATION PATH REOPENS",
+    "IRAN FIRED BALLISTIC MISSILES AT US DESTROYER THURSDAY NIGHT; US SANK THREE IRGC TANKERS IN RESPONSE — ESCALATION RISK UNRESOLVED",
+    "HOUTHIS FORCE SHUTDOWN OF SAUDI EAST-WEST PIPELINE AFTER SEPT 8 ATTACKS; BAB AL-MANDAB SHIPPING NOW UNDER PRESSURE",
+    "IEA SEPT OMR: 2026 GLOBAL OIL DEMAND TO CONTRACT 2.5 MB/D — BIGGEST DROP SINCE COVID-19; SUPPLY DOWN 5.7 MB/D"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$104.52", "change": "▼ −2.85% (diplomacy reversal)", "direction": "down" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,422.75/mt", "change": "▼ −0.38% (Oct front-month)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$101.00", "change": "▼ −2.9% (follows Brent lower)", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$2.87/MMBtu", "change": "→ Flat (heating risk building)", "direction": "" },
+    { "label": "US Distillate Stocks", "value": "<100 mb", "change": "▼ Below 5-yr seasonal low", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Market Reversal — Hormuz Diplomacy Overrides Ballistic Missile Escalation",
+    "headline": "Brent Tumbles 2.85% to $104.52 as First GCC-Iran Ministerial Meeting Since the War Set for Monday in Salalah — Strait De-escalation Path Reopens Despite Thursday Night Missile Exchange",
+    "paragraphs": [
+      "In a session that defied the overnight script, Brent crude reversed a week of escalation-driven gains on Friday, falling <strong>2.85% to $104.52/bbl</strong> — the biggest single-session decline since early September — after diplomatic momentum around the Strait of Hormuz unexpectedly revived. Iran and the six Gulf Cooperation Council states announced they will hold their <strong>first ministerial meeting since the conflict began on February 28</strong>, gathering in Salalah, Oman on Monday, September 14, to discuss a provisional framework for safe commercial navigation through the strait. The announcement came just hours after US Central Command confirmed that Iranian Revolutionary Guard Corps ballistic missiles struck a US Navy destroyer overnight — the most serious direct military exchange of the conflict — and as US forces responded by sinking three IRGC tankers. The market chose to price the diplomatic tail.",
+      "The Iran-Oman framework on the table in Salalah is narrow but consequential: inbound commercial vessels would transit through a <strong>7-mile-wide corridor in Iranian territorial waters</strong>, with outbound traffic using Omani waters, under Iranian surveillance clearance. Iran secured provisional agreement from Oman on the framework in late August, and Monday's GCC meeting is designed to bring Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman collectively on side — allowing regional states to press Washington to lift its naval blockade in exchange for the provisional reopening. Tehran has been explicit: <strong>the strait remains closed until the US lifts the blockade, unfreezes Iranian assets, and removes oil sanctions.</strong> The GCC buy-in is step one in a sequence that still requires a US policy shift.",
+      "The structural backdrop that drove Thursday night's $107+ session has not changed. US distillate stocks remain below <strong>100 million barrels</strong> for the first time in the five-year seasonal record — a threshold the EIA's September Short-Term Energy Outlook says will not recover through much of 2027. The October ICE Low Sulphur Gasoil front-month contract held at <strong>$1,422.75/mt</strong>, its marginal -0.38% decline underscoring that physical distillate markets are largely unmoved by the diplomatic headline. Global oil inventories are 400 million barrels below their January level. The Salalah meeting has created a trading window; it has not resolved the supply crisis."
+    ],
+    "link_url": "https://fortune.com/2026/09/11/oil-prices-hormuz-diplomacy-saudi-arabia-houthis-pakistan-us-bab-al-mandab/",
+    "link_text": "Read Fortune",
+    "stats": [
+      { "num": "$104.52", "desc": "Brent Crude Friday Close — Down 2.85% From Thursday's $107.72 Two-Month High; Market Prices Diplomatic Tail Over Ballistic Missile Escalation" },
+      { "num": "Sept 14", "desc": "Date of First Iran-GCC Ministerial Meeting in Salalah, Oman — First High-Level Diplomatic Contact Between Iran and All Six GCC States Since the War Began Feb 28" },
+      { "num": "7 miles", "desc": "Width of Proposed Iran-Oman Temporary Hormuz Navigation Corridor; Vessels Require Iranian Surveillance Clearance Before Passage; Strait Not 'Reopened'" },
+      { "num": "<100 mb", "desc": "US Distillate Fuel Oil Stocks — Below Five-Year Seasonal Low; EIA Forecasts Deficit Through Much of 2027; October ULS1! at $1,422.75/mt Reflects Heating-Season Alarm" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran and GCC Foreign Ministers to Meet Monday in Salalah — First Ministerial Contact Since the War",
+      "body": "Foreign ministers from the six GCC member states — Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman — will hold their first collective ministerial meeting with Iran since the conflict erupted on February 28, in the Omani city of Salalah on September 14. The meeting is Oman's initiative and aims to secure GCC buy-in for an Iran-Oman provisional Hormuz navigation framework. A source familiar with the talks said the goal is to \"get the GCC on board to try and use that to get the US to lift its blockade.\" Iran's Foreign Ministry said the agenda will include \"regional issues and results of Iran-Oman negotiations regarding safe routes for commercial vessels through the Strait of Hormuz.\" Analysts described the meeting as primarily symbolic unless Washington signals flexibility, but noted it represents the highest-level regional de-escalation contact in six months.",
+      "link_url": "https://news.sbs.co.kr/english/article.do?news_id=N1008749523",
+      "link_text": "Read SBS News"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Reverses $107+ Surge, Settles at $104.52 as Diplomacy Outweighs Missile Strike",
+      "body": "Brent crude fell 2.85% to $104.52/bbl on Friday, reversing Thursday night's escalation-driven push above $107, as the GCC-Iran Salalah announcement overrode the ballistic missile exchange in the market's calculus. The reversal fell squarely inside the \"diplomatic surprise\" corridor flagged by analysts earlier in the week ($98–$104). WTI tracked lower to approximately $101, holding the spread above $3 as domestic supply constraints — diesel at $5.90/gallon nationally — continued to weigh on the US demand outlook. The move confirms that the market remains acutely sensitive to Hormuz diplomacy signals and will aggressively re-price any credible de-escalation sequence, even at the cost of absorbing a confirmed direct hit on a US Navy vessel.",
+      "link_url": "https://fortune.com/2026/09/11/oil-prices-hormuz-diplomacy-saudi-arabia-houthis-pakistan-us-bab-al-mandab/",
+      "link_text": "Read Fortune"
+    },
+    {
+      "tag": "Hormuz Framework",
+      "headline": "Iran-Oman 7-Mile Corridor Deal: Vessels Need Iranian Clearance — Strait Not 'Open' Yet",
+      "body": "The provisional Iran-Oman agreement reached in late August — the basis of Monday's Salalah talks — establishes a 7-mile-wide navigation corridor within the Strait of Hormuz, with inbound vessels passing through Iranian territorial waters and outbound vessels using Omani waters. Iran's IRGC confirmed that vessels will undergo surveillance before entry. Iranian Deputy Foreign Minister Kazem Gharibabadi was explicit that this arrangement does not constitute a reopening: \"The waterway will remain closed until the US fulfills conditions\" — specifically lifting the naval blockade, unfreezing assets, and removing oil sanctions. The framework provides a negotiating scaffold; it does not move a single barrel until Washington acts.",
+      "link_url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Bab al-Mandab",
+      "headline": "Houthis Force Saudi East-West Pipeline Shutdown After Sept 8 Attacks — Saudi Backup Route Under Siege",
+      "body": "Saudi Arabia shut down its critical East-West oil pipeline on Friday after Houthi drone and missile strikes on September 8 ignited fires along the route and at Aramco facilities in Abha and Jizan. The pipeline had been serving as the Kingdom's primary alternative to Strait of Hormuz routing since Iran's blockade took hold — Saudi seaborne crude exports through Bab al-Mandab were eight times higher in the March-July period compared to a year prior. With Houthi forces now controlling Yemen's Red Sea coastline including Perim Island at the mouth of the Bab al-Mandab Strait, Saudi Arabia faces the prospect of both chokepoints under threat simultaneously. Crown Prince Mohammed bin Salman called President Trump twice Thursday requesting US airstrikes against the Houthis; Trump declined, offering intelligence support instead.",
+      "link_url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "IEA Report",
+      "headline": "IEA September OMR: 2026 Global Oil Demand to Contract 2.5 mb/d — Biggest Drop Since COVID; 2027 Recovery Narrows",
+      "body": "The IEA's September Oil Market Report deepened its 2026 demand contraction forecast by 940,000 b/d from last month's assessment, projecting a <strong>2.5 mb/d annual decline</strong> — the largest since the 2020 pandemic. The agency characterized 2026–27 as \"essentially a lost period\" for demand growth, driven by sustained high prices destroying consumption across aviation, road transport, and industry. On the supply side, global oil production fell 1.6 mb/d month-on-month to 100.1 mb/d in August as Gulf output remained broadly offline. Total supply is forecast to fall 5.7 mb/d this year. The IEA did project a 2.6 mb/d demand recovery in 2027, narrowly recovering 2026's losses — but flagged this depends on Hormuz normalisation not yet agreed.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-september-2026",
+      "link_text": "Read IEA"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Freezes October Output — Completes Voluntary Cut Rollback But Group's Market Power Is \"Very Limited\"",
+      "body": "OPEC+'s seven core members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — agreed at their September 6 virtual meeting to hold October production quotas flat from September, completing the rollback of 1.65 mb/d in voluntary cuts first agreed in 2023. The group retains another ~2 mb/d layer of 2022-vintage cuts through year-end. Yet Rystad Energy analyst Jorge Leon said OPEC+ \"currently has very limited power over the physical oil market\" — actual output from Gulf members remains well below quota due to Hormuz disruption. OECD commercial inventories fell to 2.73 billion barrels in June, 66.5 mb below the five-year average. The group now turns to setting 2027 baselines, with D&M capacity reviews expected late this month.",
+      "link_url": "https://www.energyconnects.com/news/oil/2026/september/opecplus-keeps-output-policy-unchanged-for-october",
+      "link_text": "Read Energy Connects"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 14 — Monday",
+      "name": "Iran-GCC Ministerial Meeting — Salalah, Oman — First Since the War",
+      "impact": "The most significant diplomatic calendar event since the collapse of the June 19 Switzerland signing ceremony. A constructive session that produces a joint communiqué endorsing the Iran-Oman provisional corridor framework would give Iran political cover to begin provisional commercial transit and put maximum pressure on Washington to lift the naval blockade. A breakdown — particularly if the US missile retaliation for Thursday's attack occurs over the weekend and poisons the atmosphere — would close this de-escalation window and likely send Brent back above $108.",
+      "market_impact": "Constructive outcome: Brent tests $100–$103. Breakdown or weekend US military strike: $108–$115+.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Weekend–Monday",
+      "name": "US Military Response to Iranian Ballistic Missile Strike on US Destroyer",
+      "impact": "US Central Command confirmed a US destroyer sustained damage in an Iranian ballistic missile strike Thursday night — the first confirmed direct hit on a US Navy vessel in this conflict. The nature and timing of the US response will govern whether Monday's Salalah meeting survives the political environment. A targeted US strike on Iranian missile batteries or naval assets (contained response) could proceed alongside the diplomatic track. A strike on Iranian oil infrastructure, particularly Kharg Island or Bandar Abbas, would escalate Brent toward $115–$130+ and likely end the Salalah talks before they begin.",
+      "market_impact": "Contained US strike: $105–$112, Salalah track intact. Kharg Island / oil infrastructure strike: $115–$130+, Salalah collapses.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 17",
+      "name": "EIA Weekly Petroleum Status Report — Week Ending September 12",
+      "impact": "This report will capture the full supply-chain impact of the Saudi East-West Pipeline shutdown, the week's tanker war escalation, and the initial demand read from national diesel at $5.90/gallon. The distillate figure is the critical number: any reading below 97–98 mb heading into the heating season would signal an accelerating structural deficit. A crude build on demand destruction would be the lone bearish surprise in an otherwise tightly balanced market.",
+      "market_impact": "Distillates <97 mb: +$2–5/bbl crude + ULS1! spike. Crude build >3 mb: −$1–2/bbl bearish offset.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi-Saudi Bab al-Mandab Escalation — East-West Pipeline Offline",
+      "impact": "With the Saudi East-West pipeline forced offline following the September 8 Houthi strikes, Saudi Arabia's only remaining oil export route runs either through Bab al-Mandab — now contested by Houthis holding Perim Island — or through residual Hormuz corridor flows. Saudi Arabia's request for US airstrikes against the Houthis was declined. Any further Houthi strikes on Bab al-Mandab shipping or Saudi terminals would remove the final material Gulf export alternative and create a near-total chokepoint crisis.",
+      "market_impact": "Structural. Bab al-Mandab fully blocked: remove 2–3 mb/d Saudi exports, Brent +$10–$20.",
+      "risk": "High"
+    },
+    {
+      "date": "Late September",
+      "name": "D&M OPEC+ Capacity Review — 2027 Production Quota Baselines",
+      "impact": "DeGolyer and MacNaughton's independent capacity assessments will set 2027 production quota baselines for OPEC+ members. The key distinction is between declared capacity and accessible capacity: Gulf member output remains far below quota due to Hormuz disruption. Saudi Arabia's assessment will determine whether the group can credibly promise supply increases in 2027 to help fund market-share recovery if Hormuz reopens.",
+      "market_impact": "Forward curve signal. Saudi upward revision: bearish on 2027 strip. Downward revision: structural floor for $90+/bbl into 2027.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Friday's session was the most instructive of the post-ballistic-missile week. Iran hit a US destroyer with guided ballistic munitions on Thursday night — a threshold crossed, a line obliterated — and Brent's response on Friday was a <em>decline</em> of 2.85%. That is not complacency. That is the market explicitly choosing to price the diplomatic path over the military one, as if saying: the September 14 Salalah meeting matters more than Thursday night's exchange. The question for the weekend is whether it's right.",
+      "<strong>The read on the situation:</strong> The Iran-GCC ministerial meeting in Salalah is the most substantive diplomatic development since the June 19 Switzerland ceremony that ultimately collapsed. It is different from that moment in one important way: this is not a US-Iran bilateral summit dependent on Trump. It is a regional gathering, initiated by Oman, with Iran and its Gulf Arab neighbours around the same table for the first time since February 28. If it produces even a communiqué that endorses the Iran-Oman provisional corridor framework, it creates political pressure on Washington that is harder to ignore than a bilateral channel. The market is pricing this correctly, if perhaps slightly early.",
+      "<strong>The structural read:</strong> The physical market has not heard any of Friday's diplomatic relief. Distillates below 100 million barrels. Global inventory drawdown of 400 million barrels since January. ULS1! October at $1,422.75/mt and barely moved. Saudi Arabia has lost its East-West pipeline. The Bab al-Mandab is contested. The IEA says 2026–27 is a 'lost period' for demand. None of that changes if Monday's meeting produces a joint statement and zero US policy movement.",
+      "<strong>My call: Brent $100–$112 this week</strong>, with Monday as the fulcrum. A constructive Salalah meeting that survives any US weekend military response could test $100–$103 early in the week; a weekend strike on Iranian oil infrastructure or a Salalah breakdown sends the tape back above $110 with a tail to $115+. The diplomacy trade is alive. It is not yet a trend. <strong>Watch the US military action window between now and Monday morning, Salalah time.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Hormuz Escalation Risk (48h)", "label": "Falling — Salalah Meeting Opens De-escalation Window", "tone": "bullish", "pct": 52 },
+      { "name": "Geopolitical Risk", "label": "Elevated — Ballistic Missile Hit on US Destroyer Unresolved", "tone": "bearish", "pct": 78 },
+      { "name": "Supply Tightness", "label": "Critical — Distillates <100 mb; Global Stocks −400 mb YTD", "tone": "bearish", "pct": 88 },
+      { "name": "Demand Destruction", "label": "Deepening — IEA: −2.5 mb/d in 2026; Diesel at $5.90/gal", "tone": "bullish", "pct": 68 },
+      { "name": "Diplomatic Progress", "label": "Emerging — First GCC-Iran Talk Since Feb 28 on Monday", "tone": "bullish", "pct": 58 },
+      { "name": "OPEC+ Buffer", "label": "Thin — ~2 mb/d Spare Capacity; October Policy Frozen", "tone": "bearish", "pct": 22 }
+    ],
+    "call": {
+      "label": "This Week's Price Call — Brent Crude",
+      "value": "$100 – $112",
+      "bias": "Bias: Monday Pivot — Constructive Salalah = $100–$103 ▼; US Military Response + Salalah Breakdown = $110–$115+ ▲▲"
+    },
+    "watch_levels": {
+      "resistance": "$108–$110 (Thursday intraday high; war-premium re-entry zone)",
+      "support": "$101–$103 (Friday close; diplomacy-discount floor)",
+      "breakout": ">$112 (US strike on Iranian oil infrastructure / Salalah breakdown)",
+      "breakdown": "<$100 (Salalah communiqué + US signals flexibility on naval blockade)"
+    }
+  }
+}
