@@ -1,0 +1,154 @@
+{
+  "date_long": "Monday, September 14, 2026",
+  "date_slug": "sep14-2026",
+  "volume": "Vol. I — No. 46",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, Al Jazeera, CNN, Bloomberg, CNBC, OilPrice.com, Reuters, Trading Economics, Commodity Context",
+
+  "ticker": [
+    "BRENT $107.87/BBL ▲ +3.2% — SALALAH TALKS POSTPONED INDEFINITELY; SAUDI PIPELINE STILL OFFLINE; DUAL-CHOKEPOINT CRISIS CONFIRMED",
+    "ULS1! (OCT FRONT-MONTH) $1,516.50/MT ▲ +6.6% — ICE EUROPE; GASOIL PREMIUM SURGES AS BOTH SAUDI EXPORT ARTERIES FAIL",
+    "VESSEL STRUCK IN STRAIT OF HORMUZ — UKMTO: TANKER HIT NEAR LARAK ISLAND SUNDAY; INSURANCE MARKET IN EMERGENCY MODE",
+    "SALALAH GCC-IRAN MINISTERIAL POSTPONED INDEFINITELY — OMAN FM CITES 'CONSENSUS FAILURE'; HORMUZ CORRIDOR DEAL DELAYED",
+    "IEA: 2026 OIL DEMAND TO FALL 2.5 MB/D — LARGEST ANNUAL CONTRACTION SINCE COVID; MIDDLE DISTILLATES HARDEST HIT",
+    "DUAL CHOKEPOINT CONFIRMED — HORMUZ CLOSED + SAUDI EAST-WEST PIPELINE OFFLINE SIMULTANEOUSLY FOR FIRST TIME IN WAR"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$107.87", "change": "▲ +3.2% (Salalah collapse + pipeline offline)", "direction": "up" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,516.50/mt", "change": "▲ +6.6% (Oct front-month; distillate crisis peaks)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$103.00", "change": "▲ +2.0% (Monday open; follows Brent)", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$2.87/MMBtu", "change": "→ Flat (heating risk building)", "direction": "" },
+    { "label": "US Distillate Stocks", "value": "−13% vs. 5yr", "change": "▼ Below seasonal floor; deficit structural through 2027", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Dual-Chokepoint Confirmed — Salalah Collapses, Pipeline Stays Dark",
+    "headline": "Iran-GCC Salalah Talks Postponed Indefinitely as Saudi Pipeline Remains Offline — Brent Surges 3.2% to $107.87, Gasoil Spikes to $1,516/mt",
+    "paragraphs": [
+      "The market's most anticipated diplomatic session since June 19 never happened. The Iran-GCC ministerial meeting in Salalah, Oman — confirmed for Monday and widely expected to yield a provisional Hormuz corridor agreement — was <strong>postponed indefinitely on Sunday</strong>, as Oman's Foreign Minister wrote that <em>\"in the interests of consensus\"</em> the meeting had been called off. The market, which had priced in a constructive outcome with Friday's 2.85% sell-off to $104.52, reversed violently: Brent crude surged 3.2% to $107.87, while Low Sulphur Gasoil futures (ULS1!) spiked 6.6% to $1,516.50 per metric ton — the highest level since the war's peak distillate crisis in April.",
+      "The postponement is a compound blow. Saudi Arabia's East-West pipeline — the kingdom's 1,200km bypass carrying up to <strong>5 million barrels per day</strong> of crude to the Red Sea port of Yanbu, and the only functioning major export route while Hormuz remains closed — is still offline following Thursday's drone attacks launched from Iraq's Maysan province. With both the Strait of Hormuz and the East-West pipeline effectively shuttered, Saudi Arabia faces <strong>simultaneous closure of both its primary crude export arteries</strong> for the first time in the war's six-month history. UKMTO reported a vessel struck near Larak Island in the Strait on Sunday, the latest in a succession of incidents underscoring the lethal risk environment any resumption of Hormuz transit would face.",
+      "The IEA released its September Oil Market Report alongside the diplomatic collapse, cutting the 2026 global demand forecast by <strong>940 kb/d</strong> to project a 2.5 mb/d annual contraction — the largest annual decline since the COVID-19 pandemic. Losses are concentrated in middle distillates and petrochemical feedstocks, with Asian demand bearing the heaviest burden at current gasoil prices. Global oil production fell 1.6 mb/d in August to 100.1 mb/d, with Saudi Arabia's crude output averaging just 6.24 mb/d as Houthi maritime attacks and the pipeline closure combined to constrain exports. Total supply is set to fall 5.7 mb/d on the year — a gap that demand destruction alone has not yet been able to bridge."
+    ],
+    "link_url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "~5 mb/d", "desc": "Saudi East-West Pipeline Capacity Offline — Kingdom's Primary Hormuz-Bypass Route Dark Since Thursday" },
+      { "num": "+6.6%", "desc": "ULS1! Gasoil One-Day Spike as Both Saudi Export Arteries Close Simultaneously — $1,516.50/mt" },
+      { "num": "−2.5 mb/d", "desc": "IEA 2026 Annual Oil Demand Contraction Forecast — Largest Since the 2020 COVID-19 Pandemic" },
+      { "num": "Indefinitely", "desc": "Salalah GCC-Iran Ministerial Postponed — Oman FM Cites 'Consensus Failure'; No Rescheduling Date Set" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Salalah Talks Collapse: Iran-GCC Ministerial Postponed Indefinitely, Hormuz Corridor Deal Delayed",
+      "body": "The Iran-GCC ministerial meeting in Salalah, Oman — the highest-stakes diplomatic engagement since the June 19 Switzerland signing — was postponed indefinitely on Sunday. Oman's Foreign Minister announced the postponement citing \"consensus\" concerns among the parties. The talks were expected to produce a framework for a provisional shipping corridor through the Strait of Hormuz, following Iran-Oman preliminary agreements last month on shipping routes and mine-clearing procedures. The Trump administration had signalled it wanted future US-Iran talks focused on Tehran's nuclear program rather than re-opening the strait — creating a gap between Gulf state priorities and Washington's diplomatic agenda that analysts say contributed to the breakdown.",
+      "link_url": "https://www.cnn.com/2026/09/13/politics/iran-gulf-countries-strait-of-hormuz",
+      "link_text": "Read CNN"
+    },
+    {
+      "tag": "Supply / Infrastructure",
+      "headline": "Saudi East-West Pipeline Remains Offline — 4–5 mb/d of Hormuz-Bypass Capacity Dark Since Thursday Drone Attack",
+      "body": "Saudi Arabia's 1,200km East-West crude pipeline, which had been carrying an estimated 4–5 million barrels per day to the Red Sea port of Yanbu as the primary bypass for oil that could no longer transit the Strait of Hormuz, remains offline following Thursday's drone strikes originating from Iraq's Maysan province. The attacks hit the pipeline in the Riyadh and Medina areas, triggering fires visible in satellite imagery. Saudi Arabia said it \"reserves the right to take all necessary measures\" but has deferred retaliation at Baghdad's request. Iraq dismissed a military commander and launched an investigation, but no group claimed responsibility — an omission analysts attribute to Iranian-aligned proxies operating through deniable networks.",
+      "link_url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Shipping",
+      "headline": "Vessel Struck Near Larak Island — UKMTO Confirms Latest Hormuz Incident as Insurance Market Seizes",
+      "body": "The United Kingdom Maritime Trade Operations confirmed Sunday that a vessel was struck near Larak Island in the Strait of Hormuz, the latest in a series of incidents that have made the strait one of the world's most dangerous commercial waterways. War-risk insurance premiums for Hormuz transits have surged to levels rendering most voyages economically unviable for standard tanker operators. The incident complicates any diplomatic effort to establish a provisional shipping corridor: even if Iran agreed in principle, a functional transit arrangement would require substantial mine clearance and naval escort infrastructure that does not yet exist.",
+      "link_url": "https://www.cnbc.com/2026/09/13/vessel-struck-strait-of-hormuz-ukmto.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "IEA / Demand",
+      "headline": "IEA Cuts 2026 Demand Forecast by 940 kb/d — Projects Largest Annual Contraction Since COVID-19",
+      "body": "The International Energy Agency's September Oil Market Report projects that global oil demand will fall 2.5 million barrels per day in 2026 — the steepest annual decline since the 2020 pandemic — with losses concentrated in middle distillates and petrochemical feedstocks, particularly across Asia. The forecast was cut 940 kb/d from August, reflecting the continued impasse in US-Iran negotiations that has pushed full normalisation of flows into 2027. Global production fell 1.6 mb/d in August to 100.1 mb/d, with more than 10 mb/d of Gulf output shut in. Total supply is set to fall 5.7 mb/d on the year, with a 2.6 mb/d recovery now projected for 2027 — barely offsetting this year's losses.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-09-11/iea-warns-oil-demand-may-have-to-fall-further-as-iran-war-drags",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC August Data: Saudi Output Craters to 6.24 mb/d — Group Quota Compliance Overwhelmed by War Damage",
+      "body": "OPEC's September Monthly Oil Market Report showed quota-participating OPEC+ crude output rose 627 kb/d in August on paper, but Saudi Arabia's crude production collapsed 1.9 mb/d month-on-month to just 6.24 mb/d — a level not seen since early 2021 — as Houthi maritime bans and the East-West pipeline closure combined to strangle Saudi export capacity. Iranian crude output fell approximately 400 kb/d in August to just over 2 mb/d, the lowest since 2020. Iraq partially offset Gulf losses via aggressive cargo discounting and Hormuz shuttle trade. The data underscores a structural output gap: the group is nominally increasing quotas, but physical delivery capacity has been devastated by infrastructure attacks and forced export-route changes.",
+      "link_url": "https://www.commoditycontext.com/p/opec-data-deck-september-2026",
+      "link_text": "Read Commodity Context"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "EIA: US Crude Stocks 424 mb at Seasonal Average — But Distillates -13% Below 5yr Floor with Heating Season Approaching",
+      "body": "US commercial crude inventories stood at 424.1 million barrels as of September 4, matching the five-year seasonal average after a 391,000-barrel draw — well below the market's expected 1.55 million-barrel decline. Refinery inputs averaged 17.6 mb/d, up 91,000 bpd week-on-week, reflecting strong domestic processing margins. The EIA's September Short-Term Energy Outlook, released September 9, noted that global oil prices averaged $91/bbl in August — $7/b above July — driven by falling global inventories that have declined by 400 million barrels so far this year. US distillate stocks remain critically depressed, running 13% below the five-year seasonal average with the Northern Hemisphere heating season approaching.",
+      "link_url": "https://www.eia.gov/outlooks/steo/",
+      "link_text": "Read EIA STEO"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "This Week",
+      "name": "Salalah Resumption — If, When, and On What Revised Terms",
+      "impact": "The postponement removed the single most powerful near-term price-bearish catalyst from the calendar. The market will trade headline-by-headline on any rescheduling signal. A credible new date — even without a signed corridor agreement — would likely trigger a $5–8/bbl sell-off as the diplomatic risk premium partially unwinds. A prolonged silence would cement a $107–$115 range as the new trading baseline.",
+      "market_impact": "Binary and headline-driven. Every statement from Oman, Tehran, or Gulf foreign ministries is a potential market-moving catalyst.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Pending — Imminent",
+      "name": "US Military Response to Iranian Ballistic Missile Strike on USS Destroyer",
+      "impact": "The Trump administration's response to Thursday's ballistic missile strike on a US Navy destroyer in the Gulf remains undeclared. A kinetic strike on Iranian military or energy infrastructure would instantly add $10–15/bbl; a non-kinetic (cyber, diplomatic, sanctions) response or a public decision not to escalate militarily could pull Brent back below $104.",
+      "market_impact": "Highest-impact, most uncertain catalyst on the calendar. Binary: escalation = $115–$125+; de-escalation = $98–$103.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Saudi East-West Pipeline Damage Assessment and Restart Timeline",
+      "impact": "Saudi Aramco's engineering teams are assessing damage at strike points near Riyadh and Medina. Any official statement on restart timeline — days, weeks, or months — will move the market. A rapid restart (48–72 hours) would reprice $3–5 of the current premium; a structural damage finding requiring weeks of repair would push Brent toward $115.",
+      "market_impact": "±$4–7/bbl depending on timeline disclosed. May come as an unscheduled press release.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 17 (Wed)",
+      "name": "EIA Weekly Petroleum Status Report — Week Ending September 12",
+      "impact": "The first inventory print into the post-Salalah-collapse, post-pipeline-shutdown tape. With crude stocks at the five-year average, the focus is entirely on distillates: any further draw in the already -13% deficit environment would amplify the gasoil crack and push ULS1! above $1,600/mt. A surprise build would offer temporary relief but is unlikely given constrained import flows.",
+      "market_impact": "±$2–4/bbl; ±$30–50/mt for ULS1!. The distillates number is the critical data point.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Sep 14 — Ongoing",
+      "name": "OPEC+ Emergency Meeting Speculation — Saudi Red Line at $100/bbl Brent",
+      "impact": "With Saudi crude production at a five-year low and the kingdom unable to export freely via either major route, speculation is building about whether OPEC+ will call an emergency meeting to discuss a formal production freeze. A unilateral Saudi statement defending a $100/bbl floor would carry significant signal value even without a scheduled meeting, as it would confirm the group's intent to act as a price backstop.",
+      "market_impact": "Structural if confirmed — could anchor downside at $100–$105 and compress the trading range.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Three trading sessions ago I wrote that Salalah was the pivot — that a constructive outcome would pull Brent toward $98–$102 and a breakdown would push it back toward $112–$115. As of this morning, the breakdown scenario is live. The meeting that the entire diplomatic architecture of this crisis was built around has been postponed indefinitely, with Oman's foreign minister offering only the word <em>\"consensus\"</em> as an explanation — a word that typically means one or more parties walked away from agreed terms at the last minute.",
+      "<strong>My read on today:</strong> The market is now trading a full dual-chokepoint reality with no diplomatic off-ramp visible on the calendar. Saudi Arabia's East-West pipeline is offline. The Strait of Hormuz is closed. Salalah is postponed. A US military response to Thursday's ballistic missile strike on a Navy destroyer remains undeclared. That is <strong>four simultaneous bearish supply factors</strong> — and the only real counterweight is demand destruction that the IEA has now quantified at -2.5 mb/d for the full year.",
+      "<strong>The bigger picture:</strong> The IEA demand revision matters, but it is not today's story. Gasoil at $1,516/mt is doing enormous demand destruction work in real time — every week at these prices, Asian industrial consumers and diesel importers are either shutting down, switching fuel, or deferring production. But the physical supply shock is moving faster than the demand response. With no pipeline, no Hormuz transit, and no diplomatic meeting on the calendar, <strong>there are simply no incremental barrels to cover the gap</strong>, no matter how much demand falls.",
+      "My call: <strong>Brent holds $105–$118 today</strong>, with bias toward the upper end unless the Salalah meeting is rescheduled with a credible date or the pipeline restarts. <strong>The dual chokepoint is not a scenario — it is the current operational reality.</strong> The downside requires a specific trigger; the upside requires only continued silence."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Diplomatic Progress", "label": "Collapsed — Salalah Postponed Indefinitely", "tone": "bearish", "pct": 12 },
+      { "name": "Geopolitical Risk", "label": "Extreme — Dual Chokepoint + US Response Pending", "tone": "bearish", "pct": 94 },
+      { "name": "Supply Tightness", "label": "Critical — Both Saudi Export Routes Offline", "tone": "bearish", "pct": 97 },
+      { "name": "Demand Destruction", "label": "Deepening — IEA −2.5 mb/d; Gasoil at $1,516/mt", "tone": "bullish", "pct": 80 },
+      { "name": "Hormuz Re-opening Odds", "label": "Collapsed — No Corridor Talks Scheduled", "tone": "bearish", "pct": 10 },
+      { "name": "OPEC+ Buffer", "label": "Exhausted — Saudi Output at Five-Year Low", "tone": "bearish", "pct": 10 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$105 – $118",
+      "bias": "Bias: Higher Until Salalah Rescheduled or Pipeline Restarted ▲"
+    },
+    "watch_levels": {
+      "resistance": "$115–$118 (dual-chokepoint worst-case pricing zone)",
+      "support": "$104–$106 (Salalah rescheduled with credible date)",
+      "breakout": ">$120 (US strike on Iranian oil infra / pipeline damage confirmed structural)",
+      "breakdown": "<$100 (pipeline restart + new Salalah date + US de-escalation)"
+    }
+  }
+}
