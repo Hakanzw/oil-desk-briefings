@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Thursday, September 17, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE $107.77 ▼ −0.90% — EASES FROM FOUR-MONTH HIGH ON SAUDI PIPELINE RESTART OPTIMISM &nbsp;|&nbsp; EIA CONFIRMS −0.6 mb CRUDE DRAW FOR WEEK ENDING SEP 11 — API'S +7.14 mb BUILD WAS PRE-SHUTDOWN CARGO ARTIFACT &nbsp;|&nbsp; SAUDI ARAMCO TARGETS EAST-WEST BYPASS AT HALF-CAPACITY WITHIN DAYS; FULL RESTORATION ~6 WEEKS &nbsp;|&nbsp; LIBYA RESTORES PRODUCTION AT EL FEEL & WAFA AFTER PETROLEUM GUARDS STAND DOWN &nbsp;|&nbsp; DISTILLATE STOCKS FORECAST BELOW 100 MB THIS QUARTER — GASOIL CRACK SPREAD STILL ~$100/bbl &nbsp;|&nbsp; OPEC+ HOLDS OCTOBER OUTPUT AT SEPTEMBER LEVELS — SAUDI PRODUCTION AT LOWEST SINCE 1990 &nbsp;|&nbsp; GOLDMAN SACHS: >$120/bbl BRENT SCENARIO LIVE IF FULL PIPELINE REPAIR TAKES 8 WEEKS&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Thursday, September 17, 2026<br>
+      Vol. I — No. 49<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$107.77</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$1,546.75/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$107.77</div>
+      <div class="price-change down">▼ −0.90% (pipeline restart optimism trims Saudi risk premium)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">$1,546.75/mt</div>
+      <div class="price-change up">▲ +0.57% (structural distillate tightness holds even as crude softens)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$105.89</div>
+      <div class="price-change down">▼ −0.75% (European refiners still switching to US supply)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Gasoil/Diesel Crack vs Brent</div>
+      <div class="price-val">~$100/bbl</div>
+      <div class="price-change " style="color:#888;">— Flat; five times the pre-crisis level</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">~$2.90/MMBtu</div>
+      <div class="price-change down">▼ −0.3% (LNG export demand maintains the floor)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Pipeline Watch — EIA Confirms Draw as Aramco Races to Restart Bypass Route</div>
+      <h3>EIA Quashes the API Illusion: −0.6 mb Draw Confirmed — Brent Softens to $107.77 as Aramco Targets Half-Pipeline Capacity Within Days</h3>
+      <p>Wednesday delivered both the resolution traders had been waiting for and the news that the market's next battle has already begun. The EIA weekly petroleum status report for the week ending <strong>September 11</strong> confirmed a commercial crude draw of <strong>−0.6 million barrels</strong> — squarely contradicting the API's overnight build of +7.14 mb that had unsettled markets on Tuesday. As this column flagged yesterday, the API figure was almost certainly a mechanical artifact: pre-shutdown Yanbu export volumes loaded before the September 11 drone strike arrived at US import terminals mid-week, inflating crude stock numbers without reflecting forward supply conditions. The EIA has now put the ghost to rest.</p>
+      <p>Simultaneously, Saudi Aramco moved to contain the East-West pipeline crisis. State-run Aramco is <strong>bypassing the damaged section</strong> of the 1,200-km conduit and targets restoring <strong>roughly half the pipeline's 4–5 mb/d capacity within days</strong>, with full restoration expected in approximately six weeks. US Energy Secretary Chris Wright had signalled Tuesday that the outage should last "only a matter of days," lending diplomatic weight to Aramco's engineering timeline. Brent eased from Wednesday's close of $108.75 to $107.77 in early Thursday trading — a <strong>−0.90% retreat</strong> that reflects restart optimism rather than any change in the underlying supply picture, which remains historically stressed.</p>
+      <p>Libya added a moment of relief to an otherwise grim week. The National Oil Corporation confirmed that production at <strong>El Feel, Wafa, and other shuttered fields</strong> has resumed after the Petroleum Facilities Guard stood down following an agreement to begin negotiations over transferring the force's administrative oversight to the NOC. The restoration removes the Libya force-majeure overlay that compounded Tuesday's supply anxiety, though it does nothing to address the far larger structural problem: more than <strong>10 mb/d of Gulf output remains shut in</strong>, the East-West pipeline is still at half-capacity at best, and the Strait of Hormuz remains disrupted for the eighth consecutive month.</p>
+      <a href="https://finance.yahoo.com/energy/articles/saudi-aramco-targets-half-east-164044078.html" class="read-link" target="_blank">Read Bloomberg/Yahoo Finance →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">−0.6 mb</div>
+        <div class="stat-desc">EIA Crude Inventory Draw for Week Ending Sep 11 — Contradicts API's +7.14 mb Build Artifact</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~$100/bbl</div>
+        <div class="stat-desc">Gasoil/Diesel Crack Spread vs Brent — Five Times the Pre-Crisis Level; Distillate Tightness Persists</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~102 mb</div>
+        <div class="stat-desc">US Distillate Stocks — Forecast to Fall Below the Critical 100 mb Threshold This Quarter</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">~6 wks</div>
+        <div class="stat-desc">Aramco's Timeline for Full East-West Pipeline Restoration; Bypass Targets Half-Capacity Within Days</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">EIA Inventory</div>
+      <h4>EIA Confirms −0.6 mb Crude Draw — The API's +7.14 mb Build Was a Pre-Shutdown Cargo Illusion</h4>
+      <p>The EIA's weekly petroleum status report for the week ending September 11 showed commercial crude inventories fell 640,000 barrels to <strong>423.4 million barrels</strong> — 1% above the five-year average. The draw directly contradicted the API's reported +7.14 million barrel build, which analysts now attribute to Yanbu pre-shutdown export cargoes landing at US ports mid-week. Distillate fuel stocks fell further and are forecast to breach the critical 100-million-barrel floor before quarter-end, a threshold not crossed since 2014. Refinery utilisation held at 96.8% of operable capacity.</p>
+      <a href="https://www.eia.gov/petroleum/supply/weekly/" class="read-link" target="_blank">Read EIA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Saudi Supply</div>
+      <h4>Aramco Bypassing Damaged Section — Half the East-West Pipeline's Capacity Targeted Within Days</h4>
+      <p>Saudi Aramco is engineering a bypass around the section of the East-West pipeline damaged in last Thursday's drone strike, which knocked out 4–5 million barrels per day of export capacity — approximately 4% of global supply. The company is targeting <strong>roughly half-capacity resumption within days</strong>, with full restoration projected over six weeks. US Energy Secretary Chris Wright confirmed the restart timeline Tuesday, though crude loadings at the Red Sea hub of Yanbu remain reduced and some late-September European cargo deliveries have been cancelled. Goldman Sachs has put a probability on <strong>Brent exceeding $120/bbl</strong> if repairs stretch to the eight-week upper-bound scenario.</p>
+      <a href="https://finance.yahoo.com/energy/articles/saudi-aramco-targets-half-east-164044078.html" class="read-link" target="_blank">Read Bloomberg →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Libya</div>
+      <h4>Libya Restores El Feel, Wafa and Three Other Fields After Petroleum Guards Stand Down</h4>
+      <p>The National Oil Corporation confirmed that production has resumed at El Feel, Wafa, and several other suspended fields after the Petroleum Facilities Guard ended its valve-closure protest. The PFG, which had shut the Hamada-Zawiya pipeline and threatened force majeure, stood down after the prime minister's office agreed to begin formal negotiations on transferring the security force from the Defence Ministry to the NOC. Libya was producing approximately <strong>1.1 mb/d</strong> before the disruption; the NOC said operations have returned to normal, removing one of three concurrent supply flashpoints from the market — at least for now.</p>
+      <a href="https://egyptoil-gas.com/news/libya-resumes-production-at-el-feel-wafa-oilfields/" class="read-link" target="_blank">Read Egypt Oil & Gas →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">IEA Outlook</div>
+      <h4>IEA September OMR: World Supply −5.7 mb/d Year-on-Year; Full Gulf Recovery Deferred to 2027</h4>
+      <p>The IEA's September Oil Market Report cut its 2026 global oil demand forecast by a further <strong>940,000 b/d</strong> (to a decline of 2.5 mb/d year-on-year) as the US–Iran impasse delays normalisation of flows. World oil supply is projected to average <strong>100.7 mb/d</strong> in 2026, down 5.7 mb/d year-on-year, with August production falling another 1.6 mb/d month-on-month to 100.1 mb/d as more than 10 mb/d of Gulf output remains shut in. A full supply recovery — estimated at 8 mb/d — is now forecast for 2027. Middle distillate stocks are highlighted as the most acute product market risk, with global diesel inventories at their lowest level since 2014.</p>
+      <a href="https://www.iea.org/reports/oil-market-report-september-2026" class="read-link" target="_blank">Read IEA →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>OPEC+ Holds October Output at September Levels — Saudi Production Hits Lowest Since 1990</h4>
+      <p>The seven core OPEC+ nations — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — voted on September 6 to maintain required October 2026 production at September levels, completing the phased rollback of the 2023 voluntary cuts. Saudi Arabia's quota is largely theoretical: Aramco production has slumped to its lowest level since 1990 as export routes via Hormuz remain disrupted and the East-West pipeline is now also offline. OPEC total output ran at approximately <strong>28.4 mb/d</strong> in August, with Saudi Arabia accounting for the single largest shortfall. The group's next meeting is scheduled for <strong>October 4, 2026</strong>.</p>
+      <a href="https://www.opec.org/pr-detail/613-6-september-2026.html" class="read-link" target="_blank">Read OPEC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Houthi Risk</div>
+      <h4>Houthis Intensify Saudi Strikes — Bab el-Mandab Transit Risk Rises as Red Sea Lanes Narrow</h4>
+      <p>Iran-backed Houthi forces launched renewed drone and missile strikes on Saudi Arabia this week, including attacks on Khamis Mushait, Abha, and Taif, while maintaining a threat posture over the <strong>Bab el-Mandab Strait</strong> — the 18-mile chokepoint through which the East-West pipeline's Yanbu exports must transit to reach European and Asian buyers. With Yanbu loadings suspended and the strait increasingly contested, Saudi crude now lacks a clear reliable export route. Analysts at gCaptain and DTN note that US crude shipping costs to Asia have hit a <strong>record $44.8 million per VLCC</strong>, as buyers scramble for alternatives.</p>
+      <a href="https://gcaptain.com/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply/" class="read-link" target="_blank">Read gCaptain →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Sep 17–18 — Imminent</td>
+        <td>
+          <div class="event-name">Aramco East-West Pipeline Bypass Activation — Half-Capacity Target</div>
+          <div class="event-impact">Aramco is engineering a bypass around the damaged section and targeting roughly half of the pipeline's 4–5 mb/d capacity within days. Successful bypass activation would confirm partial supply restoration and is the single most important near-term catalyst for a crude price pullback. Failure or delay beyond this window — or any new Houthi attack on the bypass infrastructure — would reignite the $120+ Brent scenario.</div>
+        </td>
+        <td>Directional: ±$5–8/bbl on confirmation vs delay.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 18–22 — Next Week</td>
+        <td>
+          <div class="event-name">Yanbu Crude Loadings — Can Saudi Red Sea Exports Resume?</div>
+          <div class="event-impact">Even with half the pipeline's capacity restored, Saudi Aramco must also reopen Yanbu loading operations and navigate Houthi harassment of Bab el-Mandab transit. A resumption of crude loadings at Yanbu would be the most visible confirmation that the supply crunch is stabilising. Any new Houthi strike on Yanbu terminal infrastructure would be the most bearish scenario for price.</div>
+        </td>
+        <td>Structural; governs the pace of supply normalisation.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sep 23</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report — Week Ending Sep 18</div>
+          <div class="event-impact">The first full EIA print to capture both the pipeline shutdown aftermath and any initial restart effect. Distillate stocks are the critical number: a sub-100 mb reading would be the first since 2014 and would put crack spreads structurally even wider. The crude number is secondary unless it shows a very large unexpected build that calls into question refinery demand.</div>
+        </td>
+        <td>±$2–4/bbl; distillate reading likely the headline.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Oct 4</td>
+        <td>
+          <div class="event-name">OPEC+ Monthly Ministerial Meeting</div>
+          <div class="event-impact">With Saudi production at a 35-year low and the group already maintaining October output at September levels, the October 4 meeting will be watched for any emergency production cut to shore up prices — or, in the unlikely upside scenario where the bypass succeeds rapidly and Yanbu resumes, any reaffirmation of the output schedule. The group has almost no meaningful spare capacity to deploy.</div>
+        </td>
+        <td>Forward-looking; governs the Q4 price floor narrative.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Oct–Nov (6 Weeks)</td>
+        <td>
+          <div class="event-name">East-West Pipeline Full Restoration — Aramco Six-Week Target</div>
+          <div class="event-impact">Full pipeline restoration to 7 mb/d capacity (confirmed by a prior April 2026 attack recovery) remains Aramco's stated six-week goal from September 11. If achieved, Saudi Arabia would have its primary Hormuz-bypass route back in full operation, materially reducing the physical supply risk premium. Goldman Sachs estimates this scenario puts Brent in the $90–$100 range by November. A failed or delayed repair keeps the $110+ range live into Q4.</div>
+        </td>
+        <td>Medium-term price ceiling or floor; binary outcome.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Thursday, September 17, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Yesterday I called <strong>$104–$112 biased two-sided</strong>, with the EIA print as the twin catalyst alongside the Yanbu clock. Brent held $107.98 at the close on Wednesday, entirely within the range. The EIA delivered the better outcome: a confirmed <strong>−0.6 mb draw</strong> rather than the API's +7.14 mb phantom build, and crude barely flinched — which tells you everything about where the market's attention actually sits. It's not inventory mechanics right now. It's the pipeline.</p>
+        <p><strong>My read on today:</strong> The API ghost story is buried. The real September 17 question is whether Aramco's bypass engineers can deliver visible barrels within the "days" window that both the company and the US Energy Secretary have publicly committed to. Crude at $107.77 is priced for a successful bypass — not a fast one, but a believable one. If Aramco confirms partial flows before the end of the day or tomorrow, Brent drifts toward $104. If there's any slippage in the activation timeline, the Goldman Sachs >$120 call comes back to the front page immediately.</p>
+        <p><strong>The bigger structural picture:</strong> Distillates are the shadow crisis that crude headlines obscure. The gasoil crack spread has been running at <em>five times</em> its pre-crisis level — roughly $100/bbl — for weeks. US distillate stocks are forecast to breach 100 million barrels this quarter for the first time since 2014. You cannot fix a distillate shortage by hoping Saudi crude gets through a bypass; you need functioning refineries in the Gulf, which requires Hormuz, which requires a diplomatic breakthrough that remains as elusive as ever. The crack spread is the more honest price signal right now than Brent itself.</p>
+        <p>My call: <strong>Brent trades $104–$111 today</strong>, with a downside bias on bypass confirmation and a sharp upside skip above $112 if Aramco's engineering runs into trouble or Houthis launch a new strike on Yanbu terminal infrastructure. <strong>The pipeline bypass is the only event horizon that matters today. Everything else is commentary.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Extreme</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:88%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Very High</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:82%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Pipeline Restart</span><span style="color:#f0a500">Bypass Days Away</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:58%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Distillate Market</span><span style="color:#e05252">Near Critical Threshold</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:90%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diplomatic Progress</span><span style="color:#e05252">Stalled</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:10%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare Capacity Buffer</span><span style="color:#e05252">Historically Thin</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:12%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$104 – $111</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Modestly Lower on Bypass Confirmation — Explosive Upside If Timeline Slips ▼▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$111–$114 (Aramco bypass delayed beyond 'days' window; new Yanbu strike)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$104–$106 (bypass confirmed at half-capacity + Libya stable)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$115 (full eight-week repair timeline confirmed or new Yanbu/Bab el-Mandab attack)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$100 (Aramco bypass delivers 2+ mb/d within 48 hours + Yanbu loadings resume)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Thursday, September 17, 2026</span>
+  <span>Sources: IEA, EIA, OPEC, Al Jazeera, Bloomberg, Reuters, CNBC, Rigzone, gCaptain, Middle East Monitor, Egypt Oil & Gas</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>

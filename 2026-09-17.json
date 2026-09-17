@@ -1,0 +1,155 @@
+{
+  "date_long": "Thursday, September 17, 2026",
+  "date_slug": "sep17-2026",
+  "volume": "Vol. I — No. 49",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IEA, EIA, OPEC, Al Jazeera, Bloomberg, Reuters, CNBC, Rigzone, gCaptain, Middle East Monitor, Egypt Oil & Gas",
+
+  "ticker": [
+    "BRENT CRUDE $107.77 ▼ −0.90% — EASES FROM FOUR-MONTH HIGH ON SAUDI PIPELINE RESTART OPTIMISM",
+    "EIA CONFIRMS −0.6 mb CRUDE DRAW FOR WEEK ENDING SEP 11 — API'S +7.14 mb BUILD WAS PRE-SHUTDOWN CARGO ARTIFACT",
+    "SAUDI ARAMCO TARGETS EAST-WEST BYPASS AT HALF-CAPACITY WITHIN DAYS; FULL RESTORATION ~6 WEEKS",
+    "LIBYA RESTORES PRODUCTION AT EL FEEL & WAFA AFTER PETROLEUM GUARDS STAND DOWN",
+    "DISTILLATE STOCKS FORECAST BELOW 100 MB THIS QUARTER — GASOIL CRACK SPREAD STILL ~$100/bbl",
+    "OPEC+ HOLDS OCTOBER OUTPUT AT SEPTEMBER LEVELS — SAUDI PRODUCTION AT LOWEST SINCE 1990",
+    "GOLDMAN SACHS: >$120/bbl BRENT SCENARIO LIVE IF FULL PIPELINE REPAIR TAKES 8 WEEKS"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$107.77", "change": "▼ −0.90% (pipeline restart optimism trims Saudi risk premium)", "direction": "down" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,546.75/mt", "change": "▲ +0.57% (structural distillate tightness holds even as crude softens)", "direction": "up" },
+    { "label": "WTI Crude", "value": "~$105.89", "change": "▼ −0.75% (European refiners still switching to US supply)", "direction": "down" },
+    { "label": "Gasoil/Diesel Crack vs Brent", "value": "~$100/bbl", "change": "— Flat; five times the pre-crisis level", "direction": "" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.90/MMBtu", "change": "▼ −0.3% (LNG export demand maintains the floor)", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Pipeline Watch — EIA Confirms Draw as Aramco Races to Restart Bypass Route",
+    "headline": "EIA Quashes the API Illusion: −0.6 mb Draw Confirmed — Brent Softens to $107.77 as Aramco Targets Half-Pipeline Capacity Within Days",
+    "paragraphs": [
+      "Wednesday delivered both the resolution traders had been waiting for and the news that the market's next battle has already begun. The EIA weekly petroleum status report for the week ending <strong>September 11</strong> confirmed a commercial crude draw of <strong>−0.6 million barrels</strong> — squarely contradicting the API's overnight build of +7.14 mb that had unsettled markets on Tuesday. As this column flagged yesterday, the API figure was almost certainly a mechanical artifact: pre-shutdown Yanbu export volumes loaded before the September 11 drone strike arrived at US import terminals mid-week, inflating crude stock numbers without reflecting forward supply conditions. The EIA has now put the ghost to rest.",
+      "Simultaneously, Saudi Aramco moved to contain the East-West pipeline crisis. State-run Aramco is <strong>bypassing the damaged section</strong> of the 1,200-km conduit and targets restoring <strong>roughly half the pipeline's 4–5 mb/d capacity within days</strong>, with full restoration expected in approximately six weeks. US Energy Secretary Chris Wright had signalled Tuesday that the outage should last \"only a matter of days,\" lending diplomatic weight to Aramco's engineering timeline. Brent eased from Wednesday's close of $108.75 to $107.77 in early Thursday trading — a <strong>−0.90% retreat</strong> that reflects restart optimism rather than any change in the underlying supply picture, which remains historically stressed.",
+      "Libya added a moment of relief to an otherwise grim week. The National Oil Corporation confirmed that production at <strong>El Feel, Wafa, and other shuttered fields</strong> has resumed after the Petroleum Facilities Guard stood down following an agreement to begin negotiations over transferring the force's administrative oversight to the NOC. The restoration removes the Libya force-majeure overlay that compounded Tuesday's supply anxiety, though it does nothing to address the far larger structural problem: more than <strong>10 mb/d of Gulf output remains shut in</strong>, the East-West pipeline is still at half-capacity at best, and the Strait of Hormuz remains disrupted for the eighth consecutive month."
+    ],
+    "link_url": "https://finance.yahoo.com/energy/articles/saudi-aramco-targets-half-east-164044078.html",
+    "link_text": "Read Bloomberg/Yahoo Finance",
+    "stats": [
+      { "num": "−0.6 mb", "desc": "EIA Crude Inventory Draw for Week Ending Sep 11 — Contradicts API's +7.14 mb Build Artifact" },
+      { "num": "~$100/bbl", "desc": "Gasoil/Diesel Crack Spread vs Brent — Five Times the Pre-Crisis Level; Distillate Tightness Persists" },
+      { "num": "~102 mb", "desc": "US Distillate Stocks — Forecast to Fall Below the Critical 100 mb Threshold This Quarter" },
+      { "num": "~6 wks", "desc": "Aramco's Timeline for Full East-West Pipeline Restoration; Bypass Targets Half-Capacity Within Days" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "EIA Inventory",
+      "headline": "EIA Confirms −0.6 mb Crude Draw — The API's +7.14 mb Build Was a Pre-Shutdown Cargo Illusion",
+      "body": "The EIA's weekly petroleum status report for the week ending September 11 showed commercial crude inventories fell 640,000 barrels to <strong>423.4 million barrels</strong> — 1% above the five-year average. The draw directly contradicted the API's reported +7.14 million barrel build, which analysts now attribute to Yanbu pre-shutdown export cargoes landing at US ports mid-week. Distillate fuel stocks fell further and are forecast to breach the critical 100-million-barrel floor before quarter-end, a threshold not crossed since 2014. Refinery utilisation held at 96.8% of operable capacity.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Saudi Supply",
+      "headline": "Aramco Bypassing Damaged Section — Half the East-West Pipeline's Capacity Targeted Within Days",
+      "body": "Saudi Aramco is engineering a bypass around the section of the East-West pipeline damaged in last Thursday's drone strike, which knocked out 4–5 million barrels per day of export capacity — approximately 4% of global supply. The company is targeting <strong>roughly half-capacity resumption within days</strong>, with full restoration projected over six weeks. US Energy Secretary Chris Wright confirmed the restart timeline Tuesday, though crude loadings at the Red Sea hub of Yanbu remain reduced and some late-September European cargo deliveries have been cancelled. Goldman Sachs has put a probability on <strong>Brent exceeding $120/bbl</strong> if repairs stretch to the eight-week upper-bound scenario.",
+      "link_url": "https://finance.yahoo.com/energy/articles/saudi-aramco-targets-half-east-164044078.html",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Libya",
+      "headline": "Libya Restores El Feel, Wafa and Three Other Fields After Petroleum Guards Stand Down",
+      "body": "The National Oil Corporation confirmed that production has resumed at El Feel, Wafa, and several other suspended fields after the Petroleum Facilities Guard ended its valve-closure protest. The PFG, which had shut the Hamada-Zawiya pipeline and threatened force majeure, stood down after the prime minister's office agreed to begin formal negotiations on transferring the security force from the Defence Ministry to the NOC. Libya was producing approximately <strong>1.1 mb/d</strong> before the disruption; the NOC said operations have returned to normal, removing one of three concurrent supply flashpoints from the market — at least for now.",
+      "link_url": "https://egyptoil-gas.com/news/libya-resumes-production-at-el-feel-wafa-oilfields/",
+      "link_text": "Read Egypt Oil & Gas"
+    },
+    {
+      "tag": "IEA Outlook",
+      "headline": "IEA September OMR: World Supply −5.7 mb/d Year-on-Year; Full Gulf Recovery Deferred to 2027",
+      "body": "The IEA's September Oil Market Report cut its 2026 global oil demand forecast by a further <strong>940,000 b/d</strong> (to a decline of 2.5 mb/d year-on-year) as the US–Iran impasse delays normalisation of flows. World oil supply is projected to average <strong>100.7 mb/d</strong> in 2026, down 5.7 mb/d year-on-year, with August production falling another 1.6 mb/d month-on-month to 100.1 mb/d as more than 10 mb/d of Gulf output remains shut in. A full supply recovery — estimated at 8 mb/d — is now forecast for 2027. Middle distillate stocks are highlighted as the most acute product market risk, with global diesel inventories at their lowest level since 2014.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-september-2026",
+      "link_text": "Read IEA"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds October Output at September Levels — Saudi Production Hits Lowest Since 1990",
+      "body": "The seven core OPEC+ nations — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — voted on September 6 to maintain required October 2026 production at September levels, completing the phased rollback of the 2023 voluntary cuts. Saudi Arabia's quota is largely theoretical: Aramco production has slumped to its lowest level since 1990 as export routes via Hormuz remain disrupted and the East-West pipeline is now also offline. OPEC total output ran at approximately <strong>28.4 mb/d</strong> in August, with Saudi Arabia accounting for the single largest shortfall. The group's next meeting is scheduled for <strong>October 4, 2026</strong>.",
+      "link_url": "https://www.opec.org/pr-detail/613-6-september-2026.html",
+      "link_text": "Read OPEC"
+    },
+    {
+      "tag": "Houthi Risk",
+      "headline": "Houthis Intensify Saudi Strikes — Bab el-Mandab Transit Risk Rises as Red Sea Lanes Narrow",
+      "body": "Iran-backed Houthi forces launched renewed drone and missile strikes on Saudi Arabia this week, including attacks on Khamis Mushait, Abha, and Taif, while maintaining a threat posture over the <strong>Bab el-Mandab Strait</strong> — the 18-mile chokepoint through which the East-West pipeline's Yanbu exports must transit to reach European and Asian buyers. With Yanbu loadings suspended and the strait increasingly contested, Saudi crude now lacks a clear reliable export route. Analysts at gCaptain and DTN note that US crude shipping costs to Asia have hit a <strong>record $44.8 million per VLCC</strong>, as buyers scramble for alternatives.",
+      "link_url": "https://gcaptain.com/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply/",
+      "link_text": "Read gCaptain"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 17–18 — Imminent",
+      "name": "Aramco East-West Pipeline Bypass Activation — Half-Capacity Target",
+      "impact": "Aramco is engineering a bypass around the damaged section and targeting roughly half of the pipeline's 4–5 mb/d capacity within days. Successful bypass activation would confirm partial supply restoration and is the single most important near-term catalyst for a crude price pullback. Failure or delay beyond this window — or any new Houthi attack on the bypass infrastructure — would reignite the $120+ Brent scenario.",
+      "market_impact": "Directional: ±$5–8/bbl on confirmation vs delay.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 18–22 — Next Week",
+      "name": "Yanbu Crude Loadings — Can Saudi Red Sea Exports Resume?",
+      "impact": "Even with half the pipeline's capacity restored, Saudi Aramco must also reopen Yanbu loading operations and navigate Houthi harassment of Bab el-Mandab transit. A resumption of crude loadings at Yanbu would be the most visible confirmation that the supply crunch is stabilising. Any new Houthi strike on Yanbu terminal infrastructure would be the most bearish scenario for price.",
+      "market_impact": "Structural; governs the pace of supply normalisation.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 23",
+      "name": "EIA Weekly Petroleum Status Report — Week Ending Sep 18",
+      "impact": "The first full EIA print to capture both the pipeline shutdown aftermath and any initial restart effect. Distillate stocks are the critical number: a sub-100 mb reading would be the first since 2014 and would put crack spreads structurally even wider. The crude number is secondary unless it shows a very large unexpected build that calls into question refinery demand.",
+      "market_impact": "±$2–4/bbl; distillate reading likely the headline.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 4",
+      "name": "OPEC+ Monthly Ministerial Meeting",
+      "impact": "With Saudi production at a 35-year low and the group already maintaining October output at September levels, the October 4 meeting will be watched for any emergency production cut to shore up prices — or, in the unlikely upside scenario where the bypass succeeds rapidly and Yanbu resumes, any reaffirmation of the output schedule. The group has almost no meaningful spare capacity to deploy.",
+      "market_impact": "Forward-looking; governs the Q4 price floor narrative.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct–Nov (6 Weeks)",
+      "name": "East-West Pipeline Full Restoration — Aramco Six-Week Target",
+      "impact": "Full pipeline restoration to 7 mb/d capacity (confirmed by a prior April 2026 attack recovery) remains Aramco's stated six-week goal from September 11. If achieved, Saudi Arabia would have its primary Hormuz-bypass route back in full operation, materially reducing the physical supply risk premium. Goldman Sachs estimates this scenario puts Brent in the $90–$100 range by November. A failed or delayed repair keeps the $110+ range live into Q4.",
+      "market_impact": "Medium-term price ceiling or floor; binary outcome.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called <strong>$104–$112 biased two-sided</strong>, with the EIA print as the twin catalyst alongside the Yanbu clock. Brent held $107.98 at the close on Wednesday, entirely within the range. The EIA delivered the better outcome: a confirmed <strong>−0.6 mb draw</strong> rather than the API's +7.14 mb phantom build, and crude barely flinched — which tells you everything about where the market's attention actually sits. It's not inventory mechanics right now. It's the pipeline.",
+      "<strong>My read on today:</strong> The API ghost story is buried. The real September 17 question is whether Aramco's bypass engineers can deliver visible barrels within the \"days\" window that both the company and the US Energy Secretary have publicly committed to. Crude at $107.77 is priced for a successful bypass — not a fast one, but a believable one. If Aramco confirms partial flows before the end of the day or tomorrow, Brent drifts toward $104. If there's any slippage in the activation timeline, the Goldman Sachs >$120 call comes back to the front page immediately.",
+      "<strong>The bigger structural picture:</strong> Distillates are the shadow crisis that crude headlines obscure. The gasoil crack spread has been running at <em>five times</em> its pre-crisis level — roughly $100/bbl — for weeks. US distillate stocks are forecast to breach 100 million barrels this quarter for the first time since 2014. You cannot fix a distillate shortage by hoping Saudi crude gets through a bypass; you need functioning refineries in the Gulf, which requires Hormuz, which requires a diplomatic breakthrough that remains as elusive as ever. The crack spread is the more honest price signal right now than Brent itself.",
+      "My call: <strong>Brent trades $104–$111 today</strong>, with a downside bias on bypass confirmation and a sharp upside skip above $112 if Aramco's engineering runs into trouble or Houthis launch a new strike on Yanbu terminal infrastructure. <strong>The pipeline bypass is the only event horizon that matters today. Everything else is commentary.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme", "tone": "bearish", "pct": 88 },
+      { "name": "Geopolitical Risk", "label": "Very High", "tone": "bearish", "pct": 82 },
+      { "name": "Pipeline Restart", "label": "Bypass Days Away", "tone": "neutral", "pct": 58 },
+      { "name": "Distillate Market", "label": "Near Critical Threshold", "tone": "bearish", "pct": 90 },
+      { "name": "Diplomatic Progress", "label": "Stalled", "tone": "bearish", "pct": 10 },
+      { "name": "Spare Capacity Buffer", "label": "Historically Thin", "tone": "bearish", "pct": 12 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$104 – $111",
+      "bias": "Bias: Modestly Lower on Bypass Confirmation — Explosive Upside If Timeline Slips ▼▲"
+    },
+    "watch_levels": {
+      "resistance": "$111–$114 (Aramco bypass delayed beyond 'days' window; new Yanbu strike)",
+      "support": "$104–$106 (bypass confirmed at half-capacity + Libya stable)",
+      "breakout": ">$115 (full eight-week repair timeline confirmed or new Yanbu/Bab el-Mandab attack)",
+      "breakdown": "<$100 (Aramco bypass delivers 2+ mb/d within 48 hours + Yanbu loadings resume)"
+    }
+  }
+}
