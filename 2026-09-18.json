@@ -1,0 +1,155 @@
+{
+  "date_long": "Friday, September 18, 2026",
+  "date_slug": "sep18-2026",
+  "volume": "Vol. I — No. 50",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "EIA, IEA, OPEC, Reuters, Bloomberg, Al Jazeera, CNBC, gCaptain, US News & World Report, Tribune/Axios, OilPrice.com, TradingView",
+
+  "ticker": [
+    "BRENT CRUDE $103.59 ▼ −1.17% — THIRD CONSECUTIVE SESSION DECLINE AS ARAMCO SHIP-TO-SHIP WORKAROUND EASES ACUTE SUPPLY FEARS",
+    "ICE LOW SULPHUR GASOIL (ULS1!) $1,491.25/MT ▼ −3.23% — DISTILLATE CRACK STILL ~$97/BBL, FIVE TIMES PRE-CRISIS LEVEL",
+    "ARAMCO SELLS ~20 MB TO ASIAN REFINERS VIA SHIP-TO-SHIP OUTSIDE HORMUZ — SOHAR & FUJAIRAH TRANSFER POINTS ACTIVE",
+    "TRUMP TO MEET GULF LEADERS AT UNGA NEW YORK SEPTEMBER 22 — IRAN WAR ENDGAME ON THE AGENDA",
+    "CHINA PRIVATELY PRESSES IRAN TO REIN IN HOUTHIS AFTER SAUDI APPEAL — BEIJING WANTS RED SEA CALM",
+    "EIA SEPTEMBER STEO: BRENT SEEN AVERAGING $90/BBL H2 2026, FALLING TO $74 IN 2027 AS PRODUCTION RECOVERS",
+    "EAST-WEST PIPELINE BYPASS — ARAMCO STILL TARGETING HALF-CAPACITY 'WITHIN DAYS'"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$103.59", "change": "▼ −1.17% (third session of losses as Aramco's workaround eases acute supply fears)", "direction": "down" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,491.25/mt", "change": "▼ −3.23% (distillate crack narrows toward ~$97/bbl but remains five times pre-crisis level)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$101.21", "change": "▼ −0.69% (skims above $100 psychological support on workaround supply relief)", "direction": "down" },
+    { "label": "Gasoil/Diesel Crack vs Brent", "value": "~$97/bbl", "change": "▼ Narrowing from ~$100 peak; structural distillate tightness persists", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$2.79/MMBtu", "change": "— Steady; LNG export demand maintains the floor", "direction": "" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Workaround Works — For Now: Aramco's Ship-to-Ship Bridge Trims the Crisis Premium",
+    "headline": "Brent Falls to $103.59 in Third Straight Session as Aramco's 20 mb Ship-to-Ship Lifeline Eases Asia Supply Fears — But Hormuz, Houthis, and the Pipeline Clock Persist",
+    "paragraphs": [
+      "For three consecutive sessions, oil has done something it had not managed since the East-West pipeline went dark on September 11: it has fallen. Brent crude retreated to <strong>$103.59</strong> on Friday, shedding a further <strong>1.17%</strong> as markets absorbed the clearest evidence yet that Saudi Aramco has found a workable — if costly and fragile — near-term answer to its Red Sea export problem. Having lost the 4–5 mb/d East-West pipeline to last week's drone strikes, Aramco has pivoted hard: the company has offered approximately <strong>20 million barrels</strong> to Asian refiners this week alone, loaded via ship-to-ship transfers off <strong>Sohar in Oman and Fujairah in the UAE</strong> — both outside the contested Strait of Hormuz. Shuttle tankers carry Saudi crude through Hormuz, hand it to the buyer's vessel waiting in calmer waters, and the buyer sails home without entering the strait. It is improvised logistics, not a structural fix, but it is real supply reaching real buyers, and the market is pricing that.",
+      "Yet the retreat in Brent must not be mistaken for resolution. The three-session slide from $108.75 on Wednesday to $103.59 today represents the evaporation of the <em>panic premium</em> built into crude after last Thursday's attack — not the removal of the underlying supply deficit. Aramco's ship-to-ship operation is expensive, slow, and exposes both shuttle and receiving vessels to ongoing Houthi risk in Hormuz transit. The East-West pipeline bypass, which targets <strong>roughly half of the conduit's 4–5 mb/d capacity</strong>, had still not been publicly confirmed operational as of Friday morning. And the Strait of Hormuz itself — through which roughly <strong>20% of global seaborne oil</strong> must ultimately pass to reach the open ocean — remains effectively restricted for the ninth consecutive month.",
+      "Geopolitics offered the week's most significant wild card on Thursday afternoon: <em>Reuters</em> reported, citing three Iranian sources, that <strong>China has privately pressed Tehran to use its influence over the Houthis</strong> to restrain further attacks on Saudi energy infrastructure. Riyadh turned to Beijing — the world's largest crude importer — after Houthi forces intensified pressure on the Bab el-Mandab Strait, threatening to disrupt the very Red Sea corridor on which Aramco's ship-to-ship workaround depends. Iran's response was non-committal, but the contact is significant: it is the first reported direct Chinese mediation attempt since the war began in February. And on Thursday, President Trump confirmed he would meet the six <strong>Gulf Cooperation Council leaders</strong> at the United Nations General Assembly in New York on <strong>September 22</strong> to discuss the Iran war endgame and postwar reconstruction — the first structured multilateral diplomatic summit since June."
+    ],
+    "link_url": "https://www.bloomberg.com/news/articles/2026-09-16/saudis-pivot-to-send-more-oil-through-hormuz-after-pipeline-shut",
+    "link_text": "Read Bloomberg",
+    "stats": [
+      { "num": "~20 mb", "desc": "Barrels Sold by Aramco via Ship-to-Ship Transfers Off Sohar/Fujairah This Week — Saudi Crude Reaching Asian Buyers Without Yanbu" },
+      { "num": "$103.59", "desc": "Brent Crude Friday (Nov 2026 Front Month) — Third Consecutive Session Decline, Down ~5% from Wednesday's $108.75 Close" },
+      { "num": "~$97/bbl", "desc": "Estimated Gasoil/Diesel Crack Spread vs Brent — Narrowing from $100 Peak but Still Five Times Pre-Crisis Level" },
+      { "num": "Sep 22", "desc": "Trump–GCC Summit at UNGA New York — Iran War Endgame and Postwar Strategy on the Agenda for the First Time Since June" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Saudi Workaround",
+      "headline": "Aramco Sells ~20 mb to Asian Refiners via Ship-to-Ship — The New Export Bridge Outside Hormuz",
+      "body": "Saudi Aramco has moved aggressively to offset the closure of the East-West pipeline by offering Arab Medium and Arab Heavy crude via ship-to-ship transfers off <strong>Sohar (Oman)</strong> and <strong>Fujairah (UAE)</strong> for a second consecutive week, selling approximately 20 million barrels to Asian buyers — primarily Chinese state-owned and independent refiners. Shuttle tankers load at the Gulf terminals, transit the Strait of Hormuz, and pass the cargo to the buyer's vessel waiting in open water, eliminating the need for Asian refiners to send their own ships into Hormuz. The operation provides near-term supply relief and is the primary driver of Brent's three-session decline. Analysts caution that the workaround is expensive, operationally slow, and vulnerable to any Houthi escalation in Hormuz or the Sohar approach channels.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-09-16/saudis-pivot-to-send-more-oil-through-hormuz-after-pipeline-shut",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "China Presses Iran to Rein In Houthis — Beijing Acts on Saudi Appeal for Red Sea Calm",
+      "body": "China privately asked Tehran to use its influence over Yemen's Houthis to restrain further attacks on Saudi energy infrastructure, Reuters reported Thursday, citing three Iranian sources. Riyadh appealed to Beijing after Houthi forces intensified strikes on Saudi territory and threatened the Bab el-Mandab Strait — the narrow chokepoint through which Aramco's ship-to-ship workaround must ultimately export crude. Beijing, which imports roughly 40% of its crude from the Gulf, has a direct economic interest in Red Sea stability. Iran's response was non-committal, with officials saying regional peace depends on ending the US-Israel war. The contact nonetheless marks the <strong>first direct Chinese mediation attempt</strong> since the conflict began in February 2026, and adds a new diplomatic track to an otherwise militarily dominated week.",
+      "link_url": "https://www.usnews.com/news/world/articles/2026-09-17/exclusive-china-presses-iran-to-help-rein-in-houthis-after-saudi-appeal-sources-say",
+      "link_text": "Read US News / Reuters"
+    },
+    {
+      "tag": "Geopolitics",
+      "headline": "Trump to Meet Gulf Leaders at UNGA September 22 — Iran War Endgame and Postwar Strategy on Agenda",
+      "body": "President Trump will meet the six Gulf Cooperation Council leaders — Saudi Arabia, UAE, Qatar, Bahrain, Kuwait, and Oman — on the sidelines of the <strong>United Nations General Assembly</strong> in New York on <strong>September 22</strong>, Axios reported. The summit may also include other Arab and Muslim leaders. Discussions are expected to focus on US ideas for a postwar Iran strategy, with the Trump administration's broader \"day-after\" plan expected to be finalised after November's midterm elections. Trump said Thursday the US was \"hopefully nearing the end\" of the war with Iran. The UNGA summit represents the <strong>first structured multilateral diplomatic session</strong> on the Iran war endgame since the June ceasefire framework collapsed in August, and is the most significant diplomatic catalyst on the near-term oil market calendar.",
+      "link_url": "https://tribune.com.pk/story/2629806/trump-to-hold-iran-talks-with-gulf-leaders-next-week-in-new-york-axios",
+      "link_text": "Read Tribune / Axios"
+    },
+    {
+      "tag": "EIA Outlook",
+      "headline": "EIA September STEO: Brent to Average $90/bbl in H2 2026, Falling to $74 in 2027 as Supply Recovers",
+      "body": "The EIA's September 2026 Short-Term Energy Outlook projects Brent crude will average <strong>$90/bbl</strong> in the second half of 2026 before declining to <strong>$74/bbl</strong> in 2027 as Middle East oil production gradually recovers and inventories rebuild. US crude output is forecast to reach <strong>13.8 mb/d</strong> in 2026 and 14.3 mb/d in 2027. The EIA notes that \"constraints to exporting oil from the Middle East will persist through the end of the year, keeping crude oil production in the region below pre-conflict averages until Q2 2027.\" Diesel retail prices are forecast at <strong>$5.07/gallon</strong> for 2026 — the highest annual average in the EIA's modern dataset. Natural gas storage is projected to reach 3,969 billion cubic feet by October 31, 5% above the five-year average, as LNG export demand and power-sector generation compete for supply.",
+      "link_url": "https://www.eia.gov/outlooks/steo/",
+      "link_text": "Read EIA STEO"
+    },
+    {
+      "tag": "Pipeline Watch",
+      "headline": "East-West Bypass Still Unconfirmed — The Single Confirmation the Market Needs Most",
+      "body": "As of Friday morning, Saudi Aramco has not publicly confirmed that its bypass around the September 11-damaged section of the East-West pipeline is operational. The company's target remains <em>roughly half the pipeline's 4–5 mb/d capacity within days</em>, with full restoration in approximately six weeks — a timeline first stated on September 16 and reiterated by US Energy Secretary Chris Wright. The longer confirmation takes, the more the market allocates weight to the ship-to-ship workaround as the primary supply mechanism — a workaround that itself carries Houthi transit risk through Hormuz. Any public Aramco statement confirming even partial pipeline flows would be the single most bearish near-term catalyst available. Continued silence through the weekend would be incrementally bullish.",
+      "link_url": "https://gcaptain.com/oil-extends-drop-as-saudi-arabia-moves-to-restore-vital-pipeline/",
+      "link_text": "Read gCaptain"
+    },
+    {
+      "tag": "Distillates",
+      "headline": "ICE Low Sulphur Gasoil (ULS1!) Falls 3.23% to $1,491.25/mt — Crack Still at Structural Crisis Levels",
+      "body": "ICE Europe Low Sulphur Gasoil futures (ULS1!) fell <strong>3.23%</strong> to <strong>$1,491.25 per metric tonne</strong> on Friday — the largest single-session decline in the distillate complex since the pipeline crisis began. The drop, far steeper than Brent's 1.17% retreat, reflects easing near-term fears as Aramco's workaround buys some time for refineries still processing Gulf crudes. But the underlying structural picture has not changed: the gasoil/diesel crack spread against Brent remains near <strong>~$97/bbl</strong>, roughly five times its pre-crisis average. EIA retail diesel is forecast at $5.07/gallon for 2026 — the highest annual average on record. The distillate market's message is consistent: product tightness is supply-chain deep and is not resolved by a ship-to-ship operation that delivers crude, not finished product.",
+      "link_url": "https://www.tradingview.com/symbols/ICEEUR-ULS1!/",
+      "link_text": "Read TradingView"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sep 18–21 — This Weekend",
+      "name": "East-West Pipeline Bypass Confirmation — Unconfirmed; Most Bearish Near-Term Catalyst Available",
+      "impact": "Aramco has not yet publicly confirmed that its bypass around the September 11-damaged section is operational, despite targeting 'roughly half-capacity within days' since September 16. Confirmation of even 2 mb/d of bypass flows would be immediately bearish — potentially pulling Brent toward $99–$100. Continued silence through the weekend raises the risk of engineering or security complications, which would snap crude back toward $108–$112 as the Goldman Sachs >$120 tail risk re-enters the conversation.",
+      "market_impact": "Binary: −$4–6/bbl on confirmation; +$5–8/bbl on delay or new strike.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Sep 22 — Next Tuesday",
+      "name": "Trump–GCC Summit at UNGA New York — First Structured Iran War Endgame Talks Since June",
+      "impact": "President Trump meets all six Gulf Cooperation Council leaders at the UN General Assembly to discuss the Iran war endgame and postwar strategy. A strong diplomatic signal — particularly any indication of renewed ceasefire talks, Hormuz reopening terms, or reconstruction commitments — would be the largest political catalyst since the June agreement and could pull Brent down $5–10/bbl in a single session. Escalatory Trump rhetoric or breakdown in talks would add geopolitical risk premium.",
+      "market_impact": "Potentially the largest scheduled catalyst of next week.",
+      "risk": "High"
+    },
+    {
+      "date": "Sep 23",
+      "name": "EIA Weekly Petroleum Status Report — Week Ending Sep 18",
+      "impact": "The first EIA print to capture the full week of pipeline disruption and the initial effect of Aramco's ship-to-ship workaround on US import flows. Distillate stocks remain the key number: any reading approaching the critical 100 mb threshold will put crack spreads structurally wider again. The crude figure is secondary unless it shows an unexpected large build, which would raise questions about refinery demand.",
+      "market_impact": "±$2–4/bbl; distillate number the headline.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 4",
+      "name": "OPEC+ Monthly Ministerial Meeting",
+      "impact": "With Saudi production at a 35-year low and the group already holding October output at September levels, the October 4 meeting will be watched for any emergency adjustment. If the bypass delivers and the workaround stabilises supply, OPEC+ will likely hold course. If disruptions persist into October, an emergency cut to shore up the price floor becomes possible. The group has almost no meaningful spare capacity available to deploy.",
+      "market_impact": "Forward-looking; governs the Q4 price narrative.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct–Nov (Six Weeks from Sep 11)",
+      "name": "East-West Pipeline Full Restoration — Aramco's Six-Week Target",
+      "impact": "Aramco's stated goal is full pipeline restoration within six weeks of the September 11 shutdown, placing the target at late October. Success would restore 4–5 mb/d of cross-country export capacity, remove the expensive ship-to-ship dependency, and — if Hormuz normalisation is also progressing — put Brent on a structural path toward the EIA's $90/bbl H2 average. Failure or any new strike on the pipeline during the repair window extends the crisis through Q4 2026 and beyond.",
+      "market_impact": "Binary medium-term outcome; governs the H2 price floor.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called <strong>$104–$111 biased lower on bypass confirmation</strong>. Brent tested the $102–$103 range in Thursday's session — breaking below the call's lower bound — before settling around $103 as ship-to-ship supply news continued to circulate. Today's $103.59 open sits just inside the lower end of that range. The call was directionally right: the pipeline bypass has not been confirmed, but Aramco's workaround delivered enough of a supply signal to drag crude below $104. I'll take that as a rough vindication, but this is not the all-clear.",
+      "<strong>My read on today:</strong> The market is now caught between two supply narratives — the workaround (real but fragile) and the bypass (targeted but unconfirmed). Brent at $103.59 has shed roughly 40% of the panic premium that built after September 11, which is approximately right: the workaround is genuine, but approximately 60% of the structural supply problem remains unresolved. Hormuz is still restricted. The pipeline is still offline. The Houthis are still operational in Bab el-Mandab. This is not a market that has resolved its supply problem. It has found a <em>workaround</em> — and workarounds have a way of breaking precisely when markets trust them most.",
+      "<strong>The new variable:</strong> The diplomatic calendar suddenly matters in a way it has not since June. The Trump–GCC summit at the UN on September 22 is the first structured multilateral conversation on the Iran war endgame since the ceasefire framework collapsed. China's reported pressure on Iran to restrain the Houthis adds a second diplomatic track running in parallel. Neither is a resolution. But together they introduce a probability mass that wasn't there a week ago: a scenario where the June framework is reopened and a Hormuz normalisation timeline is back on the table. That probability was close to zero last Friday. It is not zero today.",
+      "My call: <strong>Brent trades $101–$108 today</strong>, with a neutral-to-downside bias if the bypass confirms and the ship-to-ship operation holds through the weekend, and a sharp upside skip to $110+ if any Houthi strike hits the transfer corridor off Sohar or Fujairah. <strong>The workaround is the new pipeline. Everything that follows depends on whether the Houthis let it stand.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Extreme but Easing", "tone": "bearish", "pct": 78 },
+      { "name": "Geopolitical Risk", "label": "High", "tone": "bearish", "pct": 76 },
+      { "name": "Pipeline Bypass Progress", "label": "Pending Confirmation", "tone": "neutral", "pct": 45 },
+      { "name": "Distillate Market", "label": "Structurally Tight", "tone": "bearish", "pct": 85 },
+      { "name": "Diplomatic Momentum", "label": "Nascent — China + UNGA", "tone": "neutral", "pct": 28 },
+      { "name": "Workaround Viability", "label": "Active but Fragile", "tone": "neutral", "pct": 52 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$101 – $108",
+      "bias": "Bias: Neutral to Lower on Bypass Confirmation — Tail Risk Up on Houthi Strike vs Workaround ▼▲"
+    },
+    "watch_levels": {
+      "resistance": "$108–$112 (bypass fails or Houthis strike ship-to-ship corridor off Sohar/Fujairah)",
+      "support": "$101–$103 (bypass confirms at half-capacity + workaround holds through weekend)",
+      "breakout": ">$113 (new Yanbu/Sohar infrastructure strike; bypass delay officially confirmed)",
+      "breakdown": "<$98 (bypass delivers 2+ mb/d + positive UNGA diplomatic signal; WTI breaks below $95)"
+    }
+  }
+}
