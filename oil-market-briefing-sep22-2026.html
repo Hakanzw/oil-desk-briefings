@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Tuesday, September 22, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT ~$101.63 ▲ +1.28% — FIRST GAIN IN FIVE SESSIONS AS TRUMP UNGA TONE LESS HAWKISH THAN FEARED &nbsp;|&nbsp; LOW SULPHUR GASOIL (ULS1!) ~$1,422.75/MT ▼ −0.38% — ICE GASOIL CRACK NEAR $95/BBL (ING) &nbsp;|&nbsp; TRUMP DELIVERS UNGA ADDRESS — OPEN TO IRAN TALKS; PEZESHKIAN IN NEW YORK &nbsp;|&nbsp; IRAN TRANSMITS 7 CONDITIONS VIA QATAR: HALT AGGRESSION, UNFREEZE FUNDS, END NAVAL BLOCKADE &nbsp;|&nbsp; SAUDI EAST-WEST PIPELINE SEEKS 50% RESTART WITHIN DAYS — FULL CAPACITY IN ~6 WEEKS &nbsp;|&nbsp; SAUDI SEPT EXPORTS RECOVER TO ~4 MB/D THROUGH HORMUZ — UP FROM 2.4 MB/D IN AUGUST &nbsp;|&nbsp; EIA WEEKLY PETROLEUM REPORT DUE WEDNESDAY SEPT 23; PRIOR READING: 423.4 MB COMMERCIAL CRUDE&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Tuesday, September 22, 2026<br>
+      Vol. I — No. 54<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$101.63</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$1,422.75/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">~$101.63</div>
+      <div class="price-change up">▲ +1.28% (1st gain in 5 sessions)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">~$1,422.75/mt</div>
+      <div class="price-change down">▼ −0.38% from Mon. close</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$98.10</div>
+      <div class="price-change up">▲ ~+1.1% (UNGA relief bid)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">~$2.79</div>
+      <div class="price-change down">▼ Flat to marginally lower</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">US Diesel Retail (AAA)</div>
+      <div class="price-val">$6.45/gal</div>
+      <div class="price-change up">— All-time record; 4th week above $6</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ UNGA 81 Opens — Brent Ends Four-Session Slide as Trump's Address Leaves Diplomatic Door Ajar</div>
+      <h3>Trump at the United Nations: Open to Iran Talks but Threatens Destruction in the Same Breath — Crude Rebounds Toward $102 as Pezeshkian Lands in New York</h3>
+      <p>Brent crude ended a four-session losing streak on Tuesday, recovering to approximately <strong>$101.63</strong> — a gain of 1.28% — as President Trump delivered his address to the 81st UN General Assembly with Iran as the defining issue. The move reflected a narrow trade: traders had priced in the risk of explosive new rhetoric or a fresh escalation announcement, and Trump did not deliver one. Instead, the administration struck its now-familiar dual register — asserting that Iran <strong>"must never obtain a nuclear weapon"</strong> while simultaneously signalling that the president is <strong>"probably open"</strong> to a direct bilateral meeting with Iranian President Masoud Pezeshkian, who arrived in New York on Tuesday morning via Doha. The Nasdaq jumped 2.3% to record levels; crude followed the risk-on move but with considerably more caution. <strong>No deal was announced. No meeting has been confirmed.</strong></p>
+      <p>The diplomatic geometry of this week is the most intricate since the February 28 outbreak of hostilities. Qatar's foreign ministry spokesman framed the stakes with unusual bluntness: <strong>"Either we sign a deal now or sign a deal ten months away."</strong> Through Qatari mediators, Tehran has privately transmitted seven preconditions to Washington; three have been made public — an immediate halt to all military operations against Iran, the unfreezing and full repatriation of Iran's blocked sovereign funds, and an end to the US naval blockade of Iranian ports. Trump has outlined three options of his own: military annihilation, economic strangulation, or a negotiated settlement. Ali Vaez of the International Crisis Group described the UNGA window as <strong>"the last best opportunity to try to prevent an escalation either in October or November."</strong> Trump also convened all six Gulf Cooperation Council leaders in New York on Tuesday, seeking to construct a regional framework that would provide political cover for either outcome. The gap between Washington and Tehran remains vast, but the architecture for a conversation now exists for the first time in months.</p>
+      <p>Beneath the diplomatic theatre, the physical supply picture continues its slow partial recovery — though the word <em>partial</em> is doing a great deal of work. Saudi Arabia's September exports have rebounded to just over <strong>4 million barrels per day</strong> through the Strait of Hormuz, up sharply from the post-attack low of 2.4 mb/d in August — the kingdom's worst export rate since 2013. Bloomberg reported on September 16 that Aramco is seeking to restart approximately half the capacity of the <strong>East-West pipeline</strong> within days by bypassing the damaged pumping station, with full capacity restoration targeted in roughly six weeks. If that timeline holds, Saudi Arabia regains a Red Sea outlet and the Hormuz-only logistics bottleneck eases. But the Houthi closure of Bab el-Mandeb — with Perim Island held since September 12 — means the southern bypass remains foreclosed regardless of pipeline status. And the ICE Gasoil crack spread, which ING estimated at approximately <strong>$95 per barrel</strong> on Monday (up from a $74/bbl August average), signals that the downstream distillate market has absorbed almost no relief despite the upstream price moderation. Money managers hold their largest net long Brent position since May — 282,657 lots — an unusually bullish positioning that means the speculative community has not yet capitulated on the supply risk premium.</p>
+      <a href="https://gulfnews.com/world/mena/middle-east-conflict-trump-to-defend-iran-war-tout-peacemaker-role-at-un-as-yemen-humanitarian-crisis-deepens-and-gulf-energy-tensions-escalate-1.500683134" class="read-link" target="_blank">Read Gulf News →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">+1.28%</div>
+        <div class="stat-desc">Brent's First Daily Gain in Five Sessions — UNGA Tone Proves Less Escalatory Than Feared</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">7 Conditions</div>
+        <div class="stat-desc">Iran's Preconditions via Qatar: Halt Aggression, Unfreeze Funds, End Naval Blockade (Three Public)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">4 mb/d</div>
+        <div class="stat-desc">Saudi September Export Rate Through Hormuz — Recovered from 2.4 mb/d August Low</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$95/bbl</div>
+        <div class="stat-desc">ICE Gasoil Crack Spread Estimated by ING — Up from $74/bbl August Average; Distillate Squeeze Persisting</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">UNGA / Diplomacy</div>
+      <h4>Trump at the UN: Peace Offer and Destruction Threat in the Same Breath — Crude Registers Relief Bid</h4>
+      <p>President Trump addressed the 81st UN General Assembly on Tuesday with Iran's war at the centre of his remarks. Administration officials said he would highlight "complex problems confronted head-on," while separately signalling openness to meeting Iranian President Pezeshkian on the sidelines. Trump simultaneously threatened to "wipe Iran out" economically or militarily if Tehran refuses a deal — a rhetorical formula the market now reads as a negotiating posture rather than an operational order. The GCC summit with all six Gulf leaders was convened the same day, amplifying the regional diplomatic pressure on both parties. Oil markets responded with a modest relief bid: Brent +1.28% to ~$101.63.</p>
+      <a href="https://gulfnews.com/world/mena/middle-east-conflict-trump-to-defend-iran-war-tout-peacemaker-role-at-un-as-yemen-humanitarian-crisis-deepens-and-gulf-energy-tensions-escalate-1.500683134" class="read-link" target="_blank">Read Gulf News →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Iran / Diplomacy</div>
+      <h4>Pezeshkian Arrives in New York — Seven Conditions Transmitted via Qatar as Both Leaders Eye Sideline Meeting</h4>
+      <p>Iranian President Masoud Pezeshkian landed in New York on Tuesday to address the UN General Assembly, the most high-profile Iranian diplomatic presence in the United States since the war erupted on February 28. Iran's Foreign Minister Araghchi accompanied the delegation, which operates under tight movement restrictions imposed by the State Department. Qatar has transmitted Iran's seven preconditions to Washington; three are publicly confirmed — an immediate halt to all military aggression, repatriation of frozen sovereign funds, and lifting of the naval blockade. Ali Vaez of the International Crisis Group called this "the last best opportunity" to prevent a renewed escalation wave in October or November.</p>
+      <a href="https://time.com/article/2026/09/21/trump-iran-war-united-nations-general-assembly/" class="read-link" target="_blank">Read Time Magazine →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Supply Logistics</div>
+      <h4>Saudi Arabia Seeks 50% East-West Pipeline Restart Within Days — US Energy Secretary Confirms Imminent Timeline</h4>
+      <p>Saudi Aramco is working to restore approximately half the capacity of the East-West pipeline by bypassing a damaged pumping station section, with full capacity restoration targeted in roughly six weeks, according to Bloomberg reporting on September 16. US Energy Secretary Chris Wright separately stated the interruption would be "measured in days." The pipeline carries up to 5 million barrels per day from eastern Saudi fields to the Red Sea port of Yanbu, bypassing the Strait of Hormuz. A 50% restart would restore approximately 2–2.5 mb/d of Red Sea export flow and meaningfully ease the Hormuz-only logistics bottleneck that has suppressed Gulf export efficiency since the September 11 drone strike.</p>
+      <a href="https://www.cnbc.com/2026/09/15/saud-arabia-east-west-pipeline-iran-war-chris-wright.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Downstream / Cracks</div>
+      <h4>Diesel Crack Spreads Near Record Highs as Global Distillate Market Shows No Relief</h4>
+      <p>The US Ultra-Low Sulphur Diesel crack spread hit an intraday record of $108/barrel on September 3, and ING estimates the ICE Gasoil crack spread at approximately $95/barrel as of this week — up sharply from a $74/barrel average in August. Three concurrent supply shocks are driving the tightness: Hormuz conflict restricting roughly 13% of global crude supplies, Russian diesel export bans following drone strikes disabling approximately 25% of Russian refining capacity, and seasonal winter distillate demand arriving into depleted inventories. US retail diesel reached an all-time record of $6.45/gallon, with the 3-2-1 crack spread running at $62.73 as of September 9, 2026.</p>
+      <a href="https://finance.yahoo.com/markets/commodities/articles/diesel-cracks-hit-record-highs-094500094.html" class="read-link" target="_blank">Read Yahoo Finance →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Market Positioning</div>
+      <h4>Money Managers Hold Largest Brent Net Long Since May — ING Warns Supply Risk Premium Intact Despite Price Retreat</h4>
+      <p>ING analysts noted that speculative positioning in Brent remains heavily long despite four consecutive sessions of price decline into UNGA week. Money managers held 282,657 lots of net long Brent futures as of last Tuesday — the highest net long since May 2026. ING strategists identified a fundamental disconnect: prices softened on diplomatic optimism and profit-taking, but the underlying supply risks from Saudi pipeline damage, Houthi chokepoint control, and stalled Hormuz transit have not abated. The bank noted Saudi Aramco is already warning European customers of potential crude allocation failures for October cargoes due to the pipeline disruption.</p>
+      <a href="https://www.fxstreet.com/news/brent-supply-risks-contrast-softer-prices-ing-202609211912" class="read-link" target="_blank">Read FXStreet / ING →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Saudi Exports</div>
+      <h4>Saudi Hormuz Flows Rebound to 2.9 mb/d — September Exports Recover to 4 mb/d After August's 11-Year Low</h4>
+      <p>Saudi Arabia's oil export logistics have partially normalised after the East-West pipeline attack, with Strait of Hormuz shipments averaging 2.9 million barrels per day over the most recent six-day period — up sharply from approximately 700,000 bpd in August. Total September exports have recovered to just over 4 mb/d, reversing the collapse to 2.4 mb/d last month (the lowest since 2013). JPMorgan noted that Middle East oil flows averaged 17.1 mb/d over the past ten days, running 6.1 mb/d below 2025 averages. Julius Baer, citing the recovery, argued the oil market is "not running out of oil" and set a $77.50/barrel Brent target contingent on a US-Iran deal materialising.</p>
+      <a href="https://www.aljazeera.com/news/2026/9/14/why-saudi-arabias-east-west-pipeline-matters-for-global-oil" class="read-link" target="_blank">Read Al Jazeera →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Sept 22 — Today</td>
+        <td>
+          <div class="event-name">Trump UNGA Address + GCC Leaders Summit — Diplomatic Hinge Point of the Week</div>
+          <div class="event-impact">The most-watched scheduled event of the week has now occurred. Trump's tone — open to talks while threatening economic destruction — was read by energy markets as less hawkish than the worst-case scenario, triggering a +1.28% Brent recovery. Whether this translates into an actual Trump-Pezeshkian bilateral meeting on the UNGA sidelines — which would be the first face-to-face since hostilities began — remains the live question for the remainder of the day and into Wednesday.</div>
+        </td>
+        <td>Initial relief bid registered; further upside contingent on confirmed bilateral meeting signal.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sept 22–26 — This Week</td>
+        <td>
+          <div class="event-name">Possible Trump-Pezeshkian Bilateral Meeting — UNGA Sidelines</div>
+          <div class="event-impact">Trump has said he is "probably open" to a direct meeting with Pezeshkian. Iran has not yet confirmed reciprocal interest. If such a meeting takes place — even informally — it would be the first direct presidential contact since the war erupted February 28 and would constitute a structural shift in the diplomatic situation. It would likely trigger a $5–8/bbl single-session decline in Brent as a partial peace premium was removed. Conversely, a formal Iranian refusal to engage would re-activate the upside tail.</div>
+        </td>
+        <td>Binary and headline-driven. A confirmed meeting: −$5–8/bbl. A formal refusal: +$3–5/bbl.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sept 23 — Wednesday</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report</div>
+          <div class="event-impact">The first EIA print since crude broke above $100/bbl, retreated four sessions, and then bounced. Markets will scrutinize the commercial crude stock level (prior: 423.4 mb, 1% above the five-year average), distillate inventories (the true scarcity story), and any week-on-week demand signals. A surprise crude build alongside the current modest price recovery would create an awkward dynamic for bulls. A distillate draw would reinforce the crack-spread tightness narrative.</div>
+        </td>
+        <td>±$2–3/bbl; distillate data could have outsized impact given crack spread levels.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Days Away — Imminent</td>
+        <td>
+          <div class="event-name">Saudi East-West Pipeline Partial Restart (~50% Capacity)</div>
+          <div class="event-impact">Saudi Aramco is actively working to bypass the damaged pumping station section and restore ~50% capacity (roughly 2–2.5 mb/d) within days, per Bloomberg and US Energy Secretary Wright. A confirmed partial restart would be a meaningful bearish catalyst — it restores a Red Sea export route, reduces Hormuz bottleneck pressure, and signals that the physical supply disruption from the September 11 attack is more manageable than feared. It would not, however, reopen the southern bypass while Houthis hold Bab el-Mandeb.</div>
+        </td>
+        <td>First credible restart confirmation: −$2–4/bbl on sentiment; structural supply relief over 2–3 weeks.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Sept 22 — Ongoing</td>
+        <td>
+          <div class="event-name">Houthi Control of Bab el-Mandeb / Perim Island — Saudi Southern Bypass Foreclosed</div>
+          <div class="event-impact">Houthi forces continue to hold Perim Island at the mouth of the Bab el-Mandeb strait and maintain a formal bar on Saudi-flagged vessel transit. Even if the East-West pipeline restarts to Yanbu, Saudi tankers cannot exit through the southern Red Sea corridor under current Houthi rules. Any UNGA communiqué that includes a GCC-US anti-Houthi statement could provoke a retaliatory escalation. Conversely, if the UNGA diplomatic track builds momentum toward a Yemen ceasefire component, this chokepoint could ease — but that timeline is measured in weeks, not days.</div>
+        </td>
+        <td>Largest latent upside risk. A Houthi interdiction of a Saudi cargo: +$6–10/bbl in a session.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Tuesday, September 22, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>The market got its first breath in five sessions today. Brent's +1.28% recovery to <strong>$101.63</strong> is a technically meaningful reversal after a four-session, roughly $8/bbl slide from last week's post-pipeline-attack highs. But it is important to name what it is: a relief trade against the worst-case UNGA scenario, not a fundamental shift. Trump did not announce new strikes. Pezeshkian is in New York. The GCC is convened. The architecture for a conversation now exists. <em>None of that is a deal, a ceasefire, or even a framework — it is the minimum precondition for one.</em> And preconditions have been present before without producing results.</p>
+        <p><strong>My read today:</strong> The speculative positioning tells the deeper story. Money managers hold 282,657 lots of net long Brent — the largest since May — even after four sessions of selling. That means the community with the most sophisticated access to physical supply data has not capitulated on the upside case. ING flagged the same disconnect: prices softened on sentiment, but the supply risks are unresolved. Saudi Aramco is warning European customers of October allocation failures. The East-West pipeline is still offline. The Gasoil crack at <strong>$95/bbl</strong> is not the fingerprint of a market that believes supply is returning. It is the fingerprint of a market where the product side is tighter than the headline crude prices suggest.</p>
+        <p><strong>The bigger picture:</strong> Qatar's FM said it plainly: sign a deal now or sign it ten months from now. That framing — which may be alarmist but is not obviously wrong — captures the structural risk of this week. If UNGA produces nothing concrete, the next natural escalation window is October, when fighting-season dynamics and the expiry of informal restraints could produce a fresh round of attacks on Gulf infrastructure. The Trump administration, under growing domestic pressure from $6.45 diesel, faces its own clock. The political economy of the war is shifting: what was initially popular domestically as a counterproliferation success is becoming a consumer price crisis that affects every freight cost, fuel bill, and supply-chain calculation in the US economy.</p>
+        <p>My call: <strong>Brent $99–$108 for the week</strong>, with the intraday balance tilted modestly to the upside following today's UNGA opening. A confirmed Trump-Pezeshkian bilateral meeting — even informal, even brief — would test the lower end of that range. A collapse of talks or a Houthi cargo interdiction re-opens the $108–$112 territory rapidly. <strong>Today's trade is cautiously constructive. This week's trade is still binary.</strong></p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Very Tight</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:76%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Elevated</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:72%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>UNGA Diplomacy Odds</span><span style="color:#f0a500">Low-Medium</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:42%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Distillate Crack Stress</span><span style="color:#e05252">Near Record</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:85%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Houthi Red Sea Threat</span><span style="color:#e05252">Active / Severe</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:87%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Saudi Export Recovery</span><span style="color:#f0a500">Partial Progress</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:44%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">This Week's Price Call — Brent Crude</div>
+          <div class="call-text">$99 – $108</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Cautiously Constructive Today — Binary on UNGA Bilateral Meeting Signal ▲▼</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$104–$106 (UNGA optimism ceiling; short-covering exhaustion)</span></div>
+            <div>🟢 Support: <span style="color:#fff">$99–$101 (diplomatic hope floor; pipeline restart buffer)</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$108 (UNGA talks collapse or Houthi cargo interdiction)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$97 (confirmed Trump-Pezeshkian meeting or pipeline restart)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Tuesday, September 22, 2026</span>
+  <span>Sources: EIA, IEA, OPEC, Reuters, Bloomberg, CNBC, Al Jazeera, Gulf News, Time, FXStreet/ING, TradingEconomics, Yahoo Finance, The National, Scripps News</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
