@@ -1,0 +1,155 @@
+{
+  "date_long": "Friday, September 25, 2026",
+  "date_slug": "sep25-2026",
+  "volume": "Vol. I — No. 57",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters, US News & World Report, CNBC, Al Jazeera, NPR, EIA, IEA, Energy Connects, Barchart, TradingView, Trading Economics",
+
+  "ticker": [
+    "BRENT $105.68 ▼ -0.86% — EASING FROM $106.60 SURGE AS IRAN SENDS MIXED SIGNALS ON PHASED HORMUZ DEAL",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,430/MT ▼ — OCT FRONT-MONTH ROLLS LOWER; CRACK CONTRACTS FROM ~$93/BBL TO ~$86/BBL ON DEAL OPTIMISM",
+    "US AND IRAN EXPLORE PHASED HORMUZ REOPENING — QATAR MEDIATING IN NEW YORK; NEITHER SIDE WANTS TO YIELD LEVERAGE FIRST",
+    "EIA: US CRUDE STOCKS +2.97 MB TO 426.4 MB (WK ENDING SEP 18) — BEARISH SURPRISE VS. CONSENSUS DRAW OF -0.6 MB",
+    "OPEC+ HOLDS OCTOBER OUTPUT UNCHANGED — SEP 6 VIRTUAL MEETING CONFIRMS Q4 FREEZE; NEXT MEETING OCT 4",
+    "SAUDI PETROLINE FLOWING AT LOW RATE — ZERO OCT YANBU ALLOCATIONS; FULL 4 MB/D FLOW 6-8 WEEKS AWAY",
+    "HENRY HUB NAT GAS $3.16/MMBTU ▼ -3.32% — PROFIT-TAKING AFTER 13-WK HIGH; WEST VIRGINIA SUPPLY DISRUPTION EASING"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$105.68", "change": "▼ −0.86% (easing from $106.60 surge)", "direction": "down" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "~$1,430/mt", "change": "▼ Oct front-month; crack narrows to ~$86/bbl", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$94.90", "change": "▼ (Brent–WTI spread ~$11)", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.16", "change": "▼ −3.32% (profit-taking post 13-wk high)", "direction": "down" },
+    { "label": "US Diesel Retail (AAA)", "value": "~$6.40/gal", "change": "— Near all-time high; product relief awaits deal", "direction": "down" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Phased Diplomacy — US and Iran Explore Gradual Hormuz Reopening as Brent Holds Above $105",
+    "headline": "US and Iran Explore Phased Hormuz Deal in New York — Brent Eases to $105.68 After $106.60 Surge as Gasoil Crack Begins to Contract",
+    "paragraphs": [
+      "US and Iranian negotiators advanced what may be the most structured diplomatic overture since the collapse of the June 17 memorandum of understanding — a <strong>phased path to reopening the Strait of Hormuz</strong>. According to sources close to the talks reported by Reuters on Thursday, officials meeting on the sidelines of the UN General Assembly in New York are exploring an arrangement in which Tehran gradually allows shipping through the strait in exchange for a staged easing of Washington's naval blockade of Iranian ports. Qatar is mediating the sessions, building on its role from last week's three-hour Witkoff–Araghchi shuttle diplomacy. Brent crude surged to an intraday high of <strong>$106.60 per barrel</strong> on the news — its highest print since the five-day losing streak reversed September 23 — before easing back Friday to $105.68 (-0.86%) as Iran's signalling grew more ambiguous.",
+      "The critical friction point remains sequencing. Iran wants the US naval blockade lifted <em>before</em> allowing increased Hormuz traffic; Washington insists on verifiable strait access first. Neither side wants to be the first to surrender its primary leverage in a war now seven months old. Iranian official statements have oscillated — state media partially denied the deal's scope overnight, a pattern familiar from the March and June negotiating cycles, both of which ultimately collapsed into renewed hostilities. Traders are discounting the residual mistrust, but not ignoring it: the pullback from $106.60 to $105.68 captures precisely that tension. Low Sulphur Gasoil (ULS1!), which rolled to the October front-month contract, moved lower as traders began pricing in some narrowing of the extreme product premium — the gasoil crack compressing from roughly <strong>$93/bbl to approximately $86/bbl.</strong>",
+      "Compounding the diplomatic uncertainty is a dual data signal from this week. The EIA's weekly report posted a <strong>surprise crude build of 2.97 million barrels</strong> for the week ending September 18 — sharply above market expectations for a draw of 0.6 mb — raising the first serious question about demand softening at triple-digit prices. At the same time, the IEA's September Oil Market Report documented that <strong>507 mb of global inventories</strong> have been drained since February, averaging 2.8 mb/d across seven months, underscoring that whatever demand destruction is occurring has not yet offset the supply shock. The Saudi Petroline, restarted September 22 but still flowing at minimal throughput, has zeroed out October European allocations via Yanbu — meaning no physical relief yet for buyers awaiting Red Sea barrel alternatives. OPEC+ confirmed its Q4 production freeze at unchanged September levels."
+    ],
+    "stats": [
+      { "num": "$106.60", "desc": "Brent's Intraday High on September 24 on First Reports of Phased Hormuz Deal Talks — Before Pulling Back to $105.68 Friday" },
+      { "num": "2.97 mb", "desc": "EIA Crude Stocks Build for Week Ending Sep 18 — vs. Consensus for a -0.6 mb Draw; Cushing +2.27 mb to 23.7 mb" },
+      { "num": "507 mb", "desc": "IEA's Cumulative Global Inventory Draw Since February 2026 — Averaging 2.8 mb/d Over Seven Months of War" },
+      { "num": "~$86/bbl", "desc": "Approximate Gasoil Crack Spread Today — Still Historically Extreme, Down From ~$93/bbl as Phased Deal Optimism Contracts the Premium" }
+    ],
+    "link_url": "https://www.usnews.com/news/world/articles/2026-09-24/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say",
+    "link_text": "Read US News & World Report"
+  },
+
+  "news": [
+    {
+      "tag": "US-Iran / Hormuz",
+      "headline": "Qatar-Mediated Talks Explore Phased Hormuz Deal — 'Most Realistic Path Forward,' But Sequencing Deadlock Remains",
+      "body": "US and Iranian negotiators on the sidelines of the UN General Assembly are exploring a phased path out of the seven-month Hormuz standoff, according to sources close to the talks cited by Reuters. The approach would see Tehran gradually allow shipping through the Strait of Hormuz in exchange for a staged easing of the US naval blockade that has choked Iranian ports since the war began in February. Qatar is mediating the discussions, extending its role from last week's three-hour shuttle diplomacy between US envoy Steve Witkoff and Iranian Foreign Minister Abbas Araghchi. The key friction point remains sequencing: Iran wants blockade relief before opening the strait, while the US insists on verifiable access first. A senior Iranian official told Reuters the framework is <strong>'the most realistic path forward'</strong> — but cautioned that no timeline or implementation schedule has been agreed.",
+      "link_url": "https://www.usnews.com/news/world/articles/2026-09-24/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say",
+      "link_text": "Read US News & World Report"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Surges to $106.60 on Phased Deal Report, Then Retreats — Iran's Mixed Signals Cap the Rally",
+      "body": "Brent crude surged 3.4% to an intraday high of <strong>$106.60 per barrel</strong> on Thursday after Reuters reported US and Iranian negotiators were exploring a phased Hormuz reopening — the sharpest single-session move in a week. Prices pulled back from session highs by day's end and continued easing Friday to $105.68 (-0.86%) as Iranian state media partially denied the scope of the talks, reinforcing the market's deeply ingrained mistrust of early-stage Iran diplomacy. The pattern echoes March and June: a Reuters report triggers a multi-dollar rally; Iranian officials walk back the framing; the premium resettles slightly lower than the pre-report level. Low Sulphur Gasoil (ULS1!) rolled to the October front-month contract and moved lower, with the gasoil crack compressing from near $93/bbl to approximately <strong>$86/bbl</strong> as traders began pricing in the possibility — not the certainty — of eventual product flow normalisation.",
+      "link_url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "EIA Inventory",
+      "headline": "EIA: US Crude Stocks Post Surprise 2.97 mb Build — Cushing Rises; First Bearish Data Point in Weeks",
+      "body": "The EIA's Weekly Petroleum Status Report for the week ending September 18 showed US commercial crude inventories <strong>rose 2.97 million barrels</strong> to 426.4 million barrels — sharply above market expectations for a draw of approximately 0.6 mb. Stocks at the Cushing, Oklahoma delivery hub rose 2.27 million barrels to 23.7 million barrels. The build was driven by a combination of softening implied demand at $100+ prices and a modest uptick in import volumes. Distillate inventories remained well below seasonal averages, and the distillate deficit versus the five-year average continues to widen. Analysts noted the single-week data point does not reverse the structural tightness documented by the IEA — which logged global inventory draws of 507 mb cumulatively since February — but it is <strong>the first bearish demand signal in weeks</strong> and suggests extended triple-digit crude prices may be starting to curb consumption at the margin.",
+      "link_url": "https://www.barchart.com/story/news/34125281/crude-oil-falls-on-bearish-weekly-inventory-report-and-iea-oil-surplus-forecast",
+      "link_text": "Read Barchart"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds October Output Steady — Q4 Freeze Confirmed; Next Meeting October 4",
+      "body": "OPEC+ confirmed at a virtual meeting September 6 that it would hold October oil production at September 2026 levels, completing the Q4 production freeze following the final 188,000 bpd voluntary-cut rollback in September. The seven core members — Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman — cited continued Middle East supply uncertainty and limited real spare capacity in justifying the hold. The group's next monitoring meeting is scheduled for <strong>October 4</strong>. While OPEC+'s official quota level now implies full voluntary-cut restoration, analysts note the group's effective spare capacity is largely theoretical: Saudi Arabia is at near-35-year production lows, Iranian output remains below 2 mb/d, and Gulf infrastructure damage limits any rapid output ramp. An analyst briefed on the meeting told Argus that <strong>'OPEC+ currently has very limited power over the physical oil market'</strong> because it cannot guarantee barrels will reach markets amid geopolitical disruptions.",
+      "link_url": "https://www.energyconnects.com/news/oil/2026/september/opecplus-keeps-output-policy-unchanged-for-october",
+      "link_text": "Read Energy Connects"
+    },
+    {
+      "tag": "IEA September Report",
+      "headline": "IEA: 507 mb of Global Inventories Drained Since February — Demand Cut 2.5 mb/d for 2026; Recovery Deferred to 2027",
+      "body": "The International Energy Agency's September 2026 Oil Market Report documented a further <strong>95 million barrel plunge</strong> in global observed oil inventories in August, bringing the cumulative draw since the start of the US-Iran war in February to <strong>507 million barrels</strong> — equivalent to a sustained drain of 2.8 mb/d over seven months. Non-OECD inventories drew by 52 mb, led by China, while OECD stocks rose by just 23 mb. The IEA cut its 2026 global oil demand forecast by 2.5 mb/d, citing high-price demand destruction concentrated in middle distillates and petrochemical feedstocks in Asia. Total oil supply is forecast to fall 5.7 mb/d to 100.7 mb/d in 2026. The Agency noted the continuing impasse in US-Iran negotiations delays normalisation of flows into 2027 at the earliest, while projecting a recovery of 2.6 mb/d in demand in 2027 if a settlement emerges.",
+      "link_url": "https://www.iea.org/reports/oil-market-report-september-2026",
+      "link_text": "Read IEA"
+    },
+    {
+      "tag": "Houthi / Saudi Supply",
+      "headline": "A Week of Houthi Strikes on Saudi Oil: Yanbu Now the Primary Target as Red Sea Route Remains Closed",
+      "body": "The Houthis have maintained a relentless pace of strikes against Saudi oil infrastructure throughout September, forcing Riyadh to rely almost exclusively on the East-West Petroline for exports after Red Sea maritime blockades and direct attacks on Yanbu-bound shipping made the southern export route untenable. The campaign has evolved from maritime harassment to direct strikes on land-side energy facilities: attacks on September 8 wounded at least 73 people and damaged installations at Abha, Jizan, and Najran. The Houthis targeted a Saudi vessel near Yanbu as recently as August 24 — signaling the pipeline's northern outlet is now the <strong>primary threat focus</strong>. The Petroline's 12-day shutdown (September 10–22) following a drone attack demonstrated the fragility of Saudi Arabia's only remaining export corridor, and with October Yanbu allocations zeroed out, European buyers face another month of acute supply uncertainty.",
+      "link_url": "https://www.npr.org/2026/09/18/nx-s1-5973810/houthi-attacks-saudi-oil-world-markets",
+      "link_text": "Read NPR"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Sept 25–26 — This Weekend",
+      "name": "Follow-Up US-Iran Contacts as UNGA General Debate Concludes — Araghchi Still in New York",
+      "impact": "Trump confirmed after last Wednesday's three-hour session that another round of talks was already scheduled. Iran's Foreign Minister Araghchi remains in New York through the close of the UNGA general debate. Any reported weekend contact between the delegations — even an indirect communiqué via Qatar — would constitute a significant acceleration of the phased-deal timeline and could send Brent back toward $109. Conversely, an Iranian hard-line statement or walk-back of the phased framework language would reinforce the premium and push prices toward $109–$112.",
+      "market_impact": "Binary: phased deal confirmation +$2–4/bbl; Iranian walk-back +$3–5/bbl from current level.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Wednesday, September 30",
+      "name": "EIA Weekly Petroleum Status Report — Second Read Post-Pipeline Restart (Week Ending Sept 25)",
+      "impact": "The EIA's next weekly print will be the second consecutive inventory reading in the post-Petroline-restart period. Last week's surprise +2.97 mb build — versus consensus for a draw — was the first bearish demand signal in weeks. If we see a second consecutive build, particularly in crude or distillates, the sub-$100 support thesis will face its first real test and the demand destruction narrative will gain significant credibility.",
+      "market_impact": "±$2–3/bbl; a second consecutive build tests $102–$104 support; a large draw re-anchors the $107+ ceiling.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Saturday, October 4",
+      "name": "OPEC+ Virtual Monitoring Meeting — Q4 Production Policy Review",
+      "impact": "OPEC+ meets to assess market conditions following its Q4 freeze announcement. The meeting is expected to be a formality unless crude has moved materially below $100. A surprise production cut signal would be a significant bullish catalyst, reinforcing the floor and potentially pushing Brent back toward $115. A hold — the expected outcome — simply confirms the existing floor without adding new bullish impetus. Any discussion of above-quota production by Iraq or Kazakhstan would be a latent bearish signal.",
+      "market_impact": "Baseline: price-neutral (hold confirmed). Tail risk: ±$4–6/bbl on surprise cut announcement or over-production admission.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct–Nov 2026 (Ongoing)",
+      "name": "Saudi Petroline Ramp — 4 mb/d Target Still 6-8 Weeks Out; Zero October Yanbu Allocations Locked In",
+      "impact": "Saudi Arabia's East-West Pipeline restarted September 22 but is flowing at a minimal fraction of its 4 mb/d capacity. Aramco has zeroed out October European term allocations via Yanbu — meaning the restart has not yet translated into any physical supply relief for the most constrained market segment. Each throughput milestone (40%, 50%, 75%, full capacity) will progressively compress the gasoil crack and ease the Brent forward curve. A second drone attack on the pipeline infrastructure is the single largest downside supply risk not yet embedded in the current price.",
+      "market_impact": "Structural: each throughput milestone compresses gasoil crack $3–5/bbl and moves Brent forward curve -$1–2/bbl.",
+      "risk": "High"
+    },
+    {
+      "date": "November 3, 2026 — US Midterm Elections",
+      "name": "Trump's Self-Imposed Iran Deal Deadline — 'Right After the Election' as the Market's Structural Premium Anchor",
+      "impact": "Trump's UNGA address last week made explicit what markets had been pricing implicitly: no binding Iran settlement before the November 3 midterms. The phased Hormuz framework now introduces the possibility of <em>partial</em> deal progress before that date, which creates a new and more complex optionality structure. A credible phased framework with a concrete Hormuz opening schedule — even partial — could deflate the war premium by $10–15/bbl before the election. A full comprehensive deal, if one somehow materialised before November 3, would be the single largest downside crude event of 2026.",
+      "market_impact": "Structural: embedded premium of ~$15–20/bbl above pre-war levels underpins the $100+ floor; pre-election deal is the largest single bearish tail risk.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "The phased Hormuz deal story is doing exactly what diplomatic signals do in war-premium markets: it introduced optionality without resolving it. Thursday's 3.4% surge to $106.60 on the Reuters report was the market buying the <em>possibility</em> of a framework. Friday's pullback to $105.68 is the market remembering that Iran still controls the strait, neither side wants to yield first, and the June 17 memorandum already collapsed once before. This is not skepticism about the phased approach per se — it is a rational discounting of a deal type that has a 0-for-2 track record in 2026.",
+      "<strong>My read on today:</strong> The phased approach is structurally more achievable than a grand settlement, and that makes it both more interesting and more dangerous to trade. A phased reopening could deliver <em>partial</em> barrel relief without the full premium unwind of a comprehensive deal. If Tehran allows, say, 30–40% of normal Hormuz traffic in exchange for an initial blockade easing, Brent could settle in the high $90s rather than the catastrophic unwind to the low $80s that a full deal would bring. The gasoil crack's compression from $93 to $86/bbl today captures the market trying to price exactly this partial outcome. The crack is contracting — but from a level so extreme that even $86/bbl represents a historically unparalleled product market stress.",
+      "<strong>The bigger picture:</strong> Three data points from this week form the structural mosaic. The EIA's surprise +2.97 mb crude build is the first flicker of demand destruction appearing in US stock levels. The IEA's 507 mb cumulative inventory draw since February explains why, despite that demand destruction, prices remain well above $100. And OPEC+'s Q4 freeze locks the group's output at a level that contributes almost nothing to physical supply given the Gulf disruption — their formal quotas are now a paper exercise. The market is simultaneously seeing demand cracks and supply deprivation, and the resulting price sits uneasily in the middle.",
+      "My call: <strong>Brent holds $103–$109 today and into next week</strong>, biased sideways as the phased deal narrative introduces genuine two-way risk. The upside scenario — talks collapse and Iran signals entrenchment — pushes us toward $112+. The downside scenario — a credible phased framework with a concrete Hormuz opening timeline — takes us toward $100 or below. <strong>The October 4 OPEC+ meeting and September 30 EIA report are the next scheduled price anchors. Watch whether Araghchi makes any statement before leaving New York — this market moves $2 on a quote.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Very Tight — 507 mb Draw Since Feb", "tone": "bearish", "pct": 76 },
+      { "name": "Geopolitical Risk", "label": "High — Phased Deal Uncertain", "tone": "bearish", "pct": 68 },
+      { "name": "Diplomatic Momentum", "label": "Improving — Phased Framework Live", "tone": "neutral", "pct": 55 },
+      { "name": "Gasoil Crack Stress", "label": "Very High — ~$86/bbl (Narrowing)", "tone": "bearish", "pct": 79 },
+      { "name": "EIA Demand Signal", "label": "First Cracks Appearing", "tone": "neutral", "pct": 42 },
+      { "name": "Petroline Recovery", "label": "Early Stage — Zero Oct Yanbu Flows", "tone": "bearish", "pct": 20 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$103 – $109",
+      "bias": "Bias: Sideways — Phased Deal Optionality Creates Genuine Two-Way Risk ▲▼"
+    },
+    "watch_levels": {
+      "resistance": "$109–$112",
+      "support": "$103–$105",
+      "breakout": ">$113 (phased talks collapse; Iranian escalation in Hormuz)",
+      "breakdown": "<$100 (credible phased deal with concrete Hormuz opening timeline confirmed)"
+    }
+  }
+}
