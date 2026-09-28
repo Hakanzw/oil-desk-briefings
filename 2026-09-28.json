@@ -1,0 +1,156 @@
+{
+  "date_long": "Monday, September 28, 2026",
+  "date_slug": "sep28-2026",
+  "volume": "Vol. I — No. 60",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Al Jazeera, NPR, Bloomberg, CNBC, Reuters, EIA, TradingEconomics, Wall Street Journal, OilPrice.com",
+
+  "ticker": [
+    "BRENT CRUDE ~$106.00 ▲ +1.5%",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,448/mt ▼ −0.8%",
+    "NATURAL GAS $3.12 ▼ −2.4%",
+    "TRUMP REJECTS IRAN'S 7-DAY HORMUZ ROADMAP — CALLS IT \"UNACCEPTABLE\"",
+    "BRENT BOUNCES +1.5% TO $106 AS MARKETS PRICE IN EXTENDED CLOSURE",
+    "IRAN FM AT UNGA: FROZEN FUNDS, SANCTIONS LIFTED, STRAIT OPEN IN ONE WEEK",
+    "TRUMP WEIGHS 90-DAY DIESEL EXPORT BAN — US REFINERS SELL OFF 6–7%",
+    "EIA: US CRUDE STOCKS BUILD +2.97 MB WEEK ENDING SEPT 18 — THIRD BEARISH MISS"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "~$106.00", "change": "▲ +1.5% (Hormuz rejection bounce)", "direction": "up" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "~$1,448/mt", "change": "▼ −0.8% (diesel ban uncertainty)", "direction": "down" },
+    { "label": "WTI Crude", "value": "~$93.50", "change": "▲ +1.1% (tracking Brent)", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$3.12", "change": "▼ −2.4% (pipeline issues; storage build)", "direction": "down" },
+    { "label": "US Diesel (Retail)", "value": "$6.50/gal", "change": "▲ +$0.89 vs. last month", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Deadlock Confirmed — Trump Calls Iran's Hormuz Offer \"Unacceptable\"",
+    "headline": "Trump Rejects Iran's 7-Day Plan to Reopen Hormuz, Sending Brent Back Above $106 as Deadlock Deepens",
+    "paragraphs": [
+      "The weekend's defining development arrived not from a bomb or a tanker — but from a podium at the United Nations and a few dismissive words outside the White House. Iran's Foreign Minister Abbas Araghchi unveiled at the UN General Assembly on Friday a seven-day roadmap to reopen the Strait of Hormuz: the US would release frozen Iranian funds, lift oil sanctions, and end its naval blockade; Iran, in exchange, would reopen the strait within <strong>seven days</strong> and begin final-status negotiations by day seven. Markets briefly priced in hope. Trump extinguished it on Saturday, telling reporters the plan <strong>\"would not be acceptable,\"</strong> adding that Iran was motivated by military losses, not good faith. Brent, which had softened toward $104 on the diplomatic signal, snapped back above $106 Monday morning — recovering the entire Friday slide.",
+      "The rejection leaves the Strait of Hormuz closure — in effect since shortly after the war's February 28 start — with no visible off-ramp. Araghchi told Iranian state media that Tehran <strong>\"will not back down\"</strong> from its conditions and is awaiting official US counter-proposals through Qatari and Omani mediators. The Wall Street Journal reported that Trump privately expects no major movement before November's midterm elections, treating the current impasse as a position of strength. That timeline, if accurate, implies at least six more weeks of the approximately <strong>20% of seaborne oil</strong> that transits Hormuz remaining offline.",
+      "Against that backdrop, Monday's session carries a distinct two-sidedness. The primary driver — a perpetuated Hormuz closure — is clearly price-bullish. But simultaneous headwinds are accumulating: the EIA reported a third-consecutive bearish crude build for the week ending September 18 (crude stocks up +2.97 million barrels to 426.4 million), Middle East producers are rerouting record volumes via the Cape and Yanbu, and Trump's proposed 90-day diesel export ban has injected acute policy risk into the middle distillates complex, sending US refiner shares down 6–7% and keeping gasoil cracks volatile."
+    ],
+    "link_url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz",
+    "link_text": "Read Al Jazeera",
+    "stats": [
+      { "num": "7 days", "desc": "Iran's Proposed Timeline to Reopen Hormuz — Rejected by Trump as \"Unacceptable\"" },
+      { "num": "+1.5%", "desc": "Brent Crude Bounce Monday Morning as Markets Price In Extended Strait Closure" },
+      { "num": "$6.50", "desc": "US Retail Diesel per Gallon — Up $0.89 From a Month Ago, Driving Export Ban Debate" },
+      { "num": "12.8 mb/d", "desc": "Middle East Crude Exports in September — Highest Since February, Routed Around Hormuz" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran's UNGA Hormuz Offer: Free the Funds, Lift Sanctions, Open the Strait in a Week",
+      "body": "Iranian FM Araghchi unveiled a structured seven-day proposal at the UN General Assembly: the US releases frozen Iranian assets, lifts oil sanctions, and ends its naval blockade of Iranian ports; Tehran reopens the Strait of Hormuz within seven days and enters final-status negotiations. Iran framed it as a serious de-escalation blueprint. Trump dismissed it hours later as a sign of Iranian desperation, not good faith. Araghchi said Iran awaits a \"definitive\" response through mediators and will not alter its terms.",
+      "link_url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Snaps Back to $106 as Monday Session Opens to a Confirmed Deadlock",
+      "body": "Brent crude futures rose approximately $1.55, or +1.5%, to around $106 per barrel at Monday's open, reversing Friday's slide that had briefly taken prices toward $104 when Iran's UNGA proposal raised market hopes of Hormuz reopening. WTI tracked the move, gaining about +1.1% toward $93.50. The bounce reflects a straightforward read: Trump's weekend rejection extends the Hormuz closure by at least several more weeks, keeping the geopolitical risk premium intact.",
+      "link_url": "https://www.bloomberg.com/news/articles/2026-09-26/trump-says-he-rejected-latest-iran-proposal-to-reopen-hormuz",
+      "link_text": "Read Bloomberg"
+    },
+    {
+      "tag": "Policy Risk",
+      "headline": "Trump's 90-Day Diesel Export Ban Would Backfire — Refiners Sell Off 6–7%, Industry Warns",
+      "body": "The White House is weighing a 90-day ban on US diesel exports to address retail diesel prices that hit $6.50 per gallon — up from $5.61 a month ago. Energy Secretary Chris Wright suggested the administration may pursue \"restrictions\" rather than a full ban. But Wood Mackenzie warns that a complete ban would cut US diesel production by up to 750,000 bpd as refiners lose export margins, potentially making the US a net petroleum importer by Q4 2026. Valero and Marathon Petroleum shares fell 7% and 6%, respectively, on the week.",
+      "link_url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply Threat",
+      "headline": "Saudi Arabia Intercepts Houthi Drones Aimed at Riyadh and Aramco Energy Facilities",
+      "body": "Saudi Arabia's air defenses intercepted Houthi ballistic missiles and drones targeting Riyadh — the first direct attack on the capital in the current escalation cycle — and cruise missiles aimed at Aramco-operated energy infrastructure at Khamis Mushait, Abha, and Jazan. The Houthis claimed to have struck \"sensitive sites\" and caused fires at Yanbu. Saudi officials confirmed the intercepts and said all facilities remained operational. The attacks keep the tail risk of a major Saudi infrastructure strike squarely on the table.",
+      "link_url": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital",
+      "link_text": "Read NPR"
+    },
+    {
+      "tag": "Supply",
+      "headline": "Middle East Exports Recover to 12.8 mb/d in September — Rerouting Around Hormuz at Scale",
+      "body": "Tanker tracking data shows crude exports from key Middle East producers recovered to 12.8 mb/d in September, the highest monthly level since the war began in February, driven by Saudi Arabia and the UAE redirecting flows via the Cape of Good Hope and through Yanbu on the Red Sea. The data demonstrates that producers have meaningfully adapted to the Hormuz closure — though at higher freight cost and longer transit times. Saudi crude loadings, which collapsed from 7.5 mb/d in January to 2.1 mb/d by mid-September, have partially rebounded as pipeline capacity ramps.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Inventory",
+      "headline": "EIA: US Crude Stocks Build +2.97 mb — Third Consecutive Miss Against Consensus Draw",
+      "body": "The EIA weekly petroleum status report for the week ending September 18 showed US crude inventories rose 2.97 million barrels to 426.4 million barrels, missing consensus expectations for a 600,000-barrel draw by a wide margin. Cushing hub stocks also built by 2.27 mb to 23.7 mb. The persistent builds reflect sluggish refinery runs and weakening industrial demand even as imports edge higher. The next EIA report, covering the week ending September 25, is due Wednesday — the tape's most important scheduled datapoint this week.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Oct 1 — Wednesday",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Sept 25)",
+      "impact": "After three consecutive bearish builds totalling roughly 7 mb above expectations, the market is watching whether the week ending September 25 produces the same pattern or whether demand — stimulated by sub-$107 Brent — finally begins absorbing the incremental Cape-rerouted barrels arriving at US ports. A fourth straight large build would cap Brent below $105 and test the support level.",
+      "market_impact": "±$2–3/bbl; a surprise draw could open a run toward $110.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Iran–US Mediation Track — Awaiting US Counter-Proposal Through Qatar and Oman",
+      "impact": "Iran confirmed it will await an official US response through Qatari and Omani mediators. Any credible signal that the US has submitted a counter-proposal — even through back channels — would immediately suppress the crude risk premium by $4–6/bbl. Continued silence or escalatory rhetoric is price-supportive. Trump's reported view that he has no urgency before November midterms suggests weeks, not days, of deadlock.",
+      "market_impact": "Binary and headline-driven — ±$5–8/bbl on a credible diplomatic signal.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Week of Sept 28",
+      "name": "White House Decision on 90-Day Diesel Export Ban",
+      "impact": "Energy Secretary Wright suggested the administration is considering \"restrictions rather than an outright ban.\" The final scope — a full ban, partial restrictions, or no action — will have material consequences for European gasoil supply, US refiner margins, and global middle distillates pricing. A full ban could remove up to 750,000 bpd of supply from export markets, tightening European gasoil while potentially hurting US refinery throughput.",
+      "market_impact": "Structural for gasoil cracks — directionally bearish for ULS1! crack spreads if production falls.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Strike Tempo — Escalation Risk to Core Aramco Export Infrastructure",
+      "impact": "Recent attacks intercepted near Riyadh and Yanbu confirm Houthis are probing the limits of Saudi air defenses. A successful hit on Abqaiq-scale processing infrastructure — which handles roughly 7% of world oil supply — would remove additional large volumes and send Brent through $115–120 within hours. Probability remains low but the attempted frequency is rising.",
+      "market_impact": "Tail risk — low probability, extreme magnitude. The biggest unpriced upside catalyst on the board.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct – Nov 2026",
+      "name": "OPEC+ Posture — Will the Alliance Defend the $100 Floor or Press for Share?",
+      "impact": "OPEC+ added 188,000 bpd for September, but actual output from Gulf members remains curtailed by the conflict. The alliance faces a strategic dilemma: cut production to defend prices (risking a repeat of past market-share losses) or allow the September export recovery to run, accepting lower per-barrel revenue in exchange for higher volume. An emergency policy meeting call would be a major market event.",
+      "market_impact": "Forward-looking — governs H2 2026 price floor and 2027 supply trajectory.",
+      "risk": "Medium"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Let me be direct about what happened this weekend: <strong>nothing changed, and that is the entire story.</strong> Iran made a structured offer at the UN General Assembly — frozen funds unfrozen, sanctions lifted, naval blockade ended, Hormuz open in seven days. Trump said no. The Strait stays closed. Brent bounced on Monday morning. The market is functioning exactly as it should.",
+      "<strong>My read:</strong> The risk premium that looked vulnerable on Friday — when Iran's UNGA proposal briefly implied imminent Hormuz reopening — has been re-established and then some. Trump's dismissal was blunt enough that no sophisticated trader is pricing a deal before November's midterm elections. That's at minimum six weeks of the current supply configuration: roughly 20% of seaborne oil offline through Hormuz, rerouted flows via the Cape adding freight cost and lag, and Saudi Arabia performing aerial damage control over its own energy infrastructure. <strong>The floor under crude is the diplomatic calendar.</strong>",
+      "<strong>The bigger picture:</strong> Two forces are now pulling directly against each other. The bullish side: confirmed Hormuz impasse, Houthi escalation risk (Riyadh targeted for the first time), and a US diesel export ban that could disrupt global middle distillates supply chains. The bearish side: three consecutive EIA crude builds, September Middle East export recovery to 12.8 mb/d via Cape rerouting, softening industrial demand, and natural gas under pressure from storage surpluses. Neither side is decisively winning — which is itself a message. <strong>This is a range market, not a trending one.</strong>",
+      "My call: <strong>Brent holds $103–$112 this week</strong>, biased toward the upper half so long as the diplomatic track remains frozen. The key test is Wednesday's EIA number. A fourth straight bearish build caps us below $105 and tests the patient bulls' conviction. A surprise draw — even a modest one — confirms demand absorption is real and opens a run toward $110. <strong>The Hormuz deadlock is bullish. The inventory data is bearish. Watch Wednesday for which narrative controls the week.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Tight — Hormuz Closed", "tone": "bearish", "pct": 72 },
+      { "name": "Geopolitical Risk", "label": "Elevated — Deadlock Confirmed", "tone": "bearish", "pct": 78 },
+      { "name": "Demand Outlook", "label": "Softening — Builds Persist", "tone": "bullish", "pct": 35 },
+      { "name": "Hormuz Resolution", "label": "Low Probability Near-Term", "tone": "bullish", "pct": 18 },
+      { "name": "Diesel Policy Risk", "label": "Elevated — Ban Pending", "tone": "bearish", "pct": 62 },
+      { "name": "OPEC+ Buffer", "label": "Thin — Conflict Curtails", "tone": "bearish", "pct": 28 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$103 – $112",
+      "bias": "Bias: Upper Half — Deadlock Is Bullish; Watch Wednesday EIA ▲"
+    },
+    "watch_levels": {
+      "resistance": "$110–$112 (pre-UNGA highs)",
+      "support": "$103–$104 (Friday lows)",
+      "breakout": ">$115 (Houthi hits major Aramco infrastructure)",
+      "breakdown": "<$100 (credible US counter-proposal to Iran)"
+    }
+  }
+}
