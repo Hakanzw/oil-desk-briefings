@@ -1,0 +1,156 @@
+{
+  "date_long": "Tuesday, September 29, 2026",
+  "date_slug": "sep29-2026",
+  "volume": "Vol. I — No. 61",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters, Al Jazeera, CNBC, CBS News, NPR, EIA, OPEC, TradingEconomics, Bloomberg, U.S. News & World Report",
+
+  "ticker": [
+    "BRENT CRUDE $106.56 ▲ +1.22%",
+    "LOW SULPHUR GASOIL (ULS1!) $1,455/mt ▼ −1.37%",
+    "NATURAL GAS ~$3.13 ▲ +0.6%",
+    "OIL EXTENDS GAINS FOR SECOND CONSECUTIVE DAY — HORMUZ DEADLOCK OVERRIDES SAUDI PIPELINE REVIVAL",
+    "PEZESHKIAN AT UNGA: IRAN WOULD ALLOW UN NUCLEAR INSPECTORS UNDER CEASEFIRE DEAL",
+    "SAUDI EAST-WEST PIPELINE AT 3.5 MB/D — FULL RECOVERY 6–8 WEEKS AWAY",
+    "WHITE HOUSE PIVOTS TO RED-DYED DIESEL RELIEF — ALTERNATIVE TO 90-DAY EXPORT BAN",
+    "EIA WEEK-ENDING SEPT 25 DATA DUE WEDNESDAY — FOURTH STRAIGHT BUILD WOULD TEST BULLS"
+  ],
+
+  "prices": [
+    { "label": "Brent Crude", "value": "$106.56", "change": "▲ +1.22% (Hormuz deadlock holds premium)", "direction": "up" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,455/mt", "change": "▼ −1.37% (diesel policy uncertainty)", "direction": "down" },
+    { "label": "WTI Crude", "value": "$93.57", "change": "▲ +1.0% (tracking Brent)", "direction": "up" },
+    { "label": "Natural Gas (Henry Hub)", "value": "~$3.13", "change": "▲ +0.6% (partial bounce from lows)", "direction": "up" },
+    { "label": "US Retail Diesel", "value": "$6.50/gal", "change": "▲ Near record — red-dye relief in focus", "direction": "up" }
+  ],
+
+  "lead": {
+    "eyebrow": "⚡ Deadlock Holds — Oil Rallies for Second Day as Diplomacy Stalls",
+    "headline": "Brent Holds Above $106 for a Second Consecutive Day as Pezeshkian Offers Nuclear Inspectors at UNGA — Saudi Pipeline Revival Fails to Dent the Risk Premium",
+    "paragraphs": [
+      "The diplomatic week that opened with a blunt White House rejection of Iran's seven-day Hormuz proposal pressed into Tuesday with no new concessions in sight — and oil responded accordingly. Brent crude extended its gains, rising 1.22% to $106.56 per barrel as markets concluded that Saturday's dismissal of Iran's structured reopening offer was not a negotiating posture but a genuine, sustained deadlock. The session's most striking feature: crude rallied despite a meaningful piece of supply-positive news — Saudi Arabia's East-West pipeline, struck by Iraqi-launched drones on September 11, is now flowing at approximately <strong>3.5 million barrels per day</strong> toward the Red Sea port of Yanbu. The market's refusal to sell off on a partial supply recovery is as informative as any headline: so long as the Strait of Hormuz remains closed, the premium will hold.",
+      "Iranian President Masoud Pezeshkian, speaking on the sidelines of the United Nations General Assembly in New York, delivered Tehran's most substantive diplomatic offer in weeks. He confirmed Iran would allow <strong>UN nuclear inspectors</strong> as part of a potential long-term ceasefire deal — <strong>\"That is absolutely correct,\"</strong> he told CBS News — adding that differences over the Strait of Hormuz \"can be resolved through dialogue\" and that indirect contacts via Qatari and Pakistani mediators are ongoing, with both sides having reached an understanding on a framework for possible negotiations. Yet private assessments from Iranian officials are deeply pessimistic: the emerging consensus on both sides of the talks is that <strong>no deal will materialize before November's US midterm elections</strong>, roughly six weeks from now.",
+      "Against this backdrop, the commodity complex is sending a split signal. Crude is being lifted by the geopolitical premium; gasoil and middle distillates are moving in the opposite direction. The White House, after days of deliberating over a proposed 90-day diesel export ban, is now leaning toward <strong>red-dyed diesel regulatory relief</strong> — allowing broader sales of the tax-exempt off-road fuel — as the leading policy response to US retail diesel prices that have climbed above $6.50 per gallon. The divergence between crude's rise (+1.22%) and gasoil's decline (−1.37%) on Tuesday captures the market's competing narratives: tight upstream barrels versus policy-driven downstream uncertainty. Wednesday's EIA inventory report for the week ending September 25 is the next hard catalyst."
+    ],
+    "link_url": "https://www.cbsnews.com/news/iran-president-masoud-pezeshkian-proposal-trump-strait-of-hormuz-war/",
+    "link_text": "Read CBS News",
+    "stats": [
+      { "num": "3.5 mb/d", "desc": "Saudi East-West Pipeline Flow After Drone-Strike Restart — vs. ~5 mb/d Pre-Attack Capacity" },
+      { "num": "+1.22%", "desc": "Brent's Second-Day Gain to $106.56 — Crude Rising Even as Saudi Pipeline Partially Revives" },
+      { "num": "$6.50/gal", "desc": "US Retail Diesel Average — Near Record; White House Weighing Red-Dyed Relief as Policy Response" },
+      { "num": "~6 wks", "desc": "Time Until US Midterm Elections — Both Sides Privately Doubt a Hormuz Deal Before November" }
+    ]
+  },
+
+  "news": [
+    {
+      "tag": "Supply Recovery",
+      "headline": "Saudi East-West Pipeline Flows at 3.5 mb/d After Drone-Strike Restart — Full Recovery 6–8 Weeks Away",
+      "body": "Saudi Arabia's 1,200-km East-West crude oil pipeline, shut September 11 after drone strikes launched from Iraqi territory damaged three pumping stations, restarted around September 22 and is now carrying approximately 3.5 million barrels per day toward the Red Sea port of Yanbu — below its pre-attack capacity of roughly 5 mb/d. Reuters reported three pumping stations sustained damage, with full restoration expected in 6–8 weeks. The pipeline had been handling Saudi crude rerouted away from the Strait of Hormuz since the war began in February; its partial recovery eases the kingdom's export bottleneck but does not yet restore pre-war throughput to world markets.",
+      "link_url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Pezeshkian at UNGA: Iran Offers Nuclear Inspectors, Commits to Dialogue — Privately, Both Sides Doubt Pre-Election Deal",
+      "body": "Iranian President Masoud Pezeshkian told CBS News at the UN General Assembly that Iran would allow UN nuclear inspectors into the country as part of a potential ceasefire framework, saying the prospect was \"absolutely correct.\" He added Iran \"will abide by whatever we commit to\" on Hormuz reopening, and confirmed the two sides have a framework for possible negotiations through Qatari and Pakistani mediators. However, Iranian officials privately expressed deep pessimism about a deal arriving before November's US midterm elections, citing persistent \"distrust\" and daily sanctions increases. Trump expects talks to resume this week and is awaiting Iran's formal response through mediators.",
+      "link_url": "https://www.cbsnews.com/news/iran-president-masoud-pezeshkian-proposal-trump-strait-of-hormuz-war/",
+      "link_text": "Read CBS News"
+    },
+    {
+      "tag": "Policy Risk",
+      "headline": "White House Pivots to Red-Dyed Diesel Regulatory Relief — Alternative to 90-Day Export Ban Gains Ground",
+      "body": "The White House has emerged from days of deliberations leaning toward regulatory relief that would allow broader use of tax-exempt red-dyed diesel, rather than pursuing a proposed 90-day export ban. US retail diesel has climbed above $6.50 per gallon nationally, prompting Alabama, Louisiana, and Nebraska to take unilateral steps to relax red-dye restrictions. Critics warn the proposal would allow some buyers to avoid the federal fuel tax but would add no diesel supply to the market. Wood Mackenzie had warned that a full export ban could cut US diesel production by up to 750,000 bpd. A formal White House decision is expected this week.",
+      "link_url": "https://www.usnews.com/news/top-news/articles/2026-09-28/white-house-weighs-red-dyed-diesel-tax-relief-to-lower-fuel-prices",
+      "link_text": "Read U.S. News & World Report"
+    },
+    {
+      "tag": "Inventory",
+      "headline": "EIA: Crude Stocks at 426.4 mb After Third Consecutive Bearish Build — Fourth Print Due Wednesday",
+      "body": "US crude oil inventories stood at 426.4 million barrels for the week ending September 18, after rising 2.97 million barrels — the third consecutive week of builds that each exceeded consensus draw estimates. Cushing hub stocks built 2.27 million barrels to 23.7 million barrels. Refineries ran at 94.0% capacity utilization, down from 96.8% the prior week. The EIA weekly petroleum status report for the week ending September 25 is scheduled for Wednesday at 10:30 a.m. ET — the most important scheduled data release of the week. A fourth consecutive surprise build would challenge the crude bulls even as the Hormuz risk premium holds.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC September Report: August Output Up 346 kb/d — Iraq Leads, But Conflict Distorts the Supply Picture",
+      "body": "OPEC's September 2026 Monthly Oil Market Report showed OPEC-12 production rose 346,000 barrels per day from July to August 2026, led by Iraq (+664 kb/d), the UAE (+54 kb/d), and Kuwait (+49 kb/d). The group projects US tight oil will grow by only 50,000 bpd in 2026 and remain flat in 2027 — significantly below EIA estimates. Output increases came even as Gulf producers grapple with the continued Hormuz closure and drone-strike disruptions, underscoring the gap between rising headline production and actual barrels delivered to destination markets.",
+      "link_url": "https://seekingalpha.com/article/4950177-opec-monthly-oil-market-report-september-2026",
+      "link_text": "Read Seeking Alpha"
+    },
+    {
+      "tag": "Downstream",
+      "headline": "US Diesel Tops $6.50/gal — Farmers and Truckers Squeezed as States Race Ahead of Federal Action",
+      "body": "US retail diesel prices have risen above $6.50 per gallon nationally, having set a record at $6.06 on September 11 — surpassing the prior all-time high of $5.82 from the 2022 Ukraine crisis — and continuing to climb. The surge is putting severe pressure on trucking, agriculture, and heating fuel consumers. Alabama, Louisiana, and Nebraska have each taken temporary steps to allow broader use of tax-exempt dyed diesel or suspend state penalties, while requesting additional federal EPA relief. The White House's pivot toward red-dyed regulatory relief rather than a diesel export ban follows pressure from refiners and warnings that a ban would cut US diesel production, not increase it.",
+      "link_url": "https://www.cnbc.com/2026/09/29/oil-prices-today-brent-wti-hormuz.html",
+      "link_text": "Read CNBC"
+    }
+  ],
+
+  "events": [
+    {
+      "date": "Oct 1 — Wednesday",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Sept 25)",
+      "impact": "The market is watching for a potential fourth consecutive bearish crude build. Three consecutive builds totalling roughly 7 mb above expectations have capped Brent below $108. Another large surprise would challenge the thesis that demand is absorbing Cape-rerouted barrels arriving at US ports. A surprise draw — even a modest one — would confirm demand absorption is real and open a push toward $110.",
+      "market_impact": "±$2–3/bbl; a surprise draw could push toward $110.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Iran–US Mediation Track — Qatar and Pakistan Facilitating Indirect Talks",
+      "impact": "Indirect contacts between Iran and the US continue via Qatari and Pakistani mediators, with Pezeshkian confirming both sides have a framework for possible negotiations. Yet private assessments suggest no deal before November's midterms. Any credible signal of a formal US counter-proposal would immediately suppress the Brent risk premium by $5–8/bbl. Continued silence is the de facto bullish case for crude.",
+      "market_impact": "Binary, headline-driven: ±$5–8/bbl on any credible diplomatic signal.",
+      "risk": "Very High"
+    },
+    {
+      "date": "This Week",
+      "name": "White House Diesel Policy Decision — Red-Dyed Relief vs. Export Ban",
+      "impact": "A red-dyed regulatory relief announcement would remove the fear discount weighing on US refiner stocks and gasoil cracks, with modest supply impact. A surprise reversion to a full export ban would be sharply bearish for gasoil crack spreads — potentially removing up to 750,000 bpd of US refinery export output and tightening European gasoil supply simultaneously.",
+      "market_impact": "Structural for gasoil cracks — binary on policy scope.",
+      "risk": "High"
+    },
+    {
+      "date": "6–8 Weeks",
+      "name": "Saudi East-West Pipeline Full Recovery (Pumping Station Repairs)",
+      "impact": "The pipeline is currently at roughly 70% of pre-attack capacity (3.5 vs. ~5 mb/d). Engineers are repairing three damaged pumping stations, with full restoration estimated in 6–8 weeks. Until then, Saudi Arabia's alternative export route remains partially constrained, providing a subtle floor to crude even as diplomatic progress on Hormuz stalls.",
+      "market_impact": "Gradual and supply-positive — each phase of recovery adds modest downside pressure to crude.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Strike Risk to Saudi and Red Sea Energy Infrastructure",
+      "impact": "Houthi ballistic missiles and drone swarms have escalated to targeting Riyadh and Yanbu — the Saudi pipeline's Red Sea terminal — in recent weeks. A successful large-scale strike on Abqaiq-scale processing capacity would be a market-shattering event, removing roughly 7% of world oil supply and sending Brent through $115 within hours. The partially recovered East-West pipeline remains exposed along its 1,200-km route.",
+      "market_impact": "Tail risk — low probability, extreme magnitude. Brent >$115 on a major Aramco infrastructure hit.",
+      "risk": "High"
+    }
+  ],
+
+  "verdict": {
+    "paragraphs": [
+      "Two days into the confirmed Hormuz deadlock, the market's message is clear and consistent: <strong>the geopolitical risk premium is not going anywhere.</strong> Oil has now rallied for back-to-back sessions — Tuesday's +1.22% adding to Monday's +1.5% — despite a partial Saudi pipeline revival, three consecutive bearish EIA builds, and a White House that is navigating a diesel crisis with policy tools that add no supply. The tape is telling you that traders believe the Strait of Hormuz will remain closed for the foreseeable future. I share that read.",
+      "<strong>My read on today:</strong> When positive supply news — the Saudi pipeline flowing at 3.5 mb/d — fails to move prices lower, it confirms that the dominant force is the Hormuz closure premium, not weekly data noise. Brent at $106 is the market's equilibrium for a world in which roughly 20% of seaborne oil remains diverted around the Cape of Good Hope. Pezeshkian's nuclear inspector offer is diplomatically meaningful but market-irrelevant until it produces a ceasefire timeline — and private signals from both sides indicate November's midterms function as a hard floor under the current impasse.",
+      "<strong>The bigger picture:</strong> Watch the split between crude and middle distillates closely. Today Brent rose +1.22% while ULS1! fell -1.37% — they are moving in opposite directions for different reasons. <strong>Crude is held up by geopolitics; gasoil is dragged down by the prospect of demand-side policy relief.</strong> That crack spread divergence is the market's way of saying the supply problem is upstream, not downstream — yet. A diesel export ban would reverse that logic violently. The White House decision this week matters more for gasoil traders than it does for crude traders.",
+      "My call: <strong>Brent holds $104–$110 today and through Wednesday</strong>, biased toward the upper end while the diplomatic track remains frozen and the Houthi threat persists. Wednesday's EIA print is the week's definitive test — <strong>a fourth consecutive surprise build would finally challenge the bulls' conviction and probe $103 support.</strong> A surprise draw confirms demand absorption and opens $110. The Hormuz deadlock is the backdrop; Wednesday's inventory number is the near-term swing factor."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing Slowly — Pipeline Restoring", "tone": "bearish", "pct": 65 },
+      { "name": "Geopolitical Risk", "label": "Elevated — Deadlock Holds", "tone": "bearish", "pct": 80 },
+      { "name": "Demand Outlook", "label": "Softening — Three Builds in a Row", "tone": "bullish", "pct": 35 },
+      { "name": "Hormuz Resolution", "label": "Very Low Near-Term", "tone": "bullish", "pct": 18 },
+      { "name": "Diesel Policy Risk", "label": "Moderate — Red-Dye Relief Emerging", "tone": "neutral", "pct": 45 },
+      { "name": "OPEC+ Buffer", "label": "Thin — Output Rising Slowly", "tone": "bearish", "pct": 32 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$104 – $110",
+      "bias": "Bias: Upper Half — Deadlock Bullish; EIA Wednesday Is the Key Test ▲"
+    },
+    "watch_levels": {
+      "resistance": "$110–$112 (recent session highs)",
+      "support": "$103–$104 (post-rejection floor)",
+      "breakout": ">$115 (major Aramco infrastructure struck)",
+      "breakdown": "<$100 (credible Hormuz deal signal)"
+    }
+  }
+}
