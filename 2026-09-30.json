@@ -1,0 +1,150 @@
+{
+  "date_long": "Wednesday, September 30, 2026",
+  "date_slug": "sep30-2026",
+  "volume": "Vol. I — No. 62",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "CNBC, Trading Economics, TradingView, EIA, OPEC+, OilPrice.com, Bloomberg, Fortune",
+  "ticker": [
+    "BRENT CRUDE ~$96.35 ▲ +0.20%",
+    "LOW SULPHUR GASOIL (ULS1!) $1,423.50/mt ▼ −1.37%",
+    "NATURAL GAS $3.03 ▲ +0.5%",
+    "BRENT STEADIES NEAR $96 AS MIDDLE EAST EXPORTS RECOVER TO ~98% OF PRE-WAR LEVELS",
+    "SAUDI EAST-WEST PIPELINE BACK AT ~3.5 MB/D — YANBU LOADINGS RECOVER",
+    "US AUTHORIZES UP TO 40 MILLION BARRELS FROM SPR TO EASE FUEL PRICES",
+    "IRAN DOUBTS HORMUZ DEAL BEFORE US MIDTERMS — TRUMP REJECTED TEHRAN'S LATEST PROPOSAL",
+    "OPEC+ CORE GROUP MEETS OCT 4 AFTER HOLDING OCTOBER OUTPUT UNCHANGED"
+  ],
+  "prices": [
+    { "label": "Brent Crude", "value": "~$96.35", "change": "▲ +0.20% (steady on supply recovery)", "direction": "up" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,423.50/mt", "change": "▼ −1.37% (product tightness easing)", "direction": "down" },
+    { "label": "Brent (Prior Session Close)", "value": "$102.59", "change": "▼ −2.6% (Sept 29 drop)", "direction": "down" },
+    { "label": "WTI Crude (Sept 29)", "value": "$89.38", "change": "▼ −3.5% (Red Sea exports recover)", "direction": "down" },
+    { "label": "Natural Gas (Henry Hub)", "value": "$3.03", "change": "▲ +0.5% (after three straight declines)", "direction": "up" }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Supply Returns — Middle East Flows Rebuild While the Hormuz Deal Stays Frozen",
+    "headline": "Brent Steadies Near $96 as Saudi Pipeline Revival and Emergency US Reserve Release Take the Edge Off the Rally",
+    "paragraphs": [
+      "Crude found its footing Wednesday after a sharp slide. Brent held around <strong>$96 a barrel</strong>, roughly flat on the day, as the physical picture improved: the 10-day average of Middle East crude exports has recovered to about <strong>17.5 million bpd — roughly 98% of pre-war levels</strong> — according to Trading Economics' market summary. Saudi Arabia has restored flows on its East-West pipeline to around <strong>3.5 million bpd</strong>, about half of its 7 million bpd capacity.",
+      "Satellite imagery cited by CNBC pointed to a <strong>\"major operational recovery\"</strong> at the Red Sea terminals of Yanbu and Muajjiz, with 12.5 million barrels loaded onto nine tankers between Saturday and Monday. Oil moving through the Strait of Hormuz averaged 13.2 million bpd over seven days, about 77% of pre-war levels per Kpler. Washington added to the supply side by authorizing the release of up to <strong>40 million barrels</strong> from the Strategic Petroleum Reserve.",
+      "The diplomatic track, however, has not moved. Iranian officials have cast doubt on a deal to end hostilities and reopen Hormuz before the US midterm elections, and President Trump rejected Tehran's latest proposal after talks in New York. Note that quoted Brent levels differ across data providers today (Trading Economics ~$96; other sources closed Tuesday near $102.6), reflecting contract and timing differences — treat levels as approximate."
+    ],
+    "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "link_text": "Read Trading Economics",
+    "stats": [
+      { "num": "~98%", "desc": "Middle East Crude Exports (10-Day Avg) as Share of Pre-War Levels" },
+      { "num": "3.5 mb/d", "desc": "Saudi East-West Pipeline Flow, About Half of Capacity" },
+      { "num": "40M bbl", "desc": "Additional US SPR Release Authorized" },
+      { "num": "77%", "desc": "Hormuz Seven-Day Average Flow vs. Pre-War (Kpler)" }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Reaction",
+      "headline": "Oil Falls as Crude Exports Recover at Saudi Arabia's Red Sea Ports",
+      "body": "Oil dropped Tuesday as loadings at Yanbu and Muajjiz rebounded from the earlier pipeline attack. Brent futures fell 2.6% to $102.59 and US WTI fell about 3.5% to $89.38 on the day, the biggest one-day decline in more than a week.",
+      "link_url": "https://www.cnbc.com/2026/09/29/oil-prices-today-brent-wti-hormuz.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran Doubts Hormuz Deal Before US Midterms as Trump Rejects Latest Proposal",
+      "body": "Recent US–Iran talks in New York produced limited progress. Iranian officials reportedly doubt an agreement to end hostilities and reopen the Strait of Hormuz can be reached before the November midterm elections, while Trump rejected Tehran's latest proposal.",
+      "link_url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply Logistics",
+      "headline": "Saudi Pipeline Ramps Back Up After Earlier Attack",
+      "body": "Reports that Saudi Arabia's East-West pipeline, which bypasses Hormuz, is ramping back up pulled oil off its highs. Flows are back near 3.5 million bpd, about half of the 7 million bpd capacity, and the market is watching how quickly full capacity returns.",
+      "link_url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds October Output Unchanged; Core Group Meets Oct. 4",
+      "body": "Seven core OPEC+ members kept output policy unchanged for October as the Iran war continues to limit the group's influence over prices and market share. The group is likely to pause increases for the fourth quarter and meets again on October 4.",
+      "link_url": "https://www.cnbc.com/2026/09/06/opec-oil-output-october.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Fundamentals",
+      "headline": "EIA Lifts Second-Half Brent Forecast to About $90/b",
+      "body": "The EIA's Short-Term Energy Outlook forecasts Brent spot averaging around $90/b in the second half of 2026, $8/b higher than in the prior month's outlook, reflecting the prolonged Hormuz disruption.",
+      "link_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "US Natural Gas Near $3.03 After Three Straight Declines",
+      "body": "Henry Hub prices hovered near $3.03/MMBtu with near-normal eastern US temperatures limiting demand, storage 2.4% above normal, and LNG feedgas deliveries averaging 17.9 bcfd in September, up from 17.2 bcfd in August.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Sep 30 — Today",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Sept 25)",
+      "impact": "The week's inventory test. The most recent figures I retrieved (week ended Sept 18) showed crude up 2.97 million barrels to 426.4 million, gasoline down 1.69 million and distillates down 0.4 million. This week's print was not retrieved at the time of writing; another crude build would reinforce the supply-recovery narrative.",
+      "market_impact": "±$1–3/bbl on the surprise.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 4",
+      "name": "OPEC+ Core Group Meeting",
+      "impact": "Seven core members meet after holding October policy flat. A Q4 pause is the expected outcome; any surprise increase would be bearish, a formal pause is largely priced.",
+      "market_impact": "Modest unless policy deviates from a pause.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Saudi East-West Pipeline Return to Full Capacity",
+      "impact": "From ~3.5 mb/d toward 7 mb/d. Each step higher removes supply risk premium; a fresh attack would reverse it quickly.",
+      "market_impact": "Structural — governs the bearish path.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US–Iran Talks / Hormuz Reopening",
+      "impact": "Trump has rejected Tehran's latest proposal and Iran doubts a deal before the midterms. Hormuz flows near 77% of pre-war levels leave the strait as the dominant upside risk.",
+      "market_impact": "Headline-driven, ±$4–6/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US SPR Release (Up to 40M Barrels)",
+      "impact": "Emergency barrels dampen fuel price pressure, especially for diesel and gasoil, and cap rallies while they flow.",
+      "market_impact": "Supportive of lower product cracks.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's slide and today's flat tape tell the same story: the market is now trading <em>physical recovery</em> against <em>diplomatic paralysis</em>. Middle East exports are near 98% of pre-war levels on a 10-day view and Saudi Red Sea loadings are back, but the strait itself is still running well below normal.",
+      "<strong>My read on today:</strong> the easy premium has come out. With the SPR adding barrels and the Saudi pipeline climbing, the burden of proof has shifted to the bulls. Gasoil's decline of roughly 1.4% to $1,423.50/mt fits that: product tightness is easing, though it remains historically elevated.",
+      "<strong>The bigger picture:</strong> risk remains two-sided. A signal from either capital that talks are alive would take another leg out of crude, while a fresh attack on infrastructure or a hard Iranian line ahead of the midterms would rebuild the premium fast. Data caution: price levels differ by provider today, so watch direction over precise levels.",
+      "My call: <strong>Brent trades $92–$100 today</strong>, biased slightly lower while supply keeps returning. <strong>The rally has stalled; the next move needs a diplomatic catalyst.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing", "tone": "bullish", "pct": 55 },
+      { "name": "Geopolitical Risk", "label": "Elevated", "tone": "bearish", "pct": 70 },
+      { "name": "Demand Response", "label": "Neutral", "tone": "neutral", "pct": 50 },
+      { "name": "Diplomatic Progress", "label": "Stalled", "tone": "bearish", "pct": 65 },
+      { "name": "Saudi Export Recovery", "label": "Bearish (Price)", "tone": "bullish", "pct": 68 },
+      { "name": "Product Tightness", "label": "Easing", "tone": "neutral", "pct": 55 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$92 – $100",
+      "bias": "Bias: Slightly Lower — Headline Risk Up ▼"
+    },
+    "watch_levels": {
+      "resistance": "$100–$103",
+      "support": "$92–$94",
+      "breakout": ">$103 (talks collapse / new attack)",
+      "breakdown": "<$90 (Hormuz progress + pipeline at capacity)"
+    }
+  }
+}
