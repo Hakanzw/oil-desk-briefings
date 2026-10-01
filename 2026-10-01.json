@@ -1,0 +1,216 @@
+{
+  "date_long": "Thursday, October 1, 2026",
+  "date_slug": "oct1-2026",
+  "volume": "Vol. I — No. 63",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Trading Economics, TradingView, EIA, BOE Report/Reuters, CBS News, PBS, AGBI, IEA, CNBC",
+  "ticker": [
+    "BRENT CRUDE ~$96.91 ▼ −1.14%",
+    "LOW SULPHUR GASOIL (ULS1!) $1,434.75/mt ▲ +5.07%",
+    "NATURAL GAS $2.98 ▼ −1.55%",
+    "BRENT SLIPS BELOW $97 AS HORMUZ FLOWS CLIMB TO 13.2 MB/D AND SAUDI PIPELINE RECOVERS",
+    "EIA: US CRUDE +922K BBL TO 427.3M vs. 264K DRAW EXPECTED; DISTILLATES −2.3M, 14% BELOW 5-YR AVG",
+    "IRAN RECEIVES FORMAL US RESPONSE TO HORMUZ PROPOSAL TRUMP REJECTED OVER WEEKEND",
+    "OPEC+ CORE GROUP EXPECTED TO HOLD OUTPUT STEADY AT SUNDAY (OCT 4) MEETING"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "~$96.91",
+      "change": "▼ −1.14% (supply recovery)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,434.75/mt",
+      "change": "▲ +5.07% (24h, TradingView; diesel stocks tight)",
+      "direction": "up"
+    },
+    {
+      "label": "US Crude Stocks (EIA, wk to Sep 25)",
+      "value": "427.3M bbl",
+      "change": "▲ +922K vs. −264K expected",
+      "direction": "up"
+    },
+    {
+      "label": "US Distillate Stocks",
+      "value": "105.2M bbl",
+      "change": "▼ −2.3M (14% below 5-yr avg)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$2.98",
+      "change": "▼ −1.55% (4th straight decline)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Supply Recovers, Diplomacy Stalls — Brent Slips Under $97 While Diesel Tightens",
+    "headline": "Brent Eases to ~$97 as Hormuz Flows Climb, but a Surprise Distillate Draw Sends Gasoil Higher and Iran Talks Remain Deadlocked",
+    "paragraphs": [
+      "Crude drifted lower Thursday. Brent traded near <strong>$96.91 a barrel, down about 1.1%</strong>, according to Trading Economics, as Middle East supply conditions kept improving. Flows through the Strait of Hormuz have climbed to roughly <strong>13.2 million bpd</strong>, and Saudi Arabia has restored about half of its East-West pipeline capacity. Quoted levels differ by provider and contract (other feeds showed Brent in the $97–98 range; Wednesday's settlement was reported near $103 by another source), so treat levels as approximate.",
+      "Product markets told a different story. The EIA reported US crude stocks rose <strong>922,000 barrels to 427.3 million</strong> against an expected 264,000-barrel draw, but gasoline fell 1.7 million and distillates fell <strong>2.3 million barrels to 105.2 million — about 14% below the five-year average</strong>. Refinery utilization slipped 1.5 points to 92.5%. ICE Low Sulphur Gasoil (ULS1!) was quoted at <strong>$1,434.75/mt, up 5.07% over 24 hours</strong> per TradingView.",
+      "On diplomacy, Iran said it received the formal US response to its proposal to reopen Hormuz in phases, days after President Trump rejected the plan. Trump has said the choice is to \"blow them up or make a deal.\" With OPEC+ expected to hold output steady at Sunday's meeting, geopolitics remains the dominant swing factor."
+    ],
+    "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "link_text": "Read Trading Economics",
+    "stats": [
+      {
+        "num": "13.2 mb/d",
+        "desc": "Hormuz Flows, Up as Supply Conditions Improve"
+      },
+      {
+        "num": "+922K bbl",
+        "desc": "US Crude Stocks Build vs. 264K Draw Expected (EIA)"
+      },
+      {
+        "num": "−14%",
+        "desc": "US Distillate Stocks vs. Five-Year Average"
+      },
+      {
+        "num": "Oct 4",
+        "desc": "OPEC+ Core Group Meeting — Hold Expected"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Inventories",
+      "headline": "EIA: US Crude Unexpectedly Builds While Gasoline and Distillate Stocks Fall",
+      "body": "US crude inventories rose 922,000 barrels to 427.3 million in the week ended Sept 25, against a 264,000-barrel draw expected. Cushing stocks rose 553,000 barrels. Gasoline fell 1.7 million barrels to 204.4 million and distillates fell 2.3 million to 105.2 million. Refinery runs fell 554,000 bpd, with utilization down 1.5 points to 92.5%. Diesel futures jumped 4.5% to $5.1175/gal after the report.",
+      "link_url": "https://boereport.com/2026/09/30/us-crude-stocks-rise-gasoline-and-distillate-inventories-fall-eia-7/",
+      "link_text": "Read BOE Report (Reuters)"
+    },
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Declines as Hormuz Flows Climb and Saudi Pipeline Recovers",
+      "body": "Brent fell to about $96.91 on Thursday. Hormuz flows rose to 13.2 million bpd and Saudi Arabia has restored half of East-West pipeline capacity, though both Washington and Tehran continue to claim control of the strait.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Iran Receives US Response to Hormuz Proposal After Trump Rejection",
+      "body": "Iran said it received the formal US response to its proposal for a seven-day ceasefire and phased reopening of Hormuz, days after Trump rejected the plan, saying Iran was \"losing so badly.\" Foreign Minister Araghchi said Tehran has made no changes to its offer.",
+      "link_url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiation-strait-of-hormuz/",
+      "link_text": "Read CBS News"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Trump Rejects Iran's Plan to Reopen the Strait of Hormuz",
+      "body": "Iran offered to reopen the strait and resume nuclear talks within seven days if the US lifted its naval blockade, waived oil sanctions and observed a ceasefire including Lebanon. Trump rejected it.",
+      "link_url": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news",
+      "link_text": "Read PBS"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Likely to Keep Output Targets Steady at Sunday Meeting",
+      "body": "Seven core members — Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman — are expected to roll over targets on Oct 4, per sources. Gulf members are boosting exports but most still pump below targets.",
+      "link_url": "https://www.agbi.com/oil-and-gas/2026/09/opec-likely-to-keep-output-targets-steady-at-sunday-meeting/",
+      "link_text": "Read AGBI"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "US Natural Gas Slips Below $3 for a Fourth Straight Decline",
+      "body": "Henry Hub fell about 1.55% to $2.98/MMBtu on near-normal temperature forecasts and eased supply constraints. Storage is 2.4% above the five-year average; LNG feedgas averaged 17.9 bcfd in September.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 1 — Today",
+      "name": "US Response to Iran's Hormuz Proposal",
+      "impact": "Iran has the formal US reply. A constructive counter would pressure prices; a hardline reading keeps the strait risk premium alive.",
+      "market_impact": "Headline-driven, ±$3–5/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 4",
+      "name": "OPEC+ Core Group Meeting",
+      "impact": "A rollover of targets is expected and largely priced. Gulf members still pump below quota, so policy matters less than physical recovery.",
+      "market_impact": "Modest unless policy deviates.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Distillate Tightness / ULS1! Strength",
+      "impact": "US distillates sit 14% below average and gasoil is bid. Further draws would keep diesel cracks wide and support crude.",
+      "market_impact": "Supports crude via product margins.",
+      "risk": "High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Saudi East-West Pipeline Return to Full Capacity",
+      "impact": "From about half of 7 mb/d capacity toward full. Each step removes premium; a new attack would reverse it.",
+      "market_impact": "Structural.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 7",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "Tests whether the crude build persists and whether distillate draws continue.",
+      "market_impact": "±$1–3/bbl.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called the tape a tug-of-war between returning supply and stalled diplomacy. Today's data keeps that framing: Brent is softer near <strong>$97</strong> while the diesel complex is firming.",
+      "<strong>My read on today:</strong> crude fundamentals look comfortable — a surprise US crude build, Hormuz flows at 13.2 mb/d, Saudi pipeline flows restored — yet <em>products</em> are tight. A 2.3-million-barrel distillate draw leaving stocks 14% below average is what drives ULS1! higher.",
+      "<strong>The bigger picture:</strong> without a deal, Hormuz remains a bottleneck and Trump's \"blow them up or make a deal\" rhetoric keeps tail risk alive. Data sources also disagree on levels today, so I am leaning on direction rather than precise prints.",
+      "My call: <strong>Brent trades $93–$100 today</strong>, with a mild downward bias on supply recovery but firm support from product tightness and unresolved diplomacy. <strong>Watch diesel — it is where the tightness is hiding.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 52
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Demand Response",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Diplomatic Progress",
+        "label": "Stalled",
+        "tone": "bearish",
+        "pct": 65
+      },
+      {
+        "name": "Saudi Export Recovery",
+        "label": "Bearish (Price)",
+        "tone": "bullish",
+        "pct": 68
+      },
+      {
+        "name": "Product Tightness",
+        "label": "Tightening",
+        "tone": "bearish",
+        "pct": 66
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$93 – $100",
+      "bias": "Bias: Mildly Lower, Diesel Supportive ▼"
+    },
+    "watch_levels": {
+      "resistance": "$100–$103",
+      "support": "$93–$95",
+      "breakout": ">$103 (talks collapse)",
+      "breakdown": "<$92 (Hormuz deal)"
+    }
+  }
+}
