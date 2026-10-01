@@ -67,6 +67,16 @@ jobs:
                price call, watch_levels). Keep the editorial voice consistent with
                prior issues. Body copy may contain <strong>/<em>.
 
+               LENGTH AND DEPTH — match the detail of earlier issues (read the
+               two most recent prior YYYY-MM-DD.json files from before
+               2026-09-30 as a benchmark). Minimum targets: each lead
+               paragraph 120-170 words; each news card body 100-150 words
+               (what happened, the numbers, who said it, and why it matters
+               for crude/diesel); each event "impact" 60-80 words; each
+               verdict paragraph 80-110 words. Be analytical, not telegraphic:
+               include specific figures, named sources and the market
+               implication. Do not shorten to save turns or tokens.
+
             4. RENDER: run `python3 automation/build_report.py YYYY-MM-DD.json` and
                verify oil-market-briefing-<slug>.html was created with all sections.
 
