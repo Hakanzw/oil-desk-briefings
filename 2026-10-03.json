@@ -1,0 +1,187 @@
+{
+  "date_long": "Saturday, October 3, 2026",
+  "date_slug": "oct3-2026",
+  "volume": "Vol. I — No. 65",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Trading Economics, TradingView, The National, OilPrice.com, EIA via Rigzone, Investing.com, Baird Maritime, Reuters via US News",
+  "ticker": [
+    "BRENT CRUDE ~$102.25 ▼ −0.06% (FRIDAY CLOSE)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,354.00/mt ▼ −6.62%",
+    "NATURAL GAS $3.04 ▲ +2.29%",
+    "IEA MEMBERS AGREE 100M-BARREL RELEASE — 50M DIESEL, 50M CRUDE — GASOIL SLUMPS",
+    "US SENDS THIRD CARRIER GROUP AND 2,000+ MARINES; HORMUZ FLOWS AT HIGHEST SINCE WAR BEGAN",
+    "CHINA HALTS OCTOBER FUEL EXPORTS; US DISTILLATES 14% BELOW 5-YR AVERAGE",
+    "OPEC+ EXPECTED TO HOLD NOVEMBER QUOTAS AT SUNDAY'S (OCT 4) MEETING"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "~$102.25",
+      "change": "▼ −0.06% (risk premium vs. stock releases)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,354.00/mt",
+      "change": "▼ −6.62% (24h, TradingView; reserve-release hit)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$91.11",
+      "change": "▼ −1.9% (Brent–WTI spread ~$11)",
+      "direction": "down"
+    },
+    {
+      "label": "US Commercial Crude Stocks",
+      "value": "427.3 mb",
+      "change": "▲ +0.9 mb w/w; 2% above 5-yr avg",
+      "direction": ""
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$3.04",
+      "change": "▲ +2.29% (still down >6% on the week)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Diesel Relief — Gasoil Tumbles as Allies Agree 100 Million Barrels of Stock Releases, but Brent Holds $102 on Military Build-Up",
+    "headline": "Gasoil Slides More Than 6% as Allies Agree to Release 100 Million Barrels of Diesel and Crude, While Brent Holds $102 as a Third US Carrier Group Heads to the Gulf",
+    "paragraphs": [
+      "Friday's session split the energy complex in two. <strong>Brent finished near $102.25 a barrel, a 0.06% dip</strong> according to Trading Economics, while US WTI fell about 1.9% to $91.11, narrowing the Brent–WTI spread to roughly $11 from more than $13 a day earlier. The real action was in diesel: ICE Low Sulphur Gasoil (ULS1!) was quoted by TradingView at <strong>$1,354.00 a tonne, down 6.62% over 24 hours</strong>, after reports that Western governments would release emergency distillate reserves. Weekend caveat: markets are closed on this Saturday date, so every figure here is Friday's last print, and quotes differ by provider and contract month. The pattern is still clear. Crude is anchored by a security premium, while products are being driven by policy intervention and by how scarce barrels are in the near term.",
+      "The National reported that European nations agreed to release <strong>50 million barrels of diesel and 50 million barrels of crude</strong> through International Energy Agency members, with Trading Economics describing a wider G7 effort of as much as 100 million barrels over four months. That is a direct response to a distillate squeeze that has pushed ULS1! up nearly 120% this year. The release coincides with the best physical news since the war began in February: flows through the Strait of Hormuz hit their highest level since the conflict started, and Saudi Arabia lifted September shipments through Hormuz to 2.9 million bpd after Houthi attacks restricted its Red Sea route. Together these developments explain why crude stayed pinned while diesel cracked lower, since the crude market already holds a premium while product markets have a new, large source of supply.",
+      "Offsetting the relief is escalation. The US has dispatched a third aircraft carrier strike group plus an amphibious group carrying more than 2,000 Marines, and Emirates NBD senior economist Daniel Richards noted that <strong>\"renewed US military deployments to the region kept the risk premium alive.\"</strong> China has meanwhile halted most October fuel exports, and US distillate inventories are 14% below the five-year average. The upshot for the weekend is a market where a one-off stock release is being weighed against structural diesel scarcity: it softens the spike but does not replace lost refinery output. With OPEC+ meeting Sunday and Iran's response to the build-up unknown, Monday's open could gap in either direction, and the gasoil move may prove an overshoot if the release is slower than headlines imply.",
+      "Traders should keep in mind that emergency stock releases historically deliver a sharp initial price reaction that fades once the volumes are scheduled and absorbed, so Friday's 6.6% gasoil drop is best read as repricing of fear rather than a repair of supply. The release is spread over roughly four months, equal to under one million barrels a day of extra supply against a distillate deficit that Kpler puts near 20 million barrels in China alone. If Hormuz flows keep recovering, the policy move compounds the bearish case; if tanker attacks resume, the cushion could be consumed within weeks and refiners would be back to bidding for prompt cargoes at wide margins."
+    ],
+    "link_url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
+    "link_text": "Read The National",
+    "stats": [
+      {
+        "num": "100 mb",
+        "desc": "Diesel and Crude Stock Release Agreed (50 mb Each)"
+      },
+      {
+        "num": "−6.6%",
+        "desc": "ULS1! Front-Month Drop to $1,354/mt in 24 Hours"
+      },
+      {
+        "num": "14%",
+        "desc": "US Distillate Stocks Below the Five-Year Average"
+      },
+      {
+        "num": "2.9 mb/d",
+        "desc": "Saudi September Exports via Hormuz After Red Sea Attacks"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Stock Release",
+      "headline": "Europe Agrees to Release 50 Million Barrels of Diesel and 50 Million of Crude Through the IEA",
+      "body": "European nations agreed to release 50 million barrels of diesel and 50 million barrels of crude oil through International Energy Agency members, The National reported Friday, easing fears over tight refined-product supply. Trading Economics described a wider G7 plan to release as much as 100 million barrels of diesel and crude over the next four months. WTI fell 1.9% to $91.11 and gasoil futures dropped more than 6%, while Brent was nearly flat at about $102.25. The market read the news as a direct admission that diesel is the binding constraint, with the Western response targeting the product rather than crude. For traders, the key question is delivery pace: roughly 100 million barrels over four months is under 1 million bpd, helpful but not a substitute for lost Gulf refining and Russian export curbs.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "Inventories",
+      "headline": "EIA: US Crude Stocks Rise 0.9 Million Barrels, but Distillates Fall 2.3 Million to 14% Below Average",
+      "body": "The EIA's weekly report for the week ended September 25 showed commercial crude inventories, excluding the SPR, rising 0.9 million barrels to 427.3 million, about 2% above the five-year average. Against it, middle distillate stocks fell 2.3 million barrels and now sit 14% below the five-year average, while gasoline inventories lost 1.7 million barrels. The SPR stood at 283.8 million barrels, 30.2% below a year ago, and total petroleum stocks were 1.528 billion barrels, down 7.8 million on the week. Total products supplied averaged 20.8 million bpd over four weeks, up 2.1% year on year. The split matters: crude is comfortable but product stocks are depleted, which supports refinery margins and explains why diesel, not crude, is the focus of government intervention. A thin SPR also limits Washington's ability to add to releases.",
+      "link_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Asia Supply",
+      "headline": "China Halts October Fuel Exports Beyond Hong Kong and Macau as Global Diesel Crunch Deepens",
+      "body": "Chinese refiners have suspended most refined-fuel exports for October as Beijing prioritises rebuilding domestic inventories. PetroChina cancelled gasoline and jet fuel cargoes, Zhejiang Petrochemical halted scheduling through the National Day holiday ending October 7, and no export quotas have been approved beyond Hong Kong and Macau. Kpler estimates commercial diesel and gasoil stocks are about 20 million barrels below pre-war levels and gasoline roughly 9 million barrels short of Beijing's target. August exports had been 6.01 million tonnes, the highest since March 2024, so the swing is abrupt. S&P Global warned that Asian markets have little surplus, so any further limit on US diesel exports would intensify competition for Asian and Middle Eastern barrels. The move had lifted crude about 2% on Thursday before Friday's stock-release news reversed some of it.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html",
+      "link_text": "Read OilPrice.com"
+    },
+    {
+      "tag": "Geopolitics",
+      "headline": "US Deploys Third Carrier Group and 2,000+ Marines; Emirates NBD Says Risk Premium \"Alive\"",
+      "body": "The National reported that the US has sent a third aircraft carrier strike group and an amphibious group carrying more than 2,000 Marines to the Middle East, adding to forces already in theatre. Daniel Richards, senior economist at Emirates NBD, said the renewed deployments \"kept the risk premium alive\" even as supply data improved. Earlier reporting by the Wall Street Journal had said as many as 9,000–10,000 additional troops could arrive by the end of November. The deployment turns an abstract threat into a dated one, and it arrives while the Trump administration rules out sanctions relief and Tehran has offered a Hormuz reopening only in return for a lifted blockade. For crude and diesel, that makes the November window the main scheduled tail risk, and it explains Brent holding above $100 despite the stock-release headlines.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Seen Holding November Quotas Steady at Sunday's Meeting as Gulf Output Lags Targets",
+      "body": "Seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, are expected to meet online Sunday, October 4, and leave November quotas unchanged, delegates told Reuters and Investing.com. The group has nominally completed the unwinding of its 2023 cuts and is likely to ratify its existing roadmap. The practical constraint is that the Iran war has kept Gulf members pumping well below their official targets, even as exports recover, so a rollover changes little physically. The signal that matters is any language on capacity baselines or price defence. With Brent above $100 and US distillates scarce, a surprise increase would be read as political accommodation to consumers, while a pause would reinforce the premium. The base case is a non-event.",
+      "link_url": "https://investinglive.com/commodities/oil-opec-seen-holding-november-quotas-steady-at-sunday-meeting-delegates-say/",
+      "link_text": "Read InvestingLive"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "US Natural Gas Rebounds 2.3% to $3.04 After a Weekly Slide of More Than 6%",
+      "body": "US natural gas rose 2.29% to about $3.035 per MMBtu on Friday, but remains down more than 6% on the week as traders priced stronger production and mild weather, according to Trading Economics. September output reached a record 113.3 bcfd, while LNG feedgas demand strengthened to 17.9 bcfd. Storage remains below the five-year average and forecasts show normal temperatures through mid-October, limiting heating and cooling demand. The price is up about 4% on the month but down nearly 9% on the year, and Trading Economics sees $3.21 by the fourth quarter. The relevance for oil is indirect: cheap US gas keeps domestic power and petrochemical costs low, while high diesel prices and Brent above $100 widen the gap between gas and oil-linked fuels, one reason LNG demand stays firm abroad.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 4 — Sunday",
+      "name": "OPEC+ Online Meeting on November Quotas",
+      "impact": "Delegates expect the seven core members to roll over November targets. Because Gulf producers are still pumping below quota, the headline matters less than the commentary on capacity baselines and price defence. A surprise increase would signal accommodation of consumers amid the diesel squeeze, while a pause would reinforce the premium. The result lands before Monday's open, when thin weekend liquidity can exaggerate the reaction.",
+      "market_impact": "Modest unless policy deviates from the rollover; ±$1–2/bbl.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 5 — Monday Open",
+      "name": "Market Reaction to Iran's Response to the US Build-Up",
+      "impact": "Tehran has had a weekend to answer the third carrier group and 2,000+ Marines. Threats to shipping or another tanker attack would revive the war premium quickly, with Brent already holding $102. A revised Hormuz offer would instead strengthen the bearish case alongside the stock release and recovering flows. Thin liquidity makes the gap risk real in both directions.",
+      "market_impact": "Headline-driven, ±$3–5/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 7",
+      "name": "China National Day Holiday Ends — Export Quota Signals",
+      "impact": "Chinese refiners have halted most October fuel exports through the holiday. Watch for any word on November export quotas once the break ends. A reversal would ease Asian diesel tightness and pressure gasoil, while an extension would deepen competition for Asian and Middle Eastern barrels and support cracks.",
+      "market_impact": "Gasoil-led; ±$20–40/mt on quota news.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 7 — Wed",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "Next read on whether US distillates, already 14% below the five-year average, keep falling. Another sizeable draw would highlight the scarcity that governments are trying to relieve, and would raise questions about US product exports. A rebuild would add weight to the bearish diesel move seen Friday, while crude stocks, 2% above average, are unlikely to move the market.",
+      "market_impact": "±$1–2/bbl crude; larger for diesel.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct–Jan",
+      "name": "IEA Stock-Release Delivery Schedule",
+      "impact": "The 100 million barrel package is spread over roughly four months. Details on timing, split between diesel and crude, and which countries contribute will determine whether the market treats it as real supply or a headline. Slow or smaller-than-announced delivery would let the diesel premium rebuild.",
+      "market_impact": "Structural; governs diesel crack trajectory.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued that the headlines and the fundamentals were pulling in opposite directions, and Friday delivered the proof. <strong>Brent held at $102</strong> on the back of a third carrier group and 2,000+ Marines, while gasoil dropped more than 6% to <strong>$1,354/mt</strong> as allies agreed to release 100 million barrels of diesel and crude. The two benchmarks no longer share a single driver: crude is trading the security premium, while diesel is trading policy and scarcity. That divergence is the most important development of the week and it should shape how the next sessions are read.",
+      "<strong>My read on today:</strong> Saturday has no trading, so the question is how Monday opens. The weekend brings OPEC+, widely expected to roll over quotas, and Iran's answer to the US build-up. Hormuz flows at their best since February and Saudi exports of 2.9 mb/d via the strait are genuinely bearish. But I would not extrapolate Friday's gasoil drop. Emergency releases usually produce a sharp reaction that fades once barrels are scheduled, and under one million bpd of additional supply is modest against a deficit that Kpler puts near 20 million barrels in China alone.",
+      "<strong>The diesel angle:</strong> US distillates fell 2.3 million barrels to 14% below average and China has withdrawn its export cargoes, so the structural story is unchanged by the release. A 6.6% one-day drop in ULS1! after a near-120% rise this year is a correction inside a tight market, not a regime change. Watch the gasoil-to-Brent crack: if it keeps compressing while crude holds, the policy move is working, but a rebound would show that refiners are still the price setter and that the release was already priced in.",
+      "My call: <strong>Brent trades $98–$106 into Monday</strong>, with a neutral-to-slightly-higher bias because the military build-up has a calendar while the stock release is spread over months. <strong>Diesel got a policy gift, crude kept its fear premium.</strong> A break above $107 needs a concrete shipping attack or strike signal, while a revived diplomatic channel combined with sustained Hormuz recovery could take Brent toward the mid-$90s."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Easing", "tone": "neutral", "pct": 52 },
+      { "name": "Geopolitical Risk", "label": "Elevated", "tone": "bearish", "pct": 76 },
+      { "name": "Demand Response", "label": "Neutral", "tone": "neutral", "pct": 50 },
+      { "name": "Policy Intervention", "label": "Price-Bearish", "tone": "bullish", "pct": 66 },
+      { "name": "Diesel Tightness", "label": "Tight", "tone": "bearish", "pct": 70 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin", "tone": "bearish", "pct": 32 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$98 – $106",
+      "bias": "Bias: Neutral to Slightly Higher on Military Build-Up ▲"
+    },
+    "watch_levels": {
+      "resistance": "$105–$107",
+      "support": "$97–$99",
+      "breakout": ">$107 (tanker attack / strike signal)",
+      "breakdown": "<$95 (diplomatic revival + Hormuz recovery)"
+    }
+  }
+}
