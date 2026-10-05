@@ -1,0 +1,216 @@
+{
+  "date_long": "Monday, October 5, 2026",
+  "date_slug": "oct5-2026",
+  "volume": "Vol. I — No. 67",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Trading Economics, TradingView, Gulf News, Nation Thailand, Reuters (via Investing.com), Business Standard, The National, OilPrice.com, EIA",
+  "ticker": [
+    "BRENT CRUDE ~$101.74 ▼ −0.50%",
+    "LOW SULPHUR GASOIL (ULS1!) $1,366.25/mt ▼ −6.62% (TradingView 24h)",
+    "NATURAL GAS ~$3.04 ▼ (EDGED LOWER)",
+    "HOUTHIS CLAIM MISSILE AND DRONE STRIKES ON ARAMCO SITES IN RIYADH AND KHURAIS — BRENT SPIKES TO $103 THEN FADES",
+    "SAUDI ARABIA UNEXPECTEDLY CUTS NOVEMBER ARAB LIGHT OSP TO ASIA TO −$5 — WIDEST DISCOUNT SINCE 2020",
+    "OPEC+ CORE SEVEN HOLD NOVEMBER QUOTAS; NEXT MEETING NOVEMBER 1",
+    "BRENT–WTI SPREAD TOPS $11; MURBAN AT $110"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$101.74",
+      "change": "▼ −0.50% (Saudi price cut offsets Houthi risk)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,366.25/mt",
+      "change": "▼ −6.62% (24h, TradingView; stock-release hangover)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$91.57",
+      "change": "▲ +0.50% (early trade; spread to Brent >$11)",
+      "direction": "up"
+    },
+    {
+      "label": "Murban (ADNOC)",
+      "value": "$110.00",
+      "change": "Premium to Brent on Hormuz-risk pricing",
+      "direction": ""
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$3.04",
+      "change": "▼ Edged lower (record output, mild weather)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Monday Open — Houthi Strikes on Aramco Sites Meet a Surprise Saudi Price Cut as OPEC+ Stands Pat",
+    "headline": "Houthis Claim Missile and Drone Attacks on Aramco's Riyadh and Khurais Sites — Brent Spikes to $103, Then Gives It Back as Riyadh Slashes Asian Prices",
+    "paragraphs": [
+      "Monday's session opened with a geopolitical jolt and a policy counterpunch. Brent futures climbed 0.79% to <strong>$103.06</strong> in early trade, up 81 cents, after Yemen's Iran-backed Houthis said they had launched ballistic missiles and drones at Saudi Aramco facilities in Riyadh and the Khurais oilfield, according to Nation Thailand. WTI touched $91.57, up 0.50%. The gain did not last. Trading Economics later had Brent at <strong>$101.74, down 0.50%</strong>, and Gulf News put it near $102.31, so quotes vary by provider and contract month. Brent remains roughly $29 above its pre-war level of about $73 and is up some 55% on the year.",
+      "What capped the rally was Saudi Arabia itself. Aramco unexpectedly cut the November Arab Light official selling price to Asia by $3 to <strong>$5 a barrel below the Oman/Dubai average</strong>, the widest discount since June 2020, against a Reuters survey that had expected a $3 increase. Heavier grades were cut by $5. Analysts read the move as compensation for elevated freight and longer voyages, including delays on cargoes loading from Egypt's Sidi Kerir terminal. Europe's price was raised, so the signal is regional: Asia is oversupplied with Saudi barrels at the margin, while the Atlantic Basin is still pulling.",
+      "The structure of the market is now split. Murban sits near <strong>$110</strong>, the Brent–WTI spread exceeds $11, and VLCC freight, insurance and tanker shortages are inflating delivered costs. Over the weekend the seven core OPEC+ members kept November targets unchanged and will meet again on November 1. UBS's Giovanni Staunovo said the market 'remains tight' because output is well below quota. For diesel, ICE Low Sulphur Gasoil is quoted near $1,366 a tonne, still reflecting the G7/IEA stock-release headline. The risk now is that Houthi attacks start to touch actual Saudi export capacity rather than just headlines."
+    ],
+    "link_url": "https://nationthailand.com/news/world/40071873",
+    "link_text": "Read Nation Thailand",
+    "stats": [
+      {
+        "num": "$103.06",
+        "desc": "Brent Early-Session High After Houthi Aramco Attack Claims"
+      },
+      {
+        "num": "−$5.00",
+        "desc": "Saudi November Arab Light OSP to Asia vs. Oman/Dubai — Widest Discount Since 2020"
+      },
+      {
+        "num": "$110",
+        "desc": "Murban Price, With Brent–WTI Spread Above $11"
+      },
+      {
+        "num": "~5 mb/d",
+        "desc": "OPEC+ Core Output Still Below Pre-War February Levels"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Houthis Claim Ballistic Missile and Drone Strikes on Aramco Sites in Riyadh and Khurais",
+      "body": "Yemen's Houthis said they launched ballistic missiles and drones at Saudi Aramco facilities in Riyadh and the Khurais area, and Brent futures jumped 0.79% to $103.06, a gain of 81 cents, in early Monday trading, according to Nation Thailand. The group's claims were not independently confirmed in the sources we retrieved, and no damage or output loss was reported. Khurais is one of Saudi Arabia's largest fields, so any verified hit would matter far more than the headline. Separately, Trading Economics noted Saudi-backed forces in Yemen have launched operations against Houthi-held areas, and the Houthis control the Bab el-Mandeb strait. For crude and diesel, the risk is a second chokepoint opening alongside Hormuz, which would lift freight and distillate cracks.",
+      "link_url": "https://nationthailand.com/news/world/40071873",
+      "link_text": "Read Nation Thailand"
+    },
+    {
+      "tag": "Saudi Pricing",
+      "headline": "Saudi Arabia Unexpectedly Cuts November Arab Light to Asia to −$5, Widest Discount Since 2020",
+      "body": "Saudi Aramco set the November Arab Light OSP to Asia at $5 a barrel below the Oman/Dubai average, a $3 cut from October, when a Reuters survey had expected a $3 increase. Arab Medium and Arab Heavy were cut by $5. The discount is the widest since June 2020. Reports say the cuts compensate buyers for elevated freight costs and for the longer voyage and waiting time on Saudi oil exported via Egypt's Sidi Kerir port, where loadings have been delayed. Prices for Europe were raised. The surprise explains why Brent faded from its early high: it suggests Riyadh is working to place barrels in Asia and does not see its supply as short. It also underlines how logistics, not production, is the binding constraint.",
+      "link_url": "https://www.business-standard.com/amp/world-news/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia-raises-them-for-europe-126100500067_1.html",
+      "link_text": "Read Business Standard"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Core Seven Hold November Targets; Gulf Output Still About 5 mb/d Below Pre-War",
+      "body": "Seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, kept November production targets unchanged at an online meeting on Sunday, with the next gathering set for November 1. The group pumped 25 million bpd in August, 630,000 bpd more than July but about 5 million bpd below February's pre-war level, and exports have run at 60-80% of normal because of the conflict. UBS analyst Giovanni Staunovo said the oil market 'remains tight' with production well below quota despite rising Hormuz flows. The rollover is effectively a non-event for barrels, since members cannot reach existing quotas, but it keeps the supply premium intact and leaves the 2027 capacity baseline review as the next real policy test.",
+      "link_url": "https://nationthailand.com/news/world/40071873",
+      "link_text": "Read Nation Thailand"
+    },
+    {
+      "tag": "Spreads / Freight",
+      "headline": "Brent Tops $102 While Murban Hits $110 as Hormuz Risk Splits the Benchmarks",
+      "body": "Gulf News reported Brent at $102.31, up 6 cents, while Murban reached $110 a barrel, and the Brent–WTI spread exceeded $11. The divergence reflects what the report called continuing uncertainty over Middle East supply routes, with Brent carrying a wider risk premium as disruption and security threats around the Strait of Hormuz raise the cost and reliability concerns of delivered crude. VLCC freight rates have surged to exceptional levels, insurance is elevated, voyages are longer and tankers are scarce, which squeezes refiners. A wide Brent–WTI gap encourages US crude exports and tightens Atlantic Basin balances, while expensive freight pushes up delivered diesel costs in Europe and Asia.",
+      "link_url": "https://gulfnews.com/world/americas/oil-prices-split-as-brent-tops-102-murban-hits-110-per-barrel-on-oct-5-2026-1.500698305",
+      "link_text": "Read Gulf News"
+    },
+    {
+      "tag": "Diesel / Gasoil",
+      "headline": "Low Sulphur Gasoil Sits Near $1,366/mt After the G7/IEA Stock-Release Slide",
+      "body": "TradingView quotes ICE Low Sulphur Gasoil, front month ULSV2026, at $1,366.25 a tonne, down 6.62% over 24 hours, 7.01% over five days and 4.65% over a month, though still up about 120% year to date. The same 24-hour percentage appeared in the prior print, so the market was closed or quiet at the time and the figure may be stale. The decline followed the G7 agreement to release as much as 100 million barrels of diesel and crude over four months. Trading Economics added that Persian Gulf crude exports exceeded pre-war levels on four of seven days in the last week of September. Diesel is falling faster than crude, which narrows the gasoil crack, but a verified Aramco hit could reverse it.",
+      "link_url": "https://www.tradingview.com/symbols/ICEEUR-ULS1!/",
+      "link_text": "Read TradingView"
+    },
+    {
+      "tag": "Outlook",
+      "headline": "Trading Economics: Brent Forecast Near $106.60 by Year-End as Supply Recovers and Yemen Heats Up",
+      "body": "Trading Economics had Brent at $101.74, down 0.50% on October 5, and noted that Brent is up about 4% over the month and roughly 55% over the year, against about $73 before the Iran conflict began in late February. Its analysts expect Brent near $106.60 by the end of the quarter and about $121 within twelve months, arguing that improving supply is offset by Middle East security risk. It cited the G7 release of 100 million barrels, Gulf exports above pre-war levels on four of seven days late in September, OPEC+ holding quotas, Saudi-backed operations against the Houthis and US military reinforcements. The message for traders is that supply is healing, but slowly, and the premium is being defended by security events.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 5 — Today",
+      "name": "Houthi–Aramco Claims: Verification and Saudi Response",
+      "impact": "The Houthis say they hit Aramco sites in Riyadh and Khurais. Brent jumped to $103.06 and faded, so the market is discounting the claim until Saudi officials or satellite data confirm damage. Confirmed loss of Khurais output, or an attack on export terminals, would push Brent toward $108 quickly, while a denial or evidence of interception would let the Saudi price cut dominate the tape.",
+      "market_impact": "Headline-driven; +$4–6/bbl if damage confirmed.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 5–7",
+      "name": "Saudi Yemen Operations and Bab el-Mandeb Risk",
+      "impact": "Saudi-backed forces have launched operations against Houthi-controlled areas, and the Houthis control Bab el-Mandeb. Escalation could threaten Red Sea transit and the Sidi Kerir route that Saudi crude now depends on. Watch for tanker diversions, war-risk insurance quotes and any Houthi shipping warnings, which would lift freight and distillate cracks even if crude volumes are unaffected.",
+      "market_impact": "Freight and gasoil cracks first; Brent +$2–4.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 7 — Wed",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The last report showed commercial crude up 0.9 million barrels to 427.3 million and distillates down 2.3 million, 14% below the five-year average. Another distillate draw would underline the scarcity behind the diesel premium and weaken the stock-release bear case. A build would reinforce the recent gasoil slide, while crude stocks near 2% above average are unlikely to move Brent.",
+      "market_impact": "±$1–2/bbl crude; larger for diesel.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct–Jan",
+      "name": "G7 / IEA 100 Million Barrel Stock-Release Delivery",
+      "impact": "The release of up to 100 million barrels of diesel and crude is spread over about four months, under one million bpd. Details on timing, the product split and contributing countries will decide whether gasoil stays near $1,366 or rebuilds its premium. Slow delivery would let tightness return, particularly if Houthi activity disrupts Red Sea logistics.",
+      "market_impact": "Structural; governs the gasoil crack path.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 1",
+      "name": "Next OPEC+ Core Seven Meeting",
+      "impact": "With November quotas held and members producing about 5 million bpd below pre-war levels, the next decision matters mainly for signalling and the 2027 capacity baseline review. Watch Saudi pricing behaviour in the meantime: the deep Asian discount suggests Riyadh wants volume placed, and a further cut for December would hint at looser Atlantic-Pacific balances.",
+      "market_impact": "Forward-looking; anchors the Q4 price floor.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Over the weekend I argued that the skew for Monday's open was to the upside because a military build-up has a calendar and a stock release does not. That played out for about an hour. <strong>Brent touched $103.06</strong> on the Houthi claims against Aramco's Riyadh and Khurais sites, then slipped to roughly <strong>$101.74</strong> once Riyadh surprised by cutting its Asian price to a $5 discount. The market took a threat and a signal of abundant Saudi supply, and netted them out.",
+      "<strong>My read on today:</strong> The Saudi price cut is the more informative datapoint. A producer that fears losing barrels does not widen its discount to the deepest since 2020. Aramco is telling Asian refiners it has crude and wants it placed, and it is compensating for freight and the Sidi Kerir detour, not for weak demand. The Houthi claim remains unverified, so I treat it as a risk premium on the tape and not a supply event. Verification is the swing factor.",
+      "<strong>The diesel angle:</strong> Low Sulphur Gasoil near $1,366 a tonne is down roughly 7% in five days but still about 120% higher this year. The 24-hour percentage looks stale, so I would not over-read it. Distillates in the US are 14% below average, freight is extreme and the stock release is under one million bpd. The correction is real, though a Red Sea escalation would restore cracks faster than crude moves.",
+      "My call: <strong>Brent trades $98–$106 today</strong>, with a flat-to-slightly-higher bias because the downside is cushioned by tight OPEC+ output and the upside is open to a confirmed strike. <strong>Security headlines hold the floor, while Saudi barrels cap the ceiling.</strong> A confirmed hit on Khurais would take Brent through $108, while a quiet Hormuz and Red Sea would let it test $97."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 56
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 78
+      },
+      {
+        "name": "Demand Response",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Price-Bearish",
+        "tone": "bullish",
+        "pct": 60
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 66
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 32
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$98 – $106",
+      "bias": "Bias: Flat to Slightly Higher on Aramco Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$103–$106",
+      "support": "$98–$100",
+      "breakout": ">$108 (confirmed Aramco damage)",
+      "breakdown": "<$96 (Red Sea calm + Saudi barrels flood Asia)"
+    }
+  }
+}
