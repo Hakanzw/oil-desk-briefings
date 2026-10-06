@@ -1,0 +1,216 @@
+{
+  "date_long": "Tuesday, October 6, 2026",
+  "date_slug": "oct6-2026",
+  "volume": "Vol. I — No. 68",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Trading Economics, TradingView, Briefs.co, Business Standard, Nation Thailand, Iran International, CBS News, BOE Report (EIA data)",
+  "ticker": [
+    "BRENT CRUDE ~$100.78 ▲ +0.46%",
+    "LOW SULPHUR GASOIL (ULS1!) $1,374.75/mt ▲ +2.14% (TradingView 24h)",
+    "NATURAL GAS ~$3.07 ▲ +0.13%",
+    "GULF CRUDE SHIPMENTS REBOUND TO 98% OF PRE-WAR LEVELS, BUT PRODUCT FLOWS ONLY 58%",
+    "SAUDI CUTS ASIA PRICES TO −$5 ARAB LIGHT; HOUTHI THREAT TO ARAMCO INFRASTRUCTURE PERSISTS",
+    "IRAN SAYS HORMUZ STAYS CLOSED UNTIL US MEETS SEVEN CONDITIONS; TANKER HIT BY PROJECTILE OCT 4",
+    "EIA DATA DUE WEDNESDAY: LAST WEEK DISTILLATES −2.3 MB, 14% BELOW 5-YEAR AVERAGE"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$100.78",
+      "change": "▲ +0.46% (recovering after Monday's dip)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,374.75/mt",
+      "change": "▲ +2.14% (24h, TradingView; market closed at print)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$90–92",
+      "change": "Held near Monday's $91.57; spread to Brent ~$10+",
+      "direction": ""
+    },
+    {
+      "label": "US Diesel (Retail Avg)",
+      "value": "$6.53/gal",
+      "change": "Record high; Gulf refineries still offline",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$3.07",
+      "change": "▲ +0.13% (cooler mid-Oct forecasts)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Tuesday Open — Gulf Crude Flows Heal, but Diesel and Hormuz Politics Keep the Floor Near $100",
+    "headline": "Brent Steadies Near $100.78 as Gulf Crude Shipments Recover to 98% of Pre-War Levels — Yet Refined Products Lag and Iran Keeps Hormuz Conditional",
+    "paragraphs": [
+      "Brent crude edged up 0.46% to <strong>$100.78</strong> a barrel on Tuesday, according to Trading Economics, recovering part of Monday's fade from the $103.06 intraday high that followed Houthi claims of missile and drone strikes on Aramco sites in Riyadh and Khurais. Another aggregator showed Brent near $100.7, so quotes differ by a few cents depending on provider and contract. The tape is range-bound: geopolitical headlines add a bid, while a steady recovery in physical flows and Saudi Arabia's Asia price cut hold the market back from retesting $103. Brent remains roughly 38% above its pre-war level near $73.",
+      "The supply story is improving at the crude level. Trading Economics cited analysis that Middle East crude shipments have rebounded to <strong>17.5 million barrels a day, or 98% of pre-war levels</strong>. Iraq is hiring additional vessels and moved 2 million barrels through Hormuz on a single VLCC, while Kuwait is producing at about 75% of pre-war rates. Other tracking cited by Hormuz coverage puts the seven-day average of crude cargoes through the strait nearer 10.3 million bpd, around three-quarters of normal, so the precise recovery depends on the measure used and the route counted.",
+      "Refined products are the weak link. Diesel and gasoline flows are only about <strong>3 million bpd, or 58% of pre-war output</strong>, because refineries in Saudi Arabia, Kuwait, the UAE and Iraq remain offline after missile strikes. US retail diesel hit a record $6.53 a gallon. Politically, Iran's parliament speaker Mohammad Bagher Ghalibaf says Hormuz stays closed until Washington meets seven conditions drawn from the June memorandum, while Foreign Minister Araghchi suggests reopening within seven days if they are met. The result is a market where crude is loosening faster than diesel, and gasoil carries the scarcity premium."
+    ],
+    "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "link_text": "Read Trading Economics",
+    "stats": [
+      {
+        "num": "98%",
+        "desc": "Middle East Crude Shipments as Share of Pre-War Levels (17.5 mb/d)"
+      },
+      {
+        "num": "58%",
+        "desc": "Product Flows vs Pre-War (≈3 mb/d) — Refinery Outages Persist"
+      },
+      {
+        "num": "$6.53",
+        "desc": "US Average Diesel Price per Gallon — Record High"
+      },
+      {
+        "num": "7",
+        "desc": "Conditions Iran Says the US Must Meet Before Hormuz Reopens"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Report",
+      "headline": "Brent Holds Near $100 as Middle East Crude Exports Rebound to 98% of Pre-War",
+      "body": "Trading Economics put Brent at $100.78, up 0.46%, on Tuesday, noting that crude shipments from the Middle East have recovered to 17.5 million barrels a day, or 98% of pre-war levels. Product flows such as diesel and gasoline reached about 3 million bpd, only 58% of pre-war output. Gulf producers are pushing larger volumes through Hormuz despite shipping risk, Iraq is chartering extra vessels and Kuwait is running near 75% of its pre-conflict rate. OPEC+ left quotas unchanged for November. The message is that crude supply is healing while the product side is not, which favours a steady Brent and a firmer diesel crack than headline crude suggests.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "Saudi Pricing",
+      "headline": "Oil Slips as Saudi Cuts Asia Price to −$5; Sparta Warns Infrastructure Remains Vulnerable",
+      "body": "Briefs.co reported Brent easing toward $101 and WTI near $90 as Saudi Aramco cut its November Arab Light price for Asia to $5 below the regional benchmark, the weakest since 2020, reversing expectations of an increase. Sparta Commodities analyst June Goh said pipeline, refinery and loading infrastructure remains vulnerable to Houthi attacks. Yemen's government has launched a full-scale campaign against Houthi-held areas, and incidents were reported in Hormuz and near Al Mukha in the Red Sea on October 4. For crude and diesel, the discount signals ample Saudi barrels for Asia, while the security warning explains why traders do not push prices much lower.",
+      "link_url": "https://www.briefs.co/news/oil-slips-as-saudi-plans-rare-price-cut-for-asia-even-with-y/",
+      "link_text": "Read Briefs.co"
+    },
+    {
+      "tag": "Diesel / Gasoil",
+      "headline": "ICE Low Sulphur Gasoil Bounces to $1,374.75/mt, Up 2.14% on the Day",
+      "body": "TradingView shows front-month ICE Low Sulphur Gasoil (ULSV2026, October) at $1,374.75 a tonne, up 2.14% over 24 hours but down 1.60% over five days, with the market closed at the time of the print. The contract is up about 124% year to date and 107% over twelve months. The bounce follows the slide after the G7 stock-release announcement and suggests buyers see value while Gulf refineries remain offline. With product flows at 58% of pre-war and US retail diesel at a record $6.53 a gallon, gasoil remains the most stressed part of the barrel, and any Red Sea or Hormuz incident would hit it harder than crude.",
+      "link_url": "https://www.tradingview.com/symbols/ICEEUR-ULS1!/",
+      "link_text": "Read TradingView"
+    },
+    {
+      "tag": "Hormuz",
+      "headline": "Iran Says Hormuz Stays Closed Until US Meets Seven Conditions; Pezeshkian Rules Out US Talks",
+      "body": "Iran International's live coverage reported that President Masoud Pezeshkian ruled out talks with the US as a third tanker in two days was hit near Hormuz. Parliament Speaker Ghalibaf said the strait stays closed until Washington meets seven conditions based on the June memorandum, while Foreign Minister Araghchi indicated reopening could come within seven days if they are met, and Deputy FM Gharibabadi said Tehran is evaluating an American response. A commercial tanker was damaged by an unknown projectile on October 4. The mixed signals keep a security premium in freight and insurance even as crude volumes recover, and they make a sudden policy shift a two-way risk for prices.",
+      "link_url": "https://www.iranintl.com/en/liveblog/202610033293",
+      "link_text": "Read Iran International"
+    },
+    {
+      "tag": "Houthis",
+      "headline": "Houthi Claims on Aramco Sites Remain Unverified as Brent Fades From $103",
+      "body": "Business Standard reported oil prices climbing after Yemen's Houthis said they attacked Saudi Aramco sites, and Nation Thailand put Brent at $103.06, up 0.79%, with WTI at $91.57 early Monday. No damage or output loss was confirmed in the sources retrieved. By Tuesday Brent had returned to about $100.8, suggesting the market treats the claim as a risk premium and not a supply event. Khurais is one of Saudi Arabia's main producing areas, so verification matters. A confirmed hit would lift crude and, more sharply, diesel cracks, because Saudi refined exports and Red Sea routes would be exposed at the same time.",
+      "link_url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-climb-after-yemen-s-houthi-rebels-attack-saudi-aramco-sites-126100500046_1.html",
+      "link_text": "Read Business Standard"
+    },
+    {
+      "tag": "US Inventories",
+      "headline": "EIA: Crude Up 922,000 bbl to 427.3M, Distillates Down 2.3M to 14% Below Average",
+      "body": "In the latest EIA report, for the week ended September 25, US commercial crude inventories rose 922,000 barrels to 427.3 million, 2% above the five-year average. Distillate stocks fell 2.3 million barrels to 105.2 million, 14% below the five-year norm, gasoline fell 1.7 million to 204.4 million and refinery utilisation dropped 1.5 points to 92.5%, according to BOE Report. This week's report is due Wednesday. A further distillate draw would reinforce the diesel premium and the record $6.53 retail price, while a crude build would match the bearish read from recovering Gulf flows.",
+      "link_url": "https://boereport.com/2026/09/30/us-crude-stocks-rise-gasoline-and-distillate-inventories-fall-eia-7/",
+      "link_text": "Read BOE Report"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 7 — Wed",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The prior report showed crude up 922,000 barrels to 427.3 million and distillates down 2.3 million to 105.2 million, 14% below average. Another distillate draw would confirm that the diesel shortage persists despite the G7 stock release, while a build would support the recent gasoil softness. Refinery utilisation, last 92.5%, and export data will indicate how much product the US is sending abroad.",
+      "market_impact": "±$1–2/bbl crude; larger for diesel.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 6–13",
+      "name": "Iran's Seven Conditions and Hormuz Reopening Window",
+      "impact": "Araghchi said the strait could reopen within seven days if conditions are met, while Ghalibaf and Pezeshkian sound harder. A credible reopening timetable would pull forward product flows and pressure Brent toward the mid-$90s. A breakdown, or more tanker incidents like the October 4 projectile hit, would restore the war premium quickly and lift freight and insurance costs.",
+      "market_impact": "Binary; ±$4–7/bbl on a clear outcome.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Threat to Saudi Infrastructure and Yemen Campaign",
+      "impact": "Yemen's government has launched a campaign against Houthi-held areas, while the Houthis claim strikes on Aramco facilities. Sparta's June Goh warns pipeline, refinery and loading infrastructure is vulnerable. Verified damage to Khurais or Red Sea loading would be a supply event; absent that, headlines add only brief spikes before Saudi price cuts and recovering flows pull Brent back.",
+      "market_impact": "Headline-driven; +$3–6 on confirmed damage.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct–Jan",
+      "name": "G7/IEA Stock Release and Product Recovery",
+      "impact": "Up to 100 million barrels of crude and diesel are being released over about four months, below one million bpd. With product flows at 58% of pre-war levels, the release is a bridge, not a cure. Refinery restarts in Saudi Arabia, Kuwait, the UAE and Iraq are the key indicator for whether gasoil can keep easing from its $1,300s level.",
+      "market_impact": "Structural; governs the diesel crack.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 1",
+      "name": "Next OPEC+ Core Meeting",
+      "impact": "The core group held November quotas, with output still far below pre-war levels. The decision is signalling more than barrels, but Saudi Arabia's Asian discount hints at a market where crude is available and logistics set the price. Watch December OSPs for confirmation of looser Asian balances.",
+      "market_impact": "Forward-looking; anchors Q4 floor.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued that the Saudi price cut was the more informative datapoint than the Houthi claim, and Tuesday's tape supports that. Brent is at <strong>$100.78</strong>, up a modest 0.46%, and there has been no follow-through on the Aramco headline. The market is behaving as though crude supply is recovering, with Gulf shipments at 98% of pre-war levels per Trading Economics, while security risk is priced as an option and not as lost barrels.",
+      "<strong>My read on today:</strong> The crude market is rangebound between $98 and $103 and needs a catalyst. The strongest candidate is Iran: Araghchi's seven-day reopening comment and Ghalibaf's seven conditions pull in opposite directions. I treat a formal reopening as the main downside trigger, since it would let product flows catch up, and a further tanker incident as the main upside trigger. Until one of them arrives, I expect chop.",
+      "<strong>The diesel angle:</strong> Low Sulphur Gasoil at $1,374.75 a tonne is up 2.14% on the day but down 1.6% over five days, so this looks like a bounce, not a trend change. Products are at 58% of pre-war flows, US diesel is a record $6.53 and US distillates are 14% below average. The diesel crack, not the crude price, is where scarcity is expressed, and Wednesday's EIA print is the next test.",
+      "My call: <strong>Brent trades $97–$104 today</strong>, with a flat bias. <strong>Crude is healing, products are not, and Hormuz diplomacy decides which one wins.</strong> A clean reopening timetable would take Brent toward $95, while confirmed damage to Saudi infrastructure would reopen $106–$108."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "neutral",
+        "pct": 52
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 76
+      },
+      {
+        "name": "Demand Response",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Price-Bearish",
+        "tone": "bullish",
+        "pct": 58
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 32
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$97 – $104",
+      "bias": "Bias: Flat — Hormuz Diplomacy Is the Swing ▲▼"
+    },
+    "watch_levels": {
+      "resistance": "$103–$104",
+      "support": "$97–$99",
+      "breakout": ">$106 (confirmed Saudi damage)",
+      "breakdown": "<$95 (Hormuz reopening timetable)"
+    }
+  }
+}
