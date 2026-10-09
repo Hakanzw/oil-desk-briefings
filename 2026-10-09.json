@@ -1,0 +1,218 @@
+{
+  "date_long": "Friday, October 9, 2026",
+  "date_slug": "oct9-2026",
+  "volume": "Vol. I — No. 71",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Rigzone, InvestingLive, PrimeXBT (Reuters), Trading Economics, TradingView, Investing.com, Nairametrics, The National, Insurance Journal",
+  "ticker": [
+    "BRENT CRUDE ~$104.28 ▲ +4.1% (THU SETTLE)",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,483.25/mt ▼ -2.02% (TradingView 24h)",
+    "NATURAL GAS ~$3.13 ▼ -1.1%",
+    "TRUMP: US WILL NOT ATTACK IRAN BEFORE NOV. 3 MIDTERMS — PARES RALLY FROM $106",
+    "IRAN TANKER ATTACKS AT WAR-HIGH; HORMUZ TRANSITS LOWEST IN OVER TWO MONTHS",
+    "HURRICANE ISAIAS SHUTS IN ~1.3 MB/D, ~TWO-THIRDS OF US GULF OIL OUTPUT",
+    "EIA: US CRUDE -3.2 MB WEEK TO OCT 2; NAT GAS INJECTION +85 BCF",
+    "OPEC+ HOLDS NOVEMBER QUOTA AT 31.01 MB/D; NEXT MEETING NOV 1"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$104.28",
+      "change": "▲ +4.1% (Thursday settle; tanker attacks, Isaias)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,483.25/mt",
+      "change": "▼ −2.02% (24h, TradingView; Investing.com LGOV6 ~$1,483.75, −1.69%)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$91.49",
+      "change": "▲ +3.6% (Thursday settle, Reuters/CNBC basis)",
+      "direction": "up"
+    },
+    {
+      "label": "Brent–WTI Spread",
+      "value": "~$12.8",
+      "change": "Wide spread reflects Gulf risk premium on seaborne barrels",
+      "direction": ""
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$3.13",
+      "change": "▼ −1.1% (ends four-session gain streak; +85 bcf build)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Friday Open — Tankers Under Fire and a Gulf Hurricane Collide as Trump Rules Out a Pre-Election Strike",
+    "headline": "Brent Settles Up 4.1% at $104.28 as Iranian Tanker Attacks and Hurricane Isaias Hit Supply — Trump's No-Strike Pledge Trims the Rally From $106",
+    "paragraphs": [
+      "Brent crude for December delivery gained 4.1% to settle at <strong>$104.28</strong> a barrel on Thursday, its highest close since late September, while US WTI rose 3.6% to $91.49, according to Rigzone's wire report. At the peak both benchmarks were up more than $5, with Brent touching roughly $106, before President Trump posted on Truth Social that <strong>\"we will not be attacking Iran at any time prior to the Midterm Elections\"</strong> and that productive talks were under way. That pledge pared the gains and cancelled, for now, the strike-risk premium that built after reports the Pentagon had drawn up operational plans. It did not remove the physical problem: Iranian attacks on tankers last week were the highest weekly total since the war began.",
+      "Two supply shocks hit simultaneously. In the Strait of Hormuz, Kpler data cited by Reuters showed transits at their lowest in more than two months, and UK Maritime Trade Operations reported a tanker hit by multiple projectiles north of Qatar with casualties. An adviser to Iran's supreme leader said the strait would not reopen until outstanding issues were resolved, even as Foreign Minister Abbas Araghchi said Tehran was reviewing a US response to its offer to reopen Hormuz within <strong>seven days</strong>, conditional on a halt to hostilities and the unfreezing of Iranian assets. In the Gulf of Mexico, Hurricane Isaias prompted producers to shut in about <strong>1.3 million barrels a day</strong>, close to two-thirds of US offshore output, with landfall expected Friday.",
+      "The product complex is behaving differently from crude, which matters for diesel-importing economies. ICE Low Sulphur Gasoil (ULS1!) slipped about 2% over 24 hours to roughly $1,483 per tonne on TradingView, a pullback from very elevated levels as the IEA agreed to accelerate stock releases and prioritise diesel. Yet nearly 500,000 barrels a day of US refining capacity sits in the storm's projected path, and analyst Fawad Razaqzada argues the long-term direction of oil prices remains tilted to the upside unless a near-term US-Iran deal materialises.",
+      "The inventory backdrop offers no cushion. The EIA reported US crude stocks fell 3.2 million barrels in the week to October 2 versus an expected build, and Deutsche Bank sees few signs that energy-driven price pressure is easing. With a Hormuz reply due within days, storm damage to be assessed over the weekend and a market with thin stocks, Friday's session is set up for headline-driven volatility in both directions."
+    ],
+    "link_url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/",
+    "link_text": "Read Rigzone",
+    "stats": [
+      {
+        "num": "$104.28",
+        "desc": "Brent December Settle, +4.1% on Thursday, Highest Since Late September"
+      },
+      {
+        "num": "~1.3 mb/d",
+        "desc": "US Gulf Oil Output Shut In Ahead of Hurricane Isaias Landfall"
+      },
+      {
+        "num": "7 days",
+        "desc": "Hormuz Reopening Window in Iran's Offer Under US Review"
+      },
+      {
+        "num": "−3.2 mb",
+        "desc": "US Crude Stock Draw, Week to Oct 2 (EIA), Against an Expected Build"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Hormuz / Shipping",
+      "headline": "Iran Ramps Up Tanker Attacks as Hormuz Transits Fall to a Two-Month Low",
+      "body": "Iranian strikes on shipping in the Strait of Hormuz have intensified. UK Maritime Trade Operations reported a tanker hit by multiple projectiles north of Qatar on Wednesday, with casualties, and last week's attack count was the highest weekly total since the war began, per Reuters. Kpler data showed transits at their lowest level in more than two months, reversing the recent recovery in Gulf flows. Freight is at record levels, with Middle East-to-China rates reaching $1.4 million a day according to Rigzone. For crude, falling transits tighten prompt supply just as inventories are thin; for diesel, longer voyages and war-risk insurance raise delivered costs in Europe and Asia, keeping cracks elevated even when flat price retreats.",
+      "link_url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/",
+      "link_text": "Read Rigzone"
+    },
+    {
+      "tag": "US–Iran Diplomacy",
+      "headline": "Trump: No Attack on Iran Before Midterms; Tehran Reviewing US Reply on Seven-Day Hormuz Offer",
+      "body": "Trump wrote on Truth Social that the US will not attack Iran before the November 3 midterms, adding that 22 million barrels moved through Hormuz the previous night, none to or from Iran. Iran's Tasnim, citing Foreign Minister Abbas Araghchi, said Tehran is reviewing a US response to its offer to reopen the strait within seven days, conditional on a halt to hostilities and unfrozen assets. Axios reported that any resumption of major combat would include large-scale strikes on energy and nuclear sites, and the Treasury sanctioned 17 vessels in Iran's shadow fleet. The market read is two-sided: a strike delay removes tail risk to $110, but an unresolved Hormuz keeps Brent above $100.",
+      "link_url": "https://primexbt.com/news/oil-settles-up-over-3-after-trump-rules-out-iran-attack-before-midterms/",
+      "link_text": "Read PrimeXBT (Reuters)"
+    },
+    {
+      "tag": "Weather / US Supply",
+      "headline": "Hurricane Isaias Shuts In About Two-Thirds of US Gulf Oil Output",
+      "body": "Hurricane Isaias, the first Atlantic hurricane of the year, strengthened rapidly and is expected to make landfall on the northern Gulf coast by the weekend. Producers shut in about 1.3 million barrels a day, close to two-thirds of US offshore production, per InvestingLive. BP evacuated all personnel and halted Na Kika and Thunder Horse, while Chevron and Shell curtailed operations at nine facilities. A Reuters-cited model projects up to 11.2 million barrels of Gulf output could be lost over the storm's duration, and nearly 500,000 bpd of refining capacity is in the projected path. Lost output is modest against global supply, but with US stocks thin, the refinery risk matters for diesel and gasoline.",
+      "link_url": "https://investinglive.com/commodities/oil-settles-circa-4-higher-as-two-supply-threats-collide-iran-strike-fears-and-hurricane-isaias/",
+      "link_text": "Read InvestingLive"
+    },
+    {
+      "tag": "Inventories / Gas",
+      "headline": "EIA: US Crude Stocks Fall 3.2 Million Barrels; Natural Gas Storage Builds 85 Bcf",
+      "body": "US crude inventories fell 3.2 million barrels in the week to October 2, against expectations of a rise, the EIA reported. In natural gas, the agency reported an 85 bcf storage injection versus 79 bcf expected and 64 bcf the prior week, a build that rivalled peak June injections. Henry Hub slipped about 1.1% to roughly $3.13 per MMBtu, according to Trading Economics, ending four straight gains, as higher storage offset expectations of stronger heating demand. Gulf hurricanes could threaten LNG export terminals, while attacks on commercial vessels in Hormuz cloud Qatar's export outlook. The crude draw is supportive for oil, while the gas build limits upside for US power-sector fuel costs.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds November Quota at 31.01 mb/d; Output Stays Well Below Targets",
+      "body": "OPEC+ agreed on October 4 to keep November production targets steady, with seven core members including Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman deciding. The combined requirement is 31.01 million bpd, with Saudi Arabia at 10.478 million, Russia at 9.949 million and Iraq at 4.431 million. Nairametrics notes Gulf producers are pumping well below targets because of export disruption, with exports fluctuating at 60% to 80% of normal in recent months. Sources say changes are unlikely before 2027 pending a capacity review, and the group meets again on November 1. Quotas are largely paper; the war, not OPEC+, sets physical supply.",
+      "link_url": "https://nairametrics.com/2026/10/05/opec-keeps-november-oil-production-unchanged-at-31-01-million-bpd/",
+      "link_text": "Read Nairametrics"
+    },
+    {
+      "tag": "Diesel / Policy",
+      "headline": "G7 and IEA Front-Load Diesel in 100-Million-Barrel Release as Prices Hover Near Records",
+      "body": "The G7 agreed on October 2 to release 100 million barrels of oil over four months, including a frontloaded substantial diesel release within the first 20 days, coordinated by the IEA. AAA put the US diesel average near $6.23 a gallon in the AP-sourced report, and other reports cite about $6.50, roughly 70% above pre-war levels. IEA chief Fatih Birol said member countries had delivered two-thirds of the record 400 million barrel March commitment, and Washington has pressed France and Germany to release more. Rigzone says the IEA has now agreed to accelerate releases and prioritise diesel. The release should cap gasoil rallies, as seen in Thursday's pullback, but cannot replace lost Gulf product exports.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/10/02/g7-members-agree-to-release-100-million-barrels-of-diesel-and-other-reserves/",
+      "link_text": "Read The National"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 9 — Today",
+      "name": "Hurricane Isaias Landfall and Gulf Damage Assessment",
+      "impact": "Landfall on the northern Gulf coast is expected Friday. Damage to platforms, Louisiana and Texas refineries or export terminals decides whether the roughly 1.3 million bpd shut-in becomes a multi-week outage. A weaker-than-feared storm and fast restarts would remove a pillar of Thursday's rally, while refinery flooding would lift diesel and gasoline cracks.",
+      "market_impact": "Two-way: +$2–4/bbl on refinery damage, −$2 on quick restarts.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 9–14",
+      "name": "Tehran's Reply on the Seven-Day Hormuz Reopening Offer",
+      "impact": "Araghchi said Iran is reviewing the US response to its offer to reopen the strait within seven days in return for a halt to hostilities and unfrozen assets. An acceptance with a dated timetable could send Brent toward $95, while rejection or further tanker attacks would revive $106 and push gasoil back up.",
+      "market_impact": "Binary and headline-driven; ±$5–8/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 12",
+      "name": "Front-Month Gasoil (LGOV6/ULS1!) Roll",
+      "impact": "The October ICE Low Sulphur Gasoil contract nears expiry, with Investing.com showing a settlement date of October 12. Thin expiry trading can exaggerate moves in the continuous ULS1! price and cause a visible step when the next month becomes front. Traders should compare contract months, not only headline percentage changes.",
+      "market_impact": "Technical; may distort ULS1! % change.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 14",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "The report will show how storm shut-ins, refinery runs and distillate stocks developed after the 3.2 million barrel crude draw. A second draw would reinforce the thin-stocks narrative and support diesel, while a build tied to lost exports or refinery outages would be read as demand weakness at record fuel prices.",
+      "market_impact": "±$1–2/bbl; larger for diesel cracks.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Ministerial Review of Market Conditions",
+      "impact": "The group meets after holding November quotas at 31.01 million bpd. With output well below targets and a capacity review pending, a rollover is the base case, but any signal on 2027 baselines would matter for the longer curve. It is little threat to prompt prices while Hormuz remains constrained.",
+      "market_impact": "Low for prompt prices; informs 2027 curve.",
+      "risk": "Low"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called Brent a $98–$106 range biased higher while the strike story was live. The tape agreed: Brent settled at <strong>$104.28</strong>, up 4.1%, after touching about $106, then gave back some of the move when Trump ruled out an attack before the midterms. The session shows how many supports crude has right now. The strike premium may have moved to the sidelines, but tanker attacks and a Gulf hurricane filled the gap within hours.",
+      "<strong>My read on today:</strong> The balance leans supportive into the weekend. Hormuz transits are at a two-month low, US crude stocks drew 3.2 million barrels against an expected build, and about two-thirds of US Gulf output is shut in. I would not chase above $107 without confirmed refinery damage, since Trump's pledge and Iran's seven-day offer give the market a diplomatic exit. But dips toward $100 should find buyers while stocks remain thin and freight is at records.",
+      "<strong>Diesel is the nuance.</strong> ICE Low Sulphur Gasoil (ULS1!) fell about 2% over 24 hours to roughly $1,483 per tonne, even as Brent rallied, which tells me the G7 and IEA diesel release is starting to cap the product complex. That does not signal comfort: gasoil remains far above where it began the war, and nearly 500,000 bpd of US refining capacity sits in the hurricane's path. Remember the October contract is close to expiry, so the front-month percentage change may overstate the move.",
+      "<strong>The bigger picture:</strong> Natural gas at $3.13 after an 85 bcf build shows the energy complex is not uniformly tight; this is an oil and products story. My call: <strong>Brent trades $100–$108 today</strong>, biased higher into the storm landfall, with a break below $98 requiring a dated Hormuz reopening. Gasoil should be range-bound to firmer unless the diesel release accelerates."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 78
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Price-Bearish",
+        "tone": "bullish",
+        "pct": 58
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Very Tight",
+        "tone": "bearish",
+        "pct": 74
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 30
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$100 – $108",
+      "bias": "Bias: Higher Into Storm Landfall ▲"
+    },
+    "watch_levels": {
+      "resistance": "$106–$108",
+      "support": "$100–$102",
+      "breakout": ">$110 (refinery damage or Hormuz closure)",
+      "breakdown": "<$98 (dated Hormuz reopening)"
+    }
+  }
+}
