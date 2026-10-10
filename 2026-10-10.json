@@ -1,0 +1,218 @@
+{
+  "date_long": "Saturday, October 10, 2026",
+  "date_slug": "oct10-2026",
+  "volume": "Vol. I — No. 72",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "NBC News, Trading Economics, Investing.com, Kyiv Independent, Ship & Bunker, Bloomberg, Rigzone, Nairametrics, EIA, CNBC",
+  "ticker": [
+    "BRENT CRUDE ~$104.43 ▲ +0.14% (FRI, TRADING ECONOMICS)",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,438.75/mt ▼ -4.67% (INVESTING.COM LGOV6)",
+    "NATURAL GAS ~$3.20 ▲ +1.05%",
+    "TRUMP: PUTIN TO RELEASE RUSSIAN DIESEL — OFAC ISSUES LICENSE THROUGH APRIL 7, 2027",
+    "DIESEL FUTURES FALL ~4% BUT REMAIN UP MORE THAN 110% YEAR-TO-DATE",
+    "HORMUZ TANKER ATTACKS CONTINUE; IRAN REVIEWING US REPLY ON SEVEN-DAY REOPENING OFFER",
+    "EIA: US CRUDE -3.2 MB WEEK TO OCT 2; NAT GAS INJECTION +85 BCF",
+    "OPEC+ HOLDS NOVEMBER QUOTA AT 31.01 MB/D; NEXT MEETING NOV 1"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$104.43",
+      "change": "▲ +0.14% (Friday; Trading Economics. Weekly gain ~1.5–2%)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,438.75/mt",
+      "change": "▼ −4.67% (Investing.com LGOV6; prior close $1,483.00)",
+      "direction": "down"
+    },
+    {
+      "label": "Heating Oil (NYMEX)",
+      "value": "$4.68/gal",
+      "change": "▼ −4.10% (Trading Economics)",
+      "direction": "down"
+    },
+    {
+      "label": "Brent Weekly Move",
+      "value": "~+1.5–2%",
+      "change": "Sources differ slightly; gain built Thursday on tanker attacks",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$3.20",
+      "change": "▲ +1.05% (CFD reference; +13% over one month)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Wrap — Trump Opens a Russian Diesel Valve and Gasoil Drops Even as Hormuz Stays Choked",
+    "headline": "Brent Holds $104 as Trump Says Putin Will Release Diesel — Gasoil Slides 4.7% While Crude Barely Moves and Hormuz Risk Persists",
+    "paragraphs": [
+      "Friday's session belonged to diesel, not crude. President Trump announced after a call with Vladimir Putin that Russia would <strong>\"immediately\"</strong> release hundreds of thousands of tons of diesel onto global markets, and the Treasury's Office of Foreign Assets Control issued a temporary general license authorizing the sale, delivery and importation of Russian-origin diesel, including into the United States, through <strong>April 7, 2027</strong>. Diesel futures fell about 4% on the day, per NBC News, though they remain up more than 110% since the start of 2026. Brent, by contrast, barely moved: Trading Economics put it at <strong>$104.43</strong>, up 0.14%, while NBC described it as down about 0.3% near $104. Brent finished the week roughly 1.5% to 2% higher.",
+      "The crude market is still being held up by the Gulf. Iranian tanker attacks last week were the highest weekly total since the war began, and MarineTraffic data cited by NBC showed Hormuz traffic averaging fewer than 23 ships a day from September 28, a small fraction of prewar levels. Iran's foreign minister, Abbas Araghchi, said Tehran is reviewing a US reply to its offer to reopen the strait within seven days in exchange for a halt to hostilities and unfrozen assets. Trump's pledge not to strike Iran before the November 3 midterms has taken some strike risk out of the tape, but freight is at records and many tankers are tied up in ship-to-ship transfers near the strait.",
+      "The product complex tells a different story. ICE-linked London gasoil (October contract LGOV6, the front-month proxy for ULS1!) fell $70.50, or 4.67%, to about <strong>$1,438.75 per tonne</strong> on Investing.com, from a prior close of $1,483.00, with a day's range of $1,436 to $1,518.88. Investing.com's report tied the drop to the Russian diesel signal and to China resuming refined fuel exports in October. Caution is warranted: the October contract is at or near expiry, so thin trading can exaggerate the percentage move, and one source put the settlement nearer $1,437.75. Even after the drop, gasoil is roughly 90% above its $752.75 level of February 27.",
+      "The caveats on Russian barrels are large. Putin gave no volume or timing, Trump's post cited tranches of up to 4.8 million tonnes with the largest tied to the condition of Russian refineries, and Russia's own diesel export ban, extended through October, must be lifted first. Zelenskyy called the easing <strong>\"an obvious weakness\"</strong> and denied agreeing to stop striking Russian energy plants. Earlier 30-day waivers on Russian oil this spring expired without materially changing price trends, so traders are treating this as a ceiling on diesel rallies rather than a regime change."
+    ],
+    "link_url": "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566",
+    "link_text": "Read NBC News",
+    "stats": [
+      {
+        "num": "$104.43",
+        "desc": "Brent Friday Level, +0.14% on the Day, About +1.5–2% on the Week"
+      },
+      {
+        "num": "−4.67%",
+        "desc": "October Low Sulphur Gasoil (LGOV6) to ~$1,438.75/mt After Russian Diesel News"
+      },
+      {
+        "num": "Apr 7, 2027",
+        "desc": "Expiry of OFAC License Authorizing Russian-Origin Diesel Imports"
+      },
+      {
+        "num": "<23 ships/day",
+        "desc": "Average Hormuz Transits Since Sept 28 (MarineTraffic via NBC)"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Russia / Diesel",
+      "headline": "Trump Says Putin Will Release Diesel; OFAC License Runs Through April 7, 2027",
+      "body": "Trump said Putin agreed to \"immediately\" release hundreds of thousands of tons of diesel, which he said would help bring prices down. Treasury's OFAC issued a temporary general license authorizing the sale, delivery, offloading and importation of Russian-origin diesel, including into the US, until April 7, 2027. Putin only said he had told Trump of Russia's \"readiness to supply oil and petroleum products to the US and global markets,\" offering no specifics. Russia's deputy prime minister, Alexander Novak, said the July diesel export ban would begin to be lifted immediately. Diesel futures fell about 4%. For crude the effect is modest, but for diesel-importing Europe and Asia it is the first large supply-side relief since the war began, even though UK and EU sanctions remain in force.",
+      "link_url": "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "Ukraine / Sanctions",
+      "headline": "Zelenskyy Calls Diesel Easing \"an Obvious Weakness\"; Kyiv Refuses to Halt Strikes on Russian Refineries",
+      "body": "Trump asked Ukraine's president to stop hitting Russian diesel plants, saying of Ukrainian strikes \"That's what's driving it up.\" Zelenskyy denied agreeing to halt attacks on Russian energy assets, saying he would only stop if Russia accepted the same terms, and called the US easing an obvious weakness. The Kyiv Independent reported Trump's post put volumes at up to 4.8 million tonnes across tranches, with the largest tranche of 3 million tonnes tied to the condition of Russian refineries, which Ukrainian drones keep targeting. Ukrainian negotiators were due to travel for US talks led by Steve Witkoff and Jared Kushner, though it was unclear whether they would proceed. The risk for diesel is that refinery strikes or politics keep actual Russian exports well below headline numbers.",
+      "link_url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets",
+      "link_text": "Read Kyiv Independent"
+    },
+    {
+      "tag": "Hormuz / Iran",
+      "headline": "Hormuz Traffic Stays a Fraction of Prewar Levels as Iran Reviews US Reply on Seven-Day Reopening Offer",
+      "body": "NBC News, citing MarineTraffic, reported that daily traffic through the Strait of Hormuz averaged fewer than 23 ships from September 28 through last Sunday, against hundreds a day before the war began February 28. Trading Economics notes many tankers are tied up in ship-to-ship transfers, pushing freight to record highs; Bloomberg data cited by NBC put a US-to-Asia crude cargo at $77 million versus an average of $9.2 million last year. Araghchi said Tehran is reviewing the US response to its proposal to reopen the strait within seven days. Trump pledged no attack before the November 3 midterms, but markets largely shrugged. A dated reopening would be the main bearish catalyst for Brent; further attacks keep $106 in play.",
+      "link_url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248",
+      "link_text": "Read NBC News"
+    },
+    {
+      "tag": "Brent / Weekly",
+      "headline": "Brent Hovers Near $104 and Ends the Week Higher as Supply Risk Premium Persists",
+      "body": "Trading Economics showed Brent at $104.43 on October 9, up 0.14% on the day, 2.97% lower over the month but 66.5% higher year on year, with a Q4 forecast near $106.60. Brent gained roughly 1.5% to 2% over the week after Thursday's 4% jump to $104.28 on tanker attacks and Hurricane Isaias, which forced producers to shut in about 1.3 million bpd of Gulf of Mexico output. US Strategic Petroleum Reserve stocks were reported near record lows, which limits Washington's ability to cushion further shocks. Reports that China will resume refined fuel exports in October add a modest offset on the products side. Bank of America's Francisco Blanch has framed a $95 to $120 range if skirmishes continue and up to $150 on broader conflict.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "Inventories / Gas",
+      "headline": "EIA: US Crude Stocks Fall 3.2 Million Barrels; Natural Gas Storage Builds 85 Bcf, Henry Hub Near $3.20",
+      "body": "The EIA reported US crude inventories fell 3.2 million barrels in the week to October 2, against expectations of a build. In natural gas, the agency reported an 85 bcf storage injection versus 79 bcf expected and 64 bcf the prior week. Trading Economics shows Henry Hub at about $3.20 per MMBtu on Friday, up 1.05% on the day and about 13% over the month, after futures briefly fell below $3.13 on Thursday and ended a four-session winning streak. Hurricane Isaias poses a threat to Gulf LNG export terminals, and attacks on vessels near Hormuz cloud Qatar's export outlook. The crude draw is supportive for oil; the larger-than-expected gas build limits upside for US power-sector fuel costs. The next EIA report is due Wednesday, October 14.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds November Quota at 31.01 mb/d; Gulf Output Stays Well Below Targets",
+      "body": "OPEC+ agreed on October 4 to keep November production targets steady, with seven core members including Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman deciding. The combined requirement is 31.01 million bpd, with Saudi Arabia at 10.478 million, Russia at 9.949 million and Iraq at 4.431 million. Nairametrics notes Gulf producers are pumping well below targets because of export disruption, with exports fluctuating at 60% to 80% of normal in recent months. Sources say changes are unlikely before 2027 pending a capacity review, and the group meets again on November 1. The quotas are largely paper: the war and Hormuz transit, not OPEC+ policy, determine the barrels available to the market, so the decision is neutral for near-term prices.",
+      "link_url": "https://nairametrics.com/2026/10/05/opec-keeps-november-oil-production-unchanged-at-31-01-million-bpd/",
+      "link_text": "Read Nairametrics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 10–14",
+      "name": "Tehran's Reply on the Seven-Day Hormuz Reopening Offer",
+      "impact": "Araghchi said Iran is reviewing the US response to its offer to reopen the strait within seven days in return for a halt to hostilities and unfrozen assets. An acceptance with a dated timetable could send Brent toward $95, while rejection or further tanker attacks would revive $106 and push gasoil back up. This is the dominant weekend and Monday catalyst.",
+      "market_impact": "Binary and headline-driven; ±$5–8/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 12 — Monday",
+      "name": "Hurricane Isaias Damage Assessment and Gulf Restarts",
+      "impact": "Producers shut in about 1.3 million bpd ahead of landfall, and roughly 500,000 bpd of US refining capacity lay in the storm's path. Monday's reports on platform and refinery damage decide whether the outage is days or weeks. Quick restarts remove a pillar of last week's rally; flooded refineries would lift US diesel and gasoline cracks.",
+      "market_impact": "Two-way: +$2–4/bbl on damage, −$2 on fast restarts.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 12 onward",
+      "name": "Russian Diesel Flows and Export-Ban Lifting",
+      "impact": "Novak said Russia will begin lifting its diesel export ban under the OFAC license. Markets will look for loading data, tanker bookings and volumes against Trump's 4.8 million tonne ceiling, and for any Ukrainian strikes on refineries. Visible cargoes would extend gasoil's slide; a lack of volume would suggest Friday's 4.7% drop was overdone.",
+      "market_impact": "Gasoil-specific; ±$40–80/mt.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 14",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "The report will show how storm shut-ins, refinery runs and distillate stocks developed after the 3.2 million barrel crude draw. A second draw would reinforce the thin-stocks narrative and support diesel, while a build tied to lost exports or refinery outages would be read as demand weakness at record fuel prices.",
+      "market_impact": "±$1–2/bbl; larger for diesel cracks.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Ministerial Meeting",
+      "impact": "The group meets after holding November quotas at 31.01 million bpd. With output well below targets and a capacity review pending, a rollover is the base case, but any signal on 2027 baselines would matter for the longer curve. It is little threat to prompt prices while Hormuz remains constrained.",
+      "market_impact": "Low for prompt prices; informs 2027 curve.",
+      "risk": "Low"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called Brent a $100–$108 range biased higher into the storm landfall. The tape landed in the middle: Brent held about <strong>$104.43</strong>, up 0.14% on the day, and the hurricane premium was offset by Trump's diesel announcement. The more interesting move was in products, where London gasoil dropped 4.67% to roughly $1,439 a tonne. Crude is still being priced off Hormuz; diesel is now being priced off Washington and Moscow.",
+      "<strong>My read on today:</strong> The weekend is the risk. Markets are closed, Iran owes Washington an answer on the seven-day reopening offer, and Isaias damage reports arrive before Monday's open. Transits below 23 ships a day, a US crude draw of 3.2 million barrels and record freight argue against any collapse in Brent. I would not fade dips toward $100 unless Tehran gives a dated reopening plan, in which case $95 comes quickly.",
+      "<strong>Diesel is the nuance.</strong> The OFAC license through April 7, 2027 is a real policy shift, and combined with the G7 and IEA release it makes a cap on gasoil rallies credible. But Putin gave no volumes, Russia's export ban must be lifted, Ukrainian drones keep hitting refineries, and the October contract is expiring, which can exaggerate the percentage move. I read the drop as roughly half signal and half expiry noise.",
+      "<strong>The bigger picture:</strong> Natural gas near $3.20 after an 85 bcf build shows this is an oil and products story, not a general energy squeeze. My call: <strong>Brent trades $100–$108 into the Monday open</strong>, with a bias to the upside on weekend headline risk. Gasoil should stay range-bound to softer while Russian cargoes are verified, but a Hormuz setback would erase Friday's drop quickly."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 76
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Price-Bearish",
+        "tone": "bullish",
+        "pct": 66
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Easing From Extreme",
+        "tone": "neutral",
+        "pct": 62
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 30
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$100 – $108",
+      "bias": "Bias: Higher on Weekend Headline Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$106–$108",
+      "support": "$100–$102",
+      "breakout": ">$110 (Hormuz escalation or refinery damage)",
+      "breakdown": "<$98 (dated Hormuz reopening)"
+    }
+  }
+}
