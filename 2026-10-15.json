@@ -1,0 +1,216 @@
+{
+  "date_long": "Thursday, October 15, 2026",
+  "date_slug": "oct15-2026",
+  "volume": "Vol. I — No. 77",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Trading Economics, Investing.com, CNBC, Reuters (via Investing.com/InvestingLive), Energy Aspects, Saxo, EIA, API, Goldman Sachs",
+  "ticker": [
+    "BRENT CRUDE ~$104.41 ▼ -1.55% (TRADING ECONOMICS, THU)",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,444.50/mt ▼ -1.46% (INVESTING.COM LGOX6 NOV; PRIOR CLOSE $1,465.88)",
+    "NATURAL GAS ~$3.27 ▲ +2.37% (HENRY HUB; NEAR THREE-WEEK HIGH)",
+    "OIL SLIPS ON PROFIT-TAKING AS US WEIGHS EASING SHADOW-FLEET TANKER SANCTIONS",
+    "CONTAINER SHIP SINKS IN HORMUZ AFTER PROJECTILE STRIKE; HOUTHI ATTACKS ON SAUDI ARABIA CONTINUE",
+    "API: US CRUDE STOCKS −11.1 MB IN WEEK TO OCT 9; OFFICIAL EIA REPORT DUE THURSDAY 12:00 ET",
+    "RUSSIA SAYS UKRAINE HIT TWO REFINERIES INCLUDING RYAZAN, BREACHING ENERGY CEASEFIRE"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$104.41",
+      "change": "▼ −1.55% (Trading Economics; Wed settle ~$106.06 per CNBC)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,444.50/mt",
+      "change": "▼ −1.46% (Investing.com LGOX6 Nov; prior close $1,465.88)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$95.09",
+      "change": "Wednesday settle (CNBC), highest in three weeks",
+      "direction": ""
+    },
+    {
+      "label": "API Crude Stocks (wk to Oct 9)",
+      "value": "−11.1 MB",
+      "change": "Large draw; official EIA print due today 12:00 ET",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$3.27",
+      "change": "▲ +2.37% (near three-week high ahead of EIA storage)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Thursday — Brent Gives Back $1.65 as Washington Floats Shadow-Fleet Relief, but Hormuz and Saudi Fighting Keep a Floor Under Crude",
+    "headline": "Brent Slips 1.55% to About $104 and Gasoil Drops 1.46% to $1,445 as the US Weighs Easing Tanker Sanctions and Traders Book Profits After a Houthi-Driven Rally",
+    "paragraphs": [
+      "Oil retreated on Thursday after Wednesday's rally. Trading Economics showed <strong>Brent at $104.41, down $1.65 or 1.55%</strong>, following a Wednesday settlement near $106.06 that CNBC reported alongside WTI at $95.09, its highest in three weeks. London gasoil for November delivery (LGOX6, our ULS1! proxy) fell to about <strong>$1,444.50 a tonne, down 1.46%</strong> from a prior close of $1,465.88 on Investing.com, although that page also cited an intraday low near $1,435.88, so the exact level should be treated as approximate. The pullback reads as profit-taking rather than a change in the supply picture: crude remains up roughly 70% on the year and diesel, per Saxo, is back above $200 a barrel equivalent.",
+      "The new bearish headline is policy. Reuters reported the Trump administration is weighing relief for <strong>shadow-fleet tankers</strong>, letting non-sanctioned cargoes move on previously sanctioned vessels if operators apply to Treasury, with Russian and Iranian oil still banned. Energy Secretary Chris Wright referenced the talks in a video to the World Petroleum Congress. The goal is to cut record tanker freight rates created by the Iran and Ukraine wars, which have put US crude out of reach for many Asian refiners. Energy Aspects, however, expects limited relief, saying mostly older vessels would add little mainstream capacity and EU and UK insurance rules would still bind.",
+      "Offsetting the dip is a battlefield that has not calmed. Trading Economics noted a container ship sank in the Strait of Hormuz after a projectile strike, Houthi attacks on Saudi Arabia continued after Wednesday's hit on Aramco's Dhahran building, and Russia said Ukraine struck two refineries including Ryazan despite a US-announced energy ceasefire. An <strong>API-reported 11.1 million barrel US crude draw</strong> for the week to October 9 adds a tight-stocks signal ahead of today's delayed EIA report. Net: a modest, headline-driven dip within a range that still leans upward."
+    ],
+    "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "link_text": "Read Trading Economics",
+    "stats": [
+      {
+        "num": "$104.41",
+        "desc": "Brent Thursday Level, −1.55% on the Day (Trading Economics)"
+      },
+      {
+        "num": "−1.46%",
+        "desc": "London Gasoil (LGOX6, November) to ~$1,444.50/mt (Investing.com)"
+      },
+      {
+        "num": "−11.1 MB",
+        "desc": "API-Reported US Crude Draw, Week to Oct 9; EIA Official Print Due Today"
+      },
+      {
+        "num": "$95.09",
+        "desc": "WTI Wednesday Settle, Highest in Three Weeks (CNBC)"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Slips to $104.41 on Profit-Taking After Houthi-Fuelled Rally",
+      "body": "Trading Economics reported Brent at $104.41 a barrel on Thursday, down $1.65 or 1.55%, as traders locked in gains from Wednesday, when CNBC said Brent settled up 37 cents, or 0.35%, at $106.06 and WTI gained about 1% to $95.09. Analyst Phil Flynn described Wednesday's move as 'a lot of fear trade.' Goldman Sachs has raised its December Brent forecast to a monthly average of $90, which implies the bank sees today's prices as embedding a large risk premium. For crude the message is that dips are being bought only while Saudi infrastructure and Hormuz shipping remain under fire, so the market is choppy and headline-sensitive rather than trending lower.",
+      "link_url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Sanctions / Freight",
+      "headline": "US Weighs Easing Shadow-Fleet Sanctions to Curb Record Tanker Freight Rates",
+      "body": "Reuters reported the administration is considering allowing non-sanctioned 'legal oil' to move on previously sanctioned vessels, with operators applying to Treasury for approval while Russian and Iranian oil stays banned. Energy Secretary Chris Wright referenced the talks in a video to the World Petroleum Congress. Tanker rates have hit records amid the Iran and Ukraine wars. Energy Aspects expects limited relief, saying the change could free a small number of tankers for Hormuz shuttle runs but would not materially lift mainstream fleet capacity; European insurance rules and congressional backlash, already visible over the Russian diesel waiver, add friction. The headline trims delivered crude and diesel costs at the margin, but physical impact looks small.",
+      "link_url": "https://investinglive.com/commodities/us-weighs-easing-shadow-fleet-sanctions-to-cut-record-tanker-freight-rates/",
+      "link_text": "Read Reuters (InvestingLive)"
+    },
+    {
+      "tag": "Hormuz / Iran",
+      "headline": "Container Ship Sinks in Strait of Hormuz After Projectile Strike",
+      "body": "Trading Economics said supply worries persisted on Thursday after a container ship sank in the Strait of Hormuz following a projectile strike. The incident follows Iranian officials telling Reuters that Tehran is using new tactics against vessels, and a US claim that it has helped move more than 19 million barrels through the waterway. Persian Gulf crude flows had nearly returned to prewar levels in recent weeks, so renewed attacks threaten that recovery. A sunk merchant vessel raises war-risk insurance premiums and the odds of convoy delays, which matter for diesel cargoes bound for Europe. Another tanker hit would be a clear upside catalyst for Brent toward $108 to $110.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "Saudi Arabia / Houthis",
+      "headline": "Houthi Attacks on Saudi Arabia Continue After Strike on Aramco's Dhahran Building",
+      "body": "Reuters and CNBC reported that Houthis hit a Saudi Aramco administrative building in Dhahran, causing a limited fire, in what Wednesday's coverage described as part of a week of missile and drone attacks on the kingdom, including repeated strikes on Riyadh's airport. Trading Economics said attacks continued Thursday. Yemeni forces have warned that strikes on Saudi airports and oil facilities will continue. Production has not been affected, but each strike moves targeting closer to energy assets, and Bloomberg noted Trump has said he would consider joining Saudi-backed strikes. For crude, the risk is a hit on export terminals, which would remove barrels from a market where spare capacity is already thin.",
+      "link_url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Russia / Refining",
+      "headline": "Russia Says Ukraine Hit Two Refineries, Including Ryazan, in Breach of Energy Ceasefire",
+      "body": "Trading Economics reported Russia said Ukraine struck two refineries, including the Ryazan plant, in violation of a US-announced energy ceasefire. Goldman Sachs has estimated Russian refinery outages are up about 3 million barrels a day year on year and that 800,000 tonnes of extra Russian diesel would trim wholesale diesel prices by only $1 to $2 a barrel. New strikes undercut the premise of the six-month easing of Russian diesel restrictions, which lawmakers in both parties have already criticised. If Russian output of diesel is again curtailed, European gasoil cracks stand to widen even as crude drifts lower, keeping diesel the tighter leg of the market.",
+      "link_url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "link_text": "Read Trading Economics"
+    },
+    {
+      "tag": "Inventories / Natural Gas",
+      "headline": "API Shows 11.1 Million Barrel Crude Draw; Henry Hub Gas Near Three-Week High at $3.27",
+      "body": "Market sources citing API data said US crude inventories fell 11.1 million barrels in the week ended October 9; the official EIA report, delayed a day by Monday's holiday, is due Thursday at 12:00 ET and was not available at time of writing. The prior EIA print showed commercial crude at 424.1 million barrels and distillate at about 105.1 million, roughly 13.5% below a year earlier. Separately, Trading Economics put Henry Hub at $3.27, up 2.37%, with Lower 48 output at 110.8 bcfd versus records of 113.3 bcfd and LNG feedgas at 17.5 bcfd; analysts expect the storage surplus to shrink to 1.6% over normal. Mild weather forecasts through October 29 cap gas gains.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 15 — Today",
+      "name": "EIA Weekly Petroleum Status Report (Delayed, 12:00 ET)",
+      "impact": "The official data for the week to October 9 test the API's 11.1 million barrel crude draw. I have no EIA figures at time of writing. A confirmed large draw plus a further fall in distillates, already about 13.5% below last year, would support gasoil and widen cracks. A much smaller draw would let the profit-taking extend toward $102.",
+      "market_impact": "±$1–2/bbl; larger for diesel cracks.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 15–20",
+      "name": "Houthi–Saudi Escalation and Possible US Role",
+      "impact": "Attacks continued Thursday after the Dhahran hit. Trump has said he would consider joining Saudi-backed strikes. Damage to production or export facilities would add sharply to a risk premium, while continued attacks on civilian targets alone are producing a floor rather than a spike. Watch Ras Tanura and Abqaiq reports and any Saudi retaliation inside Yemen.",
+      "market_impact": "Upside tail; +$3–6/bbl on an energy-asset strike.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 15–18",
+      "name": "Hormuz Shipping Incidents and Transit Data",
+      "impact": "A container ship sank after a projectile strike, and Iranian officials describe new tactics against vessels. More incidents would push Brent toward $108 to $110 and lift war-risk premiums. Sustained safe transits, with US help moving over 19 million barrels, would re-focus the market on Goldman's $90 December average.",
+      "market_impact": "Binary; ±$4–8/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 15–31",
+      "name": "Shadow-Fleet Sanctions Relief and Russian Diesel Loadings",
+      "impact": "Treasury licensing details for shadow-fleet tankers and verified Russian diesel cargoes are the next policy datapoints. Energy Aspects sees limited freight relief, and Goldman sees only $1–2 a barrel from extra Russian diesel. Congressional pushback or further Ukrainian refinery strikes would reverse any easing and widen gasoil premiums.",
+      "market_impact": "Gasoil ±$30–60/mt; Brent ±$1–3/bbl.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 1 / Nov 3",
+      "name": "OPEC+ Meeting and US Midterms",
+      "impact": "Quota decisions matter little while Gulf producers pump below target; Saudi output of 8.372 million bpd in September shows the gap. The White House push to lower fuel prices before the November 3 midterms raises odds of further supply-easing measures, such as the shadow-fleet waiver, which is the main policy risk to prices.",
+      "market_impact": "Low for prompt prices; shapes policy risk.",
+      "risk": "Low"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called a $102–$109 Brent range with a mildly upward bias. The range held: Brent printed near $106 on Wednesday and has slipped to <strong>$104.41, down 1.55%</strong> this morning on Trading Economics. The upside bias gave back some ground as traders took profits and Washington floated shadow-fleet relief, but nothing in the physical picture has actually improved, so I would not read the dip as a trend change.",
+      "<strong>My read on today:</strong> The sanctions-relief headline is the sort of policy gesture the White House favours ahead of the November 3 midterms, but Energy Aspects' view that it adds little real tonnage is persuasive. Meanwhile a container ship has sunk in Hormuz, Houthi attacks on Saudi Arabia go on and the API reports an 11.1 million barrel crude draw. I would buy dips toward $102 while those three hold, and respect that headlines can move us $2 either way within minutes.",
+      "<strong>Diesel remains the sharper instrument.</strong> London gasoil for November is near $1,444.50 a tonne, down 1.46%, but quotes on the same page differed by around ten dollars intraday, so treat the level as approximate. Distillate stocks are about 13.5% below last year, Russian refineries are being hit again, and Goldman sees tiny relief from extra Russian cargoes. Today's EIA distillate figure is the hard test of that tightness thesis.",
+      "<strong>The bigger picture:</strong> Goldman's $90 December average and OPEC's call for restocking demand in 2027 both point to a lower path over months, and Saudi bypass pipeline capacity arrives later this year. None of that helps this week. My call: <strong>Brent trades $101–$108 today</strong>, with a mild upward bias after the profit-taking and a sharp upside tail if Saudi export assets or tankers are hit. A sustained break under $100 needs confirmed Hormuz calm and real Russian cargoes."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 72
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 80
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Limited Relief",
+        "tone": "neutral",
+        "pct": 55
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Severe",
+        "tone": "bearish",
+        "pct": 75
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 30
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$101 – $108",
+      "bias": "Bias: Mildly Higher After Profit-Taking — Tail Risk Up ▲"
+    },
+    "watch_levels": {
+      "resistance": "$107–$109",
+      "support": "$101–$102",
+      "breakout": ">$110 (Saudi energy assets hit, Hormuz escalation)",
+      "breakdown": "<$100 (verified Russian cargoes + calm Hormuz transits)"
+    }
+  }
+}

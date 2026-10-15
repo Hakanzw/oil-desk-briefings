@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Thursday, October 15, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE ~$104.41 ▼ -1.55% (TRADING ECONOMICS, THU) &nbsp;|&nbsp; LOW SULPHUR GASOIL (ULS1!) ~$1,444.50/mt ▼ -1.46% (INVESTING.COM LGOX6 NOV; PRIOR CLOSE $1,465.88) &nbsp;|&nbsp; NATURAL GAS ~$3.27 ▲ +2.37% (HENRY HUB; NEAR THREE-WEEK HIGH) &nbsp;|&nbsp; OIL SLIPS ON PROFIT-TAKING AS US WEIGHS EASING SHADOW-FLEET TANKER SANCTIONS &nbsp;|&nbsp; CONTAINER SHIP SINKS IN HORMUZ AFTER PROJECTILE STRIKE; HOUTHI ATTACKS ON SAUDI ARABIA CONTINUE &nbsp;|&nbsp; API: US CRUDE STOCKS −11.1 MB IN WEEK TO OCT 9; OFFICIAL EIA REPORT DUE THURSDAY 12:00 ET &nbsp;|&nbsp; RUSSIA SAYS UKRAINE HIT TWO REFINERIES INCLUDING RYAZAN, BREACHING ENERGY CEASEFIRE&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Thursday, October 15, 2026<br>
+      Vol. I — No. 77<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$104.41</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">~$1,444.50/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude</div>
+      <div class="price-val">$104.41</div>
+      <div class="price-change down">▼ −1.55% (Trading Economics; Wed settle ~$106.06 per CNBC)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">~$1,444.50/mt</div>
+      <div class="price-change down">▼ −1.46% (Investing.com LGOX6 Nov; prior close $1,465.88)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">~$95.09</div>
+      <div class="price-change " style="color:#888;">Wednesday settle (CNBC), highest in three weeks</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">API Crude Stocks (wk to Oct 9)</div>
+      <div class="price-val">−11.1 MB</div>
+      <div class="price-change down">Large draw; official EIA print due today 12:00 ET</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas (Henry Hub)</div>
+      <div class="price-val">$3.27</div>
+      <div class="price-change up">▲ +2.37% (near three-week high ahead of EIA storage)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Thursday — Brent Gives Back $1.65 as Washington Floats Shadow-Fleet Relief, but Hormuz and Saudi Fighting Keep a Floor Under Crude</div>
+      <h3>Brent Slips 1.55% to About $104 and Gasoil Drops 1.46% to $1,445 as the US Weighs Easing Tanker Sanctions and Traders Book Profits After a Houthi-Driven Rally</h3>
+      <p>Oil retreated on Thursday after Wednesday's rally. Trading Economics showed <strong>Brent at $104.41, down $1.65 or 1.55%</strong>, following a Wednesday settlement near $106.06 that CNBC reported alongside WTI at $95.09, its highest in three weeks. London gasoil for November delivery (LGOX6, our ULS1! proxy) fell to about <strong>$1,444.50 a tonne, down 1.46%</strong> from a prior close of $1,465.88 on Investing.com, although that page also cited an intraday low near $1,435.88, so the exact level should be treated as approximate. The pullback reads as profit-taking rather than a change in the supply picture: crude remains up roughly 70% on the year and diesel, per Saxo, is back above $200 a barrel equivalent.</p>
+      <p>The new bearish headline is policy. Reuters reported the Trump administration is weighing relief for <strong>shadow-fleet tankers</strong>, letting non-sanctioned cargoes move on previously sanctioned vessels if operators apply to Treasury, with Russian and Iranian oil still banned. Energy Secretary Chris Wright referenced the talks in a video to the World Petroleum Congress. The goal is to cut record tanker freight rates created by the Iran and Ukraine wars, which have put US crude out of reach for many Asian refiners. Energy Aspects, however, expects limited relief, saying mostly older vessels would add little mainstream capacity and EU and UK insurance rules would still bind.</p>
+      <p>Offsetting the dip is a battlefield that has not calmed. Trading Economics noted a container ship sank in the Strait of Hormuz after a projectile strike, Houthi attacks on Saudi Arabia continued after Wednesday's hit on Aramco's Dhahran building, and Russia said Ukraine struck two refineries including Ryazan despite a US-announced energy ceasefire. An <strong>API-reported 11.1 million barrel US crude draw</strong> for the week to October 9 adds a tight-stocks signal ahead of today's delayed EIA report. Net: a modest, headline-driven dip within a range that still leans upward.</p>
+      <a href="https://tradingeconomics.com/commodity/brent-crude-oil" class="read-link" target="_blank">Read Trading Economics →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$104.41</div>
+        <div class="stat-desc">Brent Thursday Level, −1.55% on the Day (Trading Economics)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−1.46%</div>
+        <div class="stat-desc">London Gasoil (LGOX6, November) to ~$1,444.50/mt (Investing.com)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">−11.1 MB</div>
+        <div class="stat-desc">API-Reported US Crude Draw, Week to Oct 9; EIA Official Print Due Today</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$95.09</div>
+        <div class="stat-desc">WTI Wednesday Settle, Highest in Three Weeks (CNBC)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Market Reaction</div>
+      <h4>Brent Slips to $104.41 on Profit-Taking After Houthi-Fuelled Rally</h4>
+      <p>Trading Economics reported Brent at $104.41 a barrel on Thursday, down $1.65 or 1.55%, as traders locked in gains from Wednesday, when CNBC said Brent settled up 37 cents, or 0.35%, at $106.06 and WTI gained about 1% to $95.09. Analyst Phil Flynn described Wednesday's move as 'a lot of fear trade.' Goldman Sachs has raised its December Brent forecast to a monthly average of $90, which implies the bank sees today's prices as embedding a large risk premium. For crude the message is that dips are being bought only while Saudi infrastructure and Hormuz shipping remain under fire, so the market is choppy and headline-sensitive rather than trending lower.</p>
+      <a href="https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Sanctions / Freight</div>
+      <h4>US Weighs Easing Shadow-Fleet Sanctions to Curb Record Tanker Freight Rates</h4>
+      <p>Reuters reported the administration is considering allowing non-sanctioned 'legal oil' to move on previously sanctioned vessels, with operators applying to Treasury for approval while Russian and Iranian oil stays banned. Energy Secretary Chris Wright referenced the talks in a video to the World Petroleum Congress. Tanker rates have hit records amid the Iran and Ukraine wars. Energy Aspects expects limited relief, saying the change could free a small number of tankers for Hormuz shuttle runs but would not materially lift mainstream fleet capacity; European insurance rules and congressional backlash, already visible over the Russian diesel waiver, add friction. The headline trims delivered crude and diesel costs at the margin, but physical impact looks small.</p>
+      <a href="https://investinglive.com/commodities/us-weighs-easing-shadow-fleet-sanctions-to-cut-record-tanker-freight-rates/" class="read-link" target="_blank">Read Reuters (InvestingLive) →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">Hormuz / Iran</div>
+      <h4>Container Ship Sinks in Strait of Hormuz After Projectile Strike</h4>
+      <p>Trading Economics said supply worries persisted on Thursday after a container ship sank in the Strait of Hormuz following a projectile strike. The incident follows Iranian officials telling Reuters that Tehran is using new tactics against vessels, and a US claim that it has helped move more than 19 million barrels through the waterway. Persian Gulf crude flows had nearly returned to prewar levels in recent weeks, so renewed attacks threaten that recovery. A sunk merchant vessel raises war-risk insurance premiums and the odds of convoy delays, which matter for diesel cargoes bound for Europe. Another tanker hit would be a clear upside catalyst for Brent toward $108 to $110.</p>
+      <a href="https://tradingeconomics.com/commodity/brent-crude-oil" class="read-link" target="_blank">Read Trading Economics →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">Saudi Arabia / Houthis</div>
+      <h4>Houthi Attacks on Saudi Arabia Continue After Strike on Aramco's Dhahran Building</h4>
+      <p>Reuters and CNBC reported that Houthis hit a Saudi Aramco administrative building in Dhahran, causing a limited fire, in what Wednesday's coverage described as part of a week of missile and drone attacks on the kingdom, including repeated strikes on Riyadh's airport. Trading Economics said attacks continued Thursday. Yemeni forces have warned that strikes on Saudi airports and oil facilities will continue. Production has not been affected, but each strike moves targeting closer to energy assets, and Bloomberg noted Trump has said he would consider joining Saudi-backed strikes. For crude, the risk is a hit on export terminals, which would remove barrels from a market where spare capacity is already thin.</p>
+      <a href="https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Russia / Refining</div>
+      <h4>Russia Says Ukraine Hit Two Refineries, Including Ryazan, in Breach of Energy Ceasefire</h4>
+      <p>Trading Economics reported Russia said Ukraine struck two refineries, including the Ryazan plant, in violation of a US-announced energy ceasefire. Goldman Sachs has estimated Russian refinery outages are up about 3 million barrels a day year on year and that 800,000 tonnes of extra Russian diesel would trim wholesale diesel prices by only $1 to $2 a barrel. New strikes undercut the premise of the six-month easing of Russian diesel restrictions, which lawmakers in both parties have already criticised. If Russian output of diesel is again curtailed, European gasoil cracks stand to widen even as crude drifts lower, keeping diesel the tighter leg of the market.</p>
+      <a href="https://tradingeconomics.com/commodity/brent-crude-oil" class="read-link" target="_blank">Read Trading Economics →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Inventories / Natural Gas</div>
+      <h4>API Shows 11.1 Million Barrel Crude Draw; Henry Hub Gas Near Three-Week High at $3.27</h4>
+      <p>Market sources citing API data said US crude inventories fell 11.1 million barrels in the week ended October 9; the official EIA report, delayed a day by Monday's holiday, is due Thursday at 12:00 ET and was not available at time of writing. The prior EIA print showed commercial crude at 424.1 million barrels and distillate at about 105.1 million, roughly 13.5% below a year earlier. Separately, Trading Economics put Henry Hub at $3.27, up 2.37%, with Lower 48 output at 110.8 bcfd versus records of 113.3 bcfd and LNG feedgas at 17.5 bcfd; analysts expect the storage surplus to shrink to 1.6% over normal. Mild weather forecasts through October 29 cap gas gains.</p>
+      <a href="https://tradingeconomics.com/commodity/natural-gas" class="read-link" target="_blank">Read Trading Economics →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Oct 15 — Today</td>
+        <td>
+          <div class="event-name">EIA Weekly Petroleum Status Report (Delayed, 12:00 ET)</div>
+          <div class="event-impact">The official data for the week to October 9 test the API's 11.1 million barrel crude draw. I have no EIA figures at time of writing. A confirmed large draw plus a further fall in distillates, already about 13.5% below last year, would support gasoil and widen cracks. A much smaller draw would let the profit-taking extend toward $102.</div>
+        </td>
+        <td>±$1–2/bbl; larger for diesel cracks.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Oct 15–20</td>
+        <td>
+          <div class="event-name">Houthi–Saudi Escalation and Possible US Role</div>
+          <div class="event-impact">Attacks continued Thursday after the Dhahran hit. Trump has said he would consider joining Saudi-backed strikes. Damage to production or export facilities would add sharply to a risk premium, while continued attacks on civilian targets alone are producing a floor rather than a spike. Watch Ras Tanura and Abqaiq reports and any Saudi retaliation inside Yemen.</div>
+        </td>
+        <td>Upside tail; +$3–6/bbl on an energy-asset strike.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Oct 15–18</td>
+        <td>
+          <div class="event-name">Hormuz Shipping Incidents and Transit Data</div>
+          <div class="event-impact">A container ship sank after a projectile strike, and Iranian officials describe new tactics against vessels. More incidents would push Brent toward $108 to $110 and lift war-risk premiums. Sustained safe transits, with US help moving over 19 million barrels, would re-focus the market on Goldman's $90 December average.</div>
+        </td>
+        <td>Binary; ±$4–8/bbl.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Oct 15–31</td>
+        <td>
+          <div class="event-name">Shadow-Fleet Sanctions Relief and Russian Diesel Loadings</div>
+          <div class="event-impact">Treasury licensing details for shadow-fleet tankers and verified Russian diesel cargoes are the next policy datapoints. Energy Aspects sees limited freight relief, and Goldman sees only $1–2 a barrel from extra Russian diesel. Congressional pushback or further Ukrainian refinery strikes would reverse any easing and widen gasoil premiums.</div>
+        </td>
+        <td>Gasoil ±$30–60/mt; Brent ±$1–3/bbl.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Nov 1 / Nov 3</td>
+        <td>
+          <div class="event-name">OPEC+ Meeting and US Midterms</div>
+          <div class="event-impact">Quota decisions matter little while Gulf producers pump below target; Saudi output of 8.372 million bpd in September shows the gap. The White House push to lower fuel prices before the November 3 midterms raises odds of further supply-easing measures, such as the shadow-fleet waiver, which is the main policy risk to prices.</div>
+        </td>
+        <td>Low for prompt prices; shapes policy risk.</td>
+        <td><span class="badge badge-low">Low</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Thursday, October 15, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Yesterday I called a $102–$109 Brent range with a mildly upward bias. The range held: Brent printed near $106 on Wednesday and has slipped to <strong>$104.41, down 1.55%</strong> this morning on Trading Economics. The upside bias gave back some ground as traders took profits and Washington floated shadow-fleet relief, but nothing in the physical picture has actually improved, so I would not read the dip as a trend change.</p>
+        <p><strong>My read on today:</strong> The sanctions-relief headline is the sort of policy gesture the White House favours ahead of the November 3 midterms, but Energy Aspects' view that it adds little real tonnage is persuasive. Meanwhile a container ship has sunk in Hormuz, Houthi attacks on Saudi Arabia go on and the API reports an 11.1 million barrel crude draw. I would buy dips toward $102 while those three hold, and respect that headlines can move us $2 either way within minutes.</p>
+        <p><strong>Diesel remains the sharper instrument.</strong> London gasoil for November is near $1,444.50 a tonne, down 1.46%, but quotes on the same page differed by around ten dollars intraday, so treat the level as approximate. Distillate stocks are about 13.5% below last year, Russian refineries are being hit again, and Goldman sees tiny relief from extra Russian cargoes. Today's EIA distillate figure is the hard test of that tightness thesis.</p>
+        <p><strong>The bigger picture:</strong> Goldman's $90 December average and OPEC's call for restocking demand in 2027 both point to a lower path over months, and Saudi bypass pipeline capacity arrives later this year. None of that helps this week. My call: <strong>Brent trades $101–$108 today</strong>, with a mild upward bias after the profit-taking and a sharp upside tail if Saudi export assets or tankers are hit. A sustained break under $100 needs confirmed Hormuz calm and real Russian cargoes.</p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#e05252">Tight</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:72%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Elevated</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:80%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#f0a500">Rationing</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:50%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Policy Intervention</span><span style="color:#f0a500">Limited Relief</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:55%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diesel Tightness</span><span style="color:#e05252">Severe</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:75%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">Thin</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:30%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$101 – $108</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Mildly Higher After Profit-Taking — Tail Risk Up ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$107–$109</span></div>
+            <div>🟢 Support: <span style="color:#fff">$101–$102</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$110 (Saudi energy assets hit, Hormuz escalation)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$100 (verified Russian cargoes + calm Hormuz transits)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Thursday, October 15, 2026</span>
+  <span>Sources: Trading Economics, Investing.com, CNBC, Reuters (via Investing.com/InvestingLive), Energy Aspects, Saxo, EIA, API, Goldman Sachs</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>
