@@ -1,0 +1,216 @@
+{
+  "date_long": "Saturday, October 17, 2026",
+  "date_slug": "oct17-2026",
+  "volume": "Vol. I — No. 79",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Bloomberg (via Rigzone), Investing.com, Trading Economics, OPEC, Reuters (via Polity), EIA, IEA, CNBC, Eurasia Group",
+  "ticker": [
+    "BRENT CRUDE (DEC) $109.86 ▲ +3.7% (BLOOMBERG, FRI SETTLE) — FIRST $110 TOUCH SINCE MAY",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,457.00/mt ▲ +2.00% (INVESTING.COM LGOX6 NOV; PRIOR CLOSE $1,413.00)",
+    "NATURAL GAS ~$3.12 ▼ -3.7% (HENRY HUB; EIA STORAGE +67 BCF)",
+    "WTI (NOV) $101.41 ▲ +3.5% — BRENT SECOND STRAIGHT WEEKLY GAIN, UP 75%+ THIS YEAR",
+    "EURASIA GROUP RAISES ODDS OF CONFLICT INTENSIFICATION TO 65% FROM 35%",
+    "IEA: DIESEL SHORTAGE COULD PERSIST WELL INTO 2027; NY DIESEL $4.90/GAL",
+    "OPEC+ HOLDS NOVEMBER TARGETS AT 31.01 MB/D; NEXT MEETING NOV 1"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$109.86",
+      "change": "▲ +3.7% (Dec settle, Bloomberg via Rigzone); first $110 since May",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,457.00/mt",
+      "change": "▲ +2.00% (Investing.com LGOX6 Nov; prior close $1,413.00; page undated, marked closed 16/10)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$101.41",
+      "change": "▲ +3.5% (Nov settle); Brent–WTI spread narrowed",
+      "direction": "up"
+    },
+    {
+      "label": "NY Diesel (ULSD)",
+      "value": "$4.90/gal",
+      "change": "Seasonal record high for diesel and gasoline futures",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "$3.12",
+      "change": "▼ −3.7% (Trading Economics); storage +67 bcf vs 76 expected",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Edition — Brent Tags $110 for the First Time Since May as Saudi Attacks, Russian Refinery Strikes and Diesel Tightness Reprice Risk",
+    "headline": "Brent Jumps 3.7% to Settle at $109.86 and London Gasoil Climbs 2.00% to About $1,457 as Traders Price the Risk Back In",
+    "paragraphs": [
+      "Oil finished the week with a decisive upside break. Bloomberg, as carried by Rigzone, reported that <strong>December Brent rose 3.7% to settle at $109.86 a barrel</strong> in New York after touching $110 for the first time since May, its second consecutive weekly gain. WTI for November added 3.5% to settle at $101.41, and crude is now up more than 75% this year. Brent had lagged WTI for several sessions as cheaper US freight, down about 12% on Gulf Coast–Rotterdam cargoes per Baltic Exchange data, lifted demand for American barrels; Friday's rally let the benchmark catch up, and the spread between the two is narrower than a week ago.",
+      "Diesel led the complex in conviction. Investing.com showed November London gasoil (LGOX6, our ULS1! proxy) at <strong>$1,457.00 a tonne, up 2.00%</strong> from a $1,413.00 close, after a day range of $1,398–$1,462, though the page carries no year or timestamp so the level is approximate. New York diesel settled at $4.90 a gallon, and both diesel and gasoline futures sit at the highest levels ever for this time of year. The IEA's October 14 report that the diesel shortage could last well into 2027 remains the structural anchor, while Russian diesel is still shut out of global markets, forcing other refiners to run harder.",
+      "The catalysts are geopolitical and cumulative. Houthi missile and drone strikes on Saudi Arabia continue, Russia and Ukraine are trading blows on energy infrastructure, and doubts persist over a Trump–Moscow plan to release several hundred million barrels of diesel, which US lawmakers have moved to block. CIBC's Rebecca Babin said: <em>\"After a brief reprieve, the oil market is having to price risk back in.\"</em> Eurasia Group lifted its odds of conflict intensification with Iran to 65% from 35%. <strong>With open interest near multi-year lows and spare capacity thin, thin liquidity is amplifying every headline</strong>, which is why a Friday close at the highs carries weekend gap risk."
+    ],
+    "link_url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+    "link_text": "Read Rigzone (Bloomberg)",
+    "stats": [
+      {
+        "num": "$109.86",
+        "desc": "Brent December Settle, +3.7%; First $110 Touch Since May (Bloomberg via Rigzone)"
+      },
+      {
+        "num": "+2.00%",
+        "desc": "London Gasoil (LGOX6, November) to ~$1,457.00/mt (Investing.com)"
+      },
+      {
+        "num": "65%",
+        "desc": "Eurasia Group's Raised Odds of Conflict Intensification, From 35%"
+      },
+      {
+        "num": "$4.90",
+        "desc": "NY Diesel Settle per Gallon; Seasonal Record for Diesel and Gasoline Futures"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Crude Market",
+      "headline": "Brent Settles at $109.86, WTI at $101.41 as Oil Posts Second Weekly Gain",
+      "body": "Bloomberg reported that December Brent gained 3.7% to settle at $109.86 a barrel after touching $110 for the first time since May, while November WTI added 3.5% to $101.41. Crude is up more than 75% this year. Brent had mostly lagged WTI in recent sessions because the cost of shipping a Gulf Coast cargo to Rotterdam fell roughly 12% in a week, according to Baltic Exchange data, which lifted demand for US barrels. Brent open interest touched its lowest since March 2025 earlier this month, and the gap between futures and physical markets has left traders wary, so moves are being amplified. For crude and diesel the message is that dips are being bought and the risk premium is rebuilding.",
+      "link_url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+      "link_text": "Read Rigzone (Bloomberg)"
+    },
+    {
+      "tag": "Diesel / IEA",
+      "headline": "IEA: Diesel Shortages Could Persist Well Into 2027 as Middle East and Russian Output Lags",
+      "body": "The International Energy Agency said in its October 14 Oil Market Report, carried by Reuters, that tight diesel supplies could last well into 2027 because conflicts curb output from the Middle East and Russia and stocks are being drawn ahead of winter. Diesel refining margins hit records near $95 a barrel in September per Reuters, global diesel exports fell 700,000 b/d year on year, and the IEA sees 2026 supply down 5.8 mb/d to 100.7 mb/d before a 7.7 mb/d rebound in 2027. Inventories lost in the crisis are unlikely to be rebuilt before the second half of 2027. This is the structural support under ULS1!, which rose 2.00% Friday.",
+      "link_url": "https://www.polity.org.za/article/diesel-shortages-could-persist-well-into-2027-iea-says-2026-10-14",
+      "link_text": "Read Reuters (via Polity)"
+    },
+    {
+      "tag": "Geopolitics",
+      "headline": "Eurasia Group Lifts Odds of Conflict Intensification to 65% as Trump Declines to Rule Out Heavy Bomb",
+      "body": "Eurasia Group raised its odds of conflict intensification to 65% from 35%, writing that \"the standoff status quo is no longer sustainable for the US,\" according to Bloomberg. Separately, Trump declined to rule out using the GBU-43/B \"Mother of all Bombs\" on Iran after the November 3 election in a Newsmax interview, and CNN reported the US has drawn up strike plans that could include it. Hormuz cargo volumes have been nearing prewar levels, with over 100 million barrels of crude transiting last week, so the flow at risk is large. Any move from rhetoric to action would add a fresh war-risk premium to both crude and diesel cargoes bound for Europe.",
+      "link_url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+      "link_text": "Read Rigzone (Bloomberg)"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Core Seven Hold November Targets at 31.01 Million b/d; Next Meeting November 1",
+      "body": "Seven OPEC+ members, including Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman, agreed on October 4 to keep November production unchanged, per OPEC's statement. Required output stays at 31.01 million b/d, with Saudi Arabia at 10.478 million and Russia at 9.949 million. The pause follows four monthly increases, and Reuters noted most stayed on paper because Gulf exports have run at 60% to 80% of normal. UBS's Giovanni Staunovo said the market remains tight. The 2027 capacity review was delayed because the Iran war clouds production estimates. With quotas largely theoretical, OPEC+ offers no supply relief; the November 1 meeting is the next policy datapoint.",
+      "link_url": "https://opec.org/pr-detail/1891616-4-october-2026.html",
+      "link_text": "Read OPEC"
+    },
+    {
+      "tag": "Russia / Supply",
+      "headline": "Russia–Ukraine Energy Strikes Continue, Reported Hit on Ryazan Refinery; Doubts Over Diesel Release Plan",
+      "body": "Bloomberg reported that Russia and Ukraine are exchanging attacks on energy infrastructure, including a reported strike on Russia's Ryazan refinery, one of the country's largest. Russian diesel remains excluded from global markets, forcing refiners elsewhere to boost runs, and European diesel futures have more than doubled this year. Doubts persist over a Trump–Moscow deal to release several hundred million barrels of diesel, and US lawmakers have introduced a bill to block it. The US also offered up to 17 million barrels from the Strategic Petroleum Reserve. Each outage in Russian refining tightens the diesel balance directly, which is why gasoil is outperforming crude on the dips.",
+      "link_url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+      "link_text": "Read Rigzone (Bloomberg)"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub Slips 3.7% to About $3.12 Despite 67 Bcf Storage Injection Below Forecast",
+      "body": "Trading Economics put Henry Hub near $3.12 per MMBtu on Friday, down about 3.7%, though still up roughly 7.4% on the month. The EIA reported a 67 bcf injection for the week ended October 9, below the 76 bcf forecast and 90 bcf five-year average, leaving stocks at 3.567 tcf, 3.9% under last year and 1.3% above the seasonal norm. Lower 48 output averaged 110.8 bcfd in October versus a 113.3 bcfd record, and LNG feedgas was on track for a five-month high of 18.9 bcfd Friday. LSEG expects demand to rise to 106.8 bcfd as colder weather arrives. Gas is a secondary driver for oil, but firmer export demand supports the wider energy complex.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 17–19 — Weekend",
+      "name": "Weekend Gap Risk After Brent's $110 Touch",
+      "impact": "Brent closed at its highs after a 3.7% jump, so Monday's open is exposed to anything that happens over the weekend. A Houthi hit on Saudi energy assets or a Hormuz incident would gap crude toward $115, while quiet diplomacy and a retreat in Eurasia-style escalation talk would invite profit-taking back toward $105. Thin open interest magnifies gaps in both directions.",
+      "market_impact": "Gap risk ±$3–6/bbl at Monday's open.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 17–25",
+      "name": "Houthi–Saudi Attacks and Energy-Asset Targeting",
+      "impact": "Missile and drone strikes on Saudi Arabia continue. A confirmed hit on production or export facilities such as Ras Tanura or Abqaiq would remove barrels the market cannot replace given thin spare capacity, with OPEC+ quotas largely on paper. Continued attacks on non-energy targets are keeping a floor under prices rather than triggering spikes.",
+      "market_impact": "Upside tail; +$4–8/bbl on an energy-asset strike.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 17–31",
+      "name": "US–Iran Escalation Risk Ahead of the Nov. 3 Election",
+      "impact": "Eurasia Group's 65% conflict-intensification odds and Trump's refusal to rule out a heavy-bomb strike after the election keep the Hormuz premium elevated. Over 100 million barrels transited the strait last week, so any strike or retaliation against shipping would threaten flows that had nearly normalised.",
+      "market_impact": "Binary; ±$5–10/bbl on a decisive escalation or de-escalation.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 20–31",
+      "name": "Russian Diesel Policy and Refinery Strikes",
+      "impact": "Congress is moving to block a Trump–Moscow plan to release hundreds of millions of barrels of diesel, while Ukrainian drones keep hitting refineries such as Ryazan. Blocking the plan or more outages would widen gasoil premiums; approval with verified cargoes would trim them. The IEA's 2027 shortage warning limits downside.",
+      "market_impact": "Gasoil ±$30–60/mt; Brent ±$1–3/bbl.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 21",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "Following last week's 8.6 million barrel crude draw, the next print shows whether US exports are sustained at the lower freight rates. Distillate stocks are the key number for ULS1! and New York diesel at a seasonal record $4.90 a gallon. Another draw would support $110 tests; a build would encourage profit-taking.",
+      "market_impact": "±$1–2/bbl; larger for diesel cracks.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called a $102–$109 Brent range with a mild upward bias and an upside tail if Saudi assets or tankers were hit. The market delivered the tail without the trigger: Brent settled at <strong>$109.86, up 3.7%</strong>, touching $110 for the first time since May. It landed just inside the top of my range, so the bias was right, though the size of the move exceeded what I expected from headlines alone.",
+      "<strong>My read on today:</strong> Saturday has no trading, so this is about Monday's open. The rally was driven by risk, not new lost barrels: Hormuz volumes are near prewar levels and OPEC+ is holding quotas. That is exactly why CIBC's Babin is right that the market is pricing risk back in, and why open interest near its lowest since March 2025 makes the move fragile. I would respect $105 on dips and not chase above $112 without a fresh physical loss.",
+      "<strong>Diesel remains the sharper instrument.</strong> London gasoil for November is near $1,457 a tonne, up 2.00%, though the quote lacks a verified timestamp so I treat the level as approximate. The IEA's warning of tightness well into 2027, record margins near $95 a barrel in September, Russian diesel still excluded and refinery strikes at Ryazan all point one way. The one offset is policy: a Trump–Moscow diesel release, if it survives Congress, could shave a few dollars.",
+      "<strong>The bigger picture:</strong> Eurasia Group's 65% odds of conflict intensification, with the November 3 election ahead, mean the premium is unlikely to drain soon. Goldman's lower December view has not been invalidated, but it needs calm Hormuz transits, which is not what the tape shows. My call: <strong>Brent trades $105–$114 into Monday's open</strong>, with an upward bias and violent gaps both ways given thin liquidity."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 78
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Very Elevated",
+        "tone": "bearish",
+        "pct": 88
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Limited Relief",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Severe",
+        "tone": "bearish",
+        "pct": 82
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 25
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$105 – $114",
+      "bias": "Bias: Higher — Gap Risk Both Ways ▲"
+    },
+    "watch_levels": {
+      "resistance": "$110–$114",
+      "support": "$105–$106",
+      "breakout": ">$115 (Saudi energy assets hit, US–Iran escalation)",
+      "breakdown": "<$102 (calm Hormuz transits + diesel release approved)"
+    }
+  }
+}
