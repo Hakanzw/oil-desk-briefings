@@ -1,0 +1,216 @@
+{
+  "date_long": "Sunday, October 18, 2026",
+  "date_slug": "oct18-2026",
+  "volume": "Vol. I — No. 80",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Bloomberg (via Rigzone), CNBC, Al Jazeera, Investing.com, IEA (via Polity), EIA (via Rigzone, OGJ), AGA, OPEC, Reuters",
+  "ticker": [
+    "BRENT CRUDE (DEC) $109.86 ▲ +3.7% (FRI SETTLE; BLOOMBERG) — FIRST $110 TOUCH SINCE MAY",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,457.00/mt ▲ +2.00% (INVESTING.COM LGOX6 NOV; PRIOR CLOSE $1,413.00)",
+    "NATURAL GAS ~$3.18 ▼ ~-1.9% (HENRY HUB; NOV FUTURES $3.24 ON OCT 15 PER AGA)",
+    "EIA: US CRUDE STOCKS -8.6M BBL TO 415.6M; DISTILLATES -2.5M TO 102.6M, LOWEST SEASONAL LEVEL ON RECORD",
+    "AT LEAST NINE SHIPS HIT IN HORMUZ IN A WEEK; IRAN SAYS STRAIT STAYS CLOSED UNTIL SEVEN CONDITIONS MET",
+    "IEA: DIESEL SHORTAGE TO PERSIST INTO 2027; OPEC+ HOLDS NOVEMBER TARGETS, NEXT MEETING NOV 1",
+    "MARKETS CLOSED FOR WEEKEND — FRIDAY SETTLEMENTS ARE THE LATEST PRINTS"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$109.86",
+      "change": "▲ +3.7% (Dec settle Fri, Bloomberg via Rigzone); first $110 since May",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,457.00/mt",
+      "change": "▲ +2.00% (Investing.com LGOX6 Nov; prior close $1,413.00; page undated, marked closed 16/10)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$101.41",
+      "change": "▲ +3.5% (Nov settle, Fri, per Bloomberg); other quotes differ by source",
+      "direction": "up"
+    },
+    {
+      "label": "US Distillate Stocks (EIA)",
+      "value": "102.6M bbl",
+      "change": "▼ −2.5M wk/wk; 12% below 5-yr avg, lowest seasonal level on record",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$3.18",
+      "change": "▼ ~−1.9% vs $3.24 Nov futures settle Oct 15 (AGA); spot quotes $3.12–3.22",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Edition — Hormuz Under Fire: Brent Closes the Week at $109.86 as Tanker Attacks Multiply and Diesel Stocks Hit Record Seasonal Lows",
+    "headline": "Brent Settles at $109.86 After First $110 Touch Since May as Iran Escalates Hormuz Attacks and US Distillate Stocks Sink to a Record Seasonal Low",
+    "paragraphs": [
+      "Oil ended the week on its highs. Bloomberg, as carried by Rigzone, reported that <strong>December Brent rose 3.7% to settle at $109.86 a barrel</strong> on Friday after touching $110 for the first time since May, marking a second consecutive weekly gain. Markets are closed for the weekend, so Friday's settlement remains the latest print as this issue goes out. Thursday's close had been $105.92, meaning the benchmark added nearly $4 in a single session. The driver was a fresh round of Gulf shipping attacks and growing doubt that the partial recovery in flows seen in September can be sustained, with physical-market worries amplifying moves in thinly traded futures.",
+      "The shipping picture deteriorated sharply through the week. Citing UKMTO data, Al Jazeera reported 15 further attacks between October 6 and 14, eleven of them in the final four days, while Kpler counted ten tankers struck from September 28 to October 4. The US Navy-led JMIC rates the threat to merchant shipping \"severe.\" Kpler data shows Hormuz crude shipments fell to roughly 70% of pre-war levels in the week to October 14, from above 81% for Gulf flows in September. Iran says the strait stays closed until the US meets <strong>seven conditions</strong>, calls Washington's response \"insufficient,\" and has named the US-assisted ship-to-ship shuttle system an explicit target.",
+      "The consumer end of the chain is already stretched. The EIA reported US commercial crude stocks fell <strong>8.6 million barrels to 415.6 million</strong>, 3% below the five-year average, while distillates fell 2.5 million barrels to 102.6 million, the lowest seasonal level on record and 12% under average, with diesel exports at 1.4 million bpd, the highest seasonal rate since 2013. With the IEA warning that diesel tightness could last into 2027 and ICE gasoil near $1,457 a tonne, the risk to crude is skewed upward into Monday's open, when weekend headlines will be priced in a single gap."
+    ],
+    "link_url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+    "link_text": "Read Rigzone (Bloomberg)",
+    "stats": [
+      {
+        "num": "$109.86",
+        "desc": "Brent December Settle, +3.7%; First $110 Touch Since May (Bloomberg via Rigzone)"
+      },
+      {
+        "num": "+2.00%",
+        "desc": "London Gasoil (LGOX6, November) to ~$1,457.00/mt (Investing.com)"
+      },
+      {
+        "num": "−8.6M bbl",
+        "desc": "US Commercial Crude Draw, Week to Oct 9; Stocks 3% Below 5-Yr Average (EIA)"
+      },
+      {
+        "num": "102.6M bbl",
+        "desc": "US Distillate Stocks, Lowest Seasonal Level on Record (EIA via Rigzone)"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Crude Market",
+      "headline": "Brent Settles at $109.86 as Oil Posts Second Weekly Gain on Middle East Supply Fears",
+      "body": "Bloomberg reported that December Brent gained 3.7% on Friday to settle at $109.86 a barrel, touching $110 for the first time since May, after a $105.92 close on Thursday. The advance came as uncertainty over whether physical flows from the Persian Gulf can keep recovering deepened. Not everyone agrees the picture is dire: Norbert Rucker of Julius Baer argued that \"we are not running out of oil, as flows out of the Middle East have largely recovered.\" Even so, the market chose to pay up for protection. For crude and diesel alike, the message is that every dip is being bought into the weekend, leaving Monday's open exposed to weekend headlines in both directions.",
+      "link_url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+      "link_text": "Read Rigzone (Bloomberg)"
+    },
+    {
+      "tag": "Geopolitics / Hormuz",
+      "headline": "Iran Expands Hormuz Surveillance as Attacks Soar and Oil Flows Crash Again",
+      "body": "Al Jazeera reported that Iran's Navy deployed new units east of the strait and across the Sea of Oman after a tanker was damaged and caught fire. UKMTO logged 15 attacks between October 6 and 14, eleven in the last four days. Kpler said only 2.9 million barrels transited on October 11, versus about 20.8 million on October 8 and a pre-war average of 17.1 million barrels a day. CENTCOM countered that US forces helped move more than 19 million barrels through the strait on Monday and that \"the IRGC's navy commander has no navy.\" An Iranian official told Reuters the new tactics were partly aimed at the November US midterms. Insurance costs and crew bonuses are climbing, adding to delivered crude and diesel costs.",
+      "link_url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again",
+      "link_text": "Read Al Jazeera"
+    },
+    {
+      "tag": "Inventories / EIA",
+      "headline": "EIA: US Crude Stocks Fall 8.6M Barrels; Distillates Hit Lowest Seasonal Level on Record",
+      "body": "The EIA's weekly report, delayed a day by the Columbus Day holiday, showed commercial crude stocks excluding the SPR down 8.6 million barrels to 415.577 million, 3% below the five-year average. Gasoline rose 3.5 million barrels, but distillates fell 2.5 million to 102.6 million barrels, 12% below average and the lowest seasonal level on record according to Saxo Bank's Ole Hansen. Refinery runs rose to 16.6 million bpd, or 93.5% utilization, while diesel exports reached 1.4 million bpd, the highest seasonal rate since 2013. The SPR was flat at 283.0 million barrels, down 30.6% year on year. The data tells us US diesel is being pulled abroad even as domestic stocks thin, a supportive signal for ICE gasoil and Brent.",
+      "link_url": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_almost_9mm_barrels_wow-16-oct-2026-184869-article/",
+      "link_text": "Read Rigzone (EIA data)"
+    },
+    {
+      "tag": "Diesel / IEA",
+      "headline": "IEA: Diesel Shortage Could Persist Well Into 2027 as Middle East and Russian Exports Slump",
+      "body": "In its October Oil Market Report on October 14, the IEA said the gasoil and diesel deficit is likely to last into 2027, depending on the recovery of product supplies from West Asia. Diesel exports from the Middle East and Russia lost 1.3 million bpd in September, and the agency expects gasoil supply to fall short of demand in the fourth quarter. It sees 2026 oil demand falling by 2.6 million bpd and supply dropping an average 5.8 million bpd, while member states coordinate the release of 100 million barrels of emergency oil and diesel stocks. Investing.com tied the day's jump in London gasoil futures to the report. For the Low Sulphur Gasoil contract, this keeps cracks structurally elevated.",
+      "link_url": "https://www.polity.org.za/article/diesel-shortages-could-persist-well-into-2027-iea-says-2026-10-14",
+      "link_text": "Read Reuters (via Polity)"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds November Targets Steady; Gulf Output Remains Below Quota; Next Meeting Nov 1",
+      "body": "The OPEC+ core group met online on October 4 and kept November production targets unchanged, with the next meeting set for November 1. Reuters reported the pause reflects expectations that further policy changes are unlikely until next year, since the delayed capacity review is needed to settle distribution of quotas. The more important point is that Gulf producers are pumping well below their targets because of Iran-war export disruptions, so the quota is largely irrelevant to physical supply. OPEC's monthly report also raised its 2027 demand growth forecast to about 2.6 million bpd, a constructive signal for the following year. With little spare capacity that can actually reach market, OPEC+ cannot offer relief if Hormuz flows keep falling.",
+      "link_url": "https://opec.org/pr-detail/1891616-4-october-2026.html",
+      "link_text": "Read OPEC"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub Holds Low-$3 Range as November Futures Settle at $3.24",
+      "body": "The AGA reported that November natural gas futures settled at $3.24 per MMBtu on October 15, after falling below $3.00 earlier in the month, with the month-to-date average at $3.15. Spot quotes for Friday ran around $3.12 to $3.22, and one benchmark page showed $3.18, which this briefing uses as an approximate reference; the roughly 1.9% decline is computed against the $3.24 futures settle and is not an exchange-reported daily change. The EIA's October Short-Term Energy Outlook sees Henry Hub averaging $3.16 in 2027. US gas remains insulated from the Hormuz shock relative to LNG-linked markets, but strong export demand and a tight global fuel complex keep a floor under it.",
+      "link_url": "https://www.aga.org/research-policy/resource-library/natural-gas-market-indicators-october-16-2026/",
+      "link_text": "Read AGA"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 18–19 — Weekend",
+      "name": "Weekend Gap Risk After Brent's $110 Touch",
+      "impact": "Brent closed at its highs after a 3.7% jump, so Monday's open is exposed to everything that happens over the weekend. Further tanker strikes or a mine incident in Hormuz would gap crude toward $115, while any sign of renewed US–Iran contact through mediators such as Qatar or Pakistan would invite profit-taking toward $105. Thin open interest magnifies gaps in both directions.",
+      "market_impact": "Gap risk ±$3–6/bbl at Monday's open.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Attacks and the US-Assisted Shuttle System",
+      "impact": "Iran has declared the ship-to-ship shuttle system a target and its security chief says five or six vessels are struck nightly. CENTCOM says it moved over 19 million barrels in one day. Whichever side's claim is borne out by Kpler transit counts will set the near-term direction: sustained flows above 15 million barrels a day would ease the premium, while another collapse like October 11 would push Brent through $115.",
+      "market_impact": "Structural — daily transit counts drive risk premium.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 21",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The next print will show whether the record-low distillate position deepens. After an 8.6 million barrel crude draw and 1.4 million bpd diesel exports, another distillate draw would confirm the squeeze feeding gasoil cracks. A rebound in stocks would take some heat out of ULS1! and cap the diesel-led rally in Brent.",
+      "market_impact": "±$1–3/bbl; larger for gasoil cracks.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Core Group Meeting",
+      "impact": "The group has held November targets and signalled no policy shift before 2027, but the next meeting will be read for any comment on Gulf output running below quota and on the delayed capacity review. A surprise change is unlikely to add physical barrels while export routes are disrupted, so the effect is mostly sentiment.",
+      "market_impact": "Limited physical effect; sentiment ±$1–2/bbl.",
+      "risk": "Low"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections",
+      "impact": "An Iranian official told Reuters that Tehran's new offensive tactics were partly intended to influence the US midterms. Pre-election escalation, or a sudden diplomatic gesture, can both move crude sharply. Gasoline and diesel prices at seasonal records add domestic political pressure for emergency stock releases and renewed outreach to mediators.",
+      "market_impact": "Event risk skewed to headlines; ±$3–5/bbl.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Friday's close is the story this weekend. Brent at <strong>$109.86</strong> is the first $110 touch since May, and it came with a second straight weekly gain. In recent issues I argued that the risk premium was rebuilding as Hormuz flows stuttered; the week's tanker attacks, the collapse in transits on October 11 and Iran's refusal to reopen the strait without its seven conditions have confirmed it. Nothing in the weekend news flow suggests de-escalation, and markets are closed until Monday.",
+      "<strong>My read on the physical market:</strong> the EIA print is the part the futures curve may still be underpricing. US distillate stocks of 102.6 million barrels are the lowest seasonal level on record, diesel exports are the highest since 2013, and the IEA says the shortage runs into 2027. Low Sulphur Gasoil near $1,457 a tonne, up 2.00% on an undated Investing.com quote, reflects this. Diesel, not crude, is where the squeeze bites hardest, and it pulls crude along.",
+      "<strong>The bigger picture:</strong> OPEC+ cannot help. Its November targets are unchanged, Gulf producers are already well below quota, and spare capacity that cannot be shipped through Hormuz is not spare. The IEA-coordinated 100 million barrel emergency release is a bridge, not a fix. The counter-argument, from Julius Baer's Norbert Rucker, is that Middle East flows have largely recovered, and CENTCOM's claim of 19 million barrels moved in a day shows the shuttle can work.",
+      "My call: <strong>Brent trades $105–$114 on Monday</strong>, biased higher with gap risk in both directions after a 3.7% Friday jump. <strong>A close above $110 would turn the tape decisively bullish; a fall below $102 requires visible calm in Hormuz transits.</strong> Natural gas stays range-bound near $3.10–$3.25."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 80
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Very Elevated",
+        "tone": "bearish",
+        "pct": 90
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Policy Intervention",
+        "label": "Limited Relief",
+        "tone": "neutral",
+        "pct": 45
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Severe",
+        "tone": "bearish",
+        "pct": 85
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 25
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$105 – $114",
+      "bias": "Bias: Higher — Gap Risk Both Ways ▲"
+    },
+    "watch_levels": {
+      "resistance": "$110–$114",
+      "support": "$105–$106",
+      "breakout": ">$115 (further Hormuz escalation, shuttle system hit)",
+      "breakdown": "<$102 (calm transits + emergency stock release)"
+    }
+  }
+}
