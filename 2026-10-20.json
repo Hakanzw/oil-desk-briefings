@@ -1,0 +1,217 @@
+{
+  "date_long": "Tuesday, October 20, 2026",
+  "date_slug": "oct20-2026",
+  "volume": "Vol. I — No. 82",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Trading Economics, Investing.com, Reuters (via Rigzone, Nation Thailand), CBS News, CNBC, Fox News, Kpler, EIA, OPEC",
+  "ticker": [
+    "BRENT CRUDE ~$109.87 ▲ +0.29% (TRADING ECONOMICS, OCT 20)",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,469.63/mt ▲ +1.42% (INVESTING.COM, OCT 20)",
+    "NATURAL GAS ~$3.02 ▼ −1.36% (TRADING ECONOMICS; 2+ WEEK LOW)",
+    "BRENT STEADIES ABOVE $109 AS HOUTHI STRIKES ON SAUDI ENERGY SITES OUTWEIGH RUSSIA WAIVER",
+    "UKMTO: 10+ VESSELS ATTACKED NEAR HORMUZ IN A WEEK — HIGHEST SINCE WAR BEGAN",
+    "WRIGHT: GULF FLOWS ~80% OF PRE-WAR LEVELS; REFINED PRODUCTS STILL CONSTRAINED",
+    "EIA: US CRUDE −8.6M BBL TO 415.6M; DISTILLATES −2.5M TO 102.6M; NEXT REPORT WED",
+    "OPEC+ HOLDS NOVEMBER TARGETS; NEXT MEETING NOV 1"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "~$109.87",
+      "change": "▲ +0.29% (Monday settle $109.55; five-month high zone)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,469.63/mt",
+      "change": "▲ +1.42% (Investing.com; Oct 19 close $1,449.00)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$103.66",
+      "change": "▲ +2.2% Monday settle (highest since Sep 15; Nov contract expires today)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$3.02",
+      "change": "▼ −1.36% (mild weather; two-week-plus low)",
+      "direction": "down"
+    },
+    {
+      "label": "US Distillate Stocks (EIA)",
+      "value": "102.6M bbl",
+      "change": "▼ −2.5M wk/wk; ~12% below 5-yr avg",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Policy Relief Fades, Physical Risk Persists — Brent Holds Above $109",
+    "headline": "Brent Steadies Near $109.9 as Houthi Strikes on Saudi Energy Sites and Hormuz Ship Attacks Outweigh the Russia Sanctions Waiver — Diesel Futures Rebound 1.4%",
+    "paragraphs": [
+      "Crude held its ground on Tuesday after a choppy Monday. Trading Economics put Brent near <strong>$109.87, up about 0.3%</strong>, after Reuters reported Monday's settlement at $109.55, down 31 cents, having recovered from a session low more than $3 lower. That recovery matters: the first reaction to President Trump's Russia sanctions waiver was a sharp dip, yet buyers returned as Houthi militants claimed strikes on an Aramco facility at Yanbu, the Shaybah oilfield and Riyadh's King Khalid airport. WTI settled at $103.66, up 2.2% and its highest close since September 15, in thin trade ahead of the November contract's expiry today. The benchmark is up more than 75% year to date, and European diesel futures have more than doubled.",
+      "The diesel complex told a sharper story. Investing.com data show ICE Low Sulphur Gasoil at <strong>$1,469.63 per tonne, up 1.42%</strong> from Monday's $1,449.00, reversing the waiver-driven slump of last week's close near $1,413. The Russian diesel arrangement is facing resistance: US lawmakers have introduced a bill to block it, and some experts say any Russian release would offer limited or no price relief given damaged Russian refining and a small initial volume against global demand near 29 million barrels per day. Dated Brent, meanwhile, traded near $117 Monday, though almost $16 below a week earlier, showing the physical premium is easing from extremes.",
+      "Mixed signals define the physical picture. Energy Secretary Chris Wright said Persian Gulf flows have recovered to about <strong>80% of pre-conflict levels</strong>, and Iraq has exported over 3.4 million bpd this month, near pre-war levels. Yet Kpler's seven-day average showed Gulf crude flows near 8.5 mb/d against more than 20 mb/d the week before, and UKMTO counted at least ten vessels attacked in or near Hormuz in a week, the most since the war began in February. Technical positioning adds fragility: Kpler says trend-following advisers are at maximum long in Brent and WTI and the 9-day RSI is overbought, leaving the market vulnerable to a sharp pullback on any de-escalation headline."
+    ],
+    "link_url": "https://www.rigzone.com/news/wire/oil_prices_hover_near_fivemonth_high-19-oct-2026-184878-article/",
+    "link_text": "Read Rigzone (Reuters)",
+    "stats": [
+      {
+        "num": "~$109.87",
+        "desc": "Brent Tuesday Level, +0.3% After $109.55 Monday Settle"
+      },
+      {
+        "num": "+1.42%",
+        "desc": "Low Sulphur Gasoil (ULS1!) to ~$1,469.63/mt, Rebounding From Waiver Selloff"
+      },
+      {
+        "num": "~80%",
+        "desc": "Gulf Flows vs. Pre-War, per US Energy Secretary Wright (Kpler 7-Day Average Far Lower)"
+      },
+      {
+        "num": "10+",
+        "desc": "Vessels Attacked Near Hormuz in One Week (UKMTO) — Highest Since the War Began"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Saudi / Houthis",
+      "headline": "Houthis Claim Strikes on Aramco's Yanbu, Shaybah Oilfield and Riyadh Airport",
+      "body": "Iran-aligned Houthi forces claimed attacks on an Aramco facility in Yanbu, the Shaybah oilfield, Riyadh's King Khalid International Airport and Abha airport, according to Reuters-sourced reports carried by Nation Thailand. Saudi authorities had not immediately confirmed the claims, and they could not be independently verified. CBS News reports Houthi attacks have killed about 20 people in recent weeks, including 13 in a strike on the Riyadh airport, and that the group has blockaded Bab el-Mandeb to Saudi-flagged tankers. Yanbu is a key Red Sea export hub that has become more important as Hormuz is constrained, so even claimed hits carry a risk premium for crude and diesel flows.",
+      "link_url": "https://www.nationthailand.com/news/world/40072496",
+      "link_text": "Read Nation Thailand (Reuters)"
+    },
+    {
+      "tag": "Hormuz Shipping",
+      "headline": "UKMTO: 10+ Vessels Attacked Near Hormuz in a Week; Supertanker Hits Mine",
+      "body": "The UK Maritime Trade Operations agency said at least ten vessels were attacked in or near the Strait of Hormuz over the past week, the highest weekly count since the war began in February, with 23 attacks since the start of October, nearly double the average. Iran's Revolutionary Guards said a supertanker carrying more than 2 million barrels hit a naval mine on October 17 and caught fire, while Iran's navy reported another tanker ablaze in the Gulf of Oman. For markets, insurance costs and voluntary transit reductions matter as much as physical blockage, and they explain why flow estimates diverge so widely between official and tracker data.",
+      "link_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "link_text": "Read CBS News"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Araghchi: Hormuz Would Reopen on Day Six of Seven-Day Plan if Washington Complies",
+      "body": "Iranian Foreign Minister Abbas Araghchi said Tehran's conditions still stand: under a seven-day plan shared via Qatar, the strait would reopen on the sixth day and negotiations would begin on the seventh if the US complies, including lifting its blockade of Iranian ports. Iran's army spokesman separately said the strait would reopen if US forces leave the region, and new defense minister Mehrdad Akhlaghi warned of enormous damage if Washington resumes its campaign. CBS also reported contingency plans for heavy bombs on Iranian sites, though Trump has said no attack before the midterms. The talks offer the main bearish tail for crude, but the conditions remain unresolved.",
+      "link_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "link_text": "Read CBS News"
+    },
+    {
+      "tag": "Russia / Diesel",
+      "headline": "Russia Waiver Meets Resistance: US Lawmakers Move to Block Diesel Deal as Experts Doubt Relief",
+      "body": "Trump's executive order waiving certain sanctions and tariffs on Russian energy is intended to lower fuel prices before the November 3 midterms, but implementation is uncertain. Reuters reported US lawmakers have introduced a bill to block the proposed diesel export arrangement, and some experts say any Russian release would offer limited to no relief. Ukraine and Russia also resumed attacks on each other's energy infrastructure, per Trading Economics. The administration is also letting sanctioned tankers ship crude legitimately. With gasoil rebounding 1.4% to about $1,470 per tonne, the market is signalling that the waiver cannot fix a distillate shortage on its own, particularly with US stocks near record-low seasonal levels.",
+      "link_url": "https://www.rigzone.com/news/wire/oil_prices_hover_near_fivemonth_high-19-oct-2026-184878-article/",
+      "link_text": "Read Rigzone (Reuters)"
+    },
+    {
+      "tag": "Inventories / OPEC+",
+      "headline": "EIA: US Crude Stocks Fell 8.6M Barrels, Distillates 2.5M; OPEC+ Holds Targets Until Nov 1",
+      "body": "For the week ending October 9, EIA data showed commercial crude inventories down about 8.6 million barrels to 415.6 million, gasoline up 3.5 million to roughly 208 million, and distillates down 2.5 million to about 102.6 million, some 12% below average. Refinery utilisation was 93.5%. The next weekly report is due Wednesday for the week ending October 16. OPEC+ core members left November targets unchanged at about 31.01 million bpd and meet again November 1; Gulf producers are pumping below quota because of export disruption. Thin distillate cover keeps diesel cracks wide and magnifies the effect of any transatlantic supply news.",
+      "link_url": "https://www.oilandgas360.com/?p=1051007",
+      "link_text": "Read OilandGas360 (EIA data)"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub Slips to About $3.02, a Two-Week-Plus Low, on Mild Weather and El Niño Outlook",
+      "body": "US natural gas fell roughly 1.2% to 1.4% to about $3.02 per MMBtu on Tuesday, according to Trading Economics, extending Monday's drop to $3.08 and reaching its lowest in more than two weeks. Forecasts for mild temperatures through late October are limiting heating and cooling demand, while El Niño-related expectations weigh on the winter outlook. Rising LNG export flows and lower output offer some support and the storage surplus keeps narrowing. Gas is up about 6.4% over the month but down about 13% year on year, and remains largely decoupled from the Middle East oil risk premium for now.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 20 — Today",
+      "name": "WTI November Expiry and Brent Digesting Houthi/Hormuz Headlines",
+      "impact": "The November WTI contract expires today after settling at $103.66, a thin-liquidity setup that can exaggerate moves. Brent near $109.9 sits just below the five-month high. Confirmed damage at Yanbu or Shaybah would push prices through $112 quickly, whereas Saudi denials and quiet Hormuz transits could trigger profit-taking from crowded long positioning.",
+      "market_impact": "Directional: ±$3–5/bbl on headline flow.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 21",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Oct 16)",
+      "impact": "After an 8.6M-barrel crude draw and a 2.5M-barrel distillate draw last week, another distillate decline from 102.6M barrels would deepen the record-low seasonal stock narrative and support gasoil and diesel cracks. A crude build would offer a modest bearish offset. Watch export rates, which have been elevated as Europe and Asia compete for diesel.",
+      "market_impact": "±$1–2/bbl on Brent; larger for gasoil.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Iran's Seven-Day Hormuz Plan and US Response",
+      "impact": "Araghchi says the strait reopens on day six if the US lifts its blockade of Iranian ports. A US acceptance would be the biggest bearish catalyst, potentially taking Brent toward $100. A rejection, or resumed military action after the midterms, would reinforce the premium. Washington has so far signalled no strike before November 3.",
+      "market_impact": "Dominant driver — binary, headline-driven.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 27 / Nov 3",
+      "name": "Israel Election and US Midterms",
+      "impact": "Israel votes October 27 and Trump has endorsed Netanyahu, who says the partnership will eliminate the Iranian threat. The US midterms on November 3 explain the administration's urgency on fuel prices, including the Russia waiver. Post-election shifts in US policy toward Iran are a latent upside risk that the market is beginning to price into the back end of the curve.",
+      "market_impact": "Event risk for late October; policy-driven volatility.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Core Group Meeting",
+      "impact": "The seven-member group has held targets flat for October and November with Gulf members already producing below quota. Another pause is the base case. Any comment on the delayed 2027 capacity review could influence longer-dated prices, but physical export access, not quotas, determines supply in the near term.",
+      "market_impact": "Limited near-term; sets tone for 2027 quotas.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called Brent mildly lower on the Russia waiver with upside tail risk. The tape split the difference: Brent settled at <strong>$109.55</strong>, only 31 cents lower after a $3 intraday dip, and is nudging back toward <strong>$109.87</strong> today. The waiver shaved the premium for an hour; Houthi strikes on Saudi energy infrastructure restored it. That is a market telling us policy headlines are secondary to physical risk.",
+      "<strong>My read on today:</strong> Diesel is leading again. Gasoil at roughly <em>$1,469.63 a tonne, up 1.42%</em>, has erased much of the waiver selloff, and with a bill in Congress to block the Russian arrangement and Russian refineries under fire, the relief looks smaller and slower than the headline suggested. US distillate stocks at 102.6 million barrels leave little room for error as winter nears.",
+      "<strong>The bigger picture:</strong> Official and tracker data conflict, with Secretary Wright citing Gulf flows near 80% of pre-war levels while Kpler's weekly average shows far less. Either way, attacks on ships are at war-time highs and Red Sea routes are now in play. Positioning is the counterweight: CTAs are maximum long and RSI is overbought, so a diplomatic breakthrough could produce a fast $5 to $8 drop. Natural gas at $3.02 stays a quiet sideshow.",
+      "My call: <strong>Brent trades $105–$114 today</strong>, with a slightly upward bias while Saudi and Hormuz risks dominate, but with violent downside if Washington engages Araghchi's seven-day plan. <strong>The premium is crowded and fragile, yet only reopened lanes can truly remove it.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 80
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Very Elevated",
+        "tone": "bearish",
+        "pct": 90
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Positioning Crowding",
+        "label": "Max Long — Pullback Risk",
+        "tone": "bullish",
+        "pct": 70
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Severe",
+        "tone": "bearish",
+        "pct": 84
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 25
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$105 – $114",
+      "bias": "Bias: Slightly Higher — Sharp Downside if Hormuz Talks Advance ▲"
+    },
+    "watch_levels": {
+      "resistance": "$110–$114",
+      "support": "$105–$107",
+      "breakout": ">$115 (confirmed damage to Saudi export hubs, new Hormuz escalation)",
+      "breakdown": "<$100 (US accepts Iran's reopening plan, verified flow recovery)"
+    }
+  }
+}
