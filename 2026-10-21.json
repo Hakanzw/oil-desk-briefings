@@ -1,0 +1,217 @@
+{
+  "date_long": "Wednesday, October 21, 2026",
+  "date_slug": "oct21-2026",
+  "volume": "Vol. I — No. 83",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Oilprice.com, Investing.com, Trading Economics, LiveOilPrices, The National, Reuters (via Oilprice.com), Kpler, EIA, OPEC",
+  "ticker": [
+    "BRENT CRUDE ~$110.32 ▲ +0.70% (LIVEOILPRICES, OCT 21)",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,478.63/mt ▲ +2.01% (INVESTING.COM, OCT 21)",
+    "NATURAL GAS ~$2.95 ▼ −0.45% (TRADING ECONOMICS; FOUR-WEEK LOW)",
+    "BRENT HOLDS FIVE-MONTH HIGH NEAR $110 AS HOUTHI STRIKES ON SAUDI SITES CONTINUE",
+    "KPLER: PERSIAN GULF FLOWS FALL TO ~8.5M BPD FROM 20M+ TWO WEEKS AGO; 18 TANKER ATTACKS",
+    "WRIGHT: US TO LET SANCTIONED 'DARK FLEET' TANKERS SHIP CRUDE; KPLER SEES LITTLE RELIEF",
+    "FED MEETS NEXT WEEK — ANALYSTS EXPECT SECOND STRAIGHT HIKE ON ENERGY-DRIVEN INFLATION",
+    "OPEC+ HOLDS NOVEMBER TARGETS; NEXT MEETING NOV 1"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "~$110.32",
+      "change": "▲ +0.70% (Oct 19 settle $109.55; five-month high zone)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,478.63/mt",
+      "change": "▲ +2.01% (Investing.com; prior close $1,449.50)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$98.6–$100.8",
+      "change": "▲ Sources differ by session; Oct 19 settle $103.66 on expiring Nov contract",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$2.95",
+      "change": "▼ −0.45% (mild weather; four-week low)",
+      "direction": "down"
+    },
+    {
+      "label": "US Crude Stocks (EIA, wk to Oct 9)",
+      "value": "415.6M bbl",
+      "change": "▼ −8.6M wk/wk; ~3% below 5-yr avg",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Premium Persists — Brent Holds Near $110 as Gulf Flows Falter and Houthis Hit Saudi Arabia",
+    "headline": "Brent Hovers Near $110 at a Five-Month High as Hormuz Tanker Attacks and Houthi Strikes on Saudi Arabia Keep the Risk Premium Alive — Gasoil Jumps 2%",
+    "paragraphs": [
+      "Crude opened Wednesday near the highest levels since mid-May. LiveOilPrices showed Brent at <strong>$110.32, up about 0.7%</strong> on a day range of $108.87 to $110.43, after Monday's settlement at $109.55 and a Tuesday print as high as $111.30 reported by The National. Brent first touched $110 on Friday for the first time since May. The rally is being driven less by policy than by physical danger: Kpler, cited by Reuters, counts at least 18 tanker attacks in two weeks, and the seven-day average of oil flowing out of the Persian Gulf has dropped to roughly <strong>8.5 million barrels a day from more than 20 million</strong> only two weeks earlier, erasing the recovery that had taken exports back toward pre-war levels.",
+      "Diesel is again the sharper signal. Investing.com's London gasoil page showed the November contract at <strong>1,478.63 per tonne, up 2.01%</strong> from a previous close of 1,449.50; the page carried no explicit date stamp, so treat it as an indicative early-session quote rather than a settlement. Wholesale diesel has crossed $200 a unit in Singapore and about $220 in Europe, and the International Energy Agency agreed last week to release more than 20 million barrels. Energy Secretary Chris Wright said Monday that Washington will let sanctioned dark-fleet tankers ship crude legitimately, but Kpler estimates only 24 of nearly 160 OFAC-listed vessels could return to mainstream trade and says easing would barely dent record freight rates.",
+      "The macro overlay is turning hostile. Higher energy costs are feeding inflation, and analysts expect the Federal Reserve to deliver a second consecutive rate hike at next week's meeting; Duncan Oil analysts said Brent near five-month highs has <em>\"reignited fears of sticky inflation.\"</em> ING's Warren Patterson and Ewa Manthey noted the market is pricing a <strong>\"significant risk premium\"</strong> and that there are \"no signs\" yet of it fading. The setup is two-sided: supply risk is real and rising, but a Fed shock or a de-escalation headline could unwind crowded length quickly."
+    ],
+    "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
+    "link_text": "Read Oilprice.com",
+    "stats": [
+      {
+        "num": "~8.5M bpd",
+        "desc": "Kpler's Seven-Day Average of Persian Gulf Oil Flows, Down From 20M+ Two Weeks Ago"
+      },
+      {
+        "num": "18",
+        "desc": "Tanker Attacks in the Last Two Weeks, per Reuters Citing Kpler"
+      },
+      {
+        "num": "+2.01%",
+        "desc": "Low Sulphur Gasoil Move to ~1,478.63/mt as Diesel Tightness Persists"
+      },
+      {
+        "num": "24 of ~160",
+        "desc": "Sanctioned Vessels Kpler Says Could Return to Mainstream Trade"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Hormuz Shipping",
+      "headline": "Gulf Flows Collapse to 8.5M bpd as Iranian Strikes Hit Tankers Again",
+      "body": "Oilprice.com, citing Reuters and shipping-data firm Kpler, reported that Iranian strikes on tankers have again sharply reduced flows through the Strait of Hormuz. Kpler counts at least 18 tanker attacks in the last two weeks, and the daily average of oil leaving the Persian Gulf fell to about 8.5 million barrels, against more than 20 million barrels per day just two weeks earlier. Kpler had said earlier this month that exports had recovered to pre-war levels, so the reversal is abrupt. For crude it removes the most important bearish argument of the past month, namely normalising Gulf supply. For diesel it is worse, because refined-product exports from the Gulf were already lagging crude recovery.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Saudi / Houthis",
+      "headline": "Houthis Claim Six Attacks on Saudi Arabia, Including Riyadh's King Khalid Airport",
+      "body": "The National reported that on Monday the Houthis claimed six attacks on Saudi Arabia, among them strikes on King Khalid International Airport in Riyadh, a military airbase near Abha International Airport, a naval task-force camp and a radar at Bir Askar. The attacks pushed Gulf equity markets lower. Brent rose 1.46% to $111.20 and WTI climbed 2.3% to $100.80 in Tuesday trading, levels last seen in mid-May. Earlier Houthi claims have named Aramco's Yanbu facility and the Shaybah oilfield, though damage has not been independently confirmed in the sources reviewed. Yanbu matters because it is the Red Sea outlet for Saudi crude that bypasses Hormuz, so any damage would remove the main workaround.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/10/20/oil-prices-hit-five-month-high-as-more-houthi-attacks-prompt-supply-and-inflation-fears/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "Sanctions / Dark Fleet",
+      "headline": "Wright Says Sanctioned 'Dark Fleet' Tankers Can Ship Crude — Kpler Sees Little Relief",
+      "body": "US Energy Secretary Chris Wright said on Monday that Washington will allow sanctioned dark-fleet tankers to begin legitimately shipping crude, an effort to ease tight supply. Analytics firm Kpler responded that only 24 of the nearly 160 vessels sanctioned by the Treasury's Office of Foreign Assets Control could realistically return to mainstream trade, and that easing sanctions would have little effect on record freight rates. The gap between the policy headline and the practical effect explains why prices have repeatedly dipped on such announcements and then recovered. With attacks on ships rising, the binding constraint is security and insurance, not sanctions paperwork, so the barrels freed by the move look small relative to the Gulf shortfall.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/10/20/oil-prices-hit-five-month-high-as-more-houthi-attacks-prompt-supply-and-inflation-fears/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "Diesel / Russia",
+      "headline": "Russian Diesel Pledge: 300,000 Tonnes Promised, but Skepticism Lingers",
+      "body": "Oilprice.com reported earlier this month that President Trump said Russia would immediately supply more than 300,000 metric tons of diesel, about 2.25 million barrels, with more to follow, while Moscow partially lifted diesel export restrictions to allow another 500,000 tons, roughly 3.7 million barrels, onto world markets. Trump also said Russia and Ukraine agreed to stop attacking each other's energy infrastructure, but Zelensky accused Russia of violating the deal. Against global diesel demand near 29 million barrels per day, these volumes are small. Wholesale diesel above $200 in Singapore and near $220 in Europe shows the market is not yet convinced, which is why gasoil, at about 1,478 per tonne, remains close to its highs.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Inventories / OPEC+",
+      "headline": "EIA: US Crude Draws 8.6M Barrels to 415.6M; OPEC+ Holds November Targets",
+      "body": "The latest EIA data available at press time, for the week ended October 9, showed commercial crude inventories falling 8.6 million barrels to 415.6 million, about 3% below the five-year average, while total motor gasoline stocks rose 3.5 million barrels; the American Petroleum Institute had estimated a larger 11.12 million-barrel draw. The following week's EIA report is due today. Separately, OPEC+ kept November production targets unchanged, with the seven core members producing about 25 million bpd in August, roughly 5 million bpd below February levels, and the group meets again on November 1. For crude, the quotas matter less than the fact that war-limited exports leave real output below targets.",
+      "link_url": "https://egyptoil-gas.com/news/opec-keeps-november-oil-output-targets-unchanged-as-war-limits-supply/",
+      "link_text": "Read Egypt Oil & Gas"
+    },
+    {
+      "tag": "Natural Gas",
+      "headline": "Henry Hub Slips to a Four-Week Low Near $2.95 on Mild Weather",
+      "body": "Trading Economics put Henry Hub natural gas at $2.95 per MMBtu, down 0.45% on the day and at its lowest since September, with prices down 14.5% year on year. Mild weather is limiting heating and cooling demand and expectations of a strong El Niño weigh on the winter outlook. LNG feedgas to the nine major US export terminals rose to 18.2 bcfd in October from 17.9 bcfd in September, while Lower 48 output averaged 111.4 bcfd, below the record 113.3 bcfd of August and September. Storage is 1.3% above the five-year average. US gas is decoupled from the Gulf crisis, but it limits the cost pass-through to US power and industrial users.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 21 — Today",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Oct 16)",
+      "impact": "After an 8.6M-barrel crude draw in the prior week, the market looks for confirmation of tight US balances as exports compete with European and Asian diesel demand. A further distillate draw from 102.6M barrels would reinforce gasoil strength, while a surprise crude build offers a modest bearish offset. Refinery runs and export rates are the key details.",
+      "market_impact": "±$1–2/bbl on Brent; larger for gasoil.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Tanker Attacks and Gulf Flow Data",
+      "impact": "Kpler's flow data are now the most price-sensitive series. If the seven-day average stays near 8.5M bpd, the premium widens and Brent probes $115. A rebound toward 15M bpd with no new attacks would test crowded long positioning and could knock $5 or more off the price.",
+      "market_impact": "Directional: ±$4–6/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Houthi Strikes on Saudi Infrastructure (Yanbu, Shaybah, Riyadh)",
+      "impact": "Independent confirmation of damage to Yanbu or Shaybah would be a regime change, since Yanbu is the Red Sea bypass for Hormuz. Saudi denials or interceptions would cap the move. Red Sea and Bab al-Mandeb chokepoint threats add a second route risk.",
+      "market_impact": "Upside tail of $5–8/bbl on confirmed damage.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Next week",
+      "name": "Federal Reserve Meeting",
+      "impact": "Analysts expect a second consecutive rate hike as energy costs lift inflation. A hawkish surprise would strengthen the dollar and weigh on risk assets, while a pause would be read as growth-friendly. Oil demand destruction at $110 is the channel linking policy to crude.",
+      "market_impact": "±$2–3/bbl around the decision.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Meeting",
+      "impact": "The group held November targets, but actual output sits roughly 5M bpd below February levels because exports are constrained. The meeting is unlikely to change physical supply, but any signal on 2027 quotas, following the capacity review expected by mid-November, will shape forward-curve sentiment.",
+      "market_impact": "Limited near-term; sentiment-driven.",
+      "risk": "Low"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I called Brent $105–$114 with a slightly upward bias, and the tape complied: Brent has held a $109–$111 band and is quoted at roughly <strong>$110.32</strong> this morning, against a Monday settlement of $109.55. The Russian-diesel and dark-fleet headlines produced brief dips, but each was bought. That repeating pattern tells us policy announcements are being treated as small relative to the physical problem in the Gulf.",
+      "<strong>My read on today:</strong> Diesel remains the leader. Gasoil at roughly <em>$1,478.63 a tonne, up about 2%</em>, is back near the top of its recent range, and the Russian and sanctions relief measures amount to a few million barrels against 29 million barrels a day of demand. With wholesale diesel above $200 in Singapore and near $220 in Europe, I expect cracks to stay wide into winter unless Gulf product exports recover from their roughly 60% of pre-war level.",
+      "<strong>The bigger picture:</strong> The data conflict is notable. Official commentary points to substantial Gulf recovery in September, but Kpler's latest seven-day average of about 8.5M bpd says that recovery has reversed in October. Add Houthi claims against Saudi sites and a Fed expected to hike again, and the risk is two-sided. Positioning is stretched, so a diplomatic opening could produce a fast $5 to $8 drop. Natural gas at $2.95 is a quiet sideshow.",
+      "My call: <strong>Brent trades $106–$115 today</strong>, with a modest upward bias while tanker attacks and Saudi risks dominate, and sharp downside on any verified reopening of lanes. <strong>The premium is large and fragile, but only safe passage can truly remove it.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 82
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Very Elevated",
+        "tone": "bearish",
+        "pct": 90
+      },
+      {
+        "name": "Demand Response",
+        "label": "Rationing",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Macro / Fed Pressure",
+        "label": "Rate-Hike Risk — Price Negative",
+        "tone": "bullish",
+        "pct": 60
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Severe",
+        "tone": "bearish",
+        "pct": 86
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 25
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$106 – $115",
+      "bias": "Bias: Slightly Higher — Sharp Downside if Gulf Flows Recover ▲"
+    },
+    "watch_levels": {
+      "resistance": "$111–$115",
+      "support": "$105–$107",
+      "breakout": ">$115 (confirmed damage to Yanbu/Shaybah, further Hormuz escalation)",
+      "breakdown": "<$102 (verified Gulf flow recovery, de-escalation)"
+    }
+  }
+}
