@@ -1,0 +1,217 @@
+{
+ "date_long": "Friday, October 23, 2026",
+ "date_slug": "oct23-2026",
+ "volume": "Vol. I — No. 85",
+ "dateline": "Harare, Zimbabwe",
+ "sources": "Trading Economics, Investing.com, The National, Oilprice.com, Reuters (via MarineLink), Gulf News, Kpler, EIA, OPEC",
+ "ticker": [
+  "BRENT CRUDE ~$113.91 ▲ +0.65% (TRADING ECONOMICS, OCT 23)",
+  "LOW SULPHUR GASOIL (ULS1!) ~$1,486.63/mt ▲ +2.90% (INVESTING.COM)",
+  "NATURAL GAS ~$2.72 ▼ −2.56% (TRADING ECONOMICS; TWO-MONTH LOW)",
+  "BRENT AT HIGHEST LEVEL IN OVER FIVE MONTHS AS HOUTHI STRIKES ON SAUDI ARABIA WIDEN",
+  "ARAMCO TELLS STAFF TO EVACUATE DHAHRAN HQ; US ORDERS NON-EMERGENCY STAFF OUT OF KINGDOM",
+  "IRGC NAVY CLAIMS SEVEN VESSELS HIT IN PERSIAN GULF — FOUR TANKERS STRUCK, THREE HIT MINES",
+  "EIA (WK TO OCT 16): US CRUDE −3.1M BBL TO 412.5M; DISTILLATES +1.7M, ~9% BELOW 5-YR AVG",
+  "OPEC+ CORE GROUP MEETS NOV 1; TARGETS HELD FLAT FOR NOVEMBER"
+ ],
+ "prices": [
+  {
+   "label": "Brent Crude",
+   "value": "~$113.91",
+   "change": "▲ +0.65% (Trading Economics; highest in 5+ months)",
+   "direction": "up"
+  },
+  {
+   "label": "Low Sulphur Gasoil (ULS1!)",
+   "value": "~$1,486.63/mt",
+   "change": "▲ +2.90% (Investing.com; prior close $1,444.75)",
+   "direction": "up"
+  },
+  {
+   "label": "WTI Crude",
+   "value": "~$99",
+   "change": "▲ Near $99 after +2.4% Thursday close (Bloomberg)",
+   "direction": "up"
+  },
+  {
+   "label": "Natural Gas (Henry Hub)",
+   "value": "~$2.72",
+   "change": "▼ −2.56% (mild weather; two-month low)",
+   "direction": "down"
+  },
+  {
+   "label": "US Crude Stocks (EIA, wk to Oct 16)",
+   "value": "412.5M bbl",
+   "change": "▼ −3.1M wk/wk; distillates +1.7M",
+   "direction": "down"
+  }
+ ],
+ "lead": {
+  "eyebrow": "⚡ Escalation — Brent Reaches a Five-Month High as Houthi Strikes Spread Across Saudi Arabia",
+  "headline": "Brent Pushes Toward $114 as Houthi Attacks Hit Saudi Targets and Aramco Evacuates Dhahran Headquarters — Gasoil Jumps 2.9%",
+  "paragraphs": [
+   "Crude extended its climb on Friday, with Trading Economics showing Brent near <strong>$113.91, up about 0.65%</strong>, its highest level in more than five months. Thursday's session did the heavy lifting: Reuters reported Brent was up $2.42 to $111.24 by mid-morning New York time and set for its highest close since May 18, and Bloomberg noted the contract settled above $113 with WTI near $99 after a 2.4% gain. The driver is an expanding Houthi campaign against Saudi Arabia. Saudi authorities said two people died when debris from an intercepted drone fell near a processing plant at Aramco's Shaybah field, and an attack on Dammam's King Fahd airport killed one and injured eight. Reuters added that Aramco told staff to evacuate its Dhahran headquarters.",
+   "Diesel is moving faster than crude. Investing.com's London gasoil page showed the November contract at <strong>1,486.63 a tonne, up 2.90%</strong> from 1,444.75, though the page's own text cites a 2.4% gain and warns data may not be real-time, so treat it as indicative. Meanwhile the Iranian Revolutionary Guard Navy claimed seven vessels were hit in the Persian Gulf, four tankers struck during oil transfers and three that hit mines west of Hormuz, and warned of a wider response against US bases. Morgan Stanley estimates Middle East crude exports near 17 million barrels a day, against roughly 18 million before the war, so the physical gap is narrower than the headlines imply.",
+   "PVM's Tamas Varga argued that export gains are <em>\"more than countered by attacks on ships in the Strait of Hormuz\"</em> and Houthi strikes on Saudi infrastructure, adding that no de-escalation is expected before the US midterm elections. Trading Economics also cited reports of possible renewed US and Israeli strikes on Iran after the midterms, which we could not independently confirm. The asymmetry is clear: damage to the 7 million bpd East-West pipeline or Yanbu would add several dollars quickly, while a credible diplomatic channel could remove $5 or more just as fast."
+  ],
+  "link_url": "https://www.marinelink.com/news/houthi-attacks-drive-oil-prices-fivemonth-543850",
+  "link_text": "Read Reuters (MarineLink)",
+  "stats": [
+   {
+    "num": "~$113.91",
+    "desc": "Brent on Friday per Trading Economics — Highest in Over Five Months"
+   },
+   {
+    "num": "+2.90%",
+    "desc": "Low Sulphur Gasoil to ~1,486.63/mt (Investing.com, Indicative Quote)"
+   },
+   {
+    "num": "7 ships",
+    "desc": "Vessels the IRGC Navy Says Were Hit or Struck Mines in the Persian Gulf"
+   },
+   {
+    "num": "~17M bpd",
+    "desc": "Morgan Stanley's Middle East Crude Export Estimate vs. ~18M Pre-War (Kpler)"
+   }
+  ]
+ },
+ "news": [
+  {
+   "tag": "Saudi / Houthis",
+   "headline": "Shaybah Drone Debris Kills Two as Dammam Airport Attack Adds Casualties",
+   "body": "The National reported that a Houthi drone was intercepted near Aramco's Shaybah field, which produces about 1 million barrels a day, with debris killing two people near a processing plant. The Saudi Energy Ministry said operations were unaffected. Hours later an attack on King Fahd International Airport in Dammam killed one and injured eight, according to the civil aviation authority. An earlier strike on Riyadh's main airport this month was the deadliest in the kingdom in over a decade, and the East-West pipeline, capacity about 7 million bpd, was reportedly halted on October 5 after a pumping station was hit. For crude, the issue is the Red Sea bypass around Hormuz; for diesel, it is Saudi refined-product exports.",
+   "link_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",
+   "link_text": "Read The National"
+  },
+  {
+   "tag": "Hormuz / Iran",
+   "headline": "IRGC Navy Says Seven Vessels Hit in Persian Gulf and Threatens US Bases",
+   "body": "Oilprice.com, citing Reuters, reported that the IRGC Navy said four tankers conducting oil transfers in the northern Gulf were hit by Iranian forces, and three more vessels struck mines west of the Strait of Hormuz. The IRGC warned that further US provocations could bring a wider response against American bases. The report noted Saudi Arabia has largely restored exports via both Hormuz and the Red Sea, and that the Houthis say they are answering a Saudi-led coalition offensive aimed at the Red Sea coast and Bab el-Mandeb. Shipping insurance and tanker availability, not just barrels, now drive the risk premium, and that tends to feed diesel faster than crude.",
+   "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
+   "link_text": "Read Oilprice.com"
+  },
+  {
+   "tag": "Market Reaction",
+   "headline": "Brent Overbought for a Third Time in a Week; PVM Sees No Relief Before Midterms",
+   "body": "Reuters reported Brent entered technically overbought territory for the third time in a week and was heading for its highest close since May 18. PVM Oil analyst Tamas Varga said Middle East export gains are more than offset by ship attacks and Houthi strikes, and that no de-escalation is anticipated until the US midterm elections. Morgan Stanley put Middle East crude exports near 17 million bpd last week, versus about 18 million bpd in the 12 months before the Iran war per Kpler. Valero separately posted its highest-ever quarterly profit as disruptions lifted refining margins, a signal that product tightness, not crude, is where the squeeze is most visible.",
+   "link_url": "https://www.marinelink.com/news/houthi-attacks-drive-oil-prices-fivemonth-543850",
+   "link_text": "Read Reuters (MarineLink)"
+  },
+  {
+   "tag": "Aramco / Yanbu",
+   "headline": "Houthis Claim Strikes on Yanbu, Riyadh Defence Ministry; Saudi Cannot Confirm",
+   "body": "Houthi spokesman Yahya Saree claimed strikes on Aramco facilities in Yanbu, the Saudi defence ministry in Riyadh and Dammam airport. Saudi authorities had not immediately confirmed damage to Yanbu or the ministry, and there was no independent verification. Yanbu is the Red Sea terminal at the end of the East-West pipeline and the kingdom's main route around Hormuz, so even a modest confirmed hit would matter. Saudi Arabia has responded with strikes on missile launch sites. Trading Economics cited the Yanbu claims as a driver of Friday's push toward $114. Unverified claims move prices now, and confirmation or denial is the next catalyst.",
+   "link_url": "https://www.democrata.es/en/international/the-houthis-claim-to-have-struck-defense-the-yanbu-refinery-and-several-saudi-airports/",
+   "link_text": "Read Democrata"
+  },
+  {
+   "tag": "OPEC+",
+   "headline": "OPEC+ Core Group Holds November Targets Flat; Next Meeting Nov 1",
+   "body": "Gulf News reported that seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, agreed on October 4 to keep November production targets unchanged, with changes unlikely before 2027 because a capacity review is needed to allocate increases. Sources said Gulf exports have fluctuated at roughly 60% to 80% of normal in recent months, so actual output sits well below quotas. The group meets again on November 1 to consider December plans. The practical effect is minimal for barrels, since war-constrained supply, not quotas, is the binding limit, but it leaves no spare-capacity cushion if Saudi infrastructure is damaged.",
+   "link_url": "https://gulfnews.com/business/energy/opec-keeps-november-oil-output-targets-unchanged-as-supply-remains-disrupted-1.500697967",
+   "link_text": "Read Gulf News"
+  },
+  {
+   "tag": "Natural Gas / Supply",
+   "headline": "Henry Hub Slips to Two-Month Low Near $2.72 on Mild Weather; Libya Valve Trims Output",
+   "body": "Trading Economics showed US natural gas near $2.72 per MMBtu, down 2.56%, the lowest in two months, as milder forecasts cut heating-demand expectations, offsetting smaller-than-usual storage builds and strong LNG feedgas demand. Separately, Reuters reported a pipeline valve carrying crude from Libya's Hamada and Tahara fields to Zawiya port was shut, trimming output, per the National Oil Corporation chief. Russia also said it is ready to resume US-mediated peace talks next month, which would matter for sanctioned barrels. Gas remains a sideshow to crude, but weak US gas keeps associated-gas drilling economics unaffected while European gas stays sensitive to the EU's Russian LNG debate.",
+   "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+   "link_text": "Read Trading Economics"
+  }
+ ],
+ "events": [
+  {
+   "date": "Oct 23 — Today",
+   "name": "Verification of Houthi Claims on Yanbu and Aramco Sites",
+   "impact": "Saudi confirmation or denial of damage at Yanbu or the East-West pipeline is the day's key swing. Confirmed damage to Red Sea export capacity would remove the Hormuz bypass and push Brent toward $118 or higher, while credible denials, along with Saudi interceptions, would let an overbought market consolidate. Aramco's Dhahran evacuation shows the risk is being treated as real.",
+   "market_impact": "Upside tail of $5–8/bbl on confirmed damage.",
+   "risk": "Very High"
+  },
+  {
+   "date": "Ongoing",
+   "name": "Persian Gulf Ship Attacks and Mine Risk",
+   "impact": "The IRGC claimed seven vessels were hit or struck mines and warned of retaliation against US bases. Further tanker strikes lift war-risk insurance and cut transits, supporting diesel more than crude. A quiet week with rising flows, in line with Morgan Stanley's 17 million bpd, would test crowded long positions after three overbought readings.",
+   "market_impact": "Directional: ±$4–6/bbl.",
+   "risk": "Very High"
+  },
+  {
+   "date": "Ongoing",
+   "name": "US Response: Houthi Strikes and Saudi Defence Support",
+   "impact": "Washington ordered non-emergency staff out of Saudi Arabia and Britain is sending Typhoon jets, with Trump reportedly weighing direct strikes on the Houthis. Military action raises near-term risk but might eventually reduce attacks on export infrastructure. A diplomatic channel via Qatar or Pakistan, if confirmed, is the main bearish catalyst.",
+   "market_impact": "Headline-driven; −$3–6/bbl on credible de-escalation.",
+   "risk": "High"
+  },
+  {
+   "date": "Oct 28",
+   "name": "EIA Weekly Petroleum Status Report",
+   "impact": "The next print follows last week's 3.1 million barrel crude draw to 412.5 million and 1.7 million barrel distillate build, which left distillates about 9% below the five-year average. With diesel cracks wide and refiners such as Valero posting record profits, another distillate draw would reinforce the gasoil rally.",
+   "market_impact": "±$1–2/bbl; larger for diesel.",
+   "risk": "Medium"
+  },
+  {
+   "date": "Nov 1",
+   "name": "OPEC+ Core Group Meeting",
+   "impact": "The seven core members meet to consider December plans after holding November targets. Quotas are not binding while Gulf exports run at 60–80% of normal, so a change would be symbolic, but signals on 2027 capacity allocation influence the forward curve. A surprise increase would be read as a confidence signal on Saudi security.",
+   "market_impact": "Limited near-term; sentiment-driven.",
+   "risk": "Low"
+  }
+ ],
+ "verdict": {
+  "paragraphs": [
+   "Yesterday I called Brent $107–$116 with an upward bias, and the market delivered: Thursday settled above <strong>$113</strong> and Friday quotes sit near <strong>$113.91</strong>, a five-month high. The range held, but we are in its upper third, and the character of the news is worse, because Houthi claims now reach Yanbu, the very terminal that lets Saudi crude bypass Hormuz.",
+   "<strong>My read on today:</strong> Diesel is again the sharper instrument. Gasoil at roughly <em>$1,486.63 a tonne, up about 2.9%</em> on Investing.com's quote, is outrunning crude, and US distillates, even after a 1.7 million barrel build, remain about 9% under the five-year average. Valero's record quarter tells you where the scarcity is. I expect cracks to stay wide while Gulf product flows and tanker insurance are impaired.",
+   "<strong>The bigger picture:</strong> Morgan Stanley's 17 million bpd export estimate suggests barrels are mostly flowing, which is why this rally is a risk-premium story, and three overbought readings in a week say positioning is stretched. PVM does not expect de-escalation before the midterms. That makes dips shallow until a verified diplomatic channel appears, but any such channel, or Saudi denial of Yanbu damage, could unwind $5 or more quickly. Natural gas at $2.72 is a quiet sideshow.",
+   "My call: <strong>Brent trades $108–$118 today</strong>, with an upward bias while Saudi infrastructure risk dominates and high odds of volatile two-way trade into the weekend. <strong>The premium is large and fragile; only confirmed safety for Saudi export routes and Gulf shipping can truly remove it.</strong>"
+  ],
+  "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+  "meters": [
+   {
+    "name": "Supply Tightness",
+    "label": "Tight",
+    "tone": "bearish",
+    "pct": 84
+   },
+   {
+    "name": "Geopolitical Risk",
+    "label": "Very Elevated",
+    "tone": "bearish",
+    "pct": 94
+   },
+   {
+    "name": "Demand Response",
+    "label": "Rationing",
+    "tone": "neutral",
+    "pct": 50
+   },
+   {
+    "name": "Macro / Fed Pressure",
+    "label": "Rate-Hike Risk — Price Negative",
+    "tone": "bullish",
+    "pct": 58
+   },
+   {
+    "name": "Diesel Tightness",
+    "label": "Severe",
+    "tone": "bearish",
+    "pct": 88
+   },
+   {
+    "name": "Spare-Capacity Buffer",
+    "label": "Thin",
+    "tone": "bearish",
+    "pct": 25
+   }
+  ],
+  "call": {
+   "label": "Today's Price Call — Brent Crude",
+   "value": "$108 – $118",
+   "bias": "Bias: Higher — Sharp Downside if Saudi Routes Confirmed Safe ▲"
+  },
+  "watch_levels": {
+   "resistance": "$114–$118",
+   "support": "$108–$110",
+   "breakout": ">$118 (confirmed Yanbu/pipeline damage, Hormuz escalation)",
+   "breakdown": "<$105 (verified diplomatic channel, Saudi denials)"
+  }
+ }
+}
