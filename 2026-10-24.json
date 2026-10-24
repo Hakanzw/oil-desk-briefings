@@ -1,0 +1,217 @@
+{
+  "date_long": "Saturday, October 24, 2026",
+  "date_slug": "oct24-2026",
+  "volume": "Vol. I — No. 86",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "CNBC, Bloomberg (via Rigzone), Geo News/Reuters, Oilprice.com, Oil & Gas Journal, The National, CMB News, EIA, OPEC",
+  "ticker": [
+    "BRENT CRUDE $116.72 ▲ +3.1% (SETTLE, CNBC/BLOOMBERG, OCT 23)",
+    "LOW SULPHUR GASOIL (ULS1!) ~$1,477.50/mt ▲ +3.11% (CMB NEWS, INDICATIVE)",
+    "NATURAL GAS ~$2.66 ▼ −4.9% (TWO-MONTH LOW; NGI/OILPRICE)",
+    "BRENT SETTLES AT HIGHEST SINCE APRIL 29 — UP 6.2% ON THE WEEK, THIRD STRAIGHT WEEKLY GAIN",
+    "WTI TOPS $100: SETTLES $103.27, +3.8%; BRENT–WTI SPREAD WIDENS TO ~$14",
+    "HOUTHIS CLAIM STRIKES ON YANBU; ARAMCO EVACUATES DHAHRAN HQ; NYT: US/ISRAEL PLAN POST-MIDTERM STRIKES ON IRAN",
+    "US SPR AT 283M BBL, LOWEST SINCE 1982; US CRUDE OUTPUT FALLS TO 13.3M BPD (EIA)",
+    "OPEC+ MEETS NOV 1 — NOVEMBER TARGETS HELD FLAT; US MIDTERMS NOV 3"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "$116.72",
+      "change": "▲ +3.1% (Dec settle; highest since Apr 29; +6.2% wk)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "~$1,477.50/mt",
+      "change": "▲ +3.11% (+$46.00; CMB News, indicative quote)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$103.27",
+      "change": "▲ +3.8% (settle; +2.3% on the week)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$2.66",
+      "change": "▼ −13.6¢ ≈ −4.9% (two-month low, mild weather)",
+      "direction": "down"
+    },
+    {
+      "label": "US Strategic Petroleum Reserve (EIA)",
+      "value": "283M bbl",
+      "change": "Lowest since 1982; crude output 13.3M bpd",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekly Close — Brent Settles at a Six-Month High as the Houthi Campaign Against Saudi Arabia Widens",
+    "headline": "Brent Settles at $116.72, Highest Since April, as Houthi Strikes Hit Saudi Targets and Traders Price a Post-Midterm Return to War With Iran",
+    "paragraphs": [
+      "Crude closed the week at its highs. Brent for December delivery settled at <strong>$116.72 a barrel, up $3.55 or 3.1%</strong>, the highest close since April 29 and a gain of roughly 6.2% on the week, the third straight weekly advance. West Texas Intermediate rose 3.8% to <strong>$103.27</strong>, finishing above $100 and stretching the Brent–WTI spread to about $14. CNBC reported that Brent is now up more than 85% this year, with the US–Iran war approaching its ninth month. The proximate driver was a widening Houthi campaign against the kingdom: the group claimed attacks on the Red Sea port of Yanbu plus deadly strikes on an oil field and an airport, and Bloomberg reported that Aramco evacuated its Dhahran headquarters after an alarm and sent staff to work from home.",
+      "The geopolitical overlay is turning more explicit. The New York Times reported that the US and Israel have drawn up plans for renewed strikes on Iran after the American midterm elections on November 3, and Iran's army chief told Tasnim the military is ready for <em>\"asymmetric warfare.\"</em> President Trump said the US has \"knocked\" Iran out but could go \"a little bit further,\" while UN Ambassador Mike Waltz said the naval blockade of Iranian ports can continue for the \"foreseeable future.\" CIBC Private Wealth's Rebecca Babin noted that weekend-escalation fears are adding to prices and that traders were reluctant to hold shorts into the close. Options dealers hedging gamma were reported to be amplifying the move.",
+      "Refined products are the sharper edge of the story. Bloomberg notes that products, especially diesel, have risen even faster than crude this year, and ICE low sulphur gasoil (ULS1!) was quoted near <strong>$1,477.50 a tonne, up about 3.1%</strong> — an indicative figure from CMB News, as we could not retrieve the official ICE settlement. TD Securities' Ryan McKay argues that freight rates are becoming a key driver and that high landed prices could squeeze refiner margins and cap crude gains, leaving products tighter still. Crude flows through Hormuz have recovered to near pre-war levels, but product shipments from the Gulf remain constrained, which is why the diesel complex keeps outrunning the crude tape."
+    ],
+    "link_url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      {
+        "num": "$116.72",
+        "desc": "Brent Settlement — Highest Close Since April 29; +6.2% on the Week"
+      },
+      {
+        "num": "$103.27",
+        "desc": "WTI Settlement, +3.8% — Back Above $100, Brent–WTI Spread ~$14"
+      },
+      {
+        "num": "+85%",
+        "desc": "Brent's Year-to-Date Gain as the US–Iran War Nears Its Ninth Month"
+      },
+      {
+        "num": "~$1,477/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), +3.1% — Indicative Quote, Not an ICE Settlement"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Saudi / Houthis",
+      "headline": "Houthis Claim Yanbu Strike as Aramco Evacuates Dhahran Headquarters",
+      "body": "Iran-backed Houthi militants claimed attacks on Saudi Arabia's Red Sea port of Yanbu, in addition to strikes on an oil field and an airport. A drone attack on the Shaybah field earlier in the week left two people dead and two injured, according to Saudi state media. Bloomberg reported that Aramco evacuated its Dhahran headquarters after an alarm and asked staff to work from home. Yanbu matters more than the casualty count: it is the Red Sea outlet for the East-West pipeline, the kingdom's bypass around Hormuz, and a sustained threat there would remove the main safety valve for Saudi exports. Crude markets priced that tail risk on Friday, and diesel, which depends on Gulf refinery exports, carries a similar premium.",
+      "link_url": "https://www.rigzone.com/news/brent_tops_116_as_middle_east_risks_grow-23-oct-2026-184925-article",
+      "link_text": "Read Bloomberg (Rigzone)"
+    },
+    {
+      "tag": "Market Close",
+      "headline": "Brent Gains 6.2% on the Week as Wall Street Energy Stocks Hit a Record",
+      "body": "Brent futures rose 3.1% to $116.72 and WTI added 3.8% to $103.27, with Brent's weekly gain at about 6% and WTI's at 2.3%, according to Geo News citing Reuters. The S&P energy sector climbed 2.5% to a record high even as the Dow fell 652.82 points, or 1.23%, to 52,215.16, and the 10-year Treasury yield rose to 4.99%. B. Riley's Art Hogan pointed to lingering anxiety over the AI trade, while BondBloxx's JoAnne Bianco cited sticky inflation. The divergence shows oil is now a macro headwind: higher energy costs feed inflation and rates, which is the transmission channel policymakers will worry about into the midterms.",
+      "link_url": "https://www.geo.tv/latest/688036-brent-hits-six-month-high-above-116-as-houthi-attacks-stoke-supply-fears",
+      "link_text": "Read Geo News (Reuters)"
+    },
+    {
+      "tag": "US Policy",
+      "headline": "Trump Leans on Diesel Diplomacy and Reserve Releases as Pump Pressure Builds",
+      "body": "With midterms 11 days away, the administration is reaching for supply-side levers. Oilprice.com reports the Energy Department is offering 315,000 barrels of diesel, one-third of its Northeast heating oil reserve, as temporary relief, and a Russian diesel tanker, the Agioi Fanendes, is heading to New York under Trump's deal with Moscow, with delivery expected around November 7. Bloomberg adds that Trump is pushing measures to lower prices before the vote. The volumes are small against a market short of distillates, so the effect is more political than physical, and the dependence on Russian cargoes complicates sanctions policy at a time when the EU is drafting a 22nd package.",
+      "link_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "US Strategic Reserve at 283M Barrels, Lowest Since 1982; Crude Output Slips to 13.3M bpd",
+      "body": "Oil & Gas Journal's read of the latest EIA weekly data shows commercial crude inventories fell by more than expected, with the Strategic Petroleum Reserve at 283 million barrels, the lowest since 1982. US crude production dropped 300,000 bpd to 13.3 million bpd from 13.6 million a year earlier. Refinery utilization is above 90%, the highest operating rates since 1998, after five months of record crack margins, and tanker rates are around $20 a barrel all-in, roughly seven times a year ago. A depleted reserve limits Washington's ability to cap prices further, while tight refining capacity, down 4% since 2019, keeps diesel margins elevated even when crude pauses.",
+      "link_url": "https://ogj.com/general-interest/economics-markets/article/55414186/oil-rallies-on-dual-front-war",
+      "link_text": "Read Oil & Gas Journal"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds November Targets Flat; Next Meeting November 1 as Gulf Output Lags Quotas",
+      "body": "OPEC+ agreed on October 4 to leave November output targets unchanged, with roughly 2 million bpd of cuts still covering most members. The group meets again on November 1. Reporting around the decision noted that Gulf producers have been pumping well below targets because of continuing export disruptions from the war, and that the capacity assessment that will shape 2027 quotas is now expected to conclude by mid-November. In practice quota decisions are largely symbolic while physical constraints bind; the real swing factors are Hormuz transit, Red Sea security and attacks on Saudi infrastructure, not the paper targets, which limits OPEC+'s ability to calm prices.",
+      "link_url": "https://egyptoil-gas.com/news/opec-keeps-november-oil-output-targets-unchanged-as-war-limits-supply/",
+      "link_text": "Read Egypt Oil & Gas"
+    },
+    {
+      "tag": "Natural Gas / LNG",
+      "headline": "Henry Hub Sinks to a Two-Month Low Near $2.66 While European Gas Surges",
+      "body": "US natural gas diverged sharply from oil. NGI had the November contract down 13.6 cents to $2.660 per MMBtu around midday Friday, and Oil & Gas Journal put the session low at $2.62, with support at $2.60. Mild weather, output near 117 bcfd against demand of about 104.5 bcfd and a 77 bcf storage injection, above the 70 bcf five-year average, weighed on prices, even with LNG feedgas at a record 19.8 bcfd. Europe is the opposite: Oilprice.com says TTF rose above €93/MWh, the highest since December 2022, with storage below 75%. That wide spread keeps US LNG running flat out and ties American gas to global supply stress.",
+      "link_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 24–25 — Weekend",
+      "name": "Weekend Escalation Risk: Houthi, IRGC and Gulf Shipping Headlines",
+      "impact": "Traders were reluctant to hold shorts into the weekend close, so Monday's open is exposed to anything that happens in the next 48 hours. Further Houthi strikes on Yanbu or Dhahran, or a tanker incident in the Gulf, would gap Brent toward $120. A quiet weekend invites profit-taking after a three-week run and a 6% weekly gain.",
+      "market_impact": "Gap risk of ±$3–5/bbl at Monday's open.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 28",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The next inventory print will test whether draws continue with refinery runs above 90% and a Strategic Petroleum Reserve at 283 million barrels, the lowest since 1982. A further distillate draw would reinforce the diesel premium, while a surprise build would give the crude bears a talking point.",
+      "market_impact": "±$1.5–3/bbl; distillate stocks matter most for ULS1!.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Core Group Meeting",
+      "impact": "Members are expected to keep targets unchanged again, but the meeting is a venue for signalling on 2027 baselines and on Saudi capacity after the attacks. Any hint of emergency measures or revised quotas would matter, though physical constraints currently dominate.",
+      "market_impact": "Mostly priced; headline risk if Riyadh signals supply stress.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections — Market Eyes Post-Vote Strike Plans",
+      "impact": "The New York Times reported US–Israeli plans for renewed strikes on Iran after the vote, and TD's Ryan McKay sees upside skew near term. The market is pricing a return to war immediately after November 3, so a delayed or cancelled operation would deflate part of the premium, while confirmation would push Brent toward $120 and above.",
+      "market_impact": "Largest scheduled political catalyst; binary and headline-driven.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 7",
+      "name": "Russian Diesel Cargo Due in New York / Distillate Relief Test",
+      "impact": "The Agioi Fanendes, carrying Russian ultra-low sulphur diesel under the Trump–Moscow arrangement, is due around November 7, alongside the 315,000-barrel Northeast reserve offer. Their reception shows whether symbolic supply measures can lower the diesel crack, which has run at record levels for five months.",
+      "market_impact": "Small physical impact; sentiment signal for diesel cracks.",
+      "risk": "Low"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "A week ago the tape was trading headline to headline; this week it settled at the highs. Brent closed at <strong>$116.72</strong>, up 6.2% on the week, WTI is back above $100 and energy equities are at a record. The market is no longer debating whether the war premium is returning but how large it becomes, and Friday's close, with traders unwilling to be short into the weekend, tells you which way the positioning leans.",
+      "<strong>My read on today:</strong> Saturday is a closed market, so the call is about Monday's open. The Houthi campaign is the new variable: Shaybah, Dammam, Yanbu and Dhahran in a single week show the kingdom's Red Sea bypass is now in range. Crude flows through Hormuz have recovered close to pre-war levels, which is why this is a risk-premium rally rather than a physical shortage in crude. The shortage is in products.",
+      "<strong>The bigger picture:</strong> Diesel is the story underneath. With refinery utilisation above 90%, record cracks, tanker rates roughly seven times last year's and a reserve at its lowest since 1982, there is little buffer. ULS1! near $1,477 a tonne is up about 3% and, by Bloomberg's account, products have outrun crude this year. TD's McKay is right that high landed prices can eventually cap crude by squeezing refiners, but that argues for tighter products, not lower diesel.",
+      "My call: <strong>Brent trades $112–$122 into Monday</strong>, with an upside bias on weekend gap risk and the November 3 midterm catalyst. A confirmed strike on Saudi export infrastructure takes it through $120 quickly; a credible diplomatic channel is the only thing that removes $5 or more. <strong>Respect the momentum, but size for two-way volatility.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Very Tight",
+        "tone": "bearish",
+        "pct": 82
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Rising",
+        "tone": "bearish",
+        "pct": 88
+      },
+      {
+        "name": "Demand Response",
+        "label": "Softening",
+        "tone": "neutral",
+        "pct": 45
+      },
+      {
+        "name": "Diesel / Product Tightness",
+        "label": "Acute",
+        "tone": "bearish",
+        "pct": 90
+      },
+      {
+        "name": "Diplomatic Off-Ramp",
+        "label": "Remote",
+        "tone": "bearish",
+        "pct": 20
+      },
+      {
+        "name": "Spare-Capacity / Reserve Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 22
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$112 – $122",
+      "bias": "Bias: Higher — Weekend Gap Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$120",
+      "support": "$110–$112",
+      "breakout": ">$122 (strike on Saudi export infrastructure)",
+      "breakdown": "<$108 (diplomatic channel opens)"
+    }
+  }
+}
