@@ -1,0 +1,216 @@
+{
+  "date_long": "Monday, October 26, 2026",
+  "date_slug": "oct26-2026",
+  "volume": "Vol. I — No. 88",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Oilprice.com, Gulf News, GoodReturns, FinanceFeeds, Reuters (via US News), Oil & Gas Journal, EIA/BOE Report, OPEC",
+  "ticker": [
+    "BRENT CRUDE ~$114.60 ▼ -1.8% (OILPRICE.COM, MONDAY INTRADAY; FRI SETTLE $116.72)",
+    "LOW SULPHUR GASOIL (ULS1!) NO FRESH QUOTE RETRIEVED — LAST INDICATIVE ~$1,477.50/mt (FRIDAY)",
+    "NATURAL GAS ~$2.54 ▼ -3.9% (OILPRICE.COM, MONDAY)",
+    "BRENT SLIPS FROM SIX-MONTH HIGH ON PROFIT-TAKING AND QATARI MEDIATION IN TEHRAN",
+    "SAUDI COALITION INTERCEPTS MORE MISSILES AND DRONES; NO HIT ON OIL INFRASTRUCTURE INDEPENDENTLY CONFIRMED",
+    "MURBAN SURGES ABOVE $118, ~$3.40 OVER BRENT, AS NON-HORMUZ BARRELS COMMAND RECORD PREMIUMS",
+    "FED DECISION WEDNESDAY; OPEC+ MEETS NOV 1; US MIDTERMS NOV 3"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "~$114.60",
+      "change": "▼ −1.8% (−$2.15 intraday vs. $116.72 Friday settle)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "n/a today",
+      "change": "No Monday quote retrieved; last indicative ~$1,477.50/mt (Fri)",
+      "direction": ""
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$101.10",
+      "change": "▼ −2.1% (−$2.15; Friday settle $103.27)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "~$2.54",
+      "change": "▼ −3.9% (Oilprice.com; contract not specified)",
+      "direction": "down"
+    },
+    {
+      "label": "Murban Crude",
+      "value": "$118+",
+      "change": "▲ ~+3% (≈$3.40 above Brent; Fujairah, outside Hormuz)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Monday Brief — Brent Eases From Six-Month High as Qatari Mediators Reach Tehran, but Saudi Attacks Continue",
+    "headline": "Brent Slips About 2% to the Mid-$114s on Profit-Taking and Qatari Mediation, While Saudi Defences Keep Intercepting Houthi Missiles and Murban Surges Above $118",
+    "paragraphs": [
+      "Crude gave back part of last week's rally on Monday, though the move looked more like consolidation than a change of regime. Per Oilprice.com figures carried by Gulf News, <strong>Brent traded near $114.60, down about $2.15</strong>, and WTI near $101.10, down 2.1%. Reuters reported early trading with Brent around $115.79 and U.S. crude near $102.28 as the market opened lower. Both benchmarks had settled almost $3 higher on Friday, with Brent at $116.72, its highest close since April 29, and finished the week up roughly 6%. A caution on the data: Brent's December contract has been rolling to January in some vendor feeds, and one aggregator showed a figure near $110, so we quote the cluster of consistent intraday readings rather than any single tick.",
+      "Two forces explain the pullback. GoodReturns, citing Reuters, notes that Qatari mediators were in Tehran on Sunday working to de-escalate, lifting hopes that the feared US-Israeli strike on Iran might be avoided, and traders banked profits after the biggest weekly gain in a month. Kotak's analysts observed that the escalation markets feared did not materialise over the weekend. Yet the underlying threat has not eased: the Saudi-led coalition reported intercepting a ballistic missile aimed at Riyadh plus drones and a cruise missile over the weekend, and Gulf News stressed that <strong>no hit on oil infrastructure has been independently confirmed</strong>, including at Yanbu, the Red Sea terminal of the 7-million-barrel-a-day East-West Pipeline that replaced Hormuz exports.",
+      "The most telling signal came from physical grades. UAE <strong>Murban, loaded at Fujairah outside the Strait of Hormuz, rose about 3% to above $118</strong>, roughly $3.40 over Brent, after gaining nearly 4% on Friday. Barrels that avoid Hormuz are scarce, and Hormuz transits were counted at only about four on October 18 against roughly 85 a day before the war. That scarcity is most acute in products: GoodReturns cites diesel trading more than $90 a barrel above Brent. We could not retrieve a Monday ULS1! quote, so the gasoil read is directional rather than numerical. With Trump saying he will soon decide between a deal and renewed military operations, the downside from here looks limited."
+    ],
+    "link_url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522",
+    "link_text": "Read Gulf News",
+    "stats": [
+      {
+        "num": "~$114.60",
+        "desc": "Brent Intraday Monday, −$2.15 From Friday's $116.72 Settle (Highest Close Since Apr 29)"
+      },
+      {
+        "num": "$118+",
+        "desc": "Murban at Fujairah, ~$3.40 Above Brent — Non-Hormuz Barrels at a Premium"
+      },
+      {
+        "num": "~4/day",
+        "desc": "Hormuz Transits Counted Oct 18 vs. ~85 a Day Before the War (GoodReturns)"
+      },
+      {
+        "num": "$90+",
+        "desc": "Diesel's Premium Over Brent per Barrel (GoodReturns) — A Refining Crisis as Much as Crude"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Reaction",
+      "headline": "Oil Slips Almost $1 in Early Trading From Near Six-Month Highs",
+      "body": "Reuters reported that oil lost nearly $1 after Monday's open, with Brent around $115.79 and U.S. crude near $102.28, falling back from its highest in almost six months. By Asian midday, Oilprice.com data carried by Gulf News had Brent near $114.60 and WTI near $101.10, a drop of about 2.1% for WTI. Friday's settlements were nearly $3 higher, so the market is giving back roughly one session of gains. The dip came with no confirmed damage to Saudi export assets, which supports the profit-taking reading. For crude and diesel the point is that the weekly uptrend is intact: a retreat toward $110 would still leave Brent far above the EIA's $105 fourth-quarter average forecast reported by FinanceFeeds.",
+      "link_url": "https://money.usnews.com/investing/news/articles/2026-10-25/oil-prices-down-almost-1-in-early-trading",
+      "link_text": "Read Reuters via US News"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Qatari Mediators in Tehran Spur De-escalation Hopes as Trump Weighs Deal Versus Strikes",
+      "body": "GoodReturns, citing Reuters, said Qatari mediators were in Tehran on Sunday seeking to calm tensions, which helped pull Brent below $115. Trump said he would soon decide whether to pursue a deal or resume military operations, while Iran and the Houthis have threatened Americans in the region and Iran could reportedly retaliate against Israel and the UAE. Kotak's analysts said the feared escalation did not happen over the weekend but the risk remains, putting Brent support at $109-$111 then $106, with resistance at $120. FinanceFeeds adds that Iran's president is due to meet Putin in Moscow this week and that the IAEA says it is technically ready to resume verification under a political settlement. A credible channel is the only development that could strip several dollars quickly.",
+      "link_url": "https://www.goodreturns.in/news/crude-oil-prices-today-brent-crude-falls-below-115-why-oil-prices-are-falling-despite-middle-east-1543357.html",
+      "link_text": "Read GoodReturns"
+    },
+    {
+      "tag": "Saudi / Houthis",
+      "headline": "Saudi Coalition Intercepts More Missiles and Drones; Oil Hits Remain Unconfirmed",
+      "body": "FinanceFeeds, drawing on Reuters and others, reports that on Sunday the Saudi-led coalition intercepted a ballistic missile aimed at Riyadh, with explosions heard in the capital, plus a drone, a cruise missile aimed at Khamis Mushait and later ten ballistic missiles fired toward southern Saudi Arabia. Houthi spokesman Yahya Saree claimed strikes on Yanbu, the Rabigh refinery and the East-West Pipeline, but no Saudi or independent source has confirmed a hit on oil infrastructure. Two terminals at King Khalid airport have resumed operations. The key is Yanbu: in September a Houthi drone attack shut the pipeline and Aramco suspended loadings on September 15, the template traders use if damage is confirmed. Aramco loading notices on Monday are the tell.",
+      "link_url": "https://financefeeds.com/brent-crude-oil-price-116-72-sunday-futures-open-houthi-yanbu-rabigh-claims-riyadh-intercepts-fed-week-bull-120-bear-108/",
+      "link_text": "Read FinanceFeeds"
+    },
+    {
+      "tag": "Physical Market",
+      "headline": "Murban Jumps 3% to $118 as Barrels That Avoid Hormuz Command Record Premiums",
+      "body": "Gulf News, citing Oilprice.com, reports UAE Murban rose about 3% to above $118 a barrel, roughly $3.40 over Brent, after gaining nearly 4% on Friday to $114.40, even as Brent and WTI slipped. Murban loads at Fujairah outside the Strait of Hormuz, and in mid-September it traded above $127 while Brent was above $107. The article also notes CENTCOM said U.S. forces had helped partners export more than 1.5 billion barrels since the summer. A Murban premium shows that the benchmark dip is financial while the physical market stays tight; it also matters for diesel, since Gulf-sourced middle distillates are the barrels most exposed to Hormuz risk, keeping product cracks elevated even when Brent consolidates.",
+      "link_url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522",
+      "link_text": "Read Gulf News"
+    },
+    {
+      "tag": "EIA / Inventories",
+      "headline": "EIA: Crude Stocks Fall 3.1M Barrels, Distillates Rise 1.7M but Stay 9% Below Average",
+      "body": "For the week ended October 16, EIA data reported by the BOE Report showed commercial crude inventories excluding the SPR fell about 3.1 million barrels to roughly 412.5 million, about 3% below the five-year average, against an expected draw of 820,000 barrels. Distillate stocks rose about 1.7 million barrels but remain roughly 9% under the five-year average, with output near 5.2 million bpd. Gasoline fell about 3.0 million barrels, Cushing rose 987,000 and refineries ran at about 93.4% of capacity. Total commercial petroleum stocks fell about 8.5 million barrels. The distillate build is modestly bearish for diesel, but with stocks still 9% short, it does little to relieve the tightness driving gasoil. The next report is due Wednesday.",
+      "link_url": "https://boereport.com/2026/10/21/us-crude-and-gasoline-stocks-fall-distillates-rise-eia-says/amp/",
+      "link_text": "Read BOE Report / Reuters"
+    },
+    {
+      "tag": "Analysis / Outlook",
+      "headline": "ING: $80 Fourth-Quarter Brent View \"Unattainable\" as Aramco Orders Dhahran Evacuation, Libya Pipeline Shuts",
+      "body": "Oilprice.com's Irina Slav reported on October 23 that Aramco ordered staff to leave its Dhahran headquarters, suggesting the Houthis may have longer-range capabilities than previously seen. Libya's National Oil Corporation shut a pipeline carrying crude from two fields to the Zawya terminal, cutting output, and ING said its prior $80 fourth-quarter Brent average looked unattainable, as renewed escalation undercut hopes for post-midterm de-escalation. FinanceFeeds lists the EIA at $105 for Q4, HSBC at $90 base with a $120 stalemate case and Goldman at $90 for December. The spread of forecasts shows how wide the uncertainty is, and the physical outages mean forecasters are chasing the market upward rather than leading it.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 26 — Today",
+      "name": "Aramco Loading Notices and Yanbu/Rabigh Satellite Checks",
+      "impact": "The market's central unknown is whether any Houthi strike damaged Yanbu, Rabigh or East-West Pipeline pumping stations. Normal loadings would support the profit-taking dip and a drift toward $112; Aramco suspending loadings, as it did on September 15, or any Saudi confirmation of damage would likely send Brent through $120 and widen the Murban premium. Qatar's mediation is the offsetting headline.",
+      "market_impact": "±$3–5/bbl on confirmation or denial.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 28",
+      "name": "Fed Decision and EIA Weekly Petroleum Status Report",
+      "impact": "A hold is widely expected at the Fed, but all 100 economists in a Reuters poll expect a December hike per FinanceFeeds, so tone matters for risk assets and demand. The EIA report follows last week's 3.1M-barrel crude draw and 1.7M-barrel distillate build; another distillate build with stocks near 9% below average would only slightly ease diesel tightness.",
+      "market_impact": "±$1.5–3/bbl; macro tone and distillates.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 29–30",
+      "name": "September PCE, Q3 GDP and Exxon Q3 Results",
+      "impact": "Inflation and growth data test whether high oil is feeding rate-hike odds, with December hike odds cited near 84%. A hot PCE print would strengthen the demand-destruction narrative and the dollar, weighing on crude, while Exxon's refining commentary offers a read on record margins and the Baker Hughes rig count (603 last week) on supply response.",
+      "market_impact": "Secondary; can add $1–2/bbl of volatility.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Meeting",
+      "impact": "The group is expected to hold targets again, with roughly 2 million bpd of cuts still nominally in place and Gulf producers pumping below quota because of war disruption. The venue matters for signalling on 2027 baselines and Saudi capacity after the attacks. Quota decisions are largely symbolic while Hormuz transit and Saudi infrastructure security bind supply.",
+      "market_impact": "Mostly priced; headline risk if Riyadh signals stress.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterms — Post-Vote Iran Strike Risk",
+      "impact": "Markets have priced reports that the US and Israel could strike Iran after the election. Trump says he will soon decide between a deal and resumed operations, a second carrier is being deployed, and the U.S. naval blockade continues. A confirmed strike plan would push Brent toward and above $120, while a Qatari or Russian-brokered channel could remove $5 or more.",
+      "market_impact": "Largest scheduled political catalyst; binary.",
+      "risk": "Very High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's call was a Brent range of $112–$122 around the open with upside bias. Monday has so far delivered the lower half of that range: Brent near <strong>$114.60, down about 1.8%</strong>, after Friday's $116.72 settle. Profit-taking after a 6% weekly gain and Qatari mediation in Tehran explain the dip, while the Saudi coalition's interceptions continued and no oil-infrastructure hit has been independently confirmed. That is a consolidation, not a reversal.",
+      "<strong>My read on today:</strong> The pullback is financial, not physical. Murban above $118 and about $3.40 over Brent, Hormuz transits near four a day on October 18 against roughly 85 before the war, and diesel more than $90 over Brent all describe a physical market still short of barrels. I could not retrieve a Monday ULS1! quote, so I will not put a number on gasoil; the direction is firm.",
+      "<strong>The bigger picture:</strong> The forecasts show how little anyone knows. ING calls its $80 Q4 view unattainable, the EIA sits at $105, HSBC at $90 with a $120 stalemate case, and Goldman at $90 for December. The Fed on Wednesday adds a demand-side counterweight with a December hike near-certain among economists. Against that, the SPR is at its lowest since 1982, so Washington's ability to cap prices is limited, and the November 3 midterms mark the date the market fears for a return to strikes.",
+      "My call: <strong>Brent trades $110–$118 today</strong>, with a modest downward bias on diplomacy headlines but a hard floor from physical tightness. Confirmed damage at Yanbu or a suspension of Aramco loadings sends it through $120; a real diplomatic channel tests $108. <strong>Buy the dips cautiously, and respect two-way headline gaps.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Very Tight",
+        "tone": "bearish",
+        "pct": 82
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 85
+      },
+      {
+        "name": "Demand Response",
+        "label": "Softening",
+        "tone": "neutral",
+        "pct": 45
+      },
+      {
+        "name": "Diesel / Product Tightness",
+        "label": "Acute",
+        "tone": "bearish",
+        "pct": 88
+      },
+      {
+        "name": "Diplomatic Off-Ramp",
+        "label": "Emerging, Fragile",
+        "tone": "neutral",
+        "pct": 32
+      },
+      {
+        "name": "Spare-Capacity / Reserve Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 22
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$110 – $118",
+      "bias": "Bias: Consolidating Lower — Upside Tail Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$120",
+      "support": "$109–$111",
+      "breakout": ">$120 (confirmed Yanbu/Rabigh damage)",
+      "breakdown": "<$108 (credible US–Iran channel)"
+    }
+  }
+}
