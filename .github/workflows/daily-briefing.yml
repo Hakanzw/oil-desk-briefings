@@ -33,8 +33,8 @@ jobs:
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Fetch Low Sulphur Gasoil (ULS1!) quote
-        run: python3 automation/fetch_gasoil.py
+      - name: Fetch Brent and Gasoil quotes
+        run: python3 automation/fetch_prices.py
 
       - name: Generate today's briefing with Claude
         env:
@@ -55,11 +55,11 @@ jobs:
                source you retrieved today.
 
                GASOIL PRICE: a workflow step has already fetched the ULS1!
-               quote into automation/_gasoil.json. If that file has no
-               "error" key, use its "value", "change" and "direction" fields
-               verbatim for the Gasoil price tile, and the same figures in the
-               ticker. Only if it has an "error" key, research the gasoil
-               price yourself as before.
+               quote into the "gasoil" entry of automation/_prices.json. If
+               that entry has no "error" key, use its "value", "change" and
+               "direction" fields verbatim for the Gasoil price tile, and the
+               same figures in the ticker. Only if it has an "error" key,
+               research the gasoil price yourself as before.
 
             2. DETERMINE THE VOLUME NUMBER: find the most recent prior briefing
                (newest oil-market-briefing-*.html or *.json) and increment its
