@@ -1,0 +1,216 @@
+{
+  "date_long": "Wednesday, October 28, 2026",
+  "date_slug": "oct28-2026",
+  "volume": "Vol. I — No. 90",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters (via KFGO / Yahoo Finance), Oilprice.com, BOE Report, EIA, OPEC",
+  "ticker": [
+    "BRENT CRUDE ~$115.59 ▲ +1.5% (OILPRICE.COM, DELAYED)",
+    "LOW SULPHUR GASOIL (ULS1!) NO FRESH QUOTE RETRIEVED — NYMEX HEATING OIL PROXY $4.762/GAL ▼ -0.28%",
+    "NATURAL GAS ~$2.718 ▲ +0.78% (OILPRICE.COM)",
+    "HOUTHIS CLAIM MISSILE STRIKE ON SAUDI ARABIA'S 550,000 BPD RAS TANURA REFINERY; RIYADH HAS NOT CONFIRMED DAMAGE",
+    "BRENT SETTLED $113.88 TUESDAY (-1.67%) ON SAUDI–IRAN DIPLOMACY; REBOUNDS ABOVE $115 WEDNESDAY",
+    "OPEC+ EXPECTED TO HOLD DECEMBER TARGETS AT SUNDAY MEETING; US MIDTERMS NOV 3",
+    "EIA: CRUDE -3.06M BBL, DISTILLATES +1.68M BBL (WEEK TO OCT 16); NEW REPORT DUE WEDNESDAY"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude",
+      "value": "~$115.59",
+      "change": "▲ +1.5% (+$1.71; Oilprice.com, delayed)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "n/a today",
+      "change": "No Wednesday quote retrieved; NYMEX heating oil $4.762/gal ▼ −0.28%",
+      "direction": ""
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$101.45",
+      "change": "▲ +1.55% (+$1.55)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "~$2.718",
+      "change": "▲ +0.78% (Oilprice.com; contract not specified)",
+      "direction": "up"
+    },
+    {
+      "label": "Brent Tuesday Settle",
+      "value": "$113.88",
+      "change": "▼ −1.67% (−$1.93; Reuters)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Wednesday Brief — Houthi Missile Claim on Ras Tanura Reverses Tuesday's Diplomacy Dip",
+    "headline": "Brent Rebounds Above $115 as Houthis Claim Missile Strike on Saudi Arabia's Largest Refinery — Riyadh Silent, Diplomacy Still Alive",
+    "paragraphs": [
+      "Crude gave back Tuesday's diplomatic discount within hours. Per Reuters, <strong>Brent rose $1.48, or 1.3%, to $115.36 a barrel</strong> in early Wednesday trade, while WTI gained $1.22 to $101.12, after the Iran-aligned Houthis said they hit Saudi Arabia's biggest refinery with a ballistic missile. Oilprice.com's delayed screen later showed Brent near $115.59 (+1.5%) and WTI near $101.45. The target is the Ras Tanura complex on the Gulf coast, whose refinery processes about 550,000 barrels per day. Saudi authorities had not confirmed any damage when the reports were filed, and Bloomberg-sourced accounts spoke of a fire whose extent was unclear.",
+      "The bounce follows a session in which diplomacy had briefly won. On Tuesday <strong>Brent settled at $113.88, down $1.93 or 1.67%</strong>, and WTI at $99.90, as a Saudi, Turkish and Pakistani channel to Tehran and a reported Omani outline for restoring free navigation in Hormuz eased fears. Yet nothing structural changed: there is no agreement to end the US-Israeli war with Iran, and Oilprice.com counts more than 30 maritime attack incidents in October against 14 in September, with the Washington Institute calling it the worst month for Hormuz-area shipping attacks on record.",
+      "Why it matters for the barrel and the diesel complex: Ras Tanura is both an export terminal and a refining hub, so even partial outages hit crude loadings and product supply to the Gulf and Europe at the same time. Oilprice.com argues the Saudi–Houthi conflict is gaining self-sustaining momentum, and that Qatari and Pakistani mediation has so far only capped ICE Brent near $115. UBS now expects Brent to hold near $110 through year-end. With the US midterms on November 3 and the Fed deciding today, headline gaps are likely in both directions."
+    ],
+    "link_url": "https://kfgo.com/2026/10/27/oil-prices-rise-after-attack-on-saudi-arabian-refinery-reignites-supply-concerns/",
+    "link_text": "Read Reuters (KFGO)",
+    "stats": [
+      {
+        "num": "~$115.59",
+        "desc": "Brent Wednesday, +1.5%; Reuters Early Print $115.36 (+$1.48)"
+      },
+      {
+        "num": "550k bpd",
+        "desc": "Capacity of the Ras Tanura Refinery Targeted in the Houthi Claim — Unconfirmed by Riyadh"
+      },
+      {
+        "num": "30+",
+        "desc": "Maritime Attack Incidents in October vs. 14 in September (Oilprice.com)"
+      },
+      {
+        "num": "$113.88",
+        "desc": "Brent Tuesday Settle, −1.67%; Highest Since April Was >$117 Last Week"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Supply Shock",
+      "headline": "Houthis Claim Ballistic Missile Strike on Ras Tanura; Saudi Arabia Has Not Confirmed Damage",
+      "body": "Reuters reported that Brent rose $1.48 to $115.36 and WTI $1.22 to $101.12 after the Houthis said they struck Saudi Arabia's largest domestic refinery, a 550,000 bpd facility within the Ras Tanura complex. Bloomberg-based accounts cited a fire, but the scale of any damage remained unclear and Saudi authorities did not immediately comment. The same unconfirmed pattern applied to earlier Houthi claims on Rabigh, Yanbu and East-West pipeline pumping stations. For crude, the key variable is loadings: Ras Tanura is a major export terminal, so a confirmed outage would tighten Gulf supply further. For diesel, it would remove refined product exactly when distillate inventories are already scarce. Silence from Riyadh keeps the move modest for now.",
+      "link_url": "https://kfgo.com/2026/10/27/oil-prices-rise-after-attack-on-saudi-arabian-refinery-reignites-supply-concerns/",
+      "link_text": "Read Reuters (KFGO)"
+    },
+    {
+      "tag": "Market Close",
+      "headline": "Oil Falls Almost $2 Tuesday as Middle East Talks Ease Supply Worries; UBS Lifts Year-End View to $110",
+      "body": "Reuters reported Brent settled at $113.88, down $1.93 or 1.67%, with WTI at $99.90, down $1.86 or 1.83%, as talks in Tehran involving Saudi Arabia, Turkey and Pakistan and Oman's outline on Hormuz navigation lifted hopes of de-escalation. Gelber & Associates said Houthi attacks and the Gulf military presence keep supply risks in place even as diplomacy lets some premium unwind. SEB's Bjarne Schieldrop said crude carries a significant risk premium tied to a possible US or Israeli attack on Iran in coming weeks. UBS raised its Brent forecast to about $110 through year-end from $100, warning risks could intensify if US naval support wavers. The settlement matters because it frames today's rebound: the market is pricing diplomacy as fragile.",
+      "link_url": "https://uk.finance.yahoo.com/news/oil-eases-middle-east-diplomacy-003711784.html",
+      "link_text": "Read Reuters (Yahoo Finance)"
+    },
+    {
+      "tag": "Hormuz / Shipping",
+      "headline": "Oilprice.com: Markets Brace for Iran Escalation After US Midterms as October Attacks Top 30",
+      "body": "Oilprice.com's Tom Kool wrote that markets are counting down to the November 3 US midterms with expectations of renewed hostilities rising into November. Mediation by Qatar and Pakistan between the Trump administration and Tehran has, in the piece's view, temporarily capped ICE Brent at $115. October has been the most acute month for maritime attacks since the war began eight months ago, with more than 30 incidents against 14 in September, and VLCCs accounting for 28% of drone and missile attacks in the Persian Gulf. The article notes UKMTO is struggling to report accurately because ships prefer to sail unnoticed. For markets, that means under-reported transit risk, higher insurance and freight costs and persistent backwardation in physical crude and diesel.",
+      "link_url": "https://finance.yahoo.com/energy/articles/oil-markets-brace-iran-escalation-163735393.html",
+      "link_text": "Read Oilprice.com (Yahoo Finance)"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Expected to Hold December Targets Sunday; Core Members Shift Focus to 2027 Quotas",
+      "body": "Sources told Reuters that OPEC+ is expected to keep its December output targets steady at a meeting on Sunday, November 1, with most of its seven core members producing below their targets. Oilprice.com adds that the core group has completed the roll-back of 1.65 million bpd of voluntary cuts and is turning to 2027 production quotas. A hold is largely symbolic in a market where physical constraints, not quotas, limit barrels: Gulf exports are hostage to Hormuz risk and attacks on Saudi infrastructure. The real signal will be any language on 2027 baselines and how the group treats members unable to reach targets, which matters for the spare-capacity buffer the market currently lacks.",
+      "link_url": "https://kfgo.com/2026/10/27/oil-prices-rise-after-attack-on-saudi-arabian-refinery-reignites-supply-concerns/",
+      "link_text": "Read Reuters (KFGO)"
+    },
+    {
+      "tag": "US Inventories",
+      "headline": "EIA: US Crude Draws 3.06M Barrels, Distillates Build 1.68M, in Week to Oct 16 — New Report Due Today",
+      "body": "The latest EIA data in hand, released October 21 via Reuters and the BOE Report, showed commercial crude down 3.06 million barrels to 412.5 million, against a Reuters poll for an 820,000-barrel draw. Gasoline fell 2.95 million to 205.3 million, versus an expected 443,000 draw, while distillates rose 1.68 million to 104.3 million, against an expected 1.16 million draw. Cushing gained 987,000 barrels, refinery utilization slipped 0.1 point to 93.4% and net crude imports rose 837,000 bpd. A Reuters poll of eight analysts expects crude stocks to rise about 15,000 barrels in the week to October 23; that report is due today. The distillate build is a small relief for diesel, but stocks remain tight.",
+      "link_url": "https://boereport.com/2026/10/21/us-crude-and-gasoline-stocks-fall-distillates-rise-eia-says/",
+      "link_text": "Read BOE Report (Reuters)"
+    },
+    {
+      "tag": "Russia / Diesel",
+      "headline": "Russian Refiners Lift Runs 25% as Baltic and Black Sea Crude Exports Seen Falling in November",
+      "body": "Reuters reported that Russian refineries raised crude processing by 25% in the second half of October after Ukrainian drone attacks stopped, according to three industry sources, while two traders forecast lower crude exports from Baltic and Black Sea ports next month, tied to a US-Russia deal struck earlier this month. Oilprice.com separately reported refiners lifting diesel output toward 180,000 tonnes a day to supply that arrangement, though skeptics doubt it moves the market. The implication is a shift from crude to product exports: slightly more Russian diesel could ease the European middle-distillate squeeze, but fewer crude cargoes tighten the seaborne crude balance at a time when Gulf flows are impaired.",
+      "link_url": "https://uk.finance.yahoo.com/news/oil-eases-middle-east-diplomacy-003711784.html",
+      "link_text": "Read Reuters (Yahoo Finance)"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 28 — Today",
+      "name": "Saudi Confirmation Watch: Ras Tanura Damage and Loadings",
+      "impact": "Riyadh has not confirmed damage from the Houthi missile claim. Confirmation of a refinery or terminal outage, or an Aramco loading suspension, would likely push Brent back toward the $117–$120 zone and lift diesel cracks. A Saudi denial or evidence of minimal damage would let diplomacy reassert itself and return Brent toward the Tuesday settle near $114.",
+      "market_impact": "±$3–5/bbl on confirmation or denial.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Oct 28",
+      "name": "EIA Weekly Petroleum Status Report (Week to Oct 23)",
+      "impact": "The Reuters poll expects crude stocks to rise about 15,000 barrels after the prior week's 3.06 million draw. Distillates, at 104.3 million barrels after a 1.68 million build, are the key line for diesel traders. A surprise large crude draw or a distillate draw would reinforce the tightness narrative; a large build would soften the physical bid.",
+      "market_impact": "±$1–2/bbl; distillate line matters most for diesel.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 28",
+      "name": "Federal Reserve Policy Decision",
+      "impact": "Reuters-cited futures pricing implies roughly 11% odds of a hike this week and about 82% for December. A hawkish tone would strengthen the dollar and weigh on risk assets, tempering demand-side optimism, but with supply risk dominating crude, the macro channel is a secondary driver today.",
+      "market_impact": "±$1–2/bbl via dollar and risk sentiment.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Meeting on December Targets",
+      "impact": "Sources expect the group to hold December targets steady, with most core members already producing below quota. The market will parse any guidance on 2027 baselines after the 1.65 million bpd roll-back is complete. A surprise increase would be largely symbolic; a signal of production discipline would add support.",
+      "market_impact": "Limited directional impact; 2027 quota language is the signal.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections and Iran Escalation Risk",
+      "impact": "Oilprice.com reports markets expect renewed hostilities to rise into November, and SEB sees a significant risk premium tied to a possible US or Israeli attack on Iran. Israel's election adds uncertainty, with Commerzbank noting a re-elected Netanyahu might pursue regime change in Iran. Positioning into the vote is likely to keep two-way volatility high.",
+      "market_impact": "Event-driven gap risk of ±$5–8/bbl.",
+      "risk": "Very High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's call was a Brent range of $111–$118 with a mild downward bias while the Tehran channel held. The first half played out: Brent settled at <strong>$113.88, down 1.67%</strong>, the low end of a sensible band. Overnight the Houthi claim on Ras Tanura pushed it back to roughly $115.4–$115.6, so the market has returned to the middle of the range rather than breaking it.",
+      "<strong>My read on today:</strong> The claim is unconfirmed, and that is exactly why the move is only about 1.3–1.5%. Riyadh's silence cuts both ways: if damage was minimal, the premium bleeds out; if it was real, Saudi authorities have strong reasons not to advertise it. Traders should treat confirmation, not the Houthi statement, as the trigger. I could not retrieve a ULS1! quote, so I will not put a number on gasoil; NYMEX heating oil at $4.762 is flat to slightly lower.",
+      "<strong>The bigger picture:</strong> The diplomacy is real but thin, with no agreement to end the war and October the worst month for Hormuz shipping attacks. Oilprice.com's reading that mediation has capped Brent near $115 is useful: it identifies $115 as the level at which the market balances peace-hopes against escalation risk. Add the Fed today, OPEC+ Sunday and the midterms on November 3, and the calendar is crowded with gap risk.",
+      "My call: <strong>Brent trades $111–$119 today</strong>, with an upward skew while the Ras Tanura question is unresolved. Confirmed damage tests $120; a credible framework from the Tehran talks revisits $108–$110. <strong>Respect the two-way gaps, and do not chase an unconfirmed headline.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Very Tight",
+        "tone": "bearish",
+        "pct": 83
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 85
+      },
+      {
+        "name": "Demand Response",
+        "label": "Softening",
+        "tone": "neutral",
+        "pct": 47
+      },
+      {
+        "name": "Diesel / Product Tightness",
+        "label": "Acute",
+        "tone": "bearish",
+        "pct": 86
+      },
+      {
+        "name": "Diplomatic Off-Ramp",
+        "label": "Emerging, Fragile",
+        "tone": "neutral",
+        "pct": 38
+      },
+      {
+        "name": "Spare-Capacity / Reserve Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 22
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$111 – $119",
+      "bias": "Bias: Upside Skew Until Saudi Clarifies ▲"
+    },
+    "watch_levels": {
+      "resistance": "$117–$120",
+      "support": "$110–$113",
+      "breakout": ">$120 (confirmed Ras Tanura / export damage)",
+      "breakdown": "<$108 (credible US–Iran ceasefire framework)"
+    }
+  }
+}
