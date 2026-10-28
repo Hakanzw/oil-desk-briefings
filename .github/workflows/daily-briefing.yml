@@ -54,12 +54,14 @@ jobs:
                NOT fabricate prices or quotes — every figure must trace to a
                source you retrieved today.
 
-               GASOIL PRICE: a workflow step has already fetched the ULS1!
-               quote into the "gasoil" entry of automation/_prices.json. If
-               that entry has no "error" key, use its "value", "change" and
-               "direction" fields verbatim for the Gasoil price tile, and the
-               same figures in the ticker. Only if it has an "error" key,
-               research the gasoil price yourself as before.
+               BRENT AND GASOIL PRICES: a workflow step has already fetched
+               the ICE Brent (BRN1!) and Low Sulphur Gasoil (ULS1!) quotes
+               into the "brent" and "gasoil" entries of
+               automation/_prices.json. For each entry without an "error"
+               key, use its "value", "change" and "direction" fields verbatim
+               for that price tile, and the same figures in the ticker, the
+               masthead and the price call. Only for an entry with an "error"
+               key, research that price yourself as before.
 
             2. DETERMINE THE VOLUME NUMBER: find the most recent prior briefing
                (newest oil-market-briefing-*.html or *.json) and increment its
