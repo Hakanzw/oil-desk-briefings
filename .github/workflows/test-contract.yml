@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - run: python3 automation/probe_contract.py
+      - run: python3 automation/fetch_prices.py

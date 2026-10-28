@@ -7,6 +7,7 @@ exits non-zero, so the daily workflow carries on and Claude falls back to its ow
 """
 
 import json
+import re
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -56,6 +57,29 @@ def _tile(row, ticker, unit, bounds):
     }
 
 
+MONTH_CODES = "FGHJKMNQUVXZ"
+
+
+def _brent_contract(front_row):
+    """Identify which dated contract BRN1! currently tracks, e.g. "Jan '27".
+
+    TradingView doesn't expose this directly, so match BRN1!'s quote against the next
+    few dated contracts. Returns None unless exactly one contract matches.
+    """
+    now = datetime.now(timezone.utc)
+    tickers = []
+    for i in range(6):
+        m = (now.month - 1 + i) % 12
+        y = now.year + (now.month - 1 + i) // 12
+        tickers.append(f"ICEEUR:BRN{MONTH_CODES[m]}{y}")
+    rows = _scan(tickers)
+    matches = [d for d in rows.values() if d[0] == front_row[0] and d[2] == front_row[2]]
+    if len(matches) != 1:
+        return None
+    m = re.search(r"\((\w{3}) (\d{4})\)", matches[0][3] or "")
+    return f"{m.group(1)} '{m.group(2)[2:]}" if m else None
+
+
 def main():
     fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     try:
@@ -70,6 +94,12 @@ def main():
             if scan_error:
                 raise RuntimeError(scan_error)
             entry = _tile(rows.get(ticker), ticker, unit, bounds)
+            if key == "brent":
+                try:
+                    contract = _brent_contract(rows[ticker])
+                except Exception:
+                    contract = None
+                entry["label"] = f"Brent Crude ({contract})" if contract else "Brent Crude"
         except Exception as exc:
             entry = {"error": f"{type(exc).__name__}: {exc}"}
         entry["fetched_at"] = fetched_at

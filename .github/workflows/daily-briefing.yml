@@ -60,8 +60,10 @@ jobs:
                automation/_prices.json. For each entry without an "error"
                key, use its "value", "change" and "direction" fields verbatim
                for that price tile, and the same figures in the ticker, the
-               masthead and the price call. Only for an entry with an "error"
-               key, research that price yourself as before.
+               masthead and the price call. Use the "brent" entry's "label"
+               field verbatim as the Brent tile label (it names the contract
+               month, e.g. "Brent Crude (Jan '27)"). Only for an entry with an
+               "error" key, research that price yourself as before.
 
             2. DETERMINE THE VOLUME NUMBER: find the most recent prior briefing
                (newest oil-market-briefing-*.html or *.json) and increment its
