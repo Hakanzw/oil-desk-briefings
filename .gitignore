@@ -8,6 +8,7 @@ automation/gmail_token.json
 automation/_auth_url.txt
 automation/_test_output.html
 automation/_email_meta.json
+automation/_gasoil.json
 
 # Personal Claude Code permission grants (machine-local)
 automation/.claude/settings.local.json
