@@ -1,0 +1,149 @@
+{
+  "date_long": "Thursday, October 29, 2026",
+  "date_slug": "oct29-2026",
+  "volume": "Vol. I — No. 91",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters (via WMBD / Yahoo Finance / The Star), Barchart, CNBC, EIA, OPEC, Baird Maritime, Trading Economics",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $110.27/bbl ▼ -1.23% (-$1.37)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,459.50/mt ▼ -0.97% (-$14.25)",
+    "NATURAL GAS ~$3.08 ▲ +2.42% (TRADING ECONOMICS, OCT 28)",
+    "HOUTHIS CLAIM MISSILE HIT ON SAUDI ARABIA'S RAS TANURA REFINERY; RIYADH HAS NOT CONFIRMED DAMAGE",
+    "WSJ: US TELLS GULF STATES TO PREPARE FOR SHORT, INTENSE CAMPAIGN AGAINST IRAN — TRUMP 'LEANING' TOWARD ATTACK AFTER NOV 3 MIDTERMS",
+    "EIA: CRUDE -1.9M BBL TO 410.6M, DISTILLATES -1.5M BBL TO 102.8M, GASOLINE +3.9M BBL (WEEK TO OCT 23)",
+    "OPEC+ SEEN HOLDING DECEMBER TARGETS AT ONLINE MEETING OCT 31; 2027 QUOTA TALKS NEXT"
+  ],
+  "prices": [
+    { "label": "Brent Crude (Jan '27)", "value": "$110.27/bbl", "change": "▼ −1.23% (−$1.37)", "direction": "down" },
+    { "label": "Low Sulphur Gasoil (ULS1!)", "value": "$1,459.50/mt", "change": "▼ −0.97% (−$14.25)", "direction": "down" },
+    { "label": "WTI Crude (Dec)", "value": "~$101.43", "change": "▼ −1.31% (−$1.35; Barchart snapshot)", "direction": "down" },
+    { "label": "Natural Gas", "value": "~$3.08", "change": "▲ +2.42% (Trading Economics, Oct 28)", "direction": "up" },
+    { "label": "US Distillate Stocks", "value": "102.8M bbl", "change": "▼ −1.5M bbl; 9.5% below 5-yr average", "direction": "down" }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Thursday Brief — Houthi Claim on Ras Tanura and a Reported US Attack Plan Keep a Floor Under Crude",
+    "headline": "Brent Eases Toward $110 as the Ras Tanura Claim Goes Unconfirmed — But a WSJ Report of Post-Midterm Strike Planning on Iran Keeps the Risk Premium Alive",
+    "paragraphs": [
+      "Crude pulled back on Thursday after two days of headline-driven gains. The ICE Brent contract tracked by this desk, the <strong>January 2027 month, was quoted at $110.27 a barrel, down $1.37 or 1.23%</strong>, while Low Sulphur Gasoil (ULS1!) slipped $14.25, or 0.97%, to <strong>$1,459.50 a tonne</strong>. Note the contract-month gap: on Wednesday Reuters had spot-style Brent at $115.66, up $1.78, and WTI at $102.38, so a part of today's headline decline is the roll to a deferred, lower-priced contract rather than purely new selling. Natural gas, meanwhile, rose about 2.4% to roughly $3.08 per MMBtu on Wednesday.",
+      "The driver of the week remains the Gulf. Yemen's Houthis said on Tuesday they struck <strong>Saudi Arabia's Ras Tanura refinery</strong>, the kingdom's largest, with a ballistic missile. Riyadh has not confirmed damage; Bloomberg, citing a source, said a fire near the terminal was contained. Separately, the Wall Street Journal reported that Washington told several Gulf states to prepare for a <strong>short, intense military campaign against Iran</strong>, with Trump \"leaning toward an attack after next Tuesday's mid-term elections.\" Hormuz crude flows in October ran at 16.7 million bpd (Kpler) or 15.4 million bpd (Vortexa), against roughly 19 million before the war.",
+      "For the barrel and the diesel complex the message is that supply is recovering but not repaired. Energy Secretary Wright says Gulf flows are near 80% of pre-war levels, yet refined-product shipments remain constrained, and US distillate stocks sit <strong>9.5% below the five-year average</strong>. With OPEC+ expected to stand pat on Saturday and Gulf producers still pumping below their targets, there is little spare cushion to absorb a genuine outage. That asymmetry is why dips toward $108–110 on the deferred contract have been bought, and why gasoil, with its tighter inventory backdrop, falls less than crude on soft days."
+    ],
+    "link_url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-rally-report-160934574.html",
+    "link_text": "Read Barchart / Yahoo Finance",
+    "stats": [
+      { "num": "$110.27", "desc": "Brent (Jan '27) Today, −1.23%; Spot-Style Brent Was ~$115.66 on Wednesday" },
+      { "num": "−9.5%", "desc": "US Distillate Stocks vs. the Five-Year Seasonal Average" },
+      { "num": "16.7M bpd", "desc": "October Hormuz Crude Flows (Kpler) vs. ~19M bpd Pre-War" },
+      { "num": "Nov 3", "desc": "US Midterms — WSJ Says Any Iran Strike Decision Likely to Follow" }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Saudi Arabia",
+      "headline": "Houthis Say They Hit Saudi Arabia's Ras Tanura Refinery With a Ballistic Missile; Riyadh Silent",
+      "body": "Yemen's Houthis said on Tuesday that they struck Ras Tanura, Saudi Arabia's biggest refinery, with a ballistic missile, also claiming a strike on Saudi military aircraft and a repelled advance near Bab el-Mandeb. Saudi authorities have not confirmed any damage to the refinery; Bloomberg, citing a source, reported that a fire near the terminal was contained. Houthi attacks on the kingdom have intensified since July, and nearly all Saudi crude exports move through Ras Tanura and Yanbu. Oil rose on Wednesday on the claim, with analysts reading the move as a reflection of limited market flexibility rather than confirmed lost barrels. For crude and diesel, the key question is whether product loadings from the Gulf coast are interrupted; a confirmed outage would tighten Europe's diesel supply chain quickly.",
+      "link_url": "https://www.thestar.com.my/news/world/2026/10/27/yemen039s-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile",
+      "link_text": "Read The Star (Reuters)"
+    },
+    {
+      "tag": "US–Iran",
+      "headline": "WSJ: US Tells Gulf States to Prepare for a Short, Intense Campaign Against Iran",
+      "body": "The Wall Street Journal reported that the US has told several Persian Gulf countries to prepare for a short but intense military campaign against Iran, with President Trump said to be \"leaning toward an attack after next Tuesday's mid-term elections,\" although no decision has been made. Barchart noted that Benjamin Netanyahu was leading the vote count in Israel's election, raising the odds that Israel could join any strike. December WTI jumped as much as 2.9% on the report before giving back part of the move. For the market this is a dated risk event: a strike would likely threaten Hormuz flows again, which are already running 3 million-plus bpd below pre-war levels, while a diplomatic off-ramp would deflate the premium.",
+      "link_url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-rally-report-160934574.html",
+      "link_text": "Read Barchart / Yahoo Finance"
+    },
+    {
+      "tag": "Inventories",
+      "headline": "EIA: US Crude Stocks Fall 1.9M Barrels, Distillates Draw 1.5M as Exports Jump to 4.85M bpd",
+      "body": "US crude inventories fell 1.9 million barrels to 410.6 million in the week ended October 23, against a Reuters poll calling for a 15,000-barrel build. Distillates (diesel and heating oil) fell 1.5 million barrels to 102.8 million, a bigger draw than the 0.9 million expected, while gasoline rose 3.9 million to 209.2 million. Crude exports rose 1.4 million bpd to 4.85 million, and Gulf Coast crude stocks hit their lowest since December 2024. TradeStation's David Russell said diesel stocks \"remain well below seasonal norms,\" offering little near-term relief, and that slower SPR draws suggest \"we're running out of cushion.\" Kpler's Matt Smith cautioned that the EIA may have overstated exports by about 1 million bpd. Refinery utilization slipped to 92.8%.",
+      "link_url": "https://wmbdradio.com/2026/10/28/us-crude-and-distillate-inventories-fall-gasoline-stocks-rise-eia-says/",
+      "link_text": "Read Reuters (via WMBD)"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Expected to Hold December Targets Saturday as 2027 Quota Talks Loom",
+      "body": "Three sources told Reuters that the seven OPEC+ core members (Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman) are likely to keep existing December production targets at an online meeting on October 31, although no final decision has been made. Actual output sits well below quotas because Gulf producers are still restoring exports after months of Iran-war disruption. The group had already held November targets steady on October 4. Attention is shifting to 2027 allocations, which could prove contentious if Gulf capacity returns unevenly. For prices, a rollover is neutral-to-supportive: it signals no rush to add barrels while Hormuz flows remain impaired and spare capacity is mostly stranded behind the strait.",
+      "link_url": "https://finance.yahoo.com/energy/articles/opec-expected-maintain-december-oil-103915092.html",
+      "link_text": "Read Reuters (via Yahoo Finance)"
+    },
+    {
+      "tag": "Hormuz / Flows",
+      "headline": "Hormuz Flows Recovering but Still Below Pre-War; Saudi Output Rebounds 2M bpd in September",
+      "body": "Crude flows through the Strait of Hormuz in October averaged 16.7 million bpd according to Kpler, or 15.4 million bpd per Vortexa, versus about 19 million before the war. Energy Secretary Chris Wright said Gulf oil flows have recovered to about 80% of pre-war levels, though refined-product shipments remain constrained. Saudi Arabia's September crude output rose 2 million bpd to 8.732 million bpd, recovering from a 36-year low in August. The recovery is real but fragile: Houthi attacks and threats remain a risk, and Vortexa reported oil on stationary tankers up 8% week on week to 87.42 million barrels. Constrained product exports are the main reason diesel and gasoil cracks stay elevated even as crude eases.",
+      "link_url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-rally-report-160934574.html",
+      "link_text": "Read Barchart / Yahoo Finance"
+    },
+    {
+      "tag": "US Supply / Demand",
+      "headline": "US Crude Output Hits Record 13.99M bpd; IEA Sees Biggest Demand Drop Since Covid",
+      "body": "US crude production hit a record 13.992 million bpd in the week ending October 23, and Baker Hughes counted 460 active oil rigs, just shy of the 1.5-year high of 462 set on October 9. US crude stocks are 3.7% below the five-year average, gasoline 2.0% below and distillates 9.5% below. On the demand side, the IEA warned on September 11 that high prices and supply restrictions would cause the biggest annual fall in global oil demand since the pandemic, and raised its 2026 global deficit estimate to 1.7 million bpd from 1.3 million, pushing the return to surplus into 2027. Record US output is a partial offset, but exports are absorbing the extra barrels, leaving domestic diesel inventories thin.",
+      "link_url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-rally-report-160934574.html",
+      "link_text": "Read Barchart / Yahoo Finance"
+    }
+  ],
+  "events": [
+    {
+      "date": "Oct 29 — Today",
+      "name": "Saudi Confirmation (or Denial) of Ras Tanura Damage",
+      "impact": "Riyadh has so far addressed missile interceptions rather than the refinery itself. An official statement confirming damage to the 550,000 bpd-class complex or to the export terminal would validate Wednesday's rally and push Brent toward resistance. A clear denial would likely unwind part of the geopolitical bid and widen the discount of the deferred contract.",
+      "market_impact": "±$3–5/bbl; gasoil likely to move more than crude on a product-loading outage.",
+      "risk": "High"
+    },
+    {
+      "date": "Oct 31",
+      "name": "OPEC+ Online Meeting — December Targets",
+      "impact": "Sources expect the seven core members to roll over December targets, and the market has largely priced that. The real signal is any language on 2027 quotas or on compensating for under-production. A surprise increase would be bearish on paper but irrelevant physically, since Gulf output is below target anyway.",
+      "market_impact": "±$1–2/bbl; mostly a sentiment event.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections",
+      "impact": "The WSJ reports Trump is leaning toward an attack on Iran after the midterms. Until then, traders are hedging rather than positioning outright. Post-election headlines on a strike timeline, Gulf-state preparations or renewed back-channel talks will drive the next leg; a strike would likely reignite Hormuz risk and send Brent well above recent highs.",
+      "market_impact": "Binary; potential $8–12/bbl move on a confirmed strike decision.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 4",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "After a fourth straight weekly crude draw and a 9.5% distillate deficit, the next print tests whether exports stay elevated at 4.85 million bpd. Kpler suggests the EIA overstated exports, so a revision-driven reversal is possible. Another distillate draw would reinforce the tight diesel narrative and support ULS futures.",
+      "market_impact": "±$1–3/bbl; larger for gasoil if distillates draw again.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Red Sea / Gulf Shipping Attacks and Hormuz Flow Data",
+      "impact": "Houthi activity against Saudi targets has risen since July, and Hormuz flows remain 3 million bpd or more below pre-war levels. Weekly Kpler and Vortexa flow estimates, tanker insurance rates and any new attack on export terminals determine whether the recovery continues or stalls.",
+      "market_impact": "Structural; governs the size of the risk premium.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's brief argued that the market was caught between a diplomacy dip and a Gulf-attack bounce. Today the screen is quieter on the front line, with Brent at <strong>$110.27 (−1.23%)</strong> and gasoil at <strong>$1,459.50/mt (−0.97%)</strong>, but nothing underneath has been resolved. Ras Tanura is unconfirmed, the Iran question is parked until after November 3, and inventories keep drawing.",
+      "<strong>My read on today:</strong> a good part of the decline is contract mechanics, since our January 2027 quote sits several dollars below the spot-style $115 prints from Wednesday. I would not read it as the market dismissing risk. Dealers are simply refusing to chase before the weekend OPEC+ call and the election, which is the sensible posture when tails exist on both sides.",
+      "<strong>The bigger picture:</strong> physical tightness is concentrated in middle distillates. US diesel stocks are 9.5% under the five-year average, Gulf refined-product exports are still constrained, and exports of US crude just jumped to 4.85 million bpd. That is why gasoil fell less than crude today and why any Saudi product-loading disruption would hit ULS harder. The bearish counterweights are weaker demand, per the IEA, and record US crude output near 14 million bpd.",
+      "My call: <strong>Brent (Jan '27) trades $106–$114 today</strong>, with a mild downward lean into the weekend as headline premium is shaved, but dips are likely to be bought ahead of November 3. A confirmed Saudi outage or a strike decision on Iran breaks the range to the upside quickly; a credible diplomatic channel is the only route to a sustained break lower."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      { "name": "Supply Tightness", "label": "Tight", "tone": "bearish", "pct": 72 },
+      { "name": "Geopolitical Risk", "label": "Elevated", "tone": "bearish", "pct": 80 },
+      { "name": "Demand Response", "label": "Weakening", "tone": "bullish", "pct": 40 },
+      { "name": "Diesel / Gasoil Tightness", "label": "Very Tight", "tone": "bearish", "pct": 78 },
+      { "name": "OPEC+ Policy", "label": "Neutral", "tone": "neutral", "pct": 50 },
+      { "name": "Spare-Capacity Buffer", "label": "Thin", "tone": "bearish", "pct": 28 }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Jan '27)",
+      "value": "$106 – $114",
+      "bias": "Bias: Mildly Lower on Contract Mechanics — Upside Tail Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$113–$115",
+      "support": "$106–$108",
+      "breakout": ">$118 (confirmed Ras Tanura damage / strike decision on Iran)",
+      "breakdown": "<$104 (credible US–Iran diplomatic channel)"
+    }
+  }
+}
