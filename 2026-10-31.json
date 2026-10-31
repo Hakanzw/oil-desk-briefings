@@ -1,0 +1,217 @@
+{
+  "date_long": "Saturday, October 31, 2026",
+  "date_slug": "oct31-2026",
+  "volume": "Vol. I — No. 93",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "CNBC, Reuters (via Yahoo Finance), FinanceFeeds, Rio Times, Trading Economics, EIA, OPEC",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $113.43/bbl ▲ +2.37% (+$2.63)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,478.00/mt ▲ +3.03% (+$43.50)",
+    "NATURAL GAS ~$2.90 ▼ -1.83% (TRADING ECONOMICS, OCT 30)",
+    "TANKER HIT BY HULL-ATTACHED EXPLOSIVES IN HORMUZ — FIRST REPORTED LIMPET-MINE STRIKE OF THE WAR; EXPIRING DEC BRENT SETTLES $117.64, HIGHEST SINCE LATE APRIL",
+    "CNBC: 30+ VESSELS HIT IN OCTOBER, DOUBLE SEPTEMBER; SUPERTANKER FREIGHT NEAR $900K/DAY",
+    "WTI SETTLES $104.12, +2.08%; BRENT UP ~11% IN OCTOBER, FOURTH STRAIGHT MONTHLY GAIN",
+    "EIA: CRUDE -1.9M BBL TO 410.6M, DISTILLATES -1.5M BBL TO 102.8M (WEEK TO OCT 23); NEXT REPORT NOV 4",
+    "OPEC+ CORE SEVEN SEEN HOLDING DECEMBER TARGETS AT ONLINE MEETING SUNDAY NOV 1; US MIDTERMS NOV 3"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$113.43/bbl",
+      "change": "▲ +2.37% (+$2.63)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,478.00/mt",
+      "change": "▲ +3.03% (+$43.50)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude (Friday settle)",
+      "value": "$104.12",
+      "change": "▲ +2.08% (4th monthly gain)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$2.90",
+      "change": "▼ −1.83% (storage build, mild weather)",
+      "direction": "down"
+    },
+    {
+      "label": "US Distillate Stocks",
+      "value": "102.8M bbl",
+      "change": "▼ −1.5M bbl (week to Oct 23)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Brief — A Limpet-Mine Strike in Hormuz Lifts Crude to Six-Month Highs Ahead of OPEC+ and the Midterms",
+    "headline": "Brent Climbs to $113 (Jan '27) as the First Reported Limpet-Mine Hit on a Hormuz Tanker Pushes Expiring December Futures to $117.64",
+    "paragraphs": [
+      "Oil ended the week with a sharp rally. The ICE Brent contract tracked by this desk, the <strong>January 2027 month, was quoted at $113.43 a barrel, up $2.63 or 2.37%</strong>, while Low Sulphur Gasoil (ULS1!) jumped $43.50, or 3.03%, to <strong>$1,478.00 a tonne</strong>. The expiring December Brent contract settled at <strong>$117.64, up 2.4%</strong>, its highest settlement since late April, and WTI closed at $104.12, up 2.08%, according to the Rio Times. Brent gained nearly 11% in October, its fourth straight monthly rise, while WTI advanced about 14%. The roughly $4 gap between December and January reflects contract structure, and January becomes the headline benchmark from Monday. The move leaves crude on track for its strongest monthly run since the war began, and the gasoil jump signals that product markets, not crude alone, are absorbing the shipping-risk premium heading into the weekend.",
+      "The trigger was a tanker struck in the Strait of Hormuz by explosives reportedly attached to its hull by a small boat, according to UKMTO, described as the first successful limpet-mine attack on merchant shipping there since the war began in February. Iran's Revolutionary Guards separately said three tankers hit mines on a southern route, while US Central Command rejected those claims and said the main transit routes were cleared. CNBC reports that at least <strong>30 vessels, mostly oil tankers, were hit in October</strong>, double September's 15, per the International Maritime Organization. Saxo Bank's Ole Hansen flagged Israel's election and the November 3 US midterms as volatility sources over the next two weeks. The conflicting accounts matter because insurers and charterers price on the worst credible report, not on the official all-clear.",
+      "What matters for the desk is how physical flows are coping. Kpler data cited by CNBC show Hormuz crude exports averaging about 11.1 million bpd in October, only 2% below September, yet the week ended Wednesday fell to 7.3 million bpd, more than 40% below the prewar baseline. Tankers are using a costly shuttle system, and supertanker freight from the Gulf of Oman to Asia has surged from $249,000 a day in early September to more than $900,000. That freight and insurance burden, plus reports that Washington has told Gulf allies to prepare for a short, intense campaign after the midterms, explains why dips keep getting bought and why gasoil outperformed crude today. Offsetting forces exist. A Vance letter to Iran's leadership aimed at reviving talks has not been answered, and Polymarket assigns only about a 40% chance of a US–Iran Hormuz agreement by year-end, so the diplomatic downside remains option value rather than a base case."
+    ],
+    "link_url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      {
+        "num": "$113.43",
+        "desc": "Brent (Jan '27), +2.37%; Expiring Dec Brent Settled $117.64, Highest Since Late April"
+      },
+      {
+        "num": "30+",
+        "desc": "Vessels Hit in October as of Oct 27 per IMO — Double September's 15"
+      },
+      {
+        "num": "$900K/day",
+        "desc": "Supertanker Freight, Gulf of Oman to Asia, vs. $249K in Early September"
+      },
+      {
+        "num": "Nov 3",
+        "desc": "US Midterms — Gulf Allies Reportedly Told to Prepare for a Post-Election Campaign"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Hormuz",
+      "headline": "Tanker Struck by Hull-Attached Explosives in Hormuz; Iran's Guards Claim Mine Hits, CENTCOM Disputes",
+      "body": "UKMTO reported that a tanker in the Strait of Hormuz was struck by explosive devices reportedly attached to its hull by a small boat, with no attacker identified. Iran's Revolutionary Guards said three tankers exploded after hitting mines on a southern route, one burning north of Khasab, Oman, and Iran's army reported a fourth vessel damaged east of the waterway. US Central Command rejected the claims, saying the main transit routes were cleared. FinanceFeeds notes a confirmed mine strike on a main route could push Brent toward $120. For crude and diesel, hull-attached charges raise insurance costs and deter owners even when escorts are present, keeping the gasoil crack elevated.",
+      "link_url": "https://financefeeds.com/brent-crude-oil-price-116-friday-hormuz-mine-strikes-december-expiry-fourth-monthly-gain-bull-120-bear-108/",
+      "link_text": "Read FinanceFeeds"
+    },
+    {
+      "tag": "Shipping Costs",
+      "headline": "CNBC: Tankers Defy Escalating Iranian Attacks, but Freight Costs Triple as October Sets Attack Record",
+      "body": "CNBC reports October has seen more attacks on commercial ships than any other point in the war, with at least 30 vessels hit as of October 27 and at least 16 seafarers injured, per the IMO. Braemar's Mary Melton said that on balance oil coming out has not seen a massive impact, but the shuttle system, transferring cargo to tankers in the Gulf of Oman, is inefficient and ties up about 20% of the supertanker fleet. Freight rose to roughly $21 a barrel from $6.50 in September. BIMCO's Jakob Larsen said owners would not take the risk without US air cover. Delivered crude and product costs rise accordingly, supporting Brent and Asian diesel margins.",
+      "link_url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Market Close",
+      "headline": "Expiring December Brent Settles at $117.64, WTI at $104.12 as Oil Posts a Fourth Monthly Gain",
+      "body": "The Rio Times reports the expiring December Brent contract settled at $117.64, up 2.4% and the highest settlement since late April, just short of the wartime closing high of $118.35 set in March, per CNBC. WTI settled at $104.12, up 2.08%. The Baker Hughes oil rig count rose by two to 462. The S&P 500 fell 1.82% on the day, a sign that higher energy costs are feeding inflation worries. Polymarket put an 89% chance on the ceasefire holding through the midterms and about 39.5% on a Hormuz agreement by December 31. WTI moving back below $100 would be an early sign the premium is fading.",
+      "link_url": "https://www.riotimesonline.com/oil-markets-latam-friday-october-30-2026/",
+      "link_text": "Read Rio Times"
+    },
+    {
+      "tag": "Saudi Supply Risk",
+      "headline": "Houthis Claim Strikes on Ras Tanura, Rabigh and Abqaiq; Saudi-Led Coalition Intercepts Cruise Missile",
+      "body": "On Thursday the Houthis said they attacked the Ras Tanura and Rabigh refineries and an Aramco facility at Abqaiq, while a Saudi-led coalition said it intercepted a cruise missile heading for the kingdom's west. The damage claims are unverified, and the incident adds a second front beyond Hormuz. Saul Kavonic of MST Marquee attributed elevated prices to continued kinetic action around the strait amid doubts about a viable diplomatic pathway. Ras Tanura and Rabigh matter for product exports, so any confirmed outage would hit diesel and gasoil more than crude, and would remove part of the thin spare-capacity cushion.",
+      "link_url": "https://financefeeds.com/brent-crude-oil-price-116-friday-hormuz-mine-strikes-december-expiry-fourth-monthly-gain-bull-120-bear-108/",
+      "link_text": "Read FinanceFeeds"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Core Seven Seen Rolling Over December Targets at Sunday Online Meeting; 2027 Quotas Next",
+      "body": "Three sources told Reuters the seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, are likely to keep December production targets unchanged at an online meeting on Sunday, November 1, though no final decision had been made. Gulf producers are lifting exports disrupted for months by the Iran war, but most continue to operate substantially below their established targets. The group is turning to negotiations over 2027 quotas. A rollover is largely priced, and because output is limited by logistics rather than quotas, the decision is neutral to mildly supportive for prices.",
+      "link_url": "https://finance.yahoo.com/energy/articles/opec-expected-maintain-december-oil-103915092.html",
+      "link_text": "Read Reuters (via Yahoo Finance)"
+    },
+    {
+      "tag": "Natural Gas / Inventories",
+      "headline": "US Natural Gas Eases to ~$2.90 on Storage Build; EIA Shows Crude and Distillate Draws",
+      "body": "US natural gas traded near $2.90 per MMBtu on October 30, down about 1.8%, per Trading Economics, after an 80 bcf storage injection against a 75 bcf forecast left stocks 1% above the five-year average. Lower 48 output recovered to about 113.3 bcf per day, and mild weather is forecast through November 13, while LNG feedgas rose to 18.5 bcf per day in October from 17.9 in September. On oil, the latest EIA report for the week to October 23 showed crude stocks down 1.9 million barrels to 410.6 million and distillates down 1.5 million to 102.8 million. The next EIA report is due November 4. Gas oversupply contrasts with tight diesel.",
+      "link_url": "https://tradingeconomics.com/commodity/natural-gas",
+      "link_text": "Read Trading Economics"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 1",
+      "name": "OPEC+ Core Seven Online Meeting — December Targets",
+      "impact": "Reuters sources expect the seven core members to hold December targets steady. The market has priced a rollover, so the signal lies in any language on 2027 quotas and capacity reviews. A surprise increase would be bearish on paper but largely moot, since most Gulf producers pump below target because of logistics and security constraints. Monday's open will show how much of the Sunday decision is already discounted, and the language on 2027 baselines may matter more for the forward curve than the headline.",
+      "market_impact": "±$1–2/bbl; mostly a sentiment event at Monday's open.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Oct 31 – Nov 3",
+      "name": "Hormuz Incident Tracking and Iranian Reply to the Vance Letter",
+      "impact": "Tasnim reported Tehran received a letter from Vice President Vance aimed at reviving talks, with no response yet. Further limpet or mine incidents, or a CENTCOM confirmation that routes are compromised, would push Brent toward $120. A public Iranian reply would reverse part of Friday's rally, with $108 the bear reference. Because Brent is already near wartime highs, asymmetric risk favours the upside on any new incident, while diplomatic relief tends to arrive in smaller, slower steps that the market has repeatedly faded.",
+      "market_impact": "±$3–6/bbl; gasoil likely to move more than crude.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections",
+      "impact": "The Wall Street Journal reported Washington told several Gulf Arab nations to prepare for a short but intense campaign after the vote, while a Democratic Congress could push to end the war. Traders are hedging rather than positioning outright, so the election outcome and any strike-timeline signals will define the next leg. The vote also shapes Washington's appetite to keep escorting tankers, which underpins current flows, so even a non-military outcome could move freight and insurance rates and therefore delivered crude and diesel costs.",
+      "market_impact": "Binary; potential $8–12/bbl move on a confirmed strike decision.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 2 (Monday)",
+      "name": "January Brent Becomes the Headline Contract",
+      "impact": "With December expired, the benchmark quote shifts to January, trading about $4 below the expired contract. Headline Brent will therefore appear lower on Monday without any change in fundamentals. Watch the December–January spread for signs that prompt-supply tightness is persisting, which would support the case for gasoil strength. Spread behaviour matters because backwardation is the market's gauge of prompt scarcity, and a narrowing would hint that the October rally is losing physical conviction despite the headlines.",
+      "market_impact": "Technical; roughly $4/bbl optical shift in quoted Brent.",
+      "risk": "Low"
+    },
+    {
+      "date": "Nov 4",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "After last week's crude draw of 1.9 million barrels and distillate draw of 1.5 million, the report tests whether exports remain strong. Another distillate draw would reinforce the tight diesel narrative and support ULS futures, whereas a build would temper it. It lands the day after the midterms, adding noise. The distillate position, already well below seasonal norms, is the key figure, because refiners are drawing product to meet export demand just as winter heating demand approaches.",
+      "market_impact": "±$1–3/bbl; larger for gasoil on a distillate surprise.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's brief called the market range-bound but jumpy, and Friday resolved that tension to the upside. Brent (Jan '27) finished at <strong>$113.43 (+2.37%)</strong> and gasoil at <strong>$1,478.00/mt (+3.03%)</strong>, with expiring December Brent at a six-month high settlement of $117.64. The first reported limpet-mine strike was the catalyst, and gasoil's bigger percentage gain shows where the physical stress sits. Nothing structural improved overnight: the diplomatic channel is unanswered, the Houthi threat to Saudi refineries remains, and the shipping system is still absorbing record attack counts.",
+      "<strong>My read on the weekend:</strong> the market is paying for uncertainty about tanker safety, not for a measured loss of barrels. Kpler shows October flows only 2% below September, yet freight at $900,000 a day and attacks running at roughly one a day mean the system is working at much higher cost. That cost shows up in delivered crude and in diesel, which is why I give gasoil more weight than crude. I would not read the latest rally as a demand signal; US equities fell 1.82% on Friday, which suggests macro participants see the energy move as an inflation risk rather than a growth story.",
+      "<strong>The bigger picture:</strong> Monday brings a calendar shift, with January Brent replacing December and an optical drop of about $4 that traders should not mistake for weakness. Then comes OPEC+ on Sunday, expected to be a non-event, and the midterms on Tuesday. Hansen's view that crude settles at $70–$90 even after the war ends is a reminder of how much premium sits in current prices. Polymarket pricing of an 89% chance that the ceasefire holds through the vote supports a contained scenario, but a roughly 40% chance of a deal by year-end shows how little relief the market expects.",
+      "My call: <strong>Brent (Jan '27) trades $108–$118 next session</strong>, with a mild upward lean as headline risk outweighs diplomacy. A confirmed main-route mine strike or Saudi outage breaks higher; a credible Iranian reply to Vance is the main route to a sustained break lower. Dips toward $108 look like buying opportunities only if no Iranian reply emerges before Tuesday. Gasoil should keep outperforming crude while distillate stocks sit below seasonal norms and Gulf product exports stay constrained, so the diesel crack is the cleaner expression of this risk than flat price."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 76
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Very Elevated",
+        "tone": "bearish",
+        "pct": 86
+      },
+      {
+        "name": "Demand Response",
+        "label": "Weakening",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Diesel / Gasoil Tightness",
+        "label": "Very Tight",
+        "tone": "bearish",
+        "pct": 82
+      },
+      {
+        "name": "OPEC+ Policy",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 28
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Jan '27)",
+      "value": "$108 – $118",
+      "bias": "Bias: Mildly Higher on Shipping Attacks — Binary Event Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$117–$118",
+      "support": "$108–$110",
+      "breakout": ">$120 (confirmed main-route mine strike / Saudi outage)",
+      "breakdown": "<$105 (credible Iranian reply to Vance letter)"
+    }
+  }
+}
