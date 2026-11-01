@@ -1,0 +1,217 @@
+{
+  "date_long": "Sunday, November 1, 2026",
+  "date_slug": "nov1-2026",
+  "volume": "Vol. I — No. 94",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "ABC News, Reuters (via Business Standard), Middle East Monitor, Democracy Now, CNBC, Gulf News, EIA, OPEC, Trading Economics",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $113.43/bbl ▲ +2.37% (+$2.63)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,478.00/mt ▲ +3.03% (+$43.50)",
+    "NATURAL GAS ~$2.90 ▼ -1.83% (TRADING ECONOMICS, OCT 30)",
+    "IRAN'S GUARDS SAY 4 TANKERS HIT MINES IN HORMUZ, INCLUDING A SUPERTANKER WITH 2M+ BARRELS; OMAN RESCUES 25 CREW",
+    "KHAMENEI ORDERS 'GEOGRAPHICALLY UNRESTRICTED' RESPONSE TO ANY ATTACK; US ALLIES REPORTEDLY WARNED OF STRIKE AS EARLY AS NOV 4",
+    "OPEC+ CORE SEVEN AGREE IN PRINCIPLE TO HOLD DECEMBER TARGETS; 2027 QUOTAS NEXT",
+    "EIA (WEEK TO OCT 23): CRUDE -1.9M BBL TO 410.6M, DISTILLATES -1.5M BBL TO 102.8M; NEXT REPORT NOV 4",
+    "US MIDTERM ELECTIONS TUESDAY NOV 3 — MARKETS OPEN MONDAY INTO MAXIMUM EVENT RISK"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$113.43/bbl",
+      "change": "▲ +2.37% (+$2.63)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,478.00/mt",
+      "change": "▲ +3.03% (+$43.50)",
+      "direction": "up"
+    },
+    {
+      "label": "Brent Dec '26 (expired, Fri settle)",
+      "value": "$117.64",
+      "change": "▲ +2.4% (highest close since late April)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$2.90",
+      "change": "▼ −1.83% (storage build, mild weather)",
+      "direction": "down"
+    },
+    {
+      "label": "US Distillate Stocks",
+      "value": "102.8M bbl",
+      "change": "▼ −1.5M bbl (week to Oct 23)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Escalation — Mines, Threats and a Post-Midterm Strike Timeline",
+    "headline": "Iran Says Four Tankers Hit Mines in Hormuz as Khamenei Orders 'Unrestricted' Retaliation — Brent Sits at $113 Into a Weekend of Strike Reports and an OPEC+ Hold",
+    "paragraphs": [
+      "Markets are closed, so the numbers on the board are Friday's: Brent (Jan '27) at <strong>$113.43 (+2.37%)</strong> and Low Sulphur Gasoil at <strong>$1,478.00/mt (+3.03%)</strong>. What changed over the weekend is the risk around those prices. Iran's Revolutionary Guard said four oil tankers hit mines and caught fire in the Strait of Hormuz on Friday, one of them a supertanker carrying more than 2 million barrels. The Guards said the vessels used unauthorised routes with navigation systems switched off. Oman evacuated 25 crew from a Panama-flagged tanker burning 1.6 nautical miles off Musandam, and the UK Maritime Trade Operations centre reported another vessel struck by an unknown projectile south of Lavan island. Whether the mines are Iranian-laid, as Tehran frames it, or the incidents have other causes is disputed, but the practical effect is identical: insurers and owners price in more risk.",
+      "The political layer is more dangerous still. ABC News reports that Supreme Leader Mojtaba Khamenei ordered military chiefs to answer any attack with an <strong>\"immediate, impactful, and geographically unrestricted response\"</strong> and to update a \"Targets Bank\" covering US and Israeli assets of all kinds. Reports from Washington say Gulf allies were warned of a new assault on Iran as early as <strong>Wednesday, November 4</strong>, the day after the US midterms, and the New York Times reported joint US-Israeli plans. Secretary of State Marco Rubio said Saturday that President Trump has not decided whether to resume military action. Saudi Arabia and Türkiye have urged more time for diplomacy, while Qatar mediates and Foreign Minister Abbas Araghchi called a US outreach effort \"a positive step.\"",
+      "For crude and diesel, the asymmetry is clear. A strike on Iran would likely close what remains of safe passage and invite attacks on Gulf infrastructure, a scenario in which Brent can gap through $120 and gasoil, already the most stressed part of the barrel, moves more. A credible diplomatic opening, by contrast, could strip $8-10 quickly, because the market has priced little relief. Alongside this, OPEC+ is reported to have agreed in principle to hold December targets, which changes little while most members pump below quota. Monday's open will therefore trade the weekend headlines, not fundamentals, and the Tuesday vote is the hinge for the week. Watch the physical signals as closely as the futures: freight, war-risk insurance quotes and the Brent-gasoil spread will show whether shippers are pulling back from the strait after Friday's incidents, which is the earliest sign of real barrel loss rather than sentiment."
+    ],
+    "link_url": "https://abc.net.au/news/2026-10-31/four-tankers-strike-mines-in-strait-of-hormuz/107332392",
+    "link_text": "Read ABC News",
+    "stats": [
+      {
+        "num": "4 tankers",
+        "desc": "Reported Mine Hits in Hormuz Friday per Iran's Guards — Including a 2M+ Barrel Supertanker"
+      },
+      {
+        "num": "$113.43",
+        "desc": "Brent (Jan '27) Friday Close, +2.37%; Expiring Dec Settled $117.64"
+      },
+      {
+        "num": "Nov 4",
+        "desc": "Earliest Reported Date of a New Assault on Iran, the Day After US Midterms"
+      },
+      {
+        "num": "+3.03%",
+        "desc": "Gasoil's Friday Gain to $1,478/mt — Outpacing Crude as Diesel Stays the Tightest Link"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Shipping / Hormuz",
+      "headline": "Iran Says Four Tankers Hit Mines in Hormuz; Oman Rescues 25 Sailors From Burning Panama-Flagged Ship",
+      "body": "The Revolutionary Guard said four oil tankers struck mines and caught fire in the Strait of Hormuz on Friday, including a supertanker carrying more than 2 million barrels, claiming they took unauthorised routes with transponders off. Oman said it evacuated 25 crew from a Panama-flagged tanker that caught fire 1.6 nautical miles off Musandam, though it was unclear whether that was the same incident. UKMTO separately reported a vessel hit by an unknown projectile south of Lavan island, and an Iranian official said two fishermen were missing after attacks on two boats, blaming the US. The cumulative effect is higher war-risk premia and longer voyages, which feed freight and, ultimately, the delivered cost of diesel and gasoil more than headline crude.",
+      "link_url": "https://www.middleeastmonitor.com/20261031-iran-says-4th-oil-tanker-hit-mine-caught-fire-in-strait-of-hormuz",
+      "link_text": "Read Middle East Monitor"
+    },
+    {
+      "tag": "Escalation Risk",
+      "headline": "Khamenei Orders 'Geographically Unrestricted' Response to Any Attack; Allies Reportedly Warned of Strike After Midterms",
+      "body": "Supreme Leader Mojtaba Khamenei posted orders for the military to respond to any attack with an immediate and geographically unrestricted response and to maintain a \"Targets Bank\" of US and Israeli assets, directing allies including Hezbollah and Hamas to take part. Washington reports say US Gulf allies were warned of a possible new assault as early as November 4, and the New York Times reported joint US-Israeli plans for after the midterms. Rubio said Trump has not decided. Araghchi said he does not rule out war. For oil, the risk is a widening target set that includes Gulf export infrastructure, which is why the market holds a high premium despite weak demand signals.",
+      "link_url": "https://abc.net.au/news/2026-10-31/four-tankers-strike-mines-in-strait-of-hormuz/107332392",
+      "link_text": "Read ABC News"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Qatar Mediation Narrows Iran's Hormuz Proposal Timeline From Five Days to Two as Saudi Arabia and Türkiye Urge Patience",
+      "body": "Foreign Minister Abbas Araghchi called a US effort to open dialogue \"a positive step\" and said talks with Qatar had cut the timeline of Iran's Strait of Hormuz proposal from five days to two. Saudi Arabia and Türkiye have urged Trump to give diplomacy more time, while Benjamin Netanyahu is lobbying for a joint US-Israeli operation right after the midterms. The result is two tracks moving in opposite directions at once. A deal that restored even partial safe passage would be sharply bearish for Brent and gasoil, but the weekend incidents and the strike timeline suggest the military track has the momentum, which keeps the distribution of outcomes fat on the upside for the front of the curve.",
+      "link_url": "https://abc.net.au/news/2026-10-31/four-tankers-strike-mines-in-strait-of-hormuz/107332392",
+      "link_text": "Read ABC News"
+    },
+    {
+      "tag": "Tanker Fires",
+      "headline": "Three More Oil Tankers Erupt in Flames Near the Strait of Hormuz, Compounding a Record Month for Attacks",
+      "body": "Democracy Now reported on October 29 that three more oil tankers erupted in flames near the Strait of Hormuz, adding to a run of incidents that, per CNBC's Friday tally, made October a record month for attacks, double September's count, with supertanker freight rates near $900,000 a day. The pattern matters because the market had been treating the strait as a closed but stable bottleneck. Repeated strikes on the vessels that do transit threaten the trickle of flows that has kept the physical market from seizing completely, and they reinforce the move in expiring December Brent to $117.64, the highest settlement since late April. Owners and insurers now decide how much oil moves, regardless of what diplomats say.",
+      "link_url": "https://www.democracynow.org/2026/10/29/headlines/three_more_oil_tankers_erupt_in_flames_near_strait_of_hormuz",
+      "link_text": "Read Democracy Now"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Core Seven Agree in Principle to Hold December Output Targets; Focus Shifts to 2027 Quotas",
+      "body": "Reuters, citing three sources, reported that seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, agreed in principle at Sunday's online meeting to keep December output targets steady. No official communiqué had been confirmed at the time of writing. In September the group completed the phased rollback of a 1.65 million bpd cut first agreed in 2023, and most members still pump well below target because of Iran-war disruption to Gulf exports. Attention now turns to a fourth-quarter review of members' capacity that will set 2027 baselines. For crude, the hold is neutral; the forward-curve signal sits in any language on baselines and spare capacity.",
+      "link_url": "https://www.business-standard.com/amp/world-news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-dec-126110100053_1.html",
+      "link_text": "Read Business Standard (Reuters)"
+    },
+    {
+      "tag": "Gulf Security",
+      "headline": "Saudi Arabia Reports Drone Interception as Iran Warns US and Israel Against Attacks",
+      "body": "Gulf News reported that Saudi Arabia intercepted a drone while Iran warned the US and Israel against attacks and claimed tankers had hit mines in Hormuz. The drone report follows Thursday's Houthi claims of strikes on Saudi facilities, which remain unverified. The relevance for oil is the kingdom's role as the main alternative export route: the East-West pipeline to Yanbu and Red Sea terminals are the pressure valve for Gulf crude and products while Hormuz is impaired. Any confirmed damage there would hit diesel and gasoil hardest and remove part of an already thin spare-capacity buffer. US natural gas, near $2.90, remains the contrast, oversupplied while diesel is tight.",
+      "link_url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-drone-iran-claims-3-tankers-hit-mines-in-hormuz-1.500730393",
+      "link_text": "Read Gulf News"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 1 — Today",
+      "name": "OPEC+ Core Seven Meeting Outcome",
+      "impact": "Sources say the seven core members agreed in principle to hold December targets. The market expected a rollover, so the price signal lies in any communiqué language on 2027 baselines and the capacity review. A surprise increase would be bearish on paper but largely moot because most members pump below quota, constrained by logistics and security rather than policy. Traders should read it alongside freight and insurance signals for confirmation of any move.",
+      "market_impact": "±$1–2/bbl; sentiment event at Monday's open.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 1–3",
+      "name": "Hormuz Incidents and Iranian Reply via Qatar",
+      "impact": "Four reported mine hits and a stated narrowing of Iran's proposal timeline from five days to two make this the live swing factor. A formal Iranian proposal accepted for talks would pull Brent toward the low $100s, while further tanker hits or a Guards statement on closed routes would push January Brent through $117 and widen gasoil's premium. Traders should read it alongside freight and insurance signals for confirmation of any move.",
+      "market_impact": "Binary, headline-driven: −$8 to +$7/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 2 (Monday)",
+      "name": "Asia Open Digests Weekend Headlines",
+      "impact": "The first session after the weekend prices the mine claims, Khamenei's orders and the strike timeline together. Gasoil has been the leading indicator, rising 3.03% on Friday against 2.37% for Brent, so watch whether the middle-distillate premium keeps widening. A gap above Friday's $117 high would signal that traders are pricing a post-midterm strike. Traders should read it alongside freight and insurance signals for confirmation of any move.",
+      "market_impact": "Gap risk both ways; ±$3–5/bbl at the open.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections",
+      "impact": "Reports tie the earliest possible strike on Iran to Wednesday, the day after the vote. Traders are unlikely to add large short positions into the result, and the outcome shapes the White House's calculation on military action and fuel-price politics. Diesel above $6 a gallon makes energy policy a campaign issue, so expect headline volatility on any relief measures. Traders should read it alongside freight and insurance signals for confirmation of any move.",
+      "market_impact": "Event risk concentrated in Nov 3–5.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 4",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The last report showed crude down 1.9 million barrels to 410.6 million and distillates down 1.5 million to 102.8 million. A further distillate draw would confirm that diesel tightness is physical rather than only geopolitical and would support gasoil cracks. A surprise build would be a short-lived bearish counterweight against the headline-driven tape. Traders should read it alongside freight and insurance signals for confirmation of any move.",
+      "market_impact": "±$1–2/bbl; most relevant for diesel and cracks.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Friday's brief called the market range-bound but jumpy, and the weekend has pushed the odds toward the jumpy side. Brent (Jan '27) closed at <strong>$113.43 (+2.37%)</strong> and gasoil at <strong>$1,478.00/mt (+3.03%)</strong>. Nothing has been resolved, but the weekend added four reported mine hits, a Supreme Leader order for unrestricted retaliation, and a reported strike window of November 4. None of that is in Friday's settle, so Monday's open carries gap risk in both directions rather than a clean continuation. The sensible stance is to respect the gap risk, keep exposure sized for a move of several dollars in either direction, and treat Friday's close as a reference point rather than a floor or ceiling.",
+      "<strong>My read on today:</strong> The market is trading a calendar, not a balance sheet. EIA shows crude and distillate draws, and OPEC+ is holding targets, but both are second-order beside the question of whether Washington strikes after the midterms. The mine incidents matter less for lost barrels than for what they do to insurers, owners and freight, which are the real governors of flows through the strait while the diplomats talk. Until that changes, rallies on shipping headlines are likelier to be bought than faded, and dips will need a concrete diplomatic step to hold.",
+      "<strong>The bigger picture:</strong> Gasoil's outperformance is the tell. Diesel stocks are drawing, refinery runs are 92.8% of capacity, and Houthi claims against Ras Tanura and Rabigh put product exports at risk. A confirmed outage there would hit middle distillates before crude. Meanwhile Henry Hub near $2.90 shows gas is oversupplied, so the stress is specific to liquids, and especially diesel, rather than a generalised energy shock. That is why gasoil, not Brent, is the better barometer for how seriously the market takes the weekend news.",
+      "My call: <strong>Brent (Jan '27) trades $108–$119 on Monday</strong>, biased higher into the vote with a violent two-way tail. A credible Iranian reply through Qatar could erase $8 quickly; a confirmed strike order would take $120 out. <strong>Do not size for the middle of the range into Wednesday.</strong> If Tuesday passes without a strike order and Qatar produces a formal channel, the premium can bleed lower; absent that, the path of least resistance remains up."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 77
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Extreme",
+        "tone": "bearish",
+        "pct": 90
+      },
+      {
+        "name": "Demand Response",
+        "label": "Weakening",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Diesel / Gasoil Tightness",
+        "label": "Very Tight",
+        "tone": "bearish",
+        "pct": 84
+      },
+      {
+        "name": "OPEC+ Policy",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 27
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Jan '27)",
+      "value": "$108 – $119",
+      "bias": "Bias: Higher Into Midterms — Binary Strike Risk ▲"
+    },
+    "watch_levels": {
+      "resistance": "$117–$118",
+      "support": "$108–$110",
+      "breakout": ">$120 (US strike on Iran / confirmed Saudi outage)",
+      "breakdown": "<$105 (credible Iranian reply via Qatar)"
+    }
+  }
+}
