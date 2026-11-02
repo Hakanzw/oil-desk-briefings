@@ -1,0 +1,217 @@
+{
+  "date_long": "Monday, November 2, 2026",
+  "date_slug": "nov2-2026",
+  "volume": "Vol. I — No. 95",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "investingLive (citing Reuters), ABC News, Middle East Monitor, Democracy Now, Business Standard (Reuters), Gulf News, EIA, OPEC, TradingView, Trading Economics",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $110.03/bbl ▼ −3.00% (−$3.40)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,435.25/mt ▼ −2.89% (−$42.75)",
+    "NATURAL GAS ~$2.90 ▼ −1.83% (TRADING ECONOMICS, OCT 30 — LATEST RETRIEVED)",
+    "OIL SLIPS AS IRAN SAYS QATAR-BROKERED PLAN COULD REOPEN HORMUZ IN TWO DAYS — THIRD DAY OF DOHA TALKS",
+    "ARAGHCHI: DAY ONE US MEASURES, DAY TWO SHIPPING RESTORED; WASHINGTON YET TO RESPOND PUBLICLY",
+    "RUBIO: TALKS CONTINUE, NO TIMEFRAME KNOWN; TRUMP 'IN NO GREAT HURRY' FOR A DEAL",
+    "IRGC SAYS TWO MORE TANKERS HIT MINES SUNDAY — UNVERIFIED; OPEC+ HOLDS DECEMBER TARGETS A THIRD MONTH",
+    "US MIDTERMS TUESDAY NOV 3; EIA INVENTORY REPORT WEDNESDAY NOV 4"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$110.03/bbl",
+      "change": "▼ −3.00% (−$3.40)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,435.25/mt",
+      "change": "▼ −2.89% (−$42.75)",
+      "direction": "down"
+    },
+    {
+      "label": "Brent Friday Close (Jan '27)",
+      "value": "$113.43",
+      "change": "Reference level before Monday's slide",
+      "direction": ""
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$2.90",
+      "change": "▼ −1.83% (Oct 30, latest retrieved)",
+      "direction": "down"
+    },
+    {
+      "label": "US Distillate Stocks",
+      "value": "102.8M bbl",
+      "change": "▼ −1.5M bbl (week to Oct 23)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Diplomacy Bites — Oil Slides as Iran Floats a Two-Day Hormuz Reopening",
+    "headline": "Brent Falls 3% to $110 as Qatar-Brokered Talks Shrink Iran's Hormuz Timetable to Two Days — But Washington Has Not Answered and Fresh Tanker Attacks Cap the Relief",
+    "paragraphs": [
+      "Oil gave back part of last week's war premium on Monday as the diplomatic track suddenly looked more tangible. Brent (Jan '27) fell <strong>3.00%, or $3.40, to $110.03 per barrel</strong>, from Friday's $113.43 close, while Low Sulphur Gasoil dropped <strong>2.89%, or $42.75, to $1,435.25 per tonne</strong>. According to investingLive, citing Reuters, the move began in early Asian trade as Iran and Qatar held a <strong>third straight day of talks</strong>, with Pakistan also mediating. Traders described the decline as the trimming of geopolitical premium rather than any change in physical supply, which remains constrained while Hormuz flows are disrupted.",
+      "The catalyst was Foreign Minister Abbas Araghchi, who told Al Jazeera that Qatari mediators asked Tehran to compress its original seven-day proposal. The sides settled on <strong>two days</strong>: on day one Washington would take a set of measures, and on day two Hormuz would reopen and navigation return to normal. Iran's conditions are steep, however. They include lifting recently imposed US sanctions, reinstating oil waivers granted in June, reducing the US military presence in the region, recognising shipping routes designated by Iran and Oman, ending the conflict on all fronts including Israel's attacks on Lebanon, and releasing frozen funds, including those held in Qatar.",
+      "The US has not publicly answered. Secretary of State Marco Rubio confirmed talks continue but said he was unaware of any timeframe, and President Trump said negotiations are going fine while he is <strong>in no great hurry</strong> to reach a deal. Meanwhile Iran's Revolutionary Guards said two more tankers hit mines on Sunday, a claim not independently verified. For crude and diesel the setup is binary: a US reply that engages the two-day plan could strip further premium, while silence, more ship incidents or strike speculation after Tuesday's midterms would quickly rebuild it. Expect sharp, headline-driven swings in both directions until Washington speaks."
+    ],
+    "link_url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
+    "link_text": "Read investingLive (Reuters)",
+    "stats": [
+      {
+        "num": "−3.00%",
+        "desc": "Brent (Jan '27) Monday Move to $110.03 — Premium Trimmed, Not Physical Supply"
+      },
+      {
+        "num": "2 days",
+        "desc": "Iran's Qatar-Shortened Hormuz Reopening Timetable, Down From Seven Days"
+      },
+      {
+        "num": "−2.89%",
+        "desc": "Low Sulphur Gasoil to $1,435.25/mt — Diesel Gives Back Part of Friday's Surge"
+      },
+      {
+        "num": "Nov 3",
+        "desc": "US Midterm Elections — Strike Speculation Centres on the Days Immediately After"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Diplomacy",
+      "headline": "Araghchi: Qatar Pushes Iran's Hormuz Plan Down to Two Days; Washington Yet to Respond Publicly",
+      "body": "Iranian Foreign Minister Abbas Araghchi told Al Jazeera that Qatari mediators asked Iran to shorten its original seven-day proposal and the sides agreed on two days: the US would implement a set of measures on day one, and Hormuz would reopen with navigation returning to normal on day two. Talks with Qatar, with Pakistan also mediating, ran for a third straight day. Iran's list of conditions includes lifting new US sanctions, restoring June oil waivers, recognising Iran–Oman shipping routes and releasing frozen funds. Analysts note several demands look hard for Washington to accept quickly. The market treats the plan as a genuine but unproven opening, which is why Brent fell about 3% rather than collapsing.",
+      "link_url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
+      "link_text": "Read investingLive (Reuters)"
+    },
+    {
+      "tag": "US Response",
+      "headline": "Rubio Says Talks Continue but Knows of No Timeframe; Trump 'In No Great Hurry'",
+      "body": "Secretary of State Marco Rubio confirmed that negotiations are continuing but said he was not aware of a timeframe, while President Trump said talks are going fine but that he is in no great hurry to reach a deal. Iran's security chief Mohsen Rezaei, by contrast, called a letter from Vice President JD Vance a changed tone from Washington and 'a very positive sign.' The mismatch in urgency matters for pricing. A Tehran eager for relief and a White House willing to wait leaves the two-day plan in limbo, and traders will sell rallies on diplomatic optimism only while the premium looks excessive. Without a US answer, the downside in Brent and gasoil is limited and fragile.",
+      "link_url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
+      "link_text": "Read investingLive (Reuters)"
+    },
+    {
+      "tag": "Shipping / Hormuz",
+      "headline": "IRGC Claims Two More Tankers Hit Mines Sunday; Earlier Weekend Reports Cited Four Vessels and an Omani Rescue",
+      "body": "Iran's Revolutionary Guards said on Sunday that two tankers struck mines and exploded while transiting Hormuz without Iranian authorisation; the claim has not been independently verified. It follows Friday reports, carried by Middle East Monitor and ABC News, that four tankers were hit, including a supertanker carrying more than 2 million barrels, and that Oman rescued 25 crew from a burning Panama-flagged ship. Iran restricts passage through the strait and says it attacks ships that break its rules. The repeated incidents lift war-risk insurance and freight, which feed the delivered cost of diesel and gasoil even when headline crude falls. They are the main reason the Monday relief was capped.",
+      "link_url": "https://www.middleeastmonitor.com/20261031-iran-says-4th-oil-tanker-hit-mine-caught-fire-in-strait-of-hormuz",
+      "link_text": "Read Middle East Monitor"
+    },
+    {
+      "tag": "Escalation Risk",
+      "headline": "Strike Speculation Persists: Khamenei's 'Unrestricted' Response Order and a Reported Post-Midterm Window",
+      "body": "ABC News reported at the weekend that Supreme Leader Mojtaba Khamenei ordered the military to answer any attack with an immediate and geographically unrestricted response, while Washington reports said Gulf allies had been warned of a possible new assault as early as November 4, the day after the midterms. Rubio said Trump had not decided on resuming military action. Investing coverage today lists speculation about US strikes after Tuesday's election among the risks tempering the price drop. For oil the asymmetry is clear: a strike would likely close what remains of safe passage and expose Gulf infrastructure, a scenario in which Brent could gap well above recent highs, with gasoil moving more.",
+      "link_url": "https://abc.net.au/news/2026-10-31/four-tankers-strike-mines-in-strait-of-hormuz/107332392",
+      "link_text": "Read ABC News"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds December Targets for a Third Month as Focus Turns to 2027 Quotas",
+      "body": "Reuters, citing sources, reported that seven core OPEC+ members agreed in principle at Sunday's online meeting to keep December output targets steady, the third consecutive monthly hold as noted in today's market coverage. The group completed the phased unwinding of its 1.65 million bpd cut in September, and most members are pumping below target because of war disruption to Gulf exports, so the hold changes little for physical supply. The more important signal comes later: a capacity review that will set 2027 baselines and could reopen tensions between members seeking higher quotas and those with less spare capacity. For crude, the decision is neutral; the curve signal lies in any baseline language.",
+      "link_url": "https://www.business-standard.com/amp/world-news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-dec-126110100053_1.html",
+      "link_text": "Read Business Standard (Reuters)"
+    },
+    {
+      "tag": "Inventory",
+      "headline": "EIA: Crude Stocks at 410.6M bbl, Distillates Down 1.5M to 102.8M — Next Report Wednesday",
+      "body": "The latest EIA weekly petroleum status report, for the week ending October 23, showed US commercial crude inventories falling 1.9 million barrels to 410.6 million, while distillate stocks fell 1.5 million barrels to 102.8 million. The distillate draw is the more relevant figure for the diesel complex: low inventories amplify the effect of any export disruption and help explain why gasoil has been more volatile than crude. The next report, covering the week ending October 30, is due Wednesday, November 4, a day after the midterms. A further distillate draw would confirm tight middle-distillate balances even as Brent retreats; a build would add to the bearish case if diplomacy advances.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 2 — Today",
+      "name": "Washington's Answer to Iran's Two-Day Hormuz Plan",
+      "impact": "The market is waiting on a US reply to the Qatar-brokered timetable. Engagement on the day-one measures could extend the slide toward the low $100s, while a rejection or continued silence would let the premium rebuild. Iran's conditions on sanctions, oil waivers and shipping routes make a quick yes unlikely, so headline risk is high in both directions all session.",
+      "market_impact": "Binary: roughly ±$5–8/bbl on a clear US response.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 3",
+      "name": "US Midterm Elections",
+      "impact": "Markets enter the vote with strike speculation attached to the following days. A result that changes the White House's political calculus could affect its appetite for either a deal or military action. Positioning ahead of the vote tends to reduce liquidity, increasing the chance of gaps in Brent and gasoil on Wednesday's Asian open.",
+      "market_impact": "Event-risk premium; gap risk into Nov 4.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 4",
+      "name": "EIA Weekly Petroleum Status Report (Week Ending Oct 30)",
+      "impact": "Follows a 1.9M bbl crude draw and a 1.5M bbl distillate draw in the prior week. Another distillate draw would reinforce the tight diesel narrative and support gasoil cracks despite Monday's decline, while a surprise build would give bears a data-driven argument alongside any diplomatic progress.",
+      "market_impact": "±$1–3/bbl; distillates matter most for gasoil.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Ongoing",
+      "name": "Hormuz Tanker Incidents and War-Risk Premia",
+      "impact": "Iran's Guards claimed two more mine strikes Sunday after four reported Friday. Verification is lacking, but each report lifts insurance and freight, deters owners from transiting, and trims the trickle of barrels still flowing. Confirmed new casualties would erase Monday's relief quickly, especially in middle distillates.",
+      "market_impact": "Supports freight and gasoil; $3–5/bbl on confirmed major incidents.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 4 onward",
+      "name": "Reported Window for a Possible US–Israeli Strike on Iran",
+      "impact": "Reports say Gulf allies were warned of an assault as early as November 4, and Khamenei has ordered a geographically unrestricted response to any attack. Trump has not decided, per Rubio. A strike would threaten Gulf export infrastructure and the Saudi bypass routes, the highest-magnitude upside tail on the calendar.",
+      "market_impact": "Tail risk: Brent could gap through $120 on a strike.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Monday's 3% drop is a reminder of how much of the current price is sentiment about a deal that has not been agreed. Brent at <strong>$110.03</strong> and gasoil at <strong>$1,435.25/mt</strong> fell not because a single barrel returned, but because Iran, through Qatar, put a two-day reopening timetable on the table. I treat that as a real signal, though one that has so far cost the market nothing to price.",
+      "<strong>My read on today:</strong> The reporting is clear that physical supply is unchanged, and the Guards' claim of two more mine strikes on Sunday shows why. Washington has not answered, Rubio knows of no timeframe, and Trump says he is in no hurry. A market that sells $3 on an unreciprocated offer is vulnerable to a sharp reversal if the answer is silence or a strike.",
+      "<strong>The bigger picture:</strong> The calendar is the story. Tuesday's midterms, Wednesday's reported strike window and the EIA report stack three catalysts into 48 hours. Distillates at 102.8 million barrels leave little cushion, so gasoil should keep the higher beta on both sides. OPEC+ holding December targets changes little; most members cannot reach their quotas anyway.",
+      "My call: <strong>Brent trades $104–$114 today</strong>, with a modest downside lean while the Qatar track is alive, but with violent upside if the US rejects the plan or strike reports firm up. <strong>This is a headline market; size positions for gaps, not for trends.</strong> A concrete US reply is the only thing that moves the range."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "High — Hormuz Still Impaired",
+        "tone": "bearish",
+        "pct": 78
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Very Elevated — Strike Window",
+        "tone": "bearish",
+        "pct": 85
+      },
+      {
+        "name": "Demand Outlook",
+        "label": "Soft — Price-Sensitive",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Deal Progress",
+        "label": "Early — No US Reply",
+        "tone": "neutral",
+        "pct": 42
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Acute — Stocks 102.8M bbl",
+        "tone": "bearish",
+        "pct": 75
+      },
+      {
+        "name": "OPEC+ Buffer",
+        "label": "Thin — Hold, Below Quota",
+        "tone": "bearish",
+        "pct": 30
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Jan '27)",
+      "value": "$104 – $114",
+      "bias": "Bias: Modest Downside Lean, Fat Upside Tail — US Reply Decides ▼"
+    },
+    "watch_levels": {
+      "resistance": "$113–$114 (Friday close)",
+      "support": "$104–$106",
+      "breakout": ">$120 (US strike / confirmed Gulf infrastructure damage)",
+      "breakdown": "<$100 (US accepts two-day plan)"
+    }
+  }
+}
