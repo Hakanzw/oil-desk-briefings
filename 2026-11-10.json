@@ -1,0 +1,217 @@
+{
+  "date_long": "Tuesday, November 10, 2026",
+  "date_slug": "nov10-2026",
+  "volume": "Vol. I — No. 103",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters (via Business Recorder), Gulf News, Oilprice.com, Capital Brief, OPEC, EIA, IEA, TradingView",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $91.56/bbl ▼ −1.09% (−$1.01)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,306.50/mt ▼ −2.02% (−$27.00)",
+    "NATURAL GAS ~$3.02 ▲ +0.8% (NOV 9 READING)",
+    "BRENT SETTLED −5.85% MONDAY AT $92.57 — LOWEST SINCE AUG 31 — ON TRUMP'S CONCILIATORY TONE",
+    "TRUMP HOLDS OFF NEW IRAN STRIKES BUT KEEPS HORMUZ NAVAL BLOCKADE; QATAR PM BROKERS $8B INTERIM PROPOSAL",
+    "QATAR DENIES REPORT IRAN DROPPED HORMUZ TOLL DEMAND; US, GULF OFFICIALS SEE NO IMMINENT DEAL",
+    "OPEC+ HOLDS DECEMBER TARGETS; NOV 29 MINISTERIAL SETS 2027 FRAMEWORK",
+    "EIA REPORT MOVED TO THURSDAY NOV 12 (VETERANS DAY HOLIDAY)"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$91.56/bbl",
+      "change": "▼ −1.09% (−$1.01)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,306.50/mt",
+      "change": "▼ −2.02% (−$27.00)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$86.50",
+      "change": "▼ −0.40% (Reuters, early Tuesday)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$3.02",
+      "change": "▲ +0.8% (Nov 9 reading; not refreshed)",
+      "direction": "up"
+    },
+    {
+      "label": "Murban (Gulf Physical)",
+      "value": "$99.17",
+      "change": "▲ +3.4% (Nov 9, Asia — premium to Brent)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Diplomacy Beats Disruption — Brent Slides to Lowest Since Late August as Trump Dials Back Strike Talk",
+    "headline": "Brent Sinks to $91.56 and Gasoil to $1,306.50 After a 5.85% Monday Rout as Trump Holds Off on Iran Strikes but Keeps the Hormuz Blockade",
+    "paragraphs": [
+      "Crude extends its retreat for a second session. Brent (Jan '27) is quoted at <strong>$91.56 per barrel, down 1.09% or $1.01</strong>, while Low Sulphur Gasoil (ULS1!) has fallen harder, to <strong>$1,306.50 per tonne, down 2.02% or $27.00</strong>. Reuters reported WTI near $86.50 early Tuesday, off about 0.4%. The move follows Monday's rout, when Brent settled down $5.75, or 5.85%, at $92.57, its lowest close since August 31, on top of a roughly 16–17% fall last week that was the steepest since the Covid shock. Monday's trigger was President Trump saying US military action against Iran is not necessary \"at this point.\"",
+      "Trump said he would hold off on new strikes after appeals from regional leaders including Qatar's prime minister, but he intends to <strong>keep the naval blockade of Hormuz</strong> in place for now. Tim Waterer of KCM Trade said the market \"continues to prioritise President Trump's more conciliatory tone toward Iran since the midterms,\" and that ship attacks near the strait have not escalated enough to add a fresh risk premium. An Israel Hayom report, citing two diplomatic sources, said Iran had dropped its demand for tolls and approved a Qatari-brokered package: the US lifts its blockade and releases $8 billion frozen in Qatar, while Iran reopens the strait. A Qatari official told Bloomberg the report was false.",
+      "The rally in hope is running ahead of the facts. Reuters quoted US and Gulf officials who do not expect an imminent breakthrough, Secretary of State Rubio called some Iranian demands \"outrageous and ridiculous,\" and Iran's Mohsen Rezaei urged Washington to \"surrender to the seven conditions.\" A similar May memorandum collapsed after tanker attacks. Gulf News adds that Middle East producers are cutting prices to attract buyers as Hormuz flows recover, feeding oversupply worries. Diesel is the notable exception structurally: the IEA expects gasoil tightness into mid-2027, so gasoil's bigger daily drop reflects crude beta and de-escalation sentiment, not a cured distillate shortage."
+    ],
+    "link_url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran",
+    "link_text": "Read Reuters via Business Recorder",
+    "stats": [
+      {
+        "num": "$91.56",
+        "desc": "Brent (Jan '27), −1.09% (−$1.01) on the Day"
+      },
+      {
+        "num": "$1,306.50/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), −2.02% (−$27.00)"
+      },
+      {
+        "num": "−5.85%",
+        "desc": "Brent's Monday Settlement Drop to $92.57, Lowest Since Aug 31"
+      },
+      {
+        "num": "$8B",
+        "desc": "Frozen Iranian Funds in Qatar at Center of Disputed Interim Proposal"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Trump Says US Strikes on Iran Not Needed \"At This Point,\" Keeps Hormuz Blockade",
+      "body": "Reuters reported that Trump said military action against Iran is not necessary \"at this point\" and that he would hold off on new strikes after appeals from regional countries, including Qatar's prime minister. He plans to maintain the naval blockade in the Strait of Hormuz for now. Over the weekend he had said renewed strikes were \"highly unlikely\" if negotiations yield a strong agreement. Tim Waterer of KCM Trade said markets continue to prioritise the more conciliatory tone since the US midterms. For crude and diesel the message is mixed: removing strike risk deflates the war premium, but the retained blockade means no barrels are formally freed, leaving prices hostage to the next headline from Washington or Tehran.",
+      "link_url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran",
+      "link_text": "Read Reuters via Business Recorder"
+    },
+    {
+      "tag": "Markets",
+      "headline": "Brent Settles Down 5.85% at $92.57, Slips Further Tuesday as Premium Drains",
+      "body": "Gulf News, citing Reuters, said Brent settled Monday at $92.57, down $5.75 or 5.85%, and extended losses in post-settlement trade, with OilPrice.com showing $92.25 early in Asia on Tuesday. WTI was down about 4.4% at $86.85. The paper said diplomatic optimism is reducing the premium tied to feared military escalation, and that Middle Eastern producers are cutting prices to attract buyers while recovering Hormuz flows raise oversupply concerns. Murban, the physical Gulf benchmark, bucked the trend at $99.17, a sizeable premium to Brent. That divergence between paper and physical is the key tension: futures are pricing peace, while barrels still carry freight, insurance and rerouting costs.",
+      "link_url": "https://gulfnews.com/business/energy/oil-slides-as-iran-strike-fears-ease-brent-falls-1.500741822",
+      "link_text": "Read Gulf News"
+    },
+    {
+      "tag": "Diplomacy",
+      "headline": "Disputed Report: Iran Drops Hormuz Toll Demand in $8 Billion Qatari-Brokered Package",
+      "body": "Capital Brief reported that Israel Hayom, citing two diplomatic sources, said Iran dropped its demand to charge tolls and control the strait, and approved a Qatari proposal: the US would lift its blockade and unfreeze $8 billion held in Qatar, and Iran would end attacks on shipping. A Qatari official told Bloomberg the report was false and talks continue. Oilprice.com noted Iran would still keep its nuclear programme off the table and that Bessent, Lutnick, Rubio and Hegseth reportedly oppose such terms. Brent fell almost 4% intraday from above $98 to below $94 on the headline alone, which shows how little confirmation the market needs. A denial or a collapse could reverse the move quickly.",
+      "link_url": "https://www.capitalbrief.com/briefing/oil-prices-fall-on-disputed-report-iran-eased-hormuz-demands-1e1fa85e-20d0-4fc7-a395-b1101609b5d4/",
+      "link_text": "Read Capital Brief"
+    },
+    {
+      "tag": "Hard-Line Signals",
+      "headline": "Rubio: Iran's Demands \"Outrageous\"; Araghchi Says Two-Day Hormuz Reopening Offer Stands",
+      "body": "Oilprice.com reports that Secretary of State Marco Rubio, speaking in Florida on Sunday, called Iran's demands \"outrageous and ridiculous\" and said the sides are not close to a breakthrough. Iranian Foreign Minister Abbas Araghchi countered that Iran's offer to reopen Hormuz within two days stands, provided the war ends on all fronts. Reuters adds that Iranian security council chief Mohsen Rezaei urged the US to surrender to Iran's \"seven conditions.\" Both sides reported attacks on vessels near the strait over the weekend, and the Houthis claimed a strike on Aramco offices in Riyadh. The gap between rhetoric and market pricing suggests downside is fragile; a repeat of May's collapsed memorandum would reprice crude sharply higher.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Holds December Targets Steady; November 29 Ministerial to Set 2027 Framework; October Output Rose",
+      "body": "Seven core OPEC+ members kept December targets at September's required levels at a November 1 virtual meeting, extending the pause that began in October after four straight monthly increases, according to reports and the OPEC statement. Many of 2026's headline increases have stayed theoretical because Gulf producers have been constrained by the war. A Reuters survey found OPEC output nonetheless rose in October, led by Saudi Arabia, Kuwait and Iraq, even with export constraints. The November 29 ministerial is the key event: with Hormuz flows recovering and Gulf sellers already discounting, OPEC+ must choose between defending price and recapturing market share in 2027, a decision that could set the crude floor.",
+      "link_url": "https://www.staradvertiser.com/2026/11/01/breaking-news/opec-keeps-december-oil-output-targets-steady-as-iran-war-disrupt-flows/",
+      "link_text": "Read Reuters via Star-Advertiser"
+    },
+    {
+      "tag": "Diesel / Inventories",
+      "headline": "IEA: Diesel Tightness to Last Into Mid-2027; EIA Weekly Report Slips to Thursday, Nov 12",
+      "body": "The IEA's October report, summarised by Oilprice.com, said gasoil and diesel markets tightened in the third quarter against seasonal norms because of refinery disruption in the Middle East and Russia, with inventory rebuilding unlikely before the second half of 2027. Global diesel exports fell 700,000 bpd year on year in September, and diesel prices, though off September's record above $200/bbl, remain nearly double crude. On the US side, the EIA says its next weekly petroleum status report arrives Thursday, November 12, because of the Veterans Day holiday; the last data we have on file showed commercial crude near 409.8 million barrels. Distillate stocks are the number to watch for gasoil.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 10 — Today",
+      "name": "Market Tests the $90 Floor After Monday's 5.85% Rout",
+      "impact": "Brent is trading just above $91 after the lowest close since August 31. Analysts say prices are unlikely to fall below $90 without durable evidence of de-escalation or a signed US–Iran deal. A hold above $90 would signal exhaustion of the sell-off; a clean break would suggest the market is pricing a deal as the base case, with Gulf discounting adding pressure on physical differentials.",
+      "market_impact": "±$2–3/bbl around the $90 pivot.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 10–12",
+      "name": "Qatar–White House Diplomacy on the Interim Hormuz Package",
+      "impact": "Qatar's prime minister is carrying an Iranian proposal to Washington, reportedly involving a lifted blockade and $8 billion in frozen funds, but a Qatari official has denied the toll-dropping report and senior US officials reportedly oppose the terms. Confirmation would push Brent toward the low $80s; a public rejection would likely recover a large part of Monday's loss within a session.",
+      "market_impact": "Binary headline risk: −$6 / +$6 per bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 12",
+      "name": "EIA Weekly Petroleum Status Report (Delayed to Thursday)",
+      "impact": "The Veterans Day holiday moves the release to Thursday, with release times listed at 12:00 and 2:00 P.M. Eastern. With the market focused on diplomacy, a large crude build would amplify the bearish tone, while a distillate draw would support gasoil and the diesel crack despite crude weakness.",
+      "market_impact": "±$1–2/bbl; distillate line matters most for ULS1!.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 10–14",
+      "name": "Hormuz Shipping Incidents and Flow Recovery",
+      "impact": "Attacks near the strait continue, but KCM Trade's Waterer says they have not yet added a fresh risk premium. A major tanker casualty would change that, while steady transits and Gulf producers discounting cargoes would reinforce the oversupply narrative and deepen the Brent–Murban gap.",
+      "market_impact": "Structural; governs the physical-versus-paper gap.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial — 2027 Production Framework",
+      "impact": "Following the November 1 hold on December targets, the group meets to set 2027 quotas. With Gulf output recovering and prices down about 17% in a week, ministers must weigh price defence against market share. Pre-meeting leaks over the coming weeks could move the market well before the date.",
+      "market_impact": "Sets the 2027 price floor; leak-driven volatility ahead.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's column warned that a 17% weekly plunge built on political tone rather than molecules was fragile. Monday and Tuesday have pushed further in the same direction: Brent at <strong>$91.56</strong>, gasoil at <strong>$1,306.50</strong>, and the lowest settlement since August 31. The tape is rewarding any sign that Washington prefers talking to bombing, and traders are not waiting for signatures before cutting risk premium out of the curve.",
+      "<strong>My read on today:</strong> The sell-off has outrun the evidence. A Qatari denial, Rubio's \"outrageous\" language, Rezaei's seven conditions and a still-active US naval blockade are not the ingredients of an imminent deal. What has changed is the <em>probability weighting</em>: strikes are less likely, so the upside tail has thinned. That justifies lower prices, but not a collapse, and the $90 area is where physical reality begins to push back.",
+      "<strong>The diesel angle:</strong> Gasoil fell 2.02% against Brent's 1.09%, but the IEA's view of tight distillates into mid-2027 and diesel prices still near double crude say the crack should stay historically elevated. Gasoil is selling off with crude beta; the structural shortage is untouched. I would expect the crack to widen if Brent keeps sliding and distillate stocks stay thin on Thursday's EIA data.",
+      "My call: <strong>Brent trades $88–$95 today</strong>, with a mild downside bias while diplomacy headlines dominate, but sharp rebounds on any denial or tanker incident. <strong>This is a headline-driven market with thinning conviction in both directions; respect the $90 pivot.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 45
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Falling but Fragile",
+        "tone": "neutral",
+        "pct": 55
+      },
+      {
+        "name": "Demand Response",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Deal Credibility",
+        "label": "Low (Price-Supportive on Failure)",
+        "tone": "bearish",
+        "pct": 35
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 72
+      },
+      {
+        "name": "OPEC+ Policy Risk",
+        "label": "Uncertain",
+        "tone": "neutral",
+        "pct": 50
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Jan '27)",
+      "value": "$88 – $95",
+      "bias": "Bias: Mild Downside, $90 Pivot — Rebound Risk on Denials ▼"
+    },
+    "watch_levels": {
+      "resistance": "$95–$98",
+      "support": "$88–$90",
+      "breakout": ">$98 (talks collapse / tanker casualty)",
+      "breakdown": "<$88 (confirmed US–Iran framework / blockade lifted)"
+    }
+  }
+}
