@@ -1,0 +1,217 @@
+{
+  "date_long": "Wednesday, November 11, 2026",
+  "date_slug": "nov11-2026",
+  "volume": "Vol. I — No. 104",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "CNBC, Reuters (via Investing.com), Oilprice.com, Saxo Bank, ING, LSEG, API, EIA, TradingView",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $92.46/bbl ▲ +1.06% (+$0.97)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,289.00/mt ▲ +0.64% (+$8.25)",
+    "NATURAL GAS ~$3.30 ▲ +2.6% (INTRADAY QUOTE, APPROXIMATE)",
+    "BRENT REBOUNDS FROM TWO-MONTH LOW AS HORMUZ TANKER ATTACKS OFFSET IRAN DE-ESCALATION HOPES",
+    "API: US CRUDE STOCKS +9.0M BBL, DISTILLATES +1.5M BBL — DISTILLATES STILL 13% BELOW 5-YR AVERAGE",
+    "37 SHIPS ATTACKED NEAR HORMUZ IN OCTOBER, A WAR HIGH; 10 MORE SO FAR IN NOVEMBER",
+    "UKRAINIAN DRONES DISRUPT REFINERIES HANDLING ~30% OF RUSSIAN CAPACITY — DIESEL RISK",
+    "EIA WEEKLY REPORT DUE THURSDAY NOV 12 (VETERANS DAY HOLIDAY)"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$92.46/bbl",
+      "change": "▲ +1.06% (+$0.97)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,289.00/mt",
+      "change": "▲ +0.64% (+$8.25)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$86.53",
+      "change": "▲ +0.57% (+$0.49, Reuters, early Wednesday)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$3.30",
+      "change": "▲ +2.64% (live quote, approximate)",
+      "direction": "up"
+    },
+    {
+      "label": "Brent vs. Late-Oct Peak (>$117)",
+      "value": "−21%",
+      "change": "▼ Premium still unwinding (~25% at Tuesday's low)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Paper Peace, Physical War — Brent Bounces Off Two-Month Low as Tanker Attacks Continue",
+    "headline": "Brent Rebounds to $92.46 and Gasoil to $1,289.00 as Hormuz Tanker Attacks Offset Trump's Dovish Tone; API Shows a 9-Million-Barrel US Crude Build",
+    "paragraphs": [
+      "Crude has steadied after a bruising two-week slide. Brent (Jan '27) is quoted at <strong>$92.46 per barrel, up 1.06% or $0.97</strong>, and Low Sulphur Gasoil (ULS1!) at <strong>$1,289.00 per tonne, up 0.64% or $8.25</strong>. Reuters had Brent at $92.20 and WTI at $86.53 in early trading. The bounce follows Tuesday's session, when Brent briefly broke below $90 for the first time since August, touching $89.16, before settling down 1.17% at $91.49 after Iran's security chief Mohsen Rezaei denied that any talks with Washington were under way.",
+      "The driver of the rebound is the physical theatre. The Washington Institute for Near East Policy counted <strong>37 ships attacked</strong> in and around Hormuz in October, the highest monthly total of the war, with ten more already logged in November. Reuters-verified video showed a Navig8 tanker ablaze off Oman on Sunday, UKMTO reported another strike northeast of Oman on Tuesday, and the IRGC Navy said two tankers caught fire after hitting mines. LSEG analysts noted that \"even in the event a deal is struck, an increase in flows through the waterway would still depend on mine clearance,\" adding that \"attacks have not slowed.\"",
+      "On the other side of the ledger, the API reported a <strong>9.0 million barrel</strong> US commercial crude build for the week ended November 6, with distillates up 1.5 million barrels, a bearish crude signal. Yet distillate inventories remain about 13% below the five-year average, and Reuters sources say Ukrainian drones have knocked out refineries handling roughly 30% of Russian capacity since late October. For diesel, that is a fresh supply shock layered on a Middle East refining shortfall. Official EIA data arrive Thursday, delayed by the Veterans Day holiday."
+    ],
+    "link_url": "https://investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
+    "link_text": "Read Reuters via Investing.com",
+    "stats": [
+      {
+        "num": "$92.46",
+        "desc": "Brent (Jan '27), +1.06% (+$0.97) on the Day"
+      },
+      {
+        "num": "$1,289.00/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), +0.64% (+$8.25)"
+      },
+      {
+        "num": "37",
+        "desc": "Ships Attacked Near Hormuz in October — Highest Monthly Total of the War"
+      },
+      {
+        "num": "+9.0M bbl",
+        "desc": "API-Reported US Crude Build, Week Ended Nov 6 (Distillates +1.5M)"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Markets",
+      "headline": "Brent Dips Below $90 for First Time Since August, Then Pares Losses After Iran Denies Talks",
+      "body": "CNBC reported that Brent settled Tuesday down 1.17% at $91.49 after touching a session low of $89.16, while WTI fell 0.93% to $86.04. Prices had initially dropped more than $3 after US officials downplayed new strikes, then recovered once Rezaei denied any negotiations. ING strategists Ewa Manthey and Warren Patterson said the market \"has continued to unwind some of the geopolitical risk premium built into prices,\" but expect crude to stay sensitive to Middle East developments. FGE chairman Fereidun Fesharaki is blunter, arguing the gap between the sides \"cannot be bridged.\" For crude and diesel traders, the lesson is that $90 has become a battleground: dips there attract buyers because physical risk has not gone away.",
+      "link_url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Geopolitics",
+      "headline": "Trump: Iran War Could End \"Fairly Soon,\" but Naval Blockade and \"Operation Iron Gate\" Stay",
+      "body": "After meeting Qatar's prime minister at the White House, Trump said Iran is \"militarily effectively over\" and \"talking very politely\" with Washington, and called new strikes \"quite unlikely.\" CNBC reports he also said Qatar, Saudi Arabia, the UAE, Bahrain and Kuwait prefer the status quo, meaning the continued naval blockade and the newly announced \"Operation Iron Gate\" task force targeting overland arms routes. Reuters, citing a senior Iranian official, said Tehran sent a proposal via Qatari mediators demanding sanctions relief and a new shipping route through Hormuz; Washington is reviewing it. The market reads this as lower strike risk, but with the blockade intact no barrels are formally freed, so the downside in crude looks capped.",
+      "link_url": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Shipping Risk",
+      "headline": "Tankers Burn Off Oman as October Attacks Hit a War High of 37 Ships",
+      "body": "Reuters reports that the Washington Institute for Near East Policy counted 37 vessels attacked in the Strait of Hormuz and surrounding waters in October, the most in any month of the war, with ten more in November so far. Verified video showed a Navig8 tanker on fire off Oman on Sunday; Iranian state media said it was one of three tankers hit for using \"unauthorised routes.\" UKMTO flagged another strike on Tuesday, and the IRGC Navy said two tankers burned after striking mines. LSEG analysts warned flows still depend on mine clearance. Insurance, rerouting and delay costs keep the physical market tighter than futures suggest, which is why Gulf grades trade at a premium to Brent.",
+      "link_url": "https://investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
+      "link_text": "Read Reuters via Investing.com"
+    },
+    {
+      "tag": "Inventories",
+      "headline": "API: US Crude Up 9.0 Million Barrels, Distillates Up 1.5 Million, Cushing Up 182,000",
+      "body": "Oilprice.com, citing API data for the week ended November 6, reports commercial crude stocks rose 9.0 million barrels after a 5.267 million barrel draw the previous week. Gasoline was essentially flat, up 4,000 barrels and about 2% below the five-year average. Distillates rose 1.5 million barrels but remain 13% below the five-year average, and Cushing added 182,000 barrels. The SPR released 2.7 million barrels, leaving it at 279.5 million. US production hit a record 14.003 million bpd in the week to October 30. The crude build is bearish for WTI, but thin distillate cover keeps diesel structurally supported. The official EIA report is due Thursday, November 12, because Wednesday is a federal holiday.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Diesel / Russia",
+      "headline": "Ukrainian Drones Disrupt Refineries Handling ~30% of Russia's Capacity, Threatening Diesel Exports",
+      "body": "Oilprice.com, citing Reuters, reports that Ukrainian strikes since late October have disrupted refineries accounting for about 30% of Russia's processing capacity. Nine of 35 major refineries were hit last week, with affected nameplate capacity near 2.2 million bpd of a 6.8 million bpd total. Industry estimates put the cut in processing at up to 200,000 tonnes per day, and Kirishi, the second-largest plant, caught fire Monday. The strikes land just as Moscow tries to expand diesel supply to the US and international markets under an arrangement announced by Trump in October, initially 300,000 tonnes. Lavrov says the deal is lowering prices, yet domestic shortages are returning. For ULS1!, lost Russian output compounds Middle East refinery outages.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Strikes-Disrupt-30-of-Russias-Oil-Refining-Capacity.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Analysis",
+      "headline": "Saxo's Hansen: Crude Flows Near Pre-War Levels, but LNG and Refined Products Keep Diesel Elevated",
+      "body": "Oilprice.com quotes Ole Hansen of Saxo Bank saying hopes for an end to the eight-month-old conflict strengthened after the US midterms and Trump's comments on Iran. Hansen noted that crude flows have nearly returned to pre-war levels, yet LNG and refined-product supplies remain constrained, keeping prices elevated, especially diesel. Brent fell 17% last week, its biggest weekly drop since 2020, and is down about 25% from its late-October peak above $117 at Tuesday's low. Houthi attacks on Saudi energy infrastructure continue, including a limited fire on the East-West pipeline. The takeaway is that crude has repriced faster than products, so the diesel crack should stay wide while the crude premium keeps draining.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 11 — Today",
+      "name": "Brent Defends the $90 Pivot as Hormuz Attacks Persist",
+      "impact": "Brent is bouncing off Tuesday's $89.16 low, with tanker fires and mine strikes offsetting Trump's conciliatory tone. A hold above $90 suggests the sell-off has exhausted itself; a renewed break lower would signal the market is pricing a deal despite the physical evidence. The Veterans Day holiday thins US liquidity, so headline moves may be exaggerated.",
+      "market_impact": "±$2–3/bbl around the $90 pivot.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 12",
+      "name": "EIA Weekly Petroleum Status Report (Delayed to Thursday)",
+      "impact": "First official confirmation of the API's reported 9.0 million barrel crude build and 1.5 million barrel distillate build. A confirmed large crude build would add to bearish tone for WTI, while any distillate surprise draw would support the gasoil crack, with stocks already 13% below the five-year average.",
+      "market_impact": "±$1–2/bbl; distillate line matters most for ULS1!.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 11–14",
+      "name": "Qatar-Mediated Iran Proposal Under US Review",
+      "impact": "Tehran's proposal, reportedly seeking sanctions relief and a new Hormuz shipping route, is under review in Washington while Rezaei publicly denies talks and Trump keeps the blockade. A positive US response would push Brent toward the low $80s; a rejection or fresh strikes would likely erase this week's losses within sessions.",
+      "market_impact": "Binary headline risk: −$6 / +$6 per bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 11–15",
+      "name": "Russia–Ukraine Abu Dhabi Talks and Refinery Strikes",
+      "impact": "First peace talks since February are under way, but Ukrainian drones keep hitting Russian refineries, with about 30% of capacity disrupted. Progress could eventually ease diesel risk; continued strikes would tighten European diesel supply and lift gasoil cracks, regardless of crude direction. Watch Kirishi restart reports.",
+      "market_impact": "Gasoil-specific upside risk; cracks sensitive.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial — 2027 Production Framework",
+      "impact": "With OPEC output reportedly back near 90% of pre-war levels and Gulf barrels returning, ministers must choose between defending price and recapturing market share for 2027. Pre-meeting leaks over the coming weeks could move prices well ahead of the date, particularly if Brent stays near $90 and Gulf sellers keep discounting cargoes.",
+      "market_impact": "Sets the 2027 price floor; leak-driven volatility ahead.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued the $90 area was where physical reality starts to push back. Tuesday's intraday dip to $89.16, followed by a recovery to <strong>$91.49</strong>, and today's quote of <strong>$92.46</strong> with gasoil at <strong>$1,289.00</strong>, suggest it did. The market gave diplomacy a full hearing, and then tanker fires and a Rezaei denial reminded it that no agreement exists.",
+      "<strong>My read on today:</strong> Futures are pricing peace while the strait is still being attacked. Thirty-seven ships hit in October and ten more in November is not a de-escalating shipping environment, and LSEG is right that even a deal requires mine clearance before flows rise. The API's 9.0 million barrel crude build is a genuine bearish weight, but it is a single, noisy print and the delayed EIA report will decide whether it sticks.",
+      "<strong>The diesel angle:</strong> Gasoil is bouncing less than a percent, but the structural story is intact. US distillates are 13% below the five-year average, the Middle East refining shortfall persists, and Ukrainian drones are now disrupting refineries handling roughly 30% of Russian capacity. Hansen's point that crude has normalised faster than products is the key: I expect the diesel crack to stay wide even if Brent drifts lower.",
+      "My call: <strong>Brent trades $89–$95 today</strong>, with a modest upward bias from a stretched sell-off and ongoing shipping attacks, capped by the inventory build and deal hopes. <strong>Respect $90 as support and $95 as the ceiling until Washington or Tehran gives the market something verifiable.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing (Crude), Tight (Diesel)",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated at Sea",
+        "tone": "bearish",
+        "pct": 62
+      },
+      {
+        "name": "Demand Response",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 50
+      },
+      {
+        "name": "US Inventory Signal",
+        "label": "Bearish (Crude Build)",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 75
+      },
+      {
+        "name": "OPEC+ Policy Risk",
+        "label": "Uncertain",
+        "tone": "neutral",
+        "pct": 50
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude (Jan '27)",
+      "value": "$89 – $95",
+      "bias": "Bias: Stabilising Above $90 — Headline Risk Both Ways ▲"
+    },
+    "watch_levels": {
+      "resistance": "$95–$98",
+      "support": "$89–$90",
+      "breakout": ">$98 (talks collapse / tanker casualty)",
+      "breakdown": "<$88 (confirmed US–Iran framework / blockade lifted)"
+    }
+  }
+}
