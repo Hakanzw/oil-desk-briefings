@@ -1,0 +1,217 @@
+{
+  "date_long": "Friday, November 13, 2026",
+  "date_slug": "nov13-2026",
+  "volume": "Vol. I — No. 106",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Oilprice.com, Reuters (via BOE Report), EIA, CNBC, Kpler (via Oilprice/Bloomberg), CREA/Urgewald (via Oilprice), TradingView",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $95.77/bbl ▼ −0.05% (−$0.05)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,277.50/mt ▲ +2.22% (+$27.75)",
+    "NATURAL GAS (HENRY HUB) ~$3.34 ▲ +3.9% (OILPRICE TICKER, TIMING APPROXIMATE)",
+    "BRENT SPIKED TO ~$96 THURSDAY AFTER TRUMP: \"WE DON'T NEED A DEAL WITH IRAN\"",
+    "EIA: US CRUDE +4.7M BBL, DISTILLATES +4.1M BBL — BOTH FAR ABOVE EXPECTATIONS",
+    "INDIA'S GULF CRUDE IMPORTS (2.1M BPD) TOP RUSSIA'S (1.8M BPD) FOR FIRST TIME SINCE WAR BEGAN",
+    "ASEAN AGREES JOINT EMERGENCY OIL STOCKPILE; EU PAID $9.6B FOR RUSSIAN LNG IN 10 MONTHS",
+    "GASOIL +2.2% AS DISTILLATE BUILD FAILS TO CAP DIESEL RISK PREMIUM"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$95.77/bbl",
+      "change": "▼ −0.05% (−$0.05)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,277.50/mt",
+      "change": "▲ +2.22% (+$27.75)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$88.46",
+      "change": "▼ −0.32% (Oilprice ticker, timing approximate)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas (Henry Hub)",
+      "value": "~$3.34",
+      "change": "▲ +3.89% (Oilprice ticker, approximate)",
+      "direction": "up"
+    },
+    {
+      "label": "Brent vs. Late-Oct High",
+      "value": "≈ −19%",
+      "change": "▼ From ~$118 peak (Oilprice)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Whiplash on Iran — Brent Flat Near $96 After Trump Slams the Door, While US Stocks Build Hard",
+    "headline": "Brent Holds Near $95.77 and Gasoil Climbs 2.2% to $1,277.50/mt as Trump Says US Has \"No Need\" for an Iran Deal — Even as a Surprise US Stock Build Weighs",
+    "paragraphs": [
+      "Crude ended a violent week almost exactly where it started the day. Brent (Jan '27) is quoted at <strong>$95.77/bbl, ▼ −0.05% (−$0.05)</strong>, while Low Sulphur Gasoil (ULS1!) is <strong>▲ +2.22% (+$27.75) at $1,277.50/mt</strong>. The flat headline hides Thursday's whiplash: Brent briefly touched about $96 after President Trump wrote on Truth Social, <strong>\"We don't need a deal with Iran. Those days have long since passed,\"</strong> adding that Washington controls Iran's money and the Strait of Hormuz. That reversed his tone of Monday, when he called the war \"militarily effectively over\" after talks with Qatar's prime minister. Oilprice notes Brent is still about 25% below its late-October high of $118, so peace expectations remain heavily embedded in the price.",
+      "Tehran answered in kind. Mohsen Rezaee, secretary of Iran's Supreme National Security Council, said Iran would not remove any enriched nuclear material from the country, and Iran claimed four tankers were hit by explosions over two days, including supertankers allegedly using unauthorized routes; the claims are unverified. CNBC reports Treasury Secretary Scott Bessent has been moved to a military base amid Iranian threats, and that Secretary of State Marco Rubio has suggested military action may be unnecessary if sanctions and the naval blockade keep working. The result is an uneasy stalemate with intermittent fighting, in which every Truth Social post can move Brent by several dollars within minutes.",
+      "The fundamental backdrop pulled the other way. The EIA reported US crude inventories <strong>rose 4.7 million barrels to 414.4 million</strong> in the week ended November 6, against a Reuters poll expecting a 1.1 million barrel draw, with Cushing up 106,000 barrels. Gasoline rose 1.8 million to 210.8 million and distillates <strong>rose 4.1 million to 103.3 million</strong>, versus an expected 1 million draw. Refinery runs rose 322,000 bpd. Meanwhile Saudi October output jumped about 26%, per Oilprice, but relies on workarounds and ship-to-ship transfers. A bearish US balance sheet and a stubbornly risky Gulf are pulling the market in opposite directions, which explains why Brent keeps ending near the middle of its range."
+    ],
+    "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
+    "link_text": "Read Oilprice.com",
+    "stats": [
+      {
+        "num": "$95.77",
+        "desc": "Brent (Jan '27), ▼ −0.05% (−$0.05)"
+      },
+      {
+        "num": "$1,277.50/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▲ +2.22% (+$27.75)"
+      },
+      {
+        "num": "+4.7M bbl",
+        "desc": "US Crude Stocks to 414.4M; Analysts Expected a 1.1M Draw (EIA via Reuters)"
+      },
+      {
+        "num": "+4.1M bbl",
+        "desc": "US Distillate Stocks to 103.3M; Expected a 1M Draw"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Geopolitics",
+      "headline": "Brent Briefly Hits ~$96 After Trump Says US Has \"No Need\" for Iran Deal",
+      "body": "Brent surged about 3.7% to roughly $96 on Thursday before trimming gains after Trump posted on Truth Social that \"we don't need a deal with Iran,\" claiming Washington controls Iran's money and the Strait of Hormuz. The remark came three days after he called the war \"militarily effectively over\" and on November 2 hinted a settlement was close. Iran's Mohsen Rezaee countered that no enriched nuclear material would leave the country, and Tehran claimed four tankers were struck by explosions over two days, which remains unverified. Oilprice notes Brent is still about 25% below its $118 late-October high. For crude and diesel, the episode shows the market is pricing diplomacy headline by headline, with spikes fading when no new physical disruption is confirmed.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Inventories",
+      "headline": "EIA: US Crude Stocks Jump 4.7M Barrels, Distillates Build 4.1M — Far Above Forecasts",
+      "body": "The EIA reported crude inventories rose 4.7 million barrels to 414.4 million in the week ended November 6, versus a Reuters poll for a 1.1 million barrel draw, per Reuters via BOE Report. Cushing stocks rose 106,000 barrels. Gasoline climbed 1.8 million to 210.8 million against an expected 84,000 barrel draw, and distillates rose 4.1 million to 103.3 million against an expected 1 million draw. Refinery runs rose 322,000 bpd, utilization gained 0.7 percentage points and net crude imports rose 544,000 bpd. The distillate build is the most notable line for diesel: it eases US tightness, but with Russian refining under drone pressure it has not stopped gasoil rising today.",
+      "link_url": "https://boereport.com/2026/11/12/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-3/",
+      "link_text": "Read Reuters via BOE Report"
+    },
+    {
+      "tag": "Sanctions / Security",
+      "headline": "Bessent Moved to Military Base Amid Iranian Threats as US–Iran Stalemate Drags On",
+      "body": "CNBC, citing a New York Times report confirmed by a source, says Treasury Secretary Scott Bessent has moved from his Washington home to a military base for safety amid growing Iranian threats. He leads Operation Economic Outcast, the sanctions campaign launched in August. The Justice Department indicted three Iranian nationals over nearly 20 attacks and attempted attacks in Europe and the US, and the WSJ reported US aircraft were evacuated from an RAF base after an Iranian threat. Rubio reportedly said force may be unnecessary if sanctions and the naval blockade keep working, while Iranian officials deny negotiations exist. For oil, a prolonged blockade-and-sanctions stalemate keeps Iranian barrels off the market and sustains tail risk of escalation.",
+      "link_url": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Asia Demand / Supply",
+      "headline": "India's Gulf Crude Imports Overtake Russia's for First Time Since the War Began",
+      "body": "India's November crude imports from the Persian Gulf reached about 2.1 million bpd versus 1.8 million bpd from Russia, per Bloomberg citing Kpler, the first time Gulf supply has exceeded Russian since the Iran war started. Pre-war Hormuz-routed flows to India averaged about 2.8 million bpd and fell as low as 247,000 bpd in April. The recovery relies on ship-to-ship transfers near India's coast, including the Gulf of Kutch. State refiner BPCL said it would cut Russian purchases in November on high freight costs and premiums. This is mildly bearish for crude as Gulf barrels find buyers again, and it reduces Russian pricing power, but dependence on STS workarounds shows normal logistics are far off.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Boosts-Gulf-Oil-Imports-as-Russian-Crude-Loses-Its-Price-Advantage.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Strategic Reserves",
+      "headline": "ASEAN Agrees Joint Emergency Oil Stockpiling Scheme Over Iran Supply Crisis",
+      "body": "ASEAN agreed to create a joint crude stockpiling scheme, with storage in Indonesia and Thailand, per Reuters as relayed by Oilprice. Members would pay an advance fee for the right to buy a set volume from another member's storage, similar to the EU's system. The Philippines has already asked to buy gasoline and diesel from the Indonesian and Thai sites in an emergency. Indonesia proposed the scheme and Japan strongly backs it. The World Bank warned last month that Asia is running short of money to fight the energy shock, noting subsidies have been the most common response. Government stockpiling adds a structural source of future demand and signals that Asian policymakers expect disruption to persist.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/ASEAN-Moves-to-Build-Emergency-Oil-Reserves-Amid-Iran-Supply-Crisis.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Natural Gas / LNG",
+      "headline": "EU Paid $9.6 Billion for Russian LNG in Ten Months — Already Above All of 2025 Ahead of January Ban",
+      "body": "Between January and October the EU paid about $9.6 billion (8.7 billion euros) for Russian Yamal LNG, per Urgewald estimates from Kpler tracking, above the roughly $8 billion paid in all of 2025. Only about 50 days remain before the full EU ban takes effect on January 1, 2027. Higher prices stem from the Iran war and the Hormuz closure, which cut much of Qatar's LNG supply. CREA data show Russian LNG revenues up 3% in October to $85 million a day, with the EU taking 47% of exports. Oilprice's ticker put Henry Hub near $3.34, up about 3.9%, though timing is approximate. Tight gas keeps energy-switching demand and diesel cracks supported.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Imports-of-Russian-LNG-Top-2025-Value-Ahead-of-January-Ban.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 13 — Today",
+      "name": "Trump–Iran Rhetoric and Tanker Incident Verification",
+      "impact": "After Thursday's reversal, markets will look for confirmation or denial of Iran's claim that four tankers were struck over two days, and for any follow-up from Trump or Rezaee. Verified attacks would add a Hormuz risk premium quickly, while a quiet session lets Brent drift back toward $90 as the stock build asserts itself.",
+      "market_impact": "Binary headline risk: ±$4–6/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 13–15",
+      "name": "Russian Refinery Strikes and Ukraine Talks Follow-Up",
+      "impact": "Drone attacks have disrupted roughly 30% of Russian refining capacity since late October, and a prisoner swap has been agreed without progress on territory. New hits would tighten European diesel supply regardless of the US distillate build, keeping ULS1! volatile after today's 2.2% gain.",
+      "market_impact": "Gasoil-specific; ±$30–60/mt.",
+      "risk": "High"
+    },
+    {
+      "date": "Next week",
+      "name": "US–China Summit",
+      "impact": "Traders cite the summit as a factor keeping global tensions contained. A constructive trade outcome would support demand sentiment, while a breakdown would add macro downside to crude just as US stocks build and OPEC supply recovers.",
+      "market_impact": "±$1–3/bbl on macro sentiment.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 18",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "After this week's surprise builds in crude and distillates, the next print tests whether the build reflects slower exports and higher imports or genuine demand weakness. Another distillate build would pressure gasoil cracks, while a reversal would support them.",
+      "market_impact": "±$1–2/bbl; distillates key for ULS1!.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial — 2027 Framework",
+      "impact": "With Saudi output near 10.6 million bpd and OPEC production recovering toward pre-war levels, ministers must weigh defending price against regaining share. December output was agreed steady. Leaks before the meeting could move prices, especially if Brent stays near $95.",
+      "market_impact": "Pre-meeting drift ±$2–4/bbl.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Brent at <strong>$95.77/bbl</strong>, essentially unchanged on the day, tells you less than the path it took to get there. Thursday's spike toward $96 on a single Truth Social post, followed by a fade, is the signature of a market that cannot decide whether diplomacy or confrontation is the base case. Trump's \"we don't need a deal\" line sits uneasily beside his own talk of positive momentum earlier in the week. I would treat both as noise until tankers or negotiators actually move.",
+      "<strong>My read on today:</strong> The physical data leans bearish. A 4.7 million barrel US crude build against an expected draw, plus gasoline and distillate builds, and Saudi output near pre-war levels, all argue for lower prices. What holds Brent up is the shipping bottleneck: India's imports show Gulf barrels move only through ship-to-ship workarounds, and Iran's tanker claims, even unverified, keep insurers cautious.",
+      "<strong>On gasoil:</strong> ULS1! is <strong>▲ +2.22% (+$27.75) at $1,277.50/mt</strong>, rebounding after Thursday's 7.8% flush. The 4.1 million barrel US distillate build should have capped it, and its failure to do so tells me Europe's diesel tightness, driven by Russian refinery outages and a loss of Gulf product flows, matters more than US stocks. Expect cracks to stay volatile with a bias to hold elevated levels.",
+      "My call: <strong>Brent trades $92–$98 today</strong>, with a neutral-to-slightly-lower bias absent a verified tanker attack. <strong>Headlines buy the spike, barrels sell it.</strong> Note: the Henry Hub gas quote is from an approximate ticker reading, not a timestamped settlement."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "neutral",
+        "pct": 52
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 66
+      },
+      {
+        "name": "Demand Response",
+        "label": "Neutral",
+        "tone": "neutral",
+        "pct": 48
+      },
+      {
+        "name": "Deal Durability",
+        "label": "Bearish (Price)",
+        "tone": "bullish",
+        "pct": 38
+      },
+      {
+        "name": "Hormuz Bottleneck",
+        "label": "Price-Supportive",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 68
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$92 – $98",
+      "bias": "Bias: Neutral — Headline Tail Risk Both Ways ▶"
+    },
+    "watch_levels": {
+      "resistance": "$97–$98",
+      "support": "$91–$92",
+      "breakout": ">$99 (verified tanker attacks)",
+      "breakdown": "<$89 (verified talks + stock builds)"
+    }
+  }
+}
