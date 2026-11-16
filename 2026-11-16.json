@@ -1,0 +1,217 @@
+{
+  "date_long": "Monday, November 16, 2026",
+  "date_slug": "nov16-2026",
+  "volume": "Vol. I — No. 109",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Oilprice.com, The National, Reuters (via Fox News / GV Wire / Boereport), Bloomberg (via Oilprice), IEA, IAEA, Kpler, TradingView",
+  "ticker": [
+    "BRENT CRUDE (JAN '27) $95.26/bbl ▼ −0.61% (−$0.58)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,289.50/mt ▲ +0.16% (+$2.00)",
+    "NATURAL GAS (FUTURES) ~$3.16 ▼ −2.23% (OILPRICE TICKER)",
+    "BRENT SLIPS TO $95.26 AFTER TWO WEEKLY LOSSES; WTI ~$88.30",
+    "IRGC CLAIMS TANKERS HIT BY MINES IN HORMUZ; UKMTO RAISES THREAT LEVEL TO \"SEVERE\"",
+    "IEA: MARKET SET TO RETURN TO SURPLUS — OCTOBER STOCKS BUILT 1.7M BPD",
+    "IRAQ OUTPUT HITS 4.6M BPD, HIGHEST SINCE 2019; OPEC+ 2027 QUOTA MEETING NOV 29",
+    "TRUMP: \"WE DON'T NEED A DEAL WITH IRAN\"; JONES ACT WAIVER EXTENDED 90 DAYS"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$95.26/bbl",
+      "change": "▼ −0.61% (−$0.58)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,289.50/mt",
+      "change": "▲ +0.16% (+$2.00)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$88.30",
+      "change": "▼ −0.29% (−$0.26, Oilprice ticker)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "~$3.16",
+      "change": "▼ −2.23% (Oilprice ticker)",
+      "direction": "down"
+    },
+    {
+      "label": "US Diesel (AAA)",
+      "value": "$6.10/gal",
+      "change": "vs. $3.76 before the war",
+      "direction": ""
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Monday Open — Surplus Signals Meet Hormuz Mine Claims: Brent Drifts Below $96",
+    "headline": "Brent Slips 0.61% to $95.26 as Gasoil Firms to $1,289.50/mt — IEA Sees a Return to Surplus, but Mine Claims and a Stalled Iran Track Keep a Floor Under Distillates",
+    "paragraphs": [
+      "Brent (Jan '27) is quoted at <strong>$95.26/bbl, ▼ −0.61% (−$0.58)</strong>, extending a pullback that left it down about 2.5% last week, its second straight weekly loss, after Friday's $95.84 settlement reported by The National. Low Sulphur Gasoil (ULS1!) moved the other way, <strong>▲ +0.16% (+$2.00) at $1,289.50/mt</strong>, so the diesel complex is again outperforming crude. WTI was near $88.30 on the Oilprice ticker. Early Asian trade, per Reuters via Fox News, showed Brent about 0.2% lower near $95.69 before easing further, as hopes for better global supply outweighed worries about escalation. Brent is roughly 19% below the late-October high near $118, and the market has been oscillating inside a $91–$98 band as headlines, not inventories, set the flat price. The divergence with gasoil is the detail worth watching for refiners and diesel buyers.",
+      "The bearish case rests on the IEA's November report, which said the global oil market is set to return to surplus for the first time since the Iran war began in late February, with crude inventories building 1.7 million bpd in October as Gulf exports recovered faster than demand. Iraq's output hit 4.6 million bpd, the highest since 2019, and Asian crude imports through Hormuz reached 7.4 million bpd in October from 1.6 million in April. The bullish case is security. Iran's Revolutionary Guard claims two oil tankers caught fire after hitting mines, which could not be independently verified. The UK Maritime Trade Operations centre raised the regional threat level to <strong>\"severe,\"</strong> and the Houthis claim strikes on Saudi targets including the East-West pipeline pumping station and Yanbu.",
+      "Diplomacy offers little relief. Trump has said <strong>\"We don't need a deal with Iran. Those days have long since passed,\"</strong> while keeping the naval blockade and economic pressure; reports say he may hold off on new strikes if Tehran and the Houthis avoid fresh provocations, while Israel is reportedly pushing for them. Iran has ruled out the return of IAEA inspectors, and the agency's board meets in Vienna this week. For crude, that means rallies are capped by returning barrels and falls are limited by mine risk and thin insurance appetite. For diesel, with US retail diesel at $6.10 a gallon against $3.76 before the war, the pass-through from softer crude is still weak and gasoil remains the tighter leg of the barrel."
+    ],
+    "link_url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/",
+    "link_text": "Read The National",
+    "stats": [
+      {
+        "num": "$95.26",
+        "desc": "Brent (Jan '27), ▼ −0.61% (−$0.58); Second Weekly Loss Just Behind It"
+      },
+      {
+        "num": "$1,289.50/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▲ +0.16% (+$2.00)"
+      },
+      {
+        "num": "1.7M bpd",
+        "desc": "October Global Stock Build per the IEA, Signalling a Return to Surplus"
+      },
+      {
+        "num": "7.4M bpd",
+        "desc": "Asian Crude Imports via Hormuz in October, up From 1.6M bpd in April"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Wrap",
+      "headline": "Oil Posts Second Weekly Decline as Trump Eases Fears of Renewed War",
+      "body": "Brent finished the week virtually flat at $95.84 a barrel and WTI settled 0.2% lower at $88.56, with both down 2.5% on the week after a roughly 13% plunge the week before, The National reported. Trump indicated he does not plan to resume the Iran war after heavy Republican losses in the midterm elections, and said Washington is no longer seeking an agreement with Tehran. Against that, attacks on Hormuz shipping continued, and the Houthis claimed a hit on a pumping station on Saudi Arabia's East-West pipeline and on the Yanbu installation, a route Riyadh has leaned on for much of its exports since the war began. A firmer dollar and expectations of a December Fed rate rise added to the pressure on dollar-priced commodities. For crude the message is a market rangebound between surplus and security; for diesel it means flat price relief is not guaranteed.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "IEA / Surplus",
+      "headline": "IEA: Market Returns to Surplus for the First Time Since the War Began",
+      "body": "The International Energy Agency's monthly report said the global oil market is set to move into surplus for the first time since the Iran war started in late February, although supplies remain tight in places. Crude inventories rose by 1.7 million barrels per day in October as Gulf exports recovered faster than demand, which has been dented by months of elevated prices. The report is the main fundamental driver behind Brent's slide from nearly $118 at the end of October into the mid-$90s. It also sharpens the question facing OPEC+, which must set 2027 quotas at a November 29 meeting while forecasters warn of excess supply if Gulf flows normalise. The implication for crude is a downward bias on any quiet tape; the implication for diesel is smaller, because product stocks have not built as quickly as crude.",
+      "link_url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/",
+      "link_text": "Read The National"
+    },
+    {
+      "tag": "Supply",
+      "headline": "Iraq's Oil Production Soars to a 2019 High as Hormuz Flows Surge",
+      "body": "Citing the IEA's November report, Oilprice.com said Iraq's October output reached 4.6 million bpd, its highest since 2019, up 540,000 bpd from September and about 170,000 bpd above its OPEC+ quota. Kuwait rose from 1.58 million to 2.03 million bpd but stayed about 650,000 bpd below its ceiling. The IEA put Saudi output up about 1 million bpd to 9.99 million bpd, while Riyadh's own OPEC submission showed 10.563 million bpd, slightly above its quota of roughly 10.5 million. Part of the Saudi jump went into storage, so market supply rose less than production, to 9.2 million bpd in October. The data show the Gulf recovering quickly through Hormuz, partly via smaller tankers transferring to supertankers in the Gulf of Oman, and it explains the surplus narrative weighing on Brent.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Asia Demand",
+      "headline": "Asian Refiners Turn Back to Gulf Oil Despite War Risks",
+      "body": "Chinese, Japanese and Thai refiners are increasingly preferring Middle Eastern cargoes, traders told Bloomberg, with larger volumes coming from Saudi Arabia, the UAE and Qatar. Reuters tanker-tracking data show Asian crude imports via Hormuz at more than 7.4 million bpd in October, up from 1.6 million bpd in April, which brought total Asian imports back to February's pre-war level. Kpler data put India's Hormuz imports at 2.1 million bpd so far in November, ahead of its 1.8 million bpd of Russian crude. Gulf producers have cut official selling prices and regional benchmarks have weakened for weeks, which the article reads as a sign a glut may be building. Freight has eased from record highs but remains costly. For Brent the signal is bearish for spreads; for diesel it points to improving Gulf refinery feedstock availability.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Turn-Back-to-Gulf-Oil-Despite-War-Risks.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Iran / Nuclear",
+      "headline": "Iran Rules Out Return of UN Inspectors as US War Talks Stall",
+      "body": "A restricted IAEA report from Director General Rafael Grossi, seen by Bloomberg, says the agency has lacked continuity of knowledge over Iran's declared highly enriched uranium for more than a year and is \"not able to conclude that there has been no diversion of declared nuclear material.\" Iran has barred inspectors since the June 2025 US and Israeli attacks and refuses a return to regular monitoring under present circumstances. The IAEA says it is ready to resume safeguards at short notice, and the Board of Governors takes up the issue in Vienna this week. Oilprice notes the US and Iran are nowhere near a deal. For oil, a stalled track means the US blockade of Iranian crude persists and the risk premium on Hormuz does not fully drain, supporting a floor under Brent and especially distillates.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Rules-Out-Return-of-UN-Nuclear-Inspectors-as-US-War-Talks-Stall.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Policy / Fuel Prices",
+      "headline": "Trump Extends the Jones Act Waiver for 90 Days Amid $6.10 Diesel",
+      "body": "Trump extended the Jones Act waiver for another 90 days, the longest in the law's history, letting foreign-flagged tankers move oil and other commodities between US ports, a White House official told Reuters. Foreign vessels now need individual approval, with shippers required to show suitable American ships are unavailable; about 300 waivers were granted under the blanket exemptions in March and May but only 48 from August. The White House hopes to contain gasoline, diesel and fertiliser costs. AAA data cited by Oilprice show gasoline at $3.91 a gallon versus $2.98 before the war, and diesel at $6.10 versus $3.76. Critics say savings amount to pennies per gallon. For markets, the extension is a marginal domestic logistics support and underlines how tight US diesel remains even as crude eases.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 16 — Today",
+      "name": "Monday Session: Brent Digests Weekend Hormuz and Bahrain Headlines",
+      "impact": "The weekend brought IRGC claims of tankers hitting mines, a claimed drone attack on a US radar at Bahrain's Al-Rifaa base that Bahrain says it intercepted, and Houthi missile claims on Riyadh. Most were unverified. Unconfirmed claims have tended to fade, but confirmed damage to a loaded tanker or Saudi infrastructure would push Brent back toward the high $90s.",
+      "market_impact": "Headline-driven ±$3–5/bbl.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 16–20 — This Week",
+      "name": "IAEA Board of Governors, Vienna — Iran Uranium Stockpile",
+      "impact": "The board meets after Grossi's report that the agency cannot verify Iran's enriched uranium stockpile. Iran has ruled out inspectors and says enrichment is not a right granted by Germany or France. A censure could harden Tehran's stance and, with the US saying it needs no deal, extend the blockade and Hormuz uncertainty, supporting the risk premium in crude and diesel.",
+      "market_impact": "Sentiment-driven; upside skew for crude.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 18 (approx.)",
+      "name": "EIA Weekly Petroleum Status Report",
+      "impact": "The latest figures I could confirm cover the week ended October 30: crude fell 865,000 barrels to 409.8 million, gasoline fell 222,000 to 209 million, and distillate fell 3.6 million barrels to 99.3 million, a large draw against a forecast 100,000-barrel decline. Another distillate draw would reinforce gasoil's tightness; a crude build would feed the surplus narrative.",
+      "market_impact": "±$1–2/bbl; distillate print matters for gasoil.",
+      "risk": "Medium"
+    },
+    {
+      "date": "By mid-Nov",
+      "name": "OPEC+ Q4 Capacity Review",
+      "impact": "OPEC+ must finish a production-capacity review before 2027 baselines are set, now expected by mid-November because the war delayed Middle East expansion projects. With Iraq above quota and Saudi near it, the review will shape how much room members get for 2027 and how credible the group's discipline looks, a key input to the surplus debate.",
+      "market_impact": "Sets tone for the Nov 29 meeting.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial Meeting — 2027 Quotas",
+      "impact": "All 21 members meet to decide the 2027 production framework. The seven core members have held output flat for December after finishing the unwinding of a 1.65 million bpd cut; another layer of about 2 million bpd covers most members through end-2026. Rystad's Jorge Leon calls 2027 an \"extremely difficult call\" given war uncertainty and a possible surplus. Pre-meeting leaks will move prices.",
+      "market_impact": "Largest scheduled catalyst this month.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Over the past week I argued that crude was caught between a surplus narrative and a risky Gulf, and this morning's tape repeats the pattern. Brent at <strong>$95.26/bbl, ▼ −0.61% (−$0.58)</strong>, is drifting lower after a second weekly loss, while gasoil at <strong>$1,289.50/mt, ▲ +0.16% (+$2.00)</strong>, is quietly holding up. The IEA's call for a return to surplus, with October stocks building 1.7 million bpd, gives the bears a genuine fundamental argument rather than just a headline.",
+      "<strong>My read on today:</strong> the weekend's claims, from IRGC mine reports to Houthi missile claims on Riyadh and a drone attack on a US radar site in Bahrain, were mostly unverified, and the pattern this month is that such claims buy a few dollars that fade by the close. With the UKMTO threat level at \"severe,\" though, I would not treat them as noise. One confirmed loss of a loaded carrier would reprice the week, which is why the downside is cushioned.",
+      "<strong>The bigger picture:</strong> physical flows are recovering faster than politics. Iraq is at a 2019 high, Asian Hormuz imports have returned to pre-war levels, and Gulf producers are discounting OSPs to win buyers. Yet Trump says no deal is needed, Iran bars inspectors, and the blockade stays. That is a surplus market with an unresolved security premium, and the premium is most visible in diesel, with US retail at $6.10.",
+      "My call: <strong>Brent trades $92–$98 today</strong>, with a mild downward bias on surplus data and an upside tail on any verified Hormuz or Saudi damage. Gasoil should outperform crude. <strong>The fade-the-headline trade still works, until a loaded tanker is actually lost.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 38
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Demand Response",
+        "label": "Softening",
+        "tone": "bullish",
+        "pct": 42
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 72
+      },
+      {
+        "name": "OPEC+ Discipline",
+        "label": "Slipping",
+        "tone": "bullish",
+        "pct": 38
+      },
+      {
+        "name": "Hormuz Flow Recovery",
+        "label": "Improving",
+        "tone": "bullish",
+        "pct": 66
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$92 – $98",
+      "bias": "Bias: Mildly Lower on Surplus — Upside Tail on Hormuz ▼"
+    },
+    "watch_levels": {
+      "resistance": "$98–$100",
+      "support": "$91–$92",
+      "breakout": ">$102 (confirmed Hormuz or Saudi damage)",
+      "breakdown": "<$89 (surplus + OPEC+ quota worries)"
+    }
+  }
+}
