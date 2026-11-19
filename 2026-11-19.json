@@ -1,0 +1,217 @@
+{
+  "date_long": "Thursday, November 19, 2026",
+  "date_slug": "nov19-2026",
+  "volume": "Vol. I — No. 112",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Oilprice.com, Reuters (via BOE Report), EIA, API, IEA, OPEC, Bloomberg (via Oilprice), Cornwall Insight, ADNOC, TradingView",
+  "ticker": [
+    "BRENT CRUDE $92.07/bbl ▲ +0.13% (+$0.12)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,171.25/mt ▼ −0.70% (−$8.25)",
+    "NATURAL GAS (FUTURES) ~$3.39 ▲ +0.44% (OILPRICE TICKER)",
+    "EIA: US CRUDE +3.4M BBL, GASOLINE +5.2M, DISTILLATES +1.6M; CUSHING −1.2M",
+    "ADNOC VESSEL ATTACKED IN HORMUZ — ONE CREW MEMBER MISSING, 11 INJURED",
+    "IRAQ OUTPUT HITS 4.6M BPD, HIGHEST SINCE 2019; SAUDI OCTOBER OUTPUT 10.56M BPD",
+    "CORNWALL INSIGHT: UK PRICE CAP TO RISE 26% IN JANUARY ON IRAN WAR GAS COSTS",
+    "OPEC+ MEETS NOV 29 ON 2027 QUOTAS; GOLDMAN SEES BRENT $78 BY END-2027"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$92.07/bbl",
+      "change": "▲ +0.13% (+$0.12)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,171.25/mt",
+      "change": "▼ −0.70% (−$8.25)",
+      "direction": "down"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$83.05",
+      "change": "▼ −0.25% (Oilprice ticker)",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "~$3.39",
+      "change": "▲ +0.44% (Oilprice ticker)",
+      "direction": "up"
+    },
+    {
+      "label": "Heating Oil (NYMEX)",
+      "value": "~$3.94/gal",
+      "change": "Oilprice ticker; undated intraday",
+      "direction": ""
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Thursday Open — EIA Confirms Big US Builds, but Hormuz Attacks Hold Brent Near $92",
+    "headline": "Brent Edges Up 0.13% to $92.07 While Gasoil Slips 0.70% to $1,171.25/mt as EIA Confirms Builds Across Crude, Gasoline and Distillates — ADNOC Vessel Attack Keeps Hormuz Risk Live",
+    "paragraphs": [
+      "Brent is quoted at <strong>$92.07/bbl, ▲ +0.13% (+$0.12)</strong>, essentially flat near the bottom of the $91–$98 range that has framed trade for weeks, while Low Sulphur Gasoil (ULS1!) fell a further <strong>▼ −0.70% (−$8.25) to $1,171.25/mt</strong>, extending a slide that has taken the distillate benchmark from above $1,250 earlier this week to its lowest level in this run. WTI was near $83.05 on the Oilprice ticker. The divergence tells the story: crude is range-bound because supply fears and glut fears offset each other, while diesel keeps deflating as traders bet that product exports normalise and that inventories are rebuilding. Brent was a month ago above $100; it has now shed roughly 8% without any peace deal or ceasefire in the Gulf.",
+      "The official inventory data reinforced the bearish side. The EIA reported on Wednesday that US commercial crude stocks rose <strong>3.4 million barrels to 417.8 million</strong> in the week ended November 13, against analyst expectations in a Reuters poll of a build of only about 58,000 barrels. Gasoline jumped <strong>5.2 million barrels to 215.9 million</strong> versus a forecast 1.6 million build, and distillates rose <strong>1.6 million barrels to 104.9 million</strong>, slightly above the 1.3 million expected. Cushing drew 1.2 million barrels, refinery utilisation rose 0.5 points to 95.7%, and crude exports rose 1.03 million bpd to 4.49 million bpd. Brent fell as much as $1.29 to $91.85 intraday after the release, before recovering. The distillate build is the key detail for diesel: the cushion is thickening.",
+      "The offset is a Strait of Hormuz that remains hazardous. ADNOC Logistics & Services confirmed that one of its vessels was attacked while transiting the strait on the evening of November 17, leaving <strong>one crew member unaccounted for and 11 injured</strong>, a week after another ADNOC vessel was damaged in UAE waters. Iran reports near-daily incidents of tankers striking mines in corridors it calls \"unauthorized,\" and negotiator Mohammad Bagher Ghalibaf told Al Jazeera that navigation will never return to pre-war conditions. For crude, glut headlines cap rallies and Hormuz headlines cushion dips; for diesel, freight and insurance costs are the transmission channel that keeps a floor under gasoil."
+    ],
+    "link_url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/",
+    "link_text": "Read Reuters (via BOE Report)",
+    "stats": [
+      {
+        "num": "$92.07",
+        "desc": "Brent, ▲ +0.13% (+$0.12); Bottom of the $91–$98 Recent Range"
+      },
+      {
+        "num": "$1,171.25/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▼ −0.70% (−$8.25)"
+      },
+      {
+        "num": "+3.4M bbl",
+        "desc": "EIA US Crude Build, Week Ended Nov 13, to 417.8M; Gasoline +5.2M, Distillates +1.6M"
+      },
+      {
+        "num": "95.7%",
+        "desc": "US Refinery Utilisation, Up 0.5 Points; Crude Exports Up 1.03M bpd to 4.49M bpd"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Inventories",
+      "headline": "EIA: US Crude Stocks Rise 3.4M Barrels, Gasoline Jumps 5.2M, Distillates Up 1.6M",
+      "body": "The EIA reported that US commercial crude inventories rose 3.4 million barrels to 417.8 million in the week ended November 13, far above the roughly 58,000-barrel build analysts polled by Reuters had expected. Gasoline stocks rose 5.2 million barrels to 215.9 million against a forecast 1.6 million build, and distillate stocks, covering diesel and heating oil, climbed 1.6 million barrels to 104.9 million versus an expected 1.3 million. Cushing drew 1.2 million barrels, refinery runs fell 129,000 bpd even as utilisation edged up to 95.7%, and net crude imports dropped 2.15 million bpd as exports rose 1.03 million bpd to 4.49 million bpd. Brent dipped to $91.85 after the release. For crude, a third large build in a row feeds the surplus narrative; for diesel, the distillate gain slows the tightening story and helps explain gasoil's slide.",
+      "link_url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/",
+      "link_text": "Read Reuters (via BOE Report)"
+    },
+    {
+      "tag": "Hormuz",
+      "headline": "ADNOC Vessel Attacked in Hormuz — One Crew Member Missing, 11 Injured",
+      "body": "ADNOC Logistics & Services confirmed that one of its vessels was attacked while transiting the Strait of Hormuz on the evening of November 17. One crew member remained unaccounted for early Wednesday, 11 were injured and the rest were evacuated safely. ADNOC said its immediate priority was supporting the search and rescue effort and reiterated \"the importance of protecting seafarers and safeguarding freedom of navigation and maritime security.\" A week earlier, on November 10, another ADNOC L&S vessel was damaged in UAE waters. Iran's IRGC Navy has warned tanker owners that the US-backed southern passage is mined and that cooperating with US military officials would put vessels at risk. For crude, repeated strikes on Gulf-owned shipping keep a geopolitical floor under Brent despite the glut forecasts. For diesel, higher war-risk premiums raise delivered product costs into Europe.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Ship-Attacked-in-Hormuz-as-Maritime-Security-Risks-Rise.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Hormuz Flows",
+      "headline": "Small Tankers Carry a Record Share of Hormuz Crude as Iran Targets Supertankers",
+      "body": "Suezmax and Aframax tankers moved more crude out of the Strait of Hormuz in October than in any month since the war began in February, shipping about 2 million bpd, according to Vortexa data cited by Bloomberg. Most cargoes were transferred ship-to-ship in the Gulf of Oman, with the shift accelerating in September as supertanker attacks hit a wartime high and VLCC rates reached records. Traders said the smaller ships mostly serve routes from Kuwait, Iraq and Qatar. Iran reports nearly daily incidents of tankers hitting mines in corridors it has deemed unauthorized, and Ghalibaf says the 1982 UN Convention on the Law of the Sea does not apply. For crude, the workaround shows the market can route around the chokepoint, which explains the muted price response to attacks. For diesel, higher freight costs per barrel linger in product prices.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Small-Vessel-Trade-Thrives-in-Hormuz-as-Iran-Targets-Supertankers.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "OPEC+ / Supply",
+      "headline": "Iraq Pumps 4.6M bpd, Highest Since 2019; Saudi Output Back Near Pre-War Levels",
+      "body": "Iraq's crude output reached 4.6 million bpd in October, its highest since 2019, according to the IEA's November Oil Market Report, up 540,000 bpd from September and about 170,000 bpd above its OPEC+ quota. Kuwait raised output from 1.58 million to 2.03 million bpd, still about 650,000 bpd under its ceiling. Saudi Arabia reported October production of 10.563 million bpd to OPEC, slightly above a roughly 10.5 million bpd quota, though the IEA estimates 9.99 million bpd. Saudi officials noted part of the jump went straight into storage, so supply to the market was 9.2 million bpd. With OPEC+ due to meet November 29 on 2027 quotas, rising Gulf output complicates discipline. For crude, it adds to the surplus forecasts from the IEA and Goldman; for diesel, it adds crude feedstock for Gulf refiners.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Energy Bills",
+      "headline": "Cornwall Insight: UK Price Cap Set to Jump 26% in January on Iran War Gas Costs",
+      "body": "Consultancy Cornwall Insight said UK household energy bills will rise another 26% from January 2027, taking the typical annual cap to £2,166, up £443 and the highest since 2023. Ofgem had already lifted the cap 4% for October to December, citing higher wholesale gas prices from the Middle East conflict. Craig Lowrey, retail markets principal at Cornwall Insight, said: \"After already climbing in October, energy bills look set to rise again in the new year,\" adding that \"the cause lies thousands of miles away.\" Analysts expect rises of 25% to 30% in the first quarter, and colder January weather would lift consumption further. For oil, expensive gas and power encourage fuel switching to gasoil and heating oil, a structural support for distillates this winter, even as demand destruction caps consumer spending.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-to-Hike-2027-UK-Energy-Bills-to-Four-Year-High.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "US Shale / M&A",
+      "headline": "Diamondback Buys Double Eagle's 40% Midland Basin Stake for About $5 Billion",
+      "body": "Diamondback Energy agreed on Monday to buy Double Eagle's 40% share of their Midland Basin partnership, a deal Reuters valued at about $5.03 billion in cash and stock: $2.15 billion in cash plus roughly 15.56 million shares. The assets cover about 176,000 net acres, with expected 2027 output of 92,000 boe/d including about 35,000 bpd of oil, and more than 1,200 gross horizontal locations. Diamondback expects the deal to be immediately accretive and leverage neutral, with closing planned for December 21. CEO Kaes Van't Hof called it the culmination of the partnership. The company's first full-section Barnett development peaked near 7,500 bpd of oil. For crude, consolidation of core acreage signals US operators are planning long-run growth even at $90 Brent, which supports the 2027 glut thesis; the near-term price impact is minimal.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Diamondback-to-Buy-Double-Eagles-Midland-Stake-for-5-Billion.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 19 — Today",
+      "name": "Gasoil Tests the $1,170/mt Area",
+      "impact": "ULS1! at $1,171.25/mt has now given up more than $80 from earlier-week levels as distillate stocks rebuild. A close below $1,150 would signal the war-driven product premium unwinding faster than expected and compress refining margins. A rebound above $1,220 would suggest positioning-driven selling and put cold-weather demand and refinery outages back in focus.",
+      "market_impact": "Directional: ±$25–40/mt on follow-through.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 19–30",
+      "name": "Hormuz Tanker Attacks and Mines",
+      "impact": "The ADNOC attack, a missing crew member and daily mine reports by Iran mean a verified loss of a loaded tanker, a spill or casualties could revive the risk premium that the market is fading. Conversely, a de-escalation framework via Oman would add to bearish sentiment. Insurance and freight costs are the transmission channel into gasoil.",
+      "market_impact": "Upside tail of +$4–7/bbl on a verified loss.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 20 onward",
+      "name": "European Cold Snap and Gas Storage",
+      "impact": "Forecasts point to a cold spell across much of Europe from about November 20, with EU storage near 70% versus roughly 90% in prior years and UK bills set to jump 26% in January. A sharp TTF rally would raise fuel-switching demand for gasoil, while mild weather would extend the recent gas sell-off and weigh on the distillate floor.",
+      "market_impact": "Supportive for distillates; indirect for Brent.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 25",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "After three large builds, the next print tests whether US stocks keep rising as crude exports of 4.49 million bpd and 95.7% refinery utilisation interact. A fourth consecutive build would confirm the surplus narrative and keep Brent pinned near $91, while a draw would support the lower end of the range and slow gasoil's decline.",
+      "market_impact": "±$1.5–2.5/bbl on a large surprise.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Full Ministerial Meeting — 2027 Quotas",
+      "impact": "The group is due to set the 2027 framework as Iraq produces 4.6 million bpd, Saudi output nears quota and Goldman forecasts Brent at $78 by end-2027. Rolling targets over would be read as defensive, while hints of increases would push Brent toward the low $80s. Quota credibility is the central question.",
+      "market_impact": "Sets the H1 2027 price floor narrative.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued that surplus sets the direction and Hormuz sets the volatility, and that the EIA print would be the swing factor for the products complex. The data delivered: <strong>crude +3.4 million barrels, gasoline +5.2 million, distillates +1.6 million</strong>, all larger than or equal to expectations. Brent is at <strong>$92.07</strong>, up 0.13%, but gasoil has slid a further <strong>0.70% to $1,171.25/mt</strong>. That is a market refusing to rally on risk headlines.",
+      "<strong>My read on today:</strong> the distillate complex is again the more informative tape. Gasoil is losing ground because US distillate stocks are rebuilding, refinery utilisation is at 95.7%, and Gulf producers are lifting output, with Iraq at 4.6 million bpd and Saudi Arabia reporting 10.56 million bpd. The market now believes barrels, including those moved on Suezmaxes and Aframaxes through ship-to-ship transfers, are finding a way out of the Gulf.",
+      "<strong>The bigger picture:</strong> risks remain two-sided but asymmetrical. The downside is a slow grind toward Goldman's $78 end-2027 view, but the upside is jumpy: an ADNOC vessel attack with a crew member missing, Iran insisting that no free waters exist in the strait, and a European cold snap arriving with storage near 70%. Those are reasons why dips toward $90 should keep finding buyers, even as rallies above $95 meet supply.",
+      "My call: <strong>Brent trades $89–$95 today</strong>, with a mildly lower bias and an upside tail on any verified tanker loss or cold-weather gas spike. Gasoil should keep probing $1,150–$1,200 and remains the weaker leg until the winter demand picture clarifies. <strong>The surplus is real, the chokepoint is real. Trade the range and respect the tail.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 32
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 68
+      },
+      {
+        "name": "Demand Response",
+        "label": "Softening",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 50
+      },
+      {
+        "name": "OPEC+ Discipline",
+        "label": "Uncertain",
+        "tone": "neutral",
+        "pct": 45
+      },
+      {
+        "name": "Hormuz Flow Recovery",
+        "label": "Improving",
+        "tone": "bullish",
+        "pct": 65
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$89 – $95",
+      "bias": "Bias: Mildly Lower on Builds — Upside Tail on Hormuz ▼"
+    },
+    "watch_levels": {
+      "resistance": "$95–$96",
+      "support": "$90–$91",
+      "breakout": ">$97 (verified tanker loss)",
+      "breakdown": "<$88 (further builds + OPEC+ supply hints)"
+    }
+  }
+}
