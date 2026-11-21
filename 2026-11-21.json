@@ -1,0 +1,216 @@
+{
+  "date_long": "Saturday, November 21, 2026",
+  "date_slug": "nov21-2026",
+  "volume": "Vol. I — No. 114",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Reuters, CNBC, Oilprice.com, EIA, IEA, Bloomberg, Hydrocarbon Processing, BOE Report",
+  "ticker": [
+    "BRENT CRUDE $92.57/bbl ▲ +0.64% (+$0.59)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,170.25/mt ▲ +0.32% (+$3.75)",
+    "NATURAL GAS (FUTURES) ~$3.41 ▲ +4.38% (OILPRICE TICKER)",
+    "WTI CRUDE ~$83.41 ▲ +1.18% (OILPRICE TICKER)",
+    "IRAN STEPS UP HORMUZ TANKER ATTACKS — WINDWARD: FIVE TANKERS STRUCK NOV 11–18",
+    "IEA: SUPPLY EXCEEDED DEMAND FOR FIRST TIME SINCE WAR; OCT STOCKS +52M BBL",
+    "EU DRAFT: ALIGN EMERGENCY STOCKS WITH DIESEL & JET DEMAND; OPEC+ MEETS NOV 29"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Jan '27)",
+      "value": "$92.57/bbl",
+      "change": "▲ +0.64% (+$0.59)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,170.25/mt",
+      "change": "▲ +0.32% (+$3.75)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "~$83.41",
+      "change": "▲ +1.18% (Oilprice ticker)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "~$3.41",
+      "change": "▲ +4.38% (Oilprice ticker)",
+      "direction": "up"
+    },
+    {
+      "label": "Heating Oil (NYMEX)",
+      "value": "~$3.92/gal",
+      "change": "▼ −0.75% (Oilprice ticker)",
+      "direction": "down"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Read — Brent Edges Up to $92.57 as Hormuz Tanker Attacks Intensify Against a Surplus Backdrop",
+    "headline": "Brent Gains 0.64% to $92.57 and Gasoil Adds 0.32% to $1,170.25/mt as Iran Escalates Tanker Attacks While the IEA Flags a Returning Surplus",
+    "paragraphs": [
+      "Brent is quoted at <strong>$92.57/bbl, ▲ +0.64% (+$0.59)</strong>, while Low Sulphur Gasoil (ULS1!) is at <strong>$1,170.25/mt, ▲ +0.32% (+$3.75)</strong>. WTI sits near $83.41, up about 1.2%, and natural gas futures near $3.41, up 4.4%, on the Oilprice ticker. The modest gains follow a week in which crude drifted lower on surplus forecasts before reversing: Oilprice noted Brent at $92.67 and WTI at $83.06 on Thursday night after an earlier slide. The market is trading as a tug-of-war between a physical glut that is forming on paper and a war that refuses to end, so rallies and dips both lack conviction heading into the Thanksgiving-shortened week.",
+      "The escalation is at sea. Oilprice reported on November 20 that Iran has stepped up tanker attacks in the Strait of Hormuz, with incidents nearly daily in November according to Bloomberg data, after October's attacks hit the highest level since the war began at the end of February. Windward counted <strong>five tankers struck near Hormuz between November 11 and 18</strong>, and ADNOC Logistics & Services confirmed one of its vessels was attacked on the evening of November 17. Windward called it a strategy of <strong>\"maritime attrition\"</strong> unlikely to ease absent diplomatic change. Crude volumes leaving the Strait have declined in recent days, though the cause is not certain. CNBC reported a third US carrier, the USS Theodore Roosevelt, has arrived in the Gulf and that indirect talks via Qatar have stalled.",
+      "The bearish counterweight is supply. The IEA said in its monthly report that global supply exceeded demand for the first time since the war began, with October supply at <strong>105.4 million bpd</strong>, up 2.3 million bpd on September, and observed global stocks rising 52 million barrels, the first build since June. It projects a 6.6 million bpd supply increase in 2027. For diesel the picture differs: the IEA says attacks on Russian energy infrastructure continue to choke off the country's diesel supplies, and the EU is drafting rules to rebuild distillate-heavy emergency stocks. That is why gasoil holds above $1,170/mt even as Brent struggles to hold the low $90s."
+    ],
+    "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Steps-Up-Hormuz-Tanker-Attacks-as-Oil-Prices-Slide.html",
+    "link_text": "Read Oilprice.com",
+    "stats": [
+      {
+        "num": "$92.57",
+        "desc": "Brent, ▲ +0.64% (+$0.59)"
+      },
+      {
+        "num": "$1,170.25/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▲ +0.32% (+$3.75)"
+      },
+      {
+        "num": "5 tankers",
+        "desc": "Struck Near Hormuz Nov 11–18, per Windward"
+      },
+      {
+        "num": "+52M bbl",
+        "desc": "Observed Global Stock Build in October, First Since June (IEA)"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Hormuz",
+      "headline": "Iran Steps Up Hormuz Tanker Attacks as Oil Prices Slide",
+      "body": "Oilprice.com reported on November 20 that Iran has intensified attacks on tankers in the Strait of Hormuz, with incidents nearly daily in November according to Bloomberg data, after October recorded the highest level of attacks since the war began in late February. Windward counted five tankers struck between November 11 and 18, and ADNOC Logistics & Services confirmed one of its vessels was hit on November 17. Signal Group's Maria Bertzeletou said security risks continue to weigh on tanker operations, while Windward called it a campaign of maritime attrition. Crude volumes exiting the Strait have declined in recent days. For crude, this is a persistent risk premium that keeps dips shallow; for diesel, higher freight and insurance costs feed directly into delivered product prices in Europe and Asia.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Steps-Up-Hormuz-Tanker-Attacks-as-Oil-Prices-Slide.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Gulf Escalation",
+      "headline": "Iran Says Army Targeted US Drone and Missile Sites in Kuwait as Gulf Attacks Mount",
+      "body": "CNBC reported on November 18 that Iran said its army targeted US drone and missile installations at Kuwait's Ali Al Salem air base, extending attacks on Gulf states hosting US forces. Kuwait's army said air defenses countered hostile drones, and Bahrain issued an all-clear after intercepting several threats. Diplomacy to end the war, now in its ninth month, appears stalled, and Trump warned Iran would pay an unprecedented price over reported plots, which Secretary of State Marco Rubio said did not amount to an imminent threat. CNBC put Brent at $92.70 and WTI at $84.90 at the time. The risk for crude is spillover onto Gulf export infrastructure, which would tighten supply just as forecasters expect a surplus.",
+      "link_url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply / Surplus",
+      "headline": "IEA: Supply Exceeds Demand for First Time Since War Began; Russian Output Rises",
+      "body": "The IEA's monthly report, via CNBC, showed global oil supply reached 105.4 million bpd in October, up 2.3 million bpd from September and 5.3 million bpd since August, putting supply above demand for the first time since the Iran war began. Observed global inventories rose 52 million barrels, the first increase since June, which the agency called a tentative sign of rebalancing. Russian crude output rose 210,000 bpd to 8.73 million bpd. The IEA raised its fourth-quarter supply estimate by 3.3 million bpd and projects a 6.6 million bpd supply rise in 2027. That is the core bearish case for Brent, though diesel remains tight because product exports from Russia and the Middle East are constrained.",
+      "link_url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Iran / Blockade",
+      "headline": "Iran Moves to Restart Oil Exports Despite US Naval Blockade",
+      "body": "Oilprice.com reported on November 20 that Iran is preparing to resume crude shipments while the US plans to tighten its naval blockade of Iranian ports. Bloomberg, citing United Against Nuclear Iran and Kpler, reported a cargo moved from a sanctioned Suezmax to a non-sanctioned vessel, and US Central Command warned that ships receiving ship-to-ship transfers from Iran-linked vessels can be stopped, boarded, diverted or captured. Iran exported about 2 million bpd in March, nearly all to China, but exports have dried up since July, and output has fallen to 1.8 million bpd, about half of pre-war levels, per Kpler. IRGC-linked media floated a convoy of tankers to China. A confrontation would add risk premium; successful evasion would add modest barrels.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Restart-Oil-Exports-Despite-US-Naval-Blockade.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Europe / Diesel",
+      "headline": "EU Moves to Overhaul Emergency Oil Stockpiles to Cover Diesel and Jet Fuel Gaps",
+      "body": "Bloomberg, via Oilprice.com on November 19, reported the European Commission is drafting rules requiring member states to align emergency reserves with national fuel consumption and refining capacity. Current rules require 90 days of net imports or 61 days of consumption. EU reserves stood at 103.5 million tons in July, including 36.5 million tons of gasoil and diesel, with 13 member states below minimums. The Iran war added an estimated €40 billion to the EU diesel import bill between March and September, and the IEA says members will release 71 million barrels through February, including about 15 million barrels of diesel. Planned approval is early December. Structural stock-building for distillates is a medium-term support for gasoil cracks.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Moves-to-Overhaul-Emergency-Oil-Stockpiles.html",
+      "link_text": "Read Oilprice.com"
+    },
+    {
+      "tag": "Saudi / Houthis",
+      "headline": "Oil Rebounds as Houthi Attacks Reignite Middle East Supply Fears",
+      "body": "Oilprice.com reported on November 19 that crude reversed an earlier weekly decline after media reported Houthi strikes on targets in Riyadh, including the financial district and the sovereign wealth fund headquarters, plus a petrochemicals company in Jubail. Brent was $92.67 and WTI $83.06 at the time of writing. The IRGC said tankers were hitting mines in Hormuz daily this month, with two incidents on Thursday. Against that, the IEA expects surplus to return this quarter and investment banks say the market is already oversupplied, while expectations of a December Fed rate hike and perceived demand destruction weigh on sentiment. Trackers say Gulf flows remain below pre-war levels and have declined since a September rebound.",
+      "link_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html",
+      "link_text": "Read Oilprice.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 21–23 — Weekend",
+      "name": "Hormuz Tanker Incidents and Gulf Strikes",
+      "impact": "With attacks nearly daily, weekend headlines on tanker strikes, Houthi attacks on Saudi targets or Iranian strikes on Gulf bases set Monday's open. A confirmed major hit to export infrastructure would reprice risk quickly, while a quiet weekend lets the surplus narrative reassert and keeps Brent near the low $90s.",
+      "market_impact": "Directional: ±$3–5/bbl on a major incident.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 24–25",
+      "name": "EIA Weekly Petroleum Status Report (Holiday-Shifted)",
+      "impact": "The next report follows the 3.4 million barrel crude build to 417.8 million barrels, with gasoline up 5.2 million. Another build would reinforce the IEA's surplus message; a distillate draw would confirm that diesel tightness persists while crude loosens. Release timing may shift around the US Thanksgiving holiday.",
+      "market_impact": "±$1–2/bbl; distillates matter most for ULS1!.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Monthly Meeting — 2027 Quotas",
+      "impact": "The group held December targets steady and flagged a tougher call on 2027 quotas. With the IEA projecting a 6.6 million bpd supply rise next year, a decision to pause or cut would defend prices, while rolling increases would deepen surplus fears. Pre-meeting leaks are likely through the week.",
+      "market_impact": "Largest scheduled catalyst; ±$3–4/bbl.",
+      "risk": "High"
+    },
+    {
+      "date": "Early Dec",
+      "name": "EU Commission Approval of Emergency Stock Rules",
+      "impact": "The draft would align strategic stocks with diesel and jet demand. Approval would signal long-term structural support for distillates, since governments would need to buy and hold more middle distillates, tightening an already short European diesel market and supporting gasoil cracks over crude.",
+      "market_impact": "Structural; supportive for ULS1! over time.",
+      "risk": "Low"
+    },
+    {
+      "date": "Ongoing",
+      "name": "US Blockade Enforcement vs. Iranian Export Restart",
+      "impact": "CENTCOM has warned it will intercept ship-to-ship transfers, while IRGC-linked media float a convoy to China. A naval standoff would lift the risk premium sharply, while quiet evasion adds a few hundred thousand barrels to a market already moving toward surplus. Stalled Qatar-mediated talks leave little diplomatic offset.",
+      "market_impact": "Two-way risk; escalation skews upside.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued that the market refuses to break either way, and today's tape confirms it. Brent at <strong>$92.57 (+0.64%)</strong> and gasoil at <strong>$1,170.25/mt (+0.32%)</strong> are small moves in a week full of large headlines: nightly tanker strikes, Houthi attacks on Riyadh, a third US carrier in the Gulf, and an IEA report declaring the first supply surplus of the war. Volatility in the news is high; volatility in price is not, which tells me both camps are well positioned.",
+      "<strong>My read on today:</strong> The bearish story is about barrels and the bullish story is about ships. The IEA numbers (105.4 million bpd supply, +52 million barrels of stocks in October) are hard data. The Hormuz attacks are real too, but so far they have reduced flows at the margin rather than closing the Strait. Until attrition turns into a sustained export loss, the surplus narrative should cap rallies near the mid-$90s.",
+      "<strong>The bigger picture:</strong> Diesel is where the two stories diverge. Crude can slide on surplus while distillates stay firm because Russian refining is impaired, the EU is rewriting its stock rules to hold more diesel and jet, and tanker risk raises delivered costs. Gasoil above $1,170/mt with Brent near $92 is a wide crack, and I would not expect it to close quickly. Natural gas, up 4.4% to about $3.41, adds a seasonal firming note.",
+      "My call: <strong>Brent trades $89–$96 on Monday</strong>, with a mild upside bias from the weekend's escalation risk but limited conviction ahead of the November 29 OPEC+ meeting. <strong>Respect the range, fade the first headline, and watch distillates for the real signal.</strong>"
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 75
+      },
+      {
+        "name": "Demand Response",
+        "label": "Soft",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Hormuz Disruption",
+        "label": "Price-Supportive",
+        "tone": "bearish",
+        "pct": 70
+      },
+      {
+        "name": "Diesel Tightness",
+        "label": "Tight",
+        "tone": "bearish",
+        "pct": 72
+      },
+      {
+        "name": "Surplus Narrative",
+        "label": "Bearish (Price)",
+        "tone": "bullish",
+        "pct": 65
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$89 – $96",
+      "bias": "Bias: Range-Bound, Mild Upside Tail ▲"
+    },
+    "watch_levels": {
+      "resistance": "$95–$96",
+      "support": "$89–$90",
+      "breakout": ">$97 (Hormuz escalation)",
+      "breakdown": "<$88 (surplus + OPEC+ adds)"
+    }
+  }
+}
