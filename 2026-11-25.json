@@ -1,0 +1,216 @@
+{
+  "date_long": "Wednesday, November 25, 2026",
+  "date_slug": "nov25-2026",
+  "volume": "Vol. I — No. 118",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "Rigzone, Business Today (Reuters), Invezz, Arab News, EIA, BOE Report, IEA, OPEC, TradingView",
+  "ticker": [
+    "BRENT CRUDE (FEB '27) $87.47/bbl ▼ −1.48% (−$1.31)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,106.25/mt ▲ +0.41% (+$4.50)",
+    "NATURAL GAS (HENRY HUB) ~$3.19 (INDICATIVE, NOV 18)",
+    "OIL EASES AS TRADERS LOOK AHEAD TO NOV 29 OPEC+ OUTPUT DECISION",
+    "IRAN TO TIGHTEN HORMUZ CONTROL UNTIL DEMANDS MET; MORE TANKERS HIT",
+    "IEA: GULF CRUDE EXPORTS BACK TO 74% OF PRE-WAR; Q4 SURPLUS EXPECTED",
+    "EIA (WEEK TO NOV 13): US CRUDE +3.4M BBL TO 417.8M; DISTILLATES +1.6M, 7% BELOW 5-YR AVG"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Feb '27)",
+      "value": "$87.47/bbl",
+      "change": "▼ −1.48% (−$1.31)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,106.25/mt",
+      "change": "▲ +0.41% (+$4.50)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude (Jan)",
+      "value": "$82.05",
+      "change": "▲ +2.4% Tuesday settle (Rigzone); ~$81.58 early Wed (−0.6%)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "~$3.19",
+      "change": "Indicative Henry Hub, Nov 18 (not a verified settle)",
+      "direction": ""
+    },
+    {
+      "label": "US Crude Stocks (EIA)",
+      "value": "417.8M bbl",
+      "change": "▲ +3.4M bbl w/w (week to Nov 13)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Wednesday — Brent Eases to $87.47 as Traders Position Ahead of the OPEC+ Ministerial and Iran Tightens Its Grip on Hormuz",
+    "headline": "Brent Slips 1.48% to $87.47/bbl While Gasoil Firms 0.41% to $1,106.25/mt as OPEC+ Decision and Hormuz Tanker Attacks Collide with Surplus Forecasts",
+    "paragraphs": [
+      "Brent (Feb '27) is quoted at <strong>$87.47/bbl, ▼ −1.48% (−$1.31)</strong>, while Low Sulphur Gasoil (ULS1!) is at <strong>$1,106.25/mt, ▲ +0.41% (+$4.50)</strong>. The divergence between the two is the first thing to notice: crude is giving back ground while diesel feedstock edges higher. Reuters-based reports carried by Business Today said Brent fell 43 cents, or 0.5%, to $90.97 early Wednesday on the January contract, with WTI down 47 cents to $81.58, after Tuesday's rebound. Rigzone reported that on Tuesday Brent for January settled up 2.3% at $91.40 and WTI up 2.4% at $82.05, in thin volumes ahead of the US Thanksgiving holiday, which exaggerated the moves. Contract roll and timing explain the gap to the Feb '27 quote above.",
+      "The driver is the interplay of a loud security story and a quiet surplus story. Iran said it will tighten control of the Strait of Hormuz until its demands are met — lifting the US naval blockade of its ports, easing sanctions and releasing frozen assets — and Supreme National Security Council Secretary Mohsen Rezaee said Tehran is \"firmly determined\" to defy the blockade. More vessels were reported hit near the strait. Against that, the IEA says Persian Gulf crude exports have rebounded to 74% of pre-war levels and expects the market to swing into surplus this quarter, Goldman Sachs has flagged a glut risk next year, and a Dubai timespread flipped into a bearish structure this week. Rigzone noted the 3-2-1 crack spread is at its weakest since March.",
+      "The near-term catalyst is the <strong>OPEC+ ministerial on Sunday, November 29</strong>, which sets 2027 output policy. Iraq has rejected the OPEC+-commissioned assessment of its production capacity, setting up a potential clash over baselines. For diesel, the message is nuanced: broad refining margins are soft, yet gasoil is holding near $1,106/mt, and EIA data show US distillate stocks 7% below the five-year average. Traders should treat Wednesday's EIA report, due today, as a test of whether the glut narrative extends to products, and treat the thin pre-holiday tape as a reason for caution on any single-day move."
+    ],
+    "link_url": "https://rigzone.com/news/wire/oil_climbs_despite_growing_oversupply_fears-24-nov-2026-185160-article",
+    "link_text": "Read Rigzone",
+    "stats": [
+      {
+        "num": "$87.47",
+        "desc": "Brent (Feb '27), ▼ −1.48% (−$1.31)"
+      },
+      {
+        "num": "$1,106.25/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▲ +0.41% (+$4.50)"
+      },
+      {
+        "num": "74%",
+        "desc": "Persian Gulf Crude Exports as Share of Pre-War Levels (IEA)"
+      },
+      {
+        "num": "Nov 29",
+        "desc": "OPEC+ Ministerial on 2027 Output Framework; Iraq Disputes Capacity Assessment"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Reaction",
+      "headline": "Oil Dips After Rally as Traders Look Ahead to OPEC+ Output Decision",
+      "body": "Business Today, carrying Reuters copy, reported that Brent crude futures fell 43 cents, or 0.5%, to $90.97 a barrel by 01:37 GMT on Wednesday, while US West Texas Intermediate fell 47 cents, or 0.6%, to $81.58. The pullback follows Tuesday's rebound, when Rigzone reported Brent for January settled up 2.3% at $91.40 and WTI up 2.4% at $82.05 in thin pre-Thanksgiving trade. WTI has still fallen by more than a fifth this month, though global benchmarks remain more than 40% higher this year. Different data feeds report different contract months, so treat single-day figures cautiously. For crude and diesel, the market is waiting on OPEC+ before committing to a direction.",
+      "link_url": "https://www.businesstoday.com.my/2026/11/25/oil-prices-dip-after-rally-as-traders-look-ahead-to-opec-output-decision/",
+      "link_text": "Read Business Today"
+    },
+    {
+      "tag": "Hormuz / Iran",
+      "headline": "Iran Vows to Tighten Hormuz Control Until Demands Met as More Vessels Are Hit",
+      "body": "Rigzone reported that further tanker attacks overshadowed diplomacy on Tuesday, with more vessels hit in the Strait of Hormuz. Iran says it will tighten control of the waterway until its demands are met: Tehran wants the US naval blockade of its ports lifted, sanctions eased and frozen assets released before fully reopening the strait. Supreme National Security Council Secretary Mohsen Rezaee said Iran is \"firmly determined\" to defy the blockade. US Vice President JD Vance met Qatar's prime minister, and NBC reported officials are weighing whether to target Iran's top leaders. Trump has held off on renewed strikes and reportedly pushed the deadline until after the New Year. The market reads this as a stalemate with a fat upside tail.",
+      "link_url": "https://rigzone.com/news/wire/oil_climbs_despite_growing_oversupply_fears-24-nov-2026-185160-article",
+      "link_text": "Read Rigzone"
+    },
+    {
+      "tag": "Supply / IEA",
+      "headline": "IEA Sees Surplus This Quarter as Gulf Exports Recover to 74% of Pre-War Levels",
+      "body": "Persian Gulf crude exports have rebounded to 74% of pre-war levels, according to the International Energy Agency, which predicts the market will swing to a surplus this quarter. Goldman Sachs has flagged the risk of a glut next year, and a Dubai timespread flipped into a bearish structure this week, a sign that prompt supply is running ahead of demand. Onyx Capital Group's Will Cunliffe said the market remains risk off, with time-spread structure signaling oversupply, while TD Securities' Ryan McKay called the status quo unsustainable for the medium to long term. Rigzone noted observed inventories rose last month but mostly in barrels at sea, while onshore stockpiles remain at their lowest in a decade. That keeps the flat-price downside real yet fragile.",
+      "link_url": "https://rigzone.com/news/wire/oil_climbs_despite_growing_oversupply_fears-24-nov-2026-185160-article",
+      "link_text": "Read Rigzone"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "Iraq Rejects OPEC+ Capacity Assessment, Setting Up Clash at Sunday's Ministerial",
+      "body": "Iraq has rejected an OPEC+-commissioned assessment of its oil production capacity, raising the risk of a clash at the group's key meeting on November 29, where ministers are due to set 2027 output policy and fix how much members can pump. Capacity baselines determine quota allocations, so a dispute with one of the group's largest producers could complicate consensus or delay the framework. Reports indicate the market is already bracing for the group to hold off on further increases. A cautious outcome would put a floor under Brent, while a messy or loosening outcome would feed the surplus narrative and push prices toward the high $70s that JPMorgan has forecast for the first half of 2027.",
+      "link_url": "https://www.businesstoday.com.my/2026/11/25/oil-prices-dip-after-rally-as-traders-look-ahead-to-opec-output-decision/",
+      "link_text": "Read Business Today"
+    },
+    {
+      "tag": "Refined Products",
+      "headline": "Crack Spreads at Weakest Since March, but Distillate Stocks Stay Tight",
+      "body": "Rigzone said the 3-2-1 crack spread, which approximates the margin from turning crude into gasoline and diesel, was at its weakest since March, a sign that product demand is not keeping pace with crude availability. Yet EIA data for the week to November 13 showed US distillate stocks rose 1.6 million barrels but remain 7% below the five-year average, while gasoline rose 5.2 million barrels to 3% above average, and refiners ran at 95.7% of capacity. Gasoil's slight gain to $1,106.25/mt this morning while Brent eased suggests Europe's diesel market is firmer than the broader complex. For diesel buyers, tight onshore distillate cover argues against complacency heading into winter.",
+      "link_url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/amp/",
+      "link_text": "Read BOE Report"
+    },
+    {
+      "tag": "Why Prices Fall",
+      "headline": "Why Are Oil Prices Falling Despite Fresh Attacks in the Strait of Hormuz?",
+      "body": "Invezz asked the question the whole market is wrestling with: why does crude keep sliding when ships are being attacked near the world's most important chokepoint? The answer from analysts is that surplus forecasts, recovering Gulf flows, fading odds of a fresh US strike and a risk-off tone across assets have outweighed the incident-by-incident headlines. Arab News earlier reported Brent near three-month lows as rising supply offset the Hormuz threat. The practical takeaway for traders is that the market now demands confirmed loss of barrels, not just threats, before adding premium, which makes sharp reversals more likely when verified disruption does appear.",
+      "link_url": "https://invezz.com/news/2026/11/24/oil-price-today-brent-below-89-supply-glut-hormuz/",
+      "link_text": "Read Invezz"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 25 — Today",
+      "name": "EIA Weekly Petroleum Status Report (Week to Nov 20)",
+      "impact": "The prior report showed a 3.4M bbl crude build to 417.8M, 3% below the five-year average, with distillates up 1.6M bbl and still 7% below average. Today's print arrives in a thin pre-Thanksgiving tape. A further crude build would reinforce the glut thesis, while a distillate draw would support gasoil and diesel cracks.",
+      "market_impact": "±$1.5–2.5/bbl; confirms or challenges the glut story.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 26",
+      "name": "US Thanksgiving Holiday — Thin Liquidity",
+      "impact": "US markets are closed, so liquidity is thin and moves can be exaggerated, as Tuesday's 2.3% Brent rebound showed. Headline risk from Hormuz or OPEC+ leaks can produce outsized swings with little volume behind them, and positioning ahead of the weekend meeting may dominate.",
+      "market_impact": "Gap risk; wider intraday ranges on headlines.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Nov 25–30",
+      "name": "Hormuz Tanker Attacks and Iran's Tightened Control",
+      "impact": "Iran says it will tighten control of the strait until the blockade is lifted, sanctions eased and assets released. Additional hits on vessels, or any verified drop in loadings, would force the market to add risk premium quickly. Continued flows via IEA-tracked exports at 74% of pre-war would reinforce the contained-incident reading.",
+      "market_impact": "Upside tail of $5+/bbl on confirmed loss of barrels.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial — 2027 Production Framework",
+      "impact": "Ministers set 2027 output policy and capacity baselines, with Iraq disputing its assessment. A pledge to hold increases would offer a floor; a disorderly clash or loosening would deepen the surplus mood and push Brent toward the high $70s. The reaction arrives in Monday's session.",
+      "market_impact": "Sets the 2027 sentiment; headline-driven reaction on Nov 30.",
+      "risk": "High"
+    },
+    {
+      "date": "Dec",
+      "name": "Trump's Iran Deadline and Fed December Meeting",
+      "impact": "Trump reportedly extended his deadline to resume attacks on Iran until after the New Year absent a deal, while NBC reports officials are weighing targeting Iran's leaders. Renewed strike rhetoric is the likeliest trigger for a rebound in the risk premium, while a hawkish Fed would weigh on demand expectations.",
+      "market_impact": "Two-way macro and geopolitical swing factor.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I wrote that surplus was the story and Hormuz the tail. Today's tape, with Brent at <strong>$87.47, down 1.48%</strong>, is consistent with that: a modest pullback after Tuesday's pre-holiday bounce rather than a fresh leg lower. The market is neither buying the attack headlines nor chasing the surplus calls, which is what an undecided tape ahead of an OPEC+ meeting looks like.",
+      "<strong>My read on today:</strong> Thin liquidity ahead of Thanksgiving makes every move look bigger than it is. Tuesday's 2.3% rebound and today's dip are two sides of the same noise. The signal is in the structure: a bearish Dubai timespread, the weakest 3-2-1 crack since March and an IEA surplus call all say the physical market is loosening, even as Iran vows to tighten its grip on Hormuz.",
+      "<strong>The bigger picture:</strong> Diesel remains the relative strength. Gasoil edged up 0.41% to $1,106.25/mt while Brent fell, and US distillate stocks are still 7% below their five-year average. If crude keeps drifting while gasoil holds, the diesel crack widens, which helps refiners but is unwelcome for freight and heating costs this winter. Onshore inventories at decade lows also mean any confirmed disruption hits harder.",
+      "My call: <strong>Brent trades $83–$91 today</strong>, with a flat-to-lower bias into Sunday's OPEC+ ministerial and a fat upside tail on Hormuz. <strong>Surplus sets the drift; Iran and OPEC+ set the jumps.</strong> Keep sizing modest into a holiday-thinned market."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Easing",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 74
+      },
+      {
+        "name": "Demand Response",
+        "label": "Soft",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Inventory Trend",
+        "label": "Building",
+        "tone": "bullish",
+        "pct": 62
+      },
+      {
+        "name": "Diesel Crack Strength",
+        "label": "Firm",
+        "tone": "bearish",
+        "pct": 64
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 32
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$83 – $91",
+      "bias": "Bias: Flat / Lower — Tail Risk Up ▼"
+    },
+    "watch_levels": {
+      "resistance": "$91–$93",
+      "support": "$83–$85",
+      "breakout": ">$93 (confirmed flow loss)",
+      "breakdown": "<$80 (OPEC+ loosening / big EIA build)"
+    }
+  }
+}
