@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OIL DESK — Market Briefing | Thursday, November 26, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0d0d; --paper: #f5f0e8; --crude: #c8500a; --crude-dark: #8b3508;
+    --crude-light: #e8813a; --gold: #d4a017; --green: #2d6a4f; --red: #9b1d20;
+    --muted: #6b6055; --rule: #c5b89a; --column-bg: #ede8de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; line-height: 1.6; font-size: 15px; }
+  header { background: var(--ink); color: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .header-ticker { background: var(--crude); padding: 6px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 40s linear infinite;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.05em; color: #fff; }
+  @keyframes ticker { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
+  .masthead-inner { max-width: 1100px; margin: 0 auto; padding: 36px 40px 28px; display: grid;
+    grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #333; }
+  .masthead-left { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; }
+  .masthead-title { text-align: center; }
+  .masthead-title .pub-name { font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    letter-spacing: 0.12em; line-height: 1; color: var(--paper); }
+  .masthead-title .pub-sub { font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: var(--crude-light); letter-spacing: 0.08em; margin-top: 4px; }
+  .masthead-right { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888;
+    text-transform: uppercase; letter-spacing: 0.1em; line-height: 2; text-align: right; }
+  .prices-bar { max-width: 1100px; margin: 0 auto; padding: 16px 40px; display: flex;
+    gap: 40px; justify-content: center; }
+  .price-item { text-align: center; }
+  .price-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.1em; }
+  .price-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.05em;
+    line-height: 1; color: var(--paper); }
+  .price-change { font-family: 'IBM Plex Mono', monospace; font-size: 11px; margin-top: 2px; }
+  .up { color: #5cb85c; } .down { color: #e05252; }
+  .price-divider { width: 1px; background: #333; align-self: stretch; margin: 4px 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 40px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.25em;
+    color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+  .section-header::before, .section-header::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .lead-story { display: grid; grid-template-columns: 1fr 380px; gap: 40px; padding: 32px 0;
+    border-bottom: 2px solid var(--ink); }
+  .lead-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 10px; }
+  .lead-story h3 { font-family: 'Playfair Display', serif; font-size: 34px; line-height: 1.2;
+    font-weight: 700; margin-bottom: 16px; color: var(--ink); }
+  .lead-story p { color: #444; font-size: 15.5px; margin-bottom: 14px; }
+  .lead-sidebar { border-left: 3px solid var(--crude); padding-left: 28px; display: flex;
+    flex-direction: column; gap: 28px; }
+  .stat-block { background: var(--column-bg); padding: 18px 20px; border-radius: 2px; }
+  .stat-block .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--crude); }
+  .stat-block .stat-desc { font-size: 12px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.07em; }
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--rule);
+    border: 1px solid var(--rule); margin-bottom: 4px; }
+  .news-card { background: var(--paper); padding: 24px 22px; transition: background 0.2s; }
+  .news-card:hover { background: var(--column-bg); }
+  .news-card .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--rule);
+    line-height: 1; margin-bottom: 4px; }
+  .news-card .card-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--crude); font-weight: 600; margin-bottom: 8px; }
+  .news-card h4 { font-family: 'Playfair Display', serif; font-size: 17px; line-height: 1.3;
+    font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .news-card p { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--crude); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid var(--crude-light); padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s; }
+  .read-link:hover { color: var(--crude-dark); border-color: var(--crude-dark); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table thead tr { background: var(--ink); color: var(--paper); }
+  .events-table thead th { padding: 12px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; text-align: left; font-weight: 600; }
+  .events-table tbody tr { border-bottom: 1px solid var(--rule); transition: background 0.15s; }
+  .events-table tbody tr:hover { background: var(--column-bg); }
+  .events-table tbody td { padding: 14px 18px; font-size: 13.5px; vertical-align: top; }
+  .event-date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--crude);
+    font-weight: 600; white-space: nowrap; }
+  .event-name { font-weight: 500; color: var(--ink); font-size: 14px; }
+  .event-impact { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .badge { display: inline-block; padding: 2px 8px; font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 2px; font-weight: 600; }
+  .badge-high { background: #fce8e8; color: var(--red); }
+  .badge-med { background: #fef3dc; color: #8b5e00; }
+  .badge-low { background: #e8f4ec; color: var(--green); }
+  .verdict-section { background: var(--ink); color: var(--paper); padding: 48px; margin-top: 48px;
+    position: relative; overflow: hidden; }
+  .verdict-section::before { content: 'VERDICT'; position: absolute; right: -20px; top: 50%;
+    transform: translateY(-50%) rotate(90deg); font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(255,255,255,0.04); letter-spacing: 0.1em; pointer-events: none; }
+  .verdict-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 32px; }
+  .verdict-icon { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 1;
+    color: var(--crude); flex-shrink: 0; }
+  .verdict-title h2 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 0.06em;
+    color: var(--paper); line-height: 1; margin-bottom: 8px; }
+  .verdict-title .guru-sig { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px;
+    color: #888; letter-spacing: 0.05em; }
+  .verdict-body { display: grid; grid-template-columns: 1fr 240px; gap: 40px; align-items: start; }
+  .verdict-text p { font-size: 15.5px; line-height: 1.75; color: #ccc; margin-bottom: 16px; }
+  .verdict-text p strong { color: var(--paper); }
+  .verdict-meter { background: rgba(255,255,255,0.05); padding: 24px; border: 1px solid #333; border-radius: 2px; }
+  .meter-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #666; margin-bottom: 16px; }
+  .meter-item { margin-bottom: 14px; }
+  .meter-name { font-size: 12px; color: #aaa; margin-bottom: 5px; display: flex; justify-content: space-between; }
+  .meter-bar-bg { height: 5px; background: #222; border-radius: 2px; overflow: hidden; }
+  .meter-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+  .bullish { background: #5cb85c; } .bearish { background: #e05252; } .neutral-bar { background: #f0a500; }
+  .verdict-call { margin-top: 20px; padding: 16px; background: var(--crude); text-align: center; border-radius: 2px; }
+  .verdict-call .call-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+  .verdict-call .call-text { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em;
+    color: #fff; line-height: 1; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 24px 40px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
+  @media (max-width: 800px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; padding: 24px 20px; }
+    .masthead-title .pub-name { font-size: 48px; }
+    .prices-bar { flex-wrap: wrap; gap: 20px; }
+    main { padding: 24px 20px; }
+    .lead-story { grid-template-columns: 1fr; }
+    .news-grid { grid-template-columns: 1fr; }
+    .verdict-body { grid-template-columns: 1fr; }
+    .verdict-section { padding: 28px 20px; }
+    .verdict-section::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-ticker">
+    <span class="ticker-inner">&nbsp;&nbsp;&nbsp;&nbsp;BRENT CRUDE (FEB '27) $91.19/bbl ▲ +0.61% (+$0.55) &nbsp;|&nbsp; LOW SULPHUR GASOIL (ULS1!) $1,132.50/mt ▲ +0.44% (+$5.00) &nbsp;|&nbsp; NATURAL GAS (HENRY HUB): NO VERIFIED NOV 25–26 SETTLE RETRIEVED &nbsp;|&nbsp; HOUTHIS SAY THEY HIT SAUDI RAS TANURA REFINERY; JAN BRENT SETTLED $94.61 (+3.5%) WEDNESDAY &nbsp;|&nbsp; THREE MORE VESSELS STRUCK IN HORMUZ (UKMTO); ANZ PUTS TRANSITS AT 49% OF NORMAL &nbsp;|&nbsp; EIA (WEEK TO NOV 20): US CRUDE +1.1M BBL TO 418.9M, THIRD STRAIGHT BUILD; DISTILLATES +0.7M, 6% BELOW 5-YR AVG &nbsp;|&nbsp; OPEC+ MINISTERIAL SUNDAY NOV 29: IRAQ, KAZAKHSTAN PRESS FOR HIGHER CAPACITY ESTIMATES&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      Thursday, November 26, 2026<br>
+      Vol. I — No. 119<br>
+      Harare, Zimbabwe
+    </div>
+    <div class="masthead-title">
+      <div class="pub-name">OIL DESK</div>
+      <div class="pub-sub">The Daily Briefing for Global Energy Markets</div>
+    </div>
+    <div class="masthead-right">
+      Brent Crude (Feb '27)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$91.19/bbl</span><br>
+      Low Sulphur Gasoil (ULS1!)<br>
+      <span style="font-size:18px; color:var(--crude-light); font-family:'Bebas Neue',sans-serif; letter-spacing:0.1em;">$1,132.50/mt</span>
+    </div>
+  </div>
+
+  <div class="prices-bar">
+    <div class="price-item">
+      <div class="price-label">Brent Crude (Feb '27)</div>
+      <div class="price-val">$91.19/bbl</div>
+      <div class="price-change up">▲ +0.61% (+$0.55)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Low Sulphur Gasoil (ULS1!)</div>
+      <div class="price-val">$1,132.50/mt</div>
+      <div class="price-change up">▲ +0.44% (+$5.00)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">WTI Crude</div>
+      <div class="price-val">$83.68</div>
+      <div class="price-change up">▲ +2% Wednesday settle (CNBC); ~$83.90 early Thu (+0.3%)</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">Natural Gas</div>
+      <div class="price-val">n/a</div>
+      <div class="price-change " style="color:#888;">No verified Henry Hub settle retrieved today</div>
+    </div>
+    <div class="price-divider"></div>
+    <div class="price-item">
+      <div class="price-label">US Crude Stocks (EIA)</div>
+      <div class="price-val">418.9M bbl</div>
+      <div class="price-change up">▲ +1.1M bbl w/w (week to Nov 20)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-header"><h2>Top Story</h2></div>
+
+  <div class="lead-story">
+    <div>
+      <div class="lead-eyebrow">⚡ Thursday — Houthi Strike Claim on Saudi Ras Tanura Lifts Crude Back Toward $90s as Hormuz Attacks Mount Ahead of OPEC+</div>
+      <h3>Brent Firms 0.61% to $91.19/bbl and Gasoil Adds 0.44% to $1,132.50/mt as Houthi Attack Claim and Fresh Hormuz Strikes Collide with Surplus Fears Before Sunday's OPEC+ Ministerial</h3>
+      <p>Brent (Feb '27) is quoted at <strong>$91.19/bbl, ▲ +0.61% (+$0.55)</strong>, while Low Sulphur Gasoil (ULS1!) is at <strong>$1,132.50/mt, ▲ +0.44% (+$5.00)</strong>. Both benchmarks are higher, extending a two-day recovery. CNBC reported that on Wednesday the front Brent contract rose 3.5% to settle at <strong>$94.61</strong> and WTI climbed 2% to <strong>$83.68</strong>, after both gained more than 2% on Tuesday; Investing.com had Brent flat at $94.60 and WTI up 0.3% at $83.90 by 02:29 GMT Thursday, after a near 6% gain across two sessions. The gap to the Feb '27 quote reflects contract-month differences, so compare moves rather than levels.</p>
+      <p>The catalyst was security. Yemen's Iran-aligned Houthis said they attacked Saudi Arabia's <strong>Ras Tanura refinery</strong>, the kingdom's largest and part of a complex that doubles as a major crude export terminal, as well as Riyadh's financial district. Investing.com reported four drones were launched at the refinery and two Red Sea ports. PVM's Tamas Varga said the statement triggered the rally on a <strong>"rising geopolitical risk premium,"</strong> adding that traders were likely covering shorts ahead of the US Thanksgiving holiday. The UK Maritime Trade Operations agency reported three more vessels struck in the Strait of Hormuz, and Iran's Revolutionary Guards said they stopped a container ship on an "unauthorised" route. ANZ estimates Hormuz throughput at just <strong>49% of normal</strong>, with low inventories and virtually no spare capacity.</p>
+      <p>Offsetting that is a loose-looking balance. EIA data showed US crude stocks up 1.1 million barrels to 418.9 million in the week to November 20, the third straight build, with exports at their lowest since early August. NLI Research's Tsuyoshi Ueno said perceptions of a global supply glut have kept prices in check since the latest IEA report. The next hinge is the <strong>OPEC+ ministerial on Sunday, November 29</strong>, where Iraq and Kazakhstan are pressing for higher capacity estimates. For diesel, gasoil's firmer tone and US distillate stocks 6% below average argue that products remain the tighter leg.</p>
+      <a href="https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="lead-sidebar">
+      <div class="stat-block">
+        <div class="stat-num">$91.19</div>
+        <div class="stat-desc">Brent (Feb '27), ▲ +0.61% (+$0.55)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">$1,132.50/mt</div>
+        <div class="stat-desc">Low Sulphur Gasoil (ULS1!), ▲ +0.44% (+$5.00)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">49%</div>
+        <div class="stat-desc">Hormuz Throughput as Share of Normal (ANZ Estimate)</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">Nov 29</div>
+        <div class="stat-desc">OPEC+ Ministerial on 2027 Output Policy; Capacity Baselines Contested</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Today's Key Headlines</h2></div>
+
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="card-num">01</div>
+      <div class="card-tag">Market Reaction</div>
+      <h4>Brent Settles $94.61 (+3.5%) as Houthi Claim on Saudi Refinery Sparks Short Covering</h4>
+      <p>CNBC reported Brent futures rose 3.5% to settle at $94.61 a barrel on Wednesday, while US WTI climbed 2% to $83.68, both extending Tuesday gains of more than 2%. PVM analyst Tamas Varga said the Houthi statement on Ras Tanura triggered the rally, citing a rising geopolitical risk premium, and noted that traders were probably covering short positions before the Thanksgiving holiday. Investing.com said Brent was flat at $94.60 early Thursday after a near 6% rise over two sessions. The move shows how thin the market's conviction in the surplus story is: a single unverified claim moved crude several dollars. For crude and diesel, holiday-thinned liquidity can exaggerate both directions.</p>
+      <a href="https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">02</div>
+      <div class="card-tag">Hormuz / Gulf Security</div>
+      <h4>Three More Vessels Struck in Hormuz as Houthis Launch Drones at Saudi Refinery and Red Sea Ports</h4>
+      <p>Investing.com reported the UK Maritime Trade Operations agency logged three more vessels hit by projectiles in the Strait of Hormuz, while Iran's Fars news agency said a tanker struck a mine. Houthi militants launched four drones at the Ras Tanura refinery and two Red Sea ports in Saudi Arabia, Bahrain reported an Iranian attack on a civilian industrial facility, and Iran's Revolutionary Guards claimed a missile-and-drone assault on US military positions in the kingdom. Tehran threatened tighter control of the waterway until Washington lifts its naval blockade, eases sanctions and releases frozen assets. ANZ warned the attacks threaten to interrupt the recovery in flows. The broadening of targets to Red Sea export infrastructure matters for crude and diesel alike.</p>
+      <a href="https://in.investing.com/news/commodities-news/oil-steadies-as-hormuz-attacks-threaten-supply-recovery-inventory-build-weighs-5726858" class="read-link" target="_blank">Read Investing.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">03</div>
+      <div class="card-tag">EIA Inventories</div>
+      <h4>EIA: US Crude Stocks Build 1.1M Barrels to 418.9M, Third Straight Weekly Increase</h4>
+      <p>US commercial crude inventories rose 1.1 million barrels to 418.9 million barrels in the week ended November 20, below the 1.5 million barrel build a Reuters poll expected, and 3% below the five-year average according to oilprice.com. Mizuho's Bob Yawger attributed the build mainly to weaker crude exports and higher imports; Investing.com noted exports fell to their lowest since early August on higher freight costs and softer Asian demand. Gasoline stocks rose 1.7 million barrels after a 5.2 million barrel gain the prior week, while distillates rose 0.7 million barrels and sit 6% below the five-year average. The tight distillate cover is the supportive detail for diesel and gasoil even as crude accumulates.</p>
+      <a href="https://oilprice.com/Energy/Crude-Oil/Oil-Inventories-Continue-to-Rise-in-the-US.html" class="read-link" target="_blank">Read oilprice.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">04</div>
+      <div class="card-tag">OPEC+</div>
+      <h4>Iraq and Kazakhstan Press OPEC+ for Higher Capacity Estimates Ahead of Sunday's Ministerial</h4>
+      <p>OPEC+ ministers meet on November 29 to decide 2027 output policy. Four people familiar with the matter told Reuters, as cited by CNBC, that Iraq and Kazakhstan are pressing for higher capacity estimates, which will help determine how much each member can pump next year. Russian Deputy Prime Minister Alexander Novak said the group will complete its review of member production capacities by year-end. LSEG's Zhenqiang Seto said policy uncertainty is supporting prices, noting the UAE is no longer restricted by OPEC+ policies. Higher baselines for Iraq and Kazakhstan would loosen the quota framework just as surplus forecasts build, a bearish read for Brent; a delay would likely keep a floor under the market.</p>
+      <a href="https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">05</div>
+      <div class="card-tag">Supply Glut Narrative</div>
+      <h4>Glut Perceptions Cap Rallies: NLI's Ueno Says Surplus Views Have Kept Prices in Check Since IEA Report</h4>
+      <p>Even with Wednesday's jump, analysts say the surplus narrative is capping upside. NLI Research Institute's Tsuyoshi Ueno said perceptions of a global supply glut have kept prices in check since the recent IEA report, and Investing.com noted expectations of a global surplus limited gains. ANZ added that Persian Gulf exports rose last week but remain on a declining trend, with Hormuz transits edging higher, highlighting how fragile the recovery is. Another input is diplomacy: the US is seeking nuclear concessions from Iran, and Vice President JD Vance met Qatar's prime minister, but major differences remain. For traders, the setup is a tug of war between war-risk premium and loose fundamentals, with the balance deciding crude and diesel direction.</p>
+      <a href="https://in.investing.com/news/commodities-news/oil-steadies-as-hormuz-attacks-threaten-supply-recovery-inventory-build-weighs-5726858" class="read-link" target="_blank">Read Investing.com →</a>
+    </div>
+    <div class="news-card">
+      <div class="card-num">06</div>
+      <div class="card-tag">Libya Supply</div>
+      <h4>Libya's Sharara Pipeline Reopens After Valve Closure Halted Flows</h4>
+      <p>CNBC reported that Libya's Sharara oil pipeline has reopened after flows were halted when a valve was closed by a group the National Oil Corporation called unlawful. Oil is again flowing into storage tanks at the Akakus facility in Zawiya. Sharara is one of Libya's biggest fields, and interruptions there have repeatedly tightened Mediterranean light sweet supply, a grade that competes directly with Brent-linked cargoes and feeds European refiners producing diesel. The reopening removes a small but real bullish risk factor and adds a modest volume back to a market already worried about surplus, though Libyan outages are frequent and the reliability of flows remains a recurring variable for traders.</p>
+      <a href="https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html" class="read-link" target="_blank">Read CNBC →</a>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>This Week's Market-Moving Events &amp; Announcements</h2></div>
+
+  <table class="events-table">
+    <thead>
+      <tr><th>Date</th><th>Event</th><th>Expected Market Impact</th><th>Risk</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="event-date">Nov 26 — Today</td>
+        <td>
+          <div class="event-name">US Thanksgiving Holiday — Thin Liquidity After a ~6% Two-Day Rally</div>
+          <div class="event-impact">US markets are closed, so liquidity is thin after Brent's near 6% two-day gain. PVM's Varga flagged short covering ahead of the holiday as a driver. Without US participants, follow-through on Houthi or Hormuz headlines can be exaggerated, and any denial or confirmation of damage at Ras Tanura could reprice crude sharply in either direction.</div>
+        </td>
+        <td>Gap risk; wider intraday ranges on headlines.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Nov 26–30</td>
+        <td>
+          <div class="event-name">Verification of Ras Tanura Strike Claim and Hormuz Incidents</div>
+          <div class="event-impact">The Houthi claim moved the market, but the market has recently demanded confirmed loss of barrels. Saudi statements on damage and export loadings, plus further UKMTO reports of vessel hits, will decide whether premium sticks. Confirmed disruption to Ras Tanura exports would be a major supply shock given ANZ's view that spare capacity is virtually absent.</div>
+        </td>
+        <td>Upside tail of $5+/bbl on confirmed export loss.</td>
+        <td><span class="badge badge-high">Very High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Nov 29</td>
+        <td>
+          <div class="event-name">OPEC+ Ministerial — 2027 Output Policy</div>
+          <div class="event-impact">Ministers set 2027 policy while Iraq and Kazakhstan push for higher capacity estimates and the UAE is no longer bound by group policy. A messy loosening feeds surplus fears; a hold or delayed baseline decision supports prices. Novak says the capacity review completes by year-end, so a deferral is plausible. The market reaction arrives in Monday's session.</div>
+        </td>
+        <td>Sets 2027 sentiment; headline-driven reaction on Nov 30.</td>
+        <td><span class="badge badge-high">High</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Dec 2</td>
+        <td>
+          <div class="event-name">Next EIA Weekly Petroleum Status Report</div>
+          <div class="event-impact">After three straight crude builds, the next print tests whether weak exports are persistent. Another build would reinforce glut narratives, while a pickup in exports or a distillate draw would support crack spreads. Distillates are 6% below the five-year average, so products data matter most for gasoil direction heading into winter heating demand.</div>
+        </td>
+        <td>±$1.5–2.5/bbl; confirms or challenges the glut story.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+      <tr>
+        <td class="event-date">Dec</td>
+        <td>
+          <div class="event-name">US–Iran Diplomacy: Nuclear Concessions and Blockade Terms</div>
+          <div class="event-impact">Washington is seeking nuclear concessions while Iran demands the naval blockade be lifted, sanctions eased and frozen assets released. Vance's meeting with Qatar's prime minister shows mediation continues, but major differences remain. A breakthrough would be bearish for risk premium; collapse of talks would revive strike risk and lift crude and gasoil.</div>
+        </td>
+        <td>Two-way geopolitical swing factor.</td>
+        <td><span class="badge badge-med">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-section">
+    <div class="verdict-header">
+      <div class="verdict-icon">⚡</div>
+      <div class="verdict-title">
+        <h2>The Guru's Verdict — Thursday, November 26, 2026</h2>
+        <div class="guru-sig">Oil Trading Intelligence — Independent Market Opinion</div>
+      </div>
+    </div>
+
+    <div class="verdict-body">
+      <div class="verdict-text">
+        <p>Yesterday I argued that surplus sets the drift and Iran and OPEC+ set the jumps. Today delivered a jump: Brent (Feb '27) is at <strong>$91.19, up 0.61%</strong>, while the front contract settled at $94.61 after a 3.5% surge, and gasoil is at <strong>$1,132.50/mt, up 0.44%</strong>. The upside tail I flagged has started to show itself, driven by a Houthi claim on Ras Tanura and more vessels hit near Hormuz.</p>
+        <p><strong>My read on today:</strong> The rally is headline-led and thinly traded. PVM's Varga himself pointed to short covering before Thanksgiving, which is a positioning story, not a physical one. Nothing retrieved today confirms lost Saudi export volume. Until it does, I treat the move as a risk-premium rebuild that can fade quickly, particularly with US participants away from screens.</p>
+        <p><strong>The bigger picture:</strong> Fundamentals remain mixed. US crude stocks built for a third week to 418.9 million barrels and the surplus narrative is intact, yet distillates are 6% below average, Hormuz transits are around 49% of normal per ANZ, and spare capacity is slim. That combination makes diesel the tighter leg: gasoil rose alongside crude and has held above $1,100/mt, which keeps freight and heating costs elevated.</p>
+        <p>My call: <strong>Brent trades $87–$96 today</strong>, with a firm bias on geopolitics but a ceiling from surplus talk and a pending OPEC+ decision. <strong>Premium is back; barrels are not yet lost.</strong> Keep sizing modest into the thin holiday tape and the weekend OPEC+ meeting.</p>
+        <p style="color:#999; font-size:13px; font-style:italic;">Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.</p>
+      </div>
+
+      <div>
+        <div class="verdict-meter">
+          <div class="meter-label">Directional Pressure Gauge</div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Supply Tightness</span><span style="color:#f0a500">Mixed</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill neutral-bar" style="width:52%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Geopolitical Risk</span><span style="color:#e05252">Elevated</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:80%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Demand Response</span><span style="color:#5cb85c">Soft</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:40%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Inventory Trend</span><span style="color:#5cb85c">Building</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bullish" style="width:60%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Diesel Crack Strength</span><span style="color:#e05252">Firm</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:66%"></div></div>
+          </div>
+          <div class="meter-item">
+            <div class="meter-name"><span>Spare-Capacity Buffer</span><span style="color:#e05252">Thin</span></div>
+            <div class="meter-bar-bg"><div class="meter-bar-fill bearish" style="width:30%"></div></div>
+          </div>
+        </div>
+
+        <div class="verdict-call">
+          <div class="call-label">Today's Price Call — Brent Crude</div>
+          <div class="call-text">$87 – $96</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:rgba(255,255,255,0.7); margin-top:6px; text-transform:uppercase; letter-spacing:0.1em;">Bias: Firm on Geopolitics — Capped by Surplus ▲</div>
+        </div>
+
+        <div style="margin-top:16px; padding:16px; background:rgba(255,255,255,0.05); border:1px solid #333; border-radius:2px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#666; margin-bottom:10px;">Key Watch Levels</div>
+          <div style="font-size:12px; color:#aaa; line-height:2;">
+            <div>🔴 Resistance: <span style="color:#fff">$94–$96</span></div>
+            <div>🟢 Support: <span style="color:#fff">$87–$89</span></div>
+            <div>⚡ Breakout: <span style="color:#fff">>$96 (confirmed Saudi export loss)</span></div>
+            <div>📉 Breakdown: <span style="color:#fff"><$85 (headline fades / OPEC+ loosening)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span>Oil Desk Daily Briefing — Thursday, November 26, 2026</span>
+  <span>Sources: CNBC, Investing.com (Reuters), oilprice.com, EIA, IEA, OPEC, TradingView</span>
+  <span>For Informational Purposes Only</span>
+</footer>
+
+</body>
+</html>

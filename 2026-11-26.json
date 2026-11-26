@@ -1,0 +1,216 @@
+{
+  "date_long": "Thursday, November 26, 2026",
+  "date_slug": "nov26-2026",
+  "volume": "Vol. I — No. 119",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "CNBC, Investing.com (Reuters), oilprice.com, EIA, IEA, OPEC, TradingView",
+  "ticker": [
+    "BRENT CRUDE (FEB '27) $91.19/bbl ▲ +0.61% (+$0.55)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,132.50/mt ▲ +0.44% (+$5.00)",
+    "NATURAL GAS (HENRY HUB): NO VERIFIED NOV 25–26 SETTLE RETRIEVED",
+    "HOUTHIS SAY THEY HIT SAUDI RAS TANURA REFINERY; JAN BRENT SETTLED $94.61 (+3.5%) WEDNESDAY",
+    "THREE MORE VESSELS STRUCK IN HORMUZ (UKMTO); ANZ PUTS TRANSITS AT 49% OF NORMAL",
+    "EIA (WEEK TO NOV 20): US CRUDE +1.1M BBL TO 418.9M, THIRD STRAIGHT BUILD; DISTILLATES +0.7M, 6% BELOW 5-YR AVG",
+    "OPEC+ MINISTERIAL SUNDAY NOV 29: IRAQ, KAZAKHSTAN PRESS FOR HIGHER CAPACITY ESTIMATES"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Feb '27)",
+      "value": "$91.19/bbl",
+      "change": "▲ +0.61% (+$0.55)",
+      "direction": "up"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,132.50/mt",
+      "change": "▲ +0.44% (+$5.00)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$83.68",
+      "change": "▲ +2% Wednesday settle (CNBC); ~$83.90 early Thu (+0.3%)",
+      "direction": "up"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "n/a",
+      "change": "No verified Henry Hub settle retrieved today",
+      "direction": ""
+    },
+    {
+      "label": "US Crude Stocks (EIA)",
+      "value": "418.9M bbl",
+      "change": "▲ +1.1M bbl w/w (week to Nov 20)",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Thursday — Houthi Strike Claim on Saudi Ras Tanura Lifts Crude Back Toward $90s as Hormuz Attacks Mount Ahead of OPEC+",
+    "headline": "Brent Firms 0.61% to $91.19/bbl and Gasoil Adds 0.44% to $1,132.50/mt as Houthi Attack Claim and Fresh Hormuz Strikes Collide with Surplus Fears Before Sunday's OPEC+ Ministerial",
+    "paragraphs": [
+      "Brent (Feb '27) is quoted at <strong>$91.19/bbl, ▲ +0.61% (+$0.55)</strong>, while Low Sulphur Gasoil (ULS1!) is at <strong>$1,132.50/mt, ▲ +0.44% (+$5.00)</strong>. Both benchmarks are higher, extending a two-day recovery. CNBC reported that on Wednesday the front Brent contract rose 3.5% to settle at <strong>$94.61</strong> and WTI climbed 2% to <strong>$83.68</strong>, after both gained more than 2% on Tuesday; Investing.com had Brent flat at $94.60 and WTI up 0.3% at $83.90 by 02:29 GMT Thursday, after a near 6% gain across two sessions. The gap to the Feb '27 quote reflects contract-month differences, so compare moves rather than levels.",
+      "The catalyst was security. Yemen's Iran-aligned Houthis said they attacked Saudi Arabia's <strong>Ras Tanura refinery</strong>, the kingdom's largest and part of a complex that doubles as a major crude export terminal, as well as Riyadh's financial district. Investing.com reported four drones were launched at the refinery and two Red Sea ports. PVM's Tamas Varga said the statement triggered the rally on a <strong>\"rising geopolitical risk premium,\"</strong> adding that traders were likely covering shorts ahead of the US Thanksgiving holiday. The UK Maritime Trade Operations agency reported three more vessels struck in the Strait of Hormuz, and Iran's Revolutionary Guards said they stopped a container ship on an \"unauthorised\" route. ANZ estimates Hormuz throughput at just <strong>49% of normal</strong>, with low inventories and virtually no spare capacity.",
+      "Offsetting that is a loose-looking balance. EIA data showed US crude stocks up 1.1 million barrels to 418.9 million in the week to November 20, the third straight build, with exports at their lowest since early August. NLI Research's Tsuyoshi Ueno said perceptions of a global supply glut have kept prices in check since the latest IEA report. The next hinge is the <strong>OPEC+ ministerial on Sunday, November 29</strong>, where Iraq and Kazakhstan are pressing for higher capacity estimates. For diesel, gasoil's firmer tone and US distillate stocks 6% below average argue that products remain the tighter leg."
+    ],
+    "link_url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+    "link_text": "Read CNBC",
+    "stats": [
+      {
+        "num": "$91.19",
+        "desc": "Brent (Feb '27), ▲ +0.61% (+$0.55)"
+      },
+      {
+        "num": "$1,132.50/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▲ +0.44% (+$5.00)"
+      },
+      {
+        "num": "49%",
+        "desc": "Hormuz Throughput as Share of Normal (ANZ Estimate)"
+      },
+      {
+        "num": "Nov 29",
+        "desc": "OPEC+ Ministerial on 2027 Output Policy; Capacity Baselines Contested"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Settles $94.61 (+3.5%) as Houthi Claim on Saudi Refinery Sparks Short Covering",
+      "body": "CNBC reported Brent futures rose 3.5% to settle at $94.61 a barrel on Wednesday, while US WTI climbed 2% to $83.68, both extending Tuesday gains of more than 2%. PVM analyst Tamas Varga said the Houthi statement on Ras Tanura triggered the rally, citing a rising geopolitical risk premium, and noted that traders were probably covering short positions before the Thanksgiving holiday. Investing.com said Brent was flat at $94.60 early Thursday after a near 6% rise over two sessions. The move shows how thin the market's conviction in the surplus story is: a single unverified claim moved crude several dollars. For crude and diesel, holiday-thinned liquidity can exaggerate both directions.",
+      "link_url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Hormuz / Gulf Security",
+      "headline": "Three More Vessels Struck in Hormuz as Houthis Launch Drones at Saudi Refinery and Red Sea Ports",
+      "body": "Investing.com reported the UK Maritime Trade Operations agency logged three more vessels hit by projectiles in the Strait of Hormuz, while Iran's Fars news agency said a tanker struck a mine. Houthi militants launched four drones at the Ras Tanura refinery and two Red Sea ports in Saudi Arabia, Bahrain reported an Iranian attack on a civilian industrial facility, and Iran's Revolutionary Guards claimed a missile-and-drone assault on US military positions in the kingdom. Tehran threatened tighter control of the waterway until Washington lifts its naval blockade, eases sanctions and releases frozen assets. ANZ warned the attacks threaten to interrupt the recovery in flows. The broadening of targets to Red Sea export infrastructure matters for crude and diesel alike.",
+      "link_url": "https://in.investing.com/news/commodities-news/oil-steadies-as-hormuz-attacks-threaten-supply-recovery-inventory-build-weighs-5726858",
+      "link_text": "Read Investing.com"
+    },
+    {
+      "tag": "EIA Inventories",
+      "headline": "EIA: US Crude Stocks Build 1.1M Barrels to 418.9M, Third Straight Weekly Increase",
+      "body": "US commercial crude inventories rose 1.1 million barrels to 418.9 million barrels in the week ended November 20, below the 1.5 million barrel build a Reuters poll expected, and 3% below the five-year average according to oilprice.com. Mizuho's Bob Yawger attributed the build mainly to weaker crude exports and higher imports; Investing.com noted exports fell to their lowest since early August on higher freight costs and softer Asian demand. Gasoline stocks rose 1.7 million barrels after a 5.2 million barrel gain the prior week, while distillates rose 0.7 million barrels and sit 6% below the five-year average. The tight distillate cover is the supportive detail for diesel and gasoil even as crude accumulates.",
+      "link_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Inventories-Continue-to-Rise-in-the-US.html",
+      "link_text": "Read oilprice.com"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "Iraq and Kazakhstan Press OPEC+ for Higher Capacity Estimates Ahead of Sunday's Ministerial",
+      "body": "OPEC+ ministers meet on November 29 to decide 2027 output policy. Four people familiar with the matter told Reuters, as cited by CNBC, that Iraq and Kazakhstan are pressing for higher capacity estimates, which will help determine how much each member can pump next year. Russian Deputy Prime Minister Alexander Novak said the group will complete its review of member production capacities by year-end. LSEG's Zhenqiang Seto said policy uncertainty is supporting prices, noting the UAE is no longer restricted by OPEC+ policies. Higher baselines for Iraq and Kazakhstan would loosen the quota framework just as surplus forecasts build, a bearish read for Brent; a delay would likely keep a floor under the market.",
+      "link_url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+      "link_text": "Read CNBC"
+    },
+    {
+      "tag": "Supply Glut Narrative",
+      "headline": "Glut Perceptions Cap Rallies: NLI's Ueno Says Surplus Views Have Kept Prices in Check Since IEA Report",
+      "body": "Even with Wednesday's jump, analysts say the surplus narrative is capping upside. NLI Research Institute's Tsuyoshi Ueno said perceptions of a global supply glut have kept prices in check since the recent IEA report, and Investing.com noted expectations of a global surplus limited gains. ANZ added that Persian Gulf exports rose last week but remain on a declining trend, with Hormuz transits edging higher, highlighting how fragile the recovery is. Another input is diplomacy: the US is seeking nuclear concessions from Iran, and Vice President JD Vance met Qatar's prime minister, but major differences remain. For traders, the setup is a tug of war between war-risk premium and loose fundamentals, with the balance deciding crude and diesel direction.",
+      "link_url": "https://in.investing.com/news/commodities-news/oil-steadies-as-hormuz-attacks-threaten-supply-recovery-inventory-build-weighs-5726858",
+      "link_text": "Read Investing.com"
+    },
+    {
+      "tag": "Libya Supply",
+      "headline": "Libya's Sharara Pipeline Reopens After Valve Closure Halted Flows",
+      "body": "CNBC reported that Libya's Sharara oil pipeline has reopened after flows were halted when a valve was closed by a group the National Oil Corporation called unlawful. Oil is again flowing into storage tanks at the Akakus facility in Zawiya. Sharara is one of Libya's biggest fields, and interruptions there have repeatedly tightened Mediterranean light sweet supply, a grade that competes directly with Brent-linked cargoes and feeds European refiners producing diesel. The reopening removes a small but real bullish risk factor and adds a modest volume back to a market already worried about surplus, though Libyan outages are frequent and the reliability of flows remains a recurring variable for traders.",
+      "link_url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+      "link_text": "Read CNBC"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 26 — Today",
+      "name": "US Thanksgiving Holiday — Thin Liquidity After a ~6% Two-Day Rally",
+      "impact": "US markets are closed, so liquidity is thin after Brent's near 6% two-day gain. PVM's Varga flagged short covering ahead of the holiday as a driver. Without US participants, follow-through on Houthi or Hormuz headlines can be exaggerated, and any denial or confirmation of damage at Ras Tanura could reprice crude sharply in either direction.",
+      "market_impact": "Gap risk; wider intraday ranges on headlines.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 26–30",
+      "name": "Verification of Ras Tanura Strike Claim and Hormuz Incidents",
+      "impact": "The Houthi claim moved the market, but the market has recently demanded confirmed loss of barrels. Saudi statements on damage and export loadings, plus further UKMTO reports of vessel hits, will decide whether premium sticks. Confirmed disruption to Ras Tanura exports would be a major supply shock given ANZ's view that spare capacity is virtually absent.",
+      "market_impact": "Upside tail of $5+/bbl on confirmed export loss.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial — 2027 Output Policy",
+      "impact": "Ministers set 2027 policy while Iraq and Kazakhstan push for higher capacity estimates and the UAE is no longer bound by group policy. A messy loosening feeds surplus fears; a hold or delayed baseline decision supports prices. Novak says the capacity review completes by year-end, so a deferral is plausible. The market reaction arrives in Monday's session.",
+      "market_impact": "Sets 2027 sentiment; headline-driven reaction on Nov 30.",
+      "risk": "High"
+    },
+    {
+      "date": "Dec 2",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "After three straight crude builds, the next print tests whether weak exports are persistent. Another build would reinforce glut narratives, while a pickup in exports or a distillate draw would support crack spreads. Distillates are 6% below the five-year average, so products data matter most for gasoil direction heading into winter heating demand.",
+      "market_impact": "±$1.5–2.5/bbl; confirms or challenges the glut story.",
+      "risk": "Medium"
+    },
+    {
+      "date": "Dec",
+      "name": "US–Iran Diplomacy: Nuclear Concessions and Blockade Terms",
+      "impact": "Washington is seeking nuclear concessions while Iran demands the naval blockade be lifted, sanctions eased and frozen assets released. Vance's meeting with Qatar's prime minister shows mediation continues, but major differences remain. A breakthrough would be bearish for risk premium; collapse of talks would revive strike risk and lift crude and gasoil.",
+      "market_impact": "Two-way geopolitical swing factor.",
+      "risk": "Medium"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday I argued that surplus sets the drift and Iran and OPEC+ set the jumps. Today delivered a jump: Brent (Feb '27) is at <strong>$91.19, up 0.61%</strong>, while the front contract settled at $94.61 after a 3.5% surge, and gasoil is at <strong>$1,132.50/mt, up 0.44%</strong>. The upside tail I flagged has started to show itself, driven by a Houthi claim on Ras Tanura and more vessels hit near Hormuz.",
+      "<strong>My read on today:</strong> The rally is headline-led and thinly traded. PVM's Varga himself pointed to short covering before Thanksgiving, which is a positioning story, not a physical one. Nothing retrieved today confirms lost Saudi export volume. Until it does, I treat the move as a risk-premium rebuild that can fade quickly, particularly with US participants away from screens.",
+      "<strong>The bigger picture:</strong> Fundamentals remain mixed. US crude stocks built for a third week to 418.9 million barrels and the surplus narrative is intact, yet distillates are 6% below average, Hormuz transits are around 49% of normal per ANZ, and spare capacity is slim. That combination makes diesel the tighter leg: gasoil rose alongside crude and has held above $1,100/mt, which keeps freight and heating costs elevated.",
+      "My call: <strong>Brent trades $87–$96 today</strong>, with a firm bias on geopolitics but a ceiling from surplus talk and a pending OPEC+ decision. <strong>Premium is back; barrels are not yet lost.</strong> Keep sizing modest into the thin holiday tape and the weekend OPEC+ meeting."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Mixed",
+        "tone": "neutral",
+        "pct": 52
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 80
+      },
+      {
+        "name": "Demand Response",
+        "label": "Soft",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Inventory Trend",
+        "label": "Building",
+        "tone": "bullish",
+        "pct": 60
+      },
+      {
+        "name": "Diesel Crack Strength",
+        "label": "Firm",
+        "tone": "bearish",
+        "pct": 66
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 30
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$87 – $96",
+      "bias": "Bias: Firm on Geopolitics — Capped by Surplus ▲"
+    },
+    "watch_levels": {
+      "resistance": "$94–$96",
+      "support": "$87–$89",
+      "breakout": ">$96 (confirmed Saudi export loss)",
+      "breakdown": "<$85 (headline fades / OPEC+ loosening)"
+    }
+  }
+}
