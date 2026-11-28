@@ -1,0 +1,216 @@
+{
+  "date_long": "Saturday, November 28, 2026",
+  "date_slug": "nov28-2026",
+  "volume": "Vol. I — No. 121",
+  "dateline": "Harare, Zimbabwe",
+  "sources": "IBTimes (Reuters), QNC News, Investing.com, World Oil, OPEC, EIA, TradingView",
+  "ticker": [
+    "BRENT CRUDE (FEB '27) $90.84/bbl ▼ −0.91% (−$0.83)",
+    "LOW SULPHUR GASOIL (ULS1!) $1,148.00/mt ▲ +0.42% (+$4.75)",
+    "NATURAL GAS (HENRY HUB): NO VERIFIED NOV 27 SETTLE RETRIEVED",
+    "FRONT BRENT SETTLED $95.44 FRIDAY, −1.2% ON DAY BUT +3% ON WEEK — FIRST WEEKLY GAIN OF NOVEMBER",
+    "WTI SETTLES $83.08; BRENT HIT NEAR $98 INTRADAY BEFORE GIVING BACK GAINS",
+    "IRGC CLAIMS TWO MORE TANKERS STRUCK EARLY SATURDAY — UNVERIFIED",
+    "OPEC+ MEETS SUNDAY NOV 29 ON 2027 FRAMEWORK; QUOTAS EXPECTED UNCHANGED"
+  ],
+  "prices": [
+    {
+      "label": "Brent Crude (Feb '27)",
+      "value": "$90.84/bbl",
+      "change": "▼ −0.91% (−$0.83)",
+      "direction": "down"
+    },
+    {
+      "label": "Low Sulphur Gasoil (ULS1!)",
+      "value": "$1,148.00/mt",
+      "change": "▲ +0.42% (+$4.75)",
+      "direction": "up"
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$83.08",
+      "change": "▼ −0.7% (−$0.60) vs Wednesday settle; −0.9% on week",
+      "direction": "down"
+    },
+    {
+      "label": "Natural Gas",
+      "value": "n/a",
+      "change": "No verified Henry Hub settle retrieved today",
+      "direction": ""
+    },
+    {
+      "label": "US Crude Stocks (EIA)",
+      "value": "418.9M bbl",
+      "change": "▲ +1.1M bbl w/w (week to Nov 20) — latest print",
+      "direction": "up"
+    }
+  ],
+  "lead": {
+    "eyebrow": "⚡ Weekend Watch — Oil Ends Its Losing Streak but Gives Back Gains as Tanker Mine Claims Mount Ahead of Sunday's OPEC+ Meeting",
+    "headline": "Brent Slips to $90.84/bbl on the Feb '27 Contract as Front-Month Settles $95.44 for a First Weekly Gain of November — Iran Claims More Tanker Strikes Before OPEC+ Meets",
+    "paragraphs": [
+      "Markets are closed for the weekend, so Friday's close frames the tape. The Brent Feb '27 contract is quoted at <strong>$90.84/bbl, ▼ −0.91% (−$0.83)</strong>, while Low Sulphur Gasoil (ULS1!) is at <strong>$1,148.00/mt, ▲ +0.42% (+$4.75)</strong>. Reuters-sourced figures carried by IBTimes show the front-month Brent contract settled at <strong>$95.44</strong>, down $1.13 or 1.2% on the day, after touching near $98 intraday — its highest since November 9 — and failing to hold above $96. WTI settled at <strong>$83.08</strong>, down 60 cents (0.7%), measured against Wednesday's $83.68 because US markets were shut for Thanksgiving. Even with the Friday pullback, Brent rose about 3% on the week, ending a three-week losing streak, while WTI lost 0.9%. The gap between the Feb '27 quote and the front-month settle reflects contract months, so compare moves rather than levels.",
+      "The weekly rebound was built on supply scares. Attacks on tankers in the Strait of Hormuz and on Saudi energy facilities revived risk premium: Brent jumped 3.5% on Wednesday to $94.61 after the Ras Tanura incident, then settled at $96.57 Thursday, its highest close since November 6, after a projectile hit Aramco's Jazan refinery. Iran's Revolutionary Guard said on Friday that a tanker exploded after hitting a mine in the strait, and early Saturday claimed two more tankers were struck; <strong>neither claim has been independently verified</strong>. Fires at refineries in Thailand and Venezuela on Thursday added to product-side stress. The Friday giveback showed that traders were reluctant to carry large long positions into a weekend with binary headline risk and a major policy meeting looming.",
+      "The next hinge is OPEC+, which meets Sunday, November 29, to discuss its 2027 output framework. Delegates are expected to keep quotas unchanged, with three people familiar telling Reuters the first-quarter 2027 targets will be rolled over, as Gulf producers face direct threats to facilities and shipping lanes. An analyst view cited by Investing.com is that a 2027 supply glut still looms despite the war risk, and the IEA has warned of a possible surplus. TradingNews cited in IBTimes noted that the market <strong>\"prices risk, but supply has stayed largely intact\"</strong>. The technical map is clear: a close below $92.69, the Nov. 20 settle, would erase the weekly gain, while $96.57 is the upside marker. For diesel, gasoil's rise on the day while crude slipped underlines product tightness."
+    ],
+    "link_url": "https://www.ibtimes.com.au/oil-prices-brent-weekly-gain-middle-east-attacks-opec-1879508",
+    "link_text": "Read IBTimes (Reuters)",
+    "stats": [
+      {
+        "num": "$90.84/bbl",
+        "desc": "Brent (Feb '27), ▼ −0.91% (−$0.83)"
+      },
+      {
+        "num": "$1,148.00/mt",
+        "desc": "Low Sulphur Gasoil (ULS1!), ▲ +0.42% (+$4.75)"
+      },
+      {
+        "num": "$95.44",
+        "desc": "Front-Month Brent Settle Friday; +3% on the Week"
+      },
+      {
+        "num": "Nov 29",
+        "desc": "OPEC+ Meeting on 2027 Framework; Rollover Expected"
+      }
+    ]
+  },
+  "news": [
+    {
+      "tag": "Market Reaction",
+      "headline": "Brent Settles at $95.44, Down 1.2%, but Books First Weekly Gain of November",
+      "body": "Brent settled at $95.44 a barrel on Friday, down $1.13 or 1.2%, but still rose about 3% on the week, its first weekly gain in November after three straight weekly declines, according to Reuters figures carried by IBTimes. WTI settled at $83.08, down 60 cents (0.7%) from Wednesday's $83.68, and lost 0.9% for the week. Brent touched near $98, its highest since Nov. 9, but stayed below $100 and surrendered gains in the afternoon. The earlier slump was steep: WTI fell 12.76% in the week to Nov. 6 on Iran peace hopes. For crude and diesel, Friday's fade shows buyers are paying for risk selectively rather than chasing a confirmed supply loss.",
+      "link_url": "https://www.ibtimes.com.au/oil-prices-brent-weekly-gain-middle-east-attacks-opec-1879508",
+      "link_text": "Read IBTimes"
+    },
+    {
+      "tag": "Saudi Energy Infrastructure",
+      "headline": "Attacks on Saudi Facilities and Tankers Revive Supply Fears Through the Week",
+      "body": "Reports on November 27 said attacks on tankers and Saudi facilities lifted crude to its first weekly gain of the month. A projectile struck Aramco's Jazan refinery on Thursday, killing a worker and temporarily halting some operations, following Houthi claims of attacks on Ras Tanura. Brent rose 3.5% on Wednesday after the Ras Tanura incident and settled at $94.61. Details of damage at Ras Tanura remain thin in the coverage retrieved, and Aramco has not been shown to confirm the Houthi claim. The significance is that processing and export assets, not just ships, are being targeted; any confirmed loss of refined product exports would hit diesel hardest, since Gulf refineries are a key source of distillate for Europe and Asia.",
+      "link_url": "https://political.org/2026/11/27/oil-posts-first-weekly-gain-of-november-as-attacks-on-tankers-and-saudi-facilities-revive-supply-fears/",
+      "link_text": "Read Political.org"
+    },
+    {
+      "tag": "Hormuz Shipping",
+      "headline": "IRGC Claims Two More Tankers Struck Early Saturday After Mine Explosion Friday",
+      "body": "Iran's Revolutionary Guard said on Friday that an oil tanker exploded after hitting a mine in the Strait of Hormuz, and claimed early Saturday that two more tankers were struck. IBTimes noted that neither claim has been independently verified. If confirmed, the incidents would extend a pattern of mine and attack risk that has disrupted a recovery in Gulf crude flows after the war that began in late February. The impact on prices comes through insurance, owner willingness and delivered supply rather than lost production. Monday's open will be the first test of whether markets treat the weekend claims as noise or as a new escalation that pushes Brent toward $98 and the $100 psychological level again.",
+      "link_url": "https://www.ibtimes.com.au/oil-prices-brent-weekly-gain-middle-east-attacks-opec-1879508",
+      "link_text": "Read IBTimes"
+    },
+    {
+      "tag": "OPEC+",
+      "headline": "OPEC+ Meets Sunday on 2027 Framework; Rollover of First-Quarter Targets Expected",
+      "body": "OPEC+ ministers meet Sunday, November 29, to set 2027 policy, with three people familiar with the talks telling Reuters the first-quarter 2027 output targets are likely to stay unchanged, per QNC News. On November 1 the seven core members held December quotas flat and said they would keep meeting monthly, according to World Oil. Output increases have been largely theoretical because Gulf production and exports remain constrained by the Iran war. A rollover is widely priced, so the market focus is on the capacity review and how any increases are distributed in 2027. A surprise increase would pressure Brent at Monday's open, while a deferral of decisions would preserve policy uncertainty and support prices.",
+      "link_url": "https://qncnews.com/2026/11/28/brent-settles-lower-at-95-44-dollars-but-posts-first-weekly-gain-of-november-ahead-of-opec-plus-meeting/",
+      "link_text": "Read QNC News"
+    },
+    {
+      "tag": "EIA Inventories",
+      "headline": "EIA: US Crude Stocks Rose 1.1M Barrels to 418.9M in Week to Nov 20",
+      "body": "US commercial crude inventories rose 1.1 million barrels to 418.9 million barrels in the week ended November 20, the latest weekly print from the EIA as reported earlier this week; analysts had expected a 1.5 million barrel build. It was the third straight weekly increase, which keeps the surplus narrative alive and limits how far a geopolitical premium can run. The next Weekly Petroleum Status Report is due December 2 and will show whether exports stay weak after Thanksgiving. Distillate cover, reported about 6% below the five-year average earlier this week, remains the number that matters most for diesel, where any draw would reinforce gasoil strength seen in today's quote.",
+      "link_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "link_text": "Read EIA"
+    },
+    {
+      "tag": "Outlook / Glut Risk",
+      "headline": "Analysts Warn of a 2027 Supply Glut Even as Middle East War Risks Rise",
+      "body": "An Investing.com analysis argues oil prices face a 2027 supply glut despite rising Middle East war risks, a theme echoed by IBTimes' reference to an International Energy Agency warning of a possible surplus. This is the bearish counterweight to the week's rally: if Gulf flows normalise and OPEC+ holds quotas rather than cuts, the physical balance looks heavy, which helped drive three straight weekly declines earlier in November as Iran peace hopes surfaced. Prices near $95 therefore embed a substantial risk premium rather than a tight balance. For diesel the story differs, as refinery outages and Gulf product risk keep gasoil firmer, so crude and diesel cracks may keep diverging into winter.",
+      "link_url": "https://www.investing.com/analysis/oil-prices-face-a-2027-supply-glut-despite-rising-middle-east-war-risks-200692469",
+      "link_text": "Read Investing.com"
+    }
+  ],
+  "events": [
+    {
+      "date": "Nov 28–29 — Weekend",
+      "name": "Verification of IRGC Tanker Strike Claims",
+      "impact": "The Revolutionary Guard's claims of two further tankers struck early Saturday, on top of Friday's mine explosion, are unverified. Confirmation from shipping agencies or flag states, with casualties or cargo loss, would likely produce a gap higher at Monday's open; denial or evidence that vessels are intact would let the premium bleed. Insurance premium announcements are the tell.",
+      "market_impact": "Gap risk of $2–4/bbl at Monday open.",
+      "risk": "Very High"
+    },
+    {
+      "date": "Nov 29",
+      "name": "OPEC+ Ministerial — 2027 Output Framework",
+      "impact": "Sources expect Q1 2027 targets to be rolled over, with the group still adjusting to Gulf disruption. A clean hold is largely priced. The risks are an unexpected increase, generous capacity baselines for members such as Iraq, or a deferral that leaves policy uncertain. Market reaction arrives in the Nov 30 session, when liquidity returns fully.",
+      "market_impact": "Sets 2027 sentiment; reaction Nov 30.",
+      "risk": "High"
+    },
+    {
+      "date": "Nov 30",
+      "name": "Monday Open — First Reaction to Weekend Headlines",
+      "impact": "Traders must digest OPEC+ outcomes and any tanker confirmations in one session. Friday's failure to hold above $96 shows resistance near the $96.57 Thursday settle, while a close below $92.69 would erase the weekly gain. Expect wide ranges and positioning adjustments after a thin holiday week.",
+      "market_impact": "Wider intraday ranges; ±$3–5/bbl.",
+      "risk": "High"
+    },
+    {
+      "date": "Dec 2",
+      "name": "Next EIA Weekly Petroleum Status Report",
+      "impact": "After three consecutive crude builds, a fourth would reinforce the glut story and cap geopolitical rallies. A distillate draw would support gasoil as winter heating demand builds. Analysts will also watch export volumes after the holiday and refinery runs, as product tightness is where the physical market is firmest.",
+      "market_impact": "±$1.5–2.5/bbl; tests surplus view.",
+      "risk": "Medium"
+    },
+    {
+      "date": "December",
+      "name": "Saudi Damage Assessments and Gulf Export Recovery",
+      "impact": "Clarity on the Jazan refinery outage and any Ras Tanura impact will determine whether the risk premium is justified. Normal Saudi loadings would argue for fading the rally toward the $88–90 area; confirmed export loss would make $100 a live target. Morgan Stanley-type export estimates are the data to monitor.",
+      "market_impact": "Upside tail on confirmed loss of exports.",
+      "risk": "High"
+    }
+  ],
+  "verdict": {
+    "paragraphs": [
+      "Yesterday's call was that premium was rebuilding and a confirmed export loss would be the trigger for $100. Friday delivered the first half and withheld the second: front-month Brent touched near $98, then settled at $95.44, down 1.2%, while the Feb '27 contract is quoted at <strong>$90.84/bbl, ▼ −0.91% (−$0.83)</strong>. Gasoil, at <strong>$1,148.00/mt, ▲ +0.42% (+$4.75)</strong>, held firm. The week still closed higher, ending a three-week losing streak, but the afternoon fade tells you buyers were not willing to pay up into the weekend.",
+      "<strong>My read on today:</strong> Markets are shut, so this is positioning, not price discovery. The IRGC's claims of two more tankers struck early Saturday are unverified, and I treat unverified claims as volatility, not signal, until shipping sources confirm them. IBTimes quoted TradingNews that the market prices risk while supply has stayed largely intact; that is the right frame. The risk is high, but the lost barrels remain limited so far.",
+      "<strong>The bigger picture:</strong> Two forces are pulling in opposite directions. Geopolitics, from Jazan to Hormuz mines, supports the front end and especially diesel. Against that, US crude stocks have risen three weeks running to 418.9 million barrels, analysts flag a 2027 glut, and OPEC+ is expected simply to roll over quotas on Sunday. Gasoil's strength relative to crude is the clearest signal that product supply, not crude supply, is where the stress sits.",
+      "My call: <strong>Brent trades $88–$98 into Monday's open</strong>, biased firm on weekend headline risk but capped by surplus expectations and the failure at $96–$98. <strong>Watch OPEC+ on Sunday and shipping confirmations; a verified export loss is the path to $100.</strong> Keep position sizes modest into a gap-prone open."
+    ],
+    "disclaimer": "Disclaimer: This represents independent market opinion and does not constitute investment advice. Oil markets carry substantial risk. Always consult a qualified financial advisor before trading.",
+    "meters": [
+      {
+        "name": "Supply Tightness",
+        "label": "Tightening",
+        "tone": "bearish",
+        "pct": 56
+      },
+      {
+        "name": "Geopolitical Risk",
+        "label": "Elevated",
+        "tone": "bearish",
+        "pct": 85
+      },
+      {
+        "name": "Demand Response",
+        "label": "Soft",
+        "tone": "bullish",
+        "pct": 40
+      },
+      {
+        "name": "Inventory Trend",
+        "label": "Building",
+        "tone": "bullish",
+        "pct": 58
+      },
+      {
+        "name": "Diesel Crack Strength",
+        "label": "Firm",
+        "tone": "bearish",
+        "pct": 68
+      },
+      {
+        "name": "Spare-Capacity Buffer",
+        "label": "Thin",
+        "tone": "bearish",
+        "pct": 30
+      }
+    ],
+    "call": {
+      "label": "Today's Price Call — Brent Crude",
+      "value": "$88 – $98",
+      "bias": "Bias: Firm on Weekend Headlines — Capped by Surplus ▲"
+    },
+    "watch_levels": {
+      "resistance": "$96–$98",
+      "support": "$88–$92",
+      "breakout": ">$100 (confirmed export loss)",
+      "breakdown": "<$88 (de-escalation / OPEC+ loosening)"
+    }
+  }
+}
